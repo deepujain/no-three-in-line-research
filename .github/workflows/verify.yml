@@ -1,0 +1,18 @@
+name: Verify mathematics and software
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 src/verify.py data/published-n78.json
+      - run: python3 src/verify.py data/published-n78.json --brute-force
+      - run: python3 research/review_one_hole.py
+      - run: python3 research/blocker_audit.py
+      - run: python3 src/build_site.py

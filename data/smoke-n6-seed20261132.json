@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "elapsed_seconds": 0.0009429579949937761,
+    "independent_validation": [
+      "integer_normalized_slopes",
+      "integer_cross_products"
+    ],
+    "iterations": 11,
+    "method": "seeded_single_core_min_conflicts_with_greedy_pruning",
+    "normalized_sha256": "a41af7315b65217911a9af89f9ccb37908a99b9b0158223415201580a30e5558",
+    "novelty_claim": false,
+    "reproducibility": "seeded stochastic choices; wall-clock stopping can change iteration count and result",
+    "restarts": 0,
+    "seconds_budget": 0.3,
+    "seed": 20261132,
+    "stopping_reason": "target_reached",
+    "target_point_count": 12
+  },
+  "n": 6,
+  "points": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ]
+  ]
+}

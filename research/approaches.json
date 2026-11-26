@@ -1,0 +1,92 @@
+[
+  {
+    "id": "A01",
+    "name": "Add points to baseline",
+    "role": "Research Software Engineer",
+    "status": "ruled out for this seed",
+    "scope": "Pure additions to all four translations in n=79",
+    "finding": "No empty cell can be added without a triple",
+    "evidence": "research/check_seed_extensions.py"
+  },
+  {
+    "id": "A02",
+    "name": "Remove one, add three",
+    "role": "Mathematical Reviewer",
+    "status": "checked",
+    "scope": "One-hole boundary extensions from the n=78 witness",
+    "finding": "624 candidates checked; none yields 158",
+    "evidence": "data/one-hole-audit.json"
+  },
+  {
+    "id": "A03",
+    "name": "Two-point boundary repair",
+    "role": "Mathematician",
+    "status": "active audit",
+    "scope": "Two-hole extensions and row/column constraints",
+    "finding": "Exact blocker-guided repair with up to three deletions dispatched",
+    "evidence": "research/blocker_audit.py"
+  },
+  {
+    "id": "A04",
+    "name": "Delete and rebuild",
+    "role": "Research Software Engineer",
+    "status": "partially pruned",
+    "scope": "Preserve incumbent, delete a few points, rebuild",
+    "finding": "No improvement in four repair trials; blocker audit excludes zero/one deletion, but not two/three",
+    "evidence": "data/blocker-audit.json"
+  },
+  {
+    "id": "A05",
+    "name": "Row and column swaps",
+    "role": "Research Software Engineer",
+    "status": "queued",
+    "scope": "Search pairs of permutations with exact slope constraints",
+    "finding": null,
+    "evidence": null
+  },
+  {
+    "id": "A06",
+    "name": "Modular parabolas",
+    "role": "Mathematician",
+    "status": "baseline only",
+    "scope": "Finite-field curves and possible extensions",
+    "finding": "Classical starting point; a naive shifted union fails",
+    "evidence": "research/mathematics.md"
+  },
+  {
+    "id": "A07",
+    "name": "Conics and lifts",
+    "role": "Mathematician",
+    "status": "baseline only",
+    "scope": "Conic constructions and integer-grid embeddings",
+    "finding": "Classical baseline; improvement needs a new construction",
+    "evidence": "src/constructions.py"
+  },
+  {
+    "id": "A08",
+    "name": "Constraint solving",
+    "role": "Research Software Engineer",
+    "status": "queued",
+    "scope": "SAT/ILP constraints; record dependency and resource costs",
+    "finding": null,
+    "evidence": null
+  },
+  {
+    "id": "A09",
+    "name": "Symmetry restrictions",
+    "role": "Mathematician",
+    "status": "partially pruned",
+    "scope": "Test compatible symmetries before restricting search",
+    "finding": "Quarter-turn symmetry cannot attain 158 at n=79",
+    "evidence": "research/mathematics.md"
+  },
+  {
+    "id": "A10",
+    "name": "Nearby grid sizes",
+    "role": "Literature Researcher",
+    "status": "baseline checked",
+    "scope": "Published witnesses and n=75,77,79,80 targets",
+    "finding": "n=78 gives a verified 156-point baseline at n=79",
+    "evidence": "research/literature.md"
+  }
+]

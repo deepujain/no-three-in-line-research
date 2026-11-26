@@ -1,0 +1,564 @@
+{
+  "audit": "exact_individual_new_point_blocking_pairs",
+  "budget_cannot_insert_any_genuinely_new_point_in_any_translation": false,
+  "delete_budget_compared": 3,
+  "deletion_budgets_proved_insufficient_in_all_four_translations": [
+    0,
+    1
+  ],
+  "elapsed_seconds": 1.0749543749989243,
+  "interpretation": "For each empty cell, all old collinear-pair blockers are disjoint because the validated seed has no collinear triple. At least one deletion per blocker is necessary, and selecting one old point from each disjoint blocker is sufficient for inserting that cell alone. If this minimum exceeds the deletion budget, deleting at most that many seed points cannot admit any genuinely new point. This prunes only those seed-relative repair budgets; it is neither a global bound nor an impossibility result for larger deletions, other seeds, or other constructions.",
+  "minimum_old_deletions_across_all_four_translations": 2,
+  "seed_file": "data/published-n78.json",
+  "seed_n": 78,
+  "seed_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "seed_passes_both_exact_verifiers": true,
+  "seed_point_count": 156,
+  "target_n": 79,
+  "translations": [
+    {
+      "all_blocking_pairs_disjoint": true,
+      "all_direction_groups_have_size_at_most_two": true,
+      "budget_cannot_insert_any_genuinely_new_point": false,
+      "delete_budget_compared": 3,
+      "deletion_budgets_proved_insufficient_for_any_genuinely_new_point": [
+        0,
+        1
+      ],
+      "empty_cell_count": 6085,
+      "histogram_minimum_old_deletions": {
+        "10": 898,
+        "11": 676,
+        "12": 434,
+        "13": 262,
+        "14": 136,
+        "15": 66,
+        "16": 28,
+        "17": 8,
+        "18": 4,
+        "2": 2,
+        "3": 28,
+        "4": 122,
+        "5": 258,
+        "6": 525,
+        "7": 776,
+        "8": 920,
+        "9": 942
+      },
+      "independent_cross_product_samples": [
+        {
+          "blocking_pair_count": 7,
+          "exact_pair_sets_match": true,
+          "point": [
+            0,
+            0
+          ]
+        },
+        {
+          "blocking_pair_count": 9,
+          "exact_pair_sets_match": true,
+          "point": [
+            19,
+            60
+          ]
+        },
+        {
+          "blocking_pair_count": 14,
+          "exact_pair_sets_match": true,
+          "point": [
+            39,
+            40
+          ]
+        },
+        {
+          "blocking_pair_count": 11,
+          "exact_pair_sets_match": true,
+          "point": [
+            59,
+            21
+          ]
+        },
+        {
+          "blocking_pair_count": 6,
+          "exact_pair_sets_match": true,
+          "point": [
+            78,
+            78
+          ]
+        },
+        {
+          "blocking_pair_count": 2,
+          "exact_pair_sets_match": true,
+          "point": [
+            77,
+            78
+          ]
+        }
+      ],
+      "maximum_old_deletions_for_an_individual_new_point": 18,
+      "minimum_cell_count": 2,
+      "minimum_old_deletions_for_any_new_point": 2,
+      "n": 79,
+      "normalized_seed_sha256": "974921b9f18e25e40f46c61b0ee7ed69955a992dafed1a38881244bd4f41c145",
+      "seed_point_count": 156,
+      "translation": [
+        0,
+        0
+      ],
+      "witness": {
+        "blocking_pair_count": 2,
+        "blocking_pairs": [
+          {
+            "indices": [
+              67,
+              103
+            ],
+            "points": [
+              [
+                77,
+                33
+              ],
+              [
+                77,
+                51
+              ]
+            ]
+          },
+          {
+            "indices": [
+              85,
+              115
+            ],
+            "points": [
+              [
+                53,
+                42
+              ],
+              [
+                63,
+                57
+              ]
+            ]
+          }
+        ],
+        "example_deletion_indices": [
+          67,
+          85
+        ],
+        "point": [
+          77,
+          78
+        ],
+        "resulting_certificate_normalized_sha256": "3a8f83b97d48509526a7ff27b252ca4f654e2857e03631a4d7e801f8a5c66b63",
+        "resulting_certificate_passes_both_exact_verifiers": true,
+        "resulting_point_count_after_deletions_and_one_addition": 155
+      }
+    },
+    {
+      "all_blocking_pairs_disjoint": true,
+      "all_direction_groups_have_size_at_most_two": true,
+      "budget_cannot_insert_any_genuinely_new_point": false,
+      "delete_budget_compared": 3,
+      "deletion_budgets_proved_insufficient_for_any_genuinely_new_point": [
+        0,
+        1
+      ],
+      "empty_cell_count": 6085,
+      "histogram_minimum_old_deletions": {
+        "10": 898,
+        "11": 676,
+        "12": 434,
+        "13": 262,
+        "14": 136,
+        "15": 66,
+        "16": 28,
+        "17": 8,
+        "18": 4,
+        "2": 2,
+        "3": 28,
+        "4": 122,
+        "5": 258,
+        "6": 525,
+        "7": 776,
+        "8": 920,
+        "9": 942
+      },
+      "independent_cross_product_samples": [
+        {
+          "blocking_pair_count": 2,
+          "exact_pair_sets_match": true,
+          "point": [
+            0,
+            0
+          ]
+        },
+        {
+          "blocking_pair_count": 6,
+          "exact_pair_sets_match": true,
+          "point": [
+            19,
+            60
+          ]
+        },
+        {
+          "blocking_pair_count": 11,
+          "exact_pair_sets_match": true,
+          "point": [
+            39,
+            40
+          ]
+        },
+        {
+          "blocking_pair_count": 7,
+          "exact_pair_sets_match": true,
+          "point": [
+            59,
+            21
+          ]
+        },
+        {
+          "blocking_pair_count": 5,
+          "exact_pair_sets_match": true,
+          "point": [
+            78,
+            78
+          ]
+        }
+      ],
+      "maximum_old_deletions_for_an_individual_new_point": 18,
+      "minimum_cell_count": 2,
+      "minimum_old_deletions_for_any_new_point": 2,
+      "n": 79,
+      "normalized_seed_sha256": "6e71d8519597f9990e01a0e1845d08d9e40f8f51569da2f831eecb80265c7f69",
+      "seed_point_count": 156,
+      "translation": [
+        0,
+        1
+      ],
+      "witness": {
+        "blocking_pair_count": 2,
+        "blocking_pairs": [
+          {
+            "indices": [
+              40,
+              70
+            ],
+            "points": [
+              [
+                14,
+                21
+              ],
+              [
+                24,
+                36
+              ]
+            ]
+          },
+          {
+            "indices": [
+              52,
+              88
+            ],
+            "points": [
+              [
+                0,
+                27
+              ],
+              [
+                0,
+                45
+              ]
+            ]
+          }
+        ],
+        "example_deletion_indices": [
+          40,
+          52
+        ],
+        "point": [
+          0,
+          0
+        ],
+        "resulting_certificate_normalized_sha256": "f65e8aebdb3a2a934b2a8c34799647af7b6803fc33a6f9284e1c479b41826d81",
+        "resulting_certificate_passes_both_exact_verifiers": true,
+        "resulting_point_count_after_deletions_and_one_addition": 155
+      }
+    },
+    {
+      "all_blocking_pairs_disjoint": true,
+      "all_direction_groups_have_size_at_most_two": true,
+      "budget_cannot_insert_any_genuinely_new_point": false,
+      "delete_budget_compared": 3,
+      "deletion_budgets_proved_insufficient_for_any_genuinely_new_point": [
+        0,
+        1
+      ],
+      "empty_cell_count": 6085,
+      "histogram_minimum_old_deletions": {
+        "10": 898,
+        "11": 676,
+        "12": 434,
+        "13": 262,
+        "14": 136,
+        "15": 66,
+        "16": 28,
+        "17": 8,
+        "18": 4,
+        "2": 2,
+        "3": 28,
+        "4": 122,
+        "5": 258,
+        "6": 525,
+        "7": 776,
+        "8": 920,
+        "9": 942
+      },
+      "independent_cross_product_samples": [
+        {
+          "blocking_pair_count": 5,
+          "exact_pair_sets_match": true,
+          "point": [
+            0,
+            0
+          ]
+        },
+        {
+          "blocking_pair_count": 7,
+          "exact_pair_sets_match": true,
+          "point": [
+            19,
+            57
+          ]
+        },
+        {
+          "blocking_pair_count": 11,
+          "exact_pair_sets_match": true,
+          "point": [
+            39,
+            38
+          ]
+        },
+        {
+          "blocking_pair_count": 6,
+          "exact_pair_sets_match": true,
+          "point": [
+            59,
+            18
+          ]
+        },
+        {
+          "blocking_pair_count": 2,
+          "exact_pair_sets_match": true,
+          "point": [
+            78,
+            78
+          ]
+        },
+        {
+          "blocking_pair_count": 2,
+          "exact_pair_sets_match": true,
+          "point": [
+            0,
+            77
+          ]
+        }
+      ],
+      "maximum_old_deletions_for_an_individual_new_point": 18,
+      "minimum_cell_count": 2,
+      "minimum_old_deletions_for_any_new_point": 2,
+      "n": 79,
+      "normalized_seed_sha256": "002b80ee9ea6dbad3a08968cd768e3360851e8834fdd12b9def05c27131a7ae3",
+      "seed_point_count": 156,
+      "translation": [
+        1,
+        0
+      ],
+      "witness": {
+        "blocking_pair_count": 2,
+        "blocking_pairs": [
+          {
+            "indices": [
+              106,
+              126
+            ],
+            "points": [
+              [
+                36,
+                53
+              ],
+              [
+                21,
+                63
+              ]
+            ]
+          },
+          {
+            "indices": [
+              154,
+              155
+            ],
+            "points": [
+              [
+                27,
+                77
+              ],
+              [
+                45,
+                77
+              ]
+            ]
+          }
+        ],
+        "example_deletion_indices": [
+          106,
+          154
+        ],
+        "point": [
+          0,
+          77
+        ],
+        "resulting_certificate_normalized_sha256": "d3cc5ec1abb1461c9b83a79ed629614357ff124e6004f4176c259f67936e10fb",
+        "resulting_certificate_passes_both_exact_verifiers": true,
+        "resulting_point_count_after_deletions_and_one_addition": 155
+      }
+    },
+    {
+      "all_blocking_pairs_disjoint": true,
+      "all_direction_groups_have_size_at_most_two": true,
+      "budget_cannot_insert_any_genuinely_new_point": false,
+      "delete_budget_compared": 3,
+      "deletion_budgets_proved_insufficient_for_any_genuinely_new_point": [
+        0,
+        1
+      ],
+      "empty_cell_count": 6085,
+      "histogram_minimum_old_deletions": {
+        "10": 898,
+        "11": 676,
+        "12": 434,
+        "13": 262,
+        "14": 136,
+        "15": 66,
+        "16": 28,
+        "17": 8,
+        "18": 4,
+        "2": 2,
+        "3": 28,
+        "4": 122,
+        "5": 258,
+        "6": 525,
+        "7": 776,
+        "8": 920,
+        "9": 942
+      },
+      "independent_cross_product_samples": [
+        {
+          "blocking_pair_count": 6,
+          "exact_pair_sets_match": true,
+          "point": [
+            0,
+            0
+          ]
+        },
+        {
+          "blocking_pair_count": 11,
+          "exact_pair_sets_match": true,
+          "point": [
+            19,
+            57
+          ]
+        },
+        {
+          "blocking_pair_count": 14,
+          "exact_pair_sets_match": true,
+          "point": [
+            39,
+            38
+          ]
+        },
+        {
+          "blocking_pair_count": 9,
+          "exact_pair_sets_match": true,
+          "point": [
+            59,
+            18
+          ]
+        },
+        {
+          "blocking_pair_count": 7,
+          "exact_pair_sets_match": true,
+          "point": [
+            78,
+            78
+          ]
+        },
+        {
+          "blocking_pair_count": 2,
+          "exact_pair_sets_match": true,
+          "point": [
+            0,
+            78
+          ]
+        }
+      ],
+      "maximum_old_deletions_for_an_individual_new_point": 18,
+      "minimum_cell_count": 2,
+      "minimum_old_deletions_for_any_new_point": 2,
+      "n": 79,
+      "normalized_seed_sha256": "be76883ff8c3f65ba8a23baae225630dbe23cb90c521f2c76af20d1b6d5cf14c",
+      "seed_point_count": 156,
+      "translation": [
+        1,
+        1
+      ],
+      "witness": {
+        "blocking_pair_count": 2,
+        "blocking_pairs": [
+          {
+            "indices": [
+              106,
+              126
+            ],
+            "points": [
+              [
+                36,
+                54
+              ],
+              [
+                21,
+                64
+              ]
+            ]
+          },
+          {
+            "indices": [
+              154,
+              155
+            ],
+            "points": [
+              [
+                27,
+                78
+              ],
+              [
+                45,
+                78
+              ]
+            ]
+          }
+        ],
+        "example_deletion_indices": [
+          106,
+          154
+        ],
+        "point": [
+          0,
+          78
+        ],
+        "resulting_certificate_normalized_sha256": "ed55ec3339f694d49fa51c4293a39187e3cc789495ffa7532e2a5331cdfcc221",
+        "resulting_certificate_passes_both_exact_verifiers": true,
+        "resulting_point_count_after_deletions_and_one_addition": 155
+      }
+    }
+  ]
+}

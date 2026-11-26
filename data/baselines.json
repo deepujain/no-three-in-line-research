@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-11-26",
+  "definition": "D(n) is the maximum number of lattice points in an n by n grid with no collinear triple",
+  "warning": "Conservative witnessed lower bounds, not asserted best-known records; novelty and completeness unverified",
+  "source_78": "https://wwwhomes.uni-bielefeld.de/~achim/no3in/download/configurations/n78_rot4.few",
+  "source_76": "https://wwwhomes.uni-bielefeld.de/~achim/no3in/download/configurations/n76_rot4.few",
+  "primary_table": "https://wwwhomes.uni-bielefeld.de/achim/no3in/table.html",
+  "records": [
+    {
+      "n": 75,
+      "lower_bound": 148,
+      "upper_bound": 150,
+      "lower_bound_basis": "76 witness crop, at most four lost",
+      "optimal_proven": false,
+      "global_record_completeness": "not established"
+    },
+    {
+      "n": 76,
+      "lower_bound": 152,
+      "upper_bound": 152,
+      "lower_bound_basis": "published full witness",
+      "optimal_proven": true,
+      "global_record_completeness": "optimal by row bound"
+    },
+    {
+      "n": 77,
+      "lower_bound": 152,
+      "upper_bound": 154,
+      "lower_bound_basis": "76 witness embedded",
+      "optimal_proven": false,
+      "global_record_completeness": "not established"
+    },
+    {
+      "n": 78,
+      "lower_bound": 156,
+      "upper_bound": 156,
+      "lower_bound_basis": "published 78 witness independently checked",
+      "optimal_proven": true,
+      "global_record_completeness": "optimal by row bound"
+    },
+    {
+      "n": 79,
+      "lower_bound": 156,
+      "upper_bound": 158,
+      "lower_bound_basis": "78 witness embedded",
+      "optimal_proven": false,
+      "global_record_completeness": "not established"
+    },
+    {
+      "n": 80,
+      "lower_bound": 156,
+      "upper_bound": 160,
+      "lower_bound_basis": "78 witness embedded",
+      "optimal_proven": false,
+      "global_record_completeness": "not established"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "valid": true,
+    "n": 79,
+    "point_count": 156,
+    "errors": [],
+    "conflict_count": 0,
+    "conflicts": [],
+    "normalized_sha256": "974921b9f18e25e40f46c61b0ee7ed69955a992dafed1a38881244bd4f41c145",
+    "algorithm": "integer_normalized_slopes"
+  },
+  {
+    "valid": true,
+    "n": 79,
+    "point_count": 156,
+    "errors": [],
+    "conflict_count": 0,
+    "conflicts": [],
+    "normalized_sha256": "974921b9f18e25e40f46c61b0ee7ed69955a992dafed1a38881244bd4f41c145",
+    "algorithm": "integer_cross_products"
+  }
+]

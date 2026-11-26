@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Research Lead",
+    "agent": "root",
+    "model": "session default; model identifier not exposed to this agent",
+    "reasoning": "session default",
+    "scope": "Shepherd, allocation, integration, publication",
+    "status": "active"
+  },
+  {
+    "role": "Literature Researcher",
+    "agent": "literature_researcher",
+    "model": "gpt-6.1-terra",
+    "reasoning": "high",
+    "scope": "Current records, source provenance, target selection",
+    "status": "literature and independent mathematical review completed",
+    "additional_role": "Mathematical Reviewer, later task on same agent/model"
+  },
+  {
+    "role": "Research Software Engineer",
+    "agent": "research_software_engineer",
+    "model": "gpt-6.1-sol",
+    "reasoning": "high",
+    "scope": "Exact verification, bounded search, software tests",
+    "status": "blocker-guided repair audit dispatched"
+  },
+  {
+    "role": "Mathematician",
+    "agent": "mathematician",
+    "model": "gpt-6-astra",
+    "reasoning": "high",
+    "scope": "Constructions, mathematical bounds, competing hypotheses",
+    "status": "first task completed"
+  }
+]

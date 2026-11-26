@@ -1,0 +1,128 @@
+[
+  {
+    "count": 1,
+    "elapsed_seconds": 8.133300434565172e-05,
+    "file": "data/smoke-n1-seed20261127.json",
+    "iterations": 0,
+    "n": 1,
+    "seed": 20261127,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 4,
+    "elapsed_seconds": 0.0001484580061514862,
+    "file": "data/smoke-n2-seed20261128.json",
+    "iterations": 0,
+    "n": 2,
+    "seed": 20261128,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 6,
+    "elapsed_seconds": 0.0004784580014529638,
+    "file": "data/smoke-n3-seed20261129.json",
+    "iterations": 5,
+    "n": 3,
+    "seed": 20261129,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 8,
+    "elapsed_seconds": 0.0003473329998087138,
+    "file": "data/smoke-n4-seed20261130.json",
+    "iterations": 7,
+    "n": 4,
+    "seed": 20261130,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 10,
+    "elapsed_seconds": 0.0008585000032326207,
+    "file": "data/smoke-n5-seed20261131.json",
+    "iterations": 5,
+    "n": 5,
+    "seed": 20261131,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 12,
+    "elapsed_seconds": 0.0009429579949937761,
+    "file": "data/smoke-n6-seed20261132.json",
+    "iterations": 11,
+    "n": 6,
+    "seed": 20261132,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 14,
+    "elapsed_seconds": 0.04038220800430281,
+    "file": "data/smoke-n7-seed20261133.json",
+    "iterations": 409,
+    "n": 7,
+    "seed": 20261133,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 16,
+    "elapsed_seconds": 0.2077725829949486,
+    "file": "data/smoke-n8-seed20261134.json",
+    "iterations": 1669,
+    "n": 8,
+    "seed": 20261134,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 18,
+    "elapsed_seconds": 0.25997175000520656,
+    "file": "data/smoke-n9-seed20261135.json",
+    "iterations": 1669,
+    "n": 9,
+    "seed": 20261135,
+    "stopping_reason": "target_reached"
+  },
+  {
+    "count": 19,
+    "elapsed_seconds": 0.300420291001501,
+    "file": "data/smoke-n10-seed20261136.json",
+    "iterations": 1562,
+    "n": 10,
+    "seed": 20261136,
+    "stopping_reason": "time_budget"
+  },
+  {
+    "count": 156,
+    "elapsed_seconds": 5.043468000003486,
+    "file": "data/smoke-repair-n79-dx0-dy0.json",
+    "iterations": 127907,
+    "n": 79,
+    "seed": 2026112600,
+    "stopping_reason": "time_budget"
+  },
+  {
+    "count": 156,
+    "elapsed_seconds": 5.04359995899722,
+    "file": "data/smoke-repair-n79-dx0-dy1.json",
+    "iterations": 126105,
+    "n": 79,
+    "seed": 2026112601,
+    "stopping_reason": "time_budget"
+  },
+  {
+    "count": 156,
+    "elapsed_seconds": 5.0423289999962435,
+    "file": "data/smoke-repair-n79-dx1-dy0.json",
+    "iterations": 123226,
+    "n": 79,
+    "seed": 2026112610,
+    "stopping_reason": "time_budget"
+  },
+  {
+    "count": 156,
+    "elapsed_seconds": 5.041242334002163,
+    "file": "data/smoke-repair-n79-dx1-dy1.json",
+    "iterations": 128295,
+    "n": 79,
+    "seed": 2026112611,
+    "stopping_reason": "time_budget"
+  }
+]

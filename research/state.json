@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-11-26T22:59:25Z",
+  "deadline": "2026-11-27T22:59:25Z",
+  "status": "running",
+  "objective": "Find and exactly verify a construction improving a documented finite no-three-in-line lower bound",
+  "tentative_target_n": 79,
+  "target_confirmed": true,
+  "new_result_claimed": false,
+  "scheduled_search_wall_seconds_limit": 21600,
+  "scheduled_search_wall_seconds_used": 0,
+  "heartbeat_id": "no-three-in-line-research-shepherd",
+  "next_action": "Finish blocker-guided exact <=3-deletion repair audit, then prototype alternating-cycle row/column trades and exact constraint model",
+  "target_n": 79,
+  "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
+  "best_verified_count": 156,
+  "upper_bound": 158,
+  "first_round_completed_at": "2026-11-26T23:09:00Z"
+}
