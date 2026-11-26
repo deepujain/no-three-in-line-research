@@ -1,6 +1,6 @@
 {
   "seed": "data/published-n78.json",
-  "seed_file_sha256": "7f849877c21745eeaf15ace680aa51879d809c7940ba0adfb232a39847510457",
+  "seed_file_sha256": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
   "seed_point_count": 156,
   "seed_triples_checked": 620620,
   "seed_collinear_triples": 0,

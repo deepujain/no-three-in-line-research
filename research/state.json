@@ -10,10 +10,15 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 0,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Finish blocker-guided exact <=3-deletion repair audit, then prototype alternating-cycle row/column trades and exact constraint model",
+  "next_action": "Do not repeat <=3-deletion repair. Prototype alternating-cycle row/column trades, test larger guided neighborhoods, benchmark a tiny exact line-constraint model; preserve exploration across other approaches.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
   "upper_bound": 158,
-  "first_round_completed_at": "2026-11-26T23:09:00Z"
+  "first_round_completed_at": "2026-11-26T23:09:00Z",
+  "completed_scoped_audits": [
+    "624 one-hole boundary extensions",
+    "24340 individual empty-cell blocker checks",
+    "5824 guided <=3-deletion sets, no point-count improvement"
+  ]
 }

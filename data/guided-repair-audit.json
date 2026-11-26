@@ -1,0 +1,2526 @@
+{
+  "audit": "exact_blocker_guided_original_seed_deletion_neighborhood",
+  "elapsed_seconds": 1.1182759160001297,
+  "max_original_seed_deletions": 3,
+  "scope": "All repairs gaining one or two points after at most the specified number of original-seed deletions, including readdition of removed seed points. No conclusion about larger deletion budgets, other seeds, or global existence.",
+  "seconds_budget": 60.0,
+  "seed_n": 78,
+  "seed_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "seed_point_count": 156,
+  "status": "complete",
+  "target_n": 79,
+  "translations": [
+    {
+      "addition_subsets_tested_by_target_size": {
+        "157": 1456,
+        "158": 0
+      },
+      "available_genuinely_new_cell_count_histogram": {
+        "1": 1456
+      },
+      "compatible_addition_subsets_by_target_size": {
+        "157": 0,
+        "158": 0
+      },
+      "deletion_set_count": 1456,
+      "deletion_set_size_histogram": {
+        "2": 8,
+        "3": 1448
+      },
+      "deletion_sets_completed": 1456,
+      "eligible_new_cell_count": 30,
+      "eligible_new_cells": [
+        {
+          "blocking_pairs": [
+            [
+              52,
+              88
+            ],
+            [
+              62,
+              63
+            ],
+            [
+              76,
+              120
+            ]
+          ],
+          "point": [
+            0,
+            31
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              24,
+              122
+            ],
+            [
+              107,
+              126
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            2,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              123
+            ],
+            [
+              58,
+              78
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            3,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              40,
+              80
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            5,
+            2
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              6,
+              7
+            ],
+            [
+              25,
+              96
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            5,
+            3
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              3,
+              102
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              100,
+              101
+            ]
+          ],
+          "point": [
+            5,
+            50
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              20,
+              21
+            ],
+            [
+              26,
+              47
+            ],
+            [
+              50,
+              93
+            ]
+          ],
+          "point": [
+            6,
+            10
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              26,
+              47
+            ],
+            [
+              82,
+              111
+            ],
+            [
+              138,
+              139
+            ]
+          ],
+          "point": [
+            6,
+            69
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              43,
+              72
+            ],
+            [
+              90,
+              114
+            ]
+          ],
+          "point": [
+            8,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              23,
+              92
+            ],
+            [
+              54,
+              124
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            10,
+            71
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              8,
+              109
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              81,
+              134
+            ]
+          ],
+          "point": [
+            27,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              50,
+              132
+            ],
+            [
+              96,
+              141
+            ],
+            [
+              154,
+              155
+            ]
+          ],
+          "point": [
+            31,
+            77
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              14,
+              59
+            ],
+            [
+              23,
+              105
+            ]
+          ],
+          "point": [
+            46,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              21,
+              74
+            ],
+            [
+              46,
+              147
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            50,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              45,
+              133
+            ],
+            [
+              124,
+              137
+            ],
+            [
+              141,
+              145
+            ]
+          ],
+          "point": [
+            58,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              31,
+              101
+            ],
+            [
+              63,
+              132
+            ]
+          ],
+          "point": [
+            67,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              41,
+              65
+            ],
+            [
+              83,
+              112
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            69,
+            71
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              16,
+              17
+            ],
+            [
+              44,
+              73
+            ],
+            [
+              108,
+              129
+            ]
+          ],
+          "point": [
+            71,
+            8
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              62,
+              105
+            ],
+            [
+              108,
+              129
+            ],
+            [
+              134,
+              135
+            ]
+          ],
+          "point": [
+            71,
+            67
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              53,
+              152
+            ],
+            [
+              54,
+              55
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "point": [
+            72,
+            27
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              59,
+              130
+            ],
+            [
+              69,
+              71
+            ],
+            [
+              148,
+              149
+            ]
+          ],
+          "point": [
+            72,
+            74
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              69,
+              71
+            ],
+            [
+              75,
+              115
+            ],
+            [
+              150,
+              151
+            ]
+          ],
+          "point": [
+            72,
+            75
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              45
+            ],
+            [
+              40,
+              105
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "point": [
+            72,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              32,
+              120
+            ],
+            [
+              77,
+              97
+            ]
+          ],
+          "point": [
+            74,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              29,
+              48
+            ],
+            [
+              33,
+              131
+            ]
+          ],
+          "point": [
+            75,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              79
+            ],
+            [
+              67,
+              103
+            ],
+            [
+              92,
+              93
+            ]
+          ],
+          "point": [
+            77,
+            46
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              67,
+              103
+            ],
+            [
+              85,
+              115
+            ]
+          ],
+          "point": [
+            77,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              29,
+              49
+            ]
+          ],
+          "point": [
+            78,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              38,
+              47
+            ],
+            [
+              63,
+              126
+            ]
+          ],
+          "point": [
+            78,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              38,
+              39
+            ],
+            [
+              69,
+              79
+            ],
+            [
+              98,
+              135
+            ]
+          ],
+          "point": [
+            78,
+            19
+          ]
+        }
+      ],
+      "found_certificates": [],
+      "max_original_seed_deletions": 3,
+      "n": 79,
+      "normalized_seed_sha256": "974921b9f18e25e40f46c61b0ee7ed69955a992dafed1a38881244bd4f41c145",
+      "pair_compatibility_rejections": 1456,
+      "pair_seed_masks_computed": 2004,
+      "phase": "complete",
+      "seed_point_count": 156,
+      "status": "complete",
+      "translation": [
+        0,
+        0
+      ],
+      "triple_compatibility_rejections": 0
+    },
+    {
+      "addition_subsets_tested_by_target_size": {
+        "157": 1456,
+        "158": 0
+      },
+      "available_genuinely_new_cell_count_histogram": {
+        "1": 1456
+      },
+      "compatible_addition_subsets_by_target_size": {
+        "157": 0,
+        "158": 0
+      },
+      "deletion_set_count": 1456,
+      "deletion_set_size_histogram": {
+        "2": 8,
+        "3": 1448
+      },
+      "deletion_sets_completed": 1456,
+      "eligible_new_cell_count": 30,
+      "eligible_new_cells": [
+        {
+          "blocking_pairs": [
+            [
+              40,
+              70
+            ],
+            [
+              52,
+              88
+            ]
+          ],
+          "point": [
+            0,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              52,
+              88
+            ],
+            [
+              62,
+              63
+            ],
+            [
+              76,
+              120
+            ]
+          ],
+          "point": [
+            0,
+            32
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              24,
+              122
+            ],
+            [
+              107,
+              126
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            2,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              123
+            ],
+            [
+              58,
+              78
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            3,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              50,
+              115
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              110,
+              143
+            ]
+          ],
+          "point": [
+            5,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              40,
+              80
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            5,
+            3
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              6,
+              7
+            ],
+            [
+              25,
+              96
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            5,
+            4
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              3,
+              102
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              100,
+              101
+            ]
+          ],
+          "point": [
+            5,
+            51
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              20,
+              21
+            ],
+            [
+              26,
+              47
+            ],
+            [
+              50,
+              93
+            ]
+          ],
+          "point": [
+            6,
+            11
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              26,
+              47
+            ],
+            [
+              82,
+              111
+            ],
+            [
+              138,
+              139
+            ]
+          ],
+          "point": [
+            6,
+            70
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              43,
+              72
+            ],
+            [
+              90,
+              114
+            ]
+          ],
+          "point": [
+            8,
+            7
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              23,
+              92
+            ],
+            [
+              54,
+              124
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            10,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              14
+            ],
+            [
+              18,
+              31
+            ],
+            [
+              22,
+              110
+            ]
+          ],
+          "point": [
+            19,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              8,
+              109
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              81,
+              134
+            ]
+          ],
+          "point": [
+            27,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              50,
+              132
+            ],
+            [
+              96,
+              141
+            ],
+            [
+              154,
+              155
+            ]
+          ],
+          "point": [
+            31,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              14,
+              59
+            ],
+            [
+              23,
+              105
+            ]
+          ],
+          "point": [
+            46,
+            1
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              21,
+              74
+            ],
+            [
+              46,
+              147
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            50,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              31,
+              101
+            ],
+            [
+              63,
+              132
+            ]
+          ],
+          "point": [
+            67,
+            7
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              41,
+              65
+            ],
+            [
+              83,
+              112
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            69,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              16,
+              17
+            ],
+            [
+              44,
+              73
+            ],
+            [
+              108,
+              129
+            ]
+          ],
+          "point": [
+            71,
+            9
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              62,
+              105
+            ],
+            [
+              108,
+              129
+            ],
+            [
+              134,
+              135
+            ]
+          ],
+          "point": [
+            71,
+            68
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              53,
+              152
+            ],
+            [
+              54,
+              55
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "point": [
+            72,
+            28
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              59,
+              130
+            ],
+            [
+              69,
+              71
+            ],
+            [
+              148,
+              149
+            ]
+          ],
+          "point": [
+            72,
+            75
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              69,
+              71
+            ],
+            [
+              75,
+              115
+            ],
+            [
+              150,
+              151
+            ]
+          ],
+          "point": [
+            72,
+            76
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              32,
+              120
+            ],
+            [
+              77,
+              97
+            ]
+          ],
+          "point": [
+            74,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              29,
+              48
+            ],
+            [
+              33,
+              131
+            ]
+          ],
+          "point": [
+            75,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              79
+            ],
+            [
+              67,
+              103
+            ],
+            [
+              92,
+              93
+            ]
+          ],
+          "point": [
+            77,
+            47
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              29,
+              49
+            ]
+          ],
+          "point": [
+            78,
+            1
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              38,
+              47
+            ],
+            [
+              63,
+              126
+            ]
+          ],
+          "point": [
+            78,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              38,
+              39
+            ],
+            [
+              69,
+              79
+            ],
+            [
+              98,
+              135
+            ]
+          ],
+          "point": [
+            78,
+            20
+          ]
+        }
+      ],
+      "found_certificates": [],
+      "max_original_seed_deletions": 3,
+      "n": 79,
+      "normalized_seed_sha256": "6e71d8519597f9990e01a0e1845d08d9e40f8f51569da2f831eecb80265c7f69",
+      "pair_compatibility_rejections": 1456,
+      "pair_seed_masks_computed": 2004,
+      "phase": "complete",
+      "seed_point_count": 156,
+      "status": "complete",
+      "translation": [
+        0,
+        1
+      ],
+      "triple_compatibility_rejections": 0
+    },
+    {
+      "addition_subsets_tested_by_target_size": {
+        "157": 1456,
+        "158": 0
+      },
+      "available_genuinely_new_cell_count_histogram": {
+        "1": 1456
+      },
+      "compatible_addition_subsets_by_target_size": {
+        "157": 0,
+        "158": 0
+      },
+      "deletion_set_count": 1456,
+      "deletion_set_size_histogram": {
+        "2": 8,
+        "3": 1448
+      },
+      "deletion_sets_completed": 1456,
+      "eligible_new_cell_count": 30,
+      "eligible_new_cells": [
+        {
+          "blocking_pairs": [
+            [
+              20,
+              57
+            ],
+            [
+              76,
+              86
+            ],
+            [
+              116,
+              117
+            ]
+          ],
+          "point": [
+            0,
+            58
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              29,
+              92
+            ],
+            [
+              108,
+              117
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            0,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              106,
+              126
+            ],
+            [
+              154,
+              155
+            ]
+          ],
+          "point": [
+            0,
+            77
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              52,
+              88
+            ],
+            [
+              62,
+              63
+            ],
+            [
+              76,
+              120
+            ]
+          ],
+          "point": [
+            1,
+            31
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              24,
+              122
+            ],
+            [
+              107,
+              126
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            3,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              123
+            ],
+            [
+              58,
+              78
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            4,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              40,
+              80
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            6,
+            2
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              6,
+              7
+            ],
+            [
+              25,
+              96
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            6,
+            3
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              3,
+              102
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              100,
+              101
+            ]
+          ],
+          "point": [
+            6,
+            50
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              20,
+              21
+            ],
+            [
+              26,
+              47
+            ],
+            [
+              50,
+              93
+            ]
+          ],
+          "point": [
+            7,
+            10
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              26,
+              47
+            ],
+            [
+              82,
+              111
+            ],
+            [
+              138,
+              139
+            ]
+          ],
+          "point": [
+            7,
+            69
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              43,
+              72
+            ],
+            [
+              90,
+              114
+            ]
+          ],
+          "point": [
+            9,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              23,
+              92
+            ],
+            [
+              54,
+              124
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            11,
+            71
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              8,
+              109
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              81,
+              134
+            ]
+          ],
+          "point": [
+            28,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              50,
+              132
+            ],
+            [
+              96,
+              141
+            ],
+            [
+              154,
+              155
+            ]
+          ],
+          "point": [
+            32,
+            77
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              14,
+              59
+            ],
+            [
+              23,
+              105
+            ]
+          ],
+          "point": [
+            47,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              21,
+              74
+            ],
+            [
+              46,
+              147
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            51,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              45,
+              133
+            ],
+            [
+              124,
+              137
+            ],
+            [
+              141,
+              145
+            ]
+          ],
+          "point": [
+            59,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              31,
+              101
+            ],
+            [
+              63,
+              132
+            ]
+          ],
+          "point": [
+            68,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              41,
+              65
+            ],
+            [
+              83,
+              112
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            70,
+            71
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              16,
+              17
+            ],
+            [
+              44,
+              73
+            ],
+            [
+              108,
+              129
+            ]
+          ],
+          "point": [
+            72,
+            8
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              62,
+              105
+            ],
+            [
+              108,
+              129
+            ],
+            [
+              134,
+              135
+            ]
+          ],
+          "point": [
+            72,
+            67
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              53,
+              152
+            ],
+            [
+              54,
+              55
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "point": [
+            73,
+            27
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              59,
+              130
+            ],
+            [
+              69,
+              71
+            ],
+            [
+              148,
+              149
+            ]
+          ],
+          "point": [
+            73,
+            74
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              69,
+              71
+            ],
+            [
+              75,
+              115
+            ],
+            [
+              150,
+              151
+            ]
+          ],
+          "point": [
+            73,
+            75
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              45
+            ],
+            [
+              40,
+              105
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "point": [
+            73,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              32,
+              120
+            ],
+            [
+              77,
+              97
+            ]
+          ],
+          "point": [
+            75,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              29,
+              48
+            ],
+            [
+              33,
+              131
+            ]
+          ],
+          "point": [
+            76,
+            5
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              79
+            ],
+            [
+              67,
+              103
+            ],
+            [
+              92,
+              93
+            ]
+          ],
+          "point": [
+            78,
+            46
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              67,
+              103
+            ],
+            [
+              85,
+              115
+            ]
+          ],
+          "point": [
+            78,
+            78
+          ]
+        }
+      ],
+      "found_certificates": [],
+      "max_original_seed_deletions": 3,
+      "n": 79,
+      "normalized_seed_sha256": "002b80ee9ea6dbad3a08968cd768e3360851e8834fdd12b9def05c27131a7ae3",
+      "pair_compatibility_rejections": 1456,
+      "pair_seed_masks_computed": 2004,
+      "phase": "complete",
+      "seed_point_count": 156,
+      "status": "complete",
+      "translation": [
+        1,
+        0
+      ],
+      "triple_compatibility_rejections": 0
+    },
+    {
+      "addition_subsets_tested_by_target_size": {
+        "157": 1456,
+        "158": 0
+      },
+      "available_genuinely_new_cell_count_histogram": {
+        "1": 1456
+      },
+      "compatible_addition_subsets_by_target_size": {
+        "157": 0,
+        "158": 0
+      },
+      "deletion_set_count": 1456,
+      "deletion_set_size_histogram": {
+        "2": 8,
+        "3": 1448
+      },
+      "deletion_sets_completed": 1456,
+      "eligible_new_cell_count": 30,
+      "eligible_new_cells": [
+        {
+          "blocking_pairs": [
+            [
+              20,
+              57
+            ],
+            [
+              76,
+              86
+            ],
+            [
+              116,
+              117
+            ]
+          ],
+          "point": [
+            0,
+            59
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              29,
+              92
+            ],
+            [
+              108,
+              117
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            0,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              106,
+              126
+            ],
+            [
+              154,
+              155
+            ]
+          ],
+          "point": [
+            0,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              40,
+              70
+            ],
+            [
+              52,
+              88
+            ]
+          ],
+          "point": [
+            1,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              52,
+              88
+            ],
+            [
+              62,
+              63
+            ],
+            [
+              76,
+              120
+            ]
+          ],
+          "point": [
+            1,
+            32
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              24,
+              122
+            ],
+            [
+              107,
+              126
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            3,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              123
+            ],
+            [
+              58,
+              78
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            4,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              50,
+              115
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              110,
+              143
+            ]
+          ],
+          "point": [
+            6,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              40,
+              80
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            6,
+            3
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              6,
+              7
+            ],
+            [
+              25,
+              96
+            ],
+            [
+              84,
+              86
+            ]
+          ],
+          "point": [
+            6,
+            4
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              3,
+              102
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              100,
+              101
+            ]
+          ],
+          "point": [
+            6,
+            51
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              20,
+              21
+            ],
+            [
+              26,
+              47
+            ],
+            [
+              50,
+              93
+            ]
+          ],
+          "point": [
+            7,
+            11
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              26,
+              47
+            ],
+            [
+              82,
+              111
+            ],
+            [
+              138,
+              139
+            ]
+          ],
+          "point": [
+            7,
+            70
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              43,
+              72
+            ],
+            [
+              90,
+              114
+            ]
+          ],
+          "point": [
+            9,
+            7
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              23,
+              92
+            ],
+            [
+              54,
+              124
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            11,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              14
+            ],
+            [
+              18,
+              31
+            ],
+            [
+              22,
+              110
+            ]
+          ],
+          "point": [
+            20,
+            0
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              8,
+              109
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              81,
+              134
+            ]
+          ],
+          "point": [
+            28,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              50,
+              132
+            ],
+            [
+              96,
+              141
+            ],
+            [
+              154,
+              155
+            ]
+          ],
+          "point": [
+            32,
+            78
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              14,
+              59
+            ],
+            [
+              23,
+              105
+            ]
+          ],
+          "point": [
+            47,
+            1
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              21,
+              74
+            ],
+            [
+              46,
+              147
+            ],
+            [
+              144,
+              145
+            ]
+          ],
+          "point": [
+            51,
+            73
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              12,
+              13
+            ],
+            [
+              31,
+              101
+            ],
+            [
+              63,
+              132
+            ]
+          ],
+          "point": [
+            68,
+            7
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              41,
+              65
+            ],
+            [
+              83,
+              112
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "point": [
+            70,
+            72
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              16,
+              17
+            ],
+            [
+              44,
+              73
+            ],
+            [
+              108,
+              129
+            ]
+          ],
+          "point": [
+            72,
+            9
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              62,
+              105
+            ],
+            [
+              108,
+              129
+            ],
+            [
+              134,
+              135
+            ]
+          ],
+          "point": [
+            72,
+            68
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              53,
+              152
+            ],
+            [
+              54,
+              55
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "point": [
+            73,
+            28
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              59,
+              130
+            ],
+            [
+              69,
+              71
+            ],
+            [
+              148,
+              149
+            ]
+          ],
+          "point": [
+            73,
+            75
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              69,
+              71
+            ],
+            [
+              75,
+              115
+            ],
+            [
+              150,
+              151
+            ]
+          ],
+          "point": [
+            73,
+            76
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              32,
+              120
+            ],
+            [
+              77,
+              97
+            ]
+          ],
+          "point": [
+            75,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              10,
+              11
+            ],
+            [
+              29,
+              48
+            ],
+            [
+              33,
+              131
+            ]
+          ],
+          "point": [
+            76,
+            6
+          ]
+        },
+        {
+          "blocking_pairs": [
+            [
+              35,
+              79
+            ],
+            [
+              67,
+              103
+            ],
+            [
+              92,
+              93
+            ]
+          ],
+          "point": [
+            78,
+            47
+          ]
+        }
+      ],
+      "found_certificates": [],
+      "max_original_seed_deletions": 3,
+      "n": 79,
+      "normalized_seed_sha256": "be76883ff8c3f65ba8a23baae225630dbe23cb90c521f2c76af20d1b6d5cf14c",
+      "pair_compatibility_rejections": 1456,
+      "pair_seed_masks_computed": 2004,
+      "phase": "complete",
+      "seed_point_count": 156,
+      "status": "complete",
+      "translation": [
+        1,
+        1
+      ],
+      "triple_compatibility_rejections": 0
+    }
+  ]
+}

@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "blocker-guided repair audit dispatched"
+    "status": "initial search, blocker audit, and guided-repair audit completed"
   },
   {
     "role": "Mathematician",
@@ -30,6 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "first task completed"
+    "status": "proofs and independent guided-repair review completed",
+    "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

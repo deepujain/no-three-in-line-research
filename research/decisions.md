@@ -19,3 +19,12 @@
 - Dispatched a blocker-guided exact repair audit for up to three deletions. Enumerate deletions that hit blocking pairs, rather than spending the next budget on unguided random deletions. This is a new branch prompted by evidence, not a renamed random seed.
 - Hourly continuation was created and its stored configuration independently checked: active, every hour, this research chat. It is conditional on host/scheduler/account availability. Deadline remains unchanged.
 - Local Python environment has no SciPy, OR-Tools, Z3, or PySAT, but does have a C++ compiler. An exact-constraint branch must first choose a dependency or implement a small correctness benchmark; do not claim a solver ran.
+
+## 2026-11-26 — Evidence-driven branch and second review
+
+- The blocker-guided repair branch completed, rather than timing out. It generated all 1,456 relevant deletion sets per translated seed: 8 of size two and 1,448 of size three. Across four translations: 5,824 sets. No repair increases cardinality to 157 or 158.
+- Its completeness argument includes readdition of removed old points. Every improvement needs at least one genuinely new point; the deletion set must hit all disjoint blockers for that point. Enumerating endpoint choices and optional extra deletions covers all relevant sets of size at most three. Exact geometry checks cover the additions and retained seed.
+- The Mathematician changed role to independent Mathematical Reviewer of the engineer's implementation. The reviewer approved the scoped completeness argument and cross-checked tiny cases against direct enumeration. The engineer added deadline checks requested in review; timeouts remain explicitly incomplete.
+- **Prune the full at-most-three-deletion improvement neighborhood for these seeds.** Do not keep repeating the default random deletion budget three in later rounds. This negative result is not claimed novel or global.
+- Next allocation: prototype row/column alternating-cycle trades, investigate larger guided neighborhoods under the time cap, and benchmark an exact line-constraint formulation on tiny grids before expanding. Keep a separate exploration allocation for the other starting approaches.
+- At launch, 32 Python tests and browser checks at five viewport sizes passed. GitHub CI and the initial Pages deployment passed. Public page returned HTTP 200. The visualization remains a saved evidence snapshot with no discovery claim.

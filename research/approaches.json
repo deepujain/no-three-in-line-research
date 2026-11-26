@@ -19,21 +19,21 @@
   },
   {
     "id": "A03",
-    "name": "Two-point boundary repair",
+    "name": "Small-change repairs",
     "role": "Mathematician",
-    "status": "active audit",
+    "status": "pruned \u22643",
     "scope": "Two-hole extensions and row/column constraints",
-    "finding": "Exact blocker-guided repair with up to three deletions dispatched",
-    "evidence": "research/blocker_audit.py"
+    "finding": "5,824 relevant deletion sets exhausted across four translated seeds; no gain with at most three old deletions",
+    "evidence": "data/guided-repair-audit.json"
   },
   {
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "partially pruned",
+    "status": "pruned \u22643",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "No improvement in four repair trials; blocker audit excludes zero/one deletion, but not two/three",
-    "evidence": "data/blocker-audit.json"
+    "finding": "Guided exhaustive audit supersedes random repair trials for these seeds and budgets up to three",
+    "evidence": "data/guided-repair-audit.json"
   },
   {
     "id": "A05",

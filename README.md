@@ -20,7 +20,7 @@ The Research Lead is the **shepherd**: it chooses work, allocates resources, rev
 | --- | --- | --- | --- |
 | Research Lead | Parent agent | Session default; identifier not exposed to the agent | Allocated work, integrated evidence, built the public research view, configured continuations. |
 | Literature Researcher | `literature_researcher` | GPT-6.1 Terra · high | Checked current sources, imported the attributed baseline, distinguished records from conservative bounds. |
-| Mathematician | `mathematician` | GPT-6 Astra · high | Derived baseline proofs, examined symmetry restrictions, proposed constructions and rejection tests. |
+| Mathematician | `mathematician` | GPT-6 Astra · high | Derived baseline proofs, examined symmetry restrictions, proposed constructions; subsequently independently reviewed the engineer’s guided-repair audit. |
 | Research Software Engineer | `research_software_engineer` | GPT-6.1 Sol · high | Built exact verifiers, bounded searches, tests, and an exhaustive blocker audit. |
 | Mathematical Reviewer | `literature_researcher`, subsequent task | GPT-6.1 Terra · high | Independently reviewed the Mathematician's claims and wrote a separate one-hole audit. This reused the literature agent; it was not a fifth concurrent agent. |
 
@@ -39,7 +39,8 @@ Each hourly continuation reviews evidence, prunes or branches approaches, record
 - The independent reviewer checked **624 one-hole boundary extensions**, none valid. This exhausts only that precisely defined family. [Audit](data/one-hole-audit.json)
 - Exact quarter-turn symmetry cannot attain 158 on this odd-sized grid, by orbit cardinality. This does not exclude half-turn symmetry or catalogued near-quarter-turn patterns. [Proof and review](research/review.md)
 - Four five-second deletion-and-repair trials retained 156 points. Search failure is not an impossibility proof. [Recorded runs](data/smoke-summary.json)
-- All **24,340 empty cells** across the four translated seeds were audited for disjoint blocking pairs. Every new insertion needs at least two old deletions; budgets of two or three remain possible. [Blocker audit](data/blocker-audit.json)
+- All **24,340 empty cells** across the four translated seeds were audited for disjoint blocking pairs. Every new insertion needs at least two old deletions. This test alone did not exclude budgets of two or three; the stronger audit below does. [Blocker audit](data/blocker-audit.json)
+- A subsequent, stronger **complete guided audit** checked all **5,824 relevant deletion sets** across these four seeds. None can improve the point count with at most three original-seed deletions, even allowing removed points to be reinserted. This retires that neighborhood; it does not exclude larger changes or other arrangements. [Audit](data/guided-repair-audit.json) · [Independent review](research/guided-review.md)
 
 ## Reproduce and verify
 
@@ -51,6 +52,7 @@ python3 src/verify.py data/published-n78.json
 python3 src/verify.py data/published-n78.json --brute-force
 python3 research/review_one_hole.py
 python3 research/blocker_audit.py
+python3 research/guided_repair.py --seconds 60
 python3 src/build_site.py
 ```
 

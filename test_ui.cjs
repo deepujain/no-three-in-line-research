@@ -24,6 +24,7 @@ const assert = require('assert/strict');
       assert.ok(dims.sh<=height,`vertical overflow ${width}: ${JSON.stringify(dims)}`);
       assert.ok(dims.canvas.width>=160);
       assert.deepEqual(errors,[]);
+      await page.evaluate(()=>document.activeElement.blur());
       if(process.env.SCREENSHOT_DIR) await page.screenshot({path:path.join(process.env.SCREENSHOT_DIR,`no-three-${width}.png`),fullPage:true});
       console.log(`${width}x${height}: passed`);
       await page.close();
