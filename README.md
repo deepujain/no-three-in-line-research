@@ -12,6 +12,8 @@ We are investigating a **79 × 79 grid**. A published arrangement gives us **156
 
 The page shows saved evidence, rather than animated or continuously connected agents. Refresh after published updates. The arrangement, question, and result are visible immediately; an optional button shows an exact example of why an extra point would create a forbidden line. On compact phones, the approach list is summarized to preserve space for the board. No installation or walkthrough is required. To run offline, download [index.html](https://github.com/deepujain/no-three-in-line-research/raw/refs/heads/main/index.html) and open it in a browser.
 
+**Background:** [Wikipedia: No-three-in-line problem](https://en.wikipedia.org/wiki/No-three-in-line_problem).
+
 ## Autonomous research team
 
 The Research Lead is the **shepherd**: it chooses work, allocates resources, reviews findings, stops unproductive branches, and opens new branches without requiring hourly human direction.
