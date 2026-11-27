@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "03:20 dispatcher r45 reduced 300-second allocation, pinned audited r44 frontiers. No live prior pool, all receipts terminal, unchanged source. Protect 3,600 unspent worker-seconds for new gated branches.",
+  "note": "03:25 dispatcher r46 reduced300second allocation, pinned audited r45 hashes; all receipts terminal/process audit clean. Frozen source and protected3,600future exploration seconds unchanged.",
   "jobs": [
     {
       "args": [
@@ -1621,6 +1621,64 @@
         "365d98e16b651432a5092b6ad849d6a17e56ca02701794778343f40546119ed6",
         "--ledger-dir",
         "data/rowbatch-chain-r45-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "2",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r46-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Continue audited incomplete r45 frontier as reduced frozen control with distinct exploration, without replay or source change. Preserve 3,600 unspent seconds for independently gated graph-pruned and packed-geometry branches. Deterministic/no RNG; unchanged30s/256MiB; stop on timeout/rejection/witness/exhaustion. No infeasibility or novelty inference.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "f7446aff442cdd123043fe2dd0838421eae44af57ed09e35569b0a35957f06cf",
+        "--ledger-dir",
+        "data/rowbatch-chain-r46-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "4",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r46-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Continue audited incomplete r45 frontier as reduced frozen control with distinct exploration, without replay or source change. Preserve 3,600 unspent seconds for independently gated graph-pruned and packed-geometry branches. Deterministic/no RNG; unchanged30s/256MiB; stop on timeout/rejection/witness/exhaustion. No infeasibility or novelty inference.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "fdf771006868ce0e7cffe0c24eff4ad4bed539f3c07a96f1a5b2e5679d09547d",
+        "--ledger-dir",
+        "data/rowbatch-chain-r46-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",

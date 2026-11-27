@@ -1,0 +1,429 @@
+{
+  "actual_host_guarded": false,
+  "checks": {
+    "independent_all_prefix_oracle": [
+      {
+        "extendible_states": 4,
+        "extra_examples": {},
+        "extra_rule_hits": {
+          "bipartite_imbalance": 0,
+          "component_color_shortage": 0,
+          "component_parity": 0,
+          "global_color_shortage": 0,
+          "row_shortage": 0
+        },
+        "full_certificate_hashes": [
+          "125ff876eb0f7d5f050f62955ea736212647237e945d83d1d44eb9255e1c44b4",
+          "56cf012727acbec2aa144950cd7107d2fb2f012b76318d6f865b89a185cd0a6b"
+        ],
+        "n": 2,
+        "raw_subsets": 8,
+        "rejected_states": 2,
+        "rule_hits": {
+          "bipartite_imbalance": 2,
+          "component_color_shortage": 2,
+          "component_parity": 0,
+          "global_color_shortage": 2,
+          "row_shortage": 2
+        },
+        "valid_partial_states": 6
+      },
+      {
+        "extendible_states": 16,
+        "extra_examples": {
+          "bipartite_imbalance": {
+            "admissible_edges": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 1,
+            "needs": [
+              1,
+              1,
+              2
+            ],
+            "selected_orbit_indices": []
+          },
+          "row_shortage": {
+            "admissible_edges": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 1,
+            "needs": [
+              1,
+              1,
+              2
+            ],
+            "selected_orbit_indices": []
+          }
+        },
+        "extra_rule_hits": {
+          "bipartite_imbalance": 1,
+          "component_color_shortage": 0,
+          "component_parity": 0,
+          "global_color_shortage": 0,
+          "row_shortage": 1
+        },
+        "full_certificate_hashes": [
+          "1104fc210c96b7545e348a2f543e7d06f28b63110ca20aea182dc171e8d9d070",
+          "3de70aeb220800e7e4bd1368d5f435f5dcb3ef5491f6bfaabbf237fce1001ebe",
+          "4e53c283cae6643c28ca9092d4c9d3db2237a6d62a081140215292fa3802df7e",
+          "536a304e665aaef56d3327f045c34621561ce4e8bc93fd42a6f4ab7e9bf54be0"
+        ],
+        "n": 3,
+        "raw_subsets": 72,
+        "rejected_states": 15,
+        "rejects_before_frozen_empty_domain": 1,
+        "rule_hits": {
+          "bipartite_imbalance": 13,
+          "component_color_shortage": 9,
+          "component_parity": 4,
+          "global_color_shortage": 13,
+          "row_shortage": 15
+        },
+        "valid_partial_states": 31
+      },
+      {
+        "extendible_states": 80,
+        "extra_examples": {
+          "bipartite_imbalance": {
+            "admissible_edges": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 1,
+            "needs": [
+              0,
+              1,
+              2,
+              1
+            ],
+            "selected_orbit_indices": [
+              2
+            ]
+          },
+          "row_shortage": {
+            "admissible_edges": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 1,
+            "needs": [
+              0,
+              1,
+              2,
+              1
+            ],
+            "selected_orbit_indices": [
+              2
+            ]
+          }
+        },
+        "extra_rule_hits": {
+          "bipartite_imbalance": 9,
+          "component_color_shortage": 0,
+          "component_parity": 0,
+          "global_color_shortage": 0,
+          "row_shortage": 9
+        },
+        "full_certificate_hashes": [
+          "3566418e80e213d94aa68c20800d4b7a297fae76dc054169fa7b0d9fa78e2792",
+          "444d564384600230df88288cb40f21807c42efb04f54726376d5f5ee496d3a0b",
+          "5b144d56c014ffb70761b00aa125a723ca7abda9beb7fcfc52b956f21a9d1f7d",
+          "6dab7c61c21308af77f8b3b737e1d92dfe77b8a184dd41a5eff9b8a1192b2d58",
+          "897ff2691dc5ab85e87549fa1264b9fcc977d22830d223457f9bd3c3a7131e4a",
+          "95c9e51bd02fbef6b1eda6c37a5e0bea57c1be59bc7e43edf8c7a68792676885",
+          "b5cc89c74c1831b883c757e118980e8a3342eeb12f05399a3c92f3400cea01dc",
+          "c5bcb0af2e4788b1a5c6b65ccdbde058eb45772ac9e35ca63b4e3a0854cff3ee",
+          "dc321c060dcf044f13827015cf315b27e36103795ff6b58db53cd83078f67840",
+          "fdb0a654495bcaf7d39a2610dbd5df918267b8c2195f18176662974a68d09364"
+        ],
+        "n": 4,
+        "raw_subsets": 1024,
+        "rejected_states": 94,
+        "rejects_before_frozen_empty_domain": 9,
+        "rule_hits": {
+          "bipartite_imbalance": 88,
+          "component_color_shortage": 38,
+          "component_parity": 38,
+          "global_color_shortage": 76,
+          "row_shortage": 94
+        },
+        "valid_partial_states": 184
+      },
+      {
+        "extendible_states": 232,
+        "extra_examples": {
+          "bipartite_imbalance": {
+            "admissible_edges": [
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 0,
+            "needs": [
+              0,
+              0,
+              1,
+              1,
+              2
+            ],
+            "selected_orbit_indices": [
+              4,
+              5
+            ]
+          },
+          "component_parity": {
+            "admissible_edges": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "deficit": 2,
+            "diagonal": 2,
+            "needs": [
+              1,
+              1,
+              0,
+              2,
+              2
+            ],
+            "selected_orbit_indices": [
+              0
+            ]
+          },
+          "global_color_shortage": {
+            "admissible_edges": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 4,
+            "needs": [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "selected_orbit_indices": [
+              4,
+              7
+            ]
+          },
+          "row_shortage": {
+            "admissible_edges": [
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "deficit": 0,
+            "diagonal": 0,
+            "needs": [
+              0,
+              0,
+              1,
+              1,
+              2
+            ],
+            "selected_orbit_indices": [
+              4,
+              5
+            ]
+          }
+        },
+        "extra_rule_hits": {
+          "bipartite_imbalance": 68,
+          "component_color_shortage": 0,
+          "component_parity": 2,
+          "global_color_shortage": 4,
+          "row_shortage": 55
+        },
+        "full_certificate_hashes": [
+          "31b29e6f67317717809b247306d6e99bac252b97d1b5a673239e5eccc9befc68",
+          "4160a73410f4eba4d28a48eae4de02ae1b12c23ce017d597b7da81b9422f62e9",
+          "4163143549423cb39c5d8770dda2f44cefb8c4c2d947a0bc452a09f88ba3916d",
+          "52bf6407a783b4d78d0a678f17858d7bf44fe7fc54103a83128787e3fae86a89",
+          "5dd97a91ee892677c9f9d8443ce1400e0055c6aeb13f2549e1b57f42d08b2450",
+          "6403cc10b39d13a1cac7cc5cf660a9c99ab9e1e09fd06a6a3ee8a025efd00af7",
+          "654d3d3472bef532f46a76922186025191d955219f7d08de86487f554fe90a44",
+          "65617ceefd3ec8d2c6b3a94088601cb582098dd6e735c42af4a01fe922f91e41",
+          "6668d2e5aa07a2f3cac96ee87b2468e6d7142831cf0293b424e4b55a6cfa5f38",
+          "91c4c971ee44aaa46d32f92bcf3dcba89e79f9877a37c61cd48bc229f23d86dc",
+          "997706f47e137bafbb282d9020e715071463623e300cb52ee2c90a19875a7f76",
+          "a2b19529b92ea22922e950d58edac4e890d5258e82d3457c14097c0486dbf801",
+          "a8b78a8d0db8bd74775502c8c8bd838b2961e385cf05e11afb3640846122c00c",
+          "b1ab550dc903588a1c0fb672621f643f53a2d2c8cf4553d2a7e47037c44aa007",
+          "b5769327d6de06d552646c8c34875df0118540d869bddf609ef1640223b97616",
+          "bb9f1953ca4a92a94df1d29d3e47f8093ade1be710d3467406ccc055070a85d5"
+        ],
+        "n": 5,
+        "raw_subsets": 25600,
+        "rejected_states": 668,
+        "rejects_before_frozen_empty_domain": 71,
+        "rule_hits": {
+          "bipartite_imbalance": 622,
+          "component_color_shortage": 220,
+          "component_parity": 330,
+          "global_color_shortage": 498,
+          "row_shortage": 652
+        },
+        "valid_partial_states": 1091
+      }
+    ],
+    "interruption_boundaries": 681,
+    "interruption_shapes": 17,
+    "one_node_and_sliced_equivalence": [
+      {
+        "n": 3,
+        "nodes": 19,
+        "quota": 1,
+        "stages": 19,
+        "witnesses": 4
+      },
+      {
+        "n": 3,
+        "nodes": 19,
+        "quota": 2,
+        "stages": 10,
+        "witnesses": 4
+      },
+      {
+        "n": 3,
+        "nodes": 19,
+        "quota": 5,
+        "stages": 4,
+        "witnesses": 4
+      },
+      {
+        "n": 4,
+        "nodes": 64,
+        "quota": 1,
+        "stages": 64,
+        "witnesses": 10
+      },
+      {
+        "n": 4,
+        "nodes": 64,
+        "quota": 2,
+        "stages": 32,
+        "witnesses": 10
+      },
+      {
+        "n": 4,
+        "nodes": 64,
+        "quota": 5,
+        "stages": 13,
+        "witnesses": 10
+      },
+      {
+        "n": 5,
+        "nodes": 192,
+        "quota": 1,
+        "stages": 192,
+        "witnesses": 16
+      },
+      {
+        "n": 5,
+        "nodes": 192,
+        "quota": 2,
+        "stages": 96,
+        "witnesses": 16
+      },
+      {
+        "n": 5,
+        "nodes": 192,
+        "quota": 5,
+        "stages": 39,
+        "witnesses": 16
+      }
+    ]
+  },
+  "command": ".venv/bin/python -m unittest tests.test_diagonal_residual_checkpoint -v",
+  "elapsed_seconds": 0.9650912499928381,
+  "geometry_grids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "guard_chain_or_dispatcher_changed": false,
+  "limitations": [
+    "Separate core only; no residual guard/chain/dispatcher integration",
+    "Final source reads, encoding and atomic publication inherit cooperative/noninterruptible limits",
+    "External accepted predecessor and exclusive checkpoint ownership remain required",
+    "No source/schema migration from frozen control",
+    "Tiny logical node changes do not establish wall-time advantage",
+    "Compact frontier counters are provenance records, not independent traversal proofs"
+  ],
+  "n79_geometry_executed": false,
+  "result": "passed",
+  "rss_measured": false,
+  "source_hashes": {
+    "research/diagonal-residual-production-integration-design.md": "e81a8a123daf8b26330587ed2a088db352b6c98cd7e2d94e78ff3d67ff4db2aa",
+    "research/diagonal_residual_checkpoint.py": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "research/diagonal_residual_graph_tiny.py": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "research/diagonal_rowbatch_chain.py": "7dc712554cc2e66beb82860a6482d620769f4125bc4c92d297733dd197598787",
+    "research/diagonal_rowbatch_checkpoint.py": "b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289",
+    "research/diagonal_rowbatch_checkpoint_guard.py": "9b84eb89e009d32a2daa3cdfa6b3b5df9d63daa48ff2565c6f4572a682fb5d2f",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/diagonal_secant_dfs_fast.py": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "src/lazy_sat.py": "b71eb696b1a181886f745ec27d9d6e7ad2a47e5d22380c1ecdef7038ed0e5db2",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_diagonal_residual_checkpoint.py": "276d774e3c5b988755171d8dc9a0b05db3d7b0ec10332bd6d1b4ababe6f01171",
+    "tests/test_diagonal_residual_graph_tiny.py": "97f5c26c57b1515f3675dcba99299e9c015690914df17adc5043e921004aed2b"
+  },
+  "tests": 8,
+  "version": "diagonal-residual-checkpoint-tiny-v1"
+}

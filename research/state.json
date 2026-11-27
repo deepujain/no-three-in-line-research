@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect sole r45 pool and terminal ledgers before reallocation. Main 180 s/max4x10,000, explore120 s/max2x1,000. r44 audited475,410 main/16,100 explore, no witness. Protect3,600 unspent seconds. Publish reviewed packed integration core27beb803/codec d5001ad5 and23passing root tests; standalone guard design pending review, no host/n79 authorization. Residual new checkpoint core/tiny tests in development; guard waits independent source approval. Frozen reflection dispatcher b71eb696 unchanged.",
+  "next_action": "Inspect sole r46 pool/terminal ledgers before new allocation. r45 audited515,410 main/18,100 exploration nodes, no witness. Main180s/max4x10,000 and explore120s/max2x1,000; preserve3,600unspent seconds. Residual cored8576102 approved and root8tests passed1.098s; authorize separate guard/tiny tests, no host/n79 yet. Packed worker/receipt design414623cb sent independent review; implementation awaits explicit approval. Frozen reflection dispatcher b71eb696 unchanged.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "r44 independently audited; reduced r45 control continuation allocated, packed integration approved",
+  "current_round": "r45 audited; reduced r46 control allocated; residual guard and packed receipt design next",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence."
 }
