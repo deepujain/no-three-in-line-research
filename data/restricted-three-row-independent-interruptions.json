@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "cooperative_positions": 268,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "cooperative_positions": 417,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.1949342909938423,
+  "interruption_cuts": 685,
+  "limits": "Cooperative-check interruptions with memory callbacks, not filesystem crash points or validator timing. Real n4 traces reach zero directly, so no interruption after a real positive accepted state is claimed.",
+  "partial_positive_rejection": true,
+  "passed": true,
+  "source_sha256": "d188646da8d3e9bd0fa07cf11a5330d981b30a1e9be9269c8382420cac00c0a9",
+  "worker_sha256": "87e69fb151cbad1677aab5605aa734f2d38ca8c6c68c2b8b8d7503a8d93b32ce"
+}

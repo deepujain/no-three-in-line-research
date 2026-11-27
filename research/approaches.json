@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "pair suffix audited unchanged65; three-row source/tiny",
+    "status": "three-row reports65\u219264; audit pending",
     "scope": "Source-free149on75 with hard rows/soft columns; prior matching rebuild remains capped",
-    "finding": "Independent endpoint/ranking/64orderedledger audit confirmsunchangedU65,167pins/cleanreceipt; minima source-supported only, pairscanpartial. Unchangedpairprefixexpansioncurtailed; distinctrestricted3rowSOURCE/TINYactive. No149.",
-    "evidence": "research/two-row-suffix75-independent-actual-v3-metadata-review.md",
+    "finding": "One 16-block restricted three-row gate reports one strict move on final block,65\u219264. Clean owned receipt/allpins unchanged; independent accepted-chain audit pending. No valid149 or bound improvement; no continuation allocated.",
+    "evidence": "data/restricted-three-row75-v1/report.json",
     "prior_evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
   },
   {

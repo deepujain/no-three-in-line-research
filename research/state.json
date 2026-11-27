@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16781.05551759409,
+  "scheduled_search_wall_seconds_used": 16781.460539677086,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Restrictedthree-row SOURCE/TINY implementation, independent geometry/controller oracle and lifecycle/source review; no further actualsearch allocated. Unchanged pair expansion remains curtailed.",
+  "next_action": "Independent actual three-row saved-chain/receipt audit SOURCE/TINY then Root-owned audit; reported65\u219264 is pending independent acceptance. Engineer assesses continuation DESIGNONLY; no further search allocated.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Suffix independentlyaudited unchanged65, pairprefixcurtailed. Newrestricted3row SOURCE/TINYactive; syntheticn2..4 and4fixedn5/n6 componentoracle preparation completed withoutactualinput.",
+  "current_round": "Single reviewed three-row gate reports65\u219264 on final16thblock; independent actual audit pending.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,12 +40,13 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Restrictedthree-row frozen source, exacttable/controller oracle comparison",
-    "Three-row lifecycle/authentication and owned memory/persistence gates"
+    "Independent actual three-row helper/adapter source and tiny acceptance",
+    "Root-owned saved-chain audit of reported65\u219264",
+    "Conditional continuation DESIGNONLY after first strict three-row reduction"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Suffix audit4e290238/metadatareviewec94beaa accepts independentU65/ranking,64orderedledger records/167pins/receipt. No acceptedmoves/witness; minima remain source-supported, finalpairscanpartial. Prior2auditadapterfailurespreserved.",
+  "validation_status": "Finalv3 source/math/lifecycle and owned synthetic gates accepted; actual receipt clean0.405022083s55760KiB/allpinsunchanged, reports65\u219264, no valid149; independentactualauditpending.",
   "last_formal_review_at": "2026-11-27T13:35:54.051290+00:00",
   "review_outcome": "No improvedbound:156validon79. Sincepriorreview5621insertions andselectedexterioraffinefamily independentlyclosed; source-free149pilot stopped atinvalidbest97. Exacttwo-row productionimplementation/reviews active.173permanentreceipts sum16769.186192969086seconds includinginitial600; zero outstandingreservations or numericalworkers."
 }

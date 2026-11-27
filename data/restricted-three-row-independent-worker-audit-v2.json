@@ -1,0 +1,23 @@
+{
+  "assignment_comparisons": 57753,
+  "controller_fixtures": 118,
+  "decisions": 86,
+  "elapsed_seconds": 0.7295613750029588,
+  "event_trace_sha256": "9af080dc73e807897f4fc92bb8e49dedc88d1add4828dbfcbe386278db8f7f69",
+  "limits": "Memory artifact callbacks only. No fsync/real-validator timing claim. No full pair-stuck fixture. Global16 cap and artificial positive multiaccept control cases require separate disclosed tests.",
+  "passed": true,
+  "peak_rss_bytes": 25247744,
+  "pending_refusals": 86,
+  "profiles": 3541,
+  "real_positive_accepts": 0,
+  "scope": "SOURCE/TINY only. n2..4 census/selected fullpolicy traces; exactly authorized fixed5/6 component cases. No loader/run/actual inputs.",
+  "source_pins": {
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py": "87e69fb151cbad1677aab5605aa734f2d38ca8c6c68c2b8b8d7503a8d93b32ce",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_oracle.py": "f63cd423929ed49a3337f23fe0a75cb823ffe9f73689cf27b788505a87b69d9d",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit.py": "7fba383de8d28d006bed2801d393618f0fea021aee40b5b49b802c04222718dd",
+    "data/restricted-three-row-independent-fixed56-preparation.json": "e51f305f97993b2c54e64d48e5e2734f51fd9b89d7022070cdf1d729bec0f748",
+    "data/restricted-three-row-independent-preparation.json": "15b456f3d0ea283750947c4b621e36cc2da8ce804e3cd40e8b13677bdceea913"
+  },
+  "split_reload_cases": 204,
+  "table_cases": 217
+}

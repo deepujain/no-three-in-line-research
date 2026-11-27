@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Allocate reviewed suffix implementation; no actual suffixsearch;4826.44s searchbudget remains",
+    "status": "Singlethree-rowgatecomplete; allocate independentactualaudit after SOURCE/TINY gates",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -14,7 +14,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Independent suffix lifecycle/handoff/persistence checklist and frozen-source review",
+    "status": "Independentpurehelper/adapter review, no actual artifact reads",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
@@ -24,7 +24,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Author separatecursor-aware suffix SOURCE/TINY; no actual65geometry",
+    "status": "DESIGNONLY conditional continuation from reported64; no actual geometry/run",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -33,7 +33,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independent87fixture split-parity/cursor/charge oracle and frozen-source review",
+    "status": "Independentactualchainhelper/adapter SOURCE/TINY; no actual artifact reads",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   }

@@ -1,0 +1,19 @@
+{
+  "drive_lifetime": {
+    "all_indexes_released_after_drive": true,
+    "indexes_built": 5,
+    "maximum_live_tracked_indexes": 2,
+    "positive_accepts": 4,
+    "scope": "Real n4 geometry/rebuild, scripted optimizer nonminima; memory callbacks.",
+    "started": 16
+  },
+  "passed": true,
+  "run_transfer": {
+    "index_released_after_stubbed_run": true,
+    "no_initial_tuple_or_index_in_caller_locals": true,
+    "scope": "Fully stubbed loader/index/authority/controller/storage; run ownership boundary only."
+  },
+  "scope": "SOURCE/TINY only, no actual input.",
+  "source_sha256": "f5f63a14d1cbf6ef0a6da43b1e8807fafa22954c71db3c5e116233b84cdf0891",
+  "worker_sha256": "d4d3a272ca8691c110b881ba739d31f95a858406c20e711ef588e712ebff794c"
+}

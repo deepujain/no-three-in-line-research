@@ -1,0 +1,108 @@
+{
+  "caps_and_corruptions": [
+    "cursor",
+    "state_hash",
+    "start_cap",
+    "pending state",
+    "order reconstruction",
+    "globalcap",
+    "candidatecap",
+    "path traversal",
+    "partial optimum",
+    "index18"
+  ],
+  "controller_parity": {
+    "decisions": 55,
+    "fixtures": 87,
+    "pending": 55,
+    "splits": 142,
+    "strict_moves": 55
+  },
+  "faults": {
+    "cooperative_interruptions": 607,
+    "late_start_charged": true,
+    "late_zero_committed": true,
+    "lost_charge_rejected": true,
+    "publication_faults": 8,
+    "saved_zero_publication_interruption_rejected": true
+  },
+  "filesystem": {
+    "file_directory_fsync": true,
+    "publications": 4,
+    "uncertainty_blocks_retry": true
+  },
+  "mathematical": {
+    "K_multiplicity_cases": 8,
+    "artificial_high_unary_current_inclusion": true,
+    "assignments": 9585,
+    "blocks": 89,
+    "deficiency_migrations": 56,
+    "fixtures": 87,
+    "limitation": "n<=4 three-row deletion leaves <=1 retained row; base/unary geometry checks are necessarily zero. No pair-stuck escape claim.",
+    "ternary_falsifier": true,
+    "ternary_positive_entries": 461
+  },
+  "passed": true,
+  "scope": "SOURCE/TINY n2..4 only; no actual65 artifact/loader/geometry, no pair-stuck evidence.",
+  "tiny_sha256": "405a40a67c2ee2f6e55fe76621334d214c6a60f995bd8e128c199b8e886241fa",
+  "witness_metadata_failure": true,
+  "worker_sha256": "d4d3a272ca8691c110b881ba739d31f95a858406c20e711ef588e712ebff794c",
+  "zero_lifecycle": [
+    {
+      "mode": "normal",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "mode": "late_first",
+      "validator_calls": [
+        1,
+        0
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "late_second",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "mode": "late_zero",
+      "validator_calls": [
+        0,
+        0
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "disagreement",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "save_failure",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "post_save_hash_fault",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    }
+  ]
+}

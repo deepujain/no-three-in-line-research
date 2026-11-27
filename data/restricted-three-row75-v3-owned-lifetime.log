@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+    with patch.object(t.s,'ROOT',p):t.main()
+                      ^^^
+AttributeError: module 'research.restricted_three_row75_index_lifetime_tiny' has no attribute 's'
