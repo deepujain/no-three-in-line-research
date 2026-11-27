@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16769.186192969086,
+  "scheduled_search_wall_seconds_used": 16773.556052969092,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Final manifest preparation for one exact raw two-row pilot25soft30owned256; final independent v3 math/lifecycle and Root owned synthetic gates PASS. Actual geometry remains unallocated until manifest and process check.",
+  "next_action": "Engineer designs nonrepeating pair-prefix continuation; Math independent final acceptance/design review and Literature resource/lifecycle review. No further numerical search allocated.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Two-row v3 source/tiny accepted; synthetic gates clean, actual allocation pending exact manifest. abb91a1 Pages success; legacy RSS-exit CI failure one permitted rerun dispatched.",
+  "current_round": "Single reviewed two-row pilot completed; reported65 remains invalid, finalpairscanpartial. No automatic continuation or cap increase.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,12 +40,12 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Final source/runtime/handoff manifest",
-    "Single fresh reserved pilot then independent actual trajectory/endpoint audit"
+    "Independent actual strict-decrease/endpoint/receipt audit",
+    "Nonrepeating pair-prefix continuation DESIGNONLY review"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Row-block actual23.171991166s55104KiBclean/allpinsunchanged; independentauditfeaf6751/006110e8 checks34pins,exactendpointcounts595/97/203, checkpointc363d990; reportedtrajectorynotreplayed. No149/boundimprovement.",
+  "validation_status": "Independent actual chain auditc5a01e3b confirms29states/28strictlegalrowmoves97\u219265; adapterdf5a6e55/helperd0e558e5 source independentlyreviewed, owned1.648024917s48112KiBclean. All79pins bindpilot; no149/noindependentlocalminimum.",
   "last_formal_review_at": "2026-11-27T13:35:54.051290+00:00",
   "review_outcome": "No improvedbound:156validon79. Sincepriorreview5621insertions andselectedexterioraffinefamily independentlyclosed; source-free149pilot stopped atinvalidbest97. Exacttwo-row productionimplementation/reviews active.173permanentreceipts sum16769.186192969086seconds includinginitial600; zero outstandingreservations or numericalworkers."
 }

@@ -1,0 +1,1 @@
+{"accepted": true, "boundary_saved": true, "current_unweighted": 65, "elapsed_seconds": 4.327881666991743, "state": {"U": 65, "accepted": 28, "pair_completed": 32, "pair_scan_complete": false, "pair_started": 32, "row_completed": 308, "row_started": 308, "row_sweep_complete": true, "status": "pair_cap"}, "status": "pair_cap", "witness_saved": false}

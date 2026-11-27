@@ -1,0 +1,64 @@
+{
+  "negative_cases": 8,
+  "passed": true,
+  "scope": "SOURCE/TINY synthetic only; actual audit unexecuted.",
+  "source_sha256": "0237252cd68a1b8bab88198c0de1f9533d26ec546f6647d15826e68f9a8c3085",
+  "valid_chain": {
+    "artifact_chain_passed": true,
+    "execution_claims_unproven": [
+      "exact neighborhood minima",
+      "first-improvement ordering",
+      "I/J/M zero skips",
+      "complete final-state neighborhood coverage",
+      "receipt/resource acceptance"
+    ],
+    "final_counters": {
+      "pair_completed": 1,
+      "pair_started": 1,
+      "row_completed": 3,
+      "row_started": 3
+    },
+    "n": 4,
+    "scope": "Independent artifact identities, determinant scores, row invariants, strict decreases and changed-row membership only.",
+    "scores": [
+      1,
+      0
+    ],
+    "states": [
+      {
+        "U": 1,
+        "columns": [
+          3,
+          0,
+          2,
+          2
+        ],
+        "normalized_sha256": "f8ba110ddd4f062b5973fbd6b005ea2745785978a1a71f3fa0083109b48a84f6",
+        "rows": [
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "U": 0,
+        "columns": [
+          2,
+          2,
+          1,
+          2
+        ],
+        "normalized_sha256": "4328d7542fcda5e5dd442d34b0779dc9526b1806a3387a36c658e5cc1e883f0c",
+        "rows": [
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "states_recounted": 2,
+    "zero_geometry_verified": true
+  }
+}

@@ -940,3 +940,19 @@ Frozen v1 49a8e9f5 and v2 e122a497 preserved byte-identically. Final v3 0211f6be
 Root owned synthetic tiny0.281675708seconds51984KiB and artificial memory/streaming envelope2.089235250seconds75696KiB exited clean under30second/256MiB gates. Artificial keys/masks/24MiB buffers and6840000visits are not actual geometry or throughput predictions. Receipt digestsbcdd6d0c/ea040e97 bind final worker/helpers. Actual numerical budget unchanged16769.186192969086/21600seconds; no outstandingreservation. Final source/runtime/handoff manifest and fresh actualprocessinspection precede singlefuture25soft30ownedpilot; no continuation/capincrease allocated.
 
 Latestpublishedabb91a1 Pages succeeded. CI46008227710 failed1of789tests on knownlegacy positive-RSS process-exit race; a single failed-job rerun dispatched. No guard weakened or research source changed for CI.
+
+
+## 2026-11-27T13:51:45.828463+00:00 — Single exact two-row pilot reports97→65; audit dispatched
+
+Root accepted final78pinmanifestf2ad8a6c and inspected no live numericalworker. Permanent30secondreservation preceded one25soft30owned256pilot of frozenworker0211f6be. Actual4.369860000seconds55280KiBcleanexit0/allpinsunchanged. Report0ddef4aa/receipt2c72b6ed/boundaryac3b9116 reports28strictROWmoves from97to65,308rowscompleted,32pairscompleted withoutpairimprovement, thenpair_cap. Finalrowsweepcomplete is execution-supported only; finalpairscan incomplete and no localminimum/exclusion claimed. Positive65 remainsinvalid/no149. Full28moveartifacts saved for independentdirectdeterminantchainaudit; no optimizerreplay allocated.
+
+Math prepares boundedindependent audit adapter after Literature helper-source review; Root ownsseparateauditinvocation. Engineer DESIGNONLY assesses authenticatednonrepeating current65/pairprefix continuation, explicitcost/curtailment and sharedcursor/cap semantics; no productionchanges, capincrease or furthersearch allocated. Aggregatepermanentsearchusage16773.556052969092/21600seconds; remaining4826.443947030908. No oldpolicyloop/seed/alternateinput. Sourceandtinyreviewevidence publishedbcbbfdb; actualevidencependingindependentacceptance.
+
+
+## 2026-11-27T13:56:15.194035+00:00 — Independent saved-chain audit confirms97→65
+
+Independent chain helperd0e558e5/source-review79f739e3 and fixedadapterdf5a6e55/source-reviewef6f01da were externally pinned for Root-owned30/256 audit. Separate verification reservation reconciled to1.648024917seconds48112KiBclean; guard binds outputSHA c5a01e3bc6237f48b5e3f86091ee0c08714ba58c0f89481328af9e1dbd8b7fc2. Audit authenticates79pins includingmanifest, full28movefiles/initial/boundary and receipt. Direct integerdeterminants recount all29states and establish all28legalstrictrowchanges from97to65. This is a fullsavedacceptedchain audit, not optimizerpolicy replay or independentneighborhoodexclusion. Final32-pairscanpartial; no149/157/158 construction or novelty.
+
+Engineer frozencontinuationDESIGNc5b500d6 proposes64distinctsuffixpairs/cumulative96 androws512unchanged underone25soft30ownedgate, with authenticatedstate-specificcursor and independentlydisclosedsource-supported oldprefix. Math andLiterature independentdesignreviewsassigned. No implementation/capexpansion or newactualsearch allocated. A restrictedthree-rowinteractionalternative remainsdesign-only. Root refreshedREADME/evidencepage fromaudited65status; builddualchecked156baseline andUIpassedallfiveviewports. Searchusage remains16773.556052969092seconds; separateverificationtiming explicitlyreceipted.
+
+Final independent metadata acceptance review19f4f83d accepts this scopedpilot/audit and exactoutput/guard/source bindings; no localminimum or boundimprovement.
