@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Verified faster exact search3261nodes; single reviewed600s continuation pool42495 started07:06:21UTC. Middle1541 root+250 accepted, independentstageaudit pending.",
+  "current_round": "Main600-r2 running under solepool42495; terminalaudit due~07:16UTC. Middle1541 250node frontier independently audited; prepare bounded120s exploration template.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,5 +40,5 @@
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Root467tests41.623s: one transient host-startupPermissionError,8skips; sole failingtest passed separately0.326s with no sourcechanges. Caller/pool16passed1.770s; fivebrowserviewports passed. Currentpublicpush pending."
+  "validation_status": "8056ad2 GitHub verification and Pages bothSUCCESS. Root467tests: one transient host-startupPermissionError,8skips; exactfailingtest thenPASS0.326s unchanged. Caller/pool16PASS andfiveUIviewportsPASS."
 }
