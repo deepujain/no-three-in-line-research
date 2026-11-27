@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16746.014201803082,
+  "scheduled_search_wall_seconds_used": 16769.186192969086,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Engineer implementing from-scratch row-block SOURCE/TINY worker under accepted design/addendum; Math independent geometry oracle; Literature lifecycle/source review. No actual149 search or continuation allocated.",
+  "next_action": "Review exacttwo-row rawdescent bounded design from independentlyaudited best97 as explicit newalgorithmhandoff; no production or numericalallocation yet.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Row-block original23a31e84/addendum87312b23 independently accepted0979bcbe/115b4b4b/d86049d5; SOURCE/TINY underway.",
+  "current_round": "Row-block endpoints independently auditedfeaf6751:595initial/97best/203finalconflicts; no149. Unchangedcontinuationdeclined. Exacttwo-row correction DESIGNONLY active.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,13 +40,12 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Production row-block source/tiny freeze",
-    "Independent geometry/transaction/checkpoint source review",
-    "Synthetic memory-envelope owned measurement and lifecycle review"
+    "Exacttwo-row rawdescent correction design",
+    "Independent mathematical/prior-scope and engineering design reviews"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Affine sourcec06b0181 independently reviewed5568e364/e2af5ecc; actual0.194112292s48176KiB clean/28filemanifest7e030c78; independentactualaudit77e273e1 verifies29pins/twoaxes/zeroframes. No149/boundimprovement.",
+  "validation_status": "Row-block actual23.171991166s55104KiBclean/allpinsunchanged; independentauditfeaf6751/006110e8 checks34pins,exactendpointcounts595/97/203, checkpointc363d990; reportedtrajectorynotreplayed. No149/boundimprovement.",
   "last_formal_review_at": "2026-11-27T12:38:01.235816+00:00",
   "review_outcome": "Best remains156 on79. Fixed scaffold family independently certified UNSAT; selected152 n76 contractions excluded. Distinct n74 nonuniform insertion source/tiny frozen; independent reviews in progress. No numerical process/reservation live."
 }

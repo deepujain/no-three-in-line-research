@@ -1,0 +1,31 @@
+{
+  "gate_status": "exited",
+  "trigger_gate_status": null,
+  "returncode": 0,
+  "elapsed_seconds": 0.2678615000040736,
+  "rss_samples": 6,
+  "monitor_error": null,
+  "seconds_limit": 10,
+  "rss_limit_mib": 256,
+  "cleanup_status": "clean",
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "peak_sampled_rss_kib": 49744,
+  "cleanup_elapsed_seconds": 0.01118941699678544,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/row_block_breakout75_actual_audit.py",
+    "--report",
+    "data/row-block-breakout75-v1/report.json",
+    "--receipt",
+    "data/experiments/shepherd-row-block-breakout75-v1.json",
+    "--manifest",
+    "data/row-block-breakout75-source-pins.json",
+    "--manifest-sha256",
+    "184d2c2e7849c0dd0392d680c06e9fc6db2522bac80fe37aadceec20af9dbbb9"
+  ],
+  "audit_helper_sha256": "006110e8799b5f0a508ee1ee870fd7fd8181690f2c6d9c970d2b354e9c76605a",
+  "scope": "Independent endpoints/checkpoint/receipt verification only; no trajectory replay/search"
+}

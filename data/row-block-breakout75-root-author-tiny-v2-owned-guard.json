@@ -1,0 +1,19 @@
+{
+  "gate_status": "exited",
+  "trigger_gate_status": null,
+  "returncode": 0,
+  "elapsed_seconds": 0.28710041599697433,
+  "rss_samples": 6,
+  "monitor_error": null,
+  "seconds_limit": 30,
+  "rss_limit_mib": 256,
+  "cleanup_status": "clean",
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "peak_sampled_rss_kib": 52272,
+  "cleanup_elapsed_seconds": 0.010978332997183315,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "scope": "Final metadata-delta synthetic checks only; no actual75search",
+  "worker_sha256": "ee8a78e0f199f2a2f52e2bc37530c12a05c6b54a978f31371b05d9558cd51e0f"
+}

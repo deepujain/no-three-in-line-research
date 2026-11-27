@@ -353,7 +353,9 @@ def validator_summary(report):
 
 
 def dual_validate(points,n,score,check):
-    candidate = {'n':n,'points':list(points),'claimed_conflict_count':score,'novelty_claimed':False}
+    candidate = {'n':n,'points':list(points),'claimed_conflict_count':score,'novelty_claimed':False,
+                 'axis_counts':{'rows':[sum(y == r for _,y in points) for r in range(n)],
+                                'columns':[sum(x == c for x,_ in points) for c in range(n)]}}
     check(); a = verify_certificate(candidate); check(); b = verify_certificate_bruteforce(candidate)
     if not (a['point_count'] == b['point_count'] == len(points) and a['normalized_sha256'] == b['normalized_sha256']
             and a['conflict_count'] == b['conflict_count'] == score and a['conflicts'] == b['conflicts']
@@ -373,6 +375,7 @@ def run(out,manifest,seconds=25,*,started=None,clock=time.monotonic):
     report = {'method':'from_scratch_row_block_breakout75','status':'incomplete','accepted':False,'closure':False,
               'witness_saved':False,'checkpoint_saved':False,'identity_valid':False,'work':{},'checkpoints':[],'penalty_checkpoints':[],
               'n':N,'k':2*N-1,'seed':SEED,'max_steps':MAX_STEPS,'policy':Policy().__dict__,
+              'soft_seconds':seconds,'search_seconds':seconds-2,
               'scope':'One scratch row/soft-column/adaptive-weight trajectory; no exclusion, source seed, restart, resume CLI or automatic continuation.'}
     pins = {}; pins_ready = False; boundary = None; rng = random.Random(SEED); classification = 'invalid_research_state'
     def verify_pins():
@@ -397,7 +400,8 @@ def run(out,manifest,seconds=25,*,started=None,clock=time.monotonic):
         verify_pins(); pins_ready = True
         identities = {'manifest_path':manifest_name,'manifest_sha256':manifest_sha,'worker_sha256':pins[str(Path(__file__).resolve())],
                       'runtime_path':runtime,'runtime_sha256':pins[runtime],'python_version':sys.version,
-                      'random_module_path':random_module,'random_module_sha256':pins[random_module],'RNG_version':3}
+                      'random_module_path':random_module,'random_module_sha256':pins[random_module],'RNG_version':3,
+                      'soft_seconds':seconds,'search_seconds':seconds-2,'owned_seconds':30,'rss_limit_mib':256}
         boundary = initial_boundary(N,rng,check=search_check,work=report['work'])
         if boundary.unweighted:
             save_json(out/'initial.json',{'n':N,'points':boundary.points,'unweighted':boundary.unweighted,'weighted':boundary.weighted,'valid':False})

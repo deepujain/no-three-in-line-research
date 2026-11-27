@@ -15,3 +15,6 @@ data/corner-batch-*-records/
 # Local mutable checkpoint frontiers; accepted digests live in reports.
 data/*frontier.json
 data/*frontier.json.chain-owner.json
+
+# Completed mutable search boundaries stay local; reports publish their hashes.
+data/**/completed-boundary.json

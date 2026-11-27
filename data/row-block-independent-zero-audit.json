@@ -1,0 +1,188 @@
+{
+  "author_helper_sha256": "55d548b7bfa4b805f50ea1154a5ba92993416560be620faa63a3185de20aca12",
+  "disclosed_author_lifecycle_reruns": [
+    {
+      "accepted": true,
+      "checkpoint_saved": true,
+      "mode": "normal",
+      "status": "synthetic_completed_prefix_stop",
+      "witness_saved": false
+    },
+    {
+      "accepted": true,
+      "checkpoint_saved": true,
+      "mode": "zero",
+      "status": "verified149",
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": true,
+      "mode": "late_first",
+      "status": "validation_incomplete",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": true,
+      "mode": "late_second",
+      "status": "verified149",
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": true,
+      "mode": "late_raw_zero",
+      "status": "validation_incomplete",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": true,
+      "mode": "disagreement",
+      "status": "validation_incomplete",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": false,
+      "mode": "checkpoint_failure",
+      "status": "checkpoint_failure",
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": false,
+      "mode": "serialization_failure",
+      "status": "checkpoint_failure",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": true,
+      "mode": "pin_drift",
+      "status": "synthetic_completed_prefix_stop",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_saved": true,
+      "mode": "witness_then_pin_drift",
+      "status": "verified149",
+      "witness_saved": true
+    }
+  ],
+  "helper_sha256": "732cdbfd77b3f707503e524bef2f9402a95644c51b0d9918aa01a7d78f5ef784",
+  "independent_transition_zero_cases": [
+    {
+      "accepted": true,
+      "checkpoint_validation": "dual_verified_witness",
+      "events": [
+        "initial.json",
+        "completed_zero",
+        "validator1",
+        "validator2",
+        "valid149.json",
+        "completed-boundary.json",
+        "report.json"
+      ],
+      "mode": "ordinary",
+      "status": "verified149",
+      "witness_saved": true
+    },
+    {
+      "accepted": true,
+      "checkpoint_validation": "dual_verified_witness",
+      "events": [
+        "initial.json",
+        "completed_zero",
+        "validator1",
+        "validator2",
+        "valid149.json",
+        "completed-boundary.json",
+        "report.json"
+      ],
+      "mode": "after_search_deadline",
+      "status": "verified149",
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "checkpoint_validation": "unverified_zero_candidate",
+      "events": [
+        "initial.json",
+        "completed_zero",
+        "completed-boundary.json",
+        "report.json",
+        "report.json"
+      ],
+      "mode": "after_main_deadline",
+      "status": "validation_incomplete",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_validation": "unverified_zero_candidate",
+      "events": [
+        "initial.json",
+        "completed_zero",
+        "validator1",
+        "completed-boundary.json",
+        "report.json",
+        "report.json"
+      ],
+      "mode": "first_finishes_late",
+      "status": "validation_incomplete",
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "checkpoint_validation": "dual_verified_witness",
+      "events": [
+        "initial.json",
+        "completed_zero",
+        "validator1",
+        "validator2",
+        "valid149.json",
+        "completed-boundary.json",
+        "report.json",
+        "report.json"
+      ],
+      "mode": "second_finishes_late",
+      "status": "verified149",
+      "witness_saved": true
+    }
+  ],
+  "scope": "synthetic n4 actual transition and real dual validators; no actual n75 geometry/search",
+  "source_points": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "worker_sha256": "ee8a78e0f199f2a2f52e2bc37530c12a05c6b54a978f31371b05d9558cd51e0f"
+}

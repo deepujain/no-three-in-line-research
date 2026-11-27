@@ -1,0 +1,48 @@
+{
+  "audit_sha256": "625a3626ec3a6f7ec985361077989b9751508de2734140c1b471ec43f904f5a6",
+  "counts": {
+    "all_row_outcomes": 62698,
+    "best_row_sets": 14075,
+    "cap_rollbacks": 8,
+    "checkpoint_interruptions": 14,
+    "checkpoints": 8,
+    "interrupted_transactions": 1984,
+    "maximum_weight_cases": 1,
+    "migration_deltas": 62864,
+    "pair_keys": 73398,
+    "policy_transactions": 8,
+    "row_cost_vectors": 14075,
+    "stale_score_rejections": 1,
+    "states": 3541,
+    "weighted_migration_deltas": 1250,
+    "weighted_row_sets": 383,
+    "weighted_states": 118
+  },
+  "elapsed_seconds": 6.633691541996086,
+  "interrupted_phases": [
+    "index_build",
+    "migration_after_draw",
+    "migration_before_draw",
+    "migration_sample_complete",
+    "migration_sampling",
+    "penalty_copy",
+    "penalty_precheck",
+    "penalty_update",
+    "precommit",
+    "row_after_draw",
+    "row_alternatives",
+    "row_before_draw",
+    "row_costs",
+    "row_tie_after_draw",
+    "row_tie_before_draw"
+  ],
+  "limits": [
+    "No actual n75 geometry or search.",
+    "No orchestration/validator lifecycle acceptance here.",
+    "No production checkpoint file-write fault test here; lifecycle review owns it.",
+    "Weighted states sampled as declared; not exhaustive over weights."
+  ],
+  "oracle_sha256": "bb96c06a6248d8e81c59a7d63f6a11673b7fea5dcb232f4c2959be7465aba9c2",
+  "scope": "frozen production pure helpers versus independent synthetic oracle only",
+  "worker_sha256": "ee8a78e0f199f2a2f52e2bc37530c12a05c6b54a978f31371b05d9558cd51e0f"
+}

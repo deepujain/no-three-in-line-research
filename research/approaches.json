@@ -30,10 +30,11 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "Matching rebuild pilot capped; no improvement",
-    "scope": "Direct157 deficiency moves and whole-matching reconstruction",
-    "finding": "Initial157 is certified one-step minimum5; reviewed two-step peak6 census no better. Distinct source-disjoint78+79 rebuild capped2000insertions/max23added, no156/157. Root868edges/79matching independently checked; no exclusion or unchanged continuation.",
-    "evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
+    "status": "row-block pilot stalled; two-row design",
+    "scope": "Source-free149on75 with hard rows/soft columns; prior matching rebuild remains capped",
+    "finding": "Independent endpoints595initial/97best/203final collineartriples. Best remains invalid; no149. Reported82penaltyupdates gave0postpenaltybestimprovements, so unchangedcontinuation declined. Exacttwo-row rawdescent underdesignreview.",
+    "evidence": "research/row-block-breakout75-independent-actual-review.md",
+    "prior_evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
   },
   {
     "id": "A05",
