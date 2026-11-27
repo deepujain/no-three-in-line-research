@@ -1,0 +1,175 @@
+{
+  "controls": {
+    "cap_fixtures": [
+      {
+        "U": 1,
+        "pair_scan_complete": false,
+        "pair_started": 0,
+        "row_started": 0,
+        "row_sweep_complete": false,
+        "status": "row_cap"
+      },
+      {
+        "U": 1,
+        "pair_scan_complete": false,
+        "pair_started": 0,
+        "row_started": 2,
+        "row_sweep_complete": false,
+        "status": "row_cap"
+      },
+      {
+        "U": 1,
+        "pair_scan_complete": false,
+        "pair_started": 0,
+        "row_started": 3,
+        "row_sweep_complete": true,
+        "status": "pair_cap"
+      },
+      {
+        "U": 0,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "row_started": 3,
+        "row_sweep_complete": false,
+        "status": "zero"
+      },
+      {
+        "U": 0,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "row_started": 3,
+        "row_sweep_complete": false,
+        "status": "zero"
+      }
+    ],
+    "interrupted_check_positions": 347,
+    "positive_prefix_moves": 2,
+    "terminal_branch": "controller stub only, not geometric local-minimum evidence"
+  },
+  "geometry": {
+    "pair_optima": 259,
+    "partner_ties": 162,
+    "row_optima": 259,
+    "states": 87
+  },
+  "handoff": {
+    "limitation": "Full fixed source chain remains separately reviewed; no actual artifact read.",
+    "malformed_metadata_rejected_before_geometry": 3
+  },
+  "lifecycle": [
+    {
+      "accepted": true,
+      "boundary_saved": true,
+      "mode": "normal",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "accepted": true,
+      "boundary_saved": true,
+      "mode": "raw_write_latency",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "late_first",
+      "validator_calls": [
+        1,
+        0
+      ],
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "late_second",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "late_zero",
+      "validator_calls": [
+        0,
+        0
+      ],
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "disagreement",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "witness_save_failure",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": false
+    },
+    {
+      "accepted": false,
+      "boundary_saved": false,
+      "mode": "boundary_failure",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "report_failure",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "late_report",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "accepted": false,
+      "boundary_saved": true,
+      "mode": "pin_drift",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    }
+  ],
+  "passed": true,
+  "scope": "n2..4 synthetic geometry/control/validators and isolated loader-stub lifecycle only; no actual source coordinates or n75 geometry/search.",
+  "tiny_sha256": "4ed7990c84d52e5210d8512798b86897b27657cc12317e69d02111646437845b",
+  "worker_sha256": "0211f6be4086d9a9835f6fa71dc6b0f6ded9aedf86dac1ebef8eacac74a5129c"
+}

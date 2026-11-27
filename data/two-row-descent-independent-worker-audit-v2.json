@@ -1,0 +1,322 @@
+{
+  "all_policy_trajectories_sha256": "2bfc0a9e505ce4d358a506258518ed844d4349d14775c732a0e45368a0cc271d",
+  "audit_sha256": "dc2defee2ab6eb2fbe17d45744bb9a0ce4169cf78718f5b4f112bce770cb6e02",
+  "cap_fixtures": [
+    {
+      "pair_cap": 32,
+      "result": {
+        "U": 0,
+        "accepted": 1,
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": true,
+        "status": "zero"
+      },
+      "row_cap": 512
+    },
+    {
+      "pair_cap": 32,
+      "result": {
+        "U": 1,
+        "accepted": 0,
+        "pair_completed": 0,
+        "pair_scan_complete": false,
+        "pair_started": 0,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 0,
+        "row_started": 0,
+        "row_sweep_complete": false,
+        "status": "row_cap"
+      },
+      "row_cap": 0
+    },
+    {
+      "pair_cap": 32,
+      "result": {
+        "U": 1,
+        "accepted": 0,
+        "pair_completed": 0,
+        "pair_scan_complete": false,
+        "pair_started": 0,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 2,
+        "row_started": 2,
+        "row_sweep_complete": false,
+        "status": "row_cap"
+      },
+      "row_cap": 2
+    },
+    {
+      "pair_cap": 0,
+      "result": {
+        "U": 1,
+        "accepted": 0,
+        "pair_completed": 0,
+        "pair_scan_complete": false,
+        "pair_started": 0,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": true,
+        "status": "pair_cap"
+      },
+      "row_cap": 3
+    },
+    {
+      "pair_cap": 1,
+      "result": {
+        "U": 0,
+        "accepted": 1,
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": true,
+        "status": "zero"
+      },
+      "row_cap": 3
+    }
+  ],
+  "counts": {
+    "cross_cells": 333979,
+    "direct_assignments": 874573,
+    "merged_streams": 6,
+    "partner_minima": 672,
+    "policy_traces": 3541,
+    "positive_vertical_cross_cells": 57429,
+    "priority_pairs": 20983,
+    "priority_rows": 14075,
+    "row_optima": 14075,
+    "row_pairs": 20983,
+    "shared_cap_traces": 27,
+    "states": 3541,
+    "zero_pair_optima": 15646,
+    "zero_row_optima": 3642
+  },
+  "elapsed_seconds": 8.112295333994552,
+  "interruptions": [
+    {
+      "interruptions": 189,
+      "phases": {
+        "index_build": 72,
+        "precommit": 1,
+        "priorities": 74,
+        "retained_lines": 30,
+        "row_choices": 12
+      },
+      "positive_commits": 1
+    },
+    {
+      "interruptions": 215,
+      "phases": {
+        "cross_table": 17,
+        "index_build": 41,
+        "pair_choices": 26,
+        "priorities": 32,
+        "retained_lines": 80,
+        "row_choices": 19
+      },
+      "positive_commits": 0
+    }
+  ],
+  "limits": "Positive terminal is an explicit control stub, not genuine geometric local-minimum evidence. No loader, run lifecycle, owned-memory or n75 performance claim.",
+  "oracle_sha256": "fa3ed0628c1a305d368653cc1cc8669839dac81047e31d564c994f3745060842",
+  "passed": true,
+  "policy_outcomes": {
+    "zero": 3541
+  },
+  "positive_terminal_control_stub": {
+    "U": 1,
+    "accepted": 0,
+    "pair_completed": 6,
+    "pair_scan_complete": true,
+    "pair_started": 6,
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "row_completed": 3,
+    "row_started": 3,
+    "row_sweep_complete": true,
+    "status": "no_strict_descent"
+  },
+  "scope": "SOURCE/TINY only; no actual coordinates, loader or run invocation.",
+  "worker_sha256": "e122a497bf2da967c4b35cc043f4a13febbd781a8e7baca9d81cda7f2dfcda41"
+}

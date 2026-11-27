@@ -920,3 +920,23 @@ Dispatcher rereadrequired files andinspected actualagents/processes: threeAIwork
 Root metadata-only handoffe1941ac1 records exactly auditedbest97 bytehashbcb96acb/normalized4312bb21 plus originalreport/checkpoint/receipt/manifest/audit identities. Onlybestcoordinates becomeactiveatafutureallocatedgate; weights/RNG areprovenance, notresumedstate. Originalcheckpointstayslocalignored. No newgeometry wascomputed for metadata handoff.
 
 Reviewedpolicy: deterministicrawstrictdescent,currenteligible,exactcrossmatrixandbothdeficiencyorientations,lexicographically mergedXstream gives firstzero prioritywithouttieconflict; shared512row/32pairstartedcaps,onefuture25soft30owned256pilotonly. Noactualrun/capincrease/continuation/newseed authorized. Math independentpreparationexhausts3541tinystates/20983rowpairs/874573directassignments andverifies firstzero/globaltie equality on15646zerooptima; these aretinychecks, notactual75performance orsuccess evidence.
+
+
+## 2026-11-27T13:35:54.051290+00:00 — Formal hourly synthesis
+
+ReadPLAN,state,ten-approachledger,decisions,literature andcurrentreports; inspectedactualagents/hostprocesses. ThreeboundedAIworkers areactive, no numericalprocess/pool oroutstandingreservation. All173permanentreceipts plusinitial600 reserve total16769.186192969086seconds, remaining4830.813807030914. Originaldeadline22:59:25Z unchanged. Runtimeexactmodel/reasoning remainsunavailable; roster retains historicalassignmentmetadata without freshattestation.
+
+Sincepriorformalreview, independent certificatesclosed5621selectedn74insertions andthe selectedsource exterioraffinefamily. These exclude only theirfinitefamilies. The distinct source-free149pilot produced independentlychecked endpointcounts595initial/97best/203final, no valid149; no bestimprovementafter82reportedpenalties mettheprescribedcurtailmentcriterion. Unchangedcontinuation wasdeclined, notqueuedmerelytofillcompute. No reviewedunrunproductionsearchisreadywhilethecorrectionisbeingimplemented.
+
+Bestvalidconstructionremains156on79, finiteceiling158; no novelty orasymptoticclaim. Literaturebaseline/prior-scope ledgers remainseparate fromlocalvalidity. Exactone/two-rowrawstrictdescent isthenewexplorationbranch: Engineer source/tinyauthor, Math independentoracle/source review, Literature lifecycle/handoffreview. Independenttinyoracle covers3541states/20983pairs/874573assignments; noactual75performance inferred. Conditionalimplementationauthorizationcoversnoactualrun,capincrease,sourcealternate oroldpolicyrerun. Finalsource/memory/lifecyclepasses andfreshownedreservationremainrequired.
+
+Latestpublishedabb91a1 CI46008227710 queuedandPages46008227774 pendingatonecheck. No failureinferred orrerunattempted. CurrentpublicREADME/imageandone-screenvisualization retain explicitnoimprovementandlastauditedpilot.
+
+
+## 2026-11-27T13:49:21.084218+00:00 — Exact two-row source and synthetic gates accepted
+
+Frozen v1 49a8e9f5 and v2 e122a497 preserved byte-identically. Final v3 0211f6be fixes zero-validator persistence priority and atomically clears new-state scan flags on acceptance. Independent math v2 288f8905 plus v3 addendum50622b44 pass exhaustive3541tiny states/traces,20983pair minima,874573assignments and404interruptions. Lifecycle5eaef9b7 accepts authenticated coordinate-only handoff, zero timing, caps and source-bound publication. Positive full localminimum fixture remains control-stub-only. No actual75geometry/search was run by these reviews.
+
+Root owned synthetic tiny0.281675708seconds51984KiB and artificial memory/streaming envelope2.089235250seconds75696KiB exited clean under30second/256MiB gates. Artificial keys/masks/24MiB buffers and6840000visits are not actual geometry or throughput predictions. Receipt digestsbcdd6d0c/ea040e97 bind final worker/helpers. Actual numerical budget unchanged16769.186192969086/21600seconds; no outstandingreservation. Final source/runtime/handoff manifest and fresh actualprocessinspection precede singlefuture25soft30ownedpilot; no continuation/capincrease allocated.
+
+Latestpublishedabb91a1 Pages succeeded. CI46008227710 failed1of789tests on knownlegacy positive-RSS process-exit race; a single failed-job rerun dispatched. No guard weakened or research source changed for CI.

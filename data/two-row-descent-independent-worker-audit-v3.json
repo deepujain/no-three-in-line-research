@@ -1,0 +1,830 @@
+{
+  "audit_sha256": "1e19a82fe9f98921dcc5a37fd0578401bb36de273d5f4062a6eb3d43c4505504",
+  "exhaustive": {
+    "all_policy_trajectories_sha256": "2bfc0a9e505ce4d358a506258518ed844d4349d14775c732a0e45368a0cc271d",
+    "audit_sha256": "dc2defee2ab6eb2fbe17d45744bb9a0ce4169cf78718f5b4f112bce770cb6e02",
+    "cap_fixtures": [
+      {
+        "pair_cap": 32,
+        "result": {
+          "U": 0,
+          "accepted": 1,
+          "pair_completed": 1,
+          "pair_scan_complete": false,
+          "pair_started": 1,
+          "points": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 3,
+          "row_started": 3,
+          "row_sweep_complete": false,
+          "status": "zero"
+        },
+        "row_cap": 512
+      },
+      {
+        "pair_cap": 32,
+        "result": {
+          "U": 1,
+          "accepted": 0,
+          "pair_completed": 0,
+          "pair_scan_complete": false,
+          "pair_started": 0,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 0,
+          "row_started": 0,
+          "row_sweep_complete": false,
+          "status": "row_cap"
+        },
+        "row_cap": 0
+      },
+      {
+        "pair_cap": 32,
+        "result": {
+          "U": 1,
+          "accepted": 0,
+          "pair_completed": 0,
+          "pair_scan_complete": false,
+          "pair_started": 0,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 2,
+          "row_started": 2,
+          "row_sweep_complete": false,
+          "status": "row_cap"
+        },
+        "row_cap": 2
+      },
+      {
+        "pair_cap": 0,
+        "result": {
+          "U": 1,
+          "accepted": 0,
+          "pair_completed": 0,
+          "pair_scan_complete": false,
+          "pair_started": 0,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 3,
+          "row_started": 3,
+          "row_sweep_complete": true,
+          "status": "pair_cap"
+        },
+        "row_cap": 3
+      },
+      {
+        "pair_cap": 1,
+        "result": {
+          "U": 0,
+          "accepted": 1,
+          "pair_completed": 1,
+          "pair_scan_complete": false,
+          "pair_started": 1,
+          "points": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 3,
+          "row_started": 3,
+          "row_sweep_complete": false,
+          "status": "zero"
+        },
+        "row_cap": 3
+      }
+    ],
+    "counts": {
+      "cross_cells": 333979,
+      "direct_assignments": 874573,
+      "merged_streams": 6,
+      "partner_minima": 672,
+      "policy_traces": 3541,
+      "positive_vertical_cross_cells": 57429,
+      "priority_pairs": 20983,
+      "priority_rows": 14075,
+      "row_optima": 14075,
+      "row_pairs": 20983,
+      "shared_cap_traces": 27,
+      "states": 3541,
+      "zero_pair_optima": 15646,
+      "zero_row_optima": 3642
+    },
+    "elapsed_seconds": 8.054776290999143,
+    "interruptions": [
+      {
+        "interruptions": 189,
+        "phases": {
+          "index_build": 72,
+          "precommit": 1,
+          "priorities": 74,
+          "retained_lines": 30,
+          "row_choices": 12
+        },
+        "positive_commits": 1
+      },
+      {
+        "interruptions": 215,
+        "phases": {
+          "cross_table": 17,
+          "index_build": 41,
+          "pair_choices": 26,
+          "priorities": 32,
+          "retained_lines": 80,
+          "row_choices": 19
+        },
+        "positive_commits": 0
+      }
+    ],
+    "limits": "Positive terminal is an explicit control stub, not genuine geometric local-minimum evidence. No loader, run lifecycle, owned-memory or n75 performance claim.",
+    "oracle_sha256": "fa3ed0628c1a305d368653cc1cc8669839dac81047e31d564c994f3745060842",
+    "passed": true,
+    "policy_outcomes": {
+      "zero": 3541
+    },
+    "positive_terminal_control_stub": {
+      "U": 1,
+      "accepted": 0,
+      "pair_completed": 6,
+      "pair_scan_complete": true,
+      "pair_started": 6,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "row_completed": 3,
+      "row_started": 3,
+      "row_sweep_complete": true,
+      "status": "no_strict_descent"
+    },
+    "scope": "SOURCE/TINY only; no actual coordinates, loader or run invocation.",
+    "worker_sha256": "0211f6be4086d9a9835f6fa71dc6b0f6ded9aedf86dac1ebef8eacac74a5129c"
+  },
+  "focused_cases": [
+    {
+      "events": [
+        {
+          "before_points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "before_score": 1,
+          "enumeration_complete": false,
+          "kind": "pair",
+          "pair_completed": 1,
+          "pair_scan_complete": false,
+          "pair_started": 1,
+          "points": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 3,
+          "row_started": 3,
+          "row_sweep_complete": true,
+          "rows": [
+            0,
+            1
+          ],
+          "score": 0
+        }
+      ],
+      "name": "genuine_pair_zero",
+      "pair_geometry_and_rebuild": "genuine n4",
+      "row_control_stub": false,
+      "v2": {
+        "U": 0,
+        "accepted": 1,
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": true,
+        "status": "zero"
+      },
+      "v3": {
+        "U": 0,
+        "accepted": 1,
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": false,
+        "status": "zero"
+      }
+    },
+    {
+      "events": [
+        {
+          "before_points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "before_score": 1,
+          "enumeration_complete": false,
+          "kind": "pair",
+          "pair_completed": 1,
+          "pair_scan_complete": false,
+          "pair_started": 1,
+          "points": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "row_completed": 3,
+          "row_started": 3,
+          "row_sweep_complete": true,
+          "rows": [
+            0,
+            1
+          ],
+          "score": 0
+        }
+      ],
+      "name": "genuine_pair_zero_callback_failure",
+      "pair_geometry_and_rebuild": "genuine n4",
+      "row_control_stub": false,
+      "v2": {
+        "U": 0,
+        "accepted": 1,
+        "error": "OSError: synthetic artifact persistence failure",
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": true,
+        "status": "error"
+      },
+      "v3": {
+        "U": 0,
+        "accepted": 1,
+        "error": "OSError: synthetic artifact persistence failure",
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_completed": 3,
+        "row_started": 3,
+        "row_sweep_complete": false,
+        "status": "error"
+      }
+    },
+    {
+      "events": [
+        {
+          "before_points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "before_score": 5,
+          "enumeration_complete": true,
+          "kind": "pair",
+          "pair_completed": 1,
+          "pair_scan_complete": false,
+          "pair_started": 1,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "row_completed": 4,
+          "row_started": 4,
+          "row_sweep_complete": true,
+          "rows": [
+            0,
+            1
+          ],
+          "score": 1
+        }
+      ],
+      "name": "positive_pair_callback_failure_with_row_control_stub",
+      "pair_geometry_and_rebuild": "genuine n4",
+      "row_control_stub": true,
+      "v2": {
+        "U": 1,
+        "accepted": 1,
+        "error": "OSError: synthetic artifact persistence failure",
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "row_completed": 4,
+        "row_started": 4,
+        "row_sweep_complete": true,
+        "status": "error"
+      },
+      "v3": {
+        "U": 1,
+        "accepted": 1,
+        "error": "OSError: synthetic artifact persistence failure",
+        "pair_completed": 1,
+        "pair_scan_complete": false,
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "row_completed": 4,
+        "row_started": 4,
+        "row_sweep_complete": false,
+        "status": "error"
+      }
+    }
+  ],
+  "passed": true,
+  "scope": "SOURCE/TINY only; no actual input reads. Positive pair case suppresses row optimization with a disclosed control stub; pair geometry and rebuild remain real.",
+  "v2_sha256": "e122a497bf2da967c4b35cc043f4a13febbd781a8e7baca9d81cda7f2dfcda41",
+  "v3_sha256": "0211f6be4086d9a9835f6fa71dc6b0f6ded9aedf86dac1ebef8eacac74a5129c"
+}
