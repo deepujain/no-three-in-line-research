@@ -13,11 +13,12 @@ from research.near_quarter_rowbatch_cursor import Cursor, Domain, NONE, SINGLE, 
 from research.near_quarter_tiny_secants import TinyOrbitState
 from research.near_quarter_packed_state import PackedOrbitState, PackedStop, packed_bounds
 from src.near_quarter_model import check_candidate
+from research.near_quarter_radius_graph import radius_obstruction
 
 ZERO = bytes(32)
 BETWEEN, ACTIVE, EXHAUSTED, FOUND = range(1, 5)
 ENTER, COUNTED, READY, PENDING, WAITING, LEAF, DONE = range(1, 8)
-DRAINED, ORBIT_SHORTFALL, ROW_SHORTFALL, TARGET_NONLEAF, TINY_LEAF = range(1, 6)
+DRAINED, ORBIT_SHORTFALL, ROW_SHORTFALL, TARGET_NONLEAF, TINY_LEAF, RADIUS_SHORTFALL = range(1, 7)
 COUNTERS = ('nodes', 'leaves', 'attempts', 'rejected', 'orbit_prunes', 'row_prunes', 'target_closures')
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_PATHS = tuple(ROOT/p for p in (
@@ -26,11 +27,17 @@ SOURCE_PATHS = tuple(ROOT/p for p in (
     'src/near_quarter_model.py', 'src/verify.py', 'src/line_model.py'))
 
 PACKED_SOURCE_PATHS = SOURCE_PATHS[:1]+(ROOT/'research/near_quarter_packed_state.py',)+SOURCE_PATHS[2:]
+# Transitive helper binding preserves the closed seven-source wire shape.
+# This literal and the import-time check bind the executing reviewed helper;
+# every subsequent packed source check rechecks current bounded helper bytes.
+RADIUS_SOURCE_PATH = ROOT/'research/near_quarter_radius_graph.py'
+RADIUS_SOURCE_SHA = bytes.fromhex('647ae1379eb89711707f9900d68a2aba1861839751bdb22f15e9618d1f5cda66')
 
 
 def _source_digests(check=lambda: None, *, adapter=1):
     hashes = []
-    for path in (SOURCE_PATHS if adapter == 1 else PACKED_SOURCE_PATHS):
+    paths = SOURCE_PATHS if adapter == 1 else PACKED_SOURCE_PATHS+(RADIUS_SOURCE_PATH,)
+    for path in paths:
         check()
         hasher, total = hashlib.sha256(), 0
         with path.open('rb') as stream:
@@ -44,6 +51,8 @@ def _source_digests(check=lambda: None, *, adapter=1):
                     raise ValueError('source file exceeds bound')
                 hasher.update(chunk)
         hashes.append(hasher.digest())
+    if adapter == 2 and hashes.pop() != RADIUS_SOURCE_SHA:
+        raise ValueError('reviewed radius helper source differs')
     return tuple(hashes)
 
 
@@ -204,6 +213,11 @@ class TinyRowBatchCore:
                     return ROW_SHORTFALL, row, None
             if not rows:
                 raise RuntimeError('full rows without exact leaf')
+            # Only the completed mask is eligible. No extra orbit probes;
+            # passing nodes retain the exact row/domain/cursor ordering.
+            if self.adapter == 2 and radius_obstruction(
+                    self.n, self.state.rows, self.state.model['orbits'], mask, r, check):
+                return RADIUS_SHORTFALL, None, None
             row = min(rows, key=lambda a: (ones[a]+twos[a], -(2-self.state.rows[a])))
             ids, weights = [], []
             for variable in self.orbits:

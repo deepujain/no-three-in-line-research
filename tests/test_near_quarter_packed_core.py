@@ -54,7 +54,7 @@ def all_frontiers(n):
 
 
 class PackedCoreTests(unittest.TestCase):
-    def test_adapter2_tiny_every_phase_and_one_node_resume_equals_adapter1_oracle(self):
+    def test_adapter2_tiny_every_phase_and_one_node_resume_preserves_frozen_leaves(self):
         census, phases, pair_frames = [], set(), 0
         for n in (3, 5, 7):
             for reverse in (False, True):
@@ -70,7 +70,6 @@ class PackedCoreTests(unittest.TestCase):
                     self.assertEqual(manifest[9:11], b'\x02\x01')
                     core = restore(raw, record, manifest)
                     self.assertEqual(snapshot(core), before)
-                    self.assertEqual(math_snapshot(core), math_snapshot(tiny))
                     parent = record.content_sha256
                     phases.update(frame.phase for frame in core.frames)
                     pair_frames += sum(len(frame.incoming) == 2 for frame in core.frames)
@@ -80,12 +79,13 @@ class PackedCoreTests(unittest.TestCase):
                     if core.frames and core.frames[-1].phase == LEAF:
                         leaves.append(tuple(sorted(core.state.selected)))
                         core.ack_leaf(core.frames[-1].leaf_digest)
-                        tiny.ack_leaf(tiny.frames[-1].leaf_digest)
                     else:
                         core.step()
-                        tiny.step()
                 self.assertEqual(len(leaves), int(n == 3))
-                self.assertEqual(core.counts['nodes'], {3: 2, 5: 5, 7: 11}[n])
+                oracle_leaves = []
+                tiny.run(100, on_leaf=lambda ids, event: oracle_leaves.append(ids))
+                self.assertEqual(leaves, oracle_leaves)
+                self.assertLessEqual(core.counts['nodes'], tiny.counts['nodes'])
                 staged = PackedRowBatchCore(n, **kwargs)
                 staged_leaves = []
                 for stage in range(50):
@@ -109,7 +109,7 @@ class PackedCoreTests(unittest.TestCase):
                 census.append({'n': n, 'reverse': reverse, 'nodes': core.counts['nodes'],
                                'leaves': len(leaves), 'outer': core.outer})
         self.assertEqual(phases, {ENTER, COUNTED, READY, PENDING, WAITING, LEAF, DONE})
-        EVIDENCE['tiny_adapter_equivalence'] = census
+        EVIDENCE['tiny_radius_leaf_equivalence'] = census
         EVIDENCE['reachable_two_orbit_incoming_frame_occurrences'] = pair_frames
 
     def test_stop_at_every_representative_step_check_keeps_old_or_committed_frontier(self):

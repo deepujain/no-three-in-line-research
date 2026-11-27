@@ -114,7 +114,7 @@ class WorkerTests(unittest.TestCase):
         self.assertEqual(self.calls, calls+1)
 
     def test_declared_tiny_exhaustion(self):
-        for n, nodes in ((5, 5), (7, 11)):
+        for n, nodes in ((5, 4), (7, 11)):
             self.directory = Path(self.tmp.name)/str(n)
             result = self.run_tiny(n=n, quota=nodes+1)
             self.assertEqual(result['result'], 'accepted')

@@ -1,0 +1,99 @@
+{
+  "actual_geometry_n": [
+    3,
+    5,
+    7
+  ],
+  "actual_host_gate_run": false,
+  "arithmetic_only_n": [
+    79
+  ],
+  "baseline_commit": "26fec70",
+  "elapsed_seconds": 4.505428292002762,
+  "initial_test_adjustment": "Two expected baseline comparisons failed initially because policy2 legitimately changes n5 pruning; replaced stepwise unpruned comparison with exact frozen leaf equivalence and uninterrupted/resume frontier equality. n5 fullnodes5->4,n7 stays11.",
+  "integration_statistics": {
+    "hook_calls": 19,
+    "new_rejections": 8,
+    "prefixes": 73,
+    "pruning_hook_stop_boundaries": 19
+  },
+  "model": "gpt-6.1-sol",
+  "modules": [
+    "tests.test_near_quarter_radius_integration",
+    "tests.test_near_quarter_radius_graph",
+    "tests.test_near_quarter_packed_worker",
+    "tests.test_near_quarter_rowbatch_checkpoint",
+    "tests.test_near_quarter_packed_state",
+    "tests.test_near_quarter_packed_core"
+  ],
+  "old_frontier_migrated": false,
+  "policy": {
+    "counter": "orbit_prunes includes global orbit shortage and radius graph obstructions",
+    "helper_binding": "core literal expected SHA plus bounded import-time and every packed-source checks; seven checkpoint/nine worker slots unchanged",
+    "identity_byte_12": 2,
+    "radius_close_reason": 6
+  },
+  "reasoning_effort": "high",
+  "schema": 1,
+  "scope": "new radiuspolicy2 source/tiny integration only; fresh chains required",
+  "source_sha256": {
+    "research/near_quarter_packed_state.py": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "research/near_quarter_packed_worker.py": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "research/near_quarter_radius_graph.py": "647ae1379eb89711707f9900d68a2aba1861839751bdb22f15e9618d1f5cda66",
+    "research/near_quarter_rowbatch_checkpoint.py": "46e5a2db0848f41954645aed8b923e6d9c5bd7d18c9c1adde133c15ee269aeba",
+    "research/near_quarter_rowbatch_core.py": "2f758f6383ebefc9772e2bf34969e477c29f70efc396a3d96e8d13aed1822ed5",
+    "research/near_quarter_rowbatch_cursor.py": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "tests/test_near_quarter_packed_core.py": "2cb1de603b08068624a9a94893dbfc078dd71fd6e67f7f7aaa4e93f6f1252d44",
+    "tests/test_near_quarter_packed_worker.py": "9056f65e2782c124e95b7040e2e00afd15f24a39cba524f6da6c2363e4a047b1",
+    "tests/test_near_quarter_radius_graph.py": "8f70bf8b6d78c54060f23f198e4c0a0ac922618559a4f8b37b08c3c73dcd2470",
+    "tests/test_near_quarter_radius_integration.py": "03ffe5eb0360ef3ec7a12737ffa85115b9a22d09f078c631e47a05271f0517e0"
+  },
+  "successful": true,
+  "test_output": "test_complete_mask_hook_preserves_passing_mrv_order_and_geometry (tests.test_near_quarter_radius_integration.RadiusIntegrationTests.test_complete_mask_hook_preserves_passing_mrv_order_and_geometry) ... ok\ntest_graph_budget_stop_preserves_counted_frontier_and_no_prune_commit (tests.test_near_quarter_radius_integration.RadiusIntegrationTests.test_graph_budget_stop_preserves_counted_frontier_and_no_prune_commit) ... ok\ntest_policy_source_binding_and_radius_frame_private_replay (tests.test_near_quarter_radius_integration.RadiusIntegrationTests.test_policy_source_binding_and_radius_frame_private_replay) ... ok\ntest_abstract_degree_subset_oracle_with_parallel_edges (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_abstract_degree_subset_oracle_with_parallel_edges) ... ok\ntest_interruptions_return_no_partial_verdict_and_do_not_mutate (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_interruptions_return_no_partial_verdict_and_do_not_mutate) ... ok\ntest_strictness_examples_and_allowed_cycles (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_strictness_examples_and_allowed_cycles) ... ok\ntest_tiny_mapping_and_every_valid_prefix_against_completion_oracle (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_tiny_mapping_and_every_valid_prefix_against_completion_oracle) ... ok\ntest_bad_borrow_tokens_truncation_and_inode_replacement (tests.test_near_quarter_packed_worker.LeaseTests.test_bad_borrow_tokens_truncation_and_inode_replacement) ... ok\ntest_borrowed_save_checks_ownership_and_write_faults (tests.test_near_quarter_packed_worker.LeaseTests.test_borrowed_save_checks_ownership_and_write_faults) ... ok\ntest_borrower_never_acquires_unlinks_or_releases (tests.test_near_quarter_packed_worker.LeaseTests.test_borrower_never_acquires_unlinks_or_releases) ... ok\ntest_close_and_acquisition_write_failure_retain_owner (tests.test_near_quarter_packed_worker.LeaseTests.test_close_and_acquisition_write_failure_retain_owner) ... ok\ntest_accepted_receipt_nine_source_authority_before_resume (tests.test_near_quarter_packed_worker.WorkerTests.test_accepted_receipt_nine_source_authority_before_resume) ... ok\ntest_checked_physical_sets_and_overflow (tests.test_near_quarter_packed_worker.WorkerTests.test_checked_physical_sets_and_overflow) ... ok\ntest_common_worker_expiry_does_not_save_after_stop (tests.test_near_quarter_packed_worker.WorkerTests.test_common_worker_expiry_does_not_save_after_stop) ... ok\ntest_construct_and_root_zero_search_all_tiny (tests.test_near_quarter_packed_worker.WorkerTests.test_construct_and_root_zero_search_all_tiny) ... ok\ntest_declared_tiny_exhaustion (tests.test_near_quarter_packed_worker.WorkerTests.test_declared_tiny_exhaustion) ... ok\ntest_failed_private_restore_reports_unknown_physical (tests.test_near_quarter_packed_worker.WorkerTests.test_failed_private_restore_reports_unknown_physical) ... ok\ntest_head_commit_cleanup_exception_retains_lease (tests.test_near_quarter_packed_worker.WorkerTests.test_head_commit_cleanup_exception_retains_lease) ... ok\ntest_head_faults_before_replace_and_uncertain_after_replace (tests.test_near_quarter_packed_worker.WorkerTests.test_head_faults_before_replace_and_uncertain_after_replace) ... ok\ntest_immutable_publication_faults_and_bounds (tests.test_near_quarter_packed_worker.WorkerTests.test_immutable_publication_faults_and_bounds) ... ok\ntest_interrupted_private_save_replay_has_unknown_physical_work (tests.test_near_quarter_packed_worker.WorkerTests.test_interrupted_private_save_replay_has_unknown_physical_work) ... ok\ntest_invalid_worker_report_and_log_reject (tests.test_near_quarter_packed_worker.WorkerTests.test_invalid_worker_report_and_log_reject) ... ok\ntest_late_cancellation_and_precommit_expiry (tests.test_near_quarter_packed_worker.WorkerTests.test_late_cancellation_and_precommit_expiry) ... ok\ntest_map_and_source_mismatch_reject (tests.test_near_quarter_packed_worker.WorkerTests.test_map_and_source_mismatch_reject) ... ok\ntest_n79_encoding_arithmetic_only (tests.test_near_quarter_packed_worker.WorkerTests.test_n79_encoding_arithmetic_only) ... ok\ntest_resource_and_cleanup_failure_clear_claims (tests.test_near_quarter_packed_worker.WorkerTests.test_resource_and_cleanup_failure_clear_claims) ... ok\ntest_source_changes_after_child_and_witness_publication_fault (tests.test_near_quarter_packed_worker.WorkerTests.test_source_changes_after_child_and_witness_publication_fault) ... ok\ntest_strict_json_bounds_and_numeric_types (tests.test_near_quarter_packed_worker.WorkerTests.test_strict_json_bounds_and_numeric_types) ... ok\ntest_witness_resume_idempotence_and_terminal_redelivery (tests.test_near_quarter_packed_worker.WorkerTests.test_witness_resume_idempotence_and_terminal_redelivery) ... ok\ntest_zero_slice_construct_and_invalid_root (tests.test_near_quarter_packed_worker.WorkerTests.test_zero_slice_construct_and_invalid_root) ... ok\ntest_abstract_quota_pair_frontiers_resume_without_duplicate_leaves (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_abstract_quota_pair_frontiers_resume_without_duplicate_leaves) ... ok\ntest_cancellation_at_every_replay_check_never_adopts_partial_core (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_cancellation_at_every_replay_check_never_adopts_partial_core) ... ok\ntest_cursor_and_pending_interruption_preserve_frontier (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_cursor_and_pending_interruption_preserve_frontier) ... ok\ntest_cursor_exact_covers_and_large_pair_coordinates (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_cursor_exact_covers_and_large_pair_coordinates) ... ok\ntest_each_tiny_phase_roundtrips_and_leaf_sets_match_frozen_reference (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_each_tiny_phase_roundtrips_and_leaf_sets_match_frozen_reference) ... ok\ntest_immutable_save_lease_and_publication_faults (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_immutable_save_lease_and_publication_faults) ... ok\ntest_live_path_event_counters_and_geometry_must_be_coherent (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_live_path_event_counters_and_geometry_must_be_coherent) ... ok\ntest_one_node_stages_equal_uninterrupted_and_found_event_is_idempotent (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_one_node_stages_equal_uninterrupted_and_found_event_is_idempotent) ... ok\ntest_strict_envelope_identity_parent_chain_and_phase_corruption (tests.test_near_quarter_rowbatch_checkpoint.RowBatchCheckpointTests.test_strict_envelope_identity_parent_chain_and_phase_corruption) ... ok\ntest_bounds_before_allocation_and_exact_ordered_map (tests.test_near_quarter_packed_state.PackedStateTests.test_bounds_before_allocation_and_exact_ordered_map) ... ok\ntest_every_construction_budget_boundary_discards_private_state (tests.test_near_quarter_packed_state.PackedStateTests.test_every_construction_budget_boundary_discards_private_state) ... ok\ntest_every_tiny_grid_line_matches_integer_determinants (tests.test_near_quarter_packed_state.PackedStateTests.test_every_tiny_grid_line_matches_integer_determinants) ... ok\ntest_every_tiny_subset_extension_and_full_undo_matches_frozen_and_determinants (tests.test_near_quarter_packed_state.PackedStateTests.test_every_tiny_subset_extension_and_full_undo_matches_frozen_and_determinants) ... ok\ntest_overflow_underflow_and_inverse_poll_fault_poison_without_continuation (tests.test_near_quarter_packed_state.PackedStateTests.test_overflow_underflow_and_inverse_poll_fault_poison_without_continuation) ... ok\ntest_point_rollback_inverse_failure_is_poisoned_and_never_retried (tests.test_near_quarter_packed_state.PackedStateTests.test_point_rollback_inverse_failure_is_poisoned_and_never_retried) ... ok\ntest_pop_latches_stops_and_rollback_works_with_already_expired_budget (tests.test_near_quarter_packed_state.PackedStateTests.test_pop_latches_stops_and_rollback_works_with_already_expired_budget) ... ok\ntest_stop_at_every_checked_point_update_and_orbit_commit_boundary (tests.test_near_quarter_packed_state.PackedStateTests.test_stop_at_every_checked_point_update_and_orbit_commit_boundary) ... ok\ntest_two_orbit_owner_transactions_restore_after_second_stop_or_rejection (tests.test_near_quarter_packed_state.PackedStateTests.test_two_orbit_owner_transactions_restore_after_second_stop_or_rejection) ... ok\ntest_adapter2_tiny_every_phase_and_one_node_resume_preserves_frozen_leaves (tests.test_near_quarter_packed_core.PackedCoreTests.test_adapter2_tiny_every_phase_and_one_node_resume_preserves_frozen_leaves) ... ok\ntest_closed_adapter_source_map_poison_latch_and_save_faults (tests.test_near_quarter_packed_core.PackedCoreTests.test_closed_adapter_source_map_poison_latch_and_save_faults) ... ok\ntest_owner_pair_cleanup_handles_expired_budget_and_pending_stop (tests.test_near_quarter_packed_core.PackedCoreTests.test_owner_pair_cleanup_handles_expired_budget_and_pending_stop) ... ok\ntest_restore_stop_at_every_checked_boundary_adopts_no_partial_frontier (tests.test_near_quarter_packed_core.PackedCoreTests.test_restore_stop_at_every_checked_boundary_adopts_no_partial_frontier) ... ok\ntest_stop_at_every_representative_step_check_keeps_old_or_committed_frontier (tests.test_near_quarter_packed_core.PackedCoreTests.test_stop_at_every_representative_step_check_keeps_old_or_committed_frontier) ... ok\n\n----------------------------------------------------------------------\nRan 53 tests in 4.498s\n\nOK\n",
+  "tests_run": 53,
+  "tiny_traversals": [
+    {
+      "leaves": 1,
+      "n": 3,
+      "nodes": 2,
+      "outer": 4,
+      "reverse": false
+    },
+    {
+      "leaves": 1,
+      "n": 3,
+      "nodes": 2,
+      "outer": 4,
+      "reverse": true
+    },
+    {
+      "leaves": 0,
+      "n": 5,
+      "nodes": 4,
+      "outer": 3,
+      "reverse": false
+    },
+    {
+      "leaves": 0,
+      "n": 5,
+      "nodes": 4,
+      "outer": 3,
+      "reverse": true
+    },
+    {
+      "leaves": 0,
+      "n": 7,
+      "nodes": 11,
+      "outer": 3,
+      "reverse": false
+    },
+    {
+      "leaves": 0,
+      "n": 7,
+      "nodes": 11,
+      "outer": 3,
+      "reverse": true
+    }
+  ]
+}

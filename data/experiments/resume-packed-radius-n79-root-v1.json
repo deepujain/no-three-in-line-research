@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "resume-packed-radius-n79-root-v1",
+    "seconds": 30,
+    "hypothesis": "New independently approved radiuspolicy2 freshroot; no migration, no countednodes"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "research.near_quarter_packed_worker",
+    "--request",
+    "data/packed-radius-n79-r1-root.request.json"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 0.45355887500045355,
+  "started_at": "2026-11-27T06:19:02.536313+00:00",
+  "sources_before": {
+    "core": "2f758f6383ebefc9772e2bf34969e477c29f70efc396a3d96e8d13aed1822ed5",
+    "state": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "cursor": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "checkpoint": "46e5a2db0848f41954645aed8b923e6d9c5bd7d18c9c1adde133c15ee269aeba",
+    "model": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "line-model": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "worker": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "owned-helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "seed": null,
+  "deterministic": true,
+  "exit_code": 0,
+  "stdout": "{\"complete_invocation_ns\":212160708,\"coordination_finished_ns\":79480881720291,\"invocation_started_ns\":79480669559583,\"lease_retained\":false,\"receipt_sha256\":\"558e5a443b9400b492a5f278550b8dccf706361116f23026826497e60a839ce6\",\"result\":\"accepted\",\"stage_id\":\"000000000000000000000000000c0e55\",\"timing_scope\":\"through durable HEAD outcome and lease close/release; excludes return serialization/caller receipt\"}\n",
+  "stderr": "",
+  "sources_after": {
+    "core": "2f758f6383ebefc9772e2bf34969e477c29f70efc396a3d96e8d13aed1822ed5",
+    "state": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "cursor": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "checkpoint": "46e5a2db0848f41954645aed8b923e6d9c5bd7d18c9c1adde133c15ee269aeba",
+    "model": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "line-model": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "worker": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "owned-helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "finished_at": "2026-11-27T06:19:03.516213+00:00",
+  "sources_unchanged": true
+}

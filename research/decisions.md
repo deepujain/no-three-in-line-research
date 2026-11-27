@@ -380,3 +380,12 @@ Total accounted 14597.817850093059seconds; remaining 7002.182149906941seconds. N
 ## 2026-11-27T06:17:27.310256+00:00 — CI portability fix
 
 Public Pages26fec70 deployed successfully; software CI found one Linux-only roundoff rejection in residual root preflight deadline validation,429tests/onefailure. Root replaced subtractive comparison with absolute-time comparison matching job generation, no tolerance/cap increase; added deterministic reproducer,9focused tests pass1.328s. Historical host evidence source identities preserved; independent review requested before republishing.
+
+
+## 2026-11-27T06:23:50.357634+00:00 — Radius and neutral pilots did not improve the measured search
+
+Independent radius11node comparison: control/order/frame payload exactly matches prior11node baseline, no new prunes; traversal11.753s vs old summed11.225s, not a speedup. Freeze this chain for replay optimization: checkpoint4d1c5a31bb1407a8cb8242d96057fcff414bfa1b3e2069e86c7e06b0a1a017ec. Engineer identified one redundant identical-prefix domain scan per WAITING ancestor during restore/save. Design independently reviewed: reuse one immutable validated domain only across adjacent replay iterations, preserve every check. Code/review/tests follow separately.
+
+Neutral25s probe cleanly completed77passes,76same states/one smaller, no retained neutral change/cache1, one partial7deletionpass; independently dualchecked final156same seed. Curtail identical neutral trials. No search failure is an infeasibility proof.
+
+CI portability fix passed its formerly failing preflight test; two unchanged legacySAT host tests then hit transient zeroRSS monitoring rejection. Production correctly failed closed; rerun failedCIjobs once without changing guards.

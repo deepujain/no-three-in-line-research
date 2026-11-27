@@ -15,7 +15,7 @@ from research.near_quarter_rowbatch_cursor import Cursor, NONE, END
 from research.near_quarter_rowbatch_core import (
     Frame, TinyRowBatchCore, PackedRowBatchCore, ZERO, COUNTERS, BETWEEN, ACTIVE, EXHAUSTED, FOUND,
     ENTER, COUNTED, READY, PENDING, WAITING, LEAF, DONE,
-    DRAINED, ORBIT_SHORTFALL, ROW_SHORTFALL, TARGET_NONLEAF, TINY_LEAF)
+    DRAINED, ORBIT_SHORTFALL, ROW_SHORTFALL, TARGET_NONLEAF, TINY_LEAF, RADIUS_SHORTFALL)
 
 MAGIC = b'NQRBCK01'
 MAX_WIRE_BYTES = 1_048_576
@@ -88,7 +88,7 @@ def identity(core, check=lambda: None):
             raise ValueError('live packed map identity mismatch')
     out = bytearray(512)
     struct.pack_into('>HHHH', out, 0, 1, core.n, core.m, 2*core.n)
-    out[8:15] = bytes((1, core.adapter, core.leaf_mode, 1, 1, 1, 1))
+    out[8:15] = bytes((1, core.adapter, core.leaf_mode, 1, 2 if core.adapter == 2 else 1, 1, 1))
     out[16:48], out[48:80] = core.map_digest, core.perm_digest
     for i, source in enumerate(core.source_hashes):
         out[80+32*i:112+32*i] = source
@@ -102,7 +102,7 @@ def _identity_shape(raw):
     expected_m, four, total, depth = grid_bounds(n)
     if (version != 1 or m != expected_m or target != 2*n or raw[8] != 1 or
             raw[9] not in (1, 2) or raw[10] not in (1, 2) or
-            raw[11:15] != bytes((1, 1, 1, 1)) or raw[15] or any(raw[304:])):
+            raw[11:15] != bytes((1, 2 if raw[9] == 2 else 1, 1, 1)) or raw[15] or any(raw[304:])):
         raise ValueError('identity tags/reserved/grid mismatch')
     if (raw[9] == 1 and n not in (3, 5, 7)) or (raw[10] == 2 and raw[9] != 1):
         raise ValueError('adapter/leaf mode outside scope')
@@ -131,7 +131,7 @@ def _frame_bytes(frame):
     fields = (frame.phase, frame.row, frame.deficit, frame.domain_length, frame.close_reason)
     if (any(type(v) is not int for v in fields) or not 1 <= frame.phase <= 7 or
             not 0 <= frame.row < 79 or not 0 <= frame.deficit <= 2 or
-            not 0 <= frame.domain_length <= 1521 or not 0 <= frame.close_reason <= 5):
+            not 0 <= frame.domain_length <= 1521 or not 0 <= frame.close_reason <= 6):
         raise ValueError('frame scalar bounds')
     for batch in (frame.incoming, frame.pending):
         if (type(batch) is not tuple or len(batch) > 2 or
@@ -193,7 +193,7 @@ def _frame_parse(raw):
             canonical = frame.cleared(DONE, row=frame.row, deficit=frame.deficit,
                 domain_length=frame.domain_length, domain_digest=frame.domain_digest,
                 cursor=frame.cursor, close_reason=reason)
-        elif reason in (ORBIT_SHORTFALL, TARGET_NONLEAF):
+        elif reason in (ORBIT_SHORTFALL, TARGET_NONLEAF, RADIUS_SHORTFALL):
             canonical = frame.cleared(DONE, close_reason=reason)
         elif reason == ROW_SHORTFALL:
             if frame.deficit not in (1, 2):
@@ -305,7 +305,8 @@ def parse(raw, *, trusted_record, expected_identity, check=lambda: None):
                 frame.row >= n or frame.domain_length > four or
                 any(not 1 <= v <= four or v in selected for v in frame.incoming) or
                 any(not 1 <= v <= four for v in frame.pending) or
-                (frame.close_reason == TINY_LEAF and manifest[10] != 2)):
+                (frame.close_reason == TINY_LEAF and manifest[10] != 2) or
+                (frame.close_reason == RADIUS_SHORTFALL and manifest[9] != 2)):
             raise ValueError('frame/path/phase relation mismatch')
         selected.update(frame.incoming)
         frames.append(frame)
@@ -318,7 +319,7 @@ def parse(raw, *, trusted_record, expected_identity, check=lambda: None):
         top = frames[-1]
         event_counter = 1 if top.phase == LEAF else None
         if top.phase == DONE:
-            event_counter = {TINY_LEAF: 1, ORBIT_SHORTFALL: 4,
+            event_counter = {TINY_LEAF: 1, ORBIT_SHORTFALL: 4, RADIUS_SHORTFALL: 4,
                              ROW_SHORTFALL: 5, TARGET_NONLEAF: 6}.get(top.close_reason)
         if event_counter is not None and counts[event_counter] == 0:
             raise ValueError('active event counter inconsistent')
