@@ -1,0 +1,235 @@
+{
+  "counts": {
+    "canonical_candidates": 56,
+    "canonical_nonaxis_frames": 16,
+    "matrix_coefficient_cases": 72171,
+    "pair_geometry_checks": 56,
+    "short_signed_directions": 60,
+    "sources": 11
+  },
+  "examples": [
+    {
+      "candidates": [
+        {
+          "added_point": [
+            4,
+            0
+          ],
+          "outside_protected_box": false,
+          "preimage": [
+            2,
+            4
+          ],
+          "translation": [
+            0,
+            2
+          ]
+        },
+        {
+          "added_point": [
+            4,
+            4
+          ],
+          "outside_protected_box": true,
+          "preimage": [
+            6,
+            4
+          ],
+          "translation": [
+            0,
+            2
+          ]
+        },
+        {
+          "added_point": [
+            0,
+            0
+          ],
+          "outside_protected_box": true,
+          "preimage": [
+            -3,
+            -1
+          ],
+          "translation": [
+            1,
+            2
+          ]
+        },
+        {
+          "added_point": [
+            0,
+            4
+          ],
+          "outside_protected_box": false,
+          "preimage": [
+            1,
+            -1
+          ],
+          "translation": [
+            1,
+            2
+          ]
+        }
+      ],
+      "determinant": -1,
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "source": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "source_index": 0
+    },
+    {
+      "candidates": [
+        {
+          "added_point": [
+            0,
+            4
+          ],
+          "outside_protected_box": true,
+          "preimage": [
+            4,
+            6
+          ],
+          "translation": [
+            2,
+            0
+          ]
+        },
+        {
+          "added_point": [
+            4,
+            4
+          ],
+          "outside_protected_box": false,
+          "preimage": [
+            4,
+            2
+          ],
+          "translation": [
+            2,
+            0
+          ]
+        },
+        {
+          "added_point": [
+            0,
+            0
+          ],
+          "outside_protected_box": false,
+          "preimage": [
+            -1,
+            1
+          ],
+          "translation": [
+            2,
+            1
+          ]
+        },
+        {
+          "added_point": [
+            4,
+            0
+          ],
+          "outside_protected_box": true,
+          "preimage": [
+            -1,
+            -3
+          ],
+          "translation": [
+            2,
+            1
+          ]
+        }
+      ],
+      "determinant": 1,
+      "matrix": [
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "source": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "source_index": 0
+    }
+  ],
+  "passed": true,
+  "scope": "Design falsifiers on all11 synthetic full-axis valid n4 sources only. No selected n74 source read or measurement, no production implementation.",
+  "script_sha256": "1fdd91352e84514f346aa845d08ecb25deb9c542ee6f6032c266e3d14843ac83"
+}
