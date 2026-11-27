@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python3 -m pip install -r requirements-research.txt
       - run: python3 -m unittest discover -s tests -v
       - run: python3 src/verify.py data/published-n78.json
       - run: python3 src/verify.py data/published-n78.json --brute-force
