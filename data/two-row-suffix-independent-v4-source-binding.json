@@ -1,0 +1,15 @@
+{
+  "changed_functions": [
+    "preserve_zero",
+    "run"
+  ],
+  "limits": "Source equivalence transfers unchanged logical properties only. No claim of rerunning the v2 suite at v4 or independently exercising lifecycle faults.",
+  "only_other_change": "one witness_metadata_error not-in-report acceptance conjunct",
+  "passed": true,
+  "prior_logical_evidence_sha256": "1b33fda5f5e154e154bdaf8443f0f7cad917f6294b95de5ae2b44085a3f7cd79",
+  "scope": "SOURCE ONLY; no geometry, worker imports, loaders or run",
+  "source_sha256": "495a528c24ea720502ea798804b834f445cc50beb162e293e2636c538e3ca3e8",
+  "unchanged_math_controller_ast": true,
+  "v2_sha256": "11fc0200742a14f5baa8cfffe85c91b34353b4990608f70efba66cc20dd750a2",
+  "v4_sha256": "fe01dcecf582480754fc076a9a04a2f6d2a24d14d76bb55280f09f0db06cc9f1"
+}

@@ -18,3 +18,6 @@ data/*frontier.json.chain-owner.json
 
 # Completed mutable search boundaries stay local; reports publish their hashes.
 data/**/completed-boundary.json
+
+# Cursor-aware mutable authority checkpoints remain local.
+data/**/authority.json
