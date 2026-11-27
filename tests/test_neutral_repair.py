@@ -71,6 +71,56 @@ class NeutralRepairTests(unittest.TestCase):
             for initial in ({'n':3,'points':[[0,0],[0,0]]}, {'n':3,'points':[[0,0],[1,1],[2,2]]}):
                 with self.assertRaises(ValueError):nr.walk(3,1,1,initial,path)
             with self.assertRaises(ValueError):nr.walk(3,1,1,{'n':3,'points':[]},path,history_limit=0)
+            with self.assertRaises(ValueError):nr.walk(3,1,1,{'n':3,'points':[]},path,max_drawdown=-1)
+
+    def test_downward_transition_and_floor_rejection(self):
+        initial = {'n': 3, 'points': [[1, 0], [1, 1]]}
+        for floor, accepted in ((1, True), (0, False)):
+            ticks = [0]
+            with self.subTest(drawdown=floor), tempfile.TemporaryDirectory() as d:
+                best = Path(d)/'best'; walk = Path(d)/'walk'
+                with patch.object(nr, '_candidate_cost', side_effect=lambda pts, index, p: 0 if not pts else 1):
+                    result = nr.walk(3, 1, 12, initial, best, walk_output=walk, max_drawdown=floor,
+                                     rng=FixedRandom(), clock=lambda:ticks[0],
+                                     on_pass=lambda _:ticks.__setitem__(0, 2))
+                self.assertEqual(len(json.loads(best.read_bytes())['points']), 2)
+                self.assertEqual(len(json.loads(walk.read_bytes())['points']), 1 if accepted else 2)
+                self.assertEqual(result['trial_size_histogram'], {1: 1})
+                if accepted:
+                    self.assertEqual(result['accepted_delta_histogram'], {-1: 1})
+                    self.assertEqual(result['minimum_walk_size'], 1)
+                else:
+                    self.assertEqual(result['counts']['below_floor'], 1)
+
+    def test_partial_improvement_promotes_walk(self):
+        initial = {'n': 3, 'points': [[1, 1]]}; calls = [0]
+        def clock():
+            calls[0] += 1
+            return 0 if calls[0] <= 4 else 2
+        with tempfile.TemporaryDirectory() as d:
+            best = Path(d)/'best'; walk = Path(d)/'walk'
+            result = nr.walk(3, 1, 1, initial, best, walk_output=walk,
+                             max_drawdown=1, rng=FixedRandom(), clock=clock)
+            self.assertEqual(result['counts']['partial'], 1)
+            self.assertEqual(result['counts']['improvement_promotions'], 1)
+            self.assertEqual(json.loads(best.read_bytes())['points'], json.loads(walk.read_bytes())['points'])
+            self.assertEqual(result['best_count'], 2)
+
+    def test_upward_walk_and_bounded_cache_evictions(self):
+        initial = {'n': 3, 'points': [[1, 0], [1, 1]]}; ticks = [0]; passes = [0]
+        def after_pass(_):
+            passes[0] += 1
+            if passes[0] == 2:
+                ticks[0] = 2
+        with tempfile.TemporaryDirectory() as d:
+            with patch.object(nr, '_candidate_cost',
+                              side_effect=lambda pts, index, p: 0 if len(pts) < (1 if passes[0] == 0 else 2) else 1):
+                result = nr.walk(3, 1, 12, initial, Path(d)/'best', max_drawdown=1,
+                                 history_limit=1, rng=FixedRandom(), clock=lambda:ticks[0],
+                                 on_pass=after_pass)
+        self.assertEqual(result['accepted_delta_histogram'], {-1: 1, 1: 1})
+        self.assertEqual(result['hash_cache_size'], 1)
+        self.assertEqual(result['hash_cache_evictions'], 2)
 
 
 if __name__=='__main__':unittest.main()

@@ -343,15 +343,19 @@ def _restore(parsed, *, check=lambda: None):
         check()
         if not core.state.push(parsed.diagonals[parsed.slice_index]):
             raise ValueError('restored diagonal rejected')
+    carried_domain = None
     for i, frame in enumerate(parsed.frames):
         check()
         if i:
             parent = parsed.frames[i-1]
-            domain = core._domain(parent, check)
+            if carried_domain is None:
+                raise ValueError('missing immediately validated parent domain')
+            domain, carried_domain = carried_domain, None
             domain.validate(frame.origin)
             if (domain.batch(frame.origin) != frame.incoming or
                     domain.successor(frame.origin, check) != parent.cursor):
                 raise ValueError('parent-child committed cursor mismatch')
+            domain = None  # Retain no ancestor domain across child geometry.
             if not core._push_batch(frame.incoming, check) or core.state.rows[parent.row] != 2:
                 raise ValueError('incoming child batch rejected/failed row cover')
         leaf = core.state.full_family_leaf()
@@ -362,6 +366,8 @@ def _restore(parsed, *, check=lambda: None):
             domain = core._domain(frame, check)
             if frame.phase == PENDING and domain.batch(frame.cursor) != frame.pending:
                 raise ValueError('restored pending mismatch')
+            if frame.phase == WAITING:
+                carried_domain = domain
         elif frame.phase == LEAF or (frame.phase == DONE and frame.close_reason == TINY_LEAF):
             if (not leaf or core.leaf_digest() != frame.leaf_digest or
                     not check_candidate(core.state.model, core.state.selected)['valid_full_witness']):

@@ -1,0 +1,66 @@
+{
+  "job": {
+    "id": "resume-valley-seed279107-v1",
+    "seconds": 30,
+    "hypothesis": "Reviewed limited3trial exploration:279107/8drawdown4,279109drawdown8; noautomatic scaling"
+  },
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/neutral_repair.py",
+    "--n",
+    "79",
+    "--seconds",
+    "25",
+    "--seed",
+    "279107",
+    "--initial",
+    "data/published-n78.json",
+    "--output",
+    "data/resume-valley-seed279107.json",
+    "--report",
+    "data/resume-valley-seed279107-report.json",
+    "--walk-output",
+    "data/resume-valley-seed279107-walk.json",
+    "--max-drawdown",
+    "4"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 25.21269275000668,
+  "started_at": "2026-11-27T06:30:59.450193+00:00",
+  "sources_before": {
+    "research/neutral_repair.py": "86adcc07184446850b628831184a7cdd44522dd5e64ed053606c59d82324930c",
+    "src/search.py": "0e132a360bdb1408fdf5b3ebebeb1b37650177c421e5d2fe8ae32c35502ae123",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912"
+  },
+  "seed": 279107,
+  "guard": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 25.212651084002573,
+    "rss_samples": 628,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 48256,
+    "cleanup_elapsed_seconds": 0.011286749999271706,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "sources_after": {
+    "research/neutral_repair.py": "86adcc07184446850b628831184a7cdd44522dd5e64ed053606c59d82324930c",
+    "src/search.py": "0e132a360bdb1408fdf5b3ebebeb1b37650177c421e5d2fe8ae32c35502ae123",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912"
+  },
+  "finished_at": "2026-11-27T06:31:25.159457+00:00",
+  "sources_unchanged": true
+}

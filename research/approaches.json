@@ -30,9 +30,9 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "closed through five for this seed",
+    "status": "test valley exploration",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "All 10,304 corner anchors completed; no 157/158 repair through five deletions for any corner of this seed, conditional on trusted computation. Larger deletions remain unexplored",
+    "finding": "Reviewed seeded deletion and neutralwalk25s probes returned156same seed; neutral77passes producedzeroacceptednewstates. Identicaltrials curtailed; separately configured boundedvalleywalk source/tiny implementation next.",
     "evidence": "research/corner-family-closure-review.md"
   },
   {
@@ -75,9 +75,9 @@
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "packed counted search",
+    "status": "optimize replay cost",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Independently reviewed tiny host gates and n79root passed; first actual counted packed n79stage accepted1.006s. Audit then meaningful quota allocation, no158witness yet.",
+    "finding": "Packed/radius11node frontiers equivalent, no newprune benefit. Independent profiler found repeated parentdomain scan at identicalgeometry during restore/save; narrow immutableDomainreuse implementation/review next, freshsourcechain only. No witness.",
     "evidence": "research/near-quarter-packed-core-integration-review.md"
   },
   {

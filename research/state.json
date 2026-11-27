@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 14597.817850093059,
+  "scheduled_search_wall_seconds_used": 14771.890742843076,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Keep existing three AI workers assigned. Engineer integrates independently approved radius predicate as fresh packed source/policy; Mathematician reviews before fresh tiny/host stages. Literature authors separate neutral-walk repair after audited25s baseline produced156samehash across102passes. Root reviews/tests and allocates bounded25s/30s/256MiB experiments; no arbitrary size ladders, no new protocol framework, no unchanged old loops. Always inspect actual PIDs+all receipts before launch. Original deadline2026-11-27T22:59:25Z and21600s cap; remaining =21600minus all receiptelapsed including conservative failures.",
+  "next_action": "Run only the single reviewed experiment_pool queue (maxworkers1, maxconcurrent1); four25s valleyseeds279110..279113/drawdown4,256MiB sampledregistered-childRSS. Preserve frozenneutral sources until queuecomplete; inspect live PIDs/status to avoidduplicates. Audit outputbest+walk withbothcheckers; no automaticwitness/failurestop in fixedqueue, do notclaimone. Engineer separately prototypes exactread-onlyorbitadmissibility withoutlivecore/codecchanges; Mathematician reviews before newhostallocation. Optimizedpackedaccepted14nodes fd822cb61f3383ebe9044c51265232159804462a41cc071e018b1b93877b031b; nextONE10node stage approved but notyetlaunched, may run after queuecontext and processcapacityaudit. Originaldeadline/budget unchanged.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Overnight resumed: radius hook integration and separate neutral-repair exploration under development; baseline frozen26fec70",
+  "current_round": "Overnight fixed four-seed valley queue ready; optimized packed frontier14nodes independently audited; read-only orbit probe prototype under review",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -36,9 +36,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "New radius-hook core/identity integration in progress; frozen baseline11nodes checkpoint802d69d0 preserved at26fec70; never migrate it",
-    "Separate neutral-walk>=6deletion exploration authorized for source/tiny tests only; no host launch before independent review."
+    "ReplayDomainreuse exact implementation/tests underway; baseline11node chain preserved, no newhost allocation yet",
+    "Valleywalk source/tiny implementation underway after zero-neutraldiversity; exactsource review and one boundedprobe next."
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
-  "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction."
+  "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
+  "validation_status": "447 full local tests passed43.281s (8skips), UI5viewports passed; pool6hosttests passed0.189s. Latest Linux CI remains red in legacy hostRSS-monitor tests; production failsclosed. No mathematical construction claim."
 }

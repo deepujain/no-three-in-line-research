@@ -1,0 +1,11 @@
+# Reuse-chain three-node continuation review
+
+Accepted. Bounded retained-artifact audit verified request/job/report/receipt/HEAD/return, exact parent, current and experiment source pins, structural candidate, 30-second/256-MiB helper gate, two-second reserve, clean cleanup and absent lease. No geometry or numerical worker was launched by this review.
+
+Stage `000000000000000000000000000c0ebb` advances accepted parent `2e16b2fd41145310dd0678a01ee91e4a7c5d09e6bacbe793c7bad82eb9b7e46e` to checkpoint `fd822cb61f3383ebe9044c51265232159804462a41cc071e018b1b93877b031b`, through receipt `c7857dc757c734c026d5aa957981955e3571a27a8b77b06fb8b67085c1e4c4d9`. Job hash is `003638fcc71fe8f42d3a07e6f4e22ea3f6359ee0503a9aa3a6da364fe52fdd75`, report `89faa82b5b448037124067282495c7e541c9f5df0592e621b0e12cf34292438e`, and HEAD at audit `127ddf64df84539a5c29f0b7033339478c48218dbe0ff333c9f8b63b14097e05`.
+
+Exactly three new counted nodes advance eleven to fourteen. The frontier has thirteen frames, top ENTER, and counts `(14,0,14,0,0,1,0)`: one row-bound prune and no global-orbit/radius prune. There is no witness, completed slice or exhaustion claim. Domain work is 13,518 probes, three batch probes, eleven cursor checks, zero interrupted scans and 34,763 restore probes. All physical counters are complete. Sources remain core2f758f63/codec88ce7a7a/worker7f8c8a16 and the remaining approved manifest.
+
+Child construction/restore, operation and save/validation/publication took 3.673761500, 2.055102750 and 3.908833458 seconds. Helper elapsed was 9.730990250 seconds with 236 RSS samples and peak sampled 51,920 KiB; cleanup was clean, one sample and 0.011505875 seconds. Supervisor elapsed was 9.758153417 seconds; outer experiment `resume-packed-reuse-n79-stage3-v1.json` reports 9.815528417 seconds and exit zero.
+
+Recommend Root separately allocate a ten-new-node stage from the accepted hash above under unchanged caps/reserve. The observed three-node operation cost and approximately eight-second replay overhead support this as a useful bounded next experiment. Branching and depth can change costs, so completion is not promised and no repeat is implicit. No source change is needed before further measured search progress.

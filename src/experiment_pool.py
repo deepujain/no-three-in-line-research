@@ -19,7 +19,8 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED = {'src/lazy_sat.py', 'src/trade_search.py', 'research/guided_repair.py',
-           'research/corner_repair.py', 'research/embedding_worker.py', 'research/rectangle_barrier.py'}
+           'research/corner_repair.py', 'research/embedding_worker.py', 'research/rectangle_barrier.py',
+           'research/neutral_repair.py'}
 
 
 def utcnow():
@@ -126,8 +127,8 @@ def supervise(queue_path, max_workers=3, poll_seconds=2):
                 reason = 'pilot_deadline'
             elif spent + sum(now-r['started'] for r in running.values()) >= limit-60:
                 reason = 'compute_budget'
-            elif rss_kib([r['child'].pid for r in running.values()]) > 1536*1024:
-                reason = 'aggregate_rss_limit_1536MiB'
+            elif rss_kib([r['child'].pid for r in running.values()]) > 256*1024:
+                reason = 'aggregate_rss_limit_256MiB'
             for job_id, record in list(running.items()):
                 child = record['child']
                 elapsed = now-record['started']

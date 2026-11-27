@@ -389,3 +389,17 @@ Independent radius11node comparison: control/order/frame payload exactly matches
 Neutral25s probe cleanly completed77passes,76same states/one smaller, no retained neutral change/cache1, one partial7deletionpass; independently dualchecked final156same seed. Curtail identical neutral trials. No search failure is an infeasibility proof.
 
 CI portability fix passed its formerly failing preflight test; two unchanged legacySAT host tests then hit transient zeroRSS monitoring rejection. Production correctly failed closed; rerun failedCIjobs once without changing guards.
+
+
+## 2026-11-27T06:25:25.907472+00:00 — Overnight handoff within existing schedules
+
+Three existing workers remain assigned. Primary change removes duplicate immutable-domain scans during checkpoint replay while retaining all validation. Exploration tests valley crossing with walkdrawdown<=4 and best monotone, after neutralwalk retained no distinct state. Both require exact source/tiny review before Root actualhost allocation. No newpool/scheduler or blanket numericalcontinuation. Original deadline unchanged, total accounted 14642.736411551065seconds of21600, remaining 6957.2635884489355. Latest baseline is b4ab783; stop on witness to dualverify/review/literature before claims.
+
+
+## 2026-11-27T06:37:31.446997+00:00 — Reviewed work queued for overnight continuity
+
+Replay Domain reuse matched exact11node frontier/traversal while halving restoreprobes33262to16631 and savevalidation7.38to3.68seconds; singleoutertime19.39to18.61seconds is only4% and affectedbyvariation. Next3node continuation independently audited14nodes, one rowprune, no witness; acceptedfd822cb61f3383ebe9044c51265232159804462a41cc071e018b1b93877b031b. Read-only exactorbit admissibility proposal independently proved; Engineer prototypes separately, livecore/codec frozen.
+
+Valleyseed279106 acceptedsixmoves including153points; finalbest156unchanged. Furtherseeds279107/8/9 allclean,noimprovement; their rawreports remain for separateevidenceaudit. Author/reviewer approved a limited fixed4freshseed batch279110..279113,drawwdown4,25s each. Existingpool narrowly allows reviewedneutral entrypoint and tightensaggregate directchildRSS1536to256MiB;6hosttests pass0.189s, source reviewed. No newpool/guard, maxworkers/maxconcurrent1,55s envelope each,220sreservation allowance, no automaticwitness/failurestop claimed. Actualprocessaudit empty beforepreparingqueue. Pins indata/overnight-valley-batch-source-pins.json; allneutral dependencies frozen untilcompletion.
+
+447fulllocaltests passed43.281seconds(8skips), UI5viewports passed. LinuxCI remainsred on legacyzeroRSSsamples despite rerun; guardsfailclosed, not proof/searchfailures. Accounted 14771.890742843076seconds before220squeue reservations, originaldeadline22:59:25UTC unchanged.
