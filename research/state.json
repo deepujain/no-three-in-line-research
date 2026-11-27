@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16711.75493855206,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Audit completed matching pilot; design/review distinct conflict-directed ejection-chain move for direct157.",
+  "next_action": "Review conflict-directed ejection-chain design and independent tiny oracle before source/actual.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Constructive matching pilot capped after2000insertions/max23added; no156/157; independent actual audit underway. No unchanged continuation.",
+  "current_round": "Constructive matching pilot independently audited: capped2000insertions/max23added, no156/157, no exclusion. New conflict-directed move design underway.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,10 +40,9 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Matching rebuild157 actual audit",
     "Conflict-directed ejection-chain design review"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "8083a7b CI and Pages SUCCESS. Constructive source14tests RootPASS0.036s; independent75tinyfamiliesPASS. Actual insertioncap/clean guard, audit pending."
+  "validation_status": "90dbe1e Pages SUCCESS; CI697tests failed one legacy short-process positiveRSS check; one failed-job retry initiated. Matching pilot exact root domains/cover independently accepted342c7cbb."
 }

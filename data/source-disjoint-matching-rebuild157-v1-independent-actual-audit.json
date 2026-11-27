@@ -1,0 +1,92 @@
+{
+  "accepted": true,
+  "accepted_chain_heads_unchanged": [
+    {
+      "path": "data/packed-readonly-n79-r1.chain/accepted.json",
+      "sha256": "cd3977d726cbd374ca0fa75c5526eb62db0eb096983f7c8c505d3ead779cfa24"
+    },
+    {
+      "path": "data/packed-readonly-n79-middle-d1541.chain/accepted.json",
+      "sha256": "cce89fcc680e137202ec9f8cd6f5f39f2753a03a8742c47ac209a6b118950a8e"
+    }
+  ],
+  "audit_elapsed_seconds": 1.8773068750015227,
+  "candidate_trajectory_reconstructed": false,
+  "closure": false,
+  "complete": false,
+  "decision": "Accept bounded pilot evidence; no witness or fixed-family exclusion; no unchanged continuation authorized.",
+  "guard": {
+    "cleanup_status": "clean",
+    "interpretation": "cooperative insertion-cap exit; local copy normalized only for resource/cleanup validation",
+    "original_status": "worker_error",
+    "outer_seconds": 0.8283110829943325,
+    "peak_sampled_rss_kib": 48688,
+    "returncode": 2
+  },
+  "independently_recomputed": {
+    "components": [
+      {
+        "edges": 140,
+        "least_edge": [
+          0,
+          26
+        ]
+      },
+      {
+        "edges": 12,
+        "least_edge": [
+          2,
+          12
+        ]
+      },
+      {
+        "edges": 4,
+        "least_edge": [
+          36,
+          36
+        ]
+      }
+    ],
+    "perfect_matching_size": 79,
+    "retained_normalized_sha256": "ed48b3a36836ee22eee8d09f7da5003ca5684db111306786c291132e63470efb",
+    "retained_pair_grid_determinant_checks": 18741723,
+    "retained_points": 78,
+    "retained_triples_checked": 76076,
+    "root_domain_edges": 868,
+    "root_pair_cell_visits": 17378,
+    "unsafe_cells": 5294,
+    "vertex_cover_size": 79
+  },
+  "manifest_pin_count": 15,
+  "receipt_sha256": "ff9a8633f97b440b9802ffdb74db282659321c05432f3b2317e217b6bfa884b1",
+  "report_sha256": "cd185ac24143f37ad63f2a47c171299a5c8796a92087bf8d90b5b50f51b63009",
+  "root_matching_geometry_scored": false,
+  "script_sha256": "bfb1eaba098dd1b30b48b9afb346f4a06a264211a7ce118927d8845cf3461162",
+  "search_replayed": false,
+  "source_pin_count": 16,
+  "source_pinned_execution_counters": {
+    "backtracks": 2000,
+    "candidate_cell_visits_completed": 1383162,
+    "candidate_cell_visits_started": 1383162,
+    "candidate_lines_completed": 181027,
+    "candidate_lines_started": 181027,
+    "certificate_edge_checks_completed": 868,
+    "certificate_edge_checks_started": 868,
+    "cover_edge_scans_completed": 0,
+    "cover_edge_scans_started": 0,
+    "domain_wipeouts": 364,
+    "full_assignments": 0,
+    "insertions_completed": 2000,
+    "insertions_started": 2000,
+    "matching_edge_scans_completed": 5512,
+    "matching_edge_scans_started": 5512,
+    "maximum_added": 23,
+    "rollbacks": 2000,
+    "root_cell_visits_completed": 17378,
+    "root_cell_visits_started": 17378,
+    "root_domain_cells_completed": 6241,
+    "root_domain_cells_started": 6241,
+    "root_lines_completed": 3003,
+    "root_lines_started": 3003
+  }
+}

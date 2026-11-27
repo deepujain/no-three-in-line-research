@@ -20,6 +20,8 @@ The page shows saved evidence, rather than animated or continuously connected ag
 
 The latest exact move census certifies that the current invalid 157-point state, with five collinear triples, is a strict local minimum: all 12,247 legal row/column relocations and rectangle switches worsen it. A standalone integer certificate supplies six forbidden triples for every neighbor. Exactly three moves reach six conflicts. This explains a local search barrier; it does not improve the 156-point valid baseline. [Independent audit](research/score11-deficiency-neighborhood-v1-independent-actual-review.md) · [Integer checker](research/check_deficiency_local_minimum_certificate.py) · [Depth-12 continuation audit](research/main-depth12-seeded-chunks-v1-v2-actual-review.md)
 
+A distinct constructive pilot kept 78 valid points and tried to rebuild a disjoint 79-point permutation. It hit its 2,000-insertion cap after reaching at most 23 added points and produced no 156/157 certificate. Independent audit reproduced every root domain by integer determinants and checked the matching certificate. This incomplete attempt excludes nothing; unchanged continuation was stopped. [Pilot audit](research/source-disjoint-matching-rebuild157-v1-actual-review.md)
+
 ## Autonomous research team
 
 The Research Lead is the **shepherd**: it chooses work, allocates resources, reviews findings, stops unproductive branches, and opens new branches without requiring hourly human direction.

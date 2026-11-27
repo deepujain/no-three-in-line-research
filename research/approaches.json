@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "Initial157 strict one-step local minimum certified",
-    "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "All 12,560 attempts complete; 12,247 legal neighbors strictly worsen five conflicts. Exact three score-six exits independently dual-checked as invalid. Integer certificate gives six collinear triples per legal neighbor. No valid157 construction.",
-    "evidence": "research/score11-deficiency-neighborhood-v1-independent-actual-review.md"
+    "status": "Matching rebuild pilot capped; no improvement",
+    "scope": "Direct157 deficiency moves and whole-matching reconstruction",
+    "finding": "Initial157 is certified one-step minimum5; reviewed two-step peak6 census no better. Distinct source-disjoint78+79 rebuild capped2000insertions/max23added, no156/157. Root868edges/79matching independently checked; no exclusion or unchanged continuation.",
+    "evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
   },
   {
     "id": "A05",
