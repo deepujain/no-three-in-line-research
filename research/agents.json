@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Reviewed residual-graph proof and r40 evidence; independently reviewing tiny pruning source when ready, auditing r41",
+    "status": "Audited accepted r41 timeout; reviewing tiny residual-graph source and r42 terminal evidence",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Implementing isolated packed state and tiny fault/oracle tests under approved design"
+    "status": "Packed state independently approved; implementing minimal closed core/codec adapter integration for tiny review"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Implementing separate tiny residual-graph reference; independently reviewing packed state when ready",
+    "status": "Packed state independently reviewed; finishing tiny residual-graph tests, then reviewing integrated packed adapter",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect sole r41 pool and terminal source-bound ledgers before new allocation. Main480s/max10x20000 nodes tests larger chunks under same30s/256MiB; exploration180s/max3x1000. New round660seconds; pilot used13,961.8162 before reservations. Reflection source/dispatcher b71eb696 frozen. Isolated packed state and tiny residual-graph pruning reference in development; both need independent source review before integration/host gates.",
+  "next_action": "Inspect sole r42 pool and terminal ledgers. Main 180 s/max 4 x 10,000 nodes, explore 120 s/max 2 x 1,000; stop on timeout/rejection. r41 clean cooperative timeout accepted at355,410 main nodes, explore10,100; exact hashes independently audited. Reflection dispatcher b71eb696 remains frozen. Packed standalone state860711b8 approved; minimal closed adapter core/codec integration authorized, tiny tests/review before any host or n79 execution. Residual-graph tiny source/oracle in development.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,6 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "r40 independently audited255,600 main/7,100 explore; r41 bounded continuations allocated",
-  "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
+  "current_round": "Hourly review: r41 audited accepted timeout; reduced primary allocation, packed adapter integration authorized",
+  "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
+  "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence."
 }
