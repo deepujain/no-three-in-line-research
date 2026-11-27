@@ -1,6 +1,6 @@
 {
-  "max_concurrent": 3,
-  "note": "03:30 dispatcher r47 reduced300second allocation with exact audited r46 hashes. Residual tiny host script awaiting independent review; no larger-grid new branch allocated. Protect3,600future seconds.",
+  "max_concurrent": 1,
+  "note": "03:35 dispatcher r48 reduced300second allocation, sequential control lanes leave capacity for host gates and unit checks. All prior receipts terminal/source frozen. Protect3,600future seconds.",
   "jobs": [
     {
       "args": [
@@ -1737,6 +1737,64 @@
         "1f98e3b4d861bd12f96c2206605000ce477a8181f3bd97a2ee2920f9377640cd",
         "--ledger-dir",
         "data/rowbatch-chain-r47-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "2",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r48-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Continue exact independently audited r47 frontier as reduced frozen control, retaining distinct exploration. Run control lanes sequentially to leave process capacity for separately scheduled host gates and tiny source tests. Protect3,600unspent seconds. Deterministic/no RNG, unchanged30s/256MiB; stop on timeout/rejection/witness/exhaustion.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "4f21b702c10bd4b6c645aad934f2e198c01474efd0a5d9a92d983c49410729f0",
+        "--ledger-dir",
+        "data/rowbatch-chain-r48-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "4",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r48-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Continue exact independently audited r47 frontier as reduced frozen control, retaining distinct exploration. Run control lanes sequentially to leave process capacity for separately scheduled host gates and tiny source tests. Protect3,600unspent seconds. Deterministic/no RNG, unchanged30s/256MiB; stop on timeout/rejection/witness/exhaustion.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "d3c792c866533d4368677518d6322d7869a3e7659d912949605c2bbee56985be",
+        "--ledger-dir",
+        "data/rowbatch-chain-r48-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",

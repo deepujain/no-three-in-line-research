@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect sole r47 pool before reallocation; main180s/max4x10,000 and explore120s/max2x1,000, preserve3,600unspent seconds. Residual guard8aea8375 independently approved and root10tests passed3.864s; Mathematician prepares host tiny lifecycle script, Literature reviews before Root runs. No n9/n79 yet. Packed design414623cb approved and worker/borrowed-lease implementation authorized for tiny/fault review. Frozen reflection dispatcher b71eb696 unchanged.",
+  "next_action": "Inspect sole r48 pool/terminal ledgers before reallocation; sequential main180s/max4x10,000 then explore120s/max2x1,000, protect3,600unspent seconds. Residual tiny host gate passed19/192nodes and4/16dualcheckedsets with clean observed cancellation; Literature audits evidence. Mathematician to prepare root-only noDFS preflight source/tiny tests, no n9/n79 execution yet. Packed worker implementation in tiny tests, correct declaration encoding cap arithmetic before independent review. Frozen reflection dispatcher b71eb696 unchanged.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "r46 audited; r47 reduced control allocated; residual guard approved for tiny host gate",
+  "current_round": "Residual tiny actual-host lifecycle passed; r48 reduced sequential control allocated",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence."
 }

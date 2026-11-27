@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Residual guard approved; reviewing actual-host lifecycle script and r47 evidence",
+    "status": "Tiny residual actual-host evidence audited; reviewing root-only preflight source and r48 terminal evidence",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Implementing approved standalone packed worker and narrow borrowed-lease extension with tiny/fault tests"
+    "status": "Implementing packed worker/tiny fault tests; correcting declaration-encoding arithmetic before review"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Preparing residual tiny actual-host lifecycle script; retained independent packed-worker source review duty",
+    "status": "Preparing bounded root-only residual preflight source/tests; retained packed-worker review duty",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

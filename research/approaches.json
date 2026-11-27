@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Audited full-row control reached555,410 main/20,100 exploration nodes, no witness/exhausted slice. Separate residual pruning core/guard independently reviewed; root10guard tests passed. Tiny actual-host lifecycle gate next, then separately reviewed smaller/large preflights. No large-grid pruning claim.",
-    "evidence": "research/diagonal-residual-checkpoint-guard-independent-review.md"
+    "finding": "Audited unpruned control reached595,410 main/22,100 exploration nodes, no witness/exhaustion. New residual-pruned guard passed independently audited tiny host lifecycle:19/192nodes,4/16dualchecked distinct sets, clean observed cancellation. Larger root-only preflight source next; no large-grid pruning claim.",
+    "evidence": "research/diagonal-residual-checkpoint-host-gate-review.md"
   },
   {
     "id": "A09",
