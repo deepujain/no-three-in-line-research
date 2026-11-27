@@ -566,3 +566,20 @@ Target157 hard-retentionD6 finished87models/87complete geometry scans,2655distin
 Main-depth19 pair-geometry SAT completed5151pairs with1445cuts (380axis,1065geometric). Native solver reports UNSAT before any SAT model/lazy cut; outer0.533485s clean58416KiB peak. Independent audit reconstructs complete mask, every pair decision and degree formula (555variables,982degree+1445binary clauses). No checked UNSAT proof; this is only the fixed-prefix subfamily. Earlier degree-only relaxation accepted this prefix, so pair geometry produces a new obstruction at low measured cost. Fresh18/17/16 ancestor proposal math-approved, pending source/tiny; each mask/pair set must be rebuilt, advance only after native UNSAT and share25soft/30owned256MiB, max200candidates and3stages. No frontier writes or unchangedmain19 repeat.
 
 Actual process audit found no owned numerical workers; existing AIworkers have concrete bounded tasks. Accounted16529.948642470s of21600 (5070.051357530s remain). Originaldeadline unchanged. Best156, no valid157/158 or novelty claimed.
+
+
+## 2026-11-27T08:51:52.820781+00:00 — Fresh ancestor probe stops at reviewed capacity
+
+After independent source review and21combined tinytests, one shared25soft/30owned256MiB gate completed in1.128913s, clean61344KiB peak/allpins unchanged. Depth18:136complete-mask variables,9180pairs/2307cuts, nativeUNSAT beforemodels. Depth17:181variables,16290pairs/3697cuts,nativeUNSAT beforemodels. Depth16:224variables exceeds200cap, no pairscan or native solver; whole report incomplete. Guardworker_error/return2 reflects deliberate capacity stop, not a monitor failure. Independent actual audit pending; no claims promoted. No automatic capacity increase. Reviewer tasked to assess bounded16/15max320 design; repair7..8source remains separate branch. c84c7f5CI/Pages bothSUCCESS. Accounted16531.077555303105s; no owned numerical worker remains.
+
+
+## 2026-11-27T08:54:12.331850+00:00 — Ancestor actual independently accepted; deletion range completes
+
+Independent reviewer reproduced allthree masks and25470pair decisions for fresh18/17, including6004necessarybinarycuts; complete formulae and40receiptpins/acceptedheads match. NativeUNSAT conclusions remain trusted/scoped, not checked proofs. Depth16remains unresolved at224maskcapacitystop. A distinct depths16/15cap320proposal math-approved with102080maxpairs, max57160clauses/120440literals perstage; source/tiny and independentreview precede allocation. Frozen predecessor unchanged.
+
+Distinct target157intrinsic7..8deletion source passed19combinedtests/independentreview before one30s256MiB gate. Actual native scopedUNSAT after177models/177complete scans,7380freshcuts,0partial; no invalidscore below11saved. Outer8.441613s, clean88256KiB peak,35pins unchanged. Independent actual audit pending, no claim promoted. No repeats/automatic target158 extension. Accounted16539.519167969098s; originaldeadline unchanged.
+
+
+## 2026-11-27T08:55:07.199103+00:00 — Retention7..8 actual independently accepted
+
+Reviewer independently determinant-checks all7380distinctcuts+11source triples and reconstructs full58108variable/103583clause initial formula (246087literals), final110963clauses/268227literals. Last invalid157model has150retained/8deleted/7new and37triples, not best-of-run. All35pins and clean gate match. No native solver replay or UNSAT proof/all177models replay. Accept only conditional fixedsource range7..8UNSAT; unchanged repeat curtailed. No positive certificate or novelty. Separate fresh16/15cap320source underway; no actual before independent review.

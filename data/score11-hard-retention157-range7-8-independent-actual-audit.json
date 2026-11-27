@@ -1,0 +1,46 @@
+{
+  "decision": "PASS_WITH_SCOPED_SOLVER_REPORTED_UNSAT_LIMITATION",
+  "elapsed_audit_seconds": 0.19304445799207315,
+  "execution_provenance": {
+    "complete_scans": 177,
+    "elapsed_seconds": 8.44161266599258,
+    "gate_clean": true,
+    "models": 177,
+    "peak_sampled_rss_kib": 88256,
+    "prior_models_independently_replayed": false
+  },
+  "independent_formula_reconstruction": {
+    "canonical_final_formula_sha256": "40e72779a2fbcba18034d4a1fe70f9c7ffd1c708a363f80642d38efc28842583",
+    "cardinality_library": "same pinned python-sat sequential counter encoder",
+    "final_clauses": 110963,
+    "final_literals": 268227,
+    "initial_clauses": 103583,
+    "initial_literals": 246087,
+    "lower_range_clauses": 1970,
+    "production_formula_helpers_used": false,
+    "upper_range_clauses": 2542,
+    "variable_count": 58108
+  },
+  "independent_geometry": {
+    "distinct_new_cuts": 7380,
+    "last_candidate_new_points": 7,
+    "last_candidate_point_count": 157,
+    "last_candidate_retained_points": 150,
+    "last_candidate_source_deletions": 8,
+    "last_candidate_triples": 37,
+    "new_cuts_overlap_initial": 0,
+    "saved_new_cuts_checked": 7380,
+    "source_point_count": 158,
+    "source_triples": 11
+  },
+  "independent_unsat_proof_checked": false,
+  "input_sha256": {
+    "data/experiments/shepherd-score11-hard-retention157-range7-8-v1.json": "2229037f15a25e500d7207d88768d66bffbe3ba27620722fb47ebeefb8e6242c",
+    "data/score11-hard-retention157-range7-8-v1/last-candidate.json": "6bbd5b4918e76d094e65fa9b323d074010006cfee9f45ae721c33fb90b328828",
+    "data/score11-hard-retention157-range7-8-v1/new-geometry-cuts.json": "997c19384a84c7d183821539d6b76ba208cb006590da063e142cf6a7d05d1f4b",
+    "data/score11-hard-retention157-range7-8-v1/report.json": "23f19b5a12fe444728a1780fe368381fc7557611b13448dbb4ae73e20be5a25b"
+  },
+  "scope": "157 points on 79x79 with at most two per row/column and intrinsically seven or eight effective deletions from the fixed invalid 158-point source. Independent of D6 inference. Conditional scoped UNSAT also excludes valid 158-point sets in the same deletion range by deleting a non-source point. No global bound.",
+  "solver_replay_performed": false,
+  "source_pins_checked": 35
+}

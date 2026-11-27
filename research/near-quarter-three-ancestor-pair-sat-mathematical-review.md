@@ -1,0 +1,19 @@
+# Bounded three-ancestor pair SAT design review
+
+Decision: mathematical design PASS for one prospective bounded job at depths 18, 17, and 16, in that order. This approves the design, not an unreviewed source or an actual run. The frozen main-depth-19 implementation remains unchanged.
+
+Use the audited main-depth-19 selected orbit IDs
+`[1522,39,100,130,170,208,366,432,322,340,562,563,524,646,288,827,892,1107,1413,1419]`.
+At depth d retain precisely the first d+1 IDs, including the initial diagonal orbit. The retained point counts are 74, 70, and 66; target 158 requires respectively 21, 22, and 23 new four-orbits, with total radius demands 42, 44, and 46. Reconstruct each private state afresh from verified immutable checkpoint evidence.
+
+For each depth recompute the complete admissibility mask against that prefix. More than 200 admissible orbit variables ends the job as a resource cutoff, not UNSAT. Never truncate the mask. At most 200 variables imply at most 19,900 unordered pairs; at most three levels imply at most 59,700 pairs. Complete every pair census before solver construction. Recompute every pair against the current prefix: removing retained points can turn an old geometric exclusion into a compatible pair, and the local variable numbering can change. Reusing ancestor/descendant cuts would be unsound without fresh validation and is prohibited here.
+
+Build exact dynamic incident-degree constraints with auxiliary IDs disjoint from primary orbit variables. Record actual variable/clause/literal counts and enforce reviewed construction ceilings before inserting into the solver. For each model independently recompute degrees, chosen orbit count, distinctness, and 158 points. All remaining collinear conflicts must map to three distinct new-orbit variables because the complete mask and pair census have eliminated conflicts involving fewer. Add at most 1,000 distinct necessary ternary cuts per depth; a cut limit is incomplete. Persist full per-depth IDs, mask hash, variable-to-orbit mapping, binary cuts, ternary geometric witnesses, and counters so each result is independently auditable.
+
+Advance to the next shallower depth only after the current depth's native solver reports UNSAT before any deadline or interrupt. Stop at the first witness, unknown result, timeout, cut limit, oversized mask, or other incomplete outcome. A simpler analytic degree-shortfall rejection may be reported separately, but it does not satisfy the explicitly chosen native-UNSAT advance condition. No fourth depth or automatic continuation is authorized.
+
+The entire job shares one 25-second soft budget, including evidence reads, private reconstruction, masks, pair censuses, formula construction, solver calls, geometry checks, and audits. One owned 30-second/256-MiB hard guard bounds the process. Keep only one live state and solver, cancel/join its timer before native deletion, and preserve completed earlier depth reports if later work times out. Retain bounded per-depth evidence; no growing model history. Once both validators confirm a witness, save it atomically immediately without another soft-deadline check, then stop.
+
+Each native UNSAT conclusion is conditional and scoped to the exact retained prefix; no independent proof certificate is checked. Shallower scopes contain deeper scopes, but parent UNSAT must be established anew. No original frontier or accepted-chain mutation, no automatic DFS integration, and no global no-three-in-line bound follows.
+
+Required source/tiny checks include all existing pair-kernel tests plus parent-ID slicing and expected counts; oversized masks rejected without truncation; exact m(m-1)/2 completion gate; dynamic cardinality projection; UNSAT-only advancement; early stop after each non-UNSAT status; maximum three depths; shared deadline rather than refreshed per-depth budgets; prior evidence preserved on later interruption; and timer cleanup before moving to the next solver.
