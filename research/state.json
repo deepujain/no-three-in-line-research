@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16710.926627469067,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Constructive source-disjoint matching rebuild157 source/tiny review; portable CI host-integration runner review.",
+  "next_action": "Independent source/tiny review of frozen constructive matching rebuild157; one bounded actual only after PASS.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -41,9 +41,9 @@
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
     "Constructive matching rebuild157 source/tiny review",
-    "Portable CI handling of host-only receipt integration"
+    "Distinct training-free population design feasibility"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "b935ed6 Pages SUCCESS; CI676tests fails only actual-anchor host integration absent Darwin .venv binary; portability fix assigned, no repeat. Three-exit actual audit accepted with documented receipt-text defect."
+  "validation_status": "Portable CI runner independently reviewed; full local suite683tests had2 sandbox-ps errors, then all6 lifecycle tests independently reranPASS with host ps access. Original-runtime integrationPASS; new CI pending. Historical pins/guards unchanged."
 }
