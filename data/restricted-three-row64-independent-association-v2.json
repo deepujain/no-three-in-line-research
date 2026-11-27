@@ -1,0 +1,226 @@
+{
+  "baseline": true,
+  "binding_note": "Prior suite expected-worker pin explicitly rebound in memory to frozen v2; failed v1 source/evidence preserved.",
+  "limitations": "Authority envelope bytes are genuinely hashed; other role digests are declared labels. This tests semantic associations, not actual saved-state acceptance or complete loader/run orchestration.",
+  "mutation_count": 52,
+  "passed": true,
+  "rejections": [
+    {
+      "case": "metadata_wrong_score",
+      "error": "metadata integer unweighted_score"
+    },
+    {
+      "case": "metadata_bool_n",
+      "error": "metadata integer n"
+    },
+    {
+      "case": "metadata_missing_role",
+      "error": "exact51 role set"
+    },
+    {
+      "case": "metadata_bad_digest",
+      "error": "artifact digest"
+    },
+    {
+      "case": "metadata_bool_size",
+      "error": "artifact size cap"
+    },
+    {
+      "case": "metadata_wrong_aggregate",
+      "error": "aggregate input cap"
+    },
+    {
+      "case": "missing_input_pin",
+      "error": "all51 input pins"
+    },
+    {
+      "case": "missing_source_pin",
+      "error": "mandatory source pin"
+    },
+    {
+      "case": "old_metadata_identity",
+      "error": "inherited39 digest equality"
+    },
+    {
+      "case": "old_report_failure",
+      "error": "pilot report binding"
+    },
+    {
+      "case": "initial_missing_key",
+      "error": "initial seven-key schema"
+    },
+    {
+      "case": "initial_invented_generation",
+      "error": "initial seven-key schema"
+    },
+    {
+      "case": "initial_invented_cursor",
+      "error": "initial seven-key schema"
+    },
+    {
+      "case": "initial_wrong_order",
+      "error": "fixed old-state ledger"
+    },
+    {
+      "case": "initial_bool_counter",
+      "error": "initial fresh counters"
+    },
+    {
+      "case": "initial_wrong_points",
+      "error": "initial old65 points/identity"
+    },
+    {
+      "case": "authority_wrong_origin",
+      "error": "attempt state"
+    },
+    {
+      "case": "authority_wrong_state",
+      "error": "state identity"
+    },
+    {
+      "case": "authority_bool_generation",
+      "error": "global counts"
+    },
+    {
+      "case": "authority_pending",
+      "error": "ledger binding"
+    },
+    {
+      "case": "authority_old_cursor",
+      "error": "unmaterialized coverage"
+    },
+    {
+      "case": "record_bool_sequence",
+      "error": "fixed old-state ledger"
+    },
+    {
+      "case": "record_wrong_sequence",
+      "error": "attempt schema"
+    },
+    {
+      "case": "record_wrong_cursor",
+      "error": "fixed old-state ledger"
+    },
+    {
+      "case": "record_wrong_prior_order",
+      "error": "fixed old-state ledger"
+    },
+    {
+      "case": "record_bad_order_schema",
+      "error": "fixed old-state ledger"
+    },
+    {
+      "case": "record_wrong_after_state",
+      "error": "nonimprovement"
+    },
+    {
+      "case": "record_partial_positive",
+      "error": "result optimum"
+    },
+    {
+      "case": "record_missing_current_column",
+      "error": "result domains/loads"
+    },
+    {
+      "case": "record_bool_column",
+      "error": "strict selected column integers"
+    },
+    {
+      "case": "record_wrong_selected_load",
+      "error": "old selected load"
+    },
+    {
+      "case": "move_wrong_columns",
+      "error": "detached64 identity"
+    },
+    {
+      "case": "move_wrong_old_cursor",
+      "error": "exact accepted move/event association"
+    },
+    {
+      "case": "move_missing_field",
+      "error": "exact accepted move/event association"
+    },
+    {
+      "case": "audit_failed",
+      "error": "accepted audit/pin counts"
+    },
+    {
+      "case": "audit_wrong_count",
+      "error": "accepted audit/pin counts"
+    },
+    {
+      "case": "audit_bool_states",
+      "error": "accepted audit chain contract"
+    },
+    {
+      "case": "audit_wrong_scores",
+      "error": "accepted audit chain contract"
+    },
+    {
+      "case": "audit_wrong_runtime",
+      "error": "audit source/runtime"
+    },
+    {
+      "case": "audit_wrong_helper",
+      "error": "audit source/runtime"
+    },
+    {
+      "case": "audit_missing_artifact",
+      "error": "six audited artifact identities"
+    },
+    {
+      "case": "audit_wrong_observation",
+      "error": "audit ledger observations"
+    },
+    {
+      "case": "audit_wrong_resource",
+      "error": "audit original resources"
+    },
+    {
+      "case": "report_postcompletion_charge",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "report_failed",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "receipt_failed",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "guard_nested_shape",
+      "error": "guard schema"
+    },
+    {
+      "case": "guard_wrong_argv",
+      "error": "flat audit guard status/argv"
+    },
+    {
+      "case": "guard_wrong_audit",
+      "error": "audit guard output identity"
+    },
+    {
+      "case": "guard_missing_source",
+      "error": "four audit guard source roles"
+    },
+    {
+      "case": "guard_extra_source",
+      "error": "four audit guard source roles"
+    },
+    {
+      "case": "guard_bad_cleanup_time",
+      "error": "audit guard time"
+    }
+  ],
+  "scope": "Real new associate_documents, real frozen historical/run association and authority validator; explicit structural identity spies on approved n4pair with declared65/64metadata. No actual inputs, geometry or optimizer.",
+  "sources": {
+    "research/restricted_three_row64.py": "e5325621cf6f0c48f0d08c94b3439269b47756739f07f5cd7f271347586df210",
+    "research/restricted_three_row64_independent_association_v1.py": "e305d855c7d3723377f83e334e3e094bad819ec85a876dbd95dbdd5c5f8d4d26",
+    "research/restricted_three_row64_independent_byte_fixture.py": "2ad11579fe1cef15189e2b843995482fc628403c037198ba237973e66d855593",
+    "research/restricted_three_row64_independent_synthetic_graph.py": "ac4a0faf288f6bf5f632456f2a30f86c8cd3a4950037ceb742fb7e719dfc6194"
+  },
+  "unexpected_acceptances": [],
+  "v2_binding_source_sha256": "41ba6d73a55dc72049ecd1e2e09be7c268206c8f45141a9ccdcc42f7a1ed7546"
+}

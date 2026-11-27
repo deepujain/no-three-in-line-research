@@ -1,0 +1,283 @@
+{
+  "cases": [
+    {
+      "accepted": true,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "ordinary",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": true,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "save_zero",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "zero_clean",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load"
+      ],
+      "initial_builds": 0,
+      "initial_index_released": true,
+      "mode": "loader_fail",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual"
+      ],
+      "initial_builds": 0,
+      "initial_index_released": true,
+      "mode": "dual_fail",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual"
+      ],
+      "initial_builds": 0,
+      "initial_index_released": true,
+      "mode": "dual_wrong_identity",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build"
+      ],
+      "initial_builds": 0,
+      "initial_index_released": true,
+      "mode": "build_fail",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "build_wrong_score",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "build_wrong_identity",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "initial_publish_fail",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "initial_file_fail",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "drive_error",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "lost_started_charge",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "save_zero",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "saved_witness_old_authority",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "save_zero",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "zero_metadata_error",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "uncertain_authority",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "final_publish_fail",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "post_pin_drift",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "load",
+        "dual",
+        "build",
+        "new_authority",
+        "publish:initialize",
+        "drive",
+        "publish:final_stop"
+      ],
+      "initial_builds": 1,
+      "initial_index_released": true,
+      "mode": "report_persist_fail",
+      "no_stale_prepared_in_run": true
+    },
+    {
+      "accepted": false,
+      "calls": [],
+      "initial_builds": 0,
+      "initial_index_released": true,
+      "mode": "deadline_before_load",
+      "no_stale_prepared_in_run": false
+    },
+    {
+      "accepted": false,
+      "calls": [],
+      "initial_builds": 0,
+      "initial_index_released": true,
+      "mode": "bad_manifest_input",
+      "no_stale_prepared_in_run": false
+    }
+  ],
+  "limitations": "No actual input, n75 geometry, optimizer, real zero validation, fsync durability or RSS claim. Initial ownership checked via caller locals and weakrefs; positive-transition lifetime is separately source-bound to frozen v3 evidence.",
+  "passed": true,
+  "scope": "Real run control flow, manifest decoder and final acceptance gate; loader, geometry, controller and persistence callbacks explicitly declared spies. Genuine temporary manifest/output bytes; source digest labels declared.",
+  "source_sha256": "673a23029b262d23d4649852a689d2bbbbc3958a70fca7d12374b7e2216463e6",
+  "worker_sha256": "e5325621cf6f0c48f0d08c94b3439269b47756739f07f5cd7f271347586df210"
+}

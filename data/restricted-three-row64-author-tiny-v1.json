@@ -1,0 +1,175 @@
+{
+  "approved_real_tiny_controller": {
+    "decisions": 55,
+    "fixtures": 87,
+    "pending": 55,
+    "splits": 142,
+    "strict_moves": 55
+  },
+  "bytes_reader": {
+    "genuine_synthetic_scan_and_read": true,
+    "wrong_size_digest_rejections": 4
+  },
+  "orchestration": [
+    {
+      "accepted": true,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64",
+        "new_authority",
+        "initialize",
+        "drive",
+        "final_stop"
+      ],
+      "indexes_released": true,
+      "mode": "normal"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64"
+      ],
+      "indexes_released": true,
+      "mode": "validation_failure"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64"
+      ],
+      "indexes_released": true,
+      "mode": "validation_identity"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64"
+      ],
+      "indexes_released": true,
+      "mode": "index_score"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64",
+        "new_authority",
+        "initialize"
+      ],
+      "indexes_released": true,
+      "mode": "initial_publication"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64",
+        "new_authority",
+        "initialize",
+        "drive",
+        "final_stop"
+      ],
+      "indexes_released": true,
+      "mode": "lost_charge"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64",
+        "new_authority",
+        "initialize",
+        "drive",
+        "final_stop"
+      ],
+      "indexes_released": true,
+      "mode": "saved_old_authority"
+    },
+    {
+      "accepted": false,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64",
+        "new_authority",
+        "initialize",
+        "drive",
+        "final_stop"
+      ],
+      "indexes_released": true,
+      "mode": "metadata_error"
+    },
+    {
+      "accepted": true,
+      "calls": [
+        "association_exit",
+        "dual64",
+        "build64",
+        "new_authority",
+        "initialize",
+        "drive",
+        "final_stop"
+      ],
+      "indexes_released": true,
+      "mode": "saved_zero"
+    }
+  ],
+  "parser_quotas": [
+    "NODE_CAP",
+    "DEPTH_CAP",
+    "GRAPH_CAP",
+    "AUX_CAP"
+  ],
+  "passed": true,
+  "scope": "Synthetic declared semantic graph, genuine temporary input bytes, quota checks, fully stubbed fixed64 orchestration and approved n2..4 controller only. No actual input or geometry.",
+  "semantic": {
+    "initial_seven_keys_accepted": true,
+    "mutations_rejected": [
+      "initial generation invented",
+      "initial cursor invented",
+      "initial order",
+      "charge completions",
+      "charge accepted",
+      "guard nested",
+      "guard argv",
+      "guard output",
+      "guard sources",
+      "guard cleanup time bool",
+      "audit resources",
+      "audit runtime",
+      "audit helper",
+      "audit count boolean",
+      "audit observation",
+      "audit digest roles",
+      "old accepted chain",
+      "old metadata id",
+      "prior pin count",
+      "missing source",
+      "old source drift",
+      "extra parsed role",
+      "move event",
+      "move columns",
+      "active metadata score",
+      "metadata role",
+      "metadata bool",
+      "metadata aggregate",
+      "old selected load",
+      "old current exclusion",
+      "selected bool",
+      "final cap count",
+      "pending"
+    ],
+    "scope": "Declared historical hash labels, structural point/identity spies; real frozen old-association predicates, no geometry/byte claim.",
+    "valid_graph": true
+  },
+  "tiny_sha256": "6328c02544336e4dc483bab1ead1148d05765c91b0c898b5fbf53b5d05fa4bf8",
+  "worker_sha256": "5989d8c19e1b9168dd157a30de4c05ff1d345a8d33970c1daeabd8ae900ebcd0"
+}

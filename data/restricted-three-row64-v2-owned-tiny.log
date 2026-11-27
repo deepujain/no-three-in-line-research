@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+    with patch.object(t.w,'ROOT',p):t.main()
+                                    ~~~~~~^^
+  File "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64_tiny.py", line 210, in main
+    'semantic':semantic(),'parser_quotas':parser_quotas(),'bytes_reader':bytes_reader(),
+               ~~~~~~~~^^
+  File "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64_tiny.py", line 72, in semantic
+    f=fixture();points,info=associated(f)
+                            ~~~~~~~~~~^^^
+  File "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64_tiny.py", line 68, in associated
+    return w.associate_documents(f['docs'],f['metadata'],f['pins'],f['authority_raw'],runtime=f['runtime'])
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64.py", line 179, in associate_documents
+    require(all(pins.get(str((ROOT/name).resolve())) == sha for name,sha in metadata['artifacts'].items()),'all51 input pins')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64.py", line 83, in require
+    if not condition: raise ValueError(message)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: all51 input pins

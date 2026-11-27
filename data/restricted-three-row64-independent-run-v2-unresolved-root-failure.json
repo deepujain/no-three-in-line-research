@@ -1,0 +1,8 @@
+{
+  "cause": "Harness ROOT retained /var spelling while production pin normalization resolved /private/var. Correct harness by resolving temporary ROOT. No worker change or actual input execution.",
+  "error": "ValueError: mandatory wrapper/input/runtime pins",
+  "passed": false,
+  "source_sha256": "d11b9d998078f69fa630d4f6d06bcec90a91d375fd0ebc337df10fa7d3dee221",
+  "stage": "synthetic harness initialization before loader",
+  "worker_sha256": "e5325621cf6f0c48f0d08c94b3439269b47756739f07f5cd7f271347586df210"
+}

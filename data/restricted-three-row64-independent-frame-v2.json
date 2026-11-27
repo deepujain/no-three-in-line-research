@@ -1,0 +1,248 @@
+{
+  "closed_reader_success": true,
+  "exact_roles": 52,
+  "fixture_sha256": "2ad11579fe1cef15189e2b843995482fc628403c037198ba237973e66d855593",
+  "json_roles_read": 46,
+  "limitations": "Internal synthetic graph semantics are tested separately. No actual inputs/geometry, whole-wrapper run, physical-memory bound, durable publication or actual outcome acceptance.",
+  "passed": true,
+  "preflight_before_parsed_artifacts": true,
+  "real_disk_source_success": true,
+  "rejections": [
+    {
+      "case": "preflight_data/experiments/shepherd-restricted-three-row75-v1.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/experiments/shepherd-two-row-descent75-v1.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-independent-actual-v1-audit.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-independent-actual-v1-owned-guard.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-source-pins.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-v1/authority.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-v1/initial.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-v1/move-001-attempt-016.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/restricted-three-row75-v1/report.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-independent-chain-actual-audit.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-independent-chain-actual-owned-guard.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-source-pins.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/best.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/completed-boundary.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-001.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-002.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-003.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-004.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-005.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-006.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-007.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-008.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-009.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-010.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-011.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-012.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-013.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-014.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-015.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-016.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-017.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-018.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-019.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-020.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-021.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-022.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-023.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-024.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-025.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-026.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-027.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/improvement-028.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/initial.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-descent75-v1/report.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_data/two-row-suffix75-input-identities.json",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_research/restricted-three-row-independent-actual-audit-preparation-addendum.md",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_research/restricted-three-row-independent-chain-audit-source-review.md",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_research/restricted-three-row75-independent-actual-v1-metadata-review.md",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_research/two-row-descent75-independent-actual-acceptance-review.md",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_research/two_row_descent75_actual_chain_adapter.py",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "preflight_research/two_row_descent_independent_chain_audit.py",
+      "error": "injected synthetic scan rejection"
+    },
+    {
+      "case": "read_data/experiments/shepherd-restricted-three-row75-v1.json",
+      "error": "injected synthetic read rejection"
+    },
+    {
+      "case": "read_data/restricted-three-row75-v1/authority.json",
+      "error": "injected synthetic read rejection"
+    },
+    {
+      "case": "authenticated_json_duplicate_key",
+      "error": "duplicate JSON key"
+    },
+    {
+      "case": "authenticated_json_nonfinite",
+      "error": "nonfinite JSON token"
+    },
+    {
+      "case": "authenticated_json_nonascii",
+      "error": "'ascii' codec can't decode byte 0xff in position 6: ordinal not in range(128)"
+    },
+    {
+      "case": "authenticated_json_syntax",
+      "error": "Expecting property name enclosed in double quotes: line 1 column 1699 (char 1698)"
+    },
+    {
+      "case": "metadata_byte_drift",
+      "error": "synthetic exact byte digest mismatch"
+    }
+  ],
+  "scope": "Real association_frame, metadata schema/parser, quotas and real DiskSource over genuine synthetic bytes. All51 preflight scans precede45artifact decodes. New semantic association is an exact argument-checking spy.",
+  "source_sha256": "5584ca9da5cfba456663af00c0f7387b746fcb3f71f597c2d2a8ed05b2c3ec91",
+  "text_roles_hash_only": 6,
+  "worker_sha256": "e5325621cf6f0c48f0d08c94b3439269b47756739f07f5cd7f271347586df210"
+}

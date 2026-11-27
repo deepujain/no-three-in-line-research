@@ -1,0 +1,28 @@
+{
+  "cleanup_elapsed_seconds": 0.01120679100858979,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "command": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "-c",
+    "import tempfile;from pathlib import Path;from unittest.mock import patch;from research import restricted_three_row64_tiny as t\nwith tempfile.TemporaryDirectory() as d:\n p=Path(d);(p/'data').mkdir()\n with patch.object(t.w,'ROOT',p):t.main()"
+  ],
+  "elapsed_seconds": 0.10474883300776128,
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "worker_error",
+  "monitor_error": null,
+  "peak_sampled_rss_kib": 49552,
+  "returncode": 1,
+  "rss_limit_mib": 256,
+  "rss_samples": 2,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "Synthetic verification only, no actual input/recount/search. Tiny ROOT output redirected to temporary directory preserving prior evidence. Stress parser shapes and opaque memory/index/publication envelope are artificial, serializer injected; sampled RSS is not a maximum proof.",
+  "seconds_limit": 30,
+  "source_pins": {
+    "research/restricted_three_row64.py": "e5325621cf6f0c48f0d08c94b3439269b47756739f07f5cd7f271347586df210",
+    "research/restricted_three_row64_stress.py": "fa0a160c92c0cbc7781578f693a2726ac4d80a20751e4e415b37d9bb24cb525c",
+    "research/restricted_three_row64_tiny.py": "9d37464a8ad6cc21a08341cd2e76fcc0960026c24c1e57ae21334970574ac0f1"
+  },
+  "trigger_gate_status": null
+}

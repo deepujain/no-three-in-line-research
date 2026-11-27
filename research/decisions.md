@@ -1059,3 +1059,30 @@ Root read final loader design9c860166, independent Math59102be4 and lifecycle873
 SOURCE/TINY ONLY authorized now. Engineer implements a separate wrapper/loader using frozenv3 mathematics/controller; Math independent association/full-orchestration/callownership oracle; Literature independent lifecycle/parser/resource review. Closed synthetic52role fixtures and approved n≤4/control cases only. No actualartifact/input/loader/geometry/run, capgrowth/fallback/newseed or numericalreservation. Exact final source, independent reviews, owned gates and new manifest precede any separate actual decision.
 
 Four-row overlap exploration d7c7bcb8 has independent mathematicalfe67817e DESIGNPASS as an unallocated hypothesis. Cubic6C+4T objective and common-domain face-separation plus production comparator criteria reviewed. No fixed real-grid example supplied; no n5+fixturesearch/computation allocated. Retain exploration without fabricating a ready experiment. Latestpublished6de4c1a CI46021756497 andPages46021755804 both succeeded; preceding e42a98e singlefailed-jobrerun also succeeded.
+
+
+## 2026-11-27T15:32:45.371551+00:00 — Fixed64 v2 owned synthetic gates completed
+
+Required files/actual agents/host processes inspected: allthree AI workers active, no numericalworker/reservation. Authorv15989d8c1 preserved after independent Math found three malformed-ledger acceptances: first seq=True and two stale/malformed prior-state order hashes. Frozenv2e5325621 hardens strict integer ordinal and every old65 order identity. Independent v2 mutation rerun reports52/52reject; final fullframe/wrapper source review remains pending. No actualinput orgeometry read by author/reviewers.
+
+Root read final stressfa0a160c and its opaque32KiB pointquota correction (old64147498 preserved), then exactv2owned tiny-corrected0.746801708seconds/54176KiB and stress1.212198875seconds/97920KiB exited clean0under30seconds/256MiB. Stress genuinely decodes45artificial JSONshapes with exact311970totalbytes, releases parserphase, then holds near-cap graph/reserve/auxiliary/buffers/twofakeindexes and34realfile/directoryfsync1MiBpublications with injectedserializer. This is artificial finite evidence, not reachableauthority/runtimeforecast/unsampledmaximumproof.
+
+First Root tinywrapper failed because temporaryROOTredirection broke synthetic historical pin identities; its receipt/log remain ...64-v2-owned-tiny. Corrected fresh tiny-corrected command calls exactly the author main aggregatefunctions without rewriting author evidence and leaves ROOTunchanged. No researchsource change or failureerasure. Gates are verificationtimings separate from numericalsearchreceipts. Budget unchanged16781.460539677086/21600seconds. No actualfixed64 allocation; final independentreviews/method/manifest pending.
+
+
+## 2026-11-27T15:38:04.408399+00:00 — Fixed64 independent source reviews accepted; manifest closing
+
+Root read mathematical SOURCE/TINY30cd3198 and lifecyclec0ed08f9 at exacte5325621. Independent semantic52/52mutations, fullrealframe58rejections and20runmodes PASS with separate disclosed byte/semantic/orchestration spies. Own /var versus /private/var harness failure preserved; corrected harness only. Root-owned correctedtiny/stress gates remain separately bound. No actualinputgeometry executed.
+
+Author authorized to read only original coordinate-free228entry manifest7d0ab3cc and hash/measure closure bytes without decoding actualoutcomeartifacts to assemble final fixed64 manifest. This resolves source-only handoff access without broadening geometry scope. Finalmethod/manifest then Root fresh process/pin/budget checks precede singlepossibleactualallocation.
+
+Future successful-run audit protocol4e910c51 read/accepted. Math SOURCE/TINY adapter author and Literature independentreview promptly assigned; noactualauditinputs or optimizerreplay. Separate exploration retained. Permanent searchbudget remains16781.460539677086/21600seconds. Published14525e8 Pages46023616469 succeeded; CI46023616892 one knownlegacyRSS-exitrace failure inspected and singlefailed-jobrerun dispatched, guard unchanged.
+
+
+## 2026-11-27T15:39:38.091767+00:00 — Fixed64 actual gate rejected incomplete source manifest before inputs
+
+Root read finalmethod6833901d, accepted289entrymanifestfeb16b23 after verifying allpresenthashes and inherited228map unchanged, inspectednolivenumericalworkers and made a permanent30secondreservation. Ownedactualgate exited2 clean in0.110640416seconds/46160KiB. Report4683005e acceptedfalse with error frozen source closure; work is empty, no authority/publications and no inputloader/geometry/search executed. Allpresentpins unchanged. Receipt preserved as data/experiments/shepherd-restricted-three-row64-v1.json and originaloutput remains data/restricted-three-row64-v1.
+
+Manifest assembly omitted three required SOURCE_IDENTITIES: prioractualchainadapter0d5537eb, purechainhelper1c896c07 and commonindependentsuffixaudit4fc03f19. Worker correctly failedclosed. Author assembly and Root actualpreflight both checked hashes ofpresententries but missed complete requiredpresence. No source/algorithm/coordinate change or deadneighborhood result. Originalmanifest/method/report/receipt stay immutable.
+
+Engineer assigned correctedmanifestONLY + pure coordinate-free complete mandatorysource/51role/inherited228+self preflightcontracttest; Math and Literature independent review. Noautomaticretry or actualallocationauthorized. A freshdecision follows correctedmanifest/reviews, not an erasedfailedreceipt. Numericalusage includingfailedreservationreconciliation 16781.571180093095 /21600seconds; remaining 4818.428819906905. Allworkers assigned, exploration retained.

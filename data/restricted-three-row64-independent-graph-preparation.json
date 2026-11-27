@@ -1,0 +1,98 @@
+{
+  "artifact_roles": 51,
+  "corruption_rejections": [
+    {
+      "case": "old_report_not_accepted",
+      "error": "pilot report binding"
+    },
+    {
+      "case": "old_receipt_drift",
+      "error": "pilot receipt binding"
+    },
+    {
+      "case": "old_audit_not_accepted",
+      "error": "independent actual chain association"
+    },
+    {
+      "case": "old_audit_chain_failed",
+      "error": "independent actual chain association"
+    },
+    {
+      "case": "old_guard_wrong_audit",
+      "error": "independent audit guard association"
+    },
+    {
+      "case": "old_move_wrong_final_score",
+      "error": "historical move metadata binding"
+    },
+    {
+      "case": "old_boundary_wrong_identity",
+      "error": "boundary schema/provenance"
+    },
+    {
+      "case": "old_best_valid",
+      "error": "best65 diagnostic schema"
+    },
+    {
+      "case": "recent_report_not_accepted",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "recent_report_wrong_order",
+      "error": "report last-durable authority association"
+    },
+    {
+      "case": "recent_receipt_drift",
+      "error": "receipt association"
+    },
+    {
+      "case": "recent_receipt_bad_argv",
+      "error": "receipt association"
+    },
+    {
+      "case": "recent_manifest_self",
+      "error": "manifest self entry"
+    },
+    {
+      "case": "recent_manifest_missing",
+      "error": "manifest plus one report/receipt pin association"
+    },
+    {
+      "case": "recent_charge_after_complete",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "recent_wrong_publications",
+      "error": "exact clean publication accounting"
+    },
+    {
+      "case": "recent_uncertain",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "recent_metadata_error",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "recent_initial_old_counters",
+      "error": "fixed65 initial/handoff association"
+    },
+    {
+      "case": "recent_initial_bad_handoff",
+      "error": "fixed65 initial/handoff association"
+    }
+  ],
+  "json_roles": 45,
+  "limitations": "This is not a fixed64 wrapper PASS. Full new association, real synthetic-byte authentication, orchestration, call ownership and frozen-source review remain pending author implementation.",
+  "passed": true,
+  "pure_association_successes": 2,
+  "scope": "Synthetic graph preparation and frozen old pure-interface conformance only. Declared hash labels, identity/structure spies and n4 point arrays; no actual inputs, geometry, byte authentication or new fixed64 implementation comparison.",
+  "sources": {
+    "research/restricted_three_row64_independent_graph_preparation.py": "79b2a478a06185f281f382d7d65a2b061e387ed3f9e4e204537f7025ce94f01e",
+    "research/restricted_three_row64_independent_synthetic_graph.py": "ac4a0faf288f6bf5f632456f2a30f86c8cd3a4950037ceb742fb7e719dfc6194",
+    "research/restricted_three_row_actual_chain_adapter.py": "0d5537eb46a898a84cb89ba4aceff2a817c122f8b5873492e5cce06e226ad50c",
+    "research/two_row_suffix75.py": "fe01dcecf582480754fc076a9a04a2f6d2a24d14d76bb55280f09f0db06cc9f1"
+  },
+  "text_roles": 6,
+  "total_roles_with_metadata": 52
+}

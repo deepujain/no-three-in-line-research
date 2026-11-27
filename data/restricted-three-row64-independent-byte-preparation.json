@@ -1,0 +1,540 @@
+{
+  "artifact_bytes": 355145,
+  "artifact_roles": 51,
+  "genuine_byte_scans": 52,
+  "genuine_json_decodes": 46,
+  "limitations": "Internal historical semantic links remain declared labels. This fixture is for real loader orchestration with association an argument-checking spy. No new wrapper, source I/O, memory lifetime, process guard or semantic-chain PASS is claimed.",
+  "metadata_bytes": 10249,
+  "passed": true,
+  "rejection_count": 104,
+  "rejections": [
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-001.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-001.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-002.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-002.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-003.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-003.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-004.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-004.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-005.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-005.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-006.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-006.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-007.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-007.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-008.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-008.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-009.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-009.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-010.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-010.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-011.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-011.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-012.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-012.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-013.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-013.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-014.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-014.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-015.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-015.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-016.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-016.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-017.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-017.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-018.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-018.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-019.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-019.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-020.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-020.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-021.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-021.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-022.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-022.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-023.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-023.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-024.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-024.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-025.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-025.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-026.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-026.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-027.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-027.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/improvement-028.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/improvement-028.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/report.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/report.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/experiments/shepherd-two-row-descent75-v1.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/experiments/shepherd-two-row-descent75-v1.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-source-pins.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-source-pins.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/completed-boundary.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/completed-boundary.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/initial.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/initial.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-v1/best.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-v1/best.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-independent-chain-actual-audit.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-independent-chain-actual-audit.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-descent75-independent-chain-actual-owned-guard.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-descent75-independent-chain-actual-owned-guard.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/two-row-suffix75-input-identities.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/two-row-suffix75-input-identities.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-source-pins.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-source-pins.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-v1/report.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-v1/report.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/experiments/shepherd-restricted-three-row75-v1.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/experiments/shepherd-restricted-three-row75-v1.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-v1/authority.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-v1/authority.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-v1/initial.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-v1/initial.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-v1/move-001-attempt-016.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-v1/move-001-attempt-016.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-independent-actual-v1-audit.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-independent-actual-v1-audit.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row75-independent-actual-v1-owned-guard.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row75-independent-actual-v1-owned-guard.json"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "research/restricted-three-row-independent-actual-audit-preparation-addendum.md"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "research/restricted-three-row-independent-actual-audit-preparation-addendum.md"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "research/restricted-three-row75-independent-actual-v1-metadata-review.md"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "research/restricted-three-row75-independent-actual-v1-metadata-review.md"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "research/two_row_descent75_actual_chain_adapter.py"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "research/two_row_descent75_actual_chain_adapter.py"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "research/two-row-descent75-independent-actual-acceptance-review.md"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "research/two-row-descent75-independent-actual-acceptance-review.md"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "research/two_row_descent_independent_chain_audit.py"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "research/two_row_descent_independent_chain_audit.py"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "research/restricted-three-row-independent-chain-audit-source-review.md"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "research/restricted-three-row-independent-chain-audit-source-review.md"
+    },
+    {
+      "error": "synthetic exact size mismatch",
+      "kind": "size",
+      "role": "data/restricted-three-row64-input-identities.json"
+    },
+    {
+      "error": "synthetic exact byte digest mismatch",
+      "kind": "digest",
+      "role": "data/restricted-three-row64-input-identities.json"
+    }
+  ],
+  "scope": "Genuine hashes, exact byte sizes and JSON decoding for a closed52-role synthetic graph padded to the approved envelope. No actual artifact read or geometry.",
+  "sources": {
+    "research/restricted_three_row64_independent_byte_fixture.py": "2ad11579fe1cef15189e2b843995482fc628403c037198ba237973e66d855593",
+    "research/restricted_three_row64_independent_byte_preparation.py": "4c02c3700410650b8b5b9605bfa60f3872c9a626ae97fa6ca8247090ad7ea8dc",
+    "research/restricted_three_row64_independent_synthetic_graph.py": "ac4a0faf288f6bf5f632456f2a30f86c8cd3a4950037ceb742fb7e719dfc6194"
+  },
+  "total_bytes": 365394,
+  "total_roles_with_metadata": 52
+}
