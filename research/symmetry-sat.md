@@ -63,3 +63,7 @@ Both independent reviewers were sent these versions. No queue or supervisor file
 ```
 
 Only one newly available numerical lane should be assigned at a time within the shepherd's global resource and deadline limits. Existing workers already imported the preceding base implementation; the announced source change applies to newly executed jobs.
+
+## Small half-turn trial after the memory stop
+
+The independently reviewed half-turn158 branch ran with a fresh checkpoint and a200,000-new-cut quota. The saved report `data/sat-r8-halfturn158-small.json` records cut-limit termination after6.68 seconds, peak process RSS86,818,816 bytes, no witness and no UNSAT. This is incomplete computational evidence. A single bounded continuation with another200,000 new cuts is queued; it reloads only this measured small checkpoint, giving at most400,000 geometry cuts. The large interrupted checkpoints remain paused. Source versions and named invariant-family restrictions are unchanged.

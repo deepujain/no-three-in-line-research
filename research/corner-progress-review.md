@@ -1,0 +1,15 @@
+# Independent review of three corner-stream prefixes
+
+Reviewed 2026-11-27 at approximately 00:24:42 UTC by gpt-6.1-terra, high reasoning, per assignment. This is an artifact and provenance check, not an independent replay of the numerical computations. No new numerical search or benchmark was run.
+
+The actual published seed and scan were supplied to `load_gapless_chain` for each tip. It checked every predecessor's byte hash, consistent frontier parameters, ordered-source and normalized-source hashes, and gapless offsets from zero. I independently compared each chain's cut, base indices and total to `data/corner-anchor-frontier/manifest.json`, inspected every record's completion count, tested/valid addition counters, and certificate/witness fields, and summed counts only **within** its own chain. The source normalized hash is `e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced`; its ordered hash is `e7678d82888f177d779c4ca250d6cda995645a13e0c102b5727138a835c0c9bb`. Reviewed worker SHA-256 is `dbb412aa9bd83d56b7ba331f97097b5549bded8131a0811de8cdcba4883a2292`; underlying audit source is `7c0ee4ad6c63f4c0808535a488459a5e59e693a23bed695a172068c146a72bc9`; manifest bytes hash to `e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1`.
+
+| Anchor and original deletion indices | Reviewed prefix of 596,904 | Linked records | 157 / 158 addition subsets tested | Valid / certificates | Tip SHA-256 |
+|---|---:|---:|---:|---:|---|
+| 10296: [40,52] | 0–495,953 (next 495,954) | 26 | 509,988 / 2,360 | 0 / 0 | `d1eb04b8cc016afe5dee965a1c83c3a4bea16c484d9656c4808b130d48a0f5af` |
+| 10297: [40,88] | 0–497,273 (next 497,274) | 26 | 511,230 / 2,347 | 0 / 0 | `577445790020ce4d001c169c4abbdf70ee763977da38380296321f2c41fb22a7` |
+| 10298: [52,70] | 0–491,277 (next 491,278) | 26 | 497,914 / 1,106 | 0 / 0 | `31cdaa9907e877863685e5e86ab863ebdbc32ae26cf04d64982eb8efca18b31d` |
+
+The terminal record hashes, in the same order, are `a00f2791bbc93b3d08d33eb482243aa87933a53a91fc9f2177f095c99d1e51bd`, `c536db66e4c64c8280971dc3b9f250f6f62dc9527fc6640493a254d1b87f5692`, and `dd0489216f388c8656ab747af024c4f7207b9d80d549835edf50baa28ffdf515`. Every terminal record says `timeout_incomplete`. The three receipts `data/experiments/r7-corner-five-10296.json` through `...10298.json` show process exit 0 and `completed` at approximately 00:24:09 UTC; that means the bounded worker finished its slice, not that its frontier was exhausted. No `embedding-witness-*.json` file was present in the frontier directory at inspection.
+
+Conditional on the correctness of the trusted recorded computations, each row excludes valid 157/158-point repairs in **that enumerated prefix** of that anchor. These anchors can overlap, so their counts must not be summed as distinct deletion sets. Most anchor families have not been covered; these partial results do not exclude the full corner family, other embeddings or an unrestricted witness. Record hashes establish chain consistency and provenance, not proof that the computations ran correctly.

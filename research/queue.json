@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "After aggregate RAM guard stopped the SAT batch, only independently reviewed low-memory corner streams may be newly appended. Existing interrupted job IDs stay immutable; no large SAT relaunch.",
+  "note": "Current three corner streams remain uninterrupted. Next free lane receives a reviewed small half-turn158 exploration with fresh checkpoint and200000-cut cap. No concurrent SAT or large old-checkpoint loading.",
   "jobs": [
     {
       "args": [
@@ -222,6 +222,90 @@
         "data/corner-anchor-frontier/corner-exact5-anchor-10298-origin.json",
         "--output",
         "data/corner-anchor-frontier/corner-exact5-anchor-10298-tip.json"
+      ]
+    },
+    {
+      "id": "r8-halfturn158-small",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Exploration branch: test the independently reviewed half-turn invariant 158-point family, distinct from prior diagonal157 search. Fresh checkpoint, at most200000 new cuts and only one SAT worker; any UNSAT applies solely to this family.",
+      "args": [
+        "--n",
+        "79",
+        "--target",
+        "158",
+        "--symmetry",
+        "halfturn",
+        "--backend",
+        "glucose3",
+        "--checkpoint",
+        "data/checkpoints/halfturn158-small.jsonl",
+        "--max-cuts",
+        "200000",
+        "--progress",
+        "data/run-logs/halfturn158-small-progress.jsonl",
+        "--output",
+        "data/sat-r8-halfturn158-small.json"
+      ]
+    },
+    {
+      "id": "r8-corner-five-10296-resume",
+      "script": "research/embedding_worker.py",
+      "seconds": 300,
+      "hypothesis": "Resume reviewed corner anchor 10296 at its durable gapless tip after the first600-second slice. Search remaining exact-five supersets only; overlaps across anchors are declared and a completed anchor is not full-family closure.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10296-tip.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10296-tip.json"
+      ]
+    },
+    {
+      "id": "r8-corner-five-10297-resume",
+      "script": "research/embedding_worker.py",
+      "seconds": 300,
+      "hypothesis": "Resume reviewed corner anchor 10297 at its durable gapless tip after the first600-second slice. Search remaining exact-five supersets only; overlaps across anchors are declared and a completed anchor is not full-family closure.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json"
+      ]
+    },
+    {
+      "id": "r8-corner-five-10298-resume",
+      "script": "research/embedding_worker.py",
+      "seconds": 300,
+      "hypothesis": "Resume reviewed corner anchor 10298 at its durable gapless tip after the first600-second slice. Search remaining exact-five supersets only; overlaps across anchors are declared and a completed anchor is not full-family closure.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10298-tip.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10298-tip.json"
+      ]
+    },
+    {
+      "id": "r9-halfturn158-small-resume",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "The fresh half-turn158 trial reached200000 geometry cuts at86.8MB peak RSS without a witness. Continue once from those validated cuts with a further200000-cut quota (at most400000 geometry cuts total), only one SAT process and no large interrupted checkpoint loading. Restricted family remains unproved.",
+      "args": [
+        "--n",
+        "79",
+        "--target",
+        "158",
+        "--symmetry",
+        "halfturn",
+        "--backend",
+        "glucose3",
+        "--checkpoint",
+        "data/checkpoints/halfturn158-small.jsonl",
+        "--max-cuts",
+        "200000",
+        "--progress",
+        "data/run-logs/halfturn158-small-resume-progress.jsonl",
+        "--output",
+        "data/sat-r9-halfturn158-small-resume.json"
       ]
     }
   ]

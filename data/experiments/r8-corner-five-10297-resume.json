@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/embedding_worker.py",
+    "--previous",
+    "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json",
+    "--output",
+    "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json",
+    "--seconds",
+    "300"
+  ],
+  "elapsed_seconds": 330,
+  "entrypoint_sha256": "dbb412aa9bd83d56b7ba331f97097b5549bded8131a0811de8cdcba4883a2292",
+  "job": {
+    "args": [
+      "--previous",
+      "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json",
+      "--output",
+      "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json"
+    ],
+    "hypothesis": "Resume reviewed corner anchor 10297 at its durable gapless tip after the first600-second slice. Search remaining exact-five supersets only; overlaps across anchors are declared and a completed anchor is not full-family closure.",
+    "id": "r8-corner-five-10297-resume",
+    "script": "research/embedding_worker.py",
+    "seconds": 300
+  },
+  "note": "Conservative time reservation until completion receipt replaces it.",
+  "pid": 72269,
+  "started_at": "2026-11-27T00:24:55.867443+00:00",
+  "status": "running_reserved"
+}

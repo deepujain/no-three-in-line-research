@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "independent embedding, symmetry and resource-stop reviews completed",
+    "status": "independent first corner-prefix review completed; no full-family claim",
     "additional_role": "Mathematical Reviewer, later task on same agent/model"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "symmetry worker implemented; independent corner-origin review approved for numerical use"
+    "status": "implementing memory-bounded multi-anchor worker; no numerical benchmark authorized alongside active pool"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "symmetry proofs and complete anchor manifest prepared; three reviewed corner streams active numerically",
+    "status": "independent review of forthcoming multi-anchor worker; numerical sources remain frozen",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

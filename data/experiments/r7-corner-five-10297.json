@@ -9,8 +9,10 @@
     "--seconds",
     "600"
   ],
-  "elapsed_seconds": 630,
+  "elapsed_seconds": 600.653391916996,
   "entrypoint_sha256": "dbb412aa9bd83d56b7ba331f97097b5549bded8131a0811de8cdcba4883a2292",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T00:24:09.580862+00:00",
   "job": {
     "args": [
       "--previous",
@@ -23,8 +25,9 @@
     "script": "research/embedding_worker.py",
     "seconds": 600
   },
-  "note": "Conservative time reservation until completion receipt replaces it.",
+  "log": "data/run-logs/r7-corner-five-10297.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
   "pid": 62308,
   "started_at": "2026-11-27T00:14:08.895507+00:00",
-  "status": "running_reserved"
+  "status": "completed"
 }
