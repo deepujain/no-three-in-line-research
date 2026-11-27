@@ -1,0 +1,11 @@
+# Two-row descent: merged deficiency choices preserve zero/tie priority
+
+This design-only clarification supplements immutable design `research/row-block-continuation-no-go-and-two-row-design.md`, SHA-256 `9ae208d8cb88117f886a73dcf808a365cad6c5b3757707f7f6575317d8c4493c`. It changes no objective, accepted state, cap, source artifact or allocation.
+
+When two selected rows contain three points, enumerate the outer-row column sets X of both sizes1 and2 in ONE lexicographic stream. For x=0,...,n-1, first yield the singleton(x,), then yield every pair(x,y) for y=x+1,...,n-1. For each X, the partner-row load is3-|X|. For a four-point pair, enumerate only size-two X in ordinary combination order and use partner load2.
+
+For each X choose the partner columns Y minimizing `(partner cost, sorted Y)` using the one/two smallest `(adjusted unary cost,column)` entries. Current coordinates are feasible choices. The resulting X stream is in tuple lexicographic order, including prefix ordering: `(0,) < (0,1) < ... < (1,)`. Therefore the first completely scored zero candidate also minimizes `(U,X,Y)` over all feasible candidates: U cannot be negative, no later X is smaller, and the selected Y is already the least tied optimum for that X. It can be immediately validated and saved without completing other X choices. The claim depends on both the merged X order and the exact minimum/tie rule for Y.
+
+Do not enumerate all(1,2) choices before all(2,1) choices and then assume the first zero satisfies the global tie rule. For example a later pair X=(0,74) would precede an earlier singleton X=(1,) lexicographically. That implementation could either preserve the witness exception or the specified tie rule but would not follow this clarified policy.
+
+The merged stream contains n+C(n,2)=2850 choices at n75 and retains the213750 partner-column-visit bound. There is no extra pass, stored candidate list, random draw or allocation. Independent synthetic review should compare the stream against the sorted union of both combination sets, verify every legal load orientation appears once, and compare both the full optimum and any first zero against complete direct enumeration. Production/source review remains separate; no actual n75 geometry was evaluated for this clarification.

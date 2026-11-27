@@ -1,0 +1,121 @@
+{
+  "counts": {
+    "direct_assignments": 11977,
+    "load_orientations": 710,
+    "row_pairs": 445,
+    "states": 118
+  },
+  "coverage": "All n2/n3 row-valid states and every107th n4 state; all row pairs, both legal load orientations and all final assignments in each selected case.",
+  "deficiency_orientation_falsifier": {
+    "fixed_orientation": [
+      1,
+      [
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "rows": [
+      0,
+      1
+    ],
+    "swapped_orientation": [
+      0,
+      [
+        1,
+        2
+      ],
+      [
+        3
+      ]
+    ]
+  },
+  "helper_sha256": "4cbe455fac4cb019fed31a3bc06a2c241672bedaf8069285c9b4402836f22396",
+  "one_row_local_minimum": {
+    "U": 1,
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "row_minima": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "selected_rows": [
+      0,
+      1
+    ],
+    "two_row_optimum": [
+      0,
+      [
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "oracle_sha256": "bb96c06a6248d8e81c59a7d63f6a11673b7fea5dcb232f4c2959be7465aba9c2",
+  "scope": "tiny-only mathematical reduction; no production or n75 geometry"
+}

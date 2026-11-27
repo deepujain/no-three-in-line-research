@@ -1,0 +1,555 @@
+{
+  "all_policy_trajectories_sha256": "2bfc0a9e505ce4d358a506258518ed844d4349d14775c732a0e45368a0cc271d",
+  "cap_and_two_row_fixtures": [
+    {
+      "n": 4,
+      "pair_cap": 32,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "result": {
+        "U": 0,
+        "accepted": 1,
+        "events": [
+          [
+            "row",
+            0,
+            [
+              1,
+              [
+                0
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            1,
+            [
+              1,
+              [
+                0,
+                2
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            2,
+            [
+              1,
+              [
+                0,
+                3
+              ]
+            ],
+            false
+          ],
+          [
+            "pair",
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              [
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            true
+          ]
+        ],
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_started": 3,
+        "status": "zero"
+      },
+      "row_cap": 512
+    },
+    {
+      "n": 4,
+      "pair_cap": 32,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "result": {
+        "U": 1,
+        "accepted": 0,
+        "events": [],
+        "pair_started": 0,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_started": 0,
+        "status": "row_cap"
+      },
+      "row_cap": 0
+    },
+    {
+      "n": 4,
+      "pair_cap": 32,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "result": {
+        "U": 1,
+        "accepted": 0,
+        "events": [
+          [
+            "row",
+            0,
+            [
+              1,
+              [
+                0
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            1,
+            [
+              1,
+              [
+                0,
+                2
+              ]
+            ],
+            false
+          ]
+        ],
+        "pair_started": 0,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_started": 2,
+        "status": "row_cap"
+      },
+      "row_cap": 2
+    },
+    {
+      "n": 4,
+      "pair_cap": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "result": {
+        "U": 1,
+        "accepted": 0,
+        "events": [
+          [
+            "row",
+            0,
+            [
+              1,
+              [
+                0
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            1,
+            [
+              1,
+              [
+                0,
+                2
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            2,
+            [
+              1,
+              [
+                0,
+                3
+              ]
+            ],
+            false
+          ]
+        ],
+        "pair_started": 0,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_started": 3,
+        "status": "pair_cap"
+      },
+      "row_cap": 3
+    },
+    {
+      "n": 4,
+      "pair_cap": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "result": {
+        "U": 0,
+        "accepted": 1,
+        "events": [
+          [
+            "row",
+            0,
+            [
+              1,
+              [
+                0
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            1,
+            [
+              1,
+              [
+                0,
+                2
+              ]
+            ],
+            false
+          ],
+          [
+            "row",
+            2,
+            [
+              1,
+              [
+                0,
+                3
+              ]
+            ],
+            false
+          ],
+          [
+            "pair",
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              [
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            true
+          ]
+        ],
+        "pair_started": 1,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "row_started": 3,
+        "status": "zero"
+      },
+      "row_cap": 3
+    }
+  ],
+  "counts": {
+    "direct_assignments": 874573,
+    "merged_streams": 6,
+    "policy_traces": 3541,
+    "row_optima": 14075,
+    "row_pairs": 20983,
+    "states": 3541,
+    "zero_pair_optima": 15646
+  },
+  "elapsed_seconds": 7.256250542006455,
+  "limits": "The earlier design helper sampled n4 states; this separate preparation exhausts all row-valid n2..4 states and every legal final assignment in each selected pair. No statement about n75 success follows.",
+  "oracle_sha256": "fa3ed0628c1a305d368653cc1cc8669839dac81047e31d564c994f3745060842",
+  "policy_outcomes": {
+    "zero": 3541
+  },
+  "preparation_sha256": "db6a9540619c86ef7d9f6957529a3ddd35fe0191f78d1d150a342e2f886f4317",
+  "scope": "Independent tiny oracle only; no production imports or actual n75 geometry."
+}

@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "data/experiments/shepherd-row-block-breakout75-v1.json": "3a74c525fa73a99ae54379a132cbef769c662932f1b7819d7d14e4e8860c2228",
+    "data/row-block-breakout75-independent-actual-audit-owned-guard.json": "56d2bf4172cca515a9c5befeca24594efa1f0d462c72dd481b9a08becbe7cd73",
+    "data/row-block-breakout75-independent-actual-audit.json": "c0b0592fb0c898148e6addf8d9358a7e9c83041a73801909a2449356d29d9001",
+    "data/row-block-breakout75-source-pins.json": "184d2c2e7849c0dd0392d680c06e9fc6db2522bac80fe37aadceec20af9dbbb9",
+    "data/row-block-breakout75-v1/best.json": "bcb96acbdbb0ec8b79729266a95a3cf9f59b418ff5242c64d8763134e6a753a7",
+    "data/row-block-breakout75-v1/completed-boundary.json": "c363d9904179fced810121d6b58689cb8401fb7fc9b9ddeb3f5ed2904110fd07",
+    "data/row-block-breakout75-v1/report.json": "d0a53eea4ee46967d7a15bf109507d455ad1f337395c4a7fc31e1f4a62872300",
+    "research/row-block-breakout75-independent-actual-review.md": "feaf675177d5fef3d03163c0cf07c833f6f78a9e9b530ca2873ca3f9f600e14a"
+  },
+  "best_normalized_sha256": "4312bb212dd558efd0f6eb573baa40f3ad19de2b1537e11e7be734fb14b4f168",
+  "n": 75,
+  "point_count": 149,
+  "schema": "two-row-fixed-handoff-identities-v1",
+  "scope": "Metadata-only authenticated new-algorithm handoff. Only best coordinates become active; parent weights/RNG/checkpoint remain provenance. No actual new search allocated.",
+  "unweighted_score": 97
+}

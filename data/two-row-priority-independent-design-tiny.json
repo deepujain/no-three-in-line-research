@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "row_incidences": 14075,
+    "row_pair_unions": 20983,
+    "states": 3541,
+    "zero_union_pairs": 1312
+  },
+  "helper_sha256": "15e6e081667e7939a97ab5b9bfe3704fd98d0f80b3802bd7b8188741110abf28",
+  "oracle_sha256": "bb96c06a6248d8e81c59a7d63f6a11673b7fea5dcb232f4c2959be7465aba9c2",
+  "scope": "all rowvalid n2..4 states; no actual n75 geometry or production implementation"
+}

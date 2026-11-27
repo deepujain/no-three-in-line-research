@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16769.186192969086,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Review exacttwo-row rawdescent bounded design from independentlyaudited best97 as explicit newalgorithmhandoff; no production or numericalallocation yet.",
+  "next_action": "Engineer authoring exact one/two-row SOURCE/TINY worker after engineering59cc2466 on design9ae208d8 and lex-zero29d12ad9; Math oracle and Literature lifecycle/handoff review. No actual new search allocated.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Row-block endpoints independently auditedfeaf6751:595initial/97best/203finalconflicts; no149. Unchangedcontinuationdeclined. Exacttwo-row correction DESIGNONLY active.",
+  "current_round": "Exact one/two-row correction design independently accepted; frozen best97 metadata handoff e1941ac1 provided without new geometry. SOURCE/TINY in progress.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,8 +40,9 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Exacttwo-row rawdescent correction design",
-    "Independent mathematical/prior-scope and engineering design reviews"
+    "New exact one/two-row production source/tiny freeze",
+    "Independent geometry/strict-descent/cap/zero source review",
+    "Lifecycle, authenticated best97 handoff and synthetic memory gates"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
