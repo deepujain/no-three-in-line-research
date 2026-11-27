@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Verify actual acceptance, publish and allocate only reviewed constructive designs",
+    "status": "Dispatch reviewed constructive source path; preserve4853.99s budget and deadline",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -14,7 +14,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Affine actualaudit accepted; next constructive mathematical/prior-scope design review",
+    "status": "Independent row-block lifecycle/source checklist and review",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
@@ -24,7 +24,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Independent engineering assessment of from-scratch row-block breakout DESIGNONLY",
+    "status": "Author from-scratch row-block SOURCE/TINY plus bounded synthetic memory envelope",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -33,7 +33,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Author bounded from-scratch nonsymmetric row-block breakout DESIGNONLY",
+    "status": "Independent row-block geometry/objective/migration oracle and checkpoint protocol",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   }

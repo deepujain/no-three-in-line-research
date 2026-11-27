@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16746.014201803082,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Review structurally distinct from-scratch nonsymmetric row-block breakout design for n75/149; exact unary replacement lemma and adaptive-line weighting require independent math/engineering/prior-scope reviews. No numerical allocation.",
+  "next_action": "Engineer implementing from-scratch row-block SOURCE/TINY worker under accepted design/addendum; Math independent geometry oracle; Literature lifecycle/source review. No actual149 search or continuation allocated.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Selected exterior affine family independently closed77e273e1 with axes only/no nonordinaryframes or149. Next constructive search DESIGNONLY active.",
+  "current_round": "Row-block original23a31e84/addendum87312b23 independently accepted0979bcbe/115b4b4b/d86049d5; SOURCE/TINY underway.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,8 +40,9 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "From-scratch row-block breakout bounded design",
-    "Independent mathematical/prior-scope and engineering design reviews"
+    "Production row-block source/tiny freeze",
+    "Independent geometry/transaction/checkpoint source review",
+    "Synthetic memory-envelope owned measurement and lifecycle review"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
