@@ -1,0 +1,29 @@
+{
+  "gate_status": "exited",
+  "trigger_gate_status": null,
+  "returncode": 0,
+  "elapsed_seconds": 0.06661149999126792,
+  "rss_samples": 1,
+  "monitor_error": null,
+  "seconds_limit": 10,
+  "rss_limit_mib": 256,
+  "cleanup_status": "clean",
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "peak_sampled_rss_kib": 23440,
+  "cleanup_elapsed_seconds": 0.008985499996924773,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/nonuniform_insertion75_actual_certificate_audit.py",
+    "--report",
+    "data/nonuniform-insertion75-v1/report.json",
+    "--receipt",
+    "data/experiments/shepherd-nonuniform-insertion75-v1.json",
+    "--manifest",
+    "data/nonuniform-insertion75-source-pins.json"
+  ],
+  "audit_helper_sha256": "0161454f24402927930392c340a30c7f79b6ae67d594043394379e2b728a69ce",
+  "scope": "Independent verification of saved5621obstructions and receipt; no census replay or search"
+}

@@ -830,3 +830,26 @@ This certifies UNSAT only for the reviewed fixed64-cell/246-support eight-suppor
 The distinct insertion exploration uses authenticated published n74record1: raw1c276251, fixture276340ce, normalized3c9c8bf3; both validators148valid, axes2. Source-only authentication took0.095495250seconds at42496KiB under10/256 and performed no insertion, extension or census. Source-specific prior scope3fc1d549 distinguishes changed old-point geometry from the reported fixed5477-free-cell scan, without claiming novelty or absence of prior work. Nonuniform designef586abb and resource review04bbcc12 are source/tiny gates only; four both-boundary cases remain excluded.
 
 Aggregate numerical usage 16744.658721427077/21600seconds, remaining 4855.341278572923. Original deadline22:59:25Z unchanged; no live numerical process or reservation. All three workers are assigned to the distinct insertion design/source/tiny/review branch.
+
+
+## 2026-11-27T12:38:01.235816+00:00 — Formal hourly review and exploration dispatch
+
+Inspected real agents and host processes: three bounded AI assignments, no research numerical process, no live numerical reservation or second supervisor. Permanent receipts plus initial600 reserve total16744.658721427077seconds; remaining4855.341278572923 of21600. Deadline22:59:25Z unchanged. Transient runner-status remains historical and is not current accounting. Best remains156 on79, no new bound/novelty. Fixed-pool Boolean UNSAT and152 selected contraction obstructions independently accepted; no repeat allocation.
+
+Engineer froze distinct selected n74 nonuniform-insertion source2ae115db and author helper129536fa, evidence4e8cb6e0:14tiny sources/260included gaps,361rectangles,864signed line cases,244certificates,7early covers,5phase deadline checks and14lifecycle cases. These are author synthetic tests, not actual n74 evidence. Math reactivated for independent oracle/source review; Literature lifecycle review in progress. Actual5621-gap gate remains conditional on final independent PASS, pinned inputs, permanent reservation and unchanged25soft30owned256guard. No alternate-source, repair or repeat-family fallback. GitHub connector returned no workflow runs for latest full commit SHA; deployment/CI conclusion remains unconfirmed, no rerun attempted.
+
+
+## 2026-11-27T12:41:43.938831+00:00 — One selected insertion gate completed
+
+Independent geometry/sourcecfb4ca3a and lifecycleae159c2e approve frozen worker2ae115db. Root owned author synthetic demonstration passed0.272704500seconds/51888KiB clean; independent oracle checked14tiny sources/1152targetcomparisons/1080certificates/54000linecases plus malformed sources and deadlines. Final23filemanifest47df9cc3 freezes source, source fixture, reviews and evidence. Root inspected actual processes, permanently reserved30seconds before spawning one25soft30owned256gate.
+
+The actual completed1.161368084seconds/52880KiB clean exit0, allpinsunchanged. It reports5621first old-triple obstructions covering every included gap after107908triplesstarted/1279422rectangle tests/691zero rectangles. Traversal stopped early; neither full old-triple traversal nor new-point pair class was completed. This is a certificate cover, not a full score census. No149witness saved. Independent actual audit is pending, so selected-family exclusion is not promoted yet. No repeat, repair, alternate-source or fallback allocation. Aggregate numerical usage16745.82008951107/21600seconds. Distinct affine embedding DESIGNONLY exploration remains assigned.
+
+Latest published4f3cbf5 CI45999751184 and Pages45999750094 both succeeded, verified with GitHub CLI after the connector returned an empty run list. No rerun needed.
+
+
+## 2026-11-27T12:44:01.411805+00:00 — Insertion family independently closed; distinct affine design retained
+
+Independent actual audit95fa9f70 accepts all5621saved old-triple obstructions. Helper0161454f passed independent source review50beab7a and Root owned10/256 verification0.066611500seconds23440KiB cleanexit0. It independently reconstructed every mapped triple, checked exact determinant/distinctness, complete gap coverage/excluded corners,24exact manifest/report/receipt pins, command, dual source-validation evidence and owned elapsed/cleanup. No census replay or full-score assertion. Only selectedrecord1 and5621includedgaps are excluded; no149, general75impossibility or novelty claim. Frozen worker/artifacts unchanged. Numericalbudget16745.82008951107/21600 remains.
+
+Math retained distinct affine DESIGNONLY exploration. A mod3 directional-width argument tentatively bounds atmost4directions up to sign and20candidatepreimages acrossnon-axisframes, pending complete proof/independent engineering review. Source-specific prior scopeb916264f treats inverse points inside an already scanned region as potentially overlapping, not new; no actual source widths/frames measured and no new allocation. Allthreeworkers have bounded assignments.

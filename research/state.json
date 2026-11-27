@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16744.658721427077,
+  "scheduled_search_wall_seconds_used": 16745.82008951107,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Finish independent nonuniform-insertion design review; authenticate selected source is complete; authorize only source/tiny implementation and independent reviews before any new numerical reservation.",
+  "next_action": "Independently assess finite-bound unimodular extension design and source-specific prior scope; source/tiny authorization only after design PASS. No repeat insertion/repair/alternate source.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "The exact fixed64-cell/246-support eight-support Boolean family is independently certified UNSAT. No149/157 witness or improved bound. Distinct nonuniform n74-to-n75 insertion design/source preparation continues.",
+  "current_round": "Selected5621-gap insertion family independently closed; no149/bound improvement. Distinct affine extension bounded-design review active, no numerical allocation.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,13 +40,12 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Engineer nonuniform insertion design geometry assessment, then source/tiny implementation",
-    "Mathematician independent synthetic insertion oracle and source review",
-    "Literature source-specific prior scope and lifecycle review"
+    "Independent unimodular finite-bound design review",
+    "Source-specific affine prior scope and potential tiny-only implementation"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Direct owned proof gate accepted and independently audited1cabd69c: all2891records/180RUPadds/2711deletions, checked empty line2891,41,899,584work;5s owned guard3.982891375s55168KiB clean, total4.002580500s, allpins unchanged. Scope only fixed pool. Portability fix independently reviewed; CI85a1b6f pending.",
-  "last_formal_review_at": "2026-11-27T11:21:17.604175+00:00",
-  "review_outcome": "No verified cardinality improvement; unchanged tabu/DFS curtailed; assess distinct order-free Boolean projection within remaining4864.609s."
+  "validation_status": "Insertion actual audit95fa9f70 accepted5621old-triple certificates/24pins; helper0161454f reviewed50beab7a; independent owned audit0.0666115s23440KiB clean. Insertion actual1.161368084s52880KiB clean/allpinsunchanged. Published4f3cbf5 CI/Pages both success.",
+  "last_formal_review_at": "2026-11-27T12:38:01.235816+00:00",
+  "review_outcome": "Best remains156 on79. Fixed scaffold family independently certified UNSAT; selected152 n76 contractions excluded. Distinct n74 nonuniform insertion source/tiny frozen; independent reviews in progress. No numerical process/reservation live."
 }

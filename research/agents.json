@@ -5,7 +5,8 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Allocate reviewed probes, verify evidence, publish and enforce originalbudget/deadline"
+    "status": "Hourly review, budget, owned gates and publication",
+    "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
     "role": "Literature Researcher",
@@ -13,8 +14,9 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "157walkeractualindependentlyaudited,noimprovement; prepareone-neighborhoodcensussource/tinyaftermathapproval.",
-    "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
+    "status": "Independent insertion lifecycle/source review; prior-source scope checked",
+    "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused",
+    "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
     "role": "Research Software Engineer",
@@ -22,7 +24,8 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "157walkersourceindependentlyapproved; authorreusableexact12loader, thencensussourcereviewwhenready."
+    "status": "Insertion source2ae115db frozen and14author synthetic sources checked; method contract",
+    "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
     "role": "Mathematician",
@@ -30,7 +33,8 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "157walkeractualindependentlyaccepted; reviewcensusdesign andlaterreusable12source.",
-    "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
+    "status": "Independent insertion source/geometry/tiny oracle review; no actual n74 geometry",
+    "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task",
+    "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   }
 ]

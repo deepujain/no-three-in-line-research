@@ -1,0 +1,116 @@
+{
+  "geometry": {
+    "certificates": 244,
+    "deadline_phases": 5,
+    "early_complete": 7,
+    "included_gaps": 260,
+    "invalid_sources": 1,
+    "lines": 864,
+    "rectangles": 361,
+    "sources": 14
+  },
+  "lifecycle": [
+    {
+      "closure": false,
+      "complete": true,
+      "mode": "positive",
+      "status": "verified149",
+      "witness_saved": true
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "partial_positive",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "wrong_record",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "late_validator2",
+      "status": "timeout",
+      "witness_saved": true
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "candidate_disagreement",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "save_failure",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "pin_drift",
+      "status": "error",
+      "witness_saved": true
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_precomputation",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_old_triples",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_new_pairs",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_certificate_verification",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_final_pins",
+      "status": "timeout",
+      "witness_saved": true
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_report_save",
+      "status": "timeout",
+      "witness_saved": true
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "mode": "negative",
+      "status": "selected_family_obstructed",
+      "witness_saved": false
+    }
+  ],
+  "passed": true,
+  "scope": "Author synthetic n2..4 only; no published source load or actual n74 insertion/census.",
+  "tiny_sha256": "129536fa7df7dbd428227d2b3cc823dfe117b4480f7492ad855d686d9a2cec6c",
+  "worker_sha256": "2ae115db7f54325006f7498673650952bf9c40814e50a884389430fffa9b138b"
+}
