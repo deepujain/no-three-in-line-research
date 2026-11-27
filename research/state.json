@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect target157 unrestricted and reviewed diagonal157 SAT plus rectangle14 receipts. Nonuniform embedding family closed through five; prepare bounded streamed corner anchors after independent review. Never materialize corner5 deletion sets.",
+  "next_action": "Inspect corner-anchor tip chains and new witnesses recursively under data/corner-anchor-frontier. Resume only incomplete anchors with new job IDs. Do not restart the stopped SAT jobs or load large geometry checkpoints without memory review. Family closure needs all 10,304 anchors, with declared overlaps; three partial streams do not close it.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -26,6 +26,6 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "nonuniform five-deletion exclusion reviewed; symmetry SAT and larger rectangle frontier active; streamed corner branch preparing",
+  "current_round": "three memory-bounded corner-anchor streams active after recorded aggregate memory stop",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

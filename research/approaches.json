@@ -30,19 +30,19 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "redesigning",
+    "status": "active frontier",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Nonuniform five-deletion frontier closed; preparing memory-bounded corner five-deletion anchors, not materializing millions of deletion tuples",
-    "evidence": "research/larger_repairs.md"
+    "finding": "Three memory-bounded corner five-deletion anchor streams running; overlaps declared, full corner family remains open",
+    "evidence": "research/corner-anchor-preparation.md"
   },
   {
     "id": "A05",
     "name": "Row and column swaps",
     "role": "Research Software Engineer",
-    "status": "active",
+    "status": "paused frontier",
     "scope": "Search pairs of permutations with exact slope constraints",
-    "finding": "Complete score<=13 rectangle component has 36 states, best score 11; bounded threshold14 continuation active",
-    "evidence": "data/trades-barrier-audit.json"
+    "finding": "Threshold 14 reached 208 saved states with 14 pending, best score 11; RAM guard stopped continuation; incomplete",
+    "evidence": "research/memory-stop.md"
   },
   {
     "id": "A06",
@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "active",
+    "status": "memory paused",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Unrestricted target157 SAT active; reviewed diagonal-reflection target157 branch dispatched with separate geometry checkpoint",
-    "evidence": "research/sat.md"
+    "finding": "Unrestricted 157 and diagonal-reflection 157 SAT interrupted by aggregate RAM guard; no final witness or UNSAT recorded",
+    "evidence": "research/memory-stop.md"
   },
   {
     "id": "A09",

@@ -1,0 +1,41 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/rectangle_barrier.py",
+    "--resume",
+    "data/trades-barrier14.json",
+    "--threshold",
+    "14",
+    "--max-states",
+    "5000",
+    "--output",
+    "data/trades-barrier14-cont.json",
+    "--seconds",
+    "300"
+  ],
+  "elapsed_seconds": 14.410440291998384,
+  "entrypoint_sha256": "81a7cda9dae241bec65c9c9d50bfea2f3feb53b014628ba1f5f1fc85236aa46f",
+  "exit_code": -15,
+  "finished_at": "2026-11-27T00:12:13.152156+00:00",
+  "job": {
+    "args": [
+      "--resume",
+      "data/trades-barrier14.json",
+      "--threshold",
+      "14",
+      "--max-states",
+      "5000",
+      "--output",
+      "data/trades-barrier14-cont.json"
+    ],
+    "hypothesis": "The first threshold14 slice found199 states with15 pending and no improvement; finish that saved frontier rather than restart, capped at5000 states and300 seconds. Completion is scoped only to this move component.",
+    "id": "r6-rectangle-barrier14-resume",
+    "script": "research/rectangle_barrier.py",
+    "seconds": 300
+  },
+  "log": "data/run-logs/r6-rectangle-barrier14-resume.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 59778,
+  "started_at": "2026-11-27T00:11:58.741761+00:00",
+  "status": "aggregate_rss_limit_1536MiB"
+}

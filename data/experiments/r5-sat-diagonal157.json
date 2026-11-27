@@ -21,8 +21,10 @@
     "--seconds",
     "300"
   ],
-  "elapsed_seconds": 330,
+  "elapsed_seconds": 154.92747637499997,
   "entrypoint_sha256": "a13420853e26e2cd497e88c26d960d95b3bbc76a93279b22a8faa09686ae0415",
+  "exit_code": -15,
+  "finished_at": "2026-11-27T00:12:13.149874+00:00",
   "job": {
     "args": [
       "--n",
@@ -47,8 +49,9 @@
     "script": "src/lazy_sat.py",
     "seconds": 300
   },
-  "note": "Conservative time reservation until completion receipt replaces it.",
+  "log": "data/run-logs/r5-sat-diagonal157.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
   "pid": 56131,
   "started_at": "2026-11-27T00:09:38.222805+00:00",
-  "status": "running_reserved"
+  "status": "aggregate_rss_limit_1536MiB"
 }

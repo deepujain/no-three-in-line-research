@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "Reviewed diagonal157 branch added using allowlisted lazy_sat CLI; three numerical lanes maximum; no checkpoint has simultaneous writers.",
+  "note": "After aggregate RAM guard stopped the SAT batch, only independently reviewed low-memory corner streams may be newly appended. Existing interrupted job IDs stay immutable; no large SAT relaunch.",
   "jobs": [
     {
       "args": [
@@ -170,6 +170,58 @@
         "data/run-logs/diagonal157-progress.jsonl",
         "--output",
         "data/sat-r5-diagonal157.json"
+      ]
+    },
+    {
+      "id": "r6-rectangle-barrier14-resume",
+      "script": "research/rectangle_barrier.py",
+      "seconds": 300,
+      "hypothesis": "The first threshold14 slice found199 states with15 pending and no improvement; finish that saved frontier rather than restart, capped at5000 states and300 seconds. Completion is scoped only to this move component.",
+      "args": [
+        "--resume",
+        "data/trades-barrier14.json",
+        "--threshold",
+        "14",
+        "--max-states",
+        "5000",
+        "--output",
+        "data/trades-barrier14-cont.json"
+      ]
+    },
+    {
+      "id": "r7-corner-five-10296",
+      "script": "research/embedding_worker.py",
+      "seconds": 600,
+      "hypothesis": "Test exact-five deletion supersets of reviewed corner anchor 10296 with bounded-memory streaming and durable offsets. Anchors may overlap; completing these partial families is not a complete corner exclusion.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10296-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10296-tip.json"
+      ]
+    },
+    {
+      "id": "r7-corner-five-10297",
+      "script": "research/embedding_worker.py",
+      "seconds": 600,
+      "hypothesis": "Test exact-five deletion supersets of reviewed corner anchor 10297 with bounded-memory streaming and durable offsets. Anchors may overlap; completing these partial families is not a complete corner exclusion.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10297-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json"
+      ]
+    },
+    {
+      "id": "r7-corner-five-10298",
+      "script": "research/embedding_worker.py",
+      "seconds": 600,
+      "hypothesis": "Test exact-five deletion supersets of reviewed corner anchor 10298 with bounded-memory streaming and durable offsets. Anchors may overlap; completing these partial families is not a complete corner exclusion.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10298-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10298-tip.json"
       ]
     }
   ]

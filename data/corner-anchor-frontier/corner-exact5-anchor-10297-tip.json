@@ -1,0 +1,19 @@
+{
+  "coverage": {
+    "end": 60000,
+    "gapless": true,
+    "start": 0
+  },
+  "cut": [
+    0,
+    0
+  ],
+  "frontier_complete": false,
+  "kind": "embedding_stream_tip",
+  "next_offset": 60000,
+  "record": {
+    "path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/embedding-stream-cut-0-0-start-40000-end-60000-29b42fc6.json",
+    "sha256": "cc8ae33caf2b417fc8c5853f8798336787059f2660d849db024f241834ecd0a8"
+  },
+  "total_deletion_sets": 596904
+}

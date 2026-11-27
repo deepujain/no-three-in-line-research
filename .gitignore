@@ -9,3 +9,4 @@ data/run-logs/
 data/runner-status.json
 data/*.lock
 *.tmp
+data/**/*.lock

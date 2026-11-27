@@ -1,0 +1,41 @@
+{
+  "kind": "additional_zero_work_corner_origins",
+  "manifest_sha256": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+  "origins": [
+    {
+      "base_deletion_indices": [
+        40,
+        52
+      ],
+      "id": "corner-exact5-anchor-10296",
+      "origin_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/corner-exact5-anchor-10296-origin.json",
+      "sha256": "cfe2a8f5c385d7c7678be75c76393898adc2be3d03c868801e7c6047ec9ddeb0",
+      "tip_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/corner-exact5-anchor-10296-tip.json",
+      "total_deletion_sets": 596904
+    },
+    {
+      "base_deletion_indices": [
+        40,
+        88
+      ],
+      "id": "corner-exact5-anchor-10297",
+      "origin_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/corner-exact5-anchor-10297-origin.json",
+      "sha256": "9b7e9ce274926002bb475545f86303883fd252351f7c7ae9bff9e87e87ef45a7",
+      "tip_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json",
+      "total_deletion_sets": 596904
+    },
+    {
+      "base_deletion_indices": [
+        52,
+        70
+      ],
+      "id": "corner-exact5-anchor-10298",
+      "origin_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/corner-exact5-anchor-10298-origin.json",
+      "sha256": "327798e274d10d6d7eef59fafa2c97ef8d7f57d778c4031c8af82872b6875001",
+      "tip_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/corner-anchor-frontier/corner-exact5-anchor-10298-tip.json",
+      "total_deletion_sets": 596904
+    }
+  ],
+  "scan_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/embedding-audit.json",
+  "seed_path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/published-n78.json"
+}

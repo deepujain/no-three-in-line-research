@@ -17,8 +17,10 @@
     "--seconds",
     "900"
   ],
-  "elapsed_seconds": 930,
+  "elapsed_seconds": 812.4303840830034,
   "entrypoint_sha256": "467b3d9b3b76ef5bf381723050fe117d6c70705da318b49cfcf73e960f40eab1",
+  "exit_code": -15,
+  "finished_at": "2026-11-27T00:12:13.139744+00:00",
   "job": {
     "args": [
       "--n",
@@ -39,8 +41,9 @@
     "script": "src/lazy_sat.py",
     "seconds": 900
   },
-  "note": "Conservative time reservation until completion receipt replaces it.",
+  "log": "data/run-logs/r4-sat-157-minisat22.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
   "pid": 45496,
   "started_at": "2026-11-26T23:58:40.711492+00:00",
-  "status": "running_reserved"
+  "status": "aggregate_rss_limit_1536MiB"
 }

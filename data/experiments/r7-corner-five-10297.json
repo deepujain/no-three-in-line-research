@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/embedding_worker.py",
+    "--previous",
+    "data/corner-anchor-frontier/corner-exact5-anchor-10297-origin.json",
+    "--output",
+    "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json",
+    "--seconds",
+    "600"
+  ],
+  "elapsed_seconds": 630,
+  "entrypoint_sha256": "dbb412aa9bd83d56b7ba331f97097b5549bded8131a0811de8cdcba4883a2292",
+  "job": {
+    "args": [
+      "--previous",
+      "data/corner-anchor-frontier/corner-exact5-anchor-10297-origin.json",
+      "--output",
+      "data/corner-anchor-frontier/corner-exact5-anchor-10297-tip.json"
+    ],
+    "hypothesis": "Test exact-five deletion supersets of reviewed corner anchor 10297 with bounded-memory streaming and durable offsets. Anchors may overlap; completing these partial families is not a complete corner exclusion.",
+    "id": "r7-corner-five-10297",
+    "script": "research/embedding_worker.py",
+    "seconds": 600
+  },
+  "note": "Conservative time reservation until completion receipt replaces it.",
+  "pid": 62308,
+  "started_at": "2026-11-27T00:14:08.895507+00:00",
+  "status": "running_reserved"
+}
