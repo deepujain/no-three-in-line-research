@@ -161,11 +161,14 @@ def zero_lifecycle(mode):
             events.append(path.name)
             if path.name=='valid149.json' and mode=='save_failure':raise OSError('synthetic save failure')
             if path.name=='raw-zero.json' and mode=='raw_latency':now[0]=26
-            return save(path,value,**kwargs)
+            ref=save(path,value,**kwargs)
+            if path.name=='valid149.json' and mode=='post_save_hash_fault':
+                s.kernel.normalized_sha256=lambda *args:(_ for _ in ()).throw(ValueError('synthetic post-save hash failure'))
+            return ref
         if mode=='late_zero':now[0]=26
-        with patch.object(s.kernel,'verify_certificate',first),patch.object(s.kernel,'verify_certificate_bruteforce',second),patch.object(s,'json_file',write):
+        with patch.object(s.kernel,'verify_certificate',first),patch.object(s.kernel,'verify_certificate_bruteforce',second),patch.object(s.kernel,'normalized_sha256',s.kernel.normalized_sha256),patch.object(s,'json_file',write):
             ref=s.preserve_zero(points,4,out,check,report)
-        if mode in ('normal','late_second','raw_latency'):
+        if mode in ('normal','late_second','raw_latency','post_save_hash_fault'):
             assert ref is not None and report['witness_saved'] and events.index('valid149.json')==events.index('v2')+1
             assert not (out/'raw-zero.json').exists()
         else:assert ref is None and (out/'raw-zero.json').exists()
@@ -225,13 +228,34 @@ def charge_and_zero_publication():
             'late_saved_zero_authority_commits':True,'interrupted_zero_publication_fails':True}
 
 
+def witness_metadata_failure():
+    points=oracle.pair_optimum(LOCAL,4,0,1)['points']
+    checked=s.kernel.dual_validate(points,4,0,lambda:None);after_save=[False]
+    class MetadataFault(dict):
+        def __getitem__(self,key):
+            if key=='validators' and after_save[0]:raise ValueError('synthetic witness metadata failure')
+            return super().__getitem__(key)
+    saved=s.json_file;report={'witness_saved':False}
+    def save(*args,**kwargs):
+        value=saved(*args,**kwargs);after_save[0]=True;return value
+    with tempfile.TemporaryDirectory(prefix='suffix-metadata-tiny-') as directory:
+        with patch.object(s.kernel,'dual_validate',return_value=MetadataFault(checked)),patch.object(s,'json_file',save):
+            ref=s.preserve_zero(points,4,directory,lambda:None,report)
+        assert ref is not None and report['witness_saved'] and report['witness']==ref
+        assert 'witness_metadata_error' in report and (Path(directory)/'valid149.json').exists()
+        assert not (Path(directory)/'raw-zero.json').exists()
+    return {'durable_witness_reference_preserved':True,'explicit_metadata_error':True,
+            'acceptance_gate':'Independent run-gating stub verifies rejection; geometry/loader not exercised there.'}
+
+
 def main():
     result={'passed':True,'worker_sha256':s.digest(s.__file__),'tiny_sha256':s.digest(__file__),
             'parity':parity(),'faults':interruption_and_faults(),'caps_and_corruptions':caps_and_corruptions(),
-            'zero_lifecycle':[zero_lifecycle(mode) for mode in ('normal','late_first','late_second','late_zero','disagreement','save_failure','raw_latency')],
+            'zero_lifecycle':[zero_lifecycle(mode) for mode in ('normal','late_first','late_second','late_zero','disagreement','save_failure','raw_latency','post_save_hash_fault')],
             'filesystem':filesystem(),'scope':'87 synthetic n2..4 geometry fixtures, cursor splits/pending/faults and actual temp-file fsync; no actual65 source or geometry.'}
     result['charge_and_zero_publication']=charge_and_zero_publication()
-    target=s.ROOT/'data/two-row-suffix75-author-tiny-v2.json';target.write_text(json.dumps(result,sort_keys=True,indent=2)+'\n')
+    result['witness_metadata_failure']=witness_metadata_failure()
+    target=s.ROOT/'data/two-row-suffix75-author-tiny-v4.json';target.write_text(json.dumps(result,sort_keys=True,indent=2)+'\n')
     print(json.dumps(result,sort_keys=True))
 
 

@@ -1,0 +1,28 @@
+{
+  "cleanup_elapsed_seconds": 0.011418292007874697,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "command": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "-m",
+    "research.two_row_suffix75_tiny"
+  ],
+  "elapsed_seconds": 0.8694873750064289,
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "exited",
+  "monitor_error": null,
+  "peak_sampled_rss_kib": 52656,
+  "returncode": 0,
+  "rss_limit_mib": 256,
+  "rss_samples": 20,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "Synthetic only; no actual input or n75 geometry. Verification timing separate from numerical search receipts.",
+  "seconds_limit": 30,
+  "source_pins": {
+    "research/two_row_suffix75.py": "d4e18016f73ad9bbf90af508dcf708793271b5073bf4e5027301a0f3c1ee6ab9",
+    "research/two_row_suffix75_stress.py": "910f9a0c24833b68ba470b130b1c7b57a8075dd9307de2c611a6ee292a894f24",
+    "research/two_row_suffix75_tiny.py": "6c4ace04147dd72e672033fec75e7fffb3e34069e6a74b240838a13a9b9c4d9f"
+  },
+  "trigger_gate_status": null
+}

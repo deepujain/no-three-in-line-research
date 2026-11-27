@@ -967,3 +967,10 @@ Proposedonefuture25soft23search30owned256gate exploresatmost64newpairstarts/cumu
 Root coordinate-freehandoff f966e46c records39exactartifact hashes, normalized65identity25540b6e, inherited308rows/32pairs/28accepts andsource-supported coverage. No coordinategeometrycomputed inmetadata handoff. Newloader mustauthenticate inherited78pins and audit/guard/source/runtime/receipt chain beforegeometry. Exactmodel/reasoning remainsunavailable, not inferred.
 
 Latestpublished307526e CI46011566536 andPages46011564503 bothsucceeded. Priorabb91a1 singleknownrace failed-jobrerun46008227710 also succeeded; no further rerun or guardchange.
+
+
+## 2026-11-27T14:24:56.476781+00:00 — Suffix final source fixes and owned gates
+
+Frozenv1a3cc4e43/v211fc0200/v3d4e18016 preserved; finalv4fe01dcec repairs durablestartcharge bookkeeping, validator-beforeoptionalevent ordering, savedwitnessreference preservation and metadataerroracceptance rejection. Independentv2logicalreview1d468e6a passes87fixtures/88decisions/175splits/88pendingchargecases/576interruptions with explicitprefix/positive-terminal stubs. Geometrykernel0211f6be unchanged. Finalv4lifecycle8cd6eb3e PASS binds synthetic39artifactchain/11mutationchecks and independentstubbedfullrungate80334847; noactualgeometry fromreviews. Mathfinaldelta andmanifestpending.
+
+Root exactv4ownedtiny0.832576000seconds52624KiB andartificial538file/directory-fsyncpublications0.494249834seconds104976KiB clean under30/256guards. Stressinjects preencoded1MiBopaque authorityserializer buffer and39MiBsourceplaceholders; not actualreachablegeometry or throughputguarantee. Earlierv2/v3ownedgates retainedhistorically, finalv4receipts293ec1b5/a8e578b3 supersedeeligibility. Noactualsuffixreservation/run; numericalsearchusage unchanged16773.556052969092/21600seconds.

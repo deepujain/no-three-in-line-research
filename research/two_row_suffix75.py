@@ -494,13 +494,18 @@ def load_handoff(pins,check):
 def preserve_zero(points,n,out,check,report):
     """Validators and witness persistence precede optional ledger/raw output."""
     out=Path(out)
+    ref=None
     try:
         validated=kernel.dual_validate(points,n,0,check)
         # No clock, pin, ledger or raw-file work before immediate save.
         ref=json_file(out/'valid149.json',validated,cap=16384,immutable=True)
-        report.update(witness_saved=True,witness=ref,witness_state_hash=kernel.normalized_sha256(n,points))
+        report['witness_saved']=True;report['witness']=ref
+        report['witness_state_hash']=validated['validators'][0]['normalized_sha256']
         return ref
     except Exception as exc:
+        if ref is not None:
+            report.update(witness_saved=True,witness=ref,witness_metadata_error=f'{type(exc).__name__}: {str(exc)[:1000]}')
+            return ref
         report['zero_validation_error']=f'{type(exc).__name__}: {str(exc)[:1000]}'
         try:
             report['raw_zero']=json_file(out/'raw-zero.json',{'n':n,'points':points,'score':0,
@@ -569,6 +574,7 @@ def run(out,manifest,seconds=25,*,started=None,clock=time.monotonic):
         verify_pins();final_check();report['identity_valid']=True
         allowed=('row_cap','pair_cap','search_deadline','no_strict_descent','zero')
         report['accepted']=(report['status'] in allowed and 'search_error' not in report and 'authority_identity_error' not in report
+                            and 'witness_metadata_error' not in report
                             and (store.last_durable['U']>0 or report['witness_saved'])
                             and (result is None or result.get('attempted_charge') is None or all(
                                 store.last_durable['counters'][key]>=result['attempted_charge'][key]
