@@ -217,11 +217,26 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
 
 def main(argv=None):
     arguments = list(sys.argv[1:] if argv is None else argv)
+    if '--diagonal-secant-fast-guard' in arguments:
+        arguments.remove('--diagonal-secant-fast-guard')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.diagonal_secant_fast_guard import main as diagonal_fast_guard_main
+        return diagonal_fast_guard_main(arguments, started=_PROCESS_STARTED if argv is None else time.monotonic())
     if '--diagonal-secant-guard' in arguments:
         arguments.remove('--diagonal-secant-guard')
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
         from research.diagonal_secant_guard import main as diagonal_guard_main
         return diagonal_guard_main(arguments, started=_PROCESS_STARTED if argv is None else time.monotonic())
+    if '--near-quarter-row-quota-owned-solve' in arguments:
+        arguments.remove('--near-quarter-row-quota-owned-solve')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.near_quarter_row_quota_owned_solve import main as owned_row_solve_main
+        return owned_row_solve_main(arguments)
+    if '--near-quarter-row-quota-owned-preflight' in arguments:
+        arguments.remove('--near-quarter-row-quota-owned-preflight')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.near_quarter_row_quota_owned_preflight import main as owned_row_preflight_main
+        return owned_row_preflight_main(arguments)
     if '--near-quarter-row-quota-preflight' in arguments:
         arguments.remove('--near-quarter-row-quota-preflight')
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))

@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--diagonal-secant-fast-guard",
+    "--n",
+    "79",
+    "--rss-mib",
+    "256",
+    "--max-nodes",
+    "100",
+    "--deficit",
+    "0",
+    "--diagonal",
+    "0",
+    "--output",
+    "data/diagonal-secant-fast-guard-n79-preflight.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 2.0135867089993553,
+  "entrypoint_sha256": "f05d541900b39aee817663c3ac694d72e8d06d58bc8da08a6d44d0090c358de5",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T01:45:03.387431+00:00",
+  "job": {
+    "args": [
+      "--diagonal-secant-fast-guard",
+      "--n",
+      "79",
+      "--rss-mib",
+      "256",
+      "--max-nodes",
+      "100",
+      "--deficit",
+      "0",
+      "--diagonal",
+      "0",
+      "--output",
+      "data/diagonal-secant-fast-guard-n79-preflight.json"
+    ],
+    "hypothesis": "First accepted large-grid cost preflight of reviewed exact mirror-pair DFS shortcut after updated actualhostn3/n5gates and fixedcleanup. n79,target157,declared(d=0,t=0)slice,100nodecap,30sec/256MiB externalgate. No completefamily or noveltyclaim; inspect cost/terminalreport before furtherallocation.",
+    "id": "r24-fast-diagonal-n79-preflight",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r24-fast-diagonal-n79-preflight.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 74620,
+  "started_at": "2026-11-27T01:45:01.373854+00:00",
+  "status": "failed"
+}

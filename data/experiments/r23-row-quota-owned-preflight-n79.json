@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-row-quota-owned-preflight",
+    "--n",
+    "79",
+    "--rss-mib",
+    "256",
+    "--output",
+    "data/near-quarter-row-quota-owned-preflight-n79.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 14.104401500000677,
+  "entrypoint_sha256": "77520504b5d65431a259926b8306db5f2ffd53e979a29b2a49749747b90e4a9d",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T01:41:39.235182+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-row-quota-owned-preflight",
+      "--n",
+      "79",
+      "--rss-mib",
+      "256",
+      "--output",
+      "data/near-quarter-row-quota-owned-preflight-n79.json"
+    ],
+    "hypothesis": "Retry failed row-floor build only through independently reviewed owned-process cleanup adapter after4hosthelpergates and10hostintegrationtests passed. Same exact encoding,30sec/256MiB ceilings,no solve. Preserve r22failure; acceptcounts/modelhash only complete source-stable guarded build.",
+    "id": "r23-row-quota-owned-preflight-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r23-row-quota-owned-preflight-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 69788,
+  "started_at": "2026-11-27T01:41:25.130750+00:00",
+  "status": "completed"
+}

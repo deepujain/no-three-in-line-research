@@ -687,6 +687,61 @@
         "--output",
         "data/near-quarter-row-quota-preflight-n79.json"
       ]
+    },
+    {
+      "id": "r23-row-quota-owned-preflight-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Retry failed row-floor build only through independently reviewed owned-process cleanup adapter after4hosthelpergates and10hostintegrationtests passed. Same exact encoding,30sec/256MiB ceilings,no solve. Preserve r22failure; acceptcounts/modelhash only complete source-stable guarded build.",
+      "args": [
+        "--near-quarter-row-quota-owned-preflight",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--output",
+        "data/near-quarter-row-quota-owned-preflight-n79.json"
+      ]
+    },
+    {
+      "id": "r24-fast-diagonal-n79-preflight",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "First accepted large-grid cost preflight of reviewed exact mirror-pair DFS shortcut after updated actualhostn3/n5gates and fixedcleanup. n79,target157,declared(d=0,t=0)slice,100nodecap,30sec/256MiB externalgate. No completefamily or noveltyclaim; inspect cost/terminalreport before furtherallocation.",
+      "args": [
+        "--diagonal-secant-fast-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "100",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--output",
+        "data/diagonal-secant-fast-guard-n79-preflight.json"
+      ]
+    },
+    {
+      "id": "r25-row-quota-owned-solve-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "First bounded solve of complete measured row-floor model after independentreview+19actualhosttests. Same256MiB cap,30sec INCLUDING build/solve/verification/cleanup. MandatoryacceptedCNFdigest; no solve on prefix. SATrequiresfamilydecode/dualchecks/durablewitness; False onlyrestrictedfamilysolverreport; any cutoff/resourcefailure incomplete.",
+      "args": [
+        "--near-quarter-row-quota-owned-solve",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--expected-model-sha256",
+        "397546bb8cbd65a7bb9ebfb1c22d14e41dc1a4092e25d310a00bdaeff7344b3d",
+        "--output",
+        "data/near-quarter-row-quota-owned-solve-n79.json",
+        "--witness-directory",
+        "data/near-quarter-row-quota-owned-witnesses"
+      ]
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "validation": "actual host execution, recorded from unittest output",
+  "command": "OWNED_GUARD_HOST_TESTS=1 .venv/bin/python -m unittest tests.test_owned_process_guard_host -v",
+  "source_sha256": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+  "tests_passed": [
+    "test_native_rss_limit_kills_and_reaps",
+    "test_normal_completion_and_empty_cleanup",
+    "test_reparented_same_group_descendant_removed_after_root_exit",
+    "test_wall_limit_kills_and_reaps"
+  ],
+  "test_count": 4,
+  "failures": 0,
+  "skips": 0,
+  "reported_unittest_seconds": 0.753,
+  "scope": "Tiny host guard validation only; no n79 model, numerical search or new mathematical result."
+}

@@ -1,0 +1,47 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-row-quota-owned-solve",
+    "--n",
+    "79",
+    "--rss-mib",
+    "256",
+    "--expected-model-sha256",
+    "397546bb8cbd65a7bb9ebfb1c22d14e41dc1a4092e25d310a00bdaeff7344b3d",
+    "--output",
+    "data/near-quarter-row-quota-owned-solve-n79.json",
+    "--witness-directory",
+    "data/near-quarter-row-quota-owned-witnesses",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 10.060303500002192,
+  "entrypoint_sha256": "f05d541900b39aee817663c3ac694d72e8d06d58bc8da08a6d44d0090c358de5",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T01:47:09.502441+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-row-quota-owned-solve",
+      "--n",
+      "79",
+      "--rss-mib",
+      "256",
+      "--expected-model-sha256",
+      "397546bb8cbd65a7bb9ebfb1c22d14e41dc1a4092e25d310a00bdaeff7344b3d",
+      "--output",
+      "data/near-quarter-row-quota-owned-solve-n79.json",
+      "--witness-directory",
+      "data/near-quarter-row-quota-owned-witnesses"
+    ],
+    "hypothesis": "First bounded solve of complete measured row-floor model after independentreview+19actualhosttests. Same256MiB cap,30sec INCLUDING build/solve/verification/cleanup. MandatoryacceptedCNFdigest; no solve on prefix. SATrequiresfamilydecode/dualchecks/durablewitness; False onlyrestrictedfamilysolverreport; any cutoff/resourcefailure incomplete.",
+    "id": "r25-row-quota-owned-solve-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r25-row-quota-owned-solve-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 76216,
+  "started_at": "2026-11-27T01:46:59.442098+00:00",
+  "status": "failed"
+}
