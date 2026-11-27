@@ -1,0 +1,10 @@
+{
+  "error": "AssertionError: ",
+  "n_values": [
+    3,
+    5
+  ],
+  "observed_worker_pid": null,
+  "output_dir": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/diagonal-chain-host-gate-v1",
+  "status": "failed"
+}

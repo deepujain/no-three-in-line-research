@@ -80,3 +80,45 @@ Actual-host tiny gates and any n79 allocation remain with the supervisor.
 A preceding successful build does not guarantee solve-time memory safety.
 No new witness, search exhaustion, SAT, UNSAT, novelty or unrestricted
 infeasibility result follows from this source review.
+
+## Independent r31 terminal evidence audit
+
+The supervisor later ran the approved `(7,7)` solve after actual-host tiny
+gates. Its terminal result is memory-limited and incomplete, with no SAT,
+UNSAT or witness. This saved-evidence audit did not replay the n79 run.
+
+| Evidence | SHA-256 |
+| --- | --- |
+| `data/direct-threshold-solve77-n79.json` | `876c862962bf8d5c93d2238b7217a0fecb3d7a83411dfcd5fd0d3e3d53561c41` |
+| `data/experiments/r31-direct-threshold-solve77-n79.json` | `611ebbb5d2256192326cae583eb1b89e4e6058eec68fee171eac70f1c4d5fd13` |
+| Prior build `data/direct-threshold-build77-n79.json` | `6bcb73206f1415ff6bef9411edfa596b8b3e843688b9b26f185f0611e83e91d2` |
+
+All twelve solve source bindings independently matched current reviewed files.
+The receipt binds the correct dispatcher, explicit thresholds, expected
+digest, output and witness directory, and unchanged resource limits. The
+recorded formula prefix and expected digest both match the prior r30 build's
+complete digest
+`0db9f90c8b76e6b25d071598d156964e600b0b047c4c50b03cd4fe5c31ef931a`.
+The 2,193,179 emitted/added clauses and 281,121 variables match that build.
+The last worker phase is solve, after 8.960147667 seconds of construction.
+The source-bound transition shows the hash gate was passed before entering
+the solver, but the parent correctly clears the accepted full-model digest
+and build-completion flags when the enclosing run fails.
+
+The helper recorded `rss_limit`, 298,384 KiB = 291.390625 MiB, 217 RSS samples
+and 9.125634208 seconds. The sampled excess over 256 MiB is 36,240 KiB =
+35.390625 MiB. Cleanup was clean after two samples and 0.072794458 seconds;
+the child exit was -9. The supervisor receipt records CLI exit 2 and
+10.074332292 seconds elapsed, a different timing scope.
+
+All acceptance flags are false; accepted model digest, conclusion, solver
+result and witness fields are null. I independently checked that the actual
+receipt-selected directory `data/direct-threshold-solve77-witnesses` exists
+and contains zero JSON files. There is no saved witness to validate.
+
+The prior separate build peak was 223.390625 MiB; its 68 MiB difference from
+this solve-run peak is a cross-run comparison, not a direct measurement of a
+particular native allocation. This result supports stopping the present full
+Glucose branch under the existing gate. It supplies no justification for more
+time, a larger memory cap, an unchanged retry or an automatic threshold
+fallback, and no mathematical absence conclusion.

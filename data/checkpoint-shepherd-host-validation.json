@@ -1,0 +1,577 @@
+{
+  "entrypoint_sha256": "435d902f50d756b2ee3d40866b9bf814ca7aa8c3a66bcb59cacd8a42d4128784",
+  "runs": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "3",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--checkpoint",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n3",
+        "--output",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n3-initial"
+      ],
+      "report": {
+        "accepted_checkpoint_sha256": "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d",
+        "complete": false,
+        "elapsed_seconds": 0.13017400000535417,
+        "guard": {
+          "cleanup_elapsed_seconds": 0.012171125003078487,
+          "cleanup_error": null,
+          "cleanup_samples": 1,
+          "cleanup_status": "clean",
+          "elapsed_seconds": 0.07390633300383342,
+          "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+          "gate_status": "exited",
+          "monitor_error": null,
+          "peak_sampled_rss_kib": 30496,
+          "returncode": 0,
+          "rss_limit_mib": 256.0,
+          "rss_samples": 1,
+          "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+          "seconds_limit": 9.957490082997538,
+          "source_stable": true,
+          "trigger_gate_status": null
+        },
+        "max_nodes": 1,
+        "n": 3,
+        "previous_checkpoint_sha256": null,
+        "published_checkpoint_sha256": "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d",
+        "rss_limit_mib": 256.0,
+        "scope": "Declared diagonal-reflection slices only; no unrestricted infeasibility conclusion.",
+        "seconds_limit": 10.0,
+        "source_hashes": {
+          "checkpoint_core": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+          "entrypoint": "435d902f50d756b2ee3d40866b9bf814ca7aa8c3a66bcb59cacd8a42d4128784",
+          "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+          "guard": "84559f6a195d3a27db6e0bae718e84d82e70e27be5826562b7004fc47680ea0e",
+          "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+          "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+          "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+        },
+        "status": "node_limit",
+        "witness_dir": "/private/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n3-initial.witnesses-0b0n4k5s",
+        "worker_log_tail": "",
+        "worker_result": {
+          "checkpoint_sha256": "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d",
+          "nodes_this_run": 1,
+          "nodes_total": 1,
+          "scope": "Only declared diagonal-reflection slices; no unrestricted infeasibility conclusion.",
+          "slice_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "slice_index": 0,
+          "status": "node_limit",
+          "witness_visits_total": 0
+        }
+      },
+      "dual_checked_witnesses": 0,
+      "temporary_artifacts_retained": false
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "3",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "10000",
+        "--checkpoint",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n3",
+        "--output",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n3-resume",
+        "--expected-sha256",
+        "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d"
+      ],
+      "report": {
+        "accepted_checkpoint_sha256": "1d2b059123fd17c8c4e89ac7fe85e6c7cba97c3fc1d4bc40b0cfc970a8c91354",
+        "complete": true,
+        "elapsed_seconds": 0.1349669580013142,
+        "guard": {
+          "cleanup_elapsed_seconds": 0.012194209004519507,
+          "cleanup_error": null,
+          "cleanup_samples": 1,
+          "cleanup_status": "clean",
+          "elapsed_seconds": 0.09291741700144485,
+          "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+          "gate_status": "exited",
+          "monitor_error": null,
+          "peak_sampled_rss_kib": 34672,
+          "returncode": 0,
+          "rss_limit_mib": 256.0,
+          "rss_samples": 1,
+          "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+          "seconds_limit": 9.965350958002091,
+          "source_stable": true,
+          "trigger_gate_status": null
+        },
+        "max_nodes": 10000,
+        "n": 3,
+        "previous_checkpoint_sha256": "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d",
+        "published_checkpoint_sha256": "1d2b059123fd17c8c4e89ac7fe85e6c7cba97c3fc1d4bc40b0cfc970a8c91354",
+        "rss_limit_mib": 256.0,
+        "scope": "Declared diagonal-reflection slices only; no unrestricted infeasibility conclusion.",
+        "seconds_limit": 10.0,
+        "source_hashes": {
+          "checkpoint_core": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+          "entrypoint": "435d902f50d756b2ee3d40866b9bf814ca7aa8c3a66bcb59cacd8a42d4128784",
+          "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+          "guard": "84559f6a195d3a27db6e0bae718e84d82e70e27be5826562b7004fc47680ea0e",
+          "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+          "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+          "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+        },
+        "status": "all_declared_slices_exhausted",
+        "witness_dir": "/private/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n3-resume.witnesses-tnvh412t",
+        "worker_log_tail": "",
+        "worker_result": {
+          "checkpoint_sha256": "1d2b059123fd17c8c4e89ac7fe85e6c7cba97c3fc1d4bc40b0cfc970a8c91354",
+          "nodes_this_run": 25,
+          "nodes_total": 26,
+          "scope": "Only declared diagonal-reflection slices; no unrestricted infeasibility conclusion.",
+          "slice_counts": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "slice_index": 9,
+          "status": "all_declared_slices_exhausted",
+          "witness_visits_total": 5
+        }
+      },
+      "dual_checked_witnesses": 4,
+      "temporary_artifacts_retained": false
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "5",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--checkpoint",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n5",
+        "--output",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n5-initial"
+      ],
+      "report": {
+        "accepted_checkpoint_sha256": "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75",
+        "complete": false,
+        "elapsed_seconds": 0.13825124999857508,
+        "guard": {
+          "cleanup_elapsed_seconds": 0.012125207998906262,
+          "cleanup_error": null,
+          "cleanup_samples": 1,
+          "cleanup_status": "clean",
+          "elapsed_seconds": 0.09197874999517808,
+          "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+          "gate_status": "exited",
+          "monitor_error": null,
+          "peak_sampled_rss_kib": 54032,
+          "returncode": 0,
+          "rss_limit_mib": 256.0,
+          "rss_samples": 2,
+          "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+          "seconds_limit": 9.967135416001838,
+          "source_stable": true,
+          "trigger_gate_status": null
+        },
+        "max_nodes": 1,
+        "n": 5,
+        "previous_checkpoint_sha256": null,
+        "published_checkpoint_sha256": "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75",
+        "rss_limit_mib": 256.0,
+        "scope": "Declared diagonal-reflection slices only; no unrestricted infeasibility conclusion.",
+        "seconds_limit": 10.0,
+        "source_hashes": {
+          "checkpoint_core": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+          "entrypoint": "435d902f50d756b2ee3d40866b9bf814ca7aa8c3a66bcb59cacd8a42d4128784",
+          "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+          "guard": "84559f6a195d3a27db6e0bae718e84d82e70e27be5826562b7004fc47680ea0e",
+          "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+          "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+          "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+        },
+        "status": "node_limit",
+        "witness_dir": "/private/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n5-initial.witnesses-g9lrfr49",
+        "worker_log_tail": "",
+        "worker_result": {
+          "checkpoint_sha256": "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75",
+          "nodes_this_run": 1,
+          "nodes_total": 1,
+          "scope": "Only declared diagonal-reflection slices; no unrestricted infeasibility conclusion.",
+          "slice_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "slice_index": 0,
+          "status": "node_limit",
+          "witness_visits_total": 0
+        }
+      },
+      "dual_checked_witnesses": 0,
+      "temporary_artifacts_retained": false
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "5",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "10000",
+        "--checkpoint",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n5",
+        "--output",
+        "/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n5-resume",
+        "--expected-sha256",
+        "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75"
+      ],
+      "report": {
+        "accepted_checkpoint_sha256": "36d37ec0769fef6e26e1f873dee6c2fff09d0219b4a94801697a312df5451821",
+        "complete": true,
+        "elapsed_seconds": 0.19874366600561189,
+        "guard": {
+          "cleanup_elapsed_seconds": 0.013424750002741348,
+          "cleanup_error": null,
+          "cleanup_samples": 1,
+          "cleanup_status": "clean",
+          "elapsed_seconds": 0.14924379100557417,
+          "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+          "gate_status": "exited",
+          "monitor_error": null,
+          "peak_sampled_rss_kib": 54272,
+          "returncode": 0,
+          "rss_limit_mib": 256.0,
+          "rss_samples": 3,
+          "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+          "seconds_limit": 9.965615749999415,
+          "source_stable": true,
+          "trigger_gate_status": null
+        },
+        "max_nodes": 10000,
+        "n": 5,
+        "previous_checkpoint_sha256": "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75",
+        "published_checkpoint_sha256": "36d37ec0769fef6e26e1f873dee6c2fff09d0219b4a94801697a312df5451821",
+        "rss_limit_mib": 256.0,
+        "scope": "Declared diagonal-reflection slices only; no unrestricted infeasibility conclusion.",
+        "seconds_limit": 10.0,
+        "source_hashes": {
+          "checkpoint_core": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+          "entrypoint": "435d902f50d756b2ee3d40866b9bf814ca7aa8c3a66bcb59cacd8a42d4128784",
+          "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+          "guard": "84559f6a195d3a27db6e0bae718e84d82e70e27be5826562b7004fc47680ea0e",
+          "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+          "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+          "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+        },
+        "status": "all_declared_slices_exhausted",
+        "witness_dir": "/private/var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpcmz1zz2o/n5-resume.witnesses-xq3qrw2_",
+        "worker_log_tail": "",
+        "worker_result": {
+          "checkpoint_sha256": "36d37ec0769fef6e26e1f873dee6c2fff09d0219b4a94801697a312df5451821",
+          "nodes_this_run": 414,
+          "nodes_total": 415,
+          "scope": "Only declared diagonal-reflection slices; no unrestricted infeasibility conclusion.",
+          "slice_counts": [
+            [
+              12,
+              0
+            ],
+            [
+              15,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              15,
+              2
+            ],
+            [
+              21,
+              3
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              28,
+              4
+            ],
+            [
+              27,
+              5
+            ],
+            [
+              22,
+              2
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              38,
+              8
+            ],
+            [
+              24,
+              2
+            ],
+            [
+              15,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              24,
+              0
+            ],
+            [
+              26,
+              4
+            ],
+            [
+              20,
+              4
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              13,
+              0
+            ]
+          ],
+          "slice_index": 25,
+          "status": "all_declared_slices_exhausted",
+          "witness_visits_total": 35
+        }
+      },
+      "dual_checked_witnesses": 16,
+      "temporary_artifacts_retained": false
+    }
+  ]
+}

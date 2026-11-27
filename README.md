@@ -63,7 +63,7 @@ A documented near-quarter-turn family provides a different 158-point search. Its
 
 A further exact encoding reduced the full model to 281,121 variables. Its native solve still hit the unchanged memory gate at a sampled 291.39 MiB and stopped cleanly. It returned no witness or UNSAT result; this configuration is paused. [Measured outcome](data/direct-threshold-solve77-n79.json).
 
-A separate reflection-based 157-point search now saves its frontier between runs. Checkpointed 79-grid trials advanced 27,000 nodes in one reflection slice and 1,000 in a distinct slice at about 54 MiB, with no witness and no exhausted slice. These node counts are search work, not distinct configurations or a completion percentage. [Checkpoint method](research/diagonal-secant-checkpoint-guard.md) · [Independent review](research/diagonal-secant-checkpoint-guard-review.md).
+A separate reflection-based 157-point search now saves its frontier between runs. Checkpointed 79-grid trials advanced 47,000 nodes in one reflection slice and 6,000 in a distinct slice at about 54 MiB, with no witness and no exhausted slice. These node counts are search work, not distinct configurations or a completion percentage. [Checkpoint method](research/diagonal-secant-checkpoint-guard.md) · [Independent review](research/diagonal-secant-checkpoint-guard-review.md).
 
 The independently reviewed [batch worker](research/corner-batch.md) prepares the many smaller repair families with one source validation per process and durable per-anchor histories. Its pilot and all 8,136 selected one-case families completed. [Full history archive](data/corner-batch-small-records.tar.gz) · [Audit](research/corner-batch-small-review.md). [Review](research/corner-batch-review.md)
 

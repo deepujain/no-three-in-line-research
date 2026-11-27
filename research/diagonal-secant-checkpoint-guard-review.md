@@ -98,3 +98,16 @@ and fast-predicate tests also passed independently in 0.916 seconds.
 These are correctness and integration checks, not actual-host resource gates.
 No large frontier, n79 run, throughput estimate, coverage fraction, witness
 novelty, unrestricted infeasibility or proof-checked UNSAT follows from them.
+
+## Standalone route under the later combined dispatcher
+
+The existing standalone checkpoint route is approved under dispatcher SHA
+`435d902f50d756b2ee3d40866b9bf814ca7aa8c3a66bcb59cacd8a42d4128784`.
+Removing only its new five-line opt-in chain dispatch branch exactly recovers
+the previously approved dispatcher SHA
+`abddf7b5c2f440de4fb1e6d82cb7c8e78fdea046ff46f759af6754cadd261b9b`.
+Independent mocked checks passed for unchanged argument forwarding, the real
+CLI process-start timestamp and explicit-main fresh timestamp. The chain
+module is not imported on the standalone checkpoint route. This narrow
+approval permits the supervisor's renewed tiny standalone gates and excludes
+execution of the new chain route pending its full source and host review.

@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "checkpointed fast DFS prototype ready; preparing separately guarded resumable integration",
+    "status": "Bounded chain source and real-host lifecycle gates passed; inspecting host evidence and writing method documentation while numerical batches run",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "row solve memory-limited; investigating exact direct-clause thresholds to remove auxiliaries"
+    "status": "Distinct packed orbit/secant state and MRV proposal passed tiny mathematics review; production checkpoint/guard design pending"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "row trial evidence reviewed; independent checkpoint and encoding-variant review",
+    "status": "Independent chain and packed-state reviewer; next audit bounded numerical terminal evidence",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]
