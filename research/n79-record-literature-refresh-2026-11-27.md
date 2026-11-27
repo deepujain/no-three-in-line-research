@@ -1,0 +1,19 @@
+# Order-79 record refresh and one distinct method
+
+Checked 2026-11-27 (local date), using public internet search and primary pages. This is a bounded literature review, not an exhaustive bibliography, a numerical search, or a priority opinion.
+
+## Finite record
+
+[Flammenkamp's current primary construction archive](https://wwwhomes.uni-bielefeld.de/achim/no3in/readme.html), read today, still identifies the 78-by-78 Prellberg full configuration, found 2026-10-28, as its record holder. Its [2n configuration table](https://wwwhomes.uni-bielefeld.de/achim/no3in/table.html) is still dated 2026-10-28 and ends at n=78; it does not give a complete catalogue of sub-2n arrangements at n=79. Prellberg's published 156-point 78-grid set embeds in the 79 grid and remains a valid 156-point lower bound already independently checked in this project. The elementary row bound is 158. These facts establish 156 <= D(79) <= 158, not the exact value.
+
+The targeted queries for planar order 79 and 157/158 points did not locate an attributable 157-point planar witness or a later full 79-grid construction. This is a search outcome, not proof of nonexistence or a reliable claim of novelty. [The challenge brief](https://zerothesis.com/challenges/no-three-in-line?tab=brief) still reports 154 at n=79 from a 2026-08-31 source cut predating the October 78 witness; it is not an up-to-date upper bound or near-miss registry. [Queen Mary’s 2026-11-20 account](https://www.seresearch.qmul.ac.uk/ccs/news/5792/a-120-year-old-puzzle-a-new-world-record-and-a-student-project/) still identifies the 78-grid full solution. These sources do not rule out later, unindexed or private 157-point sets.
+
+A potentially misleading apparent search hit is [Kudriashov, arXiv:2609.25133, section 4.1](https://arxiv.org/html/2609.25133): its table has n=79 and 157, but explicitly refers to **three-dimensional no-four-coplanar** contest scores. It is not a 157-point planar no-three-collinear witness; the paper states those historical contest point sets were not published. Do not cite it as the order-79 planar record.
+
+## One distinct constructive method: PatternBoost
+
+[Ramanathan et al., *Three methods, one problem: classical and AI approaches to no-three-in-line*](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1799444/full), published 2026-11-17, describes a transformer-guided PatternBoost process: generate valid saturated configurations, keep a fixed pool of high-scoring sequences, train a model on them and iteratively generate/refine candidates. This is structurally distinct from the existing fixed-source retention SAT, bounded local moves and matching-rebuild DFS; it does not supply an independent order-79 seed. The paper links its [PatternBoost repository](https://github.com/pranav-ramanathan/N3L_PatternBoost), which was accessible as a web page on this check. Repository functionality, dependency availability, licensing and reproducibility were not independently audited.
+
+The paper's reported original PatternBoost experiment found a valid 29-point configuration at n=15 and full solutions through n=14; its repeated fixed-timeout protocol reliably reached full solutions only through n=12, with four 120-minute runs per size and 32 GB machine memory reported for the experiments. Those observations do not demonstrate feasibility at n=79 or under this project's 25-second / 256-MiB gate. The method is a literature lead, not a recommendation to launch training, and no GPU, model weights, environment changes, new dependencies or execution were authorized here. Validate every purported generated certificate independently; do not infer correctness from a model score.
+
+No accessible separate valid 156/157/158-point order-79 seed was established in this bounded search. Existing archived 76 and 78 configurations are already in the project ledger and are not presented as new discoveries.

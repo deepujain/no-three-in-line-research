@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16710.926627469067,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Independent actual audit of completed three-exit census; source/tiny implementation of source-disjoint matching rebuild157.",
+  "next_action": "Constructive source-disjoint matching rebuild157 source/tiny review; portable CI host-integration runner review.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -45,5 +45,5 @@
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "b575d3e Pages SUCCESS; CI fails host-only actual-anchor test because Linux lacks recorded Darwin .venv library. No retry or guard change. Three-exit source/tiny9testsPASS; actual complete awaits independent audit."
+  "validation_status": "b935ed6 Pages SUCCESS; CI676tests fails only actual-anchor host integration absent Darwin .venv binary; portability fix assigned, no repeat. Three-exit actual audit accepted with documented receipt-text defect."
 }
