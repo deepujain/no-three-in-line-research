@@ -403,3 +403,8 @@ Replay Domain reuse matched exact11node frontier/traversal while halving restore
 Valleyseed279106 acceptedsixmoves including153points; finalbest156unchanged. Furtherseeds279107/8/9 allclean,noimprovement; their rawreports remain for separateevidenceaudit. Author/reviewer approved a limited fixed4freshseed batch279110..279113,drawwdown4,25s each. Existingpool narrowly allows reviewedneutral entrypoint and tightensaggregate directchildRSS1536to256MiB;6hosttests pass0.189s, source reviewed. No newpool/guard, maxworkers/maxconcurrent1,55s envelope each,220sreservation allowance, no automaticwitness/failurestop claimed. Actualprocessaudit empty beforepreparingqueue. Pins indata/overnight-valley-batch-source-pins.json; allneutral dependencies frozen untilcompletion.
 
 447fulllocaltests passed43.281seconds(8skips), UI5viewports passed. LinuxCI remainsred on legacyzeroRSSsamples despite rerun; guardsfailclosed, not proof/searchfailures. Accounted 14771.890742843076seconds before220squeue reservations, originaldeadline22:59:25UTC unchanged.
+
+
+## 2026-11-27T06:38:16.489855+00:00 — Overnight numerical queue started
+
+Actualhost process audit found no competing researchworker/supervisor. Started sole existingpoolPID94611 with --max-workers1; live status observed firstjob overnight-valley-seed279110 childPID94612. Fixed4fresh25s jobs only; perjobloopplus30s grace, directchildRSS256MiB, originaldeadline and totalbudget enforced. Three AIworkers remain assigned; no extraagent/pool/schedule. Launcher metadata data/overnight-pool-launch.json.

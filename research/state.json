@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Overnight fixed four-seed valley queue ready; optimized packed frontier14nodes independently audited; read-only orbit probe prototype under review",
+  "current_round": "Single pool94611 running fixed4seed valley batch;3AIworkers assigned to faster exact orbit predicate and evidence review",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",

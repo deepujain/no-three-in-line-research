@@ -1,0 +1,20 @@
+{
+  "pid": 94611,
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/experiment_pool.py",
+    "--queue",
+    "research/queue.json",
+    "--max-workers",
+    "1"
+  ],
+  "started_at": "2026-11-27T06:37:53.523266+00:00",
+  "source_pins": "data/overnight-valley-batch-source-pins.json",
+  "approved_fixed_jobs": [
+    279110,
+    279111,
+    279112,
+    279113
+  ],
+  "note": "Single existing supervisor; numerical reservations/actual time recorded in experiments. Stop on original pilotdeadline/budget."
+}
