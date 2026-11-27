@@ -1036,6 +1036,52 @@
         "--diagonal",
         "1"
       ]
+    },
+    {
+      "id": "r34-center-singleton-center-deficit",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Limited distinctgeometry exploration using already-reviewed unchangedcheckpointguard: centraldiagonalsingleton, contrasting central/boundary deficientrow. Distinctfromprior(0,0)/(0,1) under simultaneousreversal; no assertedfeasibility/novelty. Fresh1000-node costpilot,30sec/256MiB, deterministicorder/no RNG. Preservefrontier; no inferencefromquota.",
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--deficit",
+        "39",
+        "--diagonal",
+        "39",
+        "--checkpoint",
+        "data/diagonal-center-center-frontier.json",
+        "--output",
+        "data/diagonal-center-center-preflight.json"
+      ]
+    },
+    {
+      "id": "r34-center-singleton-boundary-deficit",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Limited distinctgeometry exploration using already-reviewed unchangedcheckpointguard: centraldiagonalsingleton, contrasting central/boundary deficientrow. Distinctfromprior(0,0)/(0,1) under simultaneousreversal; no assertedfeasibility/novelty. Fresh1000-node costpilot,30sec/256MiB, deterministicorder/no RNG. Preservefrontier; no inferencefromquota.",
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "39",
+        "--checkpoint",
+        "data/diagonal-boundary-center-frontier.json",
+        "--output",
+        "data/diagonal-boundary-center-preflight.json"
+      ]
     }
   ]
 }

@@ -100,3 +100,32 @@ marker and disappearance of the observed worker PID. Merely losing the PID
 would not establish the cleanup gate. Timeout and hard-kill paths remain
 failed/unknown, with bounded communicate calls and preserved reports. This
 review inspected the full script and hash but did not execute the host gate.
+
+## Revised host gate and independent saved-artifact audit
+
+The v2 script is `d3336b111d32f4f375a75f2540f015008c13dfe3a9b255710ecc5e3f2e099102`.
+Its sole functional change from v1 is a 1,000-node cap for the n5 success case;
+n3 stays at five and the separate cancellation case stays at one. This fixes
+v1's safe reservation-limit exit before any n5 witness. It does not change the
+production sources, per-invocation time or RSS caps.
+
+The supervisor executed v2. Independently audited saved summary
+`data/diagonal-chain-host-gate-v2/summary.json` has SHA
+`a0c541a4d942f598d0c3c39a5812f262055ebdcf27694d2b468a0866420f1aab`.
+Its recorded ledger/report/checkpoint hashes match the files, source bindings
+match the frozen files above, predecessor links and node/witness deltas agree,
+and accepted terminal markers are closed. The n3 chain has two accepted
+invocations, 11 cumulative nodes, one visit and one saved certificate. The n5
+chain has one accepted invocation, 415 cumulative nodes, 35 visits and 16
+distinct saved certificates. Both exact geometry validators independently pass
+all 17 certificates, with count 2n-1, reflection symmetry and matching filename
+normalized hashes. Visits must not be described as unique certificates.
+
+The separate n5 cancellation report records cancelled guard status and clean
+cleanup; the chain and owner marker are rejected. Accepted/published checkpoint
+fields are null, no certificate was saved, and the actual checkpoint remains
+the initial accepted digest. Its worker's staged progress was not adopted.
+The summary records observing a worker before SIGTERM and verifying its PID's
+absence afterward. This reviewer audited those recorded artifacts and the test
+source, but did not rerun the host gate or independently observe that past
+process lifecycle. The supervisor also reports a later fresh process audit.

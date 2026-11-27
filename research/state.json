@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Main r33chain stillactive underpool10282; nointerrupt/duplicate/sourcechange. Explorationclosed at21000nodes,hashb5f6d047,independentlyaudited. Existingone-orbitMRV duplicatepaths identified; two separatetiny-only unorderedrowbatch variants being developed/reviewed before nextlargeallocation. Atmaincompletion auditledger/receipt/currentfrontier, honor840sreservedthisround and6hpilotbudget. No boundimprovement.",
+  "next_action": "Inspect r34central-singletoncostpilotreceipts before newallocation. r33main/explorebothindependentaudits passed, no witnesses/exhaustion. Reflectiontinyrowbatch approved27d74e27; nearquartertinyrowbatchapproved417afd94. Literatureworker implementsreflectioncheckpointcore(tinyresumptiongates), Engineer nearquartercheckpointdesign awaiting independentapproval; no newproductionn79workerbeforeguard/hostreview. Preserveoldfrontiers; no Glucosefallback/capincrease.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,6 +28,6 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Bounded automatic checkpoint batches running: r33 main600seconds and exploration180seconds",
+  "current_round": "r33audited:main367000nodes/explore21000; tinyunique-rowbatch productioncheckpointcores in development",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }
