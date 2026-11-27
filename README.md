@@ -59,7 +59,9 @@ Three selected corner repair streams have completed all 596,904 cases each witho
 
 The queue, real process receipts, and [Research Lead decisions](research/decisions.md) distinguish running experiments, incomplete searches, scoped exhaustive results, and valid certificates. No new point-count record is claimed.
 
-The next exploration proposal uses a documented odd-grid near-quarter-turn family, with a weighted-orbit encoder under independent review. No large model or search has run yet. [Sources, model and validation gates](research/next-exploration.md)
+The next exploration proposal uses a documented odd-grid near-quarter-turn family, with an independently reviewed weighted-orbit encoder. Published-fixture and memory preflight checks remain; no large model or search has run yet. [Sources, model and validation gates](research/next-exploration.md)
+
+The independently reviewed [batch worker](research/corner-batch.md) prepares the many smaller repair families with one source validation per process and durable per-anchor histories. Its first bounded pilot is queued. [Review](research/corner-batch-review.md)
 
 ## Reproduce and verify
 

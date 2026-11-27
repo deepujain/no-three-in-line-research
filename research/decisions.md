@@ -87,3 +87,9 @@
 - Restarted one exhausted pool after confirming predecessor exit, PID74591, for five previously unsearched reviewed corner anchors. Three observed children74593–74595 run first, two remain queued. Completed/reserved worker time is still enforced by existing receipts and six-hour cap; starting accounted total5,794.97seconds including reserve.
 - The batch core received independent mathematical review and eight tests; CLI adapter/source-provenance updates remain under review before queueing. Existing numerical workers continue unchanged.
 - Literature Researcher identified Prellberg's documented odd-grid near-quarter-turn(rct4) family as a distinct exploration direction, supported by recorded n71/n73 constructions. This is not the exact quarter-turn symmetry already pruned. Researcher transitions to software-engineering implementation of a small weighted-orbit encoder, with Mathematician as independent reviewer. No full n79 build or search is authorized before correctness and memory gates; no discovery is claimed.
+
+## 2026-11-27 00:39 UTC — Reviewed implementation allocation
+
+- Confirmed all three existing numerical children and their supervisor continue running at low RSS. Two more reviewed size-two streams remain queued; no duplicate pool or fourth numerical child was started.
+- Independent review approved the batch CLI adapter and exact source versions. Full research-environment suite:109 tests passed, including near-quarter weighted-model tests. Appended one120-second,200-case pilot of the8136 one-case-anchor batch selection, via the existing allowlisted embedding_worker entrypoint. It starts only when a lane frees; source hash and transitive batch hash are recorded.
+- Near-quarter compiler independently approved on tiny exhaustive assignments and exact line checks. A sourced n71/n73 fixture and n79 memory/build preflight remain gates; this review does not authorize silently constructing or searching a large model.

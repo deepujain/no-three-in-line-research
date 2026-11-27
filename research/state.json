@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect current corner receipts and witness files. Initial three size-two anchors complete with reviewed no-witness evidence; remaining five distinct anchors queued. Batch adapter and near-quarter weighted encoder require independent review/gates before execution. Half-turn SAT paused at400000 accumulated cuts.",
+  "next_action": "Inspect first batch pilot receipt/cursor and per-anchor chains before expanding beyond200 small anchors. Maintain max3 numerical children. Validate primary rct4 fixture and reviewed host-memory preflight before large near-quarter build. Preserve current corner progress; do not restart stopped large SAT.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -27,6 +27,6 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "next five size-two corner families, max three active; reviewed batch core awaiting adapter; documented near-quarter model in preparation",
+  "current_round": "size-two corner searches active; reviewed200case small-anchor batch pilot queued; approved near-quarter encoder awaits fixture and resource preflight",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

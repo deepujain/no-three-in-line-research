@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "Five remaining size-two corner anchors independently approved; maximum three numerical children. Small half-turn branch paused at400000 accumulated cuts pending a concrete new mechanism; no large SAT reload.",
+  "note": "Three numeric lanes maximum; remaining size-two streams precede independently approved200-case small-anchor batch pilot. Fresh exec uses opt-in batch CLI; active old workers remain unchanged. Near-quarter compiler reviewed but fixture/resource gates still pending.",
   "jobs": [
     {
       "args": [
@@ -366,6 +366,27 @@
         "data/corner-anchor-frontier/corner-exact5-anchor-10303-origin.json",
         "--output",
         "data/corner-anchor-frontier/corner-exact5-anchor-10303-tip.json"
+      ]
+    },
+    {
+      "id": "r11-corner-batch-small-pilot",
+      "script": "research/embedding_worker.py",
+      "seconds": 120,
+      "hypothesis": "Pilot the independently reviewed batch worker on the first200 one-case corner anchors, reusing source validation and preserving per-anchor old-worker-compatible hash chains. This measures real overhead before expanding the8136-anchor small-family selection. It does not close the whole corner family.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "1",
+        "--max-cases",
+        "200",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-small.json",
+        "--records-directory",
+        "data/corner-batch-small-records"
       ]
     }
   ]

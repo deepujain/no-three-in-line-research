@@ -216,6 +216,11 @@ def run_worker(previous,output,seed,scan,seconds=900,max_cases=10**9,chunk_cases
 
 
 def main(argv=None):
+    arguments=list(sys.argv[1:] if argv is None else argv)
+    if '--batch' in arguments:
+        arguments.remove('--batch')
+        from research.corner_batch_worker import main as batch_main
+        return batch_main(arguments)
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--previous',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True,help='durable tip JSON path')
@@ -224,7 +229,7 @@ def main(argv=None):
     parser.add_argument('--seconds',type=float,default=900)
     parser.add_argument('--max-cases',type=int,default=10**9)
     parser.add_argument('--chunk-cases',type=int,default=20000)
-    args=parser.parse_args(argv)
+    args=parser.parse_args(arguments)
     try:
         seed,_=read_json(args.seed)
         scan,_=read_json(args.scan)
