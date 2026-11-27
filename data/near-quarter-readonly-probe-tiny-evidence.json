@@ -1,0 +1,49 @@
+{
+  "actual_geometry_n": [
+    3,
+    5,
+    7
+  ],
+  "actual_host_gate_run": false,
+  "elapsed_seconds": 0.3557613750017481,
+  "initial_test_fix": "latched state correctly propagated PackedStop like existing state._usable; fixed test expectation from PackedStateError. No production source changed.",
+  "limits": "budget fault sweep is representative query paths, not every one of1310admission cases; equivalence assumes coherent valid states, not corrupt capacity behavior",
+  "live_manifest_changed": false,
+  "model": "gpt-6.1-sol",
+  "physical_counter_semantics": "prototype updates no state work counters; future integration must explicitly disclose accounting, not claim equivalent physical work",
+  "reasoning_effort": "high",
+  "schema": 1,
+  "source_sha256": {
+    "research/near_quarter_packed_state.py": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "research/near_quarter_packed_worker.py": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "research/near_quarter_readonly_probe.py": "2b9f51496f80c78881643724029e48cd9987b1428bdffbce7736806d790f5c7d",
+    "research/near_quarter_rowbatch_checkpoint.py": "88ce7a7a9b3d756427f60382b1b1316f30755e3a1a49a9a51367c6fcb27e6dec",
+    "research/near_quarter_rowbatch_core.py": "2f758f6383ebefc9772e2bf34969e477c29f70efc396a3d96e8d13aed1822ed5",
+    "tests/test_near_quarter_readonly_probe.py": "381e3d64e1deb53183836fbbc4a97634e605211a883a53663fadcbef07f89809"
+  },
+  "statistics": {
+    "exhaustive": {
+      "3": {
+        "admitted": 4,
+        "candidate_checks": 8,
+        "valid_subsets": 4
+      },
+      "5": {
+        "admitted": 26,
+        "candidate_checks": 102,
+        "valid_subsets": 17
+      },
+      "7": {
+        "admitted": 224,
+        "candidate_checks": 1200,
+        "valid_subsets": 100
+      }
+    },
+    "interruption_boundaries": 165,
+    "random_order_checks": 800
+  },
+  "status": "isolated_readonly_probe_not_integrated",
+  "successful": true,
+  "test_output": "test_every_query_budget_boundary_preserves_snapshot_and_work (tests.test_near_quarter_readonly_probe.ReadonlyProbeTests.test_every_query_budget_boundary_preserves_snapshot_and_work) ... ok\ntest_every_tiny_coherent_subset_candidate_matches_push_and_determinants (tests.test_near_quarter_readonly_probe.ReadonlyProbeTests.test_every_tiny_coherent_subset_candidate_matches_push_and_determinants) ... ok\ntest_explicit_axes_and_triple_partition_cases (tests.test_near_quarter_readonly_probe.ReadonlyProbeTests.test_explicit_axes_and_triple_partition_cases) ... ok\ntest_seeded_random_insertion_orders_and_repeated_candidates (tests.test_near_quarter_readonly_probe.ReadonlyProbeTests.test_seeded_random_insertion_orders_and_repeated_candidates) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.356s\n\nOK\n",
+  "tests_run": 4
+}

@@ -1,0 +1,14 @@
+{
+  "pid": 6371,
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/experiment_pool.py",
+    "--queue",
+    "research/queue.json",
+    "--max-workers",
+    "1"
+  ],
+  "started_at": "2026-11-27T06:47:25.568804+00:00",
+  "source_pins": "data/retained-continuation-batch-pins.json",
+  "note": "Single existing pool; fixed four retained-walk jobs only; prior pool ended; no automatic witness/failure stop."
+}

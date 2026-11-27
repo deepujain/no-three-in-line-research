@@ -408,3 +408,19 @@ Valleyseed279106 acceptedsixmoves including153points; finalbest156unchanged. Fur
 ## 2026-11-27T06:38:16.489855+00:00 — Overnight numerical queue started
 
 Actualhost process audit found no competing researchworker/supervisor. Started sole existingpoolPID94611 with --max-workers1; live status observed firstjob overnight-valley-seed279110 childPID94612. Fixed4fresh25s jobs only; perjobloopplus30s grace, directchildRSS256MiB, originaldeadline and totalbudget enforced. Three AIworkers remain assigned; no extraagent/pool/schedule. Launcher metadata data/overnight-pool-launch.json.
+
+
+## 2026-11-27T06:42:23.301853+00:00 — Hourly shepherd review
+
+Read plan, state, all ten approaches, decision and literature ledgers, current worker reports, runner status and actual process table. Prior sole pool94611 ended normally; no numerical worker or supervisor remains. All114 receipts terminal; accounted 14876.58439659408 seconds including initial reserve; 6723.41560340592 seconds remain before new reservations. Original deadline unchanged. Root separately dual-verified all eight certificates from the four-job valley batch; none improves156. Independent seven-seed audit finds two retained valid154/155 walks. Stop repeated fresh-seed batches; Literature now adds a separate incumbent interface for continuation while preserving156 best, source/tiny approval only.
+
+Primary branch: independent proof and source review approved exact read-only orbit admission prototype. Root independently passed its four tests in0.372s. Engineer integrates the minimal hook and exact counter semantics; Mathematician reviews before a fresh n79 comparison. Physical counters count actual mutation-engine work; read-only line reads and determinants are not enumerated there. No speed claim before host measurement. All three existing AI workers assigned, no duplicate process pool. Latest published commit3b8362a CI and Pages both passed; prior zeroRSS failures did not require guard weakening.
+
+
+## 2026-11-27T06:54:24.695113+00:00 — Faster exact admission measured; continue useful search
+
+Independent readonly11node audit confirms byte-identical control/counters/orders/frames to preserved mutating-probe11node frontier, same49893domainqueries/16631restorequeries/11batches/320cursorchecks. Outer18.6057to0.9689seconds; operation14.7023to0.5629seconds; save3.6820to0.2090seconds. This is a single bounded matched-prefix measurement, not a general speed guarantee. Mutation counters deliberately exclude read-only line reads/determinants; use measured wall and query totals. Root63focusedtests passed5.055s.
+
+Next250nodes independently audited:11to261, ACTIVE/no completed slice/no witness,13frames; operation7.954s/outer8.547s, clean52448KiB sampledpeak. Quota250 retained. One further separately allocated250stage accepted8.574s at unchanged30s/256MiB caps; latest511node evidence audit pending. Thin fixedcaller design approved to use existingrun_stage/guards/wire, exactparents, unique stage IDs, stop on rejection/sourcechange/uncertainty/witness/exhaustion and totalbudget. No newsolverprotocol; implementation and signaltests reviewed before pool use.
+
+Two retained-walk continuations separately preserved156best and produced valid155/153 finalwalks; audit records distances3/5 fromoriginal seed. A reviewed fixed4job continuationbatch ran through solepool6371 and ended normally; no new construction reported, evidence audit pending. No identical freshseed batches. Current total receipts plus initialreserve 15049.852030594098seconds, remaining 6550.147969405902seconds, originaldeadline unchanged.

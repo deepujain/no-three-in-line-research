@@ -1,0 +1,70 @@
+{
+  "job": {
+    "id": "retained-valley-seed279207",
+    "seconds": 30,
+    "hypothesis": "Continue independently verified154/155walk while separately preserving156incumbent; fixeddrawdown4, freshseed"
+  },
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/neutral_repair.py",
+    "--n",
+    "79",
+    "--seconds",
+    "25",
+    "--seed",
+    "279207",
+    "--initial",
+    "data/resume-valley-seed279107-walk.json",
+    "--incumbent",
+    "data/published-n78.json",
+    "--output",
+    "data/retained-valley-seed279207.json",
+    "--report",
+    "data/retained-valley-seed279207-report.json",
+    "--walk-output",
+    "data/retained-valley-seed279207-walk.json",
+    "--max-drawdown",
+    "4"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 25.1592074999935,
+  "started_at": "2026-11-27T06:43:11.662497+00:00",
+  "sources_before": {
+    "research/neutral_repair.py": "2e63baefa659348facc66ac495061534353b064f68f1413f50a391d383236d42",
+    "src/search.py": "0e132a360bdb1408fdf5b3ebebeb1b37650177c421e5d2fe8ae32c35502ae123",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "data/resume-valley-seed279107-walk.json": "2bbc0cb6e3c90ac94e5cfb752d5665c226ed5ed5c7ec7c7d4c60ffef8b4b28ac"
+  },
+  "seed": 279207,
+  "guard": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 25.15918362500088,
+    "rss_samples": 578,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 48512,
+    "cleanup_elapsed_seconds": 0.02422162500442937,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "sources_after": {
+    "research/neutral_repair.py": "2e63baefa659348facc66ac495061534353b064f68f1413f50a391d383236d42",
+    "src/search.py": "0e132a360bdb1408fdf5b3ebebeb1b37650177c421e5d2fe8ae32c35502ae123",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "data/resume-valley-seed279107-walk.json": "2bbc0cb6e3c90ac94e5cfb752d5665c226ed5ed5c7ec7c7d4c60ffef8b4b28ac"
+  },
+  "finished_at": "2026-11-27T06:43:36.824679+00:00",
+  "sources_unchanged": true
+}

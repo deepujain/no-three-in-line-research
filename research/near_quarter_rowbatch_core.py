@@ -14,6 +14,7 @@ from research.near_quarter_tiny_secants import TinyOrbitState
 from research.near_quarter_packed_state import PackedOrbitState, PackedStop, packed_bounds
 from src.near_quarter_model import check_candidate
 from research.near_quarter_radius_graph import radius_obstruction
+from research.near_quarter_readonly_probe import probe_orbit
 
 ZERO = bytes(32)
 BETWEEN, ACTIVE, EXHAUSTED, FOUND = range(1, 5)
@@ -32,11 +33,13 @@ PACKED_SOURCE_PATHS = SOURCE_PATHS[:1]+(ROOT/'research/near_quarter_packed_state
 # every subsequent packed source check rechecks current bounded helper bytes.
 RADIUS_SOURCE_PATH = ROOT/'research/near_quarter_radius_graph.py'
 RADIUS_SOURCE_SHA = bytes.fromhex('647ae1379eb89711707f9900d68a2aba1861839751bdb22f15e9618d1f5cda66')
+READONLY_SOURCE_PATH = ROOT/'research/near_quarter_readonly_probe.py'
+READONLY_SOURCE_SHA = bytes.fromhex('2b9f51496f80c78881643724029e48cd9987b1428bdffbce7736806d790f5c7d')
 
 
 def _source_digests(check=lambda: None, *, adapter=1):
     hashes = []
-    paths = SOURCE_PATHS if adapter == 1 else PACKED_SOURCE_PATHS+(RADIUS_SOURCE_PATH,)
+    paths = SOURCE_PATHS if adapter == 1 else PACKED_SOURCE_PATHS+(RADIUS_SOURCE_PATH, READONLY_SOURCE_PATH,)
     for path in paths:
         check()
         hasher, total = hashlib.sha256(), 0
@@ -51,6 +54,8 @@ def _source_digests(check=lambda: None, *, adapter=1):
                     raise ValueError('source file exceeds bound')
                 hasher.update(chunk)
         hashes.append(hasher.digest())
+    if adapter == 2 and hashes.pop() != READONLY_SOURCE_SHA:
+        raise ValueError('reviewed read-only helper source differs')
     if adapter == 2 and hashes.pop() != RADIUS_SOURCE_SHA:
         raise ValueError('reviewed radius helper source differs')
     return tuple(hashes)
@@ -182,7 +187,11 @@ class TinyRowBatchCore:
                 if variable in self.state.selected:
                     continue
                 self.work['restore_probes' if self.restore_mode else 'domain_probes'] += 1
-                if not self.state.push(variable):
+                # Query counts include read-only geometry. state.work remains
+                # actual mutation-engine work, excluding query line/read cost.
+                admitted = (probe_orbit(self.state, variable, check) if self.adapter == 2
+                            else self.state.push(variable))
+                if not admitted:
                     continue
                 try:
                     viable += 1
@@ -190,19 +199,22 @@ class TinyRowBatchCore:
                     ys = tuple(y for x, y in self.state.model['orbits'][variable-1])
                     seen = []
                     for row in ys:
-                        # Probe geometry already contains the new orbit. Recover
-                        # the parent load to identify its previously open rows.
+                        # Adapter1 temporarily contains the candidate; the
+                        # read-only packed path already has parent row loads.
                         if row in seen:
                             continue
                         seen.append(row)
                         weight = ys.count(row)
-                        if self.state.rows[row]-weight < 2:
+                        parent_load = self.state.rows[row]-(weight if self.adapter == 1 else 0)
+                        if parent_load < 2:
                             (ones if weight == 1 else twos)[row] += 1
                 except BaseException:
-                    self._undo_orbits(1, suppress_stop=True)
+                    if self.adapter == 1:
+                        self._undo_orbits(1, suppress_stop=True)
                     raise
                 else:
-                    self._undo_orbits(1)
+                    if self.adapter == 1:
+                        self._undo_orbits(1)
             check()
             if viable < r:
                 return ORBIT_SHORTFALL, None, None

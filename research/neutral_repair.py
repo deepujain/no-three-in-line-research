@@ -30,7 +30,7 @@ def checked(n, points):
     return certificate, fast['normalized_sha256']
 
 
-def walk(n, seconds, seed, initial, output, *, walk_output=None, max_drawdown=0,
+def walk(n, seconds, seed, initial, output, *, incumbent=None, walk_output=None, max_drawdown=0,
          history_limit=4096, clock=time.monotonic, rng=None, on_pass=None):
     if type(n) is not int or n < 2 or type(seed) is not int:
         raise ValueError('invalid grid or seed')
@@ -44,13 +44,25 @@ def walk(n, seconds, seed, initial, output, *, walk_output=None, max_drawdown=0,
     initial_checks = (verify_certificate(initial), verify_certificate_bruteforce(initial))
     if not all(c['valid'] for c in initial_checks) or initial_checks[0]['normalized_sha256'] != initial_checks[1]['normalized_sha256']:
         raise ValueError('invalid initial certificate')
-    best, best_hash = checked(n, initial['points'])
-    current = [tuple(p) for p in best['points']]
+    initial_embedded, initial_embedded_hash = checked(n, initial['points'])
+    incumbent = initial if incumbent is None else incumbent
+    incumbent_checks = (verify_certificate(incumbent), verify_certificate_bruteforce(incumbent))
+    if not all(c['valid'] for c in incumbent_checks) or incumbent_checks[0]['normalized_sha256'] != incumbent_checks[1]['normalized_sha256']:
+        raise ValueError('invalid incumbent certificate')
+    best, best_hash = checked(n, incumbent['points'])
+    initial_best_hash = best_hash
+    current = [tuple(p) for p in initial_embedded['points']]
     original = set(current)
-    current_hash = best_hash
+    current_hash = initial_embedded_hash
     target = min(n*n, 2*n)
-    if len(current) > target:
-        raise ValueError('initial exceeds target')
+    if len(current) > target or len(best['points']) > target:
+        raise ValueError('input exceeds target')
+    if len(current) > len(best['points']) or len(current) < len(best['points']) - max_drawdown:
+        raise ValueError('initial walk outside incumbent floor')
+    provenance = {'initial_walk_normalized_sha256': initial_checks[0]['normalized_sha256'],
+                  'initial_walk_embedded_normalized_sha256': initial_embedded_hash,
+                  'initial_incumbent_normalized_sha256': incumbent_checks[0]['normalized_sha256'],
+                  'initial_incumbent_embedded_normalized_sha256': initial_best_hash}
     rng = rng if rng is not None else random.Random(seed)
     history = OrderedDict([(current_hash, None)])
     counts = Counter(); sizes = Counter(); partial_sizes = Counter()
@@ -80,7 +92,7 @@ def walk(n, seconds, seed, initial, output, *, walk_output=None, max_drawdown=0,
                     candidate, digest = checked(n, trial)
                     candidate['metadata'] = {'method': 'neutral_deletion_greedy_repair',
                                              'seed': seed, 'normalized_sha256': digest,
-                                             'novelty_claim': False}
+                                             'novelty_claim': False, **provenance}
                     atomic(Path(output), encode(candidate))
                     best, best_hash = candidate, digest
                     # Promote immediately: a partial pass must not leave the
@@ -126,24 +138,27 @@ def walk(n, seconds, seed, initial, output, *, walk_output=None, max_drawdown=0,
     # Save the best even if no improvement occurred; atomic replacement never
     # makes a previously persisted improvement smaller.
     best['metadata'] = dict(best.get('metadata', {}), method='neutral_deletion_greedy_repair',
-                            seed=seed, normalized_sha256=best_hash, novelty_claim=False)
+                            seed=seed, normalized_sha256=best_hash, novelty_claim=False, **provenance)
     atomic(Path(output), encode(best))
     current_certificate, checked_hash = checked(n, current)
     if checked_hash != current_hash or len(current) < len(best['points']) - max_drawdown:
         raise RuntimeError('final walk invariant failed')
     current_certificate['metadata'] = {'method': 'neutral_deletion_greedy_walk', 'seed': seed,
-                                       'normalized_sha256': current_hash, 'novelty_claim': False}
+                                       'normalized_sha256': current_hash, 'novelty_claim': False,
+                                       **provenance}
     if walk_output is not None:
         atomic(Path(walk_output), encode(current_certificate))
     return {'n': n, 'seed': seed, 'seconds_budget': seconds, 'elapsed_seconds': clock()-started,
-            'initial_count': len(initial['points']), 'best_count': len(best['points']),
+            'initial_count': len(initial['points']), 'initial_incumbent_count': len(incumbent['points']),
+            **provenance, 'best_count': len(best['points']),
             'best_normalized_sha256': best_hash, 'walk_normalized_sha256': current_hash,
             'deletion_histogram_completed': dict(sorted(sizes.items())),
             'deletion_histogram_partial': dict(sorted(partial_sizes.items())),
             'trial_size_histogram': dict(sorted(trial_sizes.items())),
             'accepted_delta_histogram': dict(sorted(accepted_deltas.items())),
             'max_drawdown': max_drawdown, 'minimum_walk_size': minimum_walk_size,
-            'max_seed_symmetric_difference': max_seed_distance,
+            'max_initial_walk_symmetric_difference': max_seed_distance,
+            'distance_reference': 'initial embedded walk coordinates',
             'counts': dict(counts), 'candidate_evaluations': evaluations,
             'hash_cache_capacity': history_limit, 'hash_cache_size': len(history),
             'hash_cache_evictions': evictions, 'improvements': improvements,
@@ -156,14 +171,18 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--n', type=int, required=True); p.add_argument('--seconds', type=float, required=True)
     p.add_argument('--seed', type=int, required=True); p.add_argument('--initial', type=Path, required=True)
+    p.add_argument('--incumbent', type=Path, help='separate valid best certificate; defaults to initial walk')
     p.add_argument('--output', type=Path, required=True); p.add_argument('--report', type=Path, required=True)
     p.add_argument('--walk-output', type=Path, required=True)
     p.add_argument('--max-drawdown', type=int, default=0)
     p.add_argument('--history-limit', type=int, default=4096)
     args = p.parse_args()
-    if len({p.resolve() for p in (args.initial, args.output, args.report, args.walk_output)}) != 4:
+    outputs = (args.output, args.report, args.walk_output)
+    inputs = (args.initial,) if args.incumbent is None else (args.initial, args.incumbent)
+    if len({p.resolve() for p in outputs}) != len(outputs) or any(o.resolve() == i.resolve() for o in outputs for i in inputs):
         p.error('input, output, walk output and report must differ')
     result = walk(args.n, args.seconds, args.seed, json.loads(args.initial.read_text()), args.output,
+                  incumbent=None if args.incumbent is None else json.loads(args.incumbent.read_text()),
                   history_limit=args.history_limit, max_drawdown=args.max_drawdown,
                   walk_output=args.walk_output)
     atomic(args.report, encode(result)); print(json.dumps(result, sort_keys=True))

@@ -1,6 +1,6 @@
 {
   "max_concurrent": 1,
-  "note": "Resumed, reviewed fixed four-seed valley batch279110..279113 drawdown4;25s loop and55s outer envelope perjob. Existingpool RSS tightened256MiB directchildren; no automatic stop-on-witness/failure. Historical jobs terminal, no unchangedreflectionjobs.",
+  "note": "Prior fixed batch audited and terminal. New fixed retained-walk continuation batch only:279307/8 from155walk,279312/3 from153walk; separate156incumbent, drawdown4,25s loops. Existing55s envelope, sampled256MiB directchildren, no automatic stop-on-witness/failure. No further scaling without review.",
   "jobs": [
     {
       "args": [
@@ -1896,6 +1896,102 @@
         "4"
       ],
       "hypothesis": "Reviewed fixedfour freshseed valleycontrast; best156 preserved; maxdrawdown4; no discoveryclaim; inspect best+walk certs afterreceipt."
+    },
+    {
+      "id": "retained-continuation-seed279307",
+      "script": "research/neutral_repair.py",
+      "seconds": 25,
+      "args": [
+        "--n",
+        "79",
+        "--seed",
+        "279307",
+        "--initial",
+        "data/retained-valley-seed279207-walk.json",
+        "--incumbent",
+        "data/published-n78.json",
+        "--output",
+        "data/retained-continuation-seed279307.json",
+        "--report",
+        "data/retained-continuation-seed279307-report.json",
+        "--walk-output",
+        "data/retained-continuation-seed279307-walk.json",
+        "--max-drawdown",
+        "4"
+      ],
+      "hypothesis": "Reviewed one fixed four-job retained-walk continuation, separately preserve156best. Compare actual final state movement and verified count, not proposal cache totals."
+    },
+    {
+      "id": "retained-continuation-seed279308",
+      "script": "research/neutral_repair.py",
+      "seconds": 25,
+      "args": [
+        "--n",
+        "79",
+        "--seed",
+        "279308",
+        "--initial",
+        "data/retained-valley-seed279207-walk.json",
+        "--incumbent",
+        "data/published-n78.json",
+        "--output",
+        "data/retained-continuation-seed279308.json",
+        "--report",
+        "data/retained-continuation-seed279308-report.json",
+        "--walk-output",
+        "data/retained-continuation-seed279308-walk.json",
+        "--max-drawdown",
+        "4"
+      ],
+      "hypothesis": "Reviewed one fixed four-job retained-walk continuation, separately preserve156best. Compare actual final state movement and verified count, not proposal cache totals."
+    },
+    {
+      "id": "retained-continuation-seed279312",
+      "script": "research/neutral_repair.py",
+      "seconds": 25,
+      "args": [
+        "--n",
+        "79",
+        "--seed",
+        "279312",
+        "--initial",
+        "data/retained-valley-seed279212-walk.json",
+        "--incumbent",
+        "data/published-n78.json",
+        "--output",
+        "data/retained-continuation-seed279312.json",
+        "--report",
+        "data/retained-continuation-seed279312-report.json",
+        "--walk-output",
+        "data/retained-continuation-seed279312-walk.json",
+        "--max-drawdown",
+        "4"
+      ],
+      "hypothesis": "Reviewed one fixed four-job retained-walk continuation, separately preserve156best. Compare actual final state movement and verified count, not proposal cache totals."
+    },
+    {
+      "id": "retained-continuation-seed279313",
+      "script": "research/neutral_repair.py",
+      "seconds": 25,
+      "args": [
+        "--n",
+        "79",
+        "--seed",
+        "279313",
+        "--initial",
+        "data/retained-valley-seed279212-walk.json",
+        "--incumbent",
+        "data/published-n78.json",
+        "--output",
+        "data/retained-continuation-seed279313.json",
+        "--report",
+        "data/retained-continuation-seed279313-report.json",
+        "--walk-output",
+        "data/retained-continuation-seed279313-walk.json",
+        "--max-drawdown",
+        "4"
+      ],
+      "hypothesis": "Reviewed one fixed four-job retained-walk continuation, separately preserve156best. Compare actual final state movement and verified count, not proposal cache totals."
     }
   ]
 }

@@ -122,5 +122,46 @@ class NeutralRepairTests(unittest.TestCase):
         self.assertEqual(result['hash_cache_size'], 1)
         self.assertEqual(result['hash_cache_evictions'], 2)
 
+    def test_separate_lower_walk_preserves_best_and_provenance(self):
+        initial = {'n': 3, 'points': [[0, 0]]}
+        incumbent = {'n': 3, 'points': [[1, 0], [1, 1]]}
+        with tempfile.TemporaryDirectory() as d:
+            best = Path(d)/'best'; walk = Path(d)/'walk'
+            result = nr.walk(3, 0, 1, initial, best, incumbent=incumbent,
+                             max_drawdown=1, walk_output=walk)
+            b = json.loads(best.read_bytes()); w = json.loads(walk.read_bytes())
+        self.assertEqual(b['points'], incumbent['points'])
+        self.assertEqual(w['points'], initial['points'])
+        self.assertEqual(result['initial_incumbent_count'], 2)
+        self.assertEqual(result['distance_reference'], 'initial embedded walk coordinates')
+        self.assertEqual(result['max_initial_walk_symmetric_difference'], 0)
+        self.assertEqual(b['metadata']['initial_walk_embedded_normalized_sha256'], result['initial_walk_embedded_normalized_sha256'])
+        self.assertEqual(w['metadata']['initial_incumbent_embedded_normalized_sha256'], result['initial_incumbent_embedded_normalized_sha256'])
+
+    def test_separate_input_rejections(self):
+        small = {'n': 3, 'points': [[0, 0]]}; large = {'n': 3, 'points': [[1, 0], [1, 1]]}
+        invalid = {'n': 3, 'points': [[0, 0], [0, 0]]}
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d)/'best'
+            for initial, best, drawdown in ((small, large, 0), (large, small, 4), (small, invalid, 4)):
+                with self.assertRaises(ValueError):
+                    nr.walk(3, 0, 1, initial, p, incumbent=best, max_drawdown=drawdown)
+            self.assertFalse(p.exists())
+
+    def test_separate_walk_improvement_updates_best_and_walk(self):
+        initial = {'n': 3, 'points': [[1, 1]]}
+        incumbent = {'n': 3, 'points': [[1, 0], [1, 1]]}; calls = [0]
+        def clock():
+            calls[0] += 1
+            return 0 if calls[0] <= 6 else 2
+        with tempfile.TemporaryDirectory() as d:
+            best = Path(d)/'best'; walk = Path(d)/'walk'
+            result = nr.walk(3, 1, 1, initial, best, incumbent=incumbent,
+                             walk_output=walk, max_drawdown=1, rng=FixedRandom(), clock=clock)
+            b = json.loads(best.read_bytes()); w = json.loads(walk.read_bytes())
+        self.assertEqual(result['best_count'], 3)
+        self.assertEqual(b['points'], w['points'])
+        self.assertEqual(result['counts']['improvement_promotions'], 1)
+
 
 if __name__=='__main__':unittest.main()

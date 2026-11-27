@@ -1,0 +1,53 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/neutral_repair.py",
+    "--n",
+    "79",
+    "--seed",
+    "279113",
+    "--initial",
+    "data/published-n78.json",
+    "--output",
+    "data/overnight-valley-seed279113.json",
+    "--report",
+    "data/overnight-valley-seed279113-report.json",
+    "--walk-output",
+    "data/overnight-valley-seed279113-walk.json",
+    "--max-drawdown",
+    "4",
+    "--seconds",
+    "25"
+  ],
+  "elapsed_seconds": 26.201873625002918,
+  "entrypoint_sha256": "86adcc07184446850b628831184a7cdd44522dd5e64ed053606c59d82324930c",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T06:39:38.284170+00:00",
+  "job": {
+    "args": [
+      "--n",
+      "79",
+      "--seed",
+      "279113",
+      "--initial",
+      "data/published-n78.json",
+      "--output",
+      "data/overnight-valley-seed279113.json",
+      "--report",
+      "data/overnight-valley-seed279113-report.json",
+      "--walk-output",
+      "data/overnight-valley-seed279113-walk.json",
+      "--max-drawdown",
+      "4"
+    ],
+    "hypothesis": "Reviewed fixedfour freshseed valleycontrast; best156 preserved; maxdrawdown4; no discoveryclaim; inspect best+walk certs afterreceipt.",
+    "id": "overnight-valley-seed279113",
+    "script": "research/neutral_repair.py",
+    "seconds": 25
+  },
+  "log": "data/run-logs/overnight-valley-seed279113.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 95521,
+  "started_at": "2026-11-27T06:39:12.082480+00:00",
+  "status": "completed"
+}

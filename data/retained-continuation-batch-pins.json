@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "src/experiment_pool.py": "df6af3f21b53c93f351acf8e09ed789822e73b6ad8523670d88181f7b1f47d0f",
+    "research/neutral_repair.py": "2e63baefa659348facc66ac495061534353b064f68f1413f50a391d383236d42",
+    "src/search.py": "0e132a360bdb1408fdf5b3ebebeb1b37650177c421e5d2fe8ae32c35502ae123",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "data/retained-valley-seed279207-walk.json": "2b029475209b9690b6236e801a95a72715f59e54d18202afb4a553c0d1b9bd18",
+    "data/retained-valley-seed279212-walk.json": "5d06bb9b1a4fbd3bfda6884527c54d45b8055a09ef4fcd49b77e6514078fd439",
+    "research/queue.json": "625c8be43ea3ce9739f88bd8a18a922f16919098e7827da689108d06e73b42ed"
+  },
+  "seeds": [
+    279307,
+    279308,
+    279312,
+    279313
+  ],
+  "max_concurrent": 1,
+  "drawdown": 4,
+  "seconds_each": 25,
+  "reservation_with_overhead_each": 55,
+  "stop_policy": "Fixed independent jobs; existing pool does not automatically stop on witness/failure. Root audits outputs before promotion. No automatic scaling."
+}

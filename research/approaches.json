@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "test valley exploration",
+    "status": "continue retained walks",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Reviewed seeded deletion and neutralwalk25s probes returned156same seed; neutral77passes producedzeroacceptednewstates. Identicaltrials curtailed; separately configured boundedvalleywalk source/tiny implementation next.",
-    "evidence": "research/corner-family-closure-review.md"
+    "finding": "Seven audited valley trials kept best156. Two distinct final walks contain154 and155 points; both dual-verified. Stop identical fresh-seed batches. Next test continues these states with a separate156 incumbent.",
+    "evidence": "research/valley-seed279107-279113-review.md"
   },
   {
     "id": "A05",
@@ -75,10 +75,10 @@
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "optimize replay cost",
+    "status": "faster exact search",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Packed/radius11node frontiers equivalent, no newprune benefit. Independent profiler found repeated parentdomain scan at identicalgeometry during restore/save; narrow immutableDomainreuse implementation/review next, freshsourcechain only. No witness.",
-    "evidence": "research/near-quarter-packed-core-integration-review.md"
+    "finding": "Independent11node comparison preserves exact frontier and query counts:18.61s to0.97s outer wall. Two250node stages accepted (~8.55s each), latest511nodes awaiting second-stage audit. No witness; no asymptotic or novelty claim.",
+    "evidence": "research/near-quarter-readonly-n79-stage250-review.md"
   },
   {
     "id": "A10",

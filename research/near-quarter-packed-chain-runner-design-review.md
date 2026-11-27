@@ -1,0 +1,11 @@
+# Independent review of the thin packed-chain caller design
+
+Approved for implementation and focused tiny/mock tests. Design file `near-quarter-packed-chain-runner-design.md` SHA-256 `a229e27de58366d031dc64e7c12602ea2707c1a12826e35ed6cecfb070c299ca` was read against the current worker API, nested cancellation handlers, and accepted-commit/lease behavior. This is design approval, not source approval or host allocation.
+
+The wrapper calls existing `run_stage` without changing packed sources, checkpoint protocol, worker guard, or publication. Exact template authority and previous accepted parent remain explicit, with fresh deterministic stage IDs and no retries. Each stage retains 30 seconds / 256 MiB / 2-second save reserve; the caller requires at least 32 seconds remaining before starting another stage. Fixed 250-new-node quota is supported by the independently audited 8.546957792-second continuation to 261 total nodes. Pool elapsed time counts the caller once; inner stage times remain evidence rather than duplicate runtime charges.
+
+Post-stage checks must bind the exact prior HEAD to the returned stage ID, returned receipt hash, and resulting accepted record. Any retained lease stops the caller, even if another return field says accepted. Rejection, uncertainty, changed source/HEAD, cancellation, witness, or exhaustion also stops without another invocation. The next runtime template must bind the latest reviewed HEAD after Root's intervening manual continuation, rather than the earlier 261-node HEAD.
+
+The signal wakeup pipe is appropriate because `run_stage` temporarily owns SIGTERM/SIGINT handlers and a signal during late accepted coordination can otherwise be forgotten by the outer caller. Focused tests must deliver a real tiny signal under a temporary inner handler and establish that no next stage starts after accepted-commit cancellation. Restore the prior wakeup descriptor and handlers on both exit and incompatible-descriptor rejection. This adds cancellation bookkeeping only, with no asynchronous commit interruption.
+
+Implementation must remain a narrow caller. Source review follows focused tests. Root controls the pool whitelist release, packed-only single-worker window, launch, and aggregate budget; this review authorizes none of those actions independently.
