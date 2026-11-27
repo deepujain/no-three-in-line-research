@@ -1,0 +1,26 @@
+{
+  "class_deadline_and_inverse_timeout_checked": true,
+  "command": ".venv/bin/python -m unittest tests.test_score11_deficiency_neighborhood tests.test_score11_deficiency_neighborhood_independent -v",
+  "decision": "PASS_SOURCE_TINY_ONLY",
+  "elapsed_seconds": 2.328,
+  "exhaustive_tiny_states": 865,
+  "files": {
+    "data/score11-deficiency-walk-seed279157-v1-independent-actual-audit.json": "419039ebf5828b8fef5b22a0eac29f63e4da4ff203a263aae14c30f704b4faec",
+    "data/score11-deficiency-walk-seed279157-v1/best-state.json": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0",
+    "research/score11-deficiency-neighborhood-census-mathematical-review.md": "8897263617f3337f15158e336bc7abd98cb4a91a320172b8676a650ce6690501",
+    "research/score11-deficiency-neighborhood-independent-source-review.md": "7cdb3b90dc2f907478c90279f56453b2264032c74e759aa76908ad755c691b14",
+    "research/score11_deficiency_neighborhood.py": "6116f09ac6a35deb04bdd226110adcd0eaca684fa436910ae32248f4c1833fef",
+    "research/score11_deficiency_walk.py": "d956496103278c4532b5fa74fd9ce515546a30dbd8f2cda8925ad6e8195cf787",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_score11_deficiency_neighborhood.py": "7f416472e5b16eb1fef8791bff586085b652833efaf62ee4354080644fbb1404",
+    "tests/test_score11_deficiency_neighborhood_independent.py": "8fdeb5f6b920ce567928fc5c4966e9e856578d292dcc9c5cf292afe696c9205a"
+  },
+  "final_identity_mutation_checked": true,
+  "full_catalog_duplicate_neighbors": 0,
+  "model": "gpt-6.1-sol",
+  "n79_neighbor_evaluation_or_search": false,
+  "reasoning_effort": "high",
+  "tests_passed": 9,
+  "witness_prefix_behavior_checked": true
+}

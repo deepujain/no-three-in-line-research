@@ -1,0 +1,97 @@
+{
+  "accepted": true,
+  "census_report_sha256": "fc633b9b70a5b1801656c84beb62733152e38a5ea1a251ab1fd3a4f5c9ace183",
+  "complete_exit_count": 3,
+  "exact_exit_score": 6,
+  "exits": [
+    {
+      "added": [
+        [
+          77,
+          78
+        ]
+      ],
+      "catalog_index": 312,
+      "delta": 1,
+      "exact_conflict_count": 6,
+      "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "kind": "column",
+      "method": "independent_fixed_neighborhood_exit_audit",
+      "normalized_sha256": "91f2a80c3ff59ab83137a3b832e363634fd5fd2e818f64ca94337d7906d959e5",
+      "novelty_claim": false,
+      "path": "data/score11-deficiency-neighborhood-v1-independent-exits/exit-312-column.json",
+      "removed": [
+        [
+          77,
+          33
+        ]
+      ],
+      "sha256": "5d8f39622c5f6a1e8a39abc889cdc0a23195867dd9952fef5ada88a434009986",
+      "valid": false
+    },
+    {
+      "added": [
+        [
+          77,
+          78
+        ]
+      ],
+      "catalog_index": 313,
+      "delta": 1,
+      "exact_conflict_count": 6,
+      "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "kind": "column",
+      "method": "independent_fixed_neighborhood_exit_audit",
+      "normalized_sha256": "2c9f4420ac528de393158bde2bc5b7dac7acff0d3d7edc813125f6dd92093963",
+      "novelty_claim": false,
+      "path": "data/score11-deficiency-neighborhood-v1-independent-exits/exit-313-column.json",
+      "removed": [
+        [
+          77,
+          51
+        ]
+      ],
+      "sha256": "f7e5035c3ea02e700abb0f8c51bf42933a870e1687aa17dfc8504b06e93ac667",
+      "valid": false
+    },
+    {
+      "added": [
+        [
+          33,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "catalog_index": 8644,
+      "delta": 1,
+      "exact_conflict_count": 6,
+      "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "kind": "rectangle",
+      "method": "independent_fixed_neighborhood_exit_audit",
+      "normalized_sha256": "de8f1f09df58c234b5243585b28e819e8e8d140393389f90bbd49b101c6d2ab5",
+      "novelty_claim": false,
+      "path": "data/score11-deficiency-neighborhood-v1-independent-exits/exit-8644-rectangle.json",
+      "removed": [
+        [
+          33,
+          78
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "sha256": "bf2e419331ad551043c2e8e09e128979a6604780d34c642677a8df4bc58cd07b",
+      "valid": false
+    }
+  ],
+  "input_exact_score": 5,
+  "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+  "input_sha256": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0",
+  "local_minimum_certificate_sha256": "b935c722509697efe5b11a309c79cf8a83d8d4218b5a1e1f9de3ae011b8edf11",
+  "schema": "fixed_deficiency_plus_one_exits_v1",
+  "scope": "Exactly the three score6 neighbors in this fixed one-step catalog; no second neighborhood searched."
+}

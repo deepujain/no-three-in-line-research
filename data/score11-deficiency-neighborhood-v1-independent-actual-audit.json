@@ -1,0 +1,214 @@
+{
+  "accepted": true,
+  "audit_source_sha256": "03d7197ec354b5acf9ba2603bde3163d536573024c42f2c59d0ffc5c7e0d1a8f",
+  "certificate": {
+    "bytes": 3320732,
+    "neighbors_with_six_explicit_determinant_triples": 12247,
+    "path": "data/score11-deficiency-neighborhood-v1-independent-local-minimum-certificate.json",
+    "sha256": "b935c722509697efe5b11a309c79cf8a83d8d4218b5a1e1f9de3ae011b8edf11"
+  },
+  "complete": true,
+  "decision": "independently certify this exact input is a strict local minimum under the three specified one-step moves; entire histogram independently reproduced",
+  "elapsed_seconds": 1.0123981250071665,
+  "exact_delta_plus_one_exits": [
+    {
+      "added": [
+        [
+          77,
+          78
+        ]
+      ],
+      "catalog_index": 312,
+      "delta": 1,
+      "exact_conflict_count": 6,
+      "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "kind": "column",
+      "method": "independent_fixed_neighborhood_exit_audit",
+      "normalized_sha256": "91f2a80c3ff59ab83137a3b832e363634fd5fd2e818f64ca94337d7906d959e5",
+      "novelty_claim": false,
+      "path": "data/score11-deficiency-neighborhood-v1-independent-exits/exit-312-column.json",
+      "removed": [
+        [
+          77,
+          33
+        ]
+      ],
+      "sha256": "5d8f39622c5f6a1e8a39abc889cdc0a23195867dd9952fef5ada88a434009986",
+      "valid": false
+    },
+    {
+      "added": [
+        [
+          77,
+          78
+        ]
+      ],
+      "catalog_index": 313,
+      "delta": 1,
+      "exact_conflict_count": 6,
+      "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "kind": "column",
+      "method": "independent_fixed_neighborhood_exit_audit",
+      "normalized_sha256": "2c9f4420ac528de393158bde2bc5b7dac7acff0d3d7edc813125f6dd92093963",
+      "novelty_claim": false,
+      "path": "data/score11-deficiency-neighborhood-v1-independent-exits/exit-313-column.json",
+      "removed": [
+        [
+          77,
+          51
+        ]
+      ],
+      "sha256": "f7e5035c3ea02e700abb0f8c51bf42933a870e1687aa17dfc8504b06e93ac667",
+      "valid": false
+    },
+    {
+      "added": [
+        [
+          33,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "catalog_index": 8644,
+      "delta": 1,
+      "exact_conflict_count": 6,
+      "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "kind": "rectangle",
+      "method": "independent_fixed_neighborhood_exit_audit",
+      "normalized_sha256": "de8f1f09df58c234b5243585b28e819e8e8d140393389f90bbd49b101c6d2ab5",
+      "novelty_claim": false,
+      "path": "data/score11-deficiency-neighborhood-v1-independent-exits/exit-8644-rectangle.json",
+      "removed": [
+        [
+          33,
+          78
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "sha256": "bf2e419331ad551043c2e8e09e128979a6604780d34c642677a8df4bc58cd07b",
+      "valid": false
+    }
+  ],
+  "full_histogram_independently_reproduced": true,
+  "gate": {
+    "cleanup_elapsed_seconds": 0.011732250000932254,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 5.243457749995287,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "exited",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 50896,
+    "returncode": 0,
+    "rss_limit_mib": 256,
+    "rss_samples": 118,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": null
+  },
+  "independent_catalog_attempts": 12560,
+  "independent_catalog_sha256": "732e2edeaa442b4dec387912171116552486cf474bec032a5c8aff90565c022e",
+  "independent_classes": {
+    "column": {
+      "attempts": 157,
+      "deltas": {
+        "1": 2,
+        "2": 4,
+        "3": 9,
+        "4": 20,
+        "5": 31,
+        "6": 30,
+        "7": 31,
+        "8": 9,
+        "9": 13,
+        "10": 1,
+        "11": 1,
+        "12": 2,
+        "13": 2
+      },
+      "illegal": 2,
+      "legal": 155
+    },
+    "rectangle": {
+      "attempts": 12246,
+      "deltas": {
+        "1": 1,
+        "2": 2,
+        "3": 6,
+        "4": 6,
+        "5": 31,
+        "6": 53,
+        "7": 125,
+        "8": 232,
+        "9": 417,
+        "10": 633,
+        "11": 943,
+        "12": 1230,
+        "13": 1333,
+        "14": 1535,
+        "15": 1357,
+        "16": 1155,
+        "17": 962,
+        "18": 684,
+        "19": 530,
+        "20": 314,
+        "21": 193,
+        "22": 88,
+        "23": 65,
+        "24": 25,
+        "25": 10,
+        "26": 2,
+        "27": 3,
+        "29": 2
+      },
+      "illegal": 309,
+      "legal": 11937
+    },
+    "row": {
+      "attempts": 157,
+      "deltas": {
+        "2": 5,
+        "3": 13,
+        "4": 20,
+        "5": 36,
+        "6": 25,
+        "7": 23,
+        "8": 17,
+        "9": 10,
+        "11": 2,
+        "14": 4
+      },
+      "illegal": 2,
+      "legal": 155
+    }
+  },
+  "independent_legal_neighbors": 12247,
+  "independent_minimum_neighbor_score": 6,
+  "independent_new_cells_with_secant_cache": 6084,
+  "independent_source_points": 157,
+  "independent_source_score": 5,
+  "input_sha256": {
+    "data/experiments/shepherd-score11-deficiency-neighborhood-v1.json": "4a1111335c2bb28b2bd24b1adea35be0f9e321ea53587e3cd99d48320c611736",
+    "data/score11-deficiency-neighborhood-source-pins.json": "d749c40470a198f8efb1928cdfec70a16980b65591f26bb38848623379a45870",
+    "data/score11-deficiency-neighborhood-v1/report.json": "fc633b9b70a5b1801656c84beb62733152e38a5ea1a251ab1fd3a4f5c9ace183",
+    "data/score11-deficiency-walk-seed279157-v1-independent-actual-audit.json": "419039ebf5828b8fef5b22a0eac29f63e4da4ff203a263aae14c30f704b4faec",
+    "data/score11-deficiency-walk-seed279157-v1/best-state.json": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0"
+  },
+  "method": "Independent move catalog and exact triple partition by0/1/2new cells; source triples by full determinants, secant pairs by independent primitive directions and determinant checks; six explicit integer triples verified per legal neighbor. Only the three exact score6 exits receive both full production validators. No production move, delta, or census scorer is called.",
+  "plus_one_exit_manifest": {
+    "path": "data/score11-deficiency-neighborhood-v1-independent-plus1-exit-manifest.json",
+    "sha256": "717c6c1fb2debc0d446cb67922670c4ad97643b34a54aaaae653e6d1b0f0b71b"
+  },
+  "receipt_source_pins_verified": 27,
+  "scope": "One fixed157-point score5 input and exactly the specified12560 one-step attempts only. Strict local minimum and three score6 exits; no component closure, multi-step obstruction, optimality, global bound or nonexistence result.",
+  "search_performed": false,
+  "solver_replayed": false,
+  "source_pins_verified": 17
+}

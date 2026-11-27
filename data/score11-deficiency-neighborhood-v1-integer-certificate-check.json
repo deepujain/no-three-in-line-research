@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "catalog_attempts": 12560,
+  "certificate_sha256": "b935c722509697efe5b11a309c79cf8a83d8d4218b5a1e1f9de3ae011b8edf11",
+  "checker_sha256": "c3c349a2c44fa7709ad0aa063fe3f080add85b34042b0830955a25d791d07566",
+  "command": ".venv/bin/python research/check_deficiency_local_minimum_certificate.py",
+  "legal_neighbors_with_six_distinct_explicit_integer_triples": 12247,
+  "neighbor_score_lower_bound": 6,
+  "production_geometry_used": false,
+  "scope": "Only this fixed one-step neighborhood; no full neighbor scores or global conclusion checked.",
+  "source_score": 5
+}

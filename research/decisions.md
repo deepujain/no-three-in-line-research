@@ -633,3 +633,12 @@ Proposedreusableexact12loaderstarts487validatedcuts,totalcap1000,explicitseedhas
 157deficiencywalkersourcepassedindependentreview/13tests0.674s; Root13PASS0.719s. Onefixedseed279157/T2/100000proposalcapruncompleted19.740899s clean51664KiB/allpinsunchanged. Attempt100000/legal98075/accepted27030; no strictimprovement. Best157points/5triples isEXACTINITIAL source minus(78,78),D1/new0,invalid. Independentactualauditdeterminantenumeratessource11andbest5 andconfirmsuniquehighestincidence(78,78)hits6,so11-6=5; row/col78deficient,allcounters/pins/dualreportsmatch. Trajectorynotreplayed; noexclusion/validwitness. DoNOTcomparethis5with158score11asanobservedsearchimprovement.
 
 CurtailunchangedwarmT2repeat. Proposeoneexactneighborhoodcensusofinitial157:314relocationattempts+12246unorderedrectangles,delta histogram/beststrictimprovement/tinyinversechecks,explicitpartialstatus. No automaticstateiterationorcoolingpolicy; math/source/tinyreviewbeforeonegate. Reusable12sourceworkcontinuesundertwochunkcontract,total1000cutsstarting487. Accounted16637.235877679086s; deadline/bestverified156unchanged.
+
+
+## 2026-11-27T09:50:10.419815+00:00 — Initial local minimum certified; bounded continuations exhausted
+
+Independent census reconstruction matches all12560 attempts/12247legal neighbors. All legal moves strictly worsen initial157 score5; six explicit integer triples per neighbor independently certify this fixed one-step minimum. Exactly3score6 exits have both exact conflict reports. No valid157/158 or novelty. One three-exit second-neighborhood design mathPASS; source/tinyreview before any allocation. Its utility is barrier characterization within an already conditional solver-negative small-deletion scope, so separate constructive exploration assigned beyond that region.
+
+Reusabledepth12 twochunk allocation completed25.256272s and25.120609s. Independent audit accepts all813 necessarycuts (487+185+141), same9539binary/map, clean256MiB gates; both TIMEOUT/noverdict. No automaticthirdchunk. Allconstraints preserved. CI13b55fd singlefailed-jobretrySUCCESS, PagesSUCCESS; no guards changed. Actual process inspection found no owned numericalsearch/pool active. Three AIworkers assigned distinct author/review/exploration tasks.
+
+Accounted16692.856243886075s of21600, remaining4907.143756113925s; originaldeadline22:59:25Z unchanged.

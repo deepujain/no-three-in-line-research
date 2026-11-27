@@ -1,0 +1,23 @@
+{
+  "arithmetic_only_remaining_cuts": 513,
+  "command": ".venv/bin/python -m unittest tests.test_near_quarter_depth12_seeded_chunk tests.test_near_quarter_depth12_cut_continuation -v",
+  "elapsed_seconds": 0.337,
+  "frozen_tests": 10,
+  "implementation_model": "gpt-6.1-sol",
+  "independent_review": {
+    "elapsed_seconds": 0.401,
+    "path": "research/near-quarter-depth12-seeded-chunk-independent-source-review.md",
+    "pins_verified": 76,
+    "sha256": "e4057738601a73783451ca39a081f42529dfb279fcf99e8d3120f4281062ceae",
+    "status": "PASS",
+    "tests_passed": 17
+  },
+  "math_review_sha256": "89b851341558df9bcfe7b3786d347fc939b174a6aa2b9d34944d737e5e480887",
+  "n79_search_executed": false,
+  "new_tests": 7,
+  "reasoning_effort": "high",
+  "scope": "source/tiny only; no prospective n79 mask/pair/formula/native solver",
+  "source_sha256": "845f0e815773df8963b7c78d94e29d9e6dcba045d834071f7878c7b8f3abc958",
+  "test_sha256": "f9035ae91d874a008390144e6c8f1213c199c8bd96dba34ac304fd60c8908db9",
+  "tests_passed": 17
+}

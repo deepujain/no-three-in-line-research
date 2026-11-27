@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "157walker initial5;100k warmmoves nobetter",
+    "status": "Initial157 strict one-step local minimum certified",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Initial157=source minus(78,78),5collineartriples. Seed279157/T2 completed100000attempts98075legal27030accepted in19.741s; bestunchanged/invalid. Independentauditaccepted,no improvement. One-neighborhoodcensusunderreview; curtailunchangedwarmrepeat.",
-    "evidence": "research/score11-deficiency-walk-seed279157-v1-actual-review.md"
+    "finding": "All 12,560 attempts complete; 12,247 legal neighbors strictly worsen five conflicts. Exact three score-six exits independently dual-checked as invalid. Integer certificate gives six collinear triples per legal neighbor. No valid157 construction.",
+    "evidence": "research/score11-deficiency-neighborhood-v1-independent-actual-review.md"
   },
   {
     "id": "A05",
@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "main19..13 scoped UNSAT;12 has487cuts",
+    "status": "main19..13 scoped native UNSAT;12 unresolved/813cuts",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Exact12continuationretained181andadded306validatedternarycuts;25.122stimeout/487total,noverdict. All9539binary/map/heads/pinsunchanged;11/10unstarted. Reusableboundedcontinuationunderreview.",
-    "evidence": "research/main-depth12-cut-continuation-v1-actual-review.md"
+    "finding": "Two reviewed reusable chunks add185+141 necessary cuts, retaining487 for813 total. Both timeout/no verdict; all813 independently checked. Allocation exhausted; no automatic third chunk.",
+    "evidence": "research/main-depth12-seeded-chunks-v1-v2-actual-review.md"
   },
   {
     "id": "A09",
