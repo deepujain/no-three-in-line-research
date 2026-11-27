@@ -1,0 +1,7 @@
+# n78 to n80 finite checker: source review
+
+Approved one shared-soft25 execution under Root's owned30s/256MiB guard, fresh output, subject to Root's process/budget allocation. Source SHA256 `dcef5351d79d04ee6ce5b58d786a30be6dd91050e1044334157273d15787c838`; tests `fbd9680d51042bf225261e32121258f3785404bd6c8259d5f7b4baee6ae9bb71`. All source/helper/fixture/manifest pins match. Independently15 tiny tests passed in0.029s. No n80 geometry was run during source review.
+
+The new doubled-odd-radius constructor enumerates every full orbit, including diagonal loops, on tiny even grids4/6/8. Actual tiny row loads independently reproduce six factors for a nonloop deletion and two for a loop deletion. The source preserves all230 raw degree records; every outer-loop rejection checks the explicit triple's membership, distinctness and exact determinant. All other survivors receive full cardinality/distinctness/row/column assertions and both geometry validators. Witness persistence precedes early stopping.
+
+The checker dual-validates the fixed156-point n78 fixture and its full-C4 structure before exact manifest checking. One shared deadline covers validation and39 cases. Complete-case counts bind both raw and proof coverage; partial cases cannot imply closure. Frozen odd-grid and packed sources remain unchanged. Scope is160-point extensions of the fixed centered full-C4 fixture only, with no n79 conclusion.

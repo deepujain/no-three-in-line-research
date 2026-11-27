@@ -1,0 +1,51 @@
+{
+  "job": {
+    "id": "shepherd-n78-to-n80-one-orbit-v1",
+    "seconds": 30,
+    "hypothesis": "Fixed centered n78 to n80 fullC4 one-orbit deletion two-orbit additions,230 degree records, reviewed source and tiny tests."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/n78_to_n80_orbit_repairs.py",
+    "--fixture",
+    "data/published-n78.json",
+    "--seconds",
+    "25",
+    "--output-dir",
+    "data/n78-to-n80-one-orbit-v1"
+  ],
+  "sources_before": {
+    "research/n78_to_n80_orbit_repairs.py": "dcef5351d79d04ee6ce5b58d786a30be6dd91050e1044334157273d15787c838",
+    "tests/test_n78_to_n80_orbit_repairs.py": "fbd9680d51042bf225261e32121258f3785404bd6c8259d5f7b4baee6ae9bb71",
+    "data/n78-to-n80-one-orbit-cases.proposal.json": "687e33121e0365efe2b6e94ac6dc501c1ab0f3cae55bf20654b7a37ed23a8e4a",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "research/n71_central_orbit_repair.py": "1e74f4ec44eeaa3f67f20008a6168e992105d86014e3b9ac5cdc8584ba1ecdbb",
+    "research/n71_noncentral_orbit_repair.py": "8bcaa053a84302a70f8a243fd147d8e566df2b01761cbe5b466c45a12d0b2b69",
+    "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.3219773750024615,
+  "started_at": "2026-11-27T08:04:54.654953+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.3219425839924952,
+    "rss_samples": 7,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 48208,
+    "cleanup_elapsed_seconds": 0.012580957991303876,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T08:04:54.977686+00:00",
+  "sources_unchanged": true
+}

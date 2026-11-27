@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "version": "n78-to-n80-all39-one-orbit-tiny-v1",
+  "implementation_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "scope": "Small even grids n4/n6/n8, coordinate-only fixed n78 manifest checks, and injected batch accounting; no n78 fixture geometry recheck, n80 candidate geometry or host evaluation.",
+  "test_command": "python3 -m unittest tests.test_n78_to_n80_orbit_repairs tests.test_n73_one_orbit_repairs -v",
+  "test_output": "test_all_remaining_survivors_dual_checked_all_raw_records_preserved (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_all_remaining_survivors_dual_checked_all_raw_records_preserved) ... ok\ntest_bad_proof_and_partial_filter_timeout_reject_completeness (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_bad_proof_and_partial_filter_timeout_reject_completeness) ... ok\ntest_batch_complete_partial_unstarted_and_shared_deadline (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_batch_complete_partial_unstarted_and_shared_deadline) ... ok\ntest_even_constructor_complete_orbit_partition_including_loops (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_even_constructor_complete_orbit_partition_including_loops) ... ok\ntest_loop_inclusive_factors_against_every_actual_tiny_row_load (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_loop_inclusive_factors_against_every_actual_tiny_row_load) ... ok\ntest_pinned39_manifest_coordinate_only (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_pinned39_manifest_coordinate_only) ... ok\ntest_real_tiny_filter_proofs_and_early_valid_witness (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_real_tiny_filter_proofs_and_early_valid_witness) ... ok\ntest_strict_even_scope_and_soft_budget (tests.test_n78_to_n80_orbit_repairs.EvenRepairTests.test_strict_even_scope_and_soft_budget) ... ok\ntest_batch_complete_and_partial_coverage_shared_deadline (tests.test_n73_one_orbit_repairs.N73RepairTests.test_batch_complete_and_partial_coverage_shared_deadline) ... ok\ntest_both_degree_counts_against_every_tiny_row_load (tests.test_n73_one_orbit_repairs.N73RepairTests.test_both_degree_counts_against_every_tiny_row_load) ... ok\ntest_opposite_retained_orientation_and_filter_timeout (tests.test_n73_one_orbit_repairs.N73RepairTests.test_opposite_retained_orientation_and_filter_timeout) ... ok\ntest_pinned36_manifest_and_radius36_coordinate_only (tests.test_n73_one_orbit_repairs.N73RepairTests.test_pinned36_manifest_and_radius36_coordinate_only) ... ok\ntest_real_tiny_filter_and_any_witness_dual_valid (tests.test_n73_one_orbit_repairs.N73RepairTests.test_real_tiny_filter_and_any_witness_dual_valid) ... ok\ntest_strict_scope_and_radii (tests.test_n73_one_orbit_repairs.N73RepairTests.test_strict_scope_and_radii) ... ok\ntest_surviving_finals_both_checked_and_early_witness (tests.test_n73_one_orbit_repairs.N73RepairTests.test_surviving_finals_both_checked_and_early_witness) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.043s\n\nOK\n",
+  "sources": {
+    "research/n78_to_n80_orbit_repairs.py": "dcef5351d79d04ee6ce5b58d786a30be6dd91050e1044334157273d15787c838",
+    "tests/test_n78_to_n80_orbit_repairs.py": "fbd9680d51042bf225261e32121258f3785404bd6c8259d5f7b4baee6ae9bb71",
+    "data/n78-to-n80-one-orbit-cases.proposal.json": "687e33121e0365efe2b6e94ac6dc501c1ab0f3cae55bf20654b7a37ed23a8e4a",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "research/n71_central_orbit_repair.py": "1e74f4ec44eeaa3f67f20008a6168e992105d86014e3b9ac5cdc8584ba1ecdbb",
+    "research/n71_noncentral_orbit_repair.py": "8bcaa053a84302a70f8a243fd147d8e566df2b01761cbe5b466c45a12d0b2b69",
+    "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "source_cases": 39,
+  "raw_degree_choices": 230,
+  "outer_loop_proof_rejections": 77,
+  "remaining_choices": 153,
+  "exact_readdition_records": 39
+}

@@ -494,3 +494,21 @@ All36 centered n73 one-orbit deletion cases completed:4402 candidate/deletion re
 The score11 exact source has three minimal covers through size4; the initial minimal-cover-only run took0.156527s. The full extension checked465 distinct deletion sets through4 in0.286479s, clean46848KiB peak. Independent combinations enumeration agrees on623 safe cells summed over cases,1243 valid partial subsets, max156, no157/158. This closes only repairs of this exact source through4 deletions. Independent cap5 arithmetic examined44552 incident subsets and found no new minimal covers:35809 total deletion sets through5, including35344 size5 sets. Source/tiny work allocated; no cap5 host run yet.
 
 Exploration retained: n78 to n80 fixed-fixture one-orbit proposal230 degree records,77 outer-loop diagonal obstructions,153 remaining geometry cases. Independent math and source review precede any allocation. Actual process audit found no owned numerical workers; no new pool. Accounted16476.172892095s of21600, originaldeadline unchanged. Best remains156, no new result. 91df097 CI and Pages both succeeded.
+
+
+## 2026-11-27T08:06:13.019210+00:00 — Cap5 actual coverage completed in separately reviewed suffix
+
+Initial cap5 soft25 trial intentionally timed out after33062/35809 sets, zero witnesses, outer25.088379s and72576KiB sampled peak; owned cleanup clean and source pins unchanged. The guard labels its return2 worker_error; report explicitly says timeout, not full closure. Independent prefix audit reconstructed exact sorted order. A separately reviewed frozen suffix source pinned parent report and receipt and tested only indices33062:35809. All2747 completed, zero witnesses, outer2.086641s and74208KiB peak, clean. Combined actual audit pending before closure promotion. Original prefix remains immutable; no repeated completed prefix.
+
+Independent source/tiny review approved exploratory centered n78 to n80 fullC4 one-orbit batch. All39 cases/230degree records completed,77 explicit outer-loop proof rejections, zero witnesses. Outer0.321977s and48208KiB peak, clean and pins unchanged. Independent actual review pending.
+
+Next concrete branch: coordinated anchored three-edge rotations in both deterministic matchings, 144400 raw row/orientation combinations using21 incident rows. Effective deletions must account for cross-color cancellations. The157 check may delete any final point when no original conflict survives; otherwise it must intersect all surviving original conflicts and also remove every new conflict. Source/tiny and independent review before allocation. No new numerical process is active.
+
+
+## 2026-11-27T08:09:20.844356+00:00 — Independent actual acceptance
+
+Mathematical Reviewer accepts combined fixed-source cap5 negative:33062 reviewed-execution prefix plus2747 independently replayed suffix cover35809 without gaps or overlap. Independent suffix direction/pair/triple combinations oracle reproduces6976safe cells/16789valid subsets/max156/no157/158. An earlier determinant audit attempt hit its30s command timeout without a result; not used as evidence. Prefix geometry was not independently replayed in full. Audit data/score11-five-suffix-independent-audit.json records scope and limitations.
+
+Independent n80 audit reconstructs all39source orbits/230degree choices, verifies77 outer-loop triples plus154 per-orbit blocking triples covering153 remaining choices. Fixed centered fullC4 family only, no n79 implication.
+
+Paired anchored three-cycle source/tiny ready; independent source review before allocation. No cap5 prune implemented in that source. Closed families and unchanged packed search receive no further allocation. Accounted16503.669890011s, remaining5096.330109989s.

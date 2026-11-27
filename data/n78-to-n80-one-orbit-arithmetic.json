@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scope": "Existing n78 coordinate-only full-C4 orbit census and integer doubled-radius degree enumeration. No geometry verification, n80 candidate point sets, secants or host search.",
+  "fixture_sha256": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+  "manifest_sha256": "687e33121e0365efe2b6e94ac6dc501c1ab0f3cae55bf20654b7a37ed23a8e4a",
+  "source_points": 156,
+  "source_four_orbits": 39,
+  "diagonal_loop_indices": [
+    38
+  ],
+  "row_load_values": [
+    2
+  ],
+  "column_load_values": [
+    2
+  ],
+  "raw_two_orbit_subsets": 1374,
+  "degree_choices_before_outer_loop_prune": 230,
+  "outer_loop_rejections_by_proof": 77,
+  "degree_choices_after_outer_loop_prune": 153,
+  "exact_readdition_records": 39
+}

@@ -1,0 +1,101 @@
+{
+  "accepted_partial_execution": true,
+  "charged_outer_seconds": 25.088379082997562,
+  "complete_neighborhood": false,
+  "completed_prefix_count": 33062,
+  "counted_candidate_cells": 77051,
+  "counted_nodes": 175124,
+  "experiment_sha256": "26f7208add6790e769375017cbf5971bfbab45b3683001ff58befd4ff7afedc1",
+  "first_uncompleted_deletion": [
+    [
+      33,
+      78
+    ],
+    [
+      51,
+      0
+    ],
+    [
+      57,
+      14
+    ],
+    [
+      77,
+      51
+    ],
+    [
+      78,
+      78
+    ]
+  ],
+  "full_order_sha256": "bc91e78075292280f3d8ce6701eefd235792793130b3679d6f12c73c19833b3f",
+  "gate": {
+    "cleanup_elapsed_seconds": 0.013084040998364799,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 25.088068040990038,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "worker_error",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 72576,
+    "returncode": 2,
+    "rss_limit_mib": 256,
+    "rss_samples": 549,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": null
+  },
+  "last_completed_deletion": [
+    [
+      33,
+      78
+    ],
+    [
+      51,
+      0
+    ],
+    [
+      57,
+      14
+    ],
+    [
+      77,
+      33
+    ],
+    [
+      78,
+      78
+    ]
+  ],
+  "last_deletion": [
+    [
+      33,
+      78
+    ],
+    [
+      77,
+      33
+    ],
+    [
+      77,
+      51
+    ],
+    [
+      78,
+      0
+    ],
+    [
+      78,
+      78
+    ]
+  ],
+  "ordered_deletion_count": 35809,
+  "prefix_sha256": "eab044358c76c335dbd8c7d678473dad6b07ed07d8e0600e3c6c7ad22a655de4",
+  "remaining_suffix_count": 2747,
+  "report_sha256": "68fad229ed12321915d5d592f3ceb8500b6c487045d943d2498ab6db00cd307b",
+  "stdout_log_sha256": "bef611bacd012e9e02d85e17b2c9dc721f4bdf8c7c066fa0bfe906a1bd45d9eb",
+  "suffix_proposal": "A new separately reviewed source can recompute full census, bind exact parent report/order hash/prefixcount, and evaluate only order[33062:] in a fresh directory under a separately authorized guard. It must include the first uncompleted deletion and not repeat the completed33062. No implicit retry or combined closure yet.",
+  "suffix_sha256": "b51cac95925b07ac3fba2463869879f601c115c358fbfa753f28d72aff417a00",
+  "validation_limit": "Order/pins/receipt/timeout semantics independently checked. Prefix geometry is accepted from the reviewed pinned execution; the33062 cases were not replayed independently. Counters increment only after a whole deletion returns. The first uncompleted deletion may have partial internal work, which is not accepted."
+}

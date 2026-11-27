@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "fixed score11 source closed through four deletions",
+    "status": "fixed score11 source closed through five deletions",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Independent combinations audit of all465 deletion sets through size4 found maximum156 and no157/158 repair of this exact invalid158-point source. A cap5 extension is in source review.",
-    "evidence": "data/score11-four-deletions-independent-audit.json"
+    "finding": "All35809 deletion sets through5 exclude157/158 repairs of this exact invalid158-point source. Prefix33062 execution reviewed; suffix2747 independently replayed. A coordinated six-point rotation neighborhood is in source review.",
+    "evidence": "data/score11-five-suffix-independent-audit.json"
   },
   {
     "id": "A05",
@@ -57,10 +57,10 @@
     "id": "A07",
     "name": "Conics and lifts",
     "role": "Mathematician",
-    "status": "n71 and n73 single-orbit families closed",
+    "status": "fixed n71/n73 and n78 to n80 one-orbit families closed",
     "scope": "Conic constructions and integer-grid embeddings",
-    "finding": "Centered fixed n71 all35 original orbit deletions fail37743 candidate/deletion records. Centered fixed n73 all36 fail4402 records. Separate n78 to n80 proposal has230 degree records; no geometry evaluation yet.",
-    "evidence": "research/n73-one-orbit36-actual-review.md"
+    "finding": "Centered n71 all35 orbit deletions fail37743 records; centered n73 all36 fail4402. Separate centered n78 to n80 fullC4 one-orbit deletion family fails all230 degree records. These are fixed-fixture exclusions.",
+    "evidence": "data/n78-to-n80-one-orbit-independent-audit.json"
   },
   {
     "id": "A08",

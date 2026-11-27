@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16476.172892095106,
+  "scheduled_search_wall_seconds_used": 16503.669890011115,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Source/tiny review of score11 cap5 extension (35344 new size5 deletions) and exploratory n78 to n80 one-orbit repairs (230 raw records). No host allocation before independent review; preserve packed frontiers and closed families.",
+  "next_action": "Independently source-review coordinated paired three-edge rotations in both matchings (144400 combinations) before one bounded gate. Separate residual radius-capacity-cut proposal in read-only review; preserve old packed frontiers and closed families.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -22,13 +22,15 @@
     "5824 guided <=3-deletion sets, no point-count improvement",
     "6237 nonuniform source embeddings excluded through five deletions, conditional on reviewed trusted computations",
     "eight size-two,1936size-four and8136one-case exact-five corner anchor families complete, overlapping, conditional on reviewed trusted computations",
-    "all6241row/column embeddings of this exact source excluded through5deletions, conditional on separately reviewed trusted computations"
+    "all6241row/column embeddings of this exact source excluded through5deletions, conditional on separately reviewed trusted computations",
+    "All35809 fixed score11 source hitting deletions through5, no157/158 repair; reviewed prefix execution plus independently replayed suffix",
+    "All230 degree records in fixed centered n78 to n80 fullC4 one-orbit deletion family, no160 witness"
   ],
   "compute_seconds_limit": 21600,
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Independently audited: all 36 centered n73 single-orbit repair cases fail (4402 records); all deletions through four from the fixed invalid score11 state fail (465 distinct sets). Best verified remains156.",
+  "current_round": "Independent review accepts all35809 deletions through5 of fixed score11 source as negative; all230 fixed n78 to n80 one-orbit degree records also negative. Best verified remains156.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -36,10 +38,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Score11 cap5 source/tiny implementation and review; no host allocation",
-    "n78 to n80 one-orbit proposal math/source/tiny review; no host allocation"
+    "Paired anchored three-cycle source/tiny before one independently allocated gate",
+    "Capacity-cut proposal distinctness/math review only; no packed variant allocation"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "91df097 CI verification and Pages both succeeded. New n73 all36 and score11 minimal/full4 actual results independently audited with clean owned gates; focused tests run before next publication."
+  "validation_status": "0cac60e verification and Pages both succeeded after one legacy zero-RSS monitor failure and one unchanged failed-job retry. Guards unchanged."
 }

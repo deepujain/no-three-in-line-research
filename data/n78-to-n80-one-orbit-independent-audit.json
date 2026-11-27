@@ -1,0 +1,344 @@
+{
+  "accepted": true,
+  "cases": [
+    {
+      "case_report_sha256": "52a56b5a802145ff9fe4cd292593396b8f2feb71d0d4c9753337b56437fe9b9e",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 0,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "5ff25d628c6135c40e96c9759f4a2cc28c22e7f2cef5063728e07d25a4ad6ae7",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 1,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "dddd12636e99ce7d29c9ba9810af394ac3bd185a813de472b8f11b8fc9096089",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 2,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "5dc21430dd4aa43ce155a30c6da80f13e474091ff7c7f635cc226da92dc712c9",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 3,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "c0bfdcc3ccc62a87f7d2cff77f48e3645aee17c448b94979ceac2efb5438d7cc",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 4,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "1986f8495a4916aba4e58fee94408b099cd5761dc96dcc8a8962d878320333aa",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 5,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "3e823319af36bda94458927b18d5cc2f144d22e6c1e9908270274dfe4151f86f",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 6,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "ab7f93c6bbfe23cb06c765056476c9cf5fd6260f379d8c6b12d65e9defa0e213",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 7,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "5a4fc45ae089dc79ed815efca104ecac0fe9dfc43d05f549122f4645d89acda7",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 8,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "9fb98bdda040d0424f8bc5a9cd0e3cf1b4b3448d5a14c40f73f2bdf7494ec61b",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 9,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "4d55d321a4c495352381e704ccbb0ba0c4794d5783d59f7ccdece90b92d566ec",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 10,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "e3e54d7af2a1afbc831a3aac71f6446e96f408e03bfd38d57ddf7062b45b880c",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 11,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "68c868c584ed08b3e959db7995ad83d9bc5d702e9e08895bab0baf0f97cf65ea",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 12,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "c7e1c4a173203dc2c373ec273d0070c8fad9d3c04b0980e8999799ffc821804a",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 13,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "38ea56438962368daf12bc0393e60f2ac947ce522153766bcb2949bb61a74f87",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 14,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "8c315f0f737115b1b0f59464d5de6c0057b29ace459bb6d6e57b15e9f3877c2e",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 15,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "39b1099a74cad5a16d9f106fa0612c2a9932fd00122f3669fc8223ed7f2fabe5",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 16,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "37aa538de46eeb64d243941a03c658c3da5c04f3cbd407b0f1544b28f6eed5bb",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 17,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "ee60f43299347c179e288bce7f437861639d26c14ef0923d33b4453c0c186429",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 18,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "9988ac33d8bc5d72bd59f8b8ecff76a95be29b05ba07baa07fe48e3a693f448a",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 19,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "f16934f3feb11ef24dccbab2c6123405c3ccb5e5c9293682221ea985abd57611",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 20,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "fd9087d1979f30a11703d9403c7e3a39d4f8c39a3e87e843c3c1fa427744f2b7",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 21,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "6cf56e8124b662fb8d8b23ca64714f08311bdda5ed45d3d9bce0187edb4cfa17",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 22,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "6b9abca010f716749c037fe75e84d39293ff92e5c6a12183a253080a6b2ad3b9",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 23,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "c72f74dbf5c354cedc2546216874cdc6f36657f5b93f16d09cd1fc7dacc572c2",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 24,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "f85ac38977e4cb1b044ca7e55736a20776ec8278c92d0cf14eadfe737fa60661",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 25,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "542bd01e9534f5998904113db152715a702332dd60f314aa1f9d229db96208c0",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 26,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "5fdbdce3b74909302030d874785b24790829a701bfc7b94d82fe21957cec66d2",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 27,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "f1af8fabb251c84066e69f046091fc0558eb7db4d611728076b2bf59cc129e4f",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 28,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "c3557f2156946b33bed631f7ad80fcc597d4b7f394da3dc4557e98aff9f4549c",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 29,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "809d1ed71ee07b1c13a973ffa92f110aa3113be665e328c6ac8ed56b8be6d4ff",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 30,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "17dd937c8f96fe70ea31836eebf389074d7a2c02128cb93dc27c97be76546587",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 31,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "34d478986c99a00d9742058efd1226db71f1917edbf5205b08d98946665dbbd7",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 32,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "155940f58f32f1281768eac67b6f5741fb41a92815c8bae09109552cbc16a1cf",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 33,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "2526c8d8c266acd9a3b8c6708ecebd592845b6a4fc9245e30187bd513f62a07c",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 34,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "644c0dc55442f95ea838f10027c0bffe06503ac9dd0dd8f611186cf6ae234e6e",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 35,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "b790c3cf08933d4181a4e7f8d1e0ee5f3e6e0e736d3fa4103ce243d27c474225",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 36,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "f4da69e95fa0923473ed8b5163c8e8240731016df0dc82b80baf1a47a93db16d",
+      "raw_degree_choices": 6,
+      "readditions": 1,
+      "source_orbit_index": 37,
+      "verified_filter_triples": 4,
+      "verified_outerloop_proofs": 2
+    },
+    {
+      "case_report_sha256": "753ddf62bc9ce2d07d505d1496bb5fa3bbb8eb8d0c6ff8d3ea0cb7f63088e34c",
+      "raw_degree_choices": 2,
+      "readditions": 1,
+      "source_orbit_index": 38,
+      "verified_filter_triples": 2,
+      "verified_outerloop_proofs": 1
+    }
+  ],
+  "charged_outer_seconds": 0.3219773750024615,
+  "complete_negative": true,
+  "experiment_sha256": "cc6a508366a6194963bda4e8f20790a64979ff6f9b56d2b12cdcb39a71fd6e59",
+  "fixture_geometry_evidence": "Accepted dual geometry verification from pinned clean checker execution; this audit checked exact fixture orbit partition and all negative triples without rerunning fullfixture geometry.",
+  "gate": {
+    "cleanup_elapsed_seconds": 0.012580957991303876,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 0.3219425839924952,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "exited",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 48208,
+    "returncode": 0,
+    "rss_limit_mib": 256,
+    "rss_samples": 7,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": null
+  },
+  "raw_degree_records": 230,
+  "remaining_candidates_rejected_by_filters": 153,
+  "report_sha256": "e692fde1305aa897acd26c320530c9f2436884898b5ea3a74e6c1f66879d0ce2",
+  "scope": "Only fixed centered n78 full-C4 fixture extensions to160points in n80 with at mostoneoriginalfullorbit deleted. No general n80 or n79 conclusion.",
+  "verified_filter_triples": 154,
+  "verified_outer_loop_rejections": 77
+}

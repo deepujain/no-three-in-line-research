@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Implement score11 full cap5 extension and tiny tests only; no host allocation.",
+    "status": "Paired rotations source/tiny complete; distinct radius-capacity-cut proposal math and prior-work comparison only.",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Prepare n78 to n80 one-orbit checker after independent math approval; source/tiny only."
+    "status": "Independent source/tiny review of paired rotations for prospective one bounded gate; no host search."
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Completed independent full four-deletion actual audit and cap5 arithmetic; review n80 math and both next sources.",
+    "status": "Independent n80 actual and score11 cap5 combined audit accepted; source reviews and capacity-cut mathematics.",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]
