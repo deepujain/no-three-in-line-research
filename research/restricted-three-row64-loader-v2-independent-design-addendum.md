@@ -1,0 +1,5 @@
+# Fixed64 loader v2 design: independent schema rebind
+
+Verdict: PASS for the narrow design correction. Preserved v1 `research/restricted-three-row64-loader-association-memory-design-v1-frozen.md` SHA-256 `cc8d1e94fc0c19fcf94bfbbc765482180580cc6e764fc68a973ac97158519cf5` and its independent review remain historical. Current v2 design `research/restricted-three-row64-loader-association-memory-design.md` SHA-256 `9c86016637a5fc3bff8876d220f7567edeb50b8dcdd57e80bbcc341cd78ab78b`.
+
+The exact diff only clarifies the serialized `initial.json` producer schema: `n`, `points`, `score`, `state_hash`, `counters`, `order_sha256`, and `handoff`. The frozen worker source confirms those seven keys; it does not serialize generation or cursor there. Their initial zero values are controller/origin semantics and must be checked through the origin and first event, not demanded as nonexistent file fields. The prior design's associations, parser/resource conditions and authorization boundaries otherwise remain unchanged. No actual artifact or geometry was inspected and no implementation or run is authorized by this review.
