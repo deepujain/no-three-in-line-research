@@ -1,0 +1,640 @@
+{
+  "adapter_sha256": "31ad510c53f3480a339f92b9b9366e7a912daf10e474d99c5b5d4c6ce74bb26d",
+  "approved_control_evidence_sha256": "d8086c685854cc28eedeb1a9422d7330657ce880f01d12cc14f75be497f49c1e",
+  "fixture_sha256": "ee2da5e6cc078be0279d06dcef1840f36e531b2376b21d952ca5af224a98162f",
+  "full_synthetic_audit_cases": [
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 0
+      },
+      "effective_pins": 298,
+      "last_start_charge": null,
+      "mode": "nostart",
+      "states": 1
+    },
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "effective_pins": 298,
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "mode": "pending",
+      "states": 1
+    },
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 1,
+        "started": 1
+      },
+      "effective_pins": 298,
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "mode": "complete",
+      "states": 1
+    },
+    {
+      "counts": {
+        "accepted": 1,
+        "completed": 4,
+        "started": 4
+      },
+      "effective_pins": 298,
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 3,
+        "started": 4
+      },
+      "mode": "positive",
+      "states": 2
+    },
+    {
+      "counts": {
+        "accepted": 4,
+        "completed": 16,
+        "started": 16
+      },
+      "effective_pins": 298,
+      "last_start_charge": {
+        "accepted": 3,
+        "completed": 15,
+        "started": 16
+      },
+      "mode": "cap",
+      "states": 5
+    },
+    {
+      "counts": {
+        "accepted": 1,
+        "completed": 4,
+        "started": 4
+      },
+      "effective_pins": 298,
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 3,
+        "started": 4
+      },
+      "mode": "zero",
+      "states": 2
+    },
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 16,
+        "started": 16
+      },
+      "effective_pins": 298,
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 15,
+        "started": 16
+      },
+      "mode": "cap_noaccept",
+      "states": 1
+    },
+    {
+      "effective_pins": 245,
+      "manifest_entries": 244,
+      "mode": "dynamic_manifest"
+    },
+    {
+      "effective_pins": 513,
+      "manifest_entries": 512,
+      "mode": "dynamic_manifest"
+    }
+  ],
+  "genuine_n4_helper_cases": [
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 0
+      },
+      "mode": "nostart",
+      "scores": [
+        8
+      ],
+      "states": 1
+    },
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "mode": "pending",
+      "scores": [
+        8
+      ],
+      "states": 1
+    },
+    {
+      "counts": {
+        "accepted": 0,
+        "completed": 1,
+        "started": 1
+      },
+      "mode": "complete",
+      "scores": [
+        8
+      ],
+      "states": 1
+    },
+    {
+      "counts": {
+        "accepted": 1,
+        "completed": 4,
+        "started": 4
+      },
+      "mode": "positive",
+      "scores": [
+        8,
+        6
+      ],
+      "states": 2
+    },
+    {
+      "counts": {
+        "accepted": 4,
+        "completed": 16,
+        "started": 16
+      },
+      "mode": "cap",
+      "scores": [
+        8,
+        6,
+        5,
+        4,
+        3
+      ],
+      "states": 5
+    }
+  ],
+  "limitations": "Actual full audit control flow and helper fold over genuine outcome bytes, with explicit structural/identity/geometry spies for n75 and declared source digest labels. Metadata pin rebound to genuine synthetic metadata. Genuine n4 direct recounts reuse approved saved control route only; declared zero is not zero geometry evidence. No actual inputs, optimizer, new fixture search, physical runtime/owned guard or RSS evidence.",
+  "passed": true,
+  "real_disk_source_cases": [
+    "valid",
+    "digest",
+    "cap",
+    "length",
+    "duplicate",
+    "nan",
+    "nonascii"
+  ],
+  "rejection_count": 110,
+  "rejections": [
+    {
+      "case": "report_method",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_accepted",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_identity_valid",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_closure",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_authority_uncertain",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_authority_sha256",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_authority_bytes",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_authority_publications",
+      "error": "exact clean publication accounting"
+    },
+    {
+      "case": "report_witness_metadata_error",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "report_n",
+      "error": "exact nonnegative integer fields"
+    },
+    {
+      "case": "report_elapsed_seconds",
+      "error": "three-row elapsed binding"
+    },
+    {
+      "case": "report_state",
+      "error": "report last-durable authority association"
+    },
+    {
+      "case": "report_attempts",
+      "error": "report last-durable authority association"
+    },
+    {
+      "case": "report_artifacts",
+      "error": "report last-durable authority association"
+    },
+    {
+      "case": "report_order_sha256",
+      "error": "report last-durable authority association"
+    },
+    {
+      "case": "handoff_score",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_artifact_count",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_metadata_sha256",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_normalized_sha256",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_predecessor_normalized_sha256",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_prior_manifest_sha256",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_prior_audit_sha256",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_historical_counters",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "handoff_coverage_basis",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "initial_generation_key",
+      "error": "initial seven-key schema"
+    },
+    {
+      "case": "initial_cursor_key",
+      "error": "initial seven-key schema"
+    },
+    {
+      "case": "initial_bool_counter",
+      "error": "fixed64 initial/handoff association"
+    },
+    {
+      "case": "initial_wrong_order_no_start",
+      "error": "initial direct candidate hash"
+    },
+    {
+      "case": "initial_wrong_order_after_accept",
+      "error": "initial direct candidate hash"
+    },
+    {
+      "case": "final_counts_as_charge",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "charge_on_no_start",
+      "error": "charge with no start"
+    },
+    {
+      "case": "missing_charge",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "bool_charge",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "gate_returncode",
+      "error": "guard schema"
+    },
+    {
+      "case": "gate_cleanup_status",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_cleanup_error",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_monitor_error",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_trigger_gate_status",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_elapsed_seconds",
+      "error": "three-row elapsed binding"
+    },
+    {
+      "case": "gate_cleanup_elapsed_seconds",
+      "error": "cleanup elapsed"
+    },
+    {
+      "case": "gate_peak_sampled_rss_kib",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_rss_samples",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_cleanup_samples",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_seconds_limit",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "gate_rss_limit_mib",
+      "error": "unclean three-row guard"
+    },
+    {
+      "case": "wrong_argv",
+      "error": "receipt association"
+    },
+    {
+      "case": "source_change",
+      "error": "receipt association"
+    },
+    {
+      "case": "receipt_self_missing",
+      "error": "pre-audit pin-set association"
+    },
+    {
+      "case": "receipt_manifest_digest",
+      "error": "receipt association"
+    },
+    {
+      "case": "receipt_elapsed_order",
+      "error": "three-row elapsed binding"
+    },
+    {
+      "case": "work_indexes18",
+      "error": "index attempt bound"
+    },
+    {
+      "case": "work_indexes_bool",
+      "error": "index attempt bound"
+    },
+    {
+      "case": "manifest_self",
+      "error": "manifest count/self association"
+    },
+    {
+      "case": "missing_pin:research/restricted_three_row_independent_chain_audit.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:research/two_row_suffix_independent_authority_audit.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:research/restricted_three_row64.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:research/restricted_three_row75.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:research/two_row_descent75.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:research/two_row_suffix75.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:research/restricted_three_row_actual_chain_adapter.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:data/restricted-three-row64-input-identities.json",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:src/verify.py",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "missing_pin:/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "error": "mandatory fixed source/runtime pins"
+    },
+    {
+      "case": "closure_pin_missing",
+      "error": "fixed51 closure pin"
+    },
+    {
+      "case": "normalized_manifest_alias",
+      "error": "duplicate normalized pin"
+    },
+    {
+      "case": "helper_bool_seq",
+      "error": "exact nonnegative integer fields"
+    },
+    {
+      "case": "helper_wrong_cursor",
+      "error": "next candidate binding"
+    },
+    {
+      "case": "helper_wrong_order",
+      "error": "next candidate binding"
+    },
+    {
+      "case": "helper_wrong_ordinal",
+      "error": "current attempt identity"
+    },
+    {
+      "case": "helper_lost_pending_charge",
+      "error": "final authority chain binding"
+    },
+    {
+      "case": "helper_old_cursor_after_accept",
+      "error": "final authority chain binding"
+    },
+    {
+      "case": "helper_missing_accepted_ref",
+      "error": "strict accepted reference"
+    },
+    {
+      "case": "helper_partial_positive",
+      "error": "partial positive result"
+    },
+    {
+      "case": "helper_bool_selected_column",
+      "error": "selected columns"
+    },
+    {
+      "case": "helper_reference_parent_path",
+      "error": "unique local reference"
+    },
+    {
+      "case": "helper_reference_bool_bytes",
+      "error": "reference byte/hash bounds"
+    },
+    {
+      "case": "helper_bad_reference_hash",
+      "error": "closed byte digest"
+    },
+    {
+      "case": "zero_witness_missing",
+      "error": "accepted zero witness absent"
+    },
+    {
+      "case": "saved_witness_not_accepted",
+      "error": "successful witness/authority association"
+    },
+    {
+      "case": "preflight_passed",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_manifest_entries",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_effective_entries_after_self",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_mandatory_union_entries",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_worker_source_identities",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_fixed_artifact_roles",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_inherited_manifest_entries",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_prior_manifest_self_required",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_runtime_verifier_worker_metadata_required",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_manifest_sha256",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "preflight_manifest_bytes",
+      "error": "receipt preflight contract"
+    },
+    {
+      "case": "reviews_changed",
+      "error": "external reviews unchanged"
+    },
+    {
+      "case": "review_pin_missing",
+      "error": "external review pin map"
+    },
+    {
+      "case": "review_pin_digest",
+      "error": "external review pin map"
+    },
+    {
+      "case": "external_review_added_to_worker_pinmap",
+      "error": "pre-audit pin-set association"
+    },
+    {
+      "case": "noaccept_charge_completed16",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "noaccept_charge_accepted1",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "spec_count_bool",
+      "error": "explicit manifest count"
+    },
+    {
+      "case": "spec_count_wrong",
+      "error": "manifest count/self association"
+    },
+    {
+      "case": "spec_extra_role",
+      "error": "exact five input roles"
+    },
+    {
+      "case": "spec_length_wrong",
+      "error": "closed byte length"
+    },
+    {
+      "case": "spec_digest_wrong",
+      "error": "closed byte digest"
+    },
+    {
+      "case": "spec_path_parent",
+      "error": "normalized relative input path"
+    },
+    {
+      "case": "spec_directory_mismatch",
+      "error": "same explicit run directory"
+    },
+    {
+      "case": "read_failure",
+      "error": "injected closed read failure"
+    },
+    {
+      "case": "runtime_pre_drift",
+      "error": "pre-audit source/input/runtime drift"
+    },
+    {
+      "case": "runtime_post_drift",
+      "error": "post-audit source/artifact drift"
+    },
+    {
+      "case": "adapter_post_drift",
+      "error": "adapter source drift"
+    },
+    {
+      "case": "helper_pre_drift",
+      "error": "independent helper source drift"
+    },
+    {
+      "case": "external_review_post_drift",
+      "error": "post-audit source/artifact drift"
+    },
+    {
+      "case": "artifact_post_drift",
+      "error": "post-audit source/artifact drift"
+    }
+  ],
+  "source_sha256": "ca836deee3396136afc7752aef6d51abced6bdcd75f2ddbdefff657b0109dad3"
+}

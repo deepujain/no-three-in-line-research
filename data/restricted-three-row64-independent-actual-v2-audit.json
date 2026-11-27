@@ -1,0 +1,241 @@
+{
+  "accepted": true,
+  "artifact_hashes": {
+    "data/experiments/shepherd-restricted-three-row64-v2.json": "4108a70a3d247cfbae251ca78ce1df15e8ea50b309d801bbeee7b43c06384f06",
+    "data/restricted-three-row64-source-pins-v2.json": "c041927f3c7554ead5b7bc3d87c69d4186717960676872ab482d6867b6c90c8c",
+    "data/restricted-three-row64-v2/authority.json": "f116a0b0f589aa755769d5e6368bff59205cdc89122b7170e86bff361158c251",
+    "data/restricted-three-row64-v2/initial.json": "1756d83bc3bfa5bf491d37e5c59bdc785a095184aa285c260820670a39938ead",
+    "data/restricted-three-row64-v2/report.json": "f9567d8e22bcd0687dd0087a6bdf974f3e11ae05e5225d3658f23b21c3f87b61"
+  },
+  "audit_source_sha256": "31ad510c53f3480a339f92b9b9366e7a912daf10e474d99c5b5d4c6ce74bb26d",
+  "chain": {
+    "accepted_scores": [
+      64
+    ],
+    "accepted_state_hashes": [
+      "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+    ],
+    "authority_chain_passed": true,
+    "counters": {
+      "accepted": 0,
+      "completed": 16,
+      "started": 16
+    },
+    "cursor": 16,
+    "durable_U": 64,
+    "durable_state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7",
+    "durable_status": "block_cap",
+    "last_start_charge": {
+      "accepted": 0,
+      "completed": 15,
+      "started": 16
+    },
+    "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+    "new_accepted_moves": 0,
+    "observations": [
+      {
+        "cursor": 0,
+        "outcome": "complete",
+        "rows": [
+          12,
+          15,
+          58
+        ],
+        "seq": 1,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 1,
+        "outcome": "complete",
+        "rows": [
+          7,
+          12,
+          15
+        ],
+        "seq": 2,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 2,
+        "outcome": "complete",
+        "rows": [
+          7,
+          12,
+          34
+        ],
+        "seq": 3,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 3,
+        "outcome": "complete",
+        "rows": [
+          15,
+          35,
+          69
+        ],
+        "seq": 4,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 4,
+        "outcome": "complete",
+        "rows": [
+          15,
+          41,
+          55
+        ],
+        "seq": 5,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 5,
+        "outcome": "complete",
+        "rows": [
+          20,
+          35,
+          39
+        ],
+        "seq": 6,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 6,
+        "outcome": "complete",
+        "rows": [
+          35,
+          64,
+          71
+        ],
+        "seq": 7,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 7,
+        "outcome": "complete",
+        "rows": [
+          12,
+          43,
+          46
+        ],
+        "seq": 8,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 8,
+        "outcome": "complete",
+        "rows": [
+          23,
+          45,
+          67
+        ],
+        "seq": 9,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 9,
+        "outcome": "complete",
+        "rows": [
+          27,
+          36,
+          45
+        ],
+        "seq": 10,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 10,
+        "outcome": "complete",
+        "rows": [
+          37,
+          43,
+          67
+        ],
+        "seq": 11,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 11,
+        "outcome": "complete",
+        "rows": [
+          3,
+          7,
+          43
+        ],
+        "seq": 12,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 12,
+        "outcome": "complete",
+        "rows": [
+          6,
+          18,
+          35
+        ],
+        "seq": 13,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 13,
+        "outcome": "complete",
+        "rows": [
+          7,
+          19,
+          43
+        ],
+        "seq": 14,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 14,
+        "outcome": "complete",
+        "rows": [
+          15,
+          23,
+          57
+        ],
+        "seq": 15,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      },
+      {
+        "cursor": 15,
+        "outcome": "complete",
+        "rows": [
+          17,
+          41,
+          53
+        ],
+        "seq": 16,
+        "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+      }
+    ],
+    "pending_attempt": null,
+    "receipt_acceptance_checked": false,
+    "recorded_nonimprovements_not_independent_minima": 16,
+    "side_outputs": [],
+    "unique_states_recounted": 1
+  },
+  "common_helper_sha256": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a",
+  "effective_pins": 298,
+  "elapsed_seconds": 0.15406391600845382,
+  "external_review_pins": {
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row64-manifest-independent-review-v1.md": "b2753801b212f377cc22065061aa978130ce615eded417bdfc7e5da08bf26fba",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row64-manifest-v2-independent-review.md": "959bd8ee9b4b317a902a59e79fb7d0468a66c8da4e88131375c88aae3d151a98",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64_manifest_preflight.py": "de46849003d1e9aa9c107e164838b894d820de914fa6ff736d49e2560d912c10"
+  },
+  "helper_sha256": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+  "input_spec_bytes_sha256": "441f32d8db94c6d61c335709eb0413ee7752c280942b0bcc61074d563e32e6cd",
+  "input_spec_sha256": "4e9b271478cc217afa5b97a997ad16913a6aa11f3fba77063e2c10c0265b571e",
+  "limits": "Minima/domain selection remain source-supported. Successful-run scope only; no orphan recovery. Overall acceptance also requires Root-owned audit guard with exact output digest. No automatic continuation.",
+  "manifest_entries": 297,
+  "receipt_preflight_checked": true,
+  "resources": {
+    "elapsed_seconds": 0.7116544589953264,
+    "peak_sampled_rss_kib": 57456,
+    "rss_note": "Sampled RSS observation; not a proved unsampled maximum."
+  },
+  "runtime_path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runtime_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "scope": "Independent direct saved-state chain/rankings and exact fixed64 report/receipt/pin associations; no optimizer replay."
+}

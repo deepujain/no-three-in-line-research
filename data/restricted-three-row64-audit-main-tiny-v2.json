@@ -1,0 +1,60 @@
+{
+  "adapter_sha256": "31ad510c53f3480a339f92b9b9366e7a912daf10e474d99c5b5d4c6ce74bb26d",
+  "cases": [
+    {
+      "accepted": true,
+      "error": null,
+      "exit_status": 0,
+      "mode": "ordinary",
+      "output_sha256": "5e519460754c6d142d7e612ae394b3663512133f98a03cbf58ee5eabd3e22f51",
+      "save_sequence": [
+        true
+      ]
+    },
+    {
+      "accepted": false,
+      "error": "ValueError: closed byte digest",
+      "exit_status": 2,
+      "mode": "input_digest",
+      "output_sha256": "0969eaf6c2b5801a6bb3114807eaee701e052b387686ab6ee5d85acf5d38e48d",
+      "save_sequence": [
+        false
+      ]
+    },
+    {
+      "accepted": false,
+      "error": "ValueError: external reviews unchanged",
+      "exit_status": 2,
+      "mode": "receipt_failure",
+      "output_sha256": "dec641eeea2e800a271cf2ed485a0885309438b1110331126b2627abb720c967",
+      "save_sequence": [
+        false
+      ]
+    },
+    {
+      "accepted": false,
+      "error": "TimeoutError: independent audit soft deadline",
+      "exit_status": 2,
+      "mode": "deadline_before_read",
+      "output_sha256": "edaef5a72ed8e5a80360d1296d1a43130a50660cd8557ea78e5e2922290d008f",
+      "save_sequence": [
+        false
+      ]
+    },
+    {
+      "accepted": false,
+      "error": "audit report persistence exceeded soft deadline",
+      "exit_status": 2,
+      "mode": "late_persistence",
+      "output_sha256": "825d1bb19044da3e516cf555eac4f9bb91ab5544da171031db0fdef9192277d1",
+      "save_sequence": [
+        true,
+        false
+      ]
+    }
+  ],
+  "fixture_sha256": "ee2da5e6cc078be0279d06dcef1840f36e531b2376b21d952ca5af224a98162f",
+  "passed": true,
+  "scope": "Real main argparse, accepted/error output and bounded write path. Closed byte source, declared n75 geometry/source labels, scripted clock. Actual file writes/fsync only in newly created temporary directory; no crash/owned RSS or actual run acceptance evidence.",
+  "source_sha256": "ff883ec9127f003fbe453bac3372a20b1387627a4b15ace3a898649b1ae620e4"
+}

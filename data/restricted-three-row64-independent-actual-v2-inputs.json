@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "authority": {
+      "bytes": 10198,
+      "path": "data/restricted-three-row64-v2/authority.json",
+      "sha256": "f116a0b0f589aa755769d5e6368bff59205cdc89122b7170e86bff361158c251"
+    },
+    "initial": {
+      "bytes": 2012,
+      "path": "data/restricted-three-row64-v2/initial.json",
+      "sha256": "1756d83bc3bfa5bf491d37e5c59bdc785a095184aa285c260820670a39938ead"
+    },
+    "manifest": {
+      "bytes": 37364,
+      "path": "data/restricted-three-row64-source-pins-v2.json",
+      "sha256": "c041927f3c7554ead5b7bc3d87c69d4186717960676872ab482d6867b6c90c8c"
+    },
+    "receipt": {
+      "bytes": 41262,
+      "path": "data/experiments/shepherd-restricted-three-row64-v2.json",
+      "sha256": "4108a70a3d247cfbae251ca78ce1df15e8ea50b309d801bbeee7b43c06384f06"
+    },
+    "report": {
+      "bytes": 62152,
+      "path": "data/restricted-three-row64-v2/report.json",
+      "sha256": "f9567d8e22bcd0687dd0087a6bdf974f3e11ae05e5225d3658f23b21c3f87b61"
+    }
+  },
+  "manifest_entries": 297,
+  "schema": "fixed64-successful-run-audit-input-v1"
+}

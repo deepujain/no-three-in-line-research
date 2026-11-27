@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/restricted_three_row64_actual_chain_adapter.py",
+    "--inputs",
+    "data/restricted-three-row64-independent-actual-v2-inputs.json",
+    "--inputs-sha256",
+    "441f32d8db94c6d61c335709eb0413ee7752c280942b0bcc61074d563e32e6cd",
+    "--output",
+    "data/restricted-three-row64-independent-actual-v2-audit.json",
+    "--seconds",
+    "25"
+  ],
+  "audit_output_sha256": "df58ba6557f95f42db3d64cf645d391de7171d0bc44b3088f0652d9989b287d7",
+  "cleanup_elapsed_seconds": 0.010565207994659431,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "elapsed_seconds": 0.19861487500020303,
+  "finished_at": "2026-11-27T15:58:21.241834+00:00",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "exited",
+  "models_reasoning": "Current exact model/reasoning unavailable; Root-owned tool execution.",
+  "monitor_error": null,
+  "peak_sampled_rss_kib": 49040,
+  "reserved_at": "2026-11-27T15:58:21.030048+00:00",
+  "returncode": 0,
+  "rss_limit_mib": 256,
+  "rss_samples": 4,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "Independent verification of saved fixed64 endpoint/ranking/16-attempt ledger and receipt/pin associations. No optimizer/search replay. Separate from numerical search receipts.",
+  "seconds_limit": 30,
+  "source_pins": {
+    "data/restricted-three-row64-independent-actual-v2-inputs.json": "441f32d8db94c6d61c335709eb0413ee7752c280942b0bcc61074d563e32e6cd",
+    "research/restricted-three-row64-actual-audit-independent-source-review-v2.md": "5daa05109fe981727323899fbe2605a7b09d98c3139c68f3b53dfed166fce33e",
+    "research/restricted_three_row64_actual_chain_adapter.py": "31ad510c53f3480a339f92b9b9366e7a912daf10e474d99c5b5d4c6ce74bb26d",
+    "research/restricted_three_row_independent_chain_audit.py": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+    "research/two_row_suffix_independent_authority_audit.py": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a"
+  },
+  "source_pins_unchanged": true,
+  "status": "completed",
+  "trigger_gate_status": null
+}
