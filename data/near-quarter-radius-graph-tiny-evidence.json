@@ -1,0 +1,51 @@
+{
+  "actual_geometry_n": [
+    3,
+    5,
+    7
+  ],
+  "actual_host_gate_run": false,
+  "claims": "Necessary-condition soundness only; no runtime improvement or broad-grid rejection claim.",
+  "core_worker_manifest_changed": false,
+  "elapsed_seconds": 0.025843499999609776,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "schema": 1,
+  "source_sha256": {
+    "research/near_quarter_packed_worker.py": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "research/near_quarter_radius_graph.py": "647ae1379eb89711707f9900d68a2aba1861839751bdb22f15e9618d1f5cda66",
+    "research/near_quarter_rowbatch_checkpoint.py": "ac57fd572e85d0653efc72b9cda73bc8274a96f154d37150ec3e6419c27c4770",
+    "research/near_quarter_rowbatch_core.py": "27beb80326431e952bc5523065d94866982326b46eed6d9ec2541ea49b8a1670",
+    "tests/test_near_quarter_radius_graph.py": "8f70bf8b6d78c54060f23f198e4c0a0ac922618559a4f8b37b08c3c73dcd2470"
+  },
+  "statistics": {
+    "abstract_cases": 5913,
+    "abstract_rejected": 4808,
+    "graph_interrupt_boundaries": 19,
+    "mapped_interrupt_boundaries": 12,
+    "tiny": {
+      "3": {
+        "additional_over_row_orbit_bounds": 0,
+        "graph_rejections": 0,
+        "oracle_completions": 1,
+        "prefixes": 1
+      },
+      "5": {
+        "additional_over_row_orbit_bounds": 1,
+        "graph_rejections": 8,
+        "oracle_completions": 0,
+        "prefixes": 9
+      },
+      "7": {
+        "additional_over_row_orbit_bounds": 7,
+        "graph_rejections": 54,
+        "oracle_completions": 0,
+        "prefixes": 63
+      }
+    }
+  },
+  "status": "pure_predicate_tiny_tests_only_not_integrated",
+  "successful": true,
+  "test_output": "test_abstract_degree_subset_oracle_with_parallel_edges (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_abstract_degree_subset_oracle_with_parallel_edges) ... ok\ntest_interruptions_return_no_partial_verdict_and_do_not_mutate (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_interruptions_return_no_partial_verdict_and_do_not_mutate) ... ok\ntest_strictness_examples_and_allowed_cycles (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_strictness_examples_and_allowed_cycles) ... ok\ntest_tiny_mapping_and_every_valid_prefix_against_completion_oracle (tests.test_near_quarter_radius_graph.RadiusGraphTests.test_tiny_mapping_and_every_valid_prefix_against_completion_oracle) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.026s\n\nOK\n",
+  "tests_run": 4
+}

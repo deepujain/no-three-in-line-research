@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "resume-greedy-delete12-seed279106",
+    "seconds": 65,
+    "hypothesis": "Independently reviewed exploration; random deletion1..12, beyondclosed<=5 family may occur but actual sizes unobserved"
+  },
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/search.py",
+    "--n",
+    "79",
+    "--seconds",
+    "60",
+    "--seed",
+    "279106",
+    "--initial",
+    "data/published-n78.json",
+    "--delete-count",
+    "12",
+    "--output",
+    "data/resume-greedy-delete12-seed279106.json"
+  ],
+  "status": "rejected_before_spawn",
+  "elapsed_seconds": 65,
+  "started_at": "2026-11-27T06:12:53.113167+00:00",
+  "sources_before": {
+    "src/search.py": "0e132a360bdb1408fdf5b3ebebeb1b37650177c421e5d2fe8ae32c35502ae123",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912"
+  },
+  "seed": 279106,
+  "finished_at": "2026-11-27T06:14:12.783343+00:00",
+  "error": "ValueError: seconds must be in (0,30] from unchanged owned_process_guard before spawning. No numeric work; full65s charged conservatively. Next allocation must use <=30s helper.",
+  "exit_code": null
+}

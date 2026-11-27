@@ -366,3 +366,17 @@ Packed n79root independently audited; exactly one counted stage then accepted1.0
 Packed one-node result independently audited; next10node stage accepted18.5605s at unchanged30s/256MiB, checkpoint source stable. Audit pending. Initial10node input had trailing newline and strict parser rejected before run_stage/nochild; preserved failure receipt, corrected canonical bytes after independent reviewer confirmation, distinctv2receipt. No numerical retry occurred.
 
 Independent review approved one60s greedy seed279106/deletionmax12 exploratory trial under unchanged owned helper65s/256MiB. This can sample deletions beyondclosed5 but actual deletion sizes are not instrumented and neutral states are not retained. Running separately with receipt/reservation; no conclusion yet.
+
+
+## 2026-11-27T06:15:59.598413+00:00 — Preserve baseline, pursue new branches
+
+Ten-node packed stage independently audited;11nodes total, no witness. Cost18.56s included7.31s private save replay; freeze baseline at26fec70, checkpoint802d69d07a9ab44b452621043a00ec1f64351c6412e62fdaac2752424bea038e. Engineer now integrates independently reviewed pure radius predicate under fresh source/policy; Mathematician reviews, no migration. Root independently reran4predicate tests0.026s.
+
+Seed279106 exploratory greedy repair25s completed clean at47,072KiB sampled,617216evaluations/102passes, still156and original normalizedhash. Root separately dualverified output. Initial65shelper proposal rejected before spawn because unchangedhelper max30; full65s conservative charge retained, corrected proposal separately independently reviewed before numeric launch. Literature worker now authors a separate neutral-walk variant retaining equal-size valid states, deletions6..12 and bounded state diversity metadata. Source/tiny approval only before independent review and host allocation.
+
+Total accounted 14597.817850093059seconds; remaining 7002.182149906941seconds. No new construction/novelty claim. Both existing schedule configs read ACTIVE; explicit resume now permits their dispatch.
+
+
+## 2026-11-27T06:17:27.310256+00:00 — CI portability fix
+
+Public Pages26fec70 deployed successfully; software CI found one Linux-only roundoff rejection in residual root preflight deadline validation,429tests/onefailure. Root replaced subtractive comparison with absolute-time comparison matching job generation, no tolerance/cap increase; added deterministic reproducer,9focused tests pass1.328s. Historical host evidence source identities preserved; independent review requested before republishing.

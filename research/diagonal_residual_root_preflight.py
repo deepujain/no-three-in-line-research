@@ -134,7 +134,8 @@ def validate_job(job):
     require(job['schema']==SCHEMA,'job schema mismatch');grid(job['n'],job['deficit'],job['diagonal'])
     for field in ('deadline','invocation_started','seconds'):
         require(type(job[field]) in (int,float) and math.isfinite(job[field]),'invalid timing')
-    require(2<job['seconds']<=30 and 0<job['deadline']-job['invocation_started']<=job['seconds']-1,
+    require(2<job['seconds']<=30 and
+            job['invocation_started']<job['deadline']<=job['invocation_started']+job['seconds']-1,
             'invalid worker deadline')
     require(type(job['source_hashes']) is dict and set(job['source_hashes'])==set(SOURCES),
             'job source keys mismatch')

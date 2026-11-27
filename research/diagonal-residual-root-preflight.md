@@ -21,3 +21,6 @@ After independent source review and Root's separate allocation, the initial prop
 ```
 
 This command is documentation, not execution authorization. Independently pin the reviewed script and dependency hashes before launch and record the successful exit and full stdout summary. Do not retry, increase caps, change slices or start an n9 counted-node or n79 stage automatically. A later n79 root preflight would need its own explicit allocation and review of the n9 evidence. No performance advantage, deep-prefix cost, witness existence or exhaustion conclusion follows from a root-only operation.
+
+
+Portability correction after publication: Linux CI exposed subtraction roundoff in deadline validation (6.036+10-1 minus6.036 rounds to9.000000000000002). Compare the absolute deadline to the same started+seconds-1 expression used when generating it, without tolerance or cap increase. New focused regression accepts the exact generated value and rejects a later deadline; all9focused tests pass1.328s. Historical host reports retain their original source manifest in commit26fec70; this source correction does not relabel those executions or allocate another run. Current source SHA256 04ff2dadecae1fc72cc21c1a19a7efe90fd46762e07554335b344ad01632abcc.

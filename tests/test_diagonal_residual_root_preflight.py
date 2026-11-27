@@ -24,6 +24,17 @@ def fake_guard(command,seconds,rss_mib,log_path,*,cancelled):
 
 
 class RootPreflightTests(unittest.TestCase):
+    def test_deadline_validation_avoids_float_subtraction_roundoff(self):
+        started=6.036
+        deadline=started+10-1
+        self.assertGreater(deadline-started,9)
+        job={'schema':pf.SCHEMA,'n':3,'deficit':0,'diagonal':0,
+             'deadline':deadline,'invocation_started':started,'seconds':10,
+             'source_hashes':pf.sources()}
+        pf.validate_job(job)
+        job['deadline']=deadline+0.001
+        with self.assertRaises(ValueError):pf.validate_job(job)
+
     def test_all_tiny_roots_one_scan_and_control_order(self):
         passed=rejected=0
         for n in (3,5):
