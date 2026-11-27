@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "fixed source through8 scoped native UNSAT",
+    "status": "through8 scoped UNSAT;9..12 incomplete",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "D6 and intrinsic7..8deletion SAT scopes independently audited; both nativeUNSAT, no checked UNSAT proof. Range7..8:177models/7380freshcuts/8.442s, no scorebelow11saved. No improved construction; retire these scopes.",
-    "evidence": "research/score11-hard-retention157-range7-8-actual-review.md"
+    "finding": "Intrinsic9..12repairtimedout25.108s:293completecandidate scans/19113validcuts,no scorebelow11saved. Independentactualauditacceptedasincomplete/noUNSAT. Curtailunchangedextension; new direct157deficiencywalkerunderreview.",
+    "evidence": "research/score11-hard-retention157-range9-12-actual-review.md"
   },
   {
     "id": "A05",
@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "main19..13 scoped UNSAT;12 unresolved",
+    "status": "main19..13 scoped UNSAT;12 has487cuts",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Cap480independentaudit reproduces164450pairs and232ternarycuts. Depth14/13nativeUNSAT;12timesout with181savedcuts,11/10unstarted. No checkedUNSATproof/globalbound. Exact12continuationunderreview.",
-    "evidence": "research/main-ancestors14-through10-cap480-pair-sat-v1-actual-review.md"
+    "finding": "Exact12continuationretained181andadded306validatedternarycuts;25.122stimeout/487total,noverdict. All9539binary/map/heads/pinsunchanged;11/10unstarted. Reusableboundedcontinuationunderreview.",
+    "evidence": "research/main-depth12-cut-continuation-v1-actual-review.md"
   },
   {
     "id": "A09",

@@ -1,0 +1,31 @@
+# Fixed-source target157 with nine to twelve effective deletions
+
+Design only. No source implementation, n79 formula build, native solve or allocation is authorized by this note. The exact source is the invalid 158-point score-11 configuration, bytes SHA-256 `9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26` and normalized point hash `f0ab1e9b47f89b8252eb5fec00b6d2b451bd25545924dc4a491d0b6638dff34d`. The separate valid incumbent remains 156.
+
+Let L_p = not X_p for each of the 158 original cells. Enforce **intrinsically** `9 <= sum L_p <= 12`, with the reviewed exact target157 axis constraints. This is not the broader `<=12` neighborhood and does not rely on trusting earlier UNSAT. Effective source deletions d=9,10,11,12 correspond respectively to retained originals 149,148,147,146 and new cells 8,9,10,11. Readded source cells count as retained. No symmetry, connected patch, fixed conflict cover or deficient-axis position is imposed. It is disjoint from the previously assessed `d<=6` and `d=7..8` target157 scopes, subject to their own evidence and conditional solver limitations.
+
+Recompute and dual-validate the original 11 conflict triples from the source; add those as fresh initial necessary clauses. Do not load any old geometry-cut file or solver checkpoint. Use at most 20,000 newly generated exact geometry cuts in addition to those 11, and at most 256 cuts per model. A truncated candidate scan yields a lower bound on conflicts, not an exact score or validity. Keep at most one last invalid candidate and one independently dual-audited exact best invalid candidate, with explicit target, retention, score completeness and source-reference metadata. A zero-conflict complete scan requires both full validators and immediate atomic witness saving, including when the second validator crosses the soft deadline. Solver-reported scoped UNSAT is conditional on the encoding and native backend; no proof certificate or global bound follows.
+
+## Independent counter arithmetic
+
+Use one axis-encoding `IDPool` for all real cells, axis deficit variables and both counters. The existing `search(extra_clauses=...)` interface permits real-cell IDs only and cannot safely inject these new auxiliaries; any future implementation must use a separate explicitly scoped builder and preserve frozen code. For the installed interior Sinz sequential at-most-k encoding on n literals, the previously inspected PySAT formula uses k(n-k) auxiliaries and 2k(n-k)+n-2k clauses. Both cases below are interior (n=158). At-least-nine over deletion literals is encoded as at-most 149 over their complements.
+
+| Constraint | At-most form | Auxiliaries | Clauses |
+| --- | ---: | ---: | ---: |
+| At most 12 deletions | k=12 | 12×146 = 1,752 | 2×1,752 + 158 − 24 = 3,638 |
+| At least 9 deletions | k=149 | 149×9 = 1,341 | 2×1,341 + 158 − 298 = 2,542 |
+| Both | | 3,093 | 6,180 |
+
+Using the previously reviewed target157 axis counts of 55,851 variables and 99,060 clauses, plus 11 source triples, the expected initial formula is **58,944 variables and 105,251 clauses**. With 20,000 new cuts it has at most 125,251 explicit clauses. Assuming each clause has at most three literals except the two 79-literal axis-deficit clauses, a conservative bound is 315,905 initial literal occurrences and 375,905 after all new cuts. These are arithmetic bounds on the specified encoder, not a constructed n79 formula or measured RSS. Actual source should record and fail closed above 60,000 variables, 110,000 initial clauses or 400,000 initial literal occurrences; independent review must confirm exact encoder applicability, shared auxiliary disjointness, and all counts before native bootstrap. None bounds learned clauses, native heap, allocator overhead or sampled-memory overshoot.
+
+## Evidence and stopping rationale
+
+The completed D6 trial had 87 complete candidate scans, 2,655 new cuts and trusted scoped native UNSAT; the disjoint 7..8 trial had 177 candidate models and 7,380 new cuts, again trusted scoped native UNSAT. Neither produced a valid witness or a target157 invalid state better than the source-reference score of 11; the reference has 158 points and must not be presented as the best observed 157-point model. The latter last model had 37 triples and is not a run-wide best. The 7..8 counts show substantially more work than D6 in those individual runs, but are not a controlled runtime or probability model for 9..12.
+
+The proposed range is a concrete unexplored local scope and can preserve at least 146 source cells. Its additional freedom may escape the tested deletion neighborhoods, but it also expands the space and retains many original conflicts. There is no evidence that those competing effects make a witness likely. A single short fit-and-progress measurement could distinguish an obvious construction/memory failure or absence of useful candidate progress; do not interpret more candidates or lower partial conflict counts as success. If its only result is timeout, cut cap, poor memory headroom or no verified improvement, do not automatically extend the time or widen the range. Any later allocation needs its own evidence-based decision.
+
+## Required review and optional gate
+
+An independent mathematical review should check both bounds and literal arithmetic, set disjointness, soundness of source clauses, target157/158 scope and the no-old-cut rule. Tiny/source work, if separately authorized, should exhaust all small assignments against independent determinant and axis oracles, including lower/upper boundary cases, shared-pool auxiliary separation, the occupied row/column-deficit intersection, native interruption and late-witness persistence. It should also test that any partial geometry scan and 20,000-cut exhaustion remain incomplete. No source work is requested or implied by this note.
+
+Only after source/tiny review may Root separately consider one fresh-output, one-process 25-second soft / 30-second owned hard / 256-MiB sampled gate. The total includes source validation, formula construction, bootstrap, solve, final audits and cleanup; native calls are not predictively memory-bounded by clause counts. Preserve frozen D6/7..8 sources and reports. No resume, history, cut reuse, automatic follow-up or proof claim is included.

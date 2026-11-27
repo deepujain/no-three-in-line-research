@@ -1,0 +1,8 @@
+{
+  "combined_tests": 24,
+  "python_version": "3.14.7",
+  "result": "passed",
+  "scope": "tiny only; no n79 formula or geometry",
+  "source_sha256": "d1b9537f0f16735c11b795409bb7af5427097099e92f4735afbafafabd94d3f1",
+  "test_sha256": "c7bfce618bb9761a5a39afd39c0979d29294909d47a61b6a1d4e38b05c76624d"
+}

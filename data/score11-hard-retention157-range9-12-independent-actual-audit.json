@@ -1,0 +1,52 @@
+{
+  "best_invalid_saved": false,
+  "best_invalid_score": null,
+  "decision": "PASS_INCOMPLETE_TIMEOUT_NO_CLOSURE",
+  "elapsed_audit_seconds": 0.2125183339958312,
+  "execution_provenance": {
+    "complete_scans": 293,
+    "elapsed_seconds": 25.108408291998785,
+    "gate_clean": true,
+    "gate_interpretation": "expected cooperative-timeout return2; clean cleanup, no monitor/trigger errors; no UNSAT",
+    "models": 293,
+    "partial_scans": 0,
+    "peak_sampled_rss_kib": 104272,
+    "prior_models_independently_replayed": false
+  },
+  "independent_formula_reconstruction": {
+    "canonical_final_formula_sha256": "5679b54d532187e47c9046b2294fb7b95851d7aab8214611a68f1ac4e84f3b5d",
+    "cardinality_library": "same pinned python-sat sequential counter encoder",
+    "final_clauses": 124364,
+    "final_literals": 307600,
+    "initial_clauses": 105251,
+    "initial_literals": 250261,
+    "lower_range_clauses": 2542,
+    "production_formula_helpers_used": false,
+    "upper_range_clauses": 3638,
+    "variable_count": 58944
+  },
+  "independent_geometry": {
+    "distinct_new_cuts": 19113,
+    "last_candidate_new_points": 11,
+    "last_candidate_point_count": 157,
+    "last_candidate_retained_points": 146,
+    "last_candidate_source_deletions": 12,
+    "last_candidate_triples": 56,
+    "new_cuts_overlap_initial": 0,
+    "saved_new_cuts_checked": 19113,
+    "source_point_count": 158,
+    "source_triples": 11
+  },
+  "independent_unsat_proof_checked": false,
+  "input_sha256": {
+    "data/experiments/shepherd-score11-hard-retention157-range9-12-v1.json": "e992f19a18090ef04b675c5edda1835ba3f39de52c65be7db02e4dc5503c1fcc",
+    "data/score11-hard-retention157-range9-12-v1/last-candidate.json": "e0e118b4ec9c1a7b49855c594b8f0c4a6253380755b2e74ed4a6938ef173341a",
+    "data/score11-hard-retention157-range9-12-v1/new-geometry-cuts.json": "1b55363bd7a6bf0fa954291bb4ce2788f8892c9a9c21fb0a544ea8a992180e8f",
+    "data/score11-hard-retention157-range9-12-v1/report.json": "831e9d99f759e2204a267cdffa6bd9976962cca18304bc59e8c2f221480a6ac9"
+  },
+  "no_valid_witness_saved": true,
+  "scope": "Incomplete search only: 157 points on 79x79 with at most two per row/column and intrinsically nine through twelve effective deletions from the fixed invalid 158-point source. Fresh11source clauses and19113 new geometry cuts; zero old cuts loaded. Timeout gives no negative closure, no UNSAT and no global conclusion.",
+  "solver_replay_performed": false,
+  "source_pin_manifest_sha256": "61b047a54e797800972f076268f64d4e4a5bba211d09fe1608b50c3e8be2047f",
+  "source_pins_checked": 35
+}

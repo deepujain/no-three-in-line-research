@@ -1,0 +1,391 @@
+{
+  "base_exact_three_assignment_count": 10,
+  "budget_oracles": [
+    {
+      "new_allowance": 0,
+      "retained": 1,
+      "total_cap": 1
+    },
+    {
+      "new_allowance": 1,
+      "retained": 1,
+      "total_cap": 2
+    },
+    {
+      "new_allowance": 3,
+      "retained": 1,
+      "total_cap": 4
+    },
+    {
+      "new_allowance": 819,
+      "retained": 181,
+      "total_cap": 1000
+    }
+  ],
+  "cut_geometry_checked": 4,
+  "independent_valid_candidate_after_all_cuts": [
+    1,
+    2,
+    5
+  ],
+  "local_variable_to_orbit_id": [
+    101,
+    103,
+    107,
+    109,
+    113
+  ],
+  "mapping_sha256": "89e902d638be8f3a0d3e2604f4239fb66849fcfe43f4b6adede803a10de9bbbb",
+  "n79_formula_or_solver_used": false,
+  "new_cut_sequence": [
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4
+    ]
+  ],
+  "oracle_source_sha256": "679162b5fa1955eca75a3c41d8e0f2a16db1a1294f11b8f2ef82f09a11174280",
+  "point_by_local_variable": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "production_source_tested": false,
+  "required_error_cases": [
+    {
+      "kind": "retained_cut_violating_model",
+      "selected_ids": [
+        1,
+        2,
+        3
+      ],
+      "violated_cut": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "kind": "new_cut_repeated_model_after_first_addition",
+      "selected_ids": [
+        1,
+        2,
+        4
+      ],
+      "violated_cut": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "cut_ids": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "kind": "duplicate_seed"
+    },
+    {
+      "changed_clause_orbits": [
+        109,
+        103,
+        107
+      ],
+      "changed_map": [
+        109,
+        103,
+        107,
+        101,
+        113
+      ],
+      "changed_mapping_sha256": "c973c0b1cd5cd5e1d365fa045497a7a5200f1477aa41535c535427d1bb751ed6",
+      "kind": "map_identity_changed_even_if_geometry_remains_collinear",
+      "original_clause_orbits": [
+        101,
+        103,
+        107
+      ]
+    }
+  ],
+  "retained_cut_ids": [
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "scope": "TINY ONLY; direct exact-three truth table on five singleton point labels, not a quarter-orbit search",
+  "stages": [
+    {
+      "allowed_exact_three_assignments": [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "cut_ids": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "new_cuts": 0,
+      "retained_cuts": 1,
+      "total_cuts": 1
+    },
+    {
+      "allowed_exact_three_assignments": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "cut_ids": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "new_cuts": 1,
+      "retained_cuts": 1,
+      "total_cuts": 2
+    },
+    {
+      "allowed_exact_three_assignments": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "cut_ids": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "new_cuts": 2,
+      "retained_cuts": 1,
+      "total_cuts": 3
+    },
+    {
+      "allowed_exact_three_assignments": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "cut_ids": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "new_cuts": 3,
+      "retained_cuts": 1,
+      "total_cuts": 4
+    }
+  ]
+}

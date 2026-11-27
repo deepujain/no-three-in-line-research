@@ -1,0 +1,20 @@
+# Exact depth12 cut continuation: source handoff
+
+Implementation/review model: gpt-6.1-sol, high. Author work is source/tiny only. Ten tests pass in 0.230 seconds; no prospective n79 mask, pair census, formula or native solve was run. Reading the pinned predecessor and synthetic mapping checks are included. Independent source/tiny review passed:10 tests in0.240 seconds and all67 handoff pins matched. Review: research/near-quarter-depth12-cut-continuation-independent-source-review.md. Root alone allocates the actual chunk.
+
+The adapter starts at depth12 of the exact accepted main19 path, retaining50 points and seeking27 new four-orbits for target158. It preserves the audited369-variable complete map, all9539 binary exclusions and181 distinct necessary ternary cuts with point witnesses. Prior report, receipt and independent audit are hash-pinned and mutually checked; closed depths14/13 are skipped. A fresh private state, full1521-bit mask and deterministic degree formula are rebuilt. The prior67896-pair census is reused with explicit provenance and zero new pair probes at12. Every loaded binary ID pair is ordered, unique and in range; all181 ternary records are rechecked for exact integer collinearity and three distinct new-orbit memberships before native construction.
+
+The new loop seeds its known-cut set with all181 retained triples, rejects any returned model violating an existing binary or ternary clause, and enforces1000 TOTAL ternary cuts. Thus at most819 new depth12 cuts can be added. Report fields distinguish retained_triple_cuts, new_triple_cuts and total_triple_cuts (also triple_cuts), preserve old records first, and attach immutable predecessor provenance. All new cuts append exact point witnesses. Old source and evidence files are never modified.
+
+The exact rebuilt degree formula must contain2823 variables,5002 clauses and11814 literal entries. Its starting seeded formula has14722 clauses and31435 literal entries. At the total1000 ternary cap it has at most15541 clauses and33892 literals. Unexpired native UNSAT alone advances to fresh11, then fresh10; each has a separate mask, full pair census, formula and up to1000 fresh triples, with no transferred12 cuts. All three stages share one absolute soft deadline of at most25 seconds, under the existing30-second owned/256-MiB gate. Optional stages retain46/42 points and need28/29 orbits. Each mask is capped480 without truncation; each fresh pair census is at most114960; total new probes at most229920 and total new ternary cuts at most2819.
+
+The frozen ancestor, prefix and prior adapter sources are preserved and hash checked. Exact158-point model checks, streamed integer triple checks, dual full witness validators, immediate atomic witness persistence including late successful validation, timer cancellation/join before solver deletion, and atomic final report publication are retained. Native UNSAT remains conditional and exact-prefix scoped without independently verified proof. Any witness, unknown, timeout, mask capacity, degree shortage, cut cap or integrity error stops advancement. The final immutable input/source rereads also run after cooperative timeout inside the owned gate.
+
+Tests use the independent five-variable Boolean oracle, synthetic seed records and mocked stages. They cover total caps1/2/4 with exactly0/1/3 new cuts; retained and newly excluded models; binary violations; duplicate seeds; changed report/audit/receipt pins; wrong prefix/map/mask; invalid binary IDs, ternary geometry and membership; retained/new/total consistency; old artifact immutability; fresh optional stages; one deadline; native answer/timer races; cleanup order; and late witness persistence/dual-validation rejection. The819 allowance is arithmetic, not a numerical search.
+
+Prospective Root-owned command, requiring a fresh output directory:
+
+    .venv/bin/python research/near_quarter_depth12_cut_continuation.py \
+      --seconds 25 --output-dir data/main-depth12-cut-continuation-v1
+
+No automatic retry, below10 extension, capacity widening, accepted-chain mutation or learned-rule integration is included.

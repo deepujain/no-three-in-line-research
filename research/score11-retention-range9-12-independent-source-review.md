@@ -1,0 +1,17 @@
+# Intrinsic deletion range 9–12: independent source review
+
+Decision: PASS for one separately allocated fixed-source target-157 job under the proposed 25-second shared soft / 30-second owned / 256-MiB gate. No n79 formula build, solve or replay was performed by this reviewer.
+
+Source `research/score11_retention_range9_12_sat.py`: SHA-256 `d1b9537f0f16735c11b795409bb7af5427097099e92f4735afbafafabd94d3f1`.
+Tests `tests/test_score11_retention_range9_12_sat.py`: SHA-256 `c7bfce618bb9761a5a39afd39c0979d29294909d47a61b6a1d4e38b05c76624d`.
+All 24 combined D6/range-7–8/range-9–12 tests independently passed in 0.506 seconds. Four additional inherited lifecycle/save/tiny-search cases were rebound directly to the new adapter and passed in 0.091 seconds; these exercised its own copied loop, not just the earlier module.
+
+The exact source diff against the reviewed frozen range-7–8 adapter changes only descriptive scope/method labels and the CLI's fixed lower/upper bounds from 7/8 to 9/12. Full source inspection confirms the original lifecycle, explicit helper reuse, shared axis IDPool and range-aware builder/decoder/save validation remain intact. Frozen D6 helper identity is checked before source loading. Neither the predecessor module nor its mutable globals is changed.
+
+The CLI exposes only n79/target157/min9/max12. Both cardinality counters use the axis pool, keeping auxiliary IDs disjoint. Complete native cell assignments are independently decoded with target/axis/upper-bound checks, then the intrinsic lower bound is checked again. Saved candidates recheck both bounds. Eleven original source triples are freshly dual-validated and inserted as necessary initial constraints; no old geometry-cut file or checkpoint is read. Up to 20,000 newly generated cuts, excluding the initial eleven, are emitted in batches of at most 256. Partial scans retain lower-bound semantics, and candidate history remains bounded to last/best artifacts.
+
+The reference score of eleven belongs to the invalid 158-point source; best observed target-157 score starts null. A better invalid score requires complete geometry and dual exact audits. Valid candidates pass both frozen exact validators and are persisted immediately even when the second validator finishes after the soft deadline. Late native answers are rejected; timers are cancelled and joined before native deletion. One start time covers input validation through search, with the external owned guard covering construction/cleanup tails and native memory.
+
+The new tests exhaust all 4,096 assignments of twelve original bits and all 16,384 assignments of fourteen bits, checking both sides of the intrinsic range. They also exercise independent decoded-bound rejection, a tiny axis/range model, fixed CLI forwarding and frozen-helper identity. The inherited tests cover full tiny axis projection, counter arithmetic, invalid range/save rejection, partial/late model behavior, native interruption and late verified witness persistence. Directly rebinding four inherited cases to this new adapter verifies its save lower-bound gate, real tiny search, timer race/cleanup and actual native interruption.
+
+Any negative result remains solver-reported and scoped to exactly nine through twelve effective deletions from the fixed source. No independent UNSAT proof, global bound, old-cut reuse, automatic retry or range widening follows from this source approval.
