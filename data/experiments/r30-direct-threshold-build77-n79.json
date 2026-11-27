@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-direct-preflight",
+    "--n",
+    "79",
+    "--mode",
+    "build",
+    "--atmost-two-direct-limit",
+    "7",
+    "--conditional-atmost-one-direct-limit",
+    "7",
+    "--rss-mib",
+    "256",
+    "--output",
+    "data/direct-threshold-build77-n79.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 14.092207457993936,
+  "entrypoint_sha256": "da2bd2585ebe76ac624cfd608b56b7401ad9bfbe8656b49005777c5f8f4b1d03",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T02:01:56.442921+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-direct-preflight",
+      "--n",
+      "79",
+      "--mode",
+      "build",
+      "--atmost-two-direct-limit",
+      "7",
+      "--conditional-atmost-one-direct-limit",
+      "7",
+      "--rss-mib",
+      "256",
+      "--output",
+      "data/direct-threshold-build77-n79.json"
+    ],
+    "hypothesis": "Independently audited complete n79histogram and engineer recommendation choose(7,7):194587fewer variables,120875moreclauses thanbaseline. Measure nativeBUILD ONLY using reviewedadapter,unchanged256MiB/30sec gate,one native/SAT allocation. No memory prediction or solve permitted; acceptfullhash/countsonly cleanstablecompletebuild.",
+    "id": "r30-direct-threshold-build77-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r30-direct-threshold-build77-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 93219,
+  "started_at": "2026-11-27T02:01:42.350489+00:00",
+  "status": "completed"
+}

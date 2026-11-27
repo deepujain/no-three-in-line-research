@@ -836,6 +836,75 @@
         "--expected-sha256",
         "cd749a7ec5f0eee2cd12d207d252e530257207022e0f552b2cf75d7350a0269e"
       ]
+    },
+    {
+      "id": "r29-checkpoint-diagonal-n79-04",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "20000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-checkpoint-trial-frontier.json",
+        "--output",
+        "data/diagonal-checkpoint-trial-04-report.json",
+        "--expected-sha256",
+        "00a8e6f410038d8d4cfe5f05ab13d7f34e8ca7f864279de67794f894243bbb23"
+      ],
+      "hypothesis": "Independent r28 review accepted7000-node frontier and cleanresourcegates. One20000-node continuation with external30sec/256MiB gate, checkpoint on cooperative limit, no repeatedprefix; no witness/exhaustion conclusion on timeout."
+    },
+    {
+      "id": "r29-checkpoint-diagonal-n79-explore01",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1",
+        "--checkpoint",
+        "data/diagonal-checkpoint-explore01-frontier.json",
+        "--output",
+        "data/diagonal-checkpoint-explore01-report.json"
+      ],
+      "hypothesis": "Limited exploration: reviewer proposed(d,t)=(0,1), distinct from(0,0) under family-preserving square symmetries since d=t invariant. Fresh1000-node pilot,30sec/256MiB unchanged, no unrestricted coverage claim."
+    },
+    {
+      "id": "r30-direct-threshold-build77-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Independently audited complete n79histogram and engineer recommendation choose(7,7):194587fewer variables,120875moreclauses thanbaseline. Measure nativeBUILD ONLY using reviewedadapter,unchanged256MiB/30sec gate,one native/SAT allocation. No memory prediction or solve permitted; acceptfullhash/countsonly cleanstablecompletebuild.",
+      "args": [
+        "--near-quarter-direct-preflight",
+        "--n",
+        "79",
+        "--mode",
+        "build",
+        "--atmost-two-direct-limit",
+        "7",
+        "--conditional-atmost-one-direct-limit",
+        "7",
+        "--rss-mib",
+        "256",
+        "--output",
+        "data/direct-threshold-build77-n79.json"
+      ]
     }
   ]
 }
