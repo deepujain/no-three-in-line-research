@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "shepherd-score11-conflict-focused-tabu-v1",
+    "seconds": 30,
+    "hypothesis": "Direct157 conflict-focused32sample best-admissible tabu64 walk, seeded279179/max2000steps, unconditional uphill; exactscore and source-distance diagnostics separate; one25soft/30owned256 gate, no restart/retry."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/score11_conflict_focused_tabu.py",
+    "--seconds",
+    "25",
+    "--max-steps",
+    "2000",
+    "--seed",
+    "279179",
+    "--output-dir",
+    "data/score11-conflict-focused-tabu-v1"
+  ],
+  "sources_before": {
+    "data/score11-conflict-focused-tabu-independent-tiny-audit.json": "6bf022ef5e175cffbbcb6ccce63efebbf54da77d2102e4a5100a8308b9c3331f",
+    "data/score11-deficiency-walk-seed279157-v1-independent-actual-audit.json": "419039ebf5828b8fef5b22a0eac29f63e4da4ff203a263aae14c30f704b4faec",
+    "data/score11-deficiency-walk-seed279157-v1/best-state.json": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0",
+    "data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/score11-conflict-focused-deficiency-tabu-independent-design-review.md": "9ff98e4401f20fbc8c2b69a56d3c6e4457a8883035dbee73fa8d161743d7c089",
+    "research/score11-conflict-focused-deficiency-tabu-proposal.md": "87159a71f951199a65132f9f2040ed5ae88bf8c6a5a0f19e2a991961e81eb198",
+    "research/score11-conflict-focused-tabu-independent-source-review.md": "028676dd476280ebab01abda39c28d26a21d0d3be436a8e6c5b2a5d75407f96a",
+    "research/score11_conflict_focused_tabu.py": "980f0a83bc3b7c2824ec3adebac52f95d594d2f10760c27f51961a2d52d0b55f",
+    "research/score11_conflict_focused_tabu_independent_tiny.py": "9646333b7e10ee75ea50e167f7d1abb21567f263cf8adafbf9d4f5a671e55cfa",
+    "research/score11_deficiency_neighborhood.py": "6116f09ac6a35deb04bdd226110adcd0eaca684fa436910ae32248f4c1833fef",
+    "research/score11_deficiency_walk.py": "d956496103278c4532b5fa74fd9ce515546a30dbd8f2cda8925ad6e8195cf787",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_score11_conflict_focused_tabu.py": "907502ca8f33132243065549cace9caf5fd1cadb03c9b89b7c2153cd30543cba",
+    "data/score11-conflict-focused-tabu-source-pins.json": "2a36ec2bd7f5f701c802842ed91836ace5f6baeb7b441aaa7799d6ee6396ac4a"
+  },
+  "status": "completed",
+  "elapsed_seconds": 22.368399750004755,
+  "started_at": "2026-11-27T10:52:43.975543+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 22.3683789170027,
+    "rss_samples": 507,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 48464,
+    "cleanup_elapsed_seconds": 0.010258375012199394,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T10:53:06.343982+00:00",
+  "sources_unchanged": true
+}

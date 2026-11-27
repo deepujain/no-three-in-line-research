@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16712.31810292707,
+  "scheduled_search_wall_seconds_used": 16734.686502677076,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Design/source/tiny review changed direct157focusedtabu; finish geometricblocker-guided selection design.",
+  "next_action": "Audit focusedtabu savedartifacts; source/tiny reviews of geometric8arc scaffold feasibility.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "All8 selected16cycle patches independently excluded by root matching obstructions, noDFS/no156/157. Geometricselection and direct157tabu designs under review.",
+  "current_round": "Focused157tabu completed2000steps/64000proposals; best5unchanged, D13diagnostic45conflicts invalid. Auditpending; no unchanged continuation.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,12 +40,12 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Geometric blocker-guided selection design",
-    "Direct157focusedtabu design/source reviews"
+    "Focusedtabu actualaudit",
+    "8arcscaffold geometry/source/lifecycle reviews"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "3fa2cc3 CI and Pages SUCCESS. 16cycle actual independentlyaccepted69ae8faf; all8rootdomains/matchingcover and selection reproduced.",
+  "validation_status": "fe4ba8a CI/PagesbothSUCCESS. Focusedtabu math/source/tinyPASS028676dd; Root6testsPASS0.025s. Actualclean22.3684s48464KiB/allpinsunchanged, auditpending.",
   "last_formal_review_at": "2026-11-27T10:24:02.922229+00:00",
   "review_outcome": "No improvement in verified cardinality; retain only reviewed compound-cycle construction exploration, no repeated capped/closed work."
 }

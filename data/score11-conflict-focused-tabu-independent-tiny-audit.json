@@ -1,0 +1,21 @@
+{
+  "accepted": true,
+  "counts": {
+    "clock_fault_cases": 314,
+    "distance_transitions": 3,
+    "fifo_cases": 2,
+    "final_identity_fault_cases": 1,
+    "late_witness_cases": 1,
+    "publication_fault_cases": 3,
+    "rectangles": 8496,
+    "relocations": 8648,
+    "seeded_reference_steps": 2,
+    "states": 865
+  },
+  "scope": "Independent tiny n2..4 geometry, n7 predetermined distance fixtures, synthetic policy endpoints and fault injection only; no n79 work",
+  "script_sha256": "9646333b7e10ee75ea50e167f7d1abb21567f263cf8adafbf9d4f5a671e55cfa",
+  "source_sha256": {
+    "research/score11_conflict_focused_tabu.py": "980f0a83bc3b7c2824ec3adebac52f95d594d2f10760c27f51961a2d52d0b55f",
+    "tests/test_score11_conflict_focused_tabu.py": "907502ca8f33132243065549cace9caf5fd1cadb03c9b89b7c2153cd30543cba"
+  }
+}
