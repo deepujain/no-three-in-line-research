@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/two_row_suffix75_actual_authority_adapter.py",
+    "--seconds",
+    "25",
+    "--output",
+    "data/two-row-suffix75-independent-actual-v2-audit.json"
+  ],
+  "audit_output_sha256": "d7262a01a455e3a3a6b45c876d4016d0e388c0b63c2e5c4d2db4632ea2c4ea89",
+  "cleanup_elapsed_seconds": 0.009711166989291087,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "elapsed_seconds": 0.15016595799534116,
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "worker_error",
+  "monitor_error": null,
+  "peak_sampled_rss_kib": 48736,
+  "returncode": 2,
+  "rss_limit_mib": 256,
+  "rss_samples": 3,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "Independent verification oneendpoint/ranking and64attempt ledger/receipt; no optimizer/search replay. Separate from numerical search receipts.",
+  "seconds_limit": 30,
+  "source_pins": {
+    "research/two_row_suffix75_actual_authority_adapter.py": "94846c3c4a34b15f46aa76ca701e08ccc14b0562700f3fdff1e6a7d8cc88a5b4",
+    "research/two_row_suffix_independent_authority_audit.py": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a"
+  },
+  "status": "completed",
+  "trigger_gate_status": null
+}

@@ -1,0 +1,6 @@
+{
+  "accepted": false,
+  "elapsed_seconds": 0.02467308299674187,
+  "error": "ValueError: mandatory exact source/runtime/input pins",
+  "scope": "Independent artifact audit; failure does not authorize retry/search."
+}
