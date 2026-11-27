@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "approved near-quarter encoder; obtaining primary published rct4 fixture for representation gate",
+    "status": "completed corner family audits; proposing sourced bounded-memory exact orbit DFS fallback",
     "additional_role": "Mathematical Reviewer, later task on same agent/model"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "batch adapter approved and pilot queued; implementing explicit-memory near-quarter preflight"
+    "status": "complete compact build passed host gates; implementing separate guarded bounded solver wrapper"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "batch and near-quarter encoder approved; independent fixture and resource-guard review next",
+    "status": "reviewing successful compact n79 build and forthcoming bounded solver wrapper",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

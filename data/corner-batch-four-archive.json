@@ -1,0 +1,15 @@
+{
+  "archive": "data/corner-batch-four-records.tar.gz",
+  "archive_sha256": "fba04cb0733c3fa2867dca4bc0038e573b6461d7f075fb008fa2dabf81075824",
+  "archive_bytes": 462973,
+  "records_json_count": 5809,
+  "cursor_included": true,
+  "payload_bytes": 6264115,
+  "ordered_member_hash_index_sha256": "f270498d0c8039fd37efe4772291776711a03e9db34b213f8205739470640907",
+  "hash_index_format": "SHA256 of UTF-8 compact JSON sorted [member_name, sha256] pairs",
+  "verified_members": 5810,
+  "source_cursor_sha256": "b8f1345a7c061b6bae6367312b6d0eddec440dc0c500839dd4ac6ddb76d1384f",
+  "scope": "Complete1936selected size-four anchor histories,294272overlapping anchor cases, not whole corner family. Original JSON bytes preserved; archive audit is not numerical replay.",
+  "extract": "python3 -m tarfile -e data/corner-batch-four-records.tar.gz data/",
+  "relocated_resume": "Missing absolute references resolve beside the extracted referring record by basename and are still hash checked. Archived cursor binds original directory; use a fresh output cursor for a relocated path."
+}

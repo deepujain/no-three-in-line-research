@@ -1,0 +1,167 @@
+{
+  "anchor_count": 8,
+  "anchors": [
+    {
+      "base_deletion_indices": [
+        40,
+        52
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10296",
+      "linked_records": 32,
+      "terminal_record_sha256": "41e7a15633740155f09017b7d80f84fd7f6543ccdd7d8a4d9e60315b17ab6faa",
+      "tested_addition_subsets": {
+        "157": 613314,
+        "158": 2756
+      },
+      "tip_sha256": "8ff099cb50457866bf06af03b0b7ce6c2e2bd278e36064da0dc1e6d30d07160c",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        40,
+        88
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10297",
+      "linked_records": 31,
+      "terminal_record_sha256": "a36717cdaf5035a5e4416c3fbe17365d8cb963029ab1d2d4d299b2431085f4e0",
+      "tested_addition_subsets": {
+        "157": 613218,
+        "158": 2740
+      },
+      "tip_sha256": "adc57e6229799ff9fec4f2aaf81738d2bceb7237490d53accc41f5ee085ec172",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        52,
+        70
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10298",
+      "linked_records": 32,
+      "terminal_record_sha256": "f49f676c072d9cb92ab65afe1e7fc18db15db141cee287e25ebef2b15f84ac03",
+      "tested_addition_subsets": {
+        "157": 605880,
+        "158": 1496
+      },
+      "tip_sha256": "2e557934bb50b701561bfc3df04f012fd651f1cd6061c870488fe770e788fb39",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        70,
+        88
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10299",
+      "linked_records": 31,
+      "terminal_record_sha256": "19e0d8dca638b630b1547fe4b59ae2f91b08c94c7b476ec318f8bbdb90072b3f",
+      "tested_addition_subsets": {
+        "157": 605784,
+        "158": 1480
+      },
+      "tip_sha256": "6935ea7bdb700ec26a7f0ed9f7be6c15c0202a0e7e5c06c956c412cdad8cf673",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        106,
+        154
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10300",
+      "linked_records": 31,
+      "terminal_record_sha256": "8a7d413a13afdaafc0cc7100d3d98ef5fffb2879b21995afa191805a8ac7c938",
+      "tested_addition_subsets": {
+        "157": 605880,
+        "158": 1496
+      },
+      "tip_sha256": "ea3f7ecefc9645b713028048ad34fa2f057b09eca781397c783d92755cf9bfb8",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        106,
+        155
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10301",
+      "linked_records": 31,
+      "terminal_record_sha256": "00abc276cc8283fca2277f42b83335c43efd0213478b1c55169f0cd9fd1fefd5",
+      "tested_addition_subsets": {
+        "157": 605784,
+        "158": 1480
+      },
+      "tip_sha256": "e214260c53fc127ded8a58398a6fbae28c6c48a3673b6723b436806abb92c92e",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        126,
+        154
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10302",
+      "linked_records": 31,
+      "terminal_record_sha256": "a5ec37aff052511dbefe3de30779a1a78673a8e2fbbbed7ece540602308c5817",
+      "tested_addition_subsets": {
+        "157": 613362,
+        "158": 2764
+      },
+      "tip_sha256": "546fab3c7043b5229a5833af962c565ca441f889ce7b7b4a2136888b4d718413",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "base_deletion_indices": [
+        126,
+        155
+      ],
+      "complete_deletion_sets": 596904,
+      "id": "corner-exact5-anchor-10303",
+      "linked_records": 31,
+      "terminal_record_sha256": "67a43583018d07b9965040cb807de4503bc92c1776efc33fe52fe11b3005e8bb",
+      "tested_addition_subsets": {
+        "157": 613266,
+        "158": 2748
+      },
+      "tip_sha256": "a9afe7414c8e13c6db564d1006e118f006961da0d6294a2b0922c020bd9b1537",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    }
+  ],
+  "audited_utc": "2026-11-27T00:55:14Z",
+  "manifest_sha256": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+  "novelty_claim": false,
+  "remaining_other_anchors": 10296,
+  "scope": "Eight overlapping selected size-two anchors for exact-five deletion family of the single source and one corner; not full-corner closure.",
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "source_order_sha256": "e7678d82888f177d779c4ca250d6cda995645a13e0c102b5727138a835c0c9bb",
+  "status": "eight_size_two_anchor_families_complete_conditional_on_trusted_computation",
+  "trust": "All linked records checked for hash/gap/source/counters, not independently replayed.",
+  "unique_deletion_set_count": null
+}

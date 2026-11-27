@@ -1,0 +1,35 @@
+{
+  "all_json_files_in_directory": 5809,
+  "audited_utc": "2026-11-27T00:56:53Z",
+  "batch_source_sha256": "32d97a4eafbca596cd2dedce42742dfd6e3316c8f5ff474d7b3844a8e85c61e3",
+  "completed_anchor_cases_sum": 294272,
+  "cursor_sha256": "b8f1345a7c061b6bae6367312b6d0eddec440dc0c500839dd4ac6ddb76d1384f",
+  "linked_origin_and_result_records": 3873,
+  "manifest_sha256": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+  "no_global_or_full_corner_claim": true,
+  "referenced_json_files": 5809,
+  "scope": "The selected size-four exact-five anchor families of one corner and one source; anchor families can overlap. Other 8368 manifest anchors are outside this selection.",
+  "selected_anchor_count": 1936,
+  "selected_ordinal_range": [
+    8136,
+    10072
+  ],
+  "selection_sha256": "eb5fbd8b08573b3e1531970118fe96d4e0a5048ee027a37e0c394e9db43b77d4",
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "source_order_sha256": "e7678d82888f177d779c4ca250d6cda995645a13e0c102b5727138a835c0c9bb",
+  "status": "complete_selected_size_four_anchor_families_conditional_on_trusted_computation",
+  "tested_addition_subsets": {
+    "157": 303968,
+    "158": 1672
+  },
+  "tip_files": 1936,
+  "trust": "Full linked artifacts and counters checked; numerical computations not independently replayed. Hashes provide consistency, not proof of execution.",
+  "unique_deletion_set_count": null,
+  "unreferenced_json_files": 0,
+  "unselected_anchor_count": 8368,
+  "valid_addition_subsets": {
+    "157": 0,
+    "158": 0
+  },
+  "witness_files": 0
+}

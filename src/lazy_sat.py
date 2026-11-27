@@ -216,6 +216,11 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
 
 def main(argv=None):
     arguments = list(sys.argv[1:] if argv is None else argv)
+    if '--near-quarter-compact-preflight' in arguments:
+        arguments.remove('--near-quarter-compact-preflight')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.near_quarter_compact_preflight import main as compact_preflight_main
+        return compact_preflight_main(arguments)
     if '--near-quarter-preflight' in arguments:
         arguments.remove('--near-quarter-preflight')
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))

@@ -32,8 +32,8 @@
     "role": "Research Software Engineer",
     "status": "active frontier",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Six selected size-two families and8136one-case families complete with no improvement; two size-two streams and next four-cover batch active, full corner family open",
-    "evidence": "data/corner-batch-small-summary.json"
+    "finding": "All eight size-two, 1,936 size-four and 8,136 one-case anchor families completed and audited with no improvement; two size-three partitions remain active, full corner family open",
+    "evidence": "data/corner-batch-four-summary.json"
   },
   {
     "id": "A05",
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "exploring",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Near-quarter compiler and published71fixture verified; n79build hit256MiB gate before completion; compact equivalent encoding under review",
-    "evidence": "data/near-quarter-preflight-n79.json"
+    "finding": "Complete compact n79 model built under unchanged 256MiB gate: 2,300,453 clauses, 14.52sec, 251.7MiB sampled peak; no solve yet, guarded search integration under review",
+    "evidence": "data/near-quarter-compact-preflight-n79.json"
   },
   {
     "id": "A10",

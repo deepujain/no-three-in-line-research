@@ -1,0 +1,15 @@
+{
+  "n": 71,
+  "fixture_points": 142,
+  "selected_off_diagonal_points": 140,
+  "local_groups_checked": 2450,
+  "maximum_local_clauses": 595,
+  "maximum_local_auxiliaries": 202,
+  "all_fixed_assignment_checks_passed": true,
+  "full_model_constructed": false,
+  "n79_executed": false,
+  "scope": "published n71 fixed decision assignment; transient local CNFs only; auxiliary satisfiability checks",
+  "completeness_argument": "Every non-main capacity violation requires at least two selected off-diagonal points. Their line is pair-generated, including its full C4 group. Global exactly-one diagonal handles both long diagonals.",
+  "compact_source_sha256": "f2b5840a160d51fc8e5d663cad42f5416286f4b2535cda7ab3cd7c4598b281f1",
+  "fixture_sha256": "00a206f24c3044c252a57160c59af6ef39e2312f0132329b123143c2ad0c01d9"
+}

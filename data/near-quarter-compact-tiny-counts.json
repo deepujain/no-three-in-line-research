@@ -1,0 +1,83 @@
+{
+  "counts": [
+    {
+      "c4_line_groups": 3,
+      "compact": {
+        "auxiliaries": 0,
+        "clauses": 2,
+        "literal_occurrences": 2,
+        "variables": 2
+      },
+      "halfturn_weighted_lines": 6,
+      "n": 3,
+      "orbit_variables": 2,
+      "original": {
+        "auxiliaries": 0,
+        "clauses": 2,
+        "literal_occurrences": 2,
+        "variables": 2
+      }
+    },
+    {
+      "c4_line_groups": 10,
+      "compact": {
+        "auxiliaries": 8,
+        "clauses": 32,
+        "literal_occurrences": 78,
+        "variables": 14
+      },
+      "halfturn_weighted_lines": 20,
+      "n": 5,
+      "orbit_variables": 6,
+      "original": {
+        "auxiliaries": 24,
+        "clauses": 60,
+        "literal_occurrences": 134,
+        "variables": 30
+      }
+    },
+    {
+      "c4_line_groups": 31,
+      "compact": {
+        "auxiliaries": 38,
+        "clauses": 180,
+        "literal_occurrences": 476,
+        "variables": 50
+      },
+      "halfturn_weighted_lines": 62,
+      "n": 7,
+      "orbit_variables": 12,
+      "original": {
+        "auxiliaries": 102,
+        "clauses": 270,
+        "literal_occurrences": 622,
+        "variables": 114
+      }
+    }
+  ],
+  "grids": [
+    3,
+    5,
+    7
+  ],
+  "identities": {
+    "compact_source_sha256": "f2b5840a160d51fc8e5d663cad42f5416286f4b2535cda7ab3cd7c4598b281f1",
+    "diagonal_pair_orbits": 1,
+    "direct_light_limit": 5,
+    "encoding_variant": "c4-shared-offdiagonal-direct-small-v1",
+    "four_orbits": 1,
+    "line_generator_sha256": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "model_source_sha256": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "n": 3,
+    "orbit_mapping_sha256": "2d7b685323a550820fb9c3cb30401e0f4fe1acb69c895d64d4d2b5bcbd7b7563",
+    "orbit_variables": 2,
+    "paper": "https://arxiv.org/html/2602.07751#S3",
+    "required_diagonal_pairs": 1,
+    "required_four_orbits": 1,
+    "scope": "near-quarter-turn restricted family",
+    "target": 6
+  },
+  "kind": "tiny_complete_near_quarter_encoding_counts",
+  "scope": "complete tiny CNF counts only; no n79 enumeration, build or search",
+  "test_source_sha256": "a55eaed7f25d8a690763a43bc4d32cdcc48ff681d69055cb714e4823e105ccde"
+}

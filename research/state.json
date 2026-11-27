@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect corner four-cover batch and remaining size-two receipts/witnesses, preserve overlaps. All8136one-case histories archived and independently audited; six size-two families complete. Original n79preflight failed memory gate, no solve. Review compact equivalent encoder before rerunning the same resource gate, no automatic memory increase.",
+  "next_action": "Continue two size-three corner partitions; independently review successful compact n79 build and separate guarded solver wrapper before bounded search. Build complete at251.7MiB sampled peak under256MiB; no solve yet, headroom small.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -21,12 +21,12 @@
     "24340 individual empty-cell blocker checks",
     "5824 guided <=3-deletion sets, no point-count improvement",
     "6237 nonuniform source embeddings excluded through five deletions, conditional on reviewed trusted computations",
-    "three exact-five corner-anchor families completed, overlapping, conditional on reviewed trusted computations"
+    "eight size-two,1936size-four and8136one-case exact-five corner anchor families complete, overlapping, conditional on reviewed trusted computations"
   ],
   "compute_seconds_limit": 21600,
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "two size-two corner streams and four-cover batch completion; compact near-quarter encoding under independent review after resource-gated build failure",
+  "current_round": "Size-three corner streams active; compact n79 build successful, guarded search wrapper under review",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-compact-preflight",
+    "--n",
+    "79",
+    "--mode",
+    "build",
+    "--rss-mib",
+    "256",
+    "--output",
+    "data/near-quarter-compact-preflight-n79.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 16.3957894999985,
+  "entrypoint_sha256": "6b2a3409ade12ce10b79247b703b1add1f4c8350642033aace375db75096bf18",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T00:59:31.552208+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-compact-preflight",
+      "--n",
+      "79",
+      "--mode",
+      "build",
+      "--rss-mib",
+      "256",
+      "--output",
+      "data/near-quarter-compact-preflight-n79.json"
+    ],
+    "hypothesis": "Independently approved exact compact near-quarter encoding passed136host tests and tiny real guard. Build only complete n79CNF under unchanged30second/256MiB sampled memory gate. No solve, no SAT/UNSAT; incomplete build clears complete flags/hash. Compare feasibility against original failed build without raising limits.",
+    "id": "r16-near-quarter-compact-preflight-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r16-near-quarter-compact-preflight-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 12568,
+  "started_at": "2026-11-27T00:59:15.156685+00:00",
+  "status": "completed"
+}

@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "Three numeric lanes maximum; remaining size-two streams precede independently approved200-case small-anchor batch pilot. Fresh exec uses opt-in batch CLI; active old workers remain unchanged. Near-quarter compiler reviewed but fixture/resource gates still pending.",
+  "note": "One existing supervisor, at most three numerical children. Reviewed disjoint size-three anchor partitions refill two free lanes; compact near-quarter build remains gated pending independent adapter review.",
   "jobs": [
     {
       "args": [
@@ -475,6 +475,73 @@
         "data/corner-batch-four.json",
         "--records-directory",
         "data/corner-batch-four-records"
+      ]
+    },
+    {
+      "id": "r15-corner-batch-three-a",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Independently reviewed next exact-five repair branch: disjoint manifest ordinal partition of previously unsearched size-three anchors. Anchors overlap as deletion sets; only completed gapless prefixes count. Preserve dual-verified witnesses and partial cursor; no full-corner or global impossibility claim.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "11628",
+        "--start-anchor",
+        "10072",
+        "--stop-anchor",
+        "10184",
+        "--max-cases",
+        "1302336",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-three-a.json",
+        "--records-directory",
+        "data/corner-batch-three-a-records"
+      ]
+    },
+    {
+      "id": "r15-corner-batch-three-b",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Independently reviewed next exact-five repair branch: disjoint manifest ordinal partition of previously unsearched size-three anchors. Anchors overlap as deletion sets; only completed gapless prefixes count. Preserve dual-verified witnesses and partial cursor; no full-corner or global impossibility claim.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "11628",
+        "--start-anchor",
+        "10184",
+        "--stop-anchor",
+        "10296",
+        "--max-cases",
+        "1302336",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-three-b.json",
+        "--records-directory",
+        "data/corner-batch-three-b-records"
+      ]
+    },
+    {
+      "id": "r16-near-quarter-compact-preflight-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Independently approved exact compact near-quarter encoding passed136host tests and tiny real guard. Build only complete n79CNF under unchanged30second/256MiB sampled memory gate. No solve, no SAT/UNSAT; incomplete build clears complete flags/hash. Compare feasibility against original failed build without raising limits.",
+      "args": [
+        "--near-quarter-compact-preflight",
+        "--n",
+        "79",
+        "--mode",
+        "build",
+        "--rss-mib",
+        "256",
+        "--output",
+        "data/near-quarter-compact-preflight-n79.json"
       ]
     }
   ]
