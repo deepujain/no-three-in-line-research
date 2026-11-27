@@ -1,0 +1,357 @@
+"""Guarded compact near-quarter solve: <=120 seconds including construction.
+
+The unchanged sampled 256 MiB parent-plus-child gate includes native solver
+memory and possible sampling overshoot. Only a complete CNF can be solved.
+Witnesses require exact family decoding, both verifiers and durable publication.
+UNSAT is restricted-family, solver-reported and not independently proof checked.
+"""
+import argparse
+from contextlib import contextmanager
+import hashlib
+import json
+import math
+import os
+from pathlib import Path
+import signal
+import subprocess
+import sys
+import tempfile
+import threading
+import time
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from research.near_quarter_preflight import atomic, guarded_process, sha
+
+SOURCE_PATHS = {
+    'model_source_sha256':ROOT/'src/near_quarter_model.py',
+    'line_generator_sha256':ROOT/'src/line_model.py',
+    'compact_source_sha256':ROOT/'src/near_quarter_compact.py',
+    'guard_source_sha256':ROOT/'research/near_quarter_preflight.py',
+    'verifier_source_sha256':ROOT/'src/verify.py',
+    'solve_source_sha256':Path(__file__).resolve(),
+}
+
+
+class CancellationRequested(RuntimeError):
+    pass
+
+
+class BudgetExpired(RuntimeError):
+    pass
+
+
+@contextmanager
+def cancellation_signals():
+    """SIGTERM/SIGINT unwind the frozen guard's process-group cleanup."""
+    def cancel(signum,frame):
+        raise CancellationRequested(f'cancelled by signal {signum}')
+    previous = {sig:signal.signal(sig,cancel) for sig in (signal.SIGTERM,signal.SIGINT)}
+    try:
+        yield
+    finally:
+        for sig,handler in previous.items():
+            signal.signal(sig,handler)
+
+
+def source_hashes():
+    return {key:sha(path) for key,path in SOURCE_PATHS.items()}
+
+
+def initial_state(n,sources,expected):
+    return {'n':n,'target':2*n,'mode':'build_and_solve','backend':'glucose3',
+            'scope':'near-quarter-turn restricted family; target 2*n',
+            'status':'incomplete','phase':'startup','complete':False,'search_complete':False,
+            'search_performed':False,'solver_result':None,'conclusion':None,
+            'proof_checked':False,'clauses':0,'clauses_added':0,'variables':0,
+            'cnf_complete':False,'build_complete':False,'model_sha256':None,
+            'prefix_sha256':None,'witness_file':None,'witness_sha256':None,
+            'counter_semantics':'last atomically published lower bounds until CNF complete',
+            'expected_model_sha256':expected,'source_hashes':sources,
+            'solve_source_sha256':sources['solve_source_sha256']}
+
+
+def decode_orbits(model,assignment,max_variable):
+    """Check real orbit assignments without a second copy of the full model."""
+    if assignment is None:
+        raise ValueError('SAT result has no model')
+    slots = [0]*len(model['orbits'])
+    for literal in assignment:
+        if type(literal) is not int or not 1 <= abs(literal) <= max_variable:
+            raise ValueError('invalid model literal type or variable range')
+        variable = abs(literal)
+        if variable <= len(slots):
+            if slots[variable-1]:
+                raise ValueError('duplicate or contradictory real orbit assignment')
+            slots[variable-1] = literal
+    if not all(slots):
+        raise ValueError('missing real orbit assignment')
+    selected = [v for v in slots if v > 0]
+    four = sum(v <= model['four_count'] for v in selected)
+    if four != model['n']//2 or len(selected)-four != 1:
+        raise ValueError('SAT model violates exact four-orbit/diagonal cardinalities')
+    return selected
+
+
+def persist_witness(directory,payload):
+    """Atomically link a fully written, fsynced immutable hash-named file."""
+    content = (json.dumps(payload,sort_keys=True,separators=(',',':'))+'\n').encode()
+    digest = hashlib.sha256(content).hexdigest()
+    directory = Path(directory)
+    directory.mkdir(parents=True,exist_ok=True)
+    destination = directory/f'near-quarter-witness-n{payload["n"]}-{digest}.json'
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=directory,prefix='.witness-',delete=False) as stream:
+            temporary = Path(stream.name)
+            stream.write(content)
+            stream.flush()
+            os.fsync(stream.fileno())
+        try:
+            os.link(temporary,destination)
+        except FileExistsError:
+            if destination.read_bytes() != content:
+                raise ValueError('existing immutable witness differs from verified bytes')
+        descriptor = os.open(directory,os.O_RDONLY)
+        try:
+            os.fsync(descriptor)
+        finally:
+            os.close(descriptor)
+        return str(destination.resolve()),digest
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
+def worker(job):
+    state = initial_state(job['n'],job['source_hashes'],job['expected_model_sha256'])
+    started = time.monotonic()
+    last_publish = 0
+    solver = None
+    timer = None
+    fired = threading.Event()
+    def publish(force=False):
+        nonlocal last_publish
+        now = time.monotonic()
+        if state['phase'] == 'cnf':
+            if now >= job['deadline_monotonic']:
+                raise BudgetExpired('construction deadline reached')
+        if force or now-last_publish >= .05:
+            if state['phase'] == 'cnf' and (os.getppid() != job['guard_parent_pid'] or
+                                           not Path(job['guard_alive_path']).exists()):
+                raise CancellationRequested('guard parent disappeared during construction')
+            atomic(job['state'],state)
+            last_publish = now
+    def stable():
+        if source_hashes() != job['source_hashes']:
+            raise ValueError('source hashes changed')
+    def stop_timer():
+        nonlocal timer
+        if timer is not None:
+            timer.cancel()
+            timer.join()
+            timer = None
+    publish(True)
+    try:
+        if os.getppid() != job['guard_parent_pid'] or not Path(job['guard_alive_path']).exists():
+            raise CancellationRequested('guard parent disappeared before construction')
+        stable()
+        from src.near_quarter_model import orbit_map,check_candidate
+        from src.near_quarter_compact import compact_counts,streamed_cnf
+        from pysat.solvers import Solver
+        model = orbit_map(job['n'])
+        state['family'] = compact_counts(model)
+        state['variables'] = len(model['orbits'])
+        state['phase'] = 'cnf'
+        publish(True)
+        solver = Solver(name='glucose3')
+        digest = hashlib.sha256()
+        header = {'family':state['family'],'off_diagonal_quotient':'full C4',
+                  'exceptional_diagonal_guards':True}
+        digest.update((json.dumps(header,sort_keys=True,separators=(',',':'))+'\n').encode())
+        for clause in streamed_cnf(model):
+            digest.update((json.dumps(clause,separators=(',',':'))+'\n').encode())
+            state['clauses'] += 1
+            state['variables'] = max(state['variables'],max(map(abs,clause),default=0))
+            solver.add_clause(clause)
+            state['clauses_added'] += 1
+            state['prefix_sha256'] = digest.hexdigest()
+            publish()
+        stable()
+        state.update(cnf_complete=True,build_complete=True,model_sha256=digest.hexdigest(),
+                     build_seconds=time.monotonic()-started)
+        if job['expected_model_sha256'] is not None and digest.hexdigest() != job['expected_model_sha256']:
+            raise ValueError('complete CNF hash differs from expected preflight model')
+        remaining = job['deadline_monotonic']-time.monotonic()
+        if remaining <= 0:
+            state.update(status='budget_exhausted',phase='finished')
+            publish(True)
+            return 0
+        def interrupt():
+            fired.set()
+            solver.interrupt()
+        timer = threading.Timer(remaining,interrupt)
+        timer.daemon = True
+        timer.start()
+        state.update(phase='solve',search_performed=True)
+        publish(True)
+        solve_started = time.monotonic()
+        answer = solver.solve_limited(expect_interrupt=True)
+        state['solve_seconds'] = time.monotonic()-solve_started
+        stop_timer()  # Must join before deleting the solver or changing its reference.
+        state['timer_interrupt_fired'] = fired.is_set()
+        stable()
+        if fired.is_set() or time.monotonic() >= job['deadline_monotonic']:
+            state.update(status='interrupted',phase='finished')
+            publish(True)
+            return 0
+        if answer is None:
+            state.update(status='no_result',phase='finished')
+            publish(True)
+            return 0
+        if answer is not True and answer is not False:
+            raise ValueError('unexpected native solve result')
+        if answer is True:
+            # PySAT materializes every auxiliary literal. Free the native CNF
+            # immediately afterward, before allocating verification state.
+            assignment = solver.get_model()
+            solver.delete()
+            solver = None
+            selected = decode_orbits(model,assignment,state['variables'])
+            del assignment
+            checked = check_candidate(model,selected)
+            if not checked['valid_full_witness']:
+                raise ValueError('decoded SAT model fails independent exact verifiers')
+            stable()
+            payload = {**checked['certificate'],'selected_orbit_ids':selected,
+                       'scope':state['scope'],'model_sha256':state['model_sha256'],
+                       'source_hashes':job['source_hashes'],'checks':checked['checks']}
+            path,witness_hash = persist_witness(job['witness_directory'],payload)
+            state.update(witness_file=path,witness_sha256=witness_hash,
+                         witness_geometry_sha256=checked['checks'][0]['normalized_sha256'])
+            # A valid saved witness can survive a later kill without implying
+            # that the enclosing guarded run completed successfully.
+            publish(True)
+            conclusion = 'verified_witness'
+        else:
+            solver.delete()
+            solver = None
+            conclusion = 'restricted_family_unsat_solver_reported'
+        stable()
+        if time.monotonic() >= job['deadline_monotonic']:
+            state.update(status='budget_exhausted',phase='finished')
+        else:
+            state.update(status=conclusion,phase='finished',complete=True,search_complete=True,
+                         conclusion=conclusion,solver_result=answer)
+        publish(True)
+        return 0
+    except (BudgetExpired,CancellationRequested) as exc:
+        state.update(status='budget_exhausted' if isinstance(exc,BudgetExpired) else 'cancelled',
+                     phase='finished',error=str(exc),complete=False,search_complete=False,
+                     solver_result=None,conclusion=None)
+        publish(True)
+        return 0
+    except Exception as exc:
+        state.update(status='error',error=f'{type(exc).__name__}: {exc}',complete=False,
+                     phase='finished',search_complete=False,solver_result=None,conclusion=None,
+                     cnf_complete=False,build_complete=False,model_sha256=None)
+        publish(True)
+        return 2
+    finally:
+        stop_timer()
+        if solver is not None:
+            solver.delete()
+
+
+def run(n,seconds,rss_mib,output,witness_directory=None,expected_model_sha256=None):
+    if type(n) is not int or n < 3 or n % 2 != 1:
+        raise ValueError('n must be an odd integer >= 3')
+    if not math.isfinite(seconds) or not 0 < seconds <= 120:
+        raise ValueError('seconds must be positive and <= 120 including build')
+    if not math.isfinite(rss_mib) or not 0 < rss_mib <= 256:
+        raise ValueError('rss-mib must be positive and <= 256')
+    if expected_model_sha256 is not None:
+        if (len(expected_model_sha256) != 64 or
+                any(c not in '0123456789abcdef' for c in expected_model_sha256)):
+            raise ValueError('expected model SHA-256 must have 64 lowercase hex digits')
+    output = Path(output).resolve()
+    output.parent.mkdir(parents=True,exist_ok=True)
+    witness_directory = Path(witness_directory or output.parent/'near-quarter-witnesses').resolve()
+    witness_directory.mkdir(parents=True,exist_ok=True)
+    sources = source_hashes()
+    report = initial_state(n,sources,expected_model_sha256)
+    with tempfile.TemporaryDirectory(prefix='near-quarter-compact-solve-') as directory:
+        directory = Path(directory)
+        state_path,log_path,job_path = (directory/name for name in ('state.json','worker.log','job.json'))
+        alive_path = directory/'guard-alive'
+        alive_path.touch()
+        atomic(job_path,{'n':n,'state':str(state_path),'source_hashes':sources,
+                        'expected_model_sha256':expected_model_sha256,
+                        'witness_directory':str(witness_directory),
+                        'guard_parent_pid':os.getpid(),
+                        'guard_alive_path':str(alive_path),
+                        'deadline_monotonic':time.monotonic()+seconds})
+        atomic(output,report)
+        try:
+            try:
+                with cancellation_signals():
+                    guard = guarded_process([sys.executable,str(Path(__file__).resolve()),
+                                             '--_worker',str(job_path)],seconds,rss_mib,log_path)
+            finally:
+                alive_path.unlink(missing_ok=True)
+            if state_path.exists():
+                report.update(json.loads(state_path.read_text()))
+            report['guard'] = guard
+            with open(log_path,'rb') as log:
+                log.seek(0,2)
+                log.seek(max(0,log.tell()-4096))
+                report['worker_log_tail'] = log.read().decode(errors='replace')
+            stable = sources == source_hashes()
+            if guard['gate_status'] != 'exited' or not stable:
+                report.update(worker_observed_status=report['status'],
+                              worker_observed_witness_file=report['witness_file'],
+                              status=guard['gate_status'] if stable else 'source_changed',
+                              complete=False,search_complete=False,conclusion=None,solver_result=None,
+                              cnf_complete=False,build_complete=False,model_sha256=None,
+                              witness_file=None,witness_sha256=None)
+            elif report['witness_file'] is not None and sha(report['witness_file']) != report['witness_sha256']:
+                raise ValueError('saved witness file hash mismatch')
+        except CancellationRequested as exc:
+            if state_path.exists():
+                report.update(json.loads(state_path.read_text()))
+            report.update(status='cancelled',error=str(exc),complete=False,search_complete=False,
+                          conclusion=None,solver_result=None,cnf_complete=False,build_complete=False,
+                          model_sha256=None,worker_observed_witness_file=report['witness_file'],
+                          witness_file=None,witness_sha256=None)
+        except (OSError,ValueError,subprocess.SubprocessError) as exc:
+            report.update(status='host_error',error=str(exc),complete=False,search_complete=False,
+                          conclusion=None,solver_result=None,cnf_complete=False,build_complete=False,
+                          model_sha256=None,worker_observed_witness_file=report['witness_file'],
+                          witness_file=None,witness_sha256=None)
+        atomic(output,report)
+    return report
+
+
+def main(argv=None):
+    args = list(sys.argv[1:] if argv is None else argv)
+    if len(args) == 2 and args[0] == '--_worker':
+        return worker(json.loads(Path(args[1]).read_text()))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--n',type=int,required=True)
+    parser.add_argument('--seconds',type=float,default=120)
+    parser.add_argument('--rss-mib',type=float,default=256)
+    parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--witness-directory',type=Path)
+    parser.add_argument('--expected-model-sha256')
+    parsed = parser.parse_args(args)
+    try:
+        report = run(parsed.n,parsed.seconds,parsed.rss_mib,parsed.output,
+                     parsed.witness_directory,parsed.expected_model_sha256)
+    except (OSError,ValueError) as exc:
+        parser.error(str(exc))
+    print(json.dumps(report,sort_keys=True))
+    return 0 if report['complete'] else 2
+
+
+if __name__ == '__main__':
+    sys.exit(main())

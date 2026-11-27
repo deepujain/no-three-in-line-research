@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Continue two size-three corner partitions; independently review successful compact n79 build and separate guarded solver wrapper before bounded search. Build complete at251.7MiB sampled peak under256MiB; no solve yet, headroom small.",
+  "next_action": "Resume size-three corner partitions from durable tips after current slices end. Compact158firstsolve hit256MiB cap; no result. Review157reflection reversible DFS and guarded benchmark before n79; examine concrete compact encoding reductions without raising cap.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -27,6 +27,6 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Size-three corner streams active; compact n79 build successful, guarded search wrapper under review",
+  "current_round": "Corner prefix continuation; compact solve memory-interrupted;157reflection DFS independent review",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

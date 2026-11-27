@@ -543,6 +543,75 @@
         "--output",
         "data/near-quarter-compact-preflight-n79.json"
       ]
+    },
+    {
+      "id": "r17-near-quarter-compact-solve-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "First exact compact near-quarter158solve after independent source/tiny-host review. Rebuild complete hash-bound model then solve under unchanged256MiB sampled guard and120sec including build. Genuine False is restricted-family solver report only; interruption/resource failure incomplete. Any SAT witness decoded/family checked and dual verified before durable file publication.",
+      "args": [
+        "--near-quarter-compact-solve",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--expected-model-sha256",
+        "909f510443e97c8b909e783115df53f6360f87b18dbce471794ffdf09bb4c2f6",
+        "--output",
+        "data/near-quarter-compact-solve-n79.json",
+        "--witness-directory",
+        "data/near-quarter-witnesses"
+      ]
+    },
+    {
+      "id": "r18-corner-batch-three-a-resume",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Resume only durable unfinished prefixes after900sec slice; source/manifest/selection/hash-linked histories checked. Same frozen exact engine, distinct partition cursor/dir retained. Timeout partial; overlapping anchor counts not distinct coverage.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "11628",
+        "--start-anchor",
+        "10072",
+        "--stop-anchor",
+        "10184",
+        "--max-cases",
+        "1302336",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-three-a.json",
+        "--records-directory",
+        "data/corner-batch-three-a-records"
+      ]
+    },
+    {
+      "id": "r18-corner-batch-three-b-resume",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Resume only durable unfinished prefixes after900sec slice; source/manifest/selection/hash-linked histories checked. Same frozen exact engine, distinct partition cursor/dir retained. Timeout partial; overlapping anchor counts not distinct coverage.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "11628",
+        "--start-anchor",
+        "10184",
+        "--stop-anchor",
+        "10296",
+        "--max-cases",
+        "1302336",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-three-b.json",
+        "--records-directory",
+        "data/corner-batch-three-b-records"
+      ]
     }
   ]
 }

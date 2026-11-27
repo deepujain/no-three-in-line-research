@@ -1,0 +1,47 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-compact-solve",
+    "--n",
+    "79",
+    "--rss-mib",
+    "256",
+    "--expected-model-sha256",
+    "909f510443e97c8b909e783115df53f6360f87b18dbce471794ffdf09bb4c2f6",
+    "--output",
+    "data/near-quarter-compact-solve-n79.json",
+    "--witness-directory",
+    "data/near-quarter-witnesses",
+    "--seconds",
+    "120"
+  ],
+  "elapsed_seconds": 16.641468417001306,
+  "entrypoint_sha256": "26a129e71be745510ac951291546f7262fc1590ba6b26a677e9fa77c5de6e005",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T01:09:59.131689+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-compact-solve",
+      "--n",
+      "79",
+      "--rss-mib",
+      "256",
+      "--expected-model-sha256",
+      "909f510443e97c8b909e783115df53f6360f87b18dbce471794ffdf09bb4c2f6",
+      "--output",
+      "data/near-quarter-compact-solve-n79.json",
+      "--witness-directory",
+      "data/near-quarter-witnesses"
+    ],
+    "hypothesis": "First exact compact near-quarter158solve after independent source/tiny-host review. Rebuild complete hash-bound model then solve under unchanged256MiB sampled guard and120sec including build. Genuine False is restricted-family solver report only; interruption/resource failure incomplete. Any SAT witness decoded/family checked and dual verified before durable file publication.",
+    "id": "r17-near-quarter-compact-solve-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 120
+  },
+  "log": "data/run-logs/r17-near-quarter-compact-solve-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 33187,
+  "started_at": "2026-11-27T01:09:42.490491+00:00",
+  "status": "failed"
+}

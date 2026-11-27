@@ -1,0 +1,22 @@
+[
+  {
+    "partition": "a",
+    "cursor_sha256": "c2b4783e20290d1fe7944211e2264cb81de2d65c8ef61ffa0a07db5a440fe418",
+    "completed_anchor_cases_sum": 737082,
+    "complete_anchor_count": 63,
+    "active_anchor_offset": 4518,
+    "linked_records_checked": 3804,
+    "valid_additions": 0,
+    "scope": "partial overlapping anchor-family histories; integrity audit, not independent computation replay"
+  },
+  {
+    "partition": "b",
+    "cursor_sha256": "482a1a24be154a6787c3be5fb3db96fd7b32994f2032cb3aa8ab88967e3908e0",
+    "completed_anchor_cases_sum": 731231,
+    "complete_anchor_count": 62,
+    "active_anchor_offset": 10295,
+    "linked_records_checked": 3773,
+    "valid_additions": 0,
+    "scope": "partial overlapping anchor-family histories; integrity audit, not independent computation replay"
+  }
+]

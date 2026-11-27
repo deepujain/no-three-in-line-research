@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "exploring",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Complete compact n79 model built under unchanged 256MiB gate: 2,300,453 clauses, 14.52sec, 251.7MiB sampled peak; no solve yet, guarded search integration under review",
-    "evidence": "data/near-quarter-compact-preflight-n79.json"
+    "finding": "Compact model built within256MiB but first solve crossed cap after15.19sec; no witness/UNSAT. Same configuration paused; equivalent memory reduction under investigation",
+    "evidence": "data/near-quarter-compact-solve-n79.json"
   },
   {
     "id": "A10",
