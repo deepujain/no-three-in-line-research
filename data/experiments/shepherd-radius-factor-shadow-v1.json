@@ -1,0 +1,61 @@
+{
+  "job": {
+    "id": "shepherd-radius-factor-shadow-v1",
+    "seconds": 5,
+    "hypothesis": "Read-only degree-only exactradiusfactorSAT on six fixed prefixes, no DFS or frontend mutation; one bounded measurement."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/near_quarter_factor_shadow.py",
+    "--seconds",
+    "4",
+    "--output-dir",
+    "data/radius-factor-shadow-v1"
+  ],
+  "sources_before": {
+    "data/packed-middle-d1541-chain600-r2-independent-audit.json": "a48901aec27ca60bc0742ff5d5b81dc5fad77a33cd52c46be7645476d0edb69e",
+    "data/packed-readonly-chain-main600-r2-independent-audit.json": "5a7d4c14ece999dfab491b2310608d1993798aba9277c21254fd19c747891b50",
+    "data/packed-readonly-n79-middle-d1541.chain/4b3bb11dd9726a209941373aab3aca135a27c8406c4794f6c83a7f758b856fd6.receipt.json": "4b3bb11dd9726a209941373aab3aca135a27c8406c4794f6c83a7f758b856fd6",
+    "data/packed-readonly-n79-middle-d1541.chain/b858a09636b64df58721a85b02be6811dd543d62b4fa75802f925329108b707a.nqrb": "b858a09636b64df58721a85b02be6811dd543d62b4fa75802f925329108b707a",
+    "data/packed-readonly-n79-r1.chain/6e1d4279da8a2a0123435e76ee3b4e83693706e82c915ff7cec74552f1811862.nqrb": "6e1d4279da8a2a0123435e76ee3b4e83693706e82c915ff7cec74552f1811862",
+    "data/packed-readonly-n79-r1.chain/a285b9c657315e40c11cab0a76103614adf13981c2814b0ba3e8e59dfb8fc6db.receipt.json": "a285b9c657315e40c11cab0a76103614adf13981c2814b0ba3e8e59dfb8fc6db",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/near_quarter_factor_shadow.py": "c2e36c7b57340fe87c3327526928c85a131bcb3429cc7fe5e9d531840013ebca",
+    "research/near_quarter_packed_state.py": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "research/near_quarter_packed_worker.py": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "research/near_quarter_radius_factor.py": "064cac31be3da70fe391e40988d81d6c5f0bf26314f0644768a4907255665171",
+    "research/near_quarter_radius_graph.py": "647ae1379eb89711707f9900d68a2aba1861839751bdb22f15e9618d1f5cda66",
+    "research/near_quarter_readonly_probe.py": "2b9f51496f80c78881643724029e48cd9987b1428bdffbce7736806d790f5c7d",
+    "research/near_quarter_rowbatch_checkpoint.py": "88ce7a7a9b3d756427f60382b1b1316f30755e3a1a49a9a51367c6fcb27e6dec",
+    "research/near_quarter_rowbatch_core.py": "f257045276d1247fde814fae01fe0a470233c477e228c37b6d3209fd367439ae",
+    "research/near_quarter_rowbatch_cursor.py": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "src/line_model.py": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "src/near_quarter_model.py": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_near_quarter_factor_shadow.py": "7deb2b9a900acb499b5935aa88752ff5b4036fc2b2890104dcef60e170e2c377",
+    "tests/test_near_quarter_radius_factor.py": "4c992afb215dba3865c51cf5bd938733b22e9d6dfdb4b082967407937c5e6171"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.28867099998751655,
+  "started_at": "2026-11-27T08:28:19.871586+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.2886555420118384,
+    "rss_samples": 6,
+    "monitor_error": null,
+    "seconds_limit": 5,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 59072,
+    "cleanup_elapsed_seconds": 0.011531500000273809,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T08:28:20.160581+00:00",
+  "sources_unchanged": true
+}

@@ -1,0 +1,1776 @@
+{
+  "accepted": true,
+  "cases": [
+    {
+      "blocked_cell_proofs": [
+        {
+          "cell": [
+            33,
+            5
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              11,
+              31
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            73
+          ],
+          "retained_pair": [
+            [
+              15,
+              10
+            ],
+            [
+              31,
+              66
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            78
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            0
+          ],
+          "retained_pair": [
+            [
+              13,
+              21
+            ],
+            [
+              14,
+              20
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            78
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              28,
+              68
+            ]
+          ]
+        },
+        {
+          "cell": [
+            35,
+            0
+          ],
+          "retained_pair": [
+            [
+              5,
+              42
+            ],
+            [
+              25,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            35,
+            73
+          ],
+          "retained_pair": [
+            [
+              5,
+              43
+            ],
+            [
+              14,
+              52
+            ]
+          ]
+        },
+        {
+          "cell": [
+            35,
+            78
+          ],
+          "retained_pair": [
+            [
+              7,
+              38
+            ],
+            [
+              28,
+              68
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            5
+          ],
+          "retained_pair": [
+            [
+              29,
+              60
+            ],
+            [
+              47,
+              15
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            78
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            0
+          ],
+          "retained_pair": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            5
+          ],
+          "retained_pair": [
+            [
+              6,
+              23
+            ],
+            [
+              22,
+              19
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            73
+          ],
+          "retained_pair": [
+            [
+              2,
+              61
+            ],
+            [
+              21,
+              64
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            78
+          ],
+          "retained_pair": [
+            [
+              9,
+              18
+            ],
+            [
+              55,
+              58
+            ]
+          ]
+        }
+      ],
+      "deleted_patch": [
+        [
+          33,
+          78
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          35,
+          5
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "index": 0,
+      "maximum_possible_points": 156,
+      "retained_count": 150,
+      "safe_cells": [
+        [
+          33,
+          0
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          35,
+          5
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ]
+      ]
+    },
+    {
+      "blocked_cell_proofs": [
+        {
+          "cell": [
+            33,
+            5
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              11,
+              31
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            73
+          ],
+          "retained_pair": [
+            [
+              15,
+              10
+            ],
+            [
+              31,
+              66
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            78
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            0
+          ],
+          "retained_pair": [
+            [
+              13,
+              21
+            ],
+            [
+              14,
+              20
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            17
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              56,
+              13
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            78
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              28,
+              68
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            5
+          ],
+          "retained_pair": [
+            [
+              29,
+              60
+            ],
+            [
+              47,
+              15
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            17
+          ],
+          "retained_pair": [
+            [
+              3,
+              29
+            ],
+            [
+              7,
+              28
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            78
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            0
+          ],
+          "retained_pair": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            5
+          ],
+          "retained_pair": [
+            [
+              6,
+              23
+            ],
+            [
+              22,
+              19
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            17
+          ],
+          "retained_pair": [
+            [
+              8,
+              57
+            ],
+            [
+              36,
+              41
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            73
+          ],
+          "retained_pair": [
+            [
+              2,
+              61
+            ],
+            [
+              21,
+              64
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            78
+          ],
+          "retained_pair": [
+            [
+              9,
+              18
+            ],
+            [
+              55,
+              58
+            ]
+          ]
+        }
+      ],
+      "deleted_patch": [
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "index": 1,
+      "maximum_possible_points": 156,
+      "retained_count": 150,
+      "safe_cells": [
+        [
+          33,
+          0
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ]
+      ]
+    },
+    {
+      "blocked_cell_proofs": [
+        {
+          "cell": [
+            33,
+            73
+          ],
+          "retained_pair": [
+            [
+              15,
+              10
+            ],
+            [
+              31,
+              66
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            78
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            0
+          ],
+          "retained_pair": [
+            [
+              13,
+              21
+            ],
+            [
+              14,
+              20
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            17
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              56,
+              13
+            ]
+          ]
+        },
+        {
+          "cell": [
+            34,
+            78
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              28,
+              68
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            0
+          ],
+          "retained_pair": [
+            [
+              1,
+              47
+            ],
+            [
+              5,
+              43
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            73
+          ],
+          "retained_pair": [
+            [
+              12,
+              61
+            ],
+            [
+              21,
+              64
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            78
+          ],
+          "retained_pair": [
+            [
+              4,
+              34
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            17
+          ],
+          "retained_pair": [
+            [
+              3,
+              29
+            ],
+            [
+              7,
+              28
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            78
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            0
+          ],
+          "retained_pair": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            17
+          ],
+          "retained_pair": [
+            [
+              8,
+              57
+            ],
+            [
+              36,
+              41
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            73
+          ],
+          "retained_pair": [
+            [
+              2,
+              61
+            ],
+            [
+              21,
+              64
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            78
+          ],
+          "retained_pair": [
+            [
+              9,
+              18
+            ],
+            [
+              55,
+              58
+            ]
+          ]
+        }
+      ],
+      "deleted_patch": [
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "index": 2,
+      "maximum_possible_points": 156,
+      "retained_count": 150,
+      "safe_cells": [
+        [
+          33,
+          0
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ]
+      ]
+    },
+    {
+      "blocked_cell_proofs": [
+        {
+          "cell": [
+            33,
+            3
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            73
+          ],
+          "retained_pair": [
+            [
+              15,
+              10
+            ],
+            [
+              31,
+              66
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            78
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            0
+          ],
+          "retained_pair": [
+            [
+              1,
+              47
+            ],
+            [
+              5,
+              43
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            73
+          ],
+          "retained_pair": [
+            [
+              12,
+              61
+            ],
+            [
+              21,
+              64
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            78
+          ],
+          "retained_pair": [
+            [
+              4,
+              34
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            3
+          ],
+          "retained_pair": [
+            [
+              3,
+              39
+            ],
+            [
+              15,
+              30
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            17
+          ],
+          "retained_pair": [
+            [
+              3,
+              29
+            ],
+            [
+              7,
+              28
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            78
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            0
+          ],
+          "retained_pair": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            3
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              67,
+              15
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            17
+          ],
+          "retained_pair": [
+            [
+              8,
+              57
+            ],
+            [
+              36,
+              41
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            73
+          ],
+          "retained_pair": [
+            [
+              2,
+              61
+            ],
+            [
+              21,
+              64
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            78
+          ],
+          "retained_pair": [
+            [
+              9,
+              18
+            ],
+            [
+              55,
+              58
+            ]
+          ]
+        }
+      ],
+      "deleted_patch": [
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "index": 3,
+      "maximum_possible_points": 156,
+      "retained_count": 150,
+      "safe_cells": [
+        [
+          33,
+          0
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          73
+        ]
+      ]
+    },
+    {
+      "blocked_cell_proofs": [
+        {
+          "cell": [
+            33,
+            3
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            78
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        {
+          "cell": [
+            38,
+            0
+          ],
+          "retained_pair": [
+            [
+              2,
+              12
+            ],
+            [
+              26,
+              4
+            ]
+          ]
+        },
+        {
+          "cell": [
+            38,
+            17
+          ],
+          "retained_pair": [
+            [
+              4,
+              51
+            ],
+            [
+              54,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            38,
+            78
+          ],
+          "retained_pair": [
+            [
+              16,
+              2
+            ],
+            [
+              27,
+              40
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            0
+          ],
+          "retained_pair": [
+            [
+              1,
+              47
+            ],
+            [
+              5,
+              43
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            78
+          ],
+          "retained_pair": [
+            [
+              4,
+              34
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            3
+          ],
+          "retained_pair": [
+            [
+              3,
+              39
+            ],
+            [
+              15,
+              30
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            17
+          ],
+          "retained_pair": [
+            [
+              3,
+              29
+            ],
+            [
+              7,
+              28
+            ]
+          ]
+        },
+        {
+          "cell": [
+            51,
+            78
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            0
+          ],
+          "retained_pair": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            3
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              67,
+              15
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            17
+          ],
+          "retained_pair": [
+            [
+              8,
+              57
+            ],
+            [
+              36,
+              41
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            78
+          ],
+          "retained_pair": [
+            [
+              9,
+              18
+            ],
+            [
+              55,
+              58
+            ]
+          ]
+        }
+      ],
+      "deleted_patch": [
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          38,
+          3
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "index": 4,
+      "maximum_possible_points": 156,
+      "retained_count": 150,
+      "safe_cells": [
+        [
+          33,
+          0
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          38,
+          3
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          51,
+          0
+        ]
+      ]
+    },
+    {
+      "blocked_cell_proofs": [
+        {
+          "cell": [
+            33,
+            3
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            70
+          ],
+          "retained_pair": [
+            [
+              5,
+              42
+            ],
+            [
+              8,
+              45
+            ]
+          ]
+        },
+        {
+          "cell": [
+            33,
+            78
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ]
+          ]
+        },
+        {
+          "cell": [
+            38,
+            0
+          ],
+          "retained_pair": [
+            [
+              2,
+              12
+            ],
+            [
+              26,
+              4
+            ]
+          ]
+        },
+        {
+          "cell": [
+            38,
+            17
+          ],
+          "retained_pair": [
+            [
+              4,
+              51
+            ],
+            [
+              54,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            38,
+            78
+          ],
+          "retained_pair": [
+            [
+              16,
+              2
+            ],
+            [
+              27,
+              40
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            0
+          ],
+          "retained_pair": [
+            [
+              1,
+              47
+            ],
+            [
+              5,
+              43
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            70
+          ],
+          "retained_pair": [
+            [
+              1,
+              23
+            ],
+            [
+              51,
+              73
+            ]
+          ]
+        },
+        {
+          "cell": [
+            48,
+            78
+          ],
+          "retained_pair": [
+            [
+              4,
+              34
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            0
+          ],
+          "retained_pair": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            3
+          ],
+          "retained_pair": [
+            [
+              12,
+              75
+            ],
+            [
+              67,
+              15
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            17
+          ],
+          "retained_pair": [
+            [
+              8,
+              57
+            ],
+            [
+              36,
+              41
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            70
+          ],
+          "retained_pair": [
+            [
+              0,
+              44
+            ],
+            [
+              45,
+              59
+            ]
+          ]
+        },
+        {
+          "cell": [
+            78,
+            78
+          ],
+          "retained_pair": [
+            [
+              9,
+              18
+            ],
+            [
+              55,
+              58
+            ]
+          ]
+        }
+      ],
+      "deleted_patch": [
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          38,
+          3
+        ],
+        [
+          38,
+          70
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          78
+        ]
+      ],
+      "index": 5,
+      "maximum_possible_points": 156,
+      "retained_count": 150,
+      "safe_cells": [
+        [
+          33,
+          0
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          38,
+          3
+        ],
+        [
+          38,
+          70
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          17
+        ]
+      ]
+    }
+  ],
+  "complete_six_patch_negative": true,
+  "elapsed_seconds": 0.03370154100412037,
+  "gate": {
+    "cleanup_elapsed_seconds": 0.013276749989017844,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 0.15501400000357535,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "exited",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 52144,
+    "returncode": 0,
+    "rss_limit_mib": 256,
+    "rss_samples": 3,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": null
+  },
+  "method": "All120freed cells independently tested against every pair of150retained points using integer determinants; all84blocked cells carry explicit retained-pair certificates; each6safe cells scanned against all11175pairs. No implementation geometry helper used.",
+  "proof": "Every157/158completion contains150fixed retained points and needs at least7new points. Only6freed cells avoid retained secants in each patch. Hence every completion has cardinality at most156, independently of cap5 or factor-enumeration results.",
+  "receipt_sha256": "702d5cb46d2fd74513a57810013f512db60a0dc4ab123947b337317b1ad74db7",
+  "report_sha256": "d23bc3c8ee2f44c671cd6f3af84105a4c01add17f358405b4b30af8b1e984f41",
+  "scope": "Six exact connected eight-edge patches of pinned score11 source, not all eight-deletion repairs or unrestricted n79.",
+  "source_pins_verified": 18
+}

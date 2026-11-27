@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "fixed score11 cap5 and paired rotations closed",
+    "status": "fixed repair families closed; bounded SAT design",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "All35809 fixed-source deletions through5 exclude157/158 repairs. A separate simultaneous paired three-cycle family completes144400 combinations with no157/158. Independent reviews accept pinned execution; six connected path8 patch arithmetic is in review.",
-    "evidence": "research/score11-paired-early-v1-actual-review.md"
+    "finding": "Fixed score11 source: all deletions through five,144400 paired rotations, and38 connected patches (lengths8/10/12/16) fail to improve156. Larger-path allocation curtailed. Hard-retention SAT is a design under review.",
+    "evidence": "data/score11-connected-paths-flow-census-independent-actual-audit.json"
   },
   {
     "id": "A05",
@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "residual scanner curtailed",
+    "status": "degree shadow measured; pair geometry design",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Residual prunes but is slower on measured prefix: in10.364s residual5000nodes reached earlier sibling than frozen control9000nodes in10.337s. Independent equal-wall review favors control here; current residual allocation curtailed. No witness.",
-    "evidence": "research/diagonal-residual-checkpoint-host-gate-review.md"
+    "finding": "Degree-factor shadow on six saved prefixes found zero added obstructions; five old-pass cases gained only overhead. No integration allocated. A much smaller fixed-prefix pair-geometry SAT model is under review.",
+    "evidence": "data/radius-factor-shadow-v1-independent-actual-audit.json"
   },
   {
     "id": "A09",

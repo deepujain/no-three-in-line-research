@@ -1,0 +1,56 @@
+{
+  "job": {
+    "id": "shepherd-score11-paths-flow-census-v1",
+    "seconds": 30,
+    "hypothesis": "Safe-cell/axis-capacity census only for32 fixed connected patches length10/12/16; no completion/novelty claim."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/score11_connected_paths_flow_census.py",
+    "--source",
+    "data/trades-n79-seed270079-state.json",
+    "--seconds",
+    "25",
+    "--output-dir",
+    "data/score11-paths-flow-census-v1"
+  ],
+  "sources_before": {
+    "data/score11-connected-paths-flow-census-cases.proposal.json": "68415d1e67a99fc90c7ca3c0f47db4de8e0c2f9bf9f9fc8d2313ec10857abbe5",
+    "data/score11-connected-paths-flow-census-independent-arithmetic-audit.json": "7cc03e2365d6f4bbe020ea6ec7b65ca17837a9325c08bf5ccd72f5723e577c8d",
+    "data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/diagonal_secant_dfs.py": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "research/diagonal_secant_dfs_fast.py": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/score11-connected-paths-flow-census-method.md": "7cee5480440a415490d45df1585ab5f2a44a0362725acc8ce558aa60933dc2f1",
+    "research/score11-connected-paths-flow-census-proposal.md": "f00dbb423e47340d8f86aa54154b01d9dfe84b6f8c20bcccbfa62e9bf0686556",
+    "research/score11_connected_path8.py": "7e98858a6d00019c7c6339018dc613d53e5fff76cc87b1c68e119f7a6724e198",
+    "research/score11_connected_paths_flow_census.py": "74393ca7cc4bb2ac634c5aa4f7813d4621bca261cf050887fe4239bf8e860292",
+    "research/score11_cover_repair.py": "d1aa42c4ec2cee2f2df8a9f3f4dff3d1519d2611f41a4ae7d1d02ae87727ea74",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_score11_connected_paths_flow_census.py": "a8ad421038c4cb05a90a84166779fb1221c4ed9b21b9cc5b1767969f98262995"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.19143150000309106,
+  "started_at": "2026-11-27T08:26:12.992921+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.19141366699477658,
+    "rss_samples": 4,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 47392,
+    "cleanup_elapsed_seconds": 0.011544499997398816,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T08:26:13.184613+00:00",
+  "sources_unchanged": true
+}

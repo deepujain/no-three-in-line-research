@@ -1,0 +1,13 @@
+{
+  "implementation_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "test_command": "python3 -m unittest tests.test_score11_connected_paths_flow_census -v",
+  "tests": 8,
+  "reported_unittest_elapsed_seconds": 0.053,
+  "result": "PASS",
+  "source_sha256": "74393ca7cc4bb2ac634c5aa4f7813d4621bca261cf050887fe4239bf8e860292",
+  "test_sha256": "a8ad421038c4cb05a90a84166779fb1221c4ed9b21b9cc5b1767969f98262995",
+  "source_safe_geometry_evaluated": false,
+  "host_run": false,
+  "independent_source_review": "pending"
+}

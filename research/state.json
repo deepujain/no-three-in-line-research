@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16526.597108386115,
+  "scheduled_search_wall_seconds_used": 16527.232253303104,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Math-review connected path8 exact quota arithmetic, then source/tiny and independent review before any actual gate; keep pure small-cut predicate exploration separate from frozen packed frontiers. Do not repeat completed paired rotations.",
+  "next_action": "Prepare/review one target157,D6 hard-retention lazySAT source and a distinct fixed main-depth19 pair-geometry SAT source; source/tiny and independent review before either30s256MiB gate. Preserve all old chains and completed families.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -24,13 +24,15 @@
     "eight size-two,1936size-four and8136one-case exact-five corner anchor families complete, overlapping, conditional on reviewed trusted computations",
     "all6241row/column embeddings of this exact source excluded through5deletions, conditional on separately reviewed trusted computations",
     "All35809 fixed score11 source hitting deletions through5, no157/158 repair; reviewed prefix execution plus independently replayed suffix",
-    "All230 degree records in fixed centered n78 to n80 fullC4 one-orbit deletion family, no160 witness"
+    "All230 degree records in fixed centered n78 to n80 fullC4 one-orbit deletion family, no160 witness",
+    "Six exact connected8edge source patches independently bounded by150retained+6safe=156;120cells determinant-audited",
+    "All32 fixed length10/12/16 connectedpaths independently bounded<=156 using1668determinant cell checks and32maxflow/mincut certificates"
   ],
   "compute_seconds_limit": 21600,
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Coordinated paired three-cycle family completed144400 combinations with no157/158 witness; independent evidence review accepted. Fixed score11 repairs through5 and fixed n80 single-orbit family already closed. Best156.",
+  "current_round": "All38 connected patches independently bounded<=156. Exact degree-factor shadow completed6prefixes:5degree-feasible models and1olddegree failure,0usefulnewprunes. No improvement; avoid integration of unhelpful measured filter.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -38,10 +40,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Six connected path8 patch quota arithmetic/math review; source/tiny only after approval",
-    "Pure small-cut predicate source/tiny independent review; no packed integration or actual-prefix allocation"
+    "Hard-retention target157,D6 standalone source/tiny and independent review; noactual",
+    "Main-depth19 pairwise orbit geometry SAT plus bounded1000three-orbit cuts: mathematical extension/source/tiny review; noactual"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "252ab0c Pages succeeded. CI failed legacy positive-RSS monitor tests, and its single unchanged retry also failed (compact solve and row-quota preflight). No further retry or guard weakening. New focused repair/rotation tests pass; research evidence gates clean. Next commit checks pending."
+  "validation_status": "55cf40f CI and Pages succeeded. Root new tiny gates pass:7path8+8flow+3smallcut+11factor/shadow; five viewport tests pass after long-label overflow fix. New owned experiments clean and independently audited. Nextpublication checks pending."
 }

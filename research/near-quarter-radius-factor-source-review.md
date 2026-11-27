@@ -1,0 +1,11 @@
+# Residual degree SAT helper independent source review
+
+Decision: approve the pure helper in isolation. The separate shadow wrapper requires its own reconstruction and partial-report tiny checks before host allocation.
+
+Reviewed `research/near_quarter_radius_factor.py`, SHA-256 `064cac31be3da70fe391e40988d81d6c5f0bf26314f0644768a4907255665171`, and tests SHA-256 `4c992afb215dba3865c51cf5bd938733b22e9d6dfdb4b082967407937c5e6171`. Edge variables retain separate identities for parallel edges. Shared IDPool starts after all edge IDs, and each vertex's exact CardEnc.equals constraint has fresh auxiliary IDs. Zero demand forces incident edges false; insufficient incidence yields an exact degree-shortfall result. No geometric clauses or traversal hooks are introduced. The caller must establish complete admissibility coverage.
+
+The helper builds complete degree CNF before solving, uses glucose3 solve_limited(expect_interrupt=True), and cancels/joins its deadline timer before changing or deleting the solver. A timer event, elapsed deadline or None answer yields unknown, including the tested race where the interrupted fake solver returns False. A SAT assignment is decoded only on primary edge IDs and its exact degrees independently recomputed. A malformed model raises rather than producing a feasibility verdict. Native UNSAT is explicitly solver-reported and carries no standalone UNSAT certificate.
+
+Independent combined helper/current-wrapper unittest run passed eight tests in 0.643 seconds. Helper tests exhaust all three-vertex multigraphs with multiplicities at most two and all four-vertex simple graphs, with all demands 0..2, against an independent edge-subset oracle. Additional cases cover the hub/five-triangles obstruction, deadline/unknown outcomes, actual timer interruption of a fake solver and rejection of a bad SAT model. The wrapper tests at that time did not yet cover genuine checkpoint replay or nonempty interrupted sample lists; this helper approval does not resolve that separate gap.
+
+Encoding size and logical strictness were independently reviewed in `research/near-quarter-radius-factor-sat-mathematical-review.md`. Runtime/RSS suitability for six n79 prefixes remains unmeasured. No solver-based host experiment was launched by this reviewer; only the explicitly authorized tiny tests ran.

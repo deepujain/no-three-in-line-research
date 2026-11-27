@@ -1,0 +1,13 @@
+{
+  "implementation_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "test_command": "python3 -m unittest tests.test_score11_connected_path8 -v",
+  "tests": 7,
+  "result": "PASS",
+  "reported_unittest_elapsed_seconds": 0.065,
+  "source_sha256": "7e98858a6d00019c7c6339018dc613d53e5fff76cc87b1c68e119f7a6724e198",
+  "test_sha256": "d74186227548a86255c28c068b6de8ca364971398e16f3e109d9a09e8583b289",
+  "source_geometry_evaluated": false,
+  "host_run": false,
+  "independent_source_review": "pending"
+}

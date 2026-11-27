@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "shepherd-score11-connected-path8-v1",
+    "seconds": 30,
+    "hypothesis": "Six exact connected eight-edge source patches, complete seven/eight-cell quota factors; reviewed cap5 exclusions; fixed-source only."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/score11_connected_path8.py",
+    "--source",
+    "data/trades-n79-seed270079-state.json",
+    "--seconds",
+    "25",
+    "--output-dir",
+    "data/score11-connected-path8-v1"
+  ],
+  "sources_before": {
+    "data/score11-connected-patch-arithmetic.json": "e42e0dfb86c46f11b59b74fb7b0f858ba88439e66455b3da762ca3a2674c3610",
+    "data/score11-connected-path8-independent-arithmetic-audit.json": "d7072171db24b510f9018b883f7e619f4e0a9d9f3a1f159c00fe2ee190e176e0",
+    "data/score11-cover4-independent-audit.json": "4eceee5100166be22697461ad4f559f3b59046b4aff7d3aef2b809e1a91321e2",
+    "data/score11-five-deletions-v1-prefix-audit.json": "ca126bf09bdbbbf9b88a02ace66c4cf6965369579e9b0e78ad2d5f37f0929f17",
+    "data/score11-five-suffix-independent-audit.json": "4c713e349c80eab56b6fb8fd2c1a65a76c4c45c34e3bbb86243afd638ee3ed1c",
+    "data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/diagonal_secant_dfs.py": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "research/diagonal_secant_dfs_fast.py": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/score11-connected-path8-method.md": "7e476d4e2e91a20f1e10d488c929708719735a8252a3b4a442d3819283fc84f5",
+    "research/score11-connected-path8-proposal.md": "6b9915cdf72a02a7971b9c1eedf9299fa8dc1b9ceebb3c4fcaba93ab7344a9b9",
+    "research/score11-five-suffix-combined-actual-review.md": "473c88cd959ffe481341495855da4174e7e305d6493bca813f549dbd3f85354e",
+    "research/score11_connected_path8.py": "7e98858a6d00019c7c6339018dc613d53e5fff76cc87b1c68e119f7a6724e198",
+    "research/score11_cover_repair.py": "d1aa42c4ec2cee2f2df8a9f3f4dff3d1519d2611f41a4ae7d1d02ae87727ea74",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_score11_connected_path8.py": "d74186227548a86255c28c068b6de8ca364971398e16f3e109d9a09e8583b289"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.15504241699818522,
+  "started_at": "2026-11-27T08:19:37.901698+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.15501400000357535,
+    "rss_samples": 3,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 52144,
+    "cleanup_elapsed_seconds": 0.013276749989017844,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T08:19:38.057128+00:00",
+  "sources_unchanged": true
+}

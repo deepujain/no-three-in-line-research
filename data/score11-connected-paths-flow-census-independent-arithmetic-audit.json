@@ -1,0 +1,30 @@
+{
+  "accepted": true,
+  "augmentations_upper_bound": 424,
+  "conclusion": "Source/tiny preparation mathematically approved; exact flow upper bound retained_count+F closes only when <=156, eligibility>=157 is not a witness.",
+  "manifest_sha256": "68415d1e67a99fc90c7ca3c0f47db4de8e0c2f9bf9f9fc8d2313ec10857abbe5",
+  "max_flow_vertices": 19,
+  "max_forward_arcs": 89,
+  "method": "Independent bipartite source-cycle traversal and all cyclic windows; axis/quota arithmetic only, no new geometric candidate evaluations",
+  "proposal_sha256": "f00dbb423e47340d8f86aa54154b01d9dfe84b6f8c20bcccbfa62e9bf0686556",
+  "totals_by_length": {
+    "10": {
+      "candidate_cell_records": 240,
+      "cases": 8,
+      "cells_per_case": 30,
+      "retained_direction_records_upper_bound": 35520
+    },
+    "12": {
+      "candidate_cell_records": 420,
+      "cases": 10,
+      "cells_per_case": 42,
+      "retained_direction_records_upper_bound": 61320
+    },
+    "16": {
+      "candidate_cell_records": 1008,
+      "cases": 14,
+      "cells_per_case": 72,
+      "retained_direction_records_upper_bound": 143136
+    }
+  }
+}

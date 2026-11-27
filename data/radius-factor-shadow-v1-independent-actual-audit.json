@@ -1,0 +1,107 @@
+{
+  "accepted": true,
+  "accepted_chain_heads_unchanged": [
+    {
+      "path": "data/packed-readonly-n79-r1.chain/accepted.json",
+      "sha256": "cd3977d726cbd374ca0fa75c5526eb62db0eb096983f7c8c505d3ead779cfa24"
+    },
+    {
+      "path": "data/packed-readonly-n79-middle-d1541.chain/accepted.json",
+      "sha256": "cce89fcc680e137202ec9f8cd6f5f39f2753a03a8742c47ac209a6b118950a8e"
+    }
+  ],
+  "decision": "curtail integration and automatic DFS allocation on this sample; no geometric witness or improved candidate",
+  "elapsed_seconds": 0.16720912500750273,
+  "gate": {
+    "cleanup_elapsed_seconds": 0.011531500000273809,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 0.2886555420118384,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "exited",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 59072,
+    "returncode": 0,
+    "rss_limit_mib": 256,
+    "rss_samples": 6,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 5,
+    "trigger_gate_status": null
+  },
+  "method": "Independent quarter-turn orbit generation, all9126orbit-admissibility decisions using exact integer slope collision and determinant partition plus row/column quotas; no packed geometry/probe helpers and no solver replay. Independently verified masks, demands, old bounds and all5SATdegree assignments; sixth exact degree-shortfall checked directly.",
+  "old_redundant_unsat_count": 1,
+  "receipt_sha256": "180b32a1f7e5f9b9b8bdc7ea64022fddb478006e1a2aac21e38230264f3169e0",
+  "report_sha256": "369c0b157fb58050023c4191267055aaf5a641467622672916dacafd743d326b",
+  "samples": [
+    {
+      "available_edges": 1517,
+      "chain": "main",
+      "depth": 0,
+      "factor_model_degrees_verified": true,
+      "factor_over_mask_plus_old_bounds": 0.6954770216611441,
+      "factor_status": "sat",
+      "independent_complete_mask_sha256": "05c98a47f617606bb59720c35291498ad7372458d0eda586613e97ededd40932",
+      "old_pass": true,
+      "useful_unsat": false
+    },
+    {
+      "available_edges": 476,
+      "chain": "main",
+      "depth": 9,
+      "factor_model_degrees_verified": true,
+      "factor_over_mask_plus_old_bounds": 0.34346705647677467,
+      "factor_status": "sat",
+      "independent_complete_mask_sha256": "cdff9acd56287a25fd04e2f25d6b800dc4666fcd92a1edd61cdd803299d471ee",
+      "old_pass": true,
+      "useful_unsat": false
+    },
+    {
+      "available_edges": 102,
+      "chain": "main",
+      "depth": 19,
+      "factor_model_degrees_verified": true,
+      "factor_over_mask_plus_old_bounds": 0.15672259770864783,
+      "factor_status": "sat",
+      "independent_complete_mask_sha256": "2f18269cb333278f6b6d6459eb653ce886544f797e4adabbbf8f5cab472b3173",
+      "old_pass": true,
+      "useful_unsat": false
+    },
+    {
+      "available_edges": 1513,
+      "chain": "middle",
+      "depth": 0,
+      "factor_model_degrees_verified": true,
+      "factor_over_mask_plus_old_bounds": 0.4741653832643345,
+      "factor_status": "sat",
+      "independent_complete_mask_sha256": "9178e2750900ef6c0af8d2e68ed3f8c290ed6980e2f317d78e5319cd6011741d",
+      "old_pass": true,
+      "useful_unsat": false
+    },
+    {
+      "available_edges": 554,
+      "chain": "middle",
+      "depth": 10,
+      "factor_model_degrees_verified": true,
+      "factor_over_mask_plus_old_bounds": 0.38948825299439577,
+      "factor_status": "sat",
+      "independent_complete_mask_sha256": "f46ad0b5eaea74c105edcc2d25be0a48024b6858cfa4d1373a70afb531c662f0",
+      "old_pass": true,
+      "useful_unsat": false
+    },
+    {
+      "available_edges": 107,
+      "chain": "middle",
+      "depth": 20,
+      "factor_model_degrees_verified": false,
+      "factor_over_mask_plus_old_bounds": 0.0036791557883537936,
+      "factor_status": "unsat",
+      "independent_complete_mask_sha256": "005c2962a6c50180b42ba4186609bb7daa7fd902a09801efd2715fc77adecca3",
+      "old_pass": false,
+      "useful_unsat": false
+    }
+  ],
+  "sat_count": 5,
+  "source_pins_verified": 22,
+  "useful_unsat_count": 0
+}

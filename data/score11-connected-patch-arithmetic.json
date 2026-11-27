@@ -1,0 +1,572 @@
+{
+  "schema": 1,
+  "scope": "Read-only incidence/quota arithmetic on the pinned score11 source; no candidate geometry or scoring/validator call.",
+  "source_sha256": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+  "source_normalized_sha256": "f0ab1e9b47f89b8252eb5fec00b6d2b451bd25545924dc4a491d0b6638dff34d",
+  "source_cycle_edge_counts": [
+    4,
+    12,
+    142
+  ],
+  "whole_conflict_component_rows_columns": [
+    71,
+    71
+  ],
+  "whole_conflict_component_candidate_cells": 5041,
+  "consecutive_cover": [
+    [
+      33,
+      78
+    ],
+    [
+      78,
+      78
+    ],
+    [
+      78,
+      0
+    ]
+  ],
+  "six_edge_paths": {
+    "templates": 4,
+    "freed_grid_shape": [
+      4,
+      3
+    ],
+    "full158_quota_factors_by_effective_deletions": {
+      "0": 1,
+      "2": 6,
+      "3": 4,
+      "4": 4
+    },
+    "partial157_quota_factors_by_effective_deletions": {
+      "1": 6,
+      "2": 16,
+      "3": 38,
+      "4": 32,
+      "5": 10
+    }
+  },
+  "eight_edge_paths": {
+    "templates": 6,
+    "freed_grid_shape": [
+      5,
+      4
+    ],
+    "full158_quota_factors_by_effective_deletions": {
+      "0": 1,
+      "2": 15,
+      "3": 24,
+      "4": 62,
+      "5": 56,
+      "6": 36,
+      "7": 8,
+      "8": 2
+    },
+    "partial157_quota_factors_by_effective_deletions": {
+      "1": 8,
+      "2": 36,
+      "3": 174,
+      "4": 412,
+      "5": 584,
+      "6": 424,
+      "7": 148,
+      "8": 26
+    },
+    "raw_quota_factors_per_template": 2016,
+    "raw_quota_factors_all_templates": 12096,
+    "factors_per_template_after_conditional_cap5_closure": 644,
+    "factors_all_templates_after_conditional_cap5_closure": 3864,
+    "deletion_cases": [
+      {
+        "deleted": [
+          [
+            33,
+            78
+          ],
+          [
+            34,
+            5
+          ],
+          [
+            34,
+            73
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            51,
+            0
+          ],
+          [
+            51,
+            73
+          ],
+          [
+            78,
+            0
+          ],
+          [
+            78,
+            78
+          ]
+        ],
+        "x_values": [
+          33,
+          34,
+          35,
+          51,
+          78
+        ],
+        "y_values": [
+          0,
+          5,
+          73,
+          78
+        ],
+        "candidate_rectangle_cells": 20
+      },
+      {
+        "deleted": [
+          [
+            33,
+            17
+          ],
+          [
+            33,
+            78
+          ],
+          [
+            34,
+            5
+          ],
+          [
+            34,
+            73
+          ],
+          [
+            51,
+            0
+          ],
+          [
+            51,
+            73
+          ],
+          [
+            78,
+            0
+          ],
+          [
+            78,
+            78
+          ]
+        ],
+        "x_values": [
+          33,
+          34,
+          51,
+          78
+        ],
+        "y_values": [
+          0,
+          5,
+          17,
+          73,
+          78
+        ],
+        "candidate_rectangle_cells": 20
+      },
+      {
+        "deleted": [
+          [
+            33,
+            17
+          ],
+          [
+            33,
+            78
+          ],
+          [
+            34,
+            73
+          ],
+          [
+            48,
+            17
+          ],
+          [
+            51,
+            0
+          ],
+          [
+            51,
+            73
+          ],
+          [
+            78,
+            0
+          ],
+          [
+            78,
+            78
+          ]
+        ],
+        "x_values": [
+          33,
+          34,
+          48,
+          51,
+          78
+        ],
+        "y_values": [
+          0,
+          17,
+          73,
+          78
+        ],
+        "candidate_rectangle_cells": 20
+      },
+      {
+        "deleted": [
+          [
+            33,
+            17
+          ],
+          [
+            33,
+            78
+          ],
+          [
+            48,
+            3
+          ],
+          [
+            48,
+            17
+          ],
+          [
+            51,
+            0
+          ],
+          [
+            51,
+            73
+          ],
+          [
+            78,
+            0
+          ],
+          [
+            78,
+            78
+          ]
+        ],
+        "x_values": [
+          33,
+          48,
+          51,
+          78
+        ],
+        "y_values": [
+          0,
+          3,
+          17,
+          73,
+          78
+        ],
+        "candidate_rectangle_cells": 20
+      },
+      {
+        "deleted": [
+          [
+            33,
+            17
+          ],
+          [
+            33,
+            78
+          ],
+          [
+            38,
+            3
+          ],
+          [
+            48,
+            3
+          ],
+          [
+            48,
+            17
+          ],
+          [
+            51,
+            0
+          ],
+          [
+            78,
+            0
+          ],
+          [
+            78,
+            78
+          ]
+        ],
+        "x_values": [
+          33,
+          38,
+          48,
+          51,
+          78
+        ],
+        "y_values": [
+          0,
+          3,
+          17,
+          78
+        ],
+        "candidate_rectangle_cells": 20
+      },
+      {
+        "deleted": [
+          [
+            33,
+            17
+          ],
+          [
+            33,
+            78
+          ],
+          [
+            38,
+            3
+          ],
+          [
+            38,
+            70
+          ],
+          [
+            48,
+            3
+          ],
+          [
+            48,
+            17
+          ],
+          [
+            78,
+            0
+          ],
+          [
+            78,
+            78
+          ]
+        ],
+        "x_values": [
+          33,
+          38,
+          48,
+          78
+        ],
+        "y_values": [
+          0,
+          3,
+          17,
+          70,
+          78
+        ],
+        "candidate_rectangle_cells": 20
+      }
+    ],
+    "per_template_old_conflict_prefilter": [
+      {
+        "template_index": 0,
+        "158": {
+          "counts": {
+            "quota": 204,
+            "cap5_old_scope": 158,
+            "after_cap5": 46,
+            "old_triple_rejected": 27,
+            "old_triples_hit": 19
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 11,
+            "7": 6,
+            "8": 2
+          }
+        },
+        "157": {
+          "counts": {
+            "quota": 1812,
+            "cap5_old_scope": 1214,
+            "after_cap5": 598,
+            "old_triples_hit": 266,
+            "old_triple_rejected": 332
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 137,
+            "7": 103,
+            "8": 26
+          }
+        }
+      },
+      {
+        "template_index": 1,
+        "158": {
+          "counts": {
+            "quota": 204,
+            "after_cap5": 46,
+            "old_triple_rejected": 35,
+            "cap5_old_scope": 158,
+            "old_triples_hit": 11
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 5,
+            "7": 4,
+            "8": 2
+          }
+        },
+        "157": {
+          "counts": {
+            "quota": 1812,
+            "cap5_old_scope": 1214,
+            "after_cap5": 598,
+            "old_triple_rejected": 422,
+            "old_triples_hit": 176
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 72,
+            "7": 78,
+            "8": 26
+          }
+        }
+      },
+      {
+        "template_index": 2,
+        "158": {
+          "counts": {
+            "quota": 204,
+            "cap5_old_scope": 158,
+            "after_cap5": 46,
+            "old_triple_rejected": 36,
+            "old_triples_hit": 10
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 6,
+            "7": 2,
+            "8": 2
+          }
+        },
+        "157": {
+          "counts": {
+            "quota": 1812,
+            "cap5_old_scope": 1214,
+            "after_cap5": 598,
+            "old_triple_rejected": 427,
+            "old_triples_hit": 171
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 82,
+            "7": 63,
+            "8": 26
+          }
+        }
+      },
+      {
+        "template_index": 3,
+        "158": {
+          "counts": {
+            "quota": 204,
+            "after_cap5": 46,
+            "old_triple_rejected": 36,
+            "cap5_old_scope": 158,
+            "old_triples_hit": 10
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 6,
+            "7": 2,
+            "8": 2
+          }
+        },
+        "157": {
+          "counts": {
+            "quota": 1812,
+            "cap5_old_scope": 1214,
+            "after_cap5": 598,
+            "old_triples_hit": 171,
+            "old_triple_rejected": 427
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 82,
+            "7": 63,
+            "8": 26
+          }
+        }
+      },
+      {
+        "template_index": 4,
+        "158": {
+          "counts": {
+            "quota": 204,
+            "cap5_old_scope": 158,
+            "after_cap5": 46,
+            "old_triple_rejected": 35,
+            "old_triples_hit": 11
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 5,
+            "7": 4,
+            "8": 2
+          }
+        },
+        "157": {
+          "counts": {
+            "quota": 1812,
+            "cap5_old_scope": 1214,
+            "after_cap5": 598,
+            "old_triples_hit": 176,
+            "old_triple_rejected": 422
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 72,
+            "7": 78,
+            "8": 26
+          }
+        }
+      },
+      {
+        "template_index": 5,
+        "158": {
+          "counts": {
+            "quota": 204,
+            "cap5_old_scope": 158,
+            "after_cap5": 46,
+            "old_triple_rejected": 27,
+            "old_triples_hit": 19
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 11,
+            "7": 6,
+            "8": 2
+          }
+        },
+        "157": {
+          "counts": {
+            "quota": 1812,
+            "cap5_old_scope": 1214,
+            "after_cap5": 598,
+            "old_triples_hit": 266,
+            "old_triple_rejected": 332
+          },
+          "old_triple_survivors_by_effective_deletions": {
+            "6": 137,
+            "7": 103,
+            "8": 26
+          }
+        }
+      }
+    ]
+  },
+  "cap5_prune_condition": "Only after independently accepted combined prefix33062+suffix2747 through-five negative audit."
+}

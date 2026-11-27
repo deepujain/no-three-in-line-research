@@ -521,3 +521,39 @@ A source-reviewed exact early-conflict-intersection variant completed all144400 
 Next distinct branch is six connected8edge patches of original142edge incidence cycle, twenty free cells each. Preliminary arithmetic204full/1812partialquota factors perpatch; pending independent math before source. Small radius-capacity-cut pure predicate remains separate exploration, no packedintegration or newgenesis.
 
 252ab0c Pages succeeded, but CI single retry again hit legacy short-process positive-RSS monitor rejections in compactSAT/rowquota preflight. Preserve failure and guards; no additional retry for that run. This limits CI validation, not recorded clean new experiment gates. Accounted16526.597108386115s of21600. Originaldeadline unchanged.
+
+
+## 2026-11-27T08:21:35.619004+00:00 — Curtailed dominated cut; connected patch actual
+
+Independent review confirms new small-cut subset bound adds no pruning when total residual radius demand B>=12 after old degree checks. All six predeclared saved prefixes haveB78/60/40 or78/58/38. Cancel proposed shadow before state/mask/solver work; no numerical allocation charged. Pure helper/tiny proof retained for<=5 remaining orbits; frozen frontiers unchanged.
+
+Independent arithmetic/source/tiny reviews approved six connected eight-edge patches, pinned accepted cap5 prerequisite. Actual completed all12096 quota records (8232 cap5 pruned;3864 new factors;1306 old-conflict survivors), zero witnesses, outer0.155042s clean52144KiB peak, unchanged pins. Every retained-safe rectangle contains6 cells;7/8 required insertions impossible. Independent actual audit pending.
+
+Next bounded proposal extends only to path lengths10/12/16 with safe-cell and row-column capacity upper bounds before any geometric completion. Exploration changes to exact residual radius degree-factor feasibility, represented by oneBoolean per available orbit and40degree equalities, no geometric clauses or old SAT checkpoints. Mathematical review gives conservative13689variables/24336clauses/57798literal bounds; source/tiny and native interrupt/memory review precede any standalone read-only prefix allocation.
+
+55cf40f CI and Pages both succeeded. Numerical accounted16526.752150803113s; originaldeadline and21600s cap unchanged.
+
+
+## 2026-11-27T08:24:14.938561+00:00 — Independent path8 bound
+
+Reviewer independently determinant-tested all120freed cells against150retained points. Everypatch has exactly6safe cells;150+6<=156 closes allsix without relying on cap5pruning or factorenumeration. Audit saves84explicitblocked-cell pairs and exhaustive11175pair tests for each36safe-cell record, verifies18pins/clean gate/counts/artifact absence. Scope onlythese six fixed-source patches.
+
+Broaderpath10/12/16 proposal math-approved:32cases (8/10/14),1668cells, atmost239976directionrecords and424unitflowaugmentations. Authoringcapacity-onlychecker beforeindependentsource/tinyreview. Keep alloriginalreadds; require validprimal/mincut for upperbound acceptance. Noactualyet.
+
+
+## 2026-11-27T08:27:48.628563+00:00 — Broader path branch closed and curtailed
+
+Reviewed source/correctness gate approved32length10/12/16patch safe-cell/axis-flow census. Actual all32complete,1668cellchecks,0eligible, eachupper156, outer0.1914315s clean47392KiB peak and allpins unchanged. Allcaseshavek-2safe cells andexactly1newcell. Independent audit checks all1668cells by determinants (360safe/1308explicitblocked witnesses) and all32feasibleprimal/equalmincut certificates, reproducing156. Audit0.294s. No geometriccompletion exists above this necessary upperbound.
+
+Curtail furtherautomaticconnectedpathlengthening: no improvingcapacity or variednewcell evidence. Preserve38closedpatch results (including sixlength8), no global/sourcewide upperbound claim. FactorSAT shadow wrapper needed extra realtinycheckpoint/privatepath andpartial-sixsample tests; expanded11tests nowpass, independent source review pending. Purehelperapproval alone does not authorizewrapperexecution.
+
+One-screen viewport regression check found long status text forcing verticaloverflow at1440x900. Constrained labels with ellipses while preserving full hover evidence; all five viewport tests nowpass (1440/1280/736/390/320). README preview refreshed. No experiment/verifier/guard changes. Numericalaccounted16526.943582303116s of21600.
+
+
+## 2026-11-27T08:34:01.426023+00:00 — Degree relaxation measured, no automatic integration
+
+Expanded shadow wrapper passed independent realtinycheckpoint/privatepath/partial-sixsample tests before one4soft/5owned256 allocation. Allsix fixedprefix measurements complete, outer0.288671s clean59072KiB peak/23unchangedpins. Five degree-SAT models independently satisfy exactdemands; middledepth20 has an olddegree shortfall andoldbounds alreadyreject. Zero usefulnewUNSAT. Independent reviewer reconstructed9126complete mask orbit decisions from geometry/demands and checked savedSATassignments, alloldbounds, sourcepins and unchangedacceptedchainheads. The extra factorcost is15.7%-69.5% of mask+oldbounds on the fiveoldpass samples. This is a six-prefix observation, not a globalbenefit bound. Curtailintegration andunchangedrepetition.
+
+Nextsource-only allocations: (1) target157 withhardretain>=152sourcepoints (D6),fresh11sourceclauses/20knewcuts,no oldcheckpoint, streaming256cutbatch; truncatedscore onlylowerbound, exactsavedbest requiresfullaudit. (2) main-depth19 fixedprefix pair-geometry SAT,102admissibleorbits/20needed,555degreeCNFvariables982baseclauses and atmost5151paircuts. Explicitprospective1000unique3-neworbitcuts extension needs math/source review; no frontiermutation. This materiallysmallerfixedprefix model differs fromprior broad nearquarterSAT thatbuilt475708variables/2072304clauses. No native search allocated to either changedalgorithm yet.
+
+Numericalaccounted16527.232253303104s of21600; originaldeadline unchanged.

@@ -1,0 +1,85 @@
+{
+  "accepted": true,
+  "decision": "curtail proposed six-prefix gate; zero added hits are forced mathematically; defer cut exploration until residual demand<12",
+  "prefixes": [
+    {
+      "L": 19,
+      "checkpoint": "6e1d4279da8a2a0123435e76ee3b4e83693706e82c915ff7cec74552f1811862",
+      "depths": [
+        0,
+        9,
+        19
+      ],
+      "diagonal": 1522,
+      "name": "main",
+      "receipt": "a285b9c657315e40c11cab0a76103614adf13981c2814b0ba3e8e59dfb8fc6db",
+      "residual_demands": [
+        78,
+        60,
+        40
+      ],
+      "selected_four_orbits": [
+        39,
+        100,
+        130,
+        170,
+        208,
+        366,
+        432,
+        322,
+        340,
+        562,
+        563,
+        524,
+        646,
+        288,
+        827,
+        892,
+        1107,
+        1413,
+        1419
+      ]
+    },
+    {
+      "L": 20,
+      "checkpoint": "b858a09636b64df58721a85b02be6811dd543d62b4fa75802f925329108b707a",
+      "depths": [
+        0,
+        10,
+        20
+      ],
+      "diagonal": 1541,
+      "name": "middle",
+      "receipt": "4b3bb11dd9726a209941373aab3aca135a27c8406c4794f6c83a7f758b856fd6",
+      "residual_demands": [
+        78,
+        58,
+        38
+      ],
+      "selected_four_orbits": [
+        39,
+        23,
+        99,
+        113,
+        259,
+        177,
+        319,
+        181,
+        269,
+        363,
+        498,
+        615,
+        627,
+        371,
+        761,
+        1156,
+        1115,
+        1335,
+        943,
+        1056
+      ]
+    }
+  ],
+  "proof": "Old per-vertex degree feasibility implies d(U)<=2e(U)+cross. A new violation needs total residual B<2*d(U)-2*e(U)<=12 for |U|<=3 and demands<=2. All proposed sampled prefixes have B>=12.",
+  "scope": "structural source proof and read-only checkpoint path/quota arithmetic; no state reconstruction or geometry scans"
+}
