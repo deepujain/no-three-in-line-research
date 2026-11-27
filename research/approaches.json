@@ -57,10 +57,10 @@
     "id": "A07",
     "name": "Conics and lifts",
     "role": "Mathematician",
-    "status": "centered zero-deletion extension closed",
+    "status": "three finite lift/repair families closed",
     "scope": "Conic constructions and integer-grid embeddings",
-    "finding": "All51row-feasible centeredn71fixture\u2192n79nearquarterzero-deletionextensions dualchecked invalid. Independentreview reconstructed51 and saved explicitcollineartripleeach. Onlythisfixture/family closed. Onecentral-orbit deletion547case arithmeticproposal next.",
-    "evidence": "research/n71-boundary51-actual-review.md"
+    "finding": "Centeredn71 zero-deletion51, central-deletion547, lex-firstnoncentral1094 and centeredn73zero-deletion8 allcompleteinvalid withindependentexplicitconflicts. Thiscoversfixedfixtures/scopesonly. Remaining33n71deletions preparingboundedchecker.",
+    "evidence": "research/n71-noncentral1094-actual-review.md"
   },
   {
     "id": "A08",
@@ -75,10 +75,10 @@
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "sustained faster exact search",
+    "status": "unchanged DFS curtailed; frontiers preserved",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Main20261nodes preserved; middle120250\u21923000nodes/no leaf,slice,witness. All11middle stages independentlyaudited. One600s middlecontinuationstarted after noactiveprocessaudit; no superiorityclaim.",
-    "evidence": "research/near-quarter-middle-chain120-actual-review.md"
+    "finding": "Main20261/middle20000 independentlyauditednodes, noleaf/closedslice/witness. No furtherunchangedDFSallocation. Restrictedpairedcolor\u03c0/\u03c3trading heuristic proposed, differentstatefamily withno completenessclaim; source/tinyreviewbeforepilot.",
+    "evidence": "research/near-quarter-middle-chain600-r2-actual-review.md"
   },
   {
     "id": "A10",

@@ -1,0 +1,51 @@
+{
+  "job": {
+    "id": "shepherd-n73-boundary8-v1",
+    "seconds": 30,
+    "hypothesis": "Independently approved finite pinnedfixture extension/repair only; source-reviewed exactfilters and dualfinals."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/n73_boundary_extension.py",
+    "--raw",
+    "data/published-n73-rct4.raw",
+    "--fixture",
+    "data/published-n73-rct4-candidate.json",
+    "--seconds",
+    "25",
+    "--output-dir",
+    "data/n73-boundary8-v1"
+  ],
+  "sources_before": {
+    "research/n73_boundary_extension.py": "e93d9025e1b77fedb96dfde0f868d959414620dc93994c9d1041726a37f65dfa",
+    "tests/test_n73_boundary_extension.py": "c4a2714ac08a2b77e21bd802b346d029ec9dc1ab26af52201f29b48537c69c69",
+    "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+    "data/published-n73-rct4.raw": "6053ddbe7a6a5c445a04b406a7554144e2990a7384db11d932ac961a7ebd205e",
+    "data/published-n73-rct4-candidate.json": "0c99133e2025005e99a702a8538752aa58ee763f4a01d6531f8015c423db29ae",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.4385833749984158,
+  "started_at": "2026-11-27T07:36:35.010935+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.43856599999708124,
+    "rss_samples": 7,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 46736,
+    "cleanup_elapsed_seconds": 0.01979708300495986,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T07:36:35.450445+00:00",
+  "sources_unchanged": true
+}

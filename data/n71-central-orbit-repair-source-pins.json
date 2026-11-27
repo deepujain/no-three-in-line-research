@@ -1,0 +1,9 @@
+{
+  "research/n71_central_orbit_repair.py": "1e74f4ec44eeaa3f67f20008a6168e992105d86014e3b9ac5cdc8584ba1ecdbb",
+  "tests/test_n71_central_orbit_repair.py": "905ce8aa95a1a0af8ab6adcc14c2726fa0c103e997de2e94a2c67dcd452f9e50",
+  "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+  "data/published-n71-rct4.json": "00a206f24c3044c252a57160c59af6ef39e2312f0132329b123143c2ad0c01d9",
+  "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+  "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+  "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+}

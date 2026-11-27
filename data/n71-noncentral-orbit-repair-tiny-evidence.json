@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "version": "n71-first-noncentral-orbit-repair-tiny-v1",
+  "implementation_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "scope": "Only abstract arithmetic and n13 prepared valid retained subsets; no full valid tiny source fixture is claimed, and no n79 geometry or actual repair was executed.",
+  "test_command": "python3 -m unittest tests.test_n71_noncentral_orbit_repair tests.test_n71_central_orbit_repair tests.test_n71_boundary_extension -v",
+  "test_output": "test_1094_against_all_actual_tiny_row_loads (tests.test_n71_noncentral_orbit_repair.NoncentralRepairTests.test_1094_against_all_actual_tiny_row_loads) ... ok\ntest_every_survivor_dual_checked_and_early_witness (tests.test_n71_noncentral_orbit_repair.NoncentralRepairTests.test_every_survivor_dual_checked_and_early_witness) ... ok\ntest_retained_opposite_orientation_is_explicitly_rejected (tests.test_n71_noncentral_orbit_repair.NoncentralRepairTests.test_retained_opposite_orientation_is_explicitly_rejected) ... ok\ntest_strict_scope_and_inputs (tests.test_n71_noncentral_orbit_repair.NoncentralRepairTests.test_strict_scope_and_inputs) ... ok\ntest_timeout_before_and_during_filter (tests.test_n71_noncentral_orbit_repair.NoncentralRepairTests.test_timeout_before_and_during_filter) ... ok\ntest_tiny_prepared_subset_complete_and_readdition (tests.test_n71_noncentral_orbit_repair.NoncentralRepairTests.test_tiny_prepared_subset_complete_and_readdition) ... ok\ntest_all_raw_tiny_degree_cases_against_actual_row_loads (tests.test_n71_central_orbit_repair.CentralRepairTests.test_all_raw_tiny_degree_cases_against_actual_row_loads) ... ok\ntest_every_filter_survivor_gets_both_final_verifiers (tests.test_n71_central_orbit_repair.CentralRepairTests.test_every_filter_survivor_gets_both_final_verifiers) ... ok\ntest_exact_filter_agrees_with_independent_small_verifier (tests.test_n71_central_orbit_repair.CentralRepairTests.test_exact_filter_agrees_with_independent_small_verifier) ... ok\ntest_timeout_and_strict_budget (tests.test_n71_central_orbit_repair.CentralRepairTests.test_timeout_and_strict_budget) ... ok\ntest_timeout_during_filter_keeps_partial_evidence (tests.test_n71_central_orbit_repair.CentralRepairTests.test_timeout_during_filter_keeps_partial_evidence) ... ok\ntest_tiny_complete_preserves_all_readdition_cases (tests.test_n71_central_orbit_repair.CentralRepairTests.test_tiny_complete_preserves_all_readdition_cases) ... ok\ntest_witness_is_saved_before_early_return (tests.test_n71_central_orbit_repair.CentralRepairTests.test_witness_is_saved_before_early_return) ... ok\ntest_boundary_selection_exhaustive_tiny_arithmetic (tests.test_n71_boundary_extension.BoundaryExtensionTests.test_boundary_selection_exhaustive_tiny_arithmetic) ... ok\ntest_immediate_witness_write (tests.test_n71_boundary_extension.BoundaryExtensionTests.test_immediate_witness_write) ... ok\ntest_invalid_fixture_and_input (tests.test_n71_boundary_extension.BoundaryExtensionTests.test_invalid_fixture_and_input) ... ok\ntest_timeout_keeps_partial_result_incomplete (tests.test_n71_boundary_extension.BoundaryExtensionTests.test_timeout_keeps_partial_result_incomplete) ... ok\ntest_tiny_fixture_and_full_candidate_check (tests.test_n71_boundary_extension.BoundaryExtensionTests.test_tiny_fixture_and_full_candidate_check) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.855s\n\nOK\n",
+  "sources": {
+    "research/n71_noncentral_orbit_repair.py": "8bcaa053a84302a70f8a243fd147d8e566df2b01761cbe5b466c45a12d0b2b69",
+    "tests/test_n71_noncentral_orbit_repair.py": "bef628ae6ee5f3b67b4a52d7c030e6e3b79fd449ea01bd73357ccc51429c902b",
+    "research/n71_central_orbit_repair.py": "1e74f4ec44eeaa3f67f20008a6168e992105d86014e3b9ac5cdc8584ba1ecdbb",
+    "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+    "data/published-n71-rct4.json": "00a206f24c3044c252a57160c59af6ef39e2312f0132329b123143c2ad0c01d9",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "case": {
+    "deleted_n71_orbit": [
+      [
+        0,
+        19
+      ],
+      [
+        19,
+        70
+      ],
+      [
+        51,
+        0
+      ],
+      [
+        70,
+        51
+      ]
+    ],
+    "inner_radii": [
+      16,
+      35
+    ],
+    "outer_radii": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "labeled_edges": 30,
+    "raw_subsets": 142506,
+    "degree_choices": 1094,
+    "readdition_choices": 51
+  }
+}

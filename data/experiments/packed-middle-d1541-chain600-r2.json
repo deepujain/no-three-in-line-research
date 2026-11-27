@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/near_quarter_packed_chain.py",
+    "--request-template",
+    "data/packed-readonly-n79-middle-d1541-chain600-template.json",
+    "--template-sha256",
+    "7b519da71d657e216cd148239a54b26bda5f3decb37c5b94e993b7f18a94f86c",
+    "--run-id",
+    "21e38b3a5ea727ffbfad8a1c245f6a2b",
+    "--seconds",
+    "600"
+  ],
+  "elapsed_seconds": 571.673114959005,
+  "entrypoint_sha256": "a5fcb6ad8ee5777fa8d2c44cca5e595c617c1c221fe1ac04bb57b067fd9ea182",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T07:31:33.427265+00:00",
+  "job": {
+    "args": [
+      "--request-template",
+      "data/packed-readonly-n79-middle-d1541-chain600-template.json",
+      "--template-sha256",
+      "7b519da71d657e216cd148239a54b26bda5f3decb37c5b94e993b7f18a94f86c",
+      "--run-id",
+      "21e38b3a5ea727ffbfad8a1c245f6a2b"
+    ],
+    "hypothesis": "Reviewed distinctdiagonal1541 continuation from3000auditednodes, fixed250/30s256MiB, boundeddiversity allocation not superiorityclaim.",
+    "id": "packed-middle-d1541-chain600-r2",
+    "script": "research/near_quarter_packed_chain.py",
+    "seconds": 600
+  },
+  "log": "data/run-logs/packed-middle-d1541-chain600-r2.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 74910,
+  "started_at": "2026-11-27T07:22:01.751333+00:00",
+  "status": "completed"
+}
