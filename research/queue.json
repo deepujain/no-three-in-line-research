@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "Hourly03:07synthesis r42 allocates300seconds: main180/max4x10000, explore120/max2x1000. Source unchanged; main quota reduced after clean internal timeout. All prior receipts terminal. Protect3,600seconds unspent budget for gated packed geometry and pruning; this earmark is not launch spending.",
+  "note": "03:10dispatcher r43 allocates300seconds: main180/max4x10000, explore120/max2x1000. All prior receipts terminal, current actual processes clean, source unchanged. Protect3600unspent seconds for new gated branches.",
   "jobs": [
     {
       "args": [
@@ -1447,6 +1447,64 @@
         "af5449352782d08d91114e8b2c3d60b6941df852b92aeec2ba2ad20525a33704",
         "--ledger-dir",
         "data/rowbatch-chain-r42-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "2",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r43-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Continue independently audited incomplete r42 frontiers using reduced10000-node main chunks and distinct1000-node exploration. Preserve frozen unmodified control while separately reviewed stronger graph pruning and packed geometry integration develop. Protect3600unspent seconds for new gated branches. Deterministic/no RNG; unchanged30sec/256MiB; stop on any timeout/rejection/witness/exhaustion.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "ddd13f3ec0e9b405c3a60a2a0d4d04575b3141af29cdeee472904a7696e76595",
+        "--ledger-dir",
+        "data/rowbatch-chain-r43-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "4",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r43-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Continue independently audited incomplete r42 frontiers using reduced10000-node main chunks and distinct1000-node exploration. Preserve frozen unmodified control while separately reviewed stronger graph pruning and packed geometry integration develop. Protect3600unspent seconds for new gated branches. Deterministic/no RNG; unchanged30sec/256MiB; stop on any timeout/rejection/witness/exhaustion.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "a620bbeaf3687f66e6645cec86f1b3557c0eb1495767bc55489281806402eb3a",
+        "--ledger-dir",
+        "data/rowbatch-chain-r43-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",

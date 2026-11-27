@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Old one-orbit frontiers retained at 367,000/21,000 nodes. Audited full-row traversal reached 355,410 main and 10,100 exploration nodes, no witness/exhausted slice. Larger main chunks hit a clean cooperative timeout; reduced chunk allocation. Residual-graph tiny tests under review.",
-    "evidence": "research/diagonal-rowbatch-r41-main-review.md"
+    "finding": "Audited full-row control reached 395,410 main/12,100 exploration nodes, no witness/exhausted slice. Separate reviewed tiny graph pruning preserved all completions/order through n5 and reduced n5 nodes205 to192; speed and large-grid benefit unmeasured. Production design next.",
+    "evidence": "research/diagonal-residual-graph-tiny-independent-review.md"
   },
   {
     "id": "A09",

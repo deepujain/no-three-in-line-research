@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Audited accepted r41 timeout; reviewing tiny residual-graph source and r42 terminal evidence",
+    "status": "Tiny pruning source reviewed; reviewing production integration design and r43 terminal evidence",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Packed state independently reviewed; finishing tiny residual-graph tests, then reviewing integrated packed adapter",
+    "status": "Tiny graph reference/oracle finished; preparing narrow production design and independently reviewing packed integration",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]
