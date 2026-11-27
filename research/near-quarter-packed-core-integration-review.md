@@ -1,0 +1,26 @@
+# Independent packed core/codec integration review
+
+Approved at source/tiny level. Reviewer: Mathematical Reviewer, `gpt-6-astra`, high. This approves the closed adapter2 integration, not an unimplemented stage-report/acceptance wrapper, host resource gate or broad-grid execution. Only n3/n5/n7 geometry was instantiated for correctness testing.
+
+| File | SHA-256 |
+| --- | --- |
+| `research/near_quarter_rowbatch_core.py` | `27beb80326431e952bc5523065d94866982326b46eed6d9ec2541ea49b8a1670` |
+| `research/near_quarter_rowbatch_checkpoint.py` | `d5001ad5388cb765360048dc3452cefad0b851e9db5b146e0500e76e09d8d10b` |
+| `tests/test_near_quarter_packed_core.py` | `bb4eccdc6c78a305503762542665107fccff809eba3f7ea989db323a8b435537` |
+| `data/near-quarter-packed-core-integration-tiny-evidence.json` | `75d36054894e4e5214d7ed5db246c05057b2b5d51f9866ce2fc47563fbe6c8da` |
+
+The packed state remains `860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11`, cursor `738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422`, and prior tiny/state tests unchanged. I read the complete changed core, codec and new tests and checked every evidence source hash.
+
+The constructors and replay dispatch are closed to the literal tiny and packed classes with matching adapter tags. Adapter1 retains its hard-tiny API and modes; adapter2 requires first-event mode1 and validates grid arithmetic before allocation. Separate seven-source bundles bind the appropriate state module without changing the v1 wire layout. Existing source-bound checkpoints are intentionally incompatible with changed source identities; no migration or history rebind is provided.
+
+The histogram scan preserves full-row branching. A single admissibility mask records canonical orbit IDs; per-row one/two-weight counts replace retained contributor lists. The optimistic capacity formula is `2*min(c2,r)+min(c1,max(0,r-c2))`; MRV compares contributor count, negative deficit and the declared row order through stable minimum selection. The chosen domain is rebuilt in declared orbit order. Viability probes restore exact geometry before any prune/domain result is committed. No global orbit-ID pruning or quadratic pair list is added.
+
+Packed budget callbacks reach all point-level operations. Probe cleanup and whole-batch cleanup use `rollback_last_orbit()` so an expired budget cannot prevent undo. Failed pair cleanup clears the locally latched stop only while preserving the original propagated error. On DONE, the complete incoming batch is undone with stop propagation deferred, the matching parent/root frame transition commits, and only then does `raise_latched()` propagate cancellation. A stop therefore leaves either the original coherent state or the complete corresponding pop transition. Unexpected poisoned-state failures remain unpublishable. The private restore path reconstructs a new object and returns only after source, geometry and final deadline checks; it never counts logical nodes again.
+
+Packed identity construction verifies checkpointable flags, exact array lengths/offsets, in-grid packed cells and a recomputed map digest. Immutable saving compares the replayed full geometry snapshot, frame list, counters, outer phase and slice index with live state before writing. This closes the mutable packed-map gap that a stored digest alone would leave. Source/authority/phase rules, lease and candidate-publication semantics remain unchanged; no accepted-frontier pointer is advanced here.
+
+Independent command `.venv/bin/python -m unittest tests.test_near_quarter_packed_core tests.test_near_quarter_packed_state tests.test_near_quarter_rowbatch_checkpoint -q` passed all 23 tests in 4.744 seconds. Adapter1/adapter2 every-phase and repeated one-node runs agree exactly on tiny mathematical state, frames, counts and leaves in forward/reverse orders: 2/5/11 nodes and 1/0/0 leaves. Tests cover 4954 representative step check boundaries, of which 126 propagate after a coherent pop/frame commit, and 587 private restore interruption boundaries. Save faults, source/map/adapter corruption, poison and latch refusal are covered. Snapshot comparisons use already-roundtripped old/committed templates; the evidence accurately discloses the earlier redundant-test timeout and the optimized final harness.
+
+I additionally checked all 146 valid diagonal-containing partial prefixes below the four-orbit target at n3/n5/n7 in forward/reverse declarations. Packed scans matched an independently computed frozen-state list-domain/top-r/MRV oracle exactly, with unchanged full geometry snapshots. This is tiny correctness validation, not a numerical performance experiment.
+
+The real tiny MRV trees contain no two-orbit incoming frame, and the evidence says so. Actual n7 helper pairs test successful and rejected two-orbit cleanup, while the unchanged abstract twelve-leaf fixture tests pair control/replay. These do not claim a physical tiny pair frontier was exercised. Larger-prefix cost, process cancellation and resource acceptance require the separate reviewed host gates. Physical restore and save-validation work are recorded apart from logical counts; future stage-report aggregation must retain bounded counters and whole-invocation measurement. Compact replay still does not prove historical subtree exhaustion or unrestricted infeasibility.

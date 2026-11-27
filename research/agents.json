@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Corrected residual production design approved; reviewing new core when ready and r44 terminal evidence",
+    "status": "Audited r44; reviewing new residual checkpoint source when ready and r45 terminal evidence",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Packed adapter core/codec integration frozen for independent review; drafting standalone guard design"
+    "status": "Packed core/codec integration independently approved; drafting standalone guard/receipt design"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Reviewing packed adapter integration; authorized residual core/tiny implementation after approved design",
+    "status": "Packed integration independently reviewed; implementing separate residual checkpoint core/tiny tests",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

@@ -1,6 +1,6 @@
-"""Fixed near-quarter row-batch v1 wire codec and private hard-tiny replay.
+"""Fixed near-quarter v1 codec with closed tiny/packed private replay.
 
-No accepted-frontier pointer, CLI, process wrapper or production state adapter.
+No accepted-frontier pointer, CLI, process wrapper or broad-grid execution.
 """
 from dataclasses import dataclass
 import hashlib
@@ -13,7 +13,7 @@ import struct
 from src.near_quarter_model import check_candidate
 from research.near_quarter_rowbatch_cursor import Cursor, NONE, END
 from research.near_quarter_rowbatch_core import (
-    Frame, TinyRowBatchCore, ZERO, COUNTERS, BETWEEN, ACTIVE, EXHAUSTED, FOUND,
+    Frame, TinyRowBatchCore, PackedRowBatchCore, ZERO, COUNTERS, BETWEEN, ACTIVE, EXHAUSTED, FOUND,
     ENTER, COUNTED, READY, PENDING, WAITING, LEAF, DONE,
     DRAINED, ORBIT_SHORTFALL, ROW_SHORTFALL, TARGET_NONLEAF, TINY_LEAF)
 
@@ -67,10 +67,28 @@ class ParsedFrontier:
 
 
 def identity(core, check=lambda: None):
+    if (type(core) not in (TinyRowBatchCore, PackedRowBatchCore) or
+            core.adapter != (1 if type(core) is TinyRowBatchCore else 2)):
+        raise ValueError('closed adapter class/tag mismatch')
     core.check_sources(check)
+    if core.adapter == 2:
+        core.state.assert_checkpointable()
+        bounds = core.state.bounds
+        cells, offsets = core.state._orbit_cells, core.state._orbit_offsets
+        if len(cells) != bounds['incidences'] or len(offsets) != bounds['orbits']+1:
+            raise ValueError('live packed model array size mismatch')
+        for i, offset in enumerate(offsets):
+            check()
+            if offset != 4*min(i, bounds['four'])+2*max(0, i-bounds['four']):
+                raise ValueError('live packed orbit offset mismatch')
+        if any(cell >= core.n*core.n for cell in cells):
+            raise ValueError('live packed cell outside grid')
+        actual_map = core.state._map_digest(check)
+        if actual_map != core.state.map_digest or actual_map != core.map_digest:
+            raise ValueError('live packed map identity mismatch')
     out = bytearray(512)
     struct.pack_into('>HHHH', out, 0, 1, core.n, core.m, 2*core.n)
-    out[8:15] = bytes((1, 1, core.leaf_mode, 1, 1, 1, 1))
+    out[8:15] = bytes((1, core.adapter, core.leaf_mode, 1, 1, 1, 1))
     out[16:48], out[48:80] = core.map_digest, core.perm_digest
     for i, source in enumerate(core.source_hashes):
         out[80+32*i:112+32*i] = source
@@ -195,8 +213,8 @@ def _frame_parse(raw):
 
 
 def encode(core, *, parent_hash, chain_id, check=lambda: None):
-    if type(core) is not TinyRowBatchCore:
-        raise ValueError('reviewed tiny core required')
+    if type(core) not in (TinyRowBatchCore, PackedRowBatchCore):
+        raise ValueError('closed tiny/packed core required')
     m, four, total, depth = grid_bounds(core.n)
     if (len(core.frames) > depth or len(core.diagonals) > m or len(core.orbits) != four or
             len(core.rows) != core.n):
@@ -311,10 +329,11 @@ def parse(raw, *, trusted_record, expected_identity, check=lambda: None):
 
 def _restore(parsed, *, check=lambda: None):
     """Privately replay all geometry; no core is returned before complete checks."""
-    if type(parsed) is not ParsedFrontier or parsed.adapter != 1:
-        raise ValueError('only reviewed tiny replay adapter implemented')
+    if type(parsed) is not ParsedFrontier or parsed.adapter not in (1, 2):
+        raise ValueError('closed tiny/packed replay adapter required')
     check()
-    core = TinyRowBatchCore(parsed.n, diagonal_order=parsed.diagonals, orbit_order=parsed.orbits,
+    factory = TinyRowBatchCore if parsed.adapter == 1 else PackedRowBatchCore
+    core = factory(parsed.n, diagonal_order=parsed.diagonals, orbit_order=parsed.orbits,
                             row_order=parsed.rows, leaf_mode=parsed.leaf_mode, check=check)
     if identity(core, check) != parsed.identity:
         raise ValueError('executing source/model identity differs')
@@ -363,6 +382,9 @@ def _restore(parsed, *, check=lambda: None):
     core.outer, core.slice_index, core.frames = parsed.outer, parsed.slice_index, list(parsed.frames)
     core.counts = dict(zip(COUNTERS, parsed.counts))
     core.restore_mode = False
+    if core.adapter == 2:
+        core.state.assert_checkpointable()
+        core.restore_work = dict(core.state.work)
     core.check_sources(check)
     check()
     return core
@@ -486,6 +508,9 @@ def save_candidate(core, *, lease, check=lambda: None, fault=lambda boundary: No
             replayed.slice_index != core.slice_index):
         raise ValueError('live geometry/frontier differs from replay')
     core.work['restore_probes'] += replayed.work['restore_probes']
+    if core.adapter == 2:
+        for key, value in replayed.state.work.items():
+            core.validation_work[key] += value
     name = record.content_sha256.hex()+'.nqrb'
     destination = lease.directory/name
     temp = lease.directory/('.candidate-'+secrets.token_hex(16))

@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "03:15dispatcher r44 reduced300second allocation: main180/max4x10000, explore120/max2x1000; all prior receipts terminal/current process audit clean. Protect3600unspent worker-seconds for new branches. Frozen source unchanged.",
+  "note": "03:20 dispatcher r45 reduced 300-second allocation, pinned audited r44 frontiers. No live prior pool, all receipts terminal, unchanged source. Protect 3,600 unspent worker-seconds for new gated branches.",
   "jobs": [
     {
       "args": [
@@ -1563,6 +1563,64 @@
         "40ca2a51fcdf9d2b5573bc06d6a5480543e8749649f8cd97d7a7b2aa726c40cf",
         "--ledger-dir",
         "data/rowbatch-chain-r44-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "2",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r45-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Advance independently audited r44 accepted frontier without replay, retaining reduced frozen control and distinct exploration while new branches complete review. Protect 3,600 unspent seconds. Deterministic order/no RNG, unchanged 30 s/256 MiB; stop on timeout/rejection/witness/exhaustion. No infeasibility or novelty claim.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "c4561a520d35b3d824a1d3b849d980614591381917a22b5880a56f1a56631002",
+        "--ledger-dir",
+        "data/rowbatch-chain-r45-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "4",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r45-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Advance independently audited r44 accepted frontier without replay, retaining reduced frozen control and distinct exploration while new branches complete review. Protect 3,600 unspent seconds. Deterministic order/no RNG, unchanged 30 s/256 MiB; stop on timeout/rejection/witness/exhaustion. No infeasibility or novelty claim.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "365d98e16b651432a5092b6ad849d6a17e56ca02701794778343f40546119ed6",
+        "--ledger-dir",
+        "data/rowbatch-chain-r45-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",

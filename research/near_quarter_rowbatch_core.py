@@ -1,8 +1,9 @@
-"""Iterative near-quarter row batches with a hard-tiny geometry adapter.
+"""Closed tiny/packed near-quarter row-batch cores, without CLI or process guard.
 
-The separately versioned wire contract supports up to n79. This adapter never
-instantiates geometry outside n3/n5/n7. No CLI, process guard or numerical pilot.
+Adapter1 remains n3/n5/n7. Adapter2 is mode1 and bounded to odd n3..79;
+only tiny integration tests are allocated here, with no broad-grid run.
 """
+from array import array
 from dataclasses import dataclass, replace
 import hashlib
 from pathlib import Path
@@ -10,6 +11,7 @@ import struct
 
 from research.near_quarter_rowbatch_cursor import Cursor, Domain, NONE, SINGLE, PAIR, END
 from research.near_quarter_tiny_secants import TinyOrbitState
+from research.near_quarter_packed_state import PackedOrbitState, PackedStop, packed_bounds
 from src.near_quarter_model import check_candidate
 
 ZERO = bytes(32)
@@ -23,10 +25,12 @@ SOURCE_PATHS = tuple(ROOT/p for p in (
     'research/near_quarter_rowbatch_cursor.py', 'research/near_quarter_rowbatch_checkpoint.py',
     'src/near_quarter_model.py', 'src/verify.py', 'src/line_model.py'))
 
+PACKED_SOURCE_PATHS = SOURCE_PATHS[:1]+(ROOT/'research/near_quarter_packed_state.py',)+SOURCE_PATHS[2:]
 
-def _source_digests(check=lambda: None):
+
+def _source_digests(check=lambda: None, *, adapter=1):
     hashes = []
-    for path in SOURCE_PATHS:
+    for path in (SOURCE_PATHS if adapter == 1 else PACKED_SOURCE_PATHS):
         check()
         hasher, total = hashlib.sha256(), 0
         with path.open('rb') as stream:
@@ -43,7 +47,7 @@ def _source_digests(check=lambda: None):
     return tuple(hashes)
 
 
-EXECUTING_SOURCE_HASHES = _source_digests()
+EXECUTING_SOURCE_HASHES = {1: _source_digests(), 2: _source_digests(adapter=2)}
 
 
 def u16(value):
@@ -90,8 +94,11 @@ class TinyRowBatchCore:
         if type(leaf_mode) is not int or leaf_mode not in (1, 2):
             raise ValueError('invalid leaf mode')
         check()
-        self.n, self.m, self.leaf_mode = n, n//2, leaf_mode
-        self.state = TinyOrbitState(n)
+        self._initialize(n, TinyOrbitState(n), 1, diagonal_order, orbit_order, row_order, leaf_mode, check)
+
+    def _initialize(self, n, state, adapter, diagonal_order, orbit_order, row_order, leaf_mode, check):
+        self.n, self.m, self.leaf_mode, self.adapter = n, n//2, leaf_mode, adapter
+        self.state = state
         four = self.state.model['four_count']
         self.diagonals = permutation(diagonal_order, range(four+1, four+self.m+1), subset=True)
         self.orbits = permutation(orbit_order, range(1, four+1))
@@ -103,14 +110,36 @@ class TinyRowBatchCore:
         self.work = dict.fromkeys(('domain_probes', 'batch_probes', 'cursor_checks',
                                   'restore_probes', 'interrupted_scans'), 0)
         self.restore_mode = False
-        self.source_hashes = EXECUTING_SOURCE_HASHES
+        self.restore_work = dict.fromkeys(state.work, 0) if adapter == 2 else {}
+        self.validation_work = dict(self.restore_work)
+        self.source_hashes = EXECUTING_SOURCE_HASHES[adapter]
         self.check_sources(check)
-        self.map_digest = self._map_digest()
+        self.map_digest = state.map_digest if adapter == 2 else self._map_digest()
         self.perm_digest = digest('NQRB-PERMS-v1', self.permutation_bytes())
+        check()
 
     def check_sources(self, check=lambda: None):
-        if _source_digests(check) != self.source_hashes:
+        if self.adapter not in (1, 2) or _source_digests(check, adapter=self.adapter) != self.source_hashes:
             raise ValueError('executing source identity changed')
+
+    def _bind_check(self, check):
+        if self.adapter == 2:
+            self.state.bind_check(check)
+
+    def _undo_orbits(self, count, *, suppress_stop=False, defer_stop=False):
+        for _ in range(count):
+            if self.adapter == 2:
+                self.state.rollback_last_orbit()
+            else:
+                self.state.pop()
+        if self.adapter == 2 and not defer_stop:
+            if suppress_stop:
+                try:
+                    self.state.raise_latched()
+                except PackedStop:
+                    pass  # Original error is propagated after coherent cleanup.
+            else:
+                self.state.raise_latched()
 
     def _map_digest(self):
         data = u16(self.n)+u16(len(self.state.model['orbits']))
@@ -133,9 +162,11 @@ class TinyRowBatchCore:
         self.counts[name] += 1
 
     def _scan(self, check):
-        """Scratch only; check between complete tiny push/pop operations."""
-        viable, weights = [], {row: [] for row in self.rows if self.state.rows[row] < 2}
-        r = self.m-self.state.four_selected
+        """One bounded current mask/histogram/domain; no per-depth domains."""
+        self._bind_check(check)
+        mask = bytearray(len(self.orbits))
+        ones, twos = array('H', [0])*self.n, array('H', [0])*self.n
+        r, viable = self.m-self.state.four_selected, 0
         try:
             for variable in self.orbits:
                 check()
@@ -145,29 +176,44 @@ class TinyRowBatchCore:
                 if not self.state.push(variable):
                     continue
                 try:
-                    viable.append(variable)
-                    orbit = self.state.model['orbits'][variable-1]
-                    for row in weights:
-                        weight = sum(y == row for x, y in orbit)
-                        if weight:
-                            weights[row].append((variable, weight))
-                finally:
-                    self.state.pop()
-            if len(viable) < r:
+                    viable += 1
+                    mask[variable-1] = 1
+                    ys = tuple(y for x, y in self.state.model['orbits'][variable-1])
+                    seen = []
+                    for row in ys:
+                        # Probe geometry already contains the new orbit. Recover
+                        # the parent load to identify its previously open rows.
+                        if row in seen:
+                            continue
+                        seen.append(row)
+                        weight = ys.count(row)
+                        if self.state.rows[row]-weight < 2:
+                            (ones if weight == 1 else twos)[row] += 1
+                except BaseException:
+                    self._undo_orbits(1, suppress_stop=True)
+                    raise
+                else:
+                    self._undo_orbits(1)
+            check()
+            if viable < r:
                 return ORBIT_SHORTFALL, None, None
-            for row in self.rows:
-                if row not in weights:
-                    continue
-                contribution = sorted((w for v, w in weights[row]), reverse=True)[:r]
-                if sum(contribution) < 2-self.state.rows[row]:
+            rows = [row for row in self.rows if self.state.rows[row] < 2]
+            for row in rows:
+                optimistic = 2*min(twos[row], r)+min(ones[row], max(0, r-twos[row]))
+                if optimistic < 2-self.state.rows[row]:
                     return ROW_SHORTFALL, row, None
-            if not weights:
+            if not rows:
                 raise RuntimeError('full rows without exact leaf')
-            row = min(weights, key=lambda a: (len(weights[a]), -(2-self.state.rows[a]), self.rows.index(a)))
-            entries = weights[row]
-            domain = Domain(tuple(v for v, w in entries), tuple(w for v, w in entries),
-                            2-self.state.rows[row], r)
-            return 0, row, domain
+            row = min(rows, key=lambda a: (ones[a]+twos[a], -(2-self.state.rows[a])))
+            ids, weights = [], []
+            for variable in self.orbits:
+                check()
+                if mask[variable-1]:
+                    weight = sum(y == row for x, y in self.state.model['orbits'][variable-1])
+                    if weight:
+                        ids.append(variable)
+                        weights.append(weight)
+            return 0, row, Domain(ids, weights, 2-self.state.rows[row], r)
         except BaseException:
             self.work['interrupted_scans'] += 1
             raise
@@ -190,25 +236,26 @@ class TinyRowBatchCore:
         check()
 
     def _push_batch(self, batch, check):
+        self._bind_check(check)
         pushed = 0
         try:
             for variable in batch:
                 check()
                 if not self.state.push(variable):
-                    for _ in range(pushed):
-                        self.state.pop()
+                    undo, pushed = pushed, 0
+                    self._undo_orbits(undo)
                     return False
                 pushed += 1
             check()
             return True
         except BaseException:
-            for _ in range(pushed):
-                self.state.pop()
+            self._undo_orbits(pushed, suppress_stop=True)
             raise
 
     def step(self, *, check=lambda: None, node_room=True):
         """One coherent frontier transition; false means quota or terminal/event."""
         check()
+        self._bind_check(check)
         if self.outer in (EXHAUSTED, FOUND):
             return False
         if self.outer == BETWEEN:
@@ -228,6 +275,7 @@ class TinyRowBatchCore:
             if self.state.full_family_leaf():
                 if not check_candidate(self.state.model, self.state.selected)['valid_full_witness']:
                     raise RuntimeError('leaf failed independent geometry checks')
+                check()
                 next_frame = frame.cleared(LEAF, leaf_digest=self.leaf_digest())
                 self._inc('leaves')
             elif self.state.four_selected >= self.m:
@@ -235,6 +283,7 @@ class TinyRowBatchCore:
                 self._inc('target_closures')
             else:
                 reason, row, domain = self._scan(check)
+                check()
                 if reason:
                     fields = ({'row': row, 'deficit': 2-self.state.rows[row]} if reason == ROW_SHORTFALL else {})
                     next_frame = frame.cleared(DONE, close_reason=reason, **fields)
@@ -263,8 +312,7 @@ class TinyRowBatchCore:
             self.work['batch_probes'] += 1
             if self._push_batch(frame.pending, check):
                 if self.state.rows[frame.row] != 2:
-                    for _ in frame.pending:
-                        self.state.pop()
+                    self._undo_orbits(len(frame.pending), suppress_stop=True)
                     raise RuntimeError('batch did not fill selected row')
                 self.counts['attempts'] += 1
                 self.frames = new_frames
@@ -278,14 +326,15 @@ class TinyRowBatchCore:
         elif frame.phase == DONE:
             if len(self.frames) == 1:
                 next_index = self.slice_index+1
-                self.state.pop()
+                self._undo_orbits(1, defer_stop=True)
                 self.frames, self.slice_index = [], next_index
                 self.outer = BETWEEN if next_index < len(self.diagonals) else EXHAUSTED
             else:
                 new_frames = self.frames[:-2]+[replace(self.frames[-2], phase=READY)]
-                for _ in frame.incoming:
-                    self.state.pop()
+                self._undo_orbits(len(frame.incoming), defer_stop=True)
                 self.frames = new_frames
+            if self.adapter == 2:
+                self.state.raise_latched()  # Whole pop and frame commit are complete.
         else:
             raise RuntimeError('top frame cannot be WAITING')
         return True
@@ -304,7 +353,7 @@ class TinyRowBatchCore:
 
     def run(self, max_new_nodes, *, check=lambda: None, on_leaf=None):
         if type(max_new_nodes) is not int or not 1 <= max_new_nodes <= 10000:
-            raise ValueError('tiny invocation node cap1..10000')
+            raise ValueError('invocation node cap1..10000')
         before = self.counts['nodes']
         while self.outer not in (EXHAUSTED, FOUND):
             check()
@@ -317,3 +366,14 @@ class TinyRowBatchCore:
             if not self.step(check=check, node_room=self.counts['nodes']-before < max_new_nodes):
                 return 'node_limit'
         return 'found' if self.outer == FOUND else 'declared_slices_exhausted'
+
+
+class PackedRowBatchCore(TinyRowBatchCore):
+    def __init__(self, n, *, diagonal_order=None, orbit_order=None, row_order=None,
+                 leaf_mode=1, check=lambda: None):
+        packed_bounds(n)
+        if type(leaf_mode) is not int or leaf_mode != 1:
+            raise ValueError('packed adapter requires first-event leaf mode1')
+        check()
+        self._initialize(n, PackedOrbitState(n, check=check), 2,
+                         diagonal_order, orbit_order, row_order, leaf_mode, check)

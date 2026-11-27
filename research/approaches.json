@@ -68,7 +68,7 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Audited full-row control reached 435,410 main/14,100 exploration nodes, no witness/exhausted slice. Tiny graph pruning preserves completions/order and reduces n5 nodes205 to192; production checkpoint design independently approved for core/tiny tests, with fresh identity/genesis. No large-grid pruning claim.",
+    "finding": "Audited full-row control reached 475,410 main/16,100 exploration nodes, no witness/exhausted slice. Tiny graph pruning preserves completions/order and reduces n5 nodes205 to192; new production checkpoint core/tiny tests underway. No large-grid pruning claim.",
     "evidence": "research/diagonal-residual-graph-tiny-independent-review.md"
   },
   {
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "native solver paused",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Native Glucose paused after memory stop. Isolated packed state passed independent tiny geometry and cancellation/fault review; narrow core/codec adapter integration authorized. No large-grid packed execution or new witness. Half-turn one-deletion shortcut pruned.",
-    "evidence": "research/near-quarter-packed-state-review.md"
+    "finding": "Native Glucose paused. Packed closed core/codec adapter independently approved with23tiny tests and146independent scan comparisons; standalone owned-worker guard design pending. No host or large-grid packed execution, witness or memory-fitness claim.",
+    "evidence": "research/near-quarter-packed-core-integration-review.md"
   },
   {
     "id": "A10",
