@@ -1,0 +1,24 @@
+# Independent row-batch chain review
+
+Source approved for separately coordinated dispatcher integration and actual-host tiny validation. Reviewer: Mathematical Reviewer, `gpt-6-astra`, high. No n79 construction, search, or benchmark was performed.
+
+| File | SHA-256 |
+| --- | --- |
+| `research/diagonal_rowbatch_chain.py` | `7dc712554cc2e66beb82860a6482d620769f4125bc4c92d297733dd197598787` |
+| `tests/test_diagonal_rowbatch_chain.py` | `f0fd208938569280155adc32ce91ea785a8e8b83515a4415f9474235d7fc3c87` |
+| `research/diagonal_rowbatch_checkpoint_guard.py` | `9b84eb89e009d32a2daa3cdfa6b3b5df9d63daa48ff2565c6f4572a682fb5d2f` |
+| `research/diagonal_rowbatch_checkpoint.py` | `b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289` |
+
+I read the full chain and tests and compared the source with the approved single-orbit chain `20ee2caeeb820ee1d66a7a437a01218e371179b75bcfda39458142e3c20ddd9a`. The adaptation changes only the guard import, bounded frontier read, object/size/grid/frame checks, and exact row-batch schema, branch and source identity. The inherited sequential reservation, acceptance, failure, publication, and sticky-ownership logic remains intact. The source-bound dispatcher at review time was `da18b0ac8e7fbd59583fd551bf17eca141fba0b94e60d07ff624b84b884cb2ee`; this review does not approve a future route change implicitly.
+
+The trusted initial hash and each accepted guard transition bind bounded bytes, declared slices, predecessor, counters, source stability, finite elapsed time/RSS observations and clean cleanup. Counter deltas and per-slice changes are consistent with the worker report. Any saved witness is checked by both exact verifiers, reflection symmetry, point count, filename and source metadata. The chain stops after the first completed witness-producing invocation. An unchanged reconstruction-timeout checkpoint has no accepted transition and is rejected with a sticky marker. Old schema and oversized inputs are rejected.
+
+The aggregate maximum remains 900 seconds, at most 26 nonreclaimed reservations of 32 seconds, and no new launch past the lesser of 840 seconds and the aggregate allowance minus 60 seconds. Each guard remains bounded by at most 30 seconds and 256 MiB sampled RSS. Late publication failures remove acceptance and preserve a separate published-but-unaccepted digest. The ledger is single-use; rejected/running ownership markers require independent ownership audit and new allocation. Locks are advisory, timing and memory checks are cooperative/sampled, and file fsync without directory fsync does not guarantee power-loss durability. A hard-killed parent does not itself prove owned-worker cleanup.
+
+Independent verification: `.venv/bin/python -m unittest tests.test_diagonal_rowbatch_chain tests.test_diagonal_rowbatch_checkpoint_guard tests.test_diagonal_rowbatch_checkpoint tests.test_diagonal_rowbatch_tiny tests.test_owned_process_guard -q` passed all 61 tests in 9.357 seconds. The chain tests exercise real tiny worker subprocesses with a mocked resource helper; the combined suite also covers the helper separately. This establishes source/tiny correctness evidence, not actual-host chain lifecycle behavior. Real-host success/cancellation gates and a supervisor allocation remain separate requirements for large use. Hashes and trusted counters are execution records, not independently checkable traversal proofs; no unrestricted infeasibility or witness novelty follows.
+
+## Dispatcher and proposed actual-host gate
+
+The subsequently added dispatcher `b71eb696b1a181886f745ec27d9d6e7ad2a47e5d22380c1ecdef7038ed0e5db2` is approved. Removing its exact five-line `--diagonal-rowbatch-chain` route reproduces the prior `da18b0ac8e7fbd59583fd551bf17eca141fba0b94e60d07ff624b84b884cb2ee`. Independent mocked routing confirms flag removal and argument forwarding, preservation of the process-start clock for real CLI calls, and a fresh clock for explicit API calls. The first reviewer import omitted the repository's `src` import path and failed before testing; with the normal import path both assertions passed.
+
+`tests/host_diagonal_rowbatch_chain_gate.py`, SHA-256 `cb3c3d66396280325c9b508be462489738255004e3f7dcfaff3c6cf2a4673a82`, is approved for supervisor execution after full source inspection. It runs the standalone chain on n3/n5, requires at least two accepted n3 invocations before witness stop and all 16 n5 certificates, and checks source/schema/orbit identity, saved digests, markers and both exact certificate verifiers. The separate n5 cancellation sends SIGTERM only after observing an owned worker and requires cancelled guard status, clean cleanup, no new publication/promotion, a rejected marker and disappearance of that PID. Bounded timeout/hard-kill handling retains failed/unknown ownership rather than claiming success. This is script approval only; this reviewer did not execute the host gate or observe its processes.

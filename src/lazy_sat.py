@@ -217,6 +217,11 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
 
 def main(argv=None):
     arguments = list(sys.argv[1:] if argv is None else argv)
+    if '--diagonal-rowbatch-chain' in arguments:
+        arguments.remove('--diagonal-rowbatch-chain')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.diagonal_rowbatch_chain import main as rowbatch_chain_main
+        return rowbatch_chain_main(arguments, started=_PROCESS_STARTED if argv is None else time.monotonic())
     if '--diagonal-rowbatch-checkpoint-guard' in arguments:
         arguments.remove('--diagonal-rowbatch-checkpoint-guard')
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))

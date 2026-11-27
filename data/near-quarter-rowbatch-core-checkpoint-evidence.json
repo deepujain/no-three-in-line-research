@@ -1,0 +1,119 @@
+{
+  "version": "near-quarter-rowbatch-core-checkpoint-tiny-evidence-v1",
+  "scope": "isolated hard-tiny core/codec replay tests; no process guard or large-grid geometry",
+  "model_setting": {
+    "model": "gpt-6.1-sol",
+    "reasoning": "high"
+  },
+  "command": "python3 -m unittest tests.test_near_quarter_rowbatch_checkpoint -v",
+  "tests": 9,
+  "result": "passed",
+  "unittest_elapsed_seconds": 0.61,
+  "resource_gate": {
+    "actual_host_guarded": false,
+    "rss_measured": false,
+    "n79_geometry_executed": false
+  },
+  "bounds": {
+    "schema_grid_max": 79,
+    "actual_geometry_grids": [
+      3,
+      5,
+      7
+    ],
+    "max_v1_wire_bytes": 7868,
+    "outer_wire_cap_bytes": 1048576,
+    "identity_bytes": 512,
+    "frame_bytes": 96,
+    "max_frames": 40
+  },
+  "real_tiny_equivalence": [
+    {
+      "n": 3,
+      "full_sets": 1,
+      "full_leaf_visits": 1,
+      "nodes": 2
+    },
+    {
+      "n": 5,
+      "full_sets": 0,
+      "full_leaf_visits": 0,
+      "nodes": 5
+    },
+    {
+      "n": 7,
+      "full_sets": 0,
+      "full_leaf_visits": 0,
+      "nodes": 11
+    }
+  ],
+  "real_tiny_orders": [
+    "forward",
+    "reverse"
+  ],
+  "real_tiny_methods": [
+    "every reachable phase roundtrip",
+    "one-node stages versus uninterrupted",
+    "exact frozen-reference leaves and logical nodes",
+    "terminal replay and repeated event acknowledgment"
+  ],
+  "synthetic_quota": {
+    "physical_geometry": false,
+    "fixture_orbits": 9,
+    "target_selected": 3,
+    "expected_complete_sets": 12,
+    "full_leaf_visits_each_order": 12,
+    "orders": [
+      "forward",
+      "reverse"
+    ],
+    "checks": [
+      "save/restore every transition",
+      "exact uninterrupted leaf order and final logical counters",
+      "accepted pair pending cursors",
+      "first/second successful orbit cancellation rollback",
+      "second-orbit rejection rollback",
+      "second-orbit pre-mutation exception rollback"
+    ]
+  },
+  "other_checks": [
+    "exhaustive cursor singleton/pair covers for all weight patterns through length5",
+    "last1521-entry pair coordinates without grid allocation",
+    "mandatory external raw SHA before parsing",
+    "trusted parent and chain mismatch",
+    "frame union/cursor/length/reserved corruption",
+    "active accepted-edge and event-counter consistency",
+    "corrupt live RAM cannot be saved",
+    "cancellation at every checked replay boundary returns no adopted partial core",
+    "lease collision/stale lease refusal",
+    "immutable repeated save",
+    "five publication fault boundaries"
+  ],
+  "limitations": [
+    "only the frozen tiny geometry adapter is implemented",
+    "no production point-loop cancellation-safe adapter or n79 geometry instantiation",
+    "no stage report publication, supervisor acceptance, guard wrapper or CLI route",
+    "frontier provenance is required; this is not an independently checkable UNSAT proof",
+    "cooperative deadline checks are not a hard wall/RSS bound"
+  ],
+  "pruned_hypothesis": {
+    "branch": "157 from three final-orbit points of an invalid near-quarter158 candidate",
+    "disposition": "ruled out by reviewed half-turn one-deletion lemma; no callback or implementation",
+    "scope": "center-absent half-turn-invariant full candidate only; other157 configurations remain open",
+    "novelty_claim": false
+  },
+  "sources": {
+    "research/near_quarter_rowbatch_cursor.py": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "research/near_quarter_rowbatch_core.py": "51a8fcde5772990be1b0de53ac8e04b30c8254dd4267e335186be8fbd84462a2",
+    "research/near_quarter_rowbatch_checkpoint.py": "26a31dc66144745a0c3cf0f5a7976eee78e1fcc9abc8844d1c4d039d14e5bb4c",
+    "tests/test_near_quarter_rowbatch_checkpoint.py": "e3a4d17e194d25b6e8e86a5265ef06711b77f543ed8e2a8301e0502406a2d4c0",
+    "research/near-quarter-rowbatch-core-checkpoint-design.md": "4fec375ec0530186506f2a968567d2dd847094b6dcd22eedd76cd938d04369f1",
+    "research/near-quarter-rowbatch-checkpoint-design-review.md": "5ae8d93ff777aa6a700ca04c136785c14f032fd15030aea345beb1d96737010e",
+    "research/near_quarter_tiny_secants.py": "305562c35e305a975ad8232b478c082aa44040b8e6b7bf26a3e99ef1a59e232a",
+    "research/near_quarter_tiny_batches.py": "417afd94483580b4697afc5edfd48b76d2310d5697e2bb44c08fbfe7977559ad",
+    "src/near_quarter_model.py": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "src/line_model.py": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "research/half-turn-one-deletion-lemma-review.md": "cb99a273f7c059d4e145da5477266d798cb765feecc86b44fbfa8ea08b35faa6"
+  }
+}
