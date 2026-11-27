@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "independent reviews and arithmetic cross-checks completed",
+    "status": "reviewing next symmetry branch, corner wrapper and relocated checkpoint resolution",
     "additional_role": "Mathematical Reviewer, later task on same agent/model"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "trade/barrier workers and SAT157 implementation completed; reviewed numerical continuations active"
+    "status": "preparing separately scoped symmetry SAT branch; no extra numerical search"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "embedding frontier and SAT157 proof/review completed; numerical continuations queued",
+    "status": "deriving target-specific symmetry restrictions and next search allocation",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

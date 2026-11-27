@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect numerical receipts and witnesses; keep queue useful. Embedding workers preserve offsets. Target157 SAT uses reviewed deficit encoding and validated geometry cuts. No extra numerical process while three lanes active.",
+  "next_action": "Inspect target157 unrestricted and reviewed diagonal157 SAT plus rectangle14 receipts. Nonuniform embedding family closed through five; prepare bounded streamed corner anchors after independent review. Never materialize corner5 deletion sets.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -19,12 +19,13 @@
   "completed_scoped_audits": [
     "624 one-hole boundary extensions",
     "24340 individual empty-cell blocker checks",
-    "5824 guided <=3-deletion sets, no point-count improvement"
+    "5824 guided <=3-deletion sets, no point-count improvement",
+    "6237 nonuniform source embeddings excluded through five deletions, conditional on reviewed trusted computations"
   ],
   "compute_seconds_limit": 21600,
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "continuous frontier searches: two exact embedding streams and independently reviewed target157 SAT",
+  "current_round": "nonuniform five-deletion exclusion reviewed; symmetry SAT and larger rectangle frontier active; streamed corner branch preparing",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

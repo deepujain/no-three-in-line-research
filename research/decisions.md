@@ -53,3 +53,15 @@
 - Released all three numerical lanes after that review: the two embedding streams plus a target-157 SAT continuation, reusing only validated geometry cuts. No fourth numerical benchmark should run concurrently. Formal review remains hourly, with five-minute worker dispatch and continuous bounded numerical work between reviews.
 
 - Publication checks: 81 tests passed including all optional SAT tests, and browser checks passed at five viewport sizes. Added relocated-checkout reference resolution without rewriting immutable result bytes; every linked record remains hash checked. Published tips are snapshots of active streams, not live telemetry.
+
+## 2026-11-27 00:03 UTC — Continuous work allocation
+
+- Confirmed the existing supervisor and all three numerical children are active; no duplicate or fourth numerical experiment started. Both embedding streams have advanced beyond the published snapshot; target-157 SAT continues adding geometric cuts without a valid witness so far.
+- Reassigned the Mathematician to target-specific symmetry lemmas, the Research Software Engineer to a scoped symmetry SAT branch, and the Literature Researcher as independent Mathematical Reviewer. Author and reviewer remain separate. Existing configured models/reasoning remain as recorded in the roster. Small correctness tests are allowed; numerical benchmarks wait for a pool lane.
+- Priority review for the already allowlisted single-corner repair wrapper will prepare useful five-deletion corner work after a current lane completes. Do not infer a complete exclusion from a timeout.
+- Checkpoint 1514a88 is pushed. GitHub verification and Pages deployment are queued externally; local full tests and five browser sizes passed.
+- Queued a 300-second score-at-most-14 rectangle continuation from the completed threshold-13 component, capped at 5,000 states. This tests a larger escape neighborhood rather than repeating a closed component; the existing supervisor will launch it only after a lane becomes free.
+
+- Both five-deletion nonuniform streams completed: 596,904 deletion sets per representative, gapless chains of 31 and 30 records, no verified witnesses. Independent reviewer inspected all links, counts and earlier classification artifacts. The reviewed computational exclusion now covers all 6,237 nonuniform source embeddings through five deletions; four corners remain excluded only through four. See data/embedding-five-summary.json for scope and trusted-computation qualification.
+- Avoided materializing the corner five-deletion set collection: metadata alone proves millions of tuples, risking the shared memory guard. Mathematician is preparing streamed anchor families for the already reviewed worker. No corner-five exclusion is claimed.
+- Independent review approved the symmetry SAT branch and exact checkpoint isolation. Full suite: 92 tests passed. Queued a 300-second diagonal-reflection target-157 experiment with a fresh exclusive checkpoint and three-million new-cut cap. Its UNSAT scope, if reported, is this symmetry family only. Existing unrestricted numerical process retains its original in-memory implementation/source provenance.

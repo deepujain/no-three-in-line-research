@@ -1,6 +1,6 @@
 {
   "coverage": {
-    "end": 300000,
+    "end": 596904,
     "gapless": true,
     "start": 0
   },
@@ -8,12 +8,12 @@
     0,
     77
   ],
-  "frontier_complete": false,
+  "frontier_complete": true,
   "kind": "embedding_stream_tip",
-  "next_offset": 300000,
+  "next_offset": 596904,
   "record": {
-    "path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/embedding-stream-cut-0-77-start-280000-end-300000-5b597794.json",
-    "sha256": "fbd480b6d4d4ab034a0a44e7bd4833f3664f76e75f667f1b1726b7db1937c098"
+    "path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/embedding-stream-cut-0-77-start-580000-end-596904-84c20343.json",
+    "sha256": "df7e333dc40e085b315ad6b06fdfbdbb641dffeffa32f2399773bfd3e91b2445"
   },
   "total_deletion_sets": 596904
 }

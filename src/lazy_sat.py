@@ -53,7 +53,13 @@ def axis_encoding(n, target=None):
     return clauses, pool, deficits
 
 
-def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=False, checkpoint=None, max_cuts=None, progress=None, progress_interval=5.0):
+def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=False, checkpoint=None, max_cuts=None, progress=None, progress_interval=5.0,
+           extra_clauses=None, scope=None):
+    """Lazy SAT; optional scoped initial clauses never enter geometry checkpoints.
+
+    Additional clauses may reference real cells only, and require explicit scope
+    metadata so solver-reported UNSAT cannot be mistaken for unrestricted UNSAT.
+    """
     if type(n) is not int or n < 2:
         raise ValueError('n must be integer >= 2')
     target = 2*n if target is None else target
@@ -71,10 +77,24 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
         raise ValueError('full triple expansion is restricted to tiny validation instances')
     if checkpoint is not None and progress is not None and Path(checkpoint).resolve() == Path(progress).resolve():
         raise ValueError('checkpoint and progress paths must differ')
+    if scope is not None and (not isinstance(scope,dict) or not isinstance(scope.get('family'),str) or not scope['family']):
+        raise ValueError('scope must be a dict with a nonempty family name')
+    if extra_clauses is not None and scope is None:
+        raise ValueError('extra_clauses require explicit scope metadata')
+    search_scope = dict(scope) if scope is not None else {'family':'unrestricted'}
+    scoped_clauses = []
+    if extra_clauses is not None:
+        if not isinstance(extra_clauses,(list,tuple)):
+            raise ValueError('extra_clauses must be an array of clauses')
+        for clause in extra_clauses:
+            if not isinstance(clause,(list,tuple)) or any(type(v) is not int or not 1 <= abs(v) <= n*n for v in clause):
+                raise ValueError('extra clauses may contain only nonzero real-cell integer literals')
+            scoped_clauses.append(list(clause))
     start = time.monotonic()
     deadline = start + seconds
     clauses, pool, deficits = axis_encoding(n, target)
     initial = len(clauses)
+    clauses.extend(scoped_clauses)
     if all_line_constraints:
         from itertools import combinations
         from line_model import line_variable_ids
@@ -98,7 +118,7 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
         nonlocal last_progress
         now = time.monotonic()
         if progress_file and (final or now-last_progress >= progress_interval):
-            progress_file.write(json.dumps({'n':n,'target':target,'elapsed_seconds':round(now-start,3),'iterations':iterations,'cuts_added':cuts,'cuts_loaded':loaded,'status':status if final else 'running'})+'\n')
+            progress_file.write(json.dumps({'n':n,'target':target,'scope_family':search_scope['family'],'elapsed_seconds':round(now-start,3),'iterations':iterations,'cuts_added':cuts,'cuts_loaded':loaded,'status':status if final else 'running'})+'\n')
             progress_file.flush()
             last_progress = now
     try:
@@ -180,6 +200,8 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
               'checkpoint':str(checkpoint) if checkpoint is not None else None,
               'max_new_cuts':max_cuts,'progress':str(progress) if progress is not None else None,
               'initial_row_column_clauses':initial,'initial_total_clauses':len(clauses),
+              'initial_scoped_clauses':len(scoped_clauses),'scope':search_scope,
+              'initial_variable_count':pool.top,
               'axis_encoding':'exactly_two_per_axis' if target == 2*n else 'independent_single_row_and_column_deficit_indicators',
               'row_deficit_indicator_count':len(deficits['row']),
               'column_deficit_indicator_count':len(deficits['column']),
@@ -187,7 +209,7 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
               'checkpoint_semantics':'validated real-cell geometry triples only; independent of target; exclusive file ownership required',
               'full_line_constraints_initially':all_line_constraints,
               'timer_interrupt_fired':fired.is_set(),'witness':witness,
-              'note':'Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.'}
+              'note':'Timeout is incomplete. UNSAT applies only to the reported scope and is solver-reported without independent proof checking. Only double-verified witnesses are returned.'}
     return report
 
 
@@ -196,6 +218,7 @@ def main():
     parser.add_argument('--n', type=int, required=True)
     parser.add_argument('--seconds', type=float, required=True)
     parser.add_argument('--target', type=int, help='2*n (default) or 2*n-1')
+    parser.add_argument('--symmetry',choices=('diagonal','halfturn'),help='optional restricted invariant family; UNSAT then applies only to that family')
     parser.add_argument('--backend', default='glucose3', choices=('glucose3','minisat22'))
     parser.add_argument('--output', type=Path)
     parser.add_argument('--checkpoint', type=Path, help='validated geometry-only JSONL checkpoint; exclusive process ownership required')
@@ -206,7 +229,14 @@ def main():
     if args.output and any(path is not None and args.output.resolve() == path.resolve() for path in (args.checkpoint,args.progress)):
         parser.error('output must differ from checkpoint and progress')
     try:
-        report = search(args.n, args.seconds, args.backend, target=args.target, checkpoint=args.checkpoint, max_cuts=args.max_cuts, progress=args.progress, progress_interval=args.progress_interval)
+        options = {'target':args.target,'checkpoint':args.checkpoint,'max_cuts':args.max_cuts,
+                   'progress':args.progress,'progress_interval':args.progress_interval}
+        if args.symmetry:
+            from symmetric_sat import search as symmetric_search
+            report = symmetric_search(args.n,args.seconds,'half-turn' if args.symmetry=='halfturn' else 'diagonal',
+                                      args.backend,_engine=search,**options)
+        else:
+            report = search(args.n,args.seconds,args.backend,**options)
     except ValueError as exc:
         parser.error(str(exc))
     payload = json.dumps(report, indent=2, sort_keys=True)+'\n'

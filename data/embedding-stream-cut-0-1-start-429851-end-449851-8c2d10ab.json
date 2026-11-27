@@ -1,0 +1,38 @@
+{
+  "audit": "streamed_single_cover_exact_deletion_repair",
+  "base_deletion_indices": [
+    0,
+    1
+  ],
+  "base_is_unique_minimal_cover_through_budget": true,
+  "completed_deletion_sets": 20000,
+  "cut": [
+    0,
+    1
+  ],
+  "elapsed_seconds": 22.13263391700457,
+  "enumeration_order": "lexicographic itertools.combinations of increasing non-base source indices",
+  "exact_deletion_count": 5,
+  "found_certificates": [],
+  "max_cases": 20000,
+  "max_individually_addable_pool": 6,
+  "next_offset": 449851,
+  "previous_record": {
+    "path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/embedding-stream-cut-0-1-start-409851-end-429851-35b76bb9.json",
+    "sha256": "61dd66d2b986f1209336a9a3126b6c199241ab1c0da0a1acd30d5adaf5c2dc06"
+  },
+  "seconds_budget": 470.4409173749955,
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "source_order_sha256": "e7678d82888f177d779c4ca250d6cda995645a13e0c102b5727138a835c0c9bb",
+  "start_offset": 429851,
+  "status": "case_limit_incomplete",
+  "tested_addition_subsets": {
+    "157": 36,
+    "158": 0
+  },
+  "total_deletion_sets": 596904,
+  "valid_addition_subsets": {
+    "157": 0,
+    "158": 0
+  }
+}

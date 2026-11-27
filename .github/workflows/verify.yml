@@ -25,4 +25,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 -m pip install -r requirements-research.txt
-      - run: python3 -m unittest discover -s tests -p test_lazy_sat.py -v
+      - run: python3 -m unittest discover -s tests -p 'test_*sat.py' -v

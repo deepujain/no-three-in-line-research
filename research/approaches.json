@@ -30,9 +30,9 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "active frontier",
+    "status": "redesigning",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Five-deletion repair: 6,229 nonuniform embeddings closed; two orbit classes remain partially searched",
+    "finding": "Nonuniform five-deletion frontier closed; preparing memory-bounded corner five-deletion anchors, not materializing millions of deletion tuples",
     "evidence": "research/larger_repairs.md"
   },
   {
@@ -41,7 +41,7 @@
     "role": "Research Software Engineer",
     "status": "active",
     "scope": "Search pairs of permutations with exact slope constraints",
-    "finding": "Exact full-state trade search and reviewed rectangle barrier: score-11 state cannot escape below barrier 13; higher frontier under study",
+    "finding": "Complete score<=13 rectangle component has 36 states, best score 11; bounded threshold14 continuation active",
     "evidence": "data/trades-barrier-audit.json"
   },
   {
@@ -68,7 +68,7 @@
     "role": "Research Software Engineer",
     "status": "active",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Two exact SAT backends each learned 1.5 million valid cuts; checkpointed continuation active, no witness or UNSAT",
+    "finding": "Unrestricted target157 SAT active; reviewed diagonal-reflection target157 branch dispatched with separate geometry checkpoint",
     "evidence": "research/sat.md"
   },
   {
@@ -84,9 +84,9 @@
     "id": "A10",
     "name": "Grid insertion repairs",
     "role": "Mathematician / Literature Researcher",
-    "status": "active",
+    "status": "pruned \u22645",
     "scope": "Published witnesses, nearby sizes, and nonuniform row/column insertion families",
-    "finding": "All 6,241 source embeddings classified with checked rotational symmetry",
-    "evidence": "research/larger_repairs.md"
+    "finding": "All 6,237 nonuniform embeddings excluded through five source-point deletions; four corners excluded only through four",
+    "evidence": "data/embedding-five-summary.json"
   }
 ]

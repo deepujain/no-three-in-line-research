@@ -1,0 +1,71 @@
+{
+  "classification_counts": {
+    "no_cover_through_five": 1555,
+    "unique_four_cover": 3,
+    "unique_two_cover": 2
+  },
+  "classification_path": "data/embedding-five-cover-classification.json",
+  "corner_claim": "No 157- or 158-point repairs through \u22644 deletions for the four corner translations; no claim through 5.",
+  "corner_deletion_budget": 4,
+  "corner_embedding_count": 4,
+  "corner_path": "data/guided-four-audit.json",
+  "embedding_witness_files_found": 0,
+  "excluded_target_sizes": [
+    157,
+    158
+  ],
+  "four_cover_path": "data/embedding-five-repair-four-cover-classes.json",
+  "nonuniform_claim": "No 157- or 158-point repairs in the specified \u22645 original-point deletion family for 6237 nonuniform embeddings of this single 78-grid source.",
+  "nonuniform_deletion_budget": 5,
+  "nonuniform_embedding_count": 6237,
+  "novelty_claim": false,
+  "prior_four_deletion_paths": [
+    "data/embedding-repair-four-deletions.json",
+    "data/embedding-repair-four-deletions-remaining.json"
+  ],
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "status": "complete_scoped_exclusion_conditional_on_trusted_computations",
+  "streams": [
+    {
+      "certificates": 0,
+      "complete_deletion_sets": 596904,
+      "cut": [
+        0,
+        1
+      ],
+      "record_sha256": "3cf4b45713b6aa187143a11d5e8e5c879aa1a1e04670de44e587224461b55c45",
+      "records": 31,
+      "tested_addition_subsets": {
+        "157": 2076,
+        "158": 0
+      },
+      "tip": "data/embedding-tip-cut-0-1.json",
+      "tip_sha256": "74f38446a01107c5224281431d619bbfb116a6d6bb9c49cbfbf02dbee531a993",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    },
+    {
+      "certificates": 0,
+      "complete_deletion_sets": 596904,
+      "cut": [
+        0,
+        77
+      ],
+      "record_sha256": "df7e333dc40e085b315ad6b06fdfbdbb641dffeffa32f2399773bfd3e91b2445",
+      "records": 30,
+      "tested_addition_subsets": {
+        "157": 24696,
+        "158": 24
+      },
+      "tip": "data/embedding-tip-cut-0-77.json",
+      "tip_sha256": "de2fbae6b7f6928ee10a6c173873327ec6f3767b751a5f8c6e8fb022ab6ebc0e",
+      "valid_addition_subsets": {
+        "157": 0,
+        "158": 0
+      }
+    }
+  ],
+  "trusted_computation_caveat": "Hash-linked records, counters, classifications and code were inspected; recorded computations were not independently replayed in full. Hashes establish record consistency, not proof of execution."
+}

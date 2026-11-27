@@ -49,7 +49,7 @@ Workers receive new tasks as they finish. A bounded numerical experiment pool ru
 Work continues beyond the initial small-change audit:
 
 - The full four-deletion corner audit completed: 130,290 relevant deletion sets per corner, no improvement. Together with the reviewed nonuniform-insertion audit, all 6,241 row/column embeddings of this seed are excluded through four deletions. This remains a seed-specific result.
-- At five deletions, 6,229 nonuniform embeddings are closed, while eight embeddings in two orbit classes remain partially searched. Their numeric resume offsets are preserved; a partial prefix is not an exclusion of the remaining cases. [Embedding results and review](research/embedding-review.md)
+- All 6,237 nonuniform embeddings are now excluded through five original-point deletions. Each of the last two representative streams completed 596,904 deletion sets; an independent reviewer checked every hash-linked record and its no-witness counters. The four corner embeddings remain excluded only through four deletions. These computational conclusions rely on the disclosed trusted computations, not an independent replay. [Summary](data/embedding-five-summary.json) · [Embedding review](research/embedding-review.md)
 - Two SAT backends each added 1.5 million exact geometric cuts, then stopped at their declared cut quota without a witness or UNSAT result. The numerical queue continues from validated geometry checkpoints. [SAT method and runs](research/sat.md)
 - Row/column trades retain a separately verified 156-point incumbent. Their 158-point search states remain invalid. The complete component with conflict score at most 13 contains 36 states and never improves the starting score of 11. This establishes a local barrier for one state and move family; it gives no global nonexistence result. [Trade results](research/trades.md) · [Review](research/trades-review.md)
 
@@ -93,8 +93,10 @@ Optional SAT research uses an isolated Python environment and the versions pinne
 ```sh
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements-research.txt
-.venv/bin/python -m unittest discover -s tests -p test_lazy_sat.py -v
+.venv/bin/python -m unittest discover -s tests -p 'test_*sat.py' -v
 ```
+
+The new [symmetry SAT branches](research/symmetry-sat.md) test diagonal-reflection arrangements with 157 points and half-turn arrangements with 158. Their failure would exclude only those invariant families. [Independent review](research/symmetry-review.md)
 
 The numerical supervisor uses host process inspection (`ps`) for its memory guard. Run its process tests and experiments where that inspection is permitted; it fails closed if the guard cannot operate. Its deadline and recovery assumptions are documented in [the supervisor review](research/supervisor-review.md). It is not an AI agent.
 

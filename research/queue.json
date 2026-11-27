@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "All three numerical lanes released after target157 model independently approved. No separate numerical benchmark may start while all lanes are active.",
+  "note": "Reviewed diagonal157 branch added using allowlisted lazy_sat CLI; three numerical lanes maximum; no checkpoint has simultaneous writers.",
   "jobs": [
     {
       "args": [
@@ -130,6 +130,46 @@
         "data/run-logs/sat157-progress.jsonl",
         "--output",
         "data/sat-r4-target157.json"
+      ]
+    },
+    {
+      "id": "r5-rectangle-barrier14",
+      "script": "research/rectangle_barrier.py",
+      "seconds": 300,
+      "hypothesis": "The complete score<=13 rectangle component has no improving state. Test the next threshold14 frontier from its complete saved component, bounded to 5000 states and 300 seconds; preserve partial frontier and separate invalid-state scores from certificates.",
+      "args": [
+        "--resume",
+        "data/trades-barrier13-long.json",
+        "--threshold",
+        "14",
+        "--max-states",
+        "5000",
+        "--output",
+        "data/trades-barrier14.json"
+      ]
+    },
+    {
+      "id": "r5-sat-diagonal157",
+      "script": "src/lazy_sat.py",
+      "seconds": 300,
+      "hypothesis": "Independently reviewed main-diagonal reflection family for157; equality and necessary orbit-line constraints may reduce search. This restriction is optional and no family failure implies unrestricted impossibility. Fresh geometry checkpoint avoids sharing writers or loading large unrestricted history.",
+      "args": [
+        "--n",
+        "79",
+        "--target",
+        "157",
+        "--symmetry",
+        "diagonal",
+        "--backend",
+        "glucose3",
+        "--checkpoint",
+        "data/checkpoints/diagonal157.jsonl",
+        "--max-cuts",
+        "3000000",
+        "--progress",
+        "data/run-logs/diagonal157-progress.jsonl",
+        "--output",
+        "data/sat-r5-diagonal157.json"
       ]
     }
   ]

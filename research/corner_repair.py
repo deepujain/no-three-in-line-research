@@ -2,6 +2,8 @@
 import argparse
 import json
 import math
+import os
+import tempfile
 from pathlib import Path
 import sys
 import time
@@ -16,6 +18,36 @@ def quarter_turn_invariant(seed):
     n=seed['n']
     points={tuple(p) for p in seed['points']}
     return {(n-1-y,x) for x,y in points} == points
+
+
+def persist_certificate(certificate, expected_n, allowed_counts, directory):
+    """Atomically retain only an independently verified improvement."""
+    checks = [verify_certificate(certificate), verify_certificate_bruteforce(certificate)]
+    if not all(check['valid'] for check in checks):
+        raise ValueError('cannot persist an invalid certificate')
+    if certificate.get('n') != expected_n or checks[0]['point_count'] not in allowed_counts:
+        raise ValueError('certificate is outside this search target')
+    if checks[0]['normalized_sha256'] != checks[1]['normalized_sha256']:
+        raise ValueError('independent certificate hashes disagree')
+    digest = checks[0]['normalized_sha256']
+    directory = Path(directory)
+    directory.mkdir(parents=True, exist_ok=True)
+    path = directory / f'corner-witness-{digest}.json'
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=directory,
+                                         prefix='.corner-witness-', delete=False) as stream:
+            temporary = Path(stream.name)
+            json.dump(certificate, stream, indent=2, sort_keys=True)
+            stream.write('\n')
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+        temporary = None
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+    return path
 
 
 def main():
@@ -33,7 +65,15 @@ def main():
         parser.error('invalid source seed')
     if not quarter_turn_invariant(seed):
         parser.error('cannot infer corner equivalence without exact source quarter-turn invariance')
-    result=audit_translation(seed,0,0,args.max_deletions,deadline=start+args.seconds)
+    def save_witness(certificate, deleted):
+        path = persist_certificate(certificate, seed['n'] + 1,
+                                   (len(seed['points']) + 1, len(seed['points']) + 2),
+                                   ROOT / 'data')
+        print(json.dumps({'event':'verified_corner_witness_saved', 'path':str(path),
+                          'point_count':len(certificate['points']),
+                          'deleted_seed_indices':deleted}), flush=True)
+    result=audit_translation(seed,0,0,args.max_deletions,deadline=start+args.seconds,
+                             on_certificate=save_witness)
     report={'method':'exact_single_corner_with_checked_source_rotation',
             'source_quarter_turn_checked':True,'computed_corner_count':1,
             'equivalent_corner_count':4,'status':result['status'],
