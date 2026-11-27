@@ -32,8 +32,8 @@
     "role": "Research Software Engineer",
     "status": "active frontier",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Three selected corner anchor families complete with no improvement; five new size-two families assigned, all other anchors still open",
-    "evidence": "research/corner-anchor-preparation.md"
+    "finding": "Six selected size-two families and8136one-case families complete with no improvement; two size-two streams and next four-cover batch active, full corner family open",
+    "evidence": "data/corner-batch-small-summary.json"
   },
   {
     "id": "A05",
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "exploring",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Exact quarter-turn158 excluded; documented odd-grid near-quarter-turn rct4 proposal and encoder under independent review",
-    "evidence": "research/next-exploration.md"
+    "finding": "Near-quarter compiler and published71fixture verified; n79build hit256MiB gate before completion; compact equivalent encoding under review",
+    "evidence": "data/near-quarter-preflight-n79.json"
   },
   {
     "id": "A10",

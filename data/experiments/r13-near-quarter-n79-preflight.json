@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-preflight",
+    "--n",
+    "79",
+    "--mode",
+    "build",
+    "--rss-mib",
+    "256",
+    "--output",
+    "data/near-quarter-preflight-n79.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 10.254370250004285,
+  "entrypoint_sha256": "fe34d22eaeb6f62086b877942ee5330e432e47775e386c97d8b7b2fee42af629",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T00:47:59.616393+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-preflight",
+      "--n",
+      "79",
+      "--mode",
+      "build",
+      "--rss-mib",
+      "256",
+      "--output",
+      "data/near-quarter-preflight-n79.json"
+    ],
+    "hypothesis": "After independently verified published n71fixture and real-host tiny guards, measure complete n79near-quarter CNF construction under a30second/256MiB sampled-RSS gate. Never solves; incomplete build or gate failure is no UNSAT/nonexistence evidence.",
+    "id": "r13-near-quarter-n79-preflight",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r13-near-quarter-n79-preflight.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 90519,
+  "started_at": "2026-11-27T00:47:49.361976+00:00",
+  "status": "failed"
+}

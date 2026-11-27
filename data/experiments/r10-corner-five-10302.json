@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/embedding_worker.py",
+    "--previous",
+    "data/corner-anchor-frontier/corner-exact5-anchor-10302-origin.json",
+    "--output",
+    "data/corner-anchor-frontier/corner-exact5-anchor-10302-tip.json",
+    "--seconds",
+    "900"
+  ],
+  "elapsed_seconds": 930,
+  "entrypoint_sha256": "6955a097338ab133ed8d8172e0b285cc0856f52653a25d26f6f9c72bf4cc29d6",
+  "job": {
+    "args": [
+      "--previous",
+      "data/corner-anchor-frontier/corner-exact5-anchor-10302-origin.json",
+      "--output",
+      "data/corner-anchor-frontier/corner-exact5-anchor-10302-tip.json"
+    ],
+    "hypothesis": "Explore previously unsearched exact-five corner anchor 10302, independently checked against the complete antichain manifest. Stream from zero with its own locked tip; preserve partial progress and witness files. Overlap is allowed and no whole-corner exclusion follows from selected anchors.",
+    "id": "r10-corner-five-10302",
+    "script": "research/embedding_worker.py",
+    "seconds": 900
+  },
+  "note": "Conservative time reservation until completion receipt replaces it.",
+  "pid": 85338,
+  "started_at": "2026-11-27T00:41:13.998130+00:00",
+  "status": "running_reserved"
+}

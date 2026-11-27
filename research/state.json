@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect first batch pilot receipt/cursor and per-anchor chains before expanding beyond200 small anchors. Maintain max3 numerical children. Validate primary rct4 fixture and reviewed host-memory preflight before large near-quarter build. Preserve current corner progress; do not restart stopped large SAT.",
+  "next_action": "Inspect corner four-cover batch and remaining size-two receipts/witnesses, preserve overlaps. All8136one-case histories archived and independently audited; six size-two families complete. Original n79preflight failed memory gate, no solve. Review compact equivalent encoder before rerunning the same resource gate, no automatic memory increase.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -27,6 +27,6 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "size-two corner searches active; reviewed200case small-anchor batch pilot queued; approved near-quarter encoder awaits fixture and resource preflight",
+  "current_round": "two size-two corner streams and four-cover batch completion; compact near-quarter encoding under independent review after resource-gated build failure",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

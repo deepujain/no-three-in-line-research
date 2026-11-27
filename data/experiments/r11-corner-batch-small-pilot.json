@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/embedding_worker.py",
+    "--batch",
+    "--manifest",
+    "data/corner-anchor-frontier/manifest.json",
+    "--max-anchor-cases",
+    "1",
+    "--max-cases",
+    "200",
+    "--chunk-cases",
+    "200",
+    "--output",
+    "data/corner-batch-small.json",
+    "--records-directory",
+    "data/corner-batch-small-records",
+    "--seconds",
+    "120"
+  ],
+  "elapsed_seconds": 2.0466285000002244,
+  "entrypoint_sha256": "6955a097338ab133ed8d8172e0b285cc0856f52653a25d26f6f9c72bf4cc29d6",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T00:41:55.186972+00:00",
+  "job": {
+    "args": [
+      "--batch",
+      "--manifest",
+      "data/corner-anchor-frontier/manifest.json",
+      "--max-anchor-cases",
+      "1",
+      "--max-cases",
+      "200",
+      "--chunk-cases",
+      "200",
+      "--output",
+      "data/corner-batch-small.json",
+      "--records-directory",
+      "data/corner-batch-small-records"
+    ],
+    "hypothesis": "Pilot the independently reviewed batch worker on the first200 one-case corner anchors, reusing source validation and preserving per-anchor old-worker-compatible hash chains. This measures real overhead before expanding the8136-anchor small-family selection. It does not close the whole corner family.",
+    "id": "r11-corner-batch-small-pilot",
+    "script": "research/embedding_worker.py",
+    "seconds": 120
+  },
+  "log": "data/run-logs/r11-corner-batch-small-pilot.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 86159,
+  "started_at": "2026-11-27T00:41:53.140357+00:00",
+  "status": "completed"
+}

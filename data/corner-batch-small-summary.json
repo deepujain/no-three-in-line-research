@@ -1,0 +1,29 @@
+{
+  "audited_utc": "2026-11-27T00:50:15Z",
+  "batch_source_sha256": "32d97a4eafbca596cd2dedce42742dfd6e3316c8f5ff474d7b3844a8e85c61e3",
+  "completed_anchor_cases_sum": 8136,
+  "cursor_sha256": "e6257e9e3bc325927b1d255c1686d8997361ed998db05b0867c4419805fb4902",
+  "json_files_in_directory": 24408,
+  "linked_origin_and_result_records": 16272,
+  "manifest_sha256": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+  "no_global_or_full_corner_claim": true,
+  "scope": "The selected one-case exact-five anchor families of the single checked source and corner; overlapping anchor cases are not a distinct count. Other 2168 anchors remain outside this selection.",
+  "selected_anchor_count": 8136,
+  "selection_sha256": "35f31fda827b0a05be2775c102bb2711f0099ad819f1364d6a1d1936dd94424f",
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "source_order_sha256": "e7678d82888f177d779c4ca250d6cda995645a13e0c102b5727138a835c0c9bb",
+  "status": "complete_selected_one_case_anchor_families_conditional_on_trusted_computation",
+  "tested_addition_subsets": {
+    "157": 8136,
+    "158": 0
+  },
+  "tip_files": 8136,
+  "trust": "Full linked artifacts and counters checked; numerical computations not independently replayed. Hashes provide consistency, not proof of execution.",
+  "unique_deletion_set_count": null,
+  "unselected_anchor_count": 2168,
+  "valid_addition_subsets": {
+    "157": 0,
+    "158": 0
+  },
+  "witness_files": 0
+}

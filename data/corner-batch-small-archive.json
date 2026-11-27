@@ -1,0 +1,14 @@
+{
+  "archive": "data/corner-batch-small-records.tar.gz",
+  "archive_sha256": "c61a51140481373196422fef63cdfcfc649b076c2d467ace99c6f6c0fda34616",
+  "archive_bytes": 1516863,
+  "records_json_count": 24408,
+  "cursor_included": true,
+  "payload_bytes": 26334098,
+  "ordered_member_hash_index_sha256": "600decbc8076bba764f1942aecf5b5499741eb58822bd7d04468012336b0fa73",
+  "verified_members": 24409,
+  "source_cursor_sha256": "e6257e9e3bc325927b1d255c1686d8997361ed998db05b0867c4419805fb4902",
+  "scope": "Complete selected8136one-case anchor histories only, not whole corner family. Original JSON bytes and recorded hashes preserved; local absolute references resolve by basename via reviewed loader after extraction.",
+  "extract": "python3 -m tarfile -e data/corner-batch-small-records.tar.gz data/",
+  "relocated_resume": "Per-anchor loaders resolve missing absolute references beside the extracted referring record and still verify hashes. The archived batch cursor binds its original records directory; use a fresh output cursor to recover extracted histories at another path."
+}

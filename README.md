@@ -55,13 +55,13 @@ Work continues beyond the initial small-change audit:
 
 A later half-turn symmetry trial used a fresh checkpoint, reached its 200,000-cut quota at 86.8 MB peak RSS, and returned no witness or UNSAT. Its bounded continuation reached 400,000 accumulated cuts without a witness or UNSAT, with 116.4 MB peak RSS. Further extension is paused pending a new mechanism. Large SAT checkpoints remain paused.
 
-Three selected corner repair streams have completed all 596,904 cases each without an improvement. Their families overlap. The remaining five size-two anchors are assigned, at most three running together; the entire corner neighborhood remains open. [Method and scope](research/corner-anchor-preparation.md)
+Six selected two-point-anchor repair streams have completed all 596,904 cases each without improvement. All 8,136 one-case anchor families also completed and received an independent record audit. These families overlap; two size-two streams and other anchor classes remain open. [Method and scope](research/corner-anchor-preparation.md)
 
 The queue, real process receipts, and [Research Lead decisions](research/decisions.md) distinguish running experiments, incomplete searches, scoped exhaustive results, and valid certificates. No new point-count record is claimed.
 
-The next exploration proposal uses a documented odd-grid near-quarter-turn family, with an independently reviewed weighted-orbit encoder. Published-fixture and memory preflight checks remain; no large model or search has run yet. [Sources, model and validation gates](research/next-exploration.md)
+The next exploration proposal uses a documented odd-grid near-quarter-turn family, with an independently reviewed weighted-orbit encoder. A published 142-point fixture on the 71-grid passed independent verification. The first 79-grid build hit its 256 MiB memory gate before completion and never searched; an equivalent compact encoding is being developed. [Sources, model and validation gates](research/next-exploration.md)
 
-The independently reviewed [batch worker](research/corner-batch.md) prepares the many smaller repair families with one source validation per process and durable per-anchor histories. Its first bounded pilot is queued. [Review](research/corner-batch-review.md)
+The independently reviewed [batch worker](research/corner-batch.md) prepares the many smaller repair families with one source validation per process and durable per-anchor histories. Its pilot and all 8,136 selected one-case families completed. [Full history archive](data/corner-batch-small-records.tar.gz) · [Audit](research/corner-batch-small-review.md). [Review](research/corner-batch-review.md)
 
 ## Reproduce and verify
 

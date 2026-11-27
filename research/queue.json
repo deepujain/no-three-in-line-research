@@ -388,6 +388,94 @@
         "--records-directory",
         "data/corner-batch-small-records"
       ]
+    },
+    {
+      "id": "r12-corner-batch-small-complete",
+      "script": "research/embedding_worker.py",
+      "seconds": 600,
+      "hypothesis": "The reviewed batch pilot completed200one-case anchors in2.05worker-seconds with valid source-bound chains. Resume identical8136-anchor selection and cursor to cover remaining7936one-case families, preserving overlap semantics and immediate witness persistence. This does not close unselected corner anchors.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "1",
+        "--max-cases",
+        "8136",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-small.json",
+        "--records-directory",
+        "data/corner-batch-small-records"
+      ]
+    },
+    {
+      "id": "r13-near-quarter-n79-preflight",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "After independently verified published n71fixture and real-host tiny guards, measure complete n79near-quarter CNF construction under a30second/256MiB sampled-RSS gate. Never solves; incomplete build or gate failure is no UNSAT/nonexistence evidence.",
+      "args": [
+        "--near-quarter-preflight",
+        "--n",
+        "79",
+        "--mode",
+        "build",
+        "--rss-mib",
+        "256",
+        "--output",
+        "data/near-quarter-preflight-n79.json"
+      ]
+    },
+    {
+      "id": "r13-corner-batch-four-pilot",
+      "script": "research/embedding_worker.py",
+      "seconds": 120,
+      "hypothesis": "The8136one-case selection finished; test next unsearched1936four-point anchors (152cases each), streaming a first10000-case prefix under same reviewed engine. Explicit ordinal range excludes already completed one-case families; preserve partial cursor and overlapping-family semantics.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "152",
+        "--start-anchor",
+        "8136",
+        "--stop-anchor",
+        "10072",
+        "--max-cases",
+        "10000",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-four.json",
+        "--records-directory",
+        "data/corner-batch-four-records"
+      ]
+    },
+    {
+      "id": "r14-corner-batch-four-complete",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "The first10000 cases of the1936four-point-anchor selection completed in its bounded pilot with source-bound chains and no witness. Resume identical selection and cursor to cover remaining284272 cases; exclude already-completed one-case anchors. Whole corner family remains open until all anchor classes finish.",
+      "args": [
+        "--batch",
+        "--manifest",
+        "data/corner-anchor-frontier/manifest.json",
+        "--max-anchor-cases",
+        "152",
+        "--start-anchor",
+        "8136",
+        "--stop-anchor",
+        "10072",
+        "--max-cases",
+        "294272",
+        "--chunk-cases",
+        "200",
+        "--output",
+        "data/corner-batch-four.json",
+        "--records-directory",
+        "data/corner-batch-four-records"
+      ]
     }
   ]
 }

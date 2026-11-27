@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/embedding_worker.py",
+    "--batch",
+    "--manifest",
+    "data/corner-anchor-frontier/manifest.json",
+    "--max-anchor-cases",
+    "1",
+    "--max-cases",
+    "8136",
+    "--chunk-cases",
+    "200",
+    "--output",
+    "data/corner-batch-small.json",
+    "--records-directory",
+    "data/corner-batch-small-records",
+    "--seconds",
+    "600"
+  ],
+  "elapsed_seconds": 67.68420391599648,
+  "entrypoint_sha256": "6955a097338ab133ed8d8172e0b285cc0856f52653a25d26f6f9c72bf4cc29d6",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T00:45:17.899215+00:00",
+  "job": {
+    "args": [
+      "--batch",
+      "--manifest",
+      "data/corner-anchor-frontier/manifest.json",
+      "--max-anchor-cases",
+      "1",
+      "--max-cases",
+      "8136",
+      "--chunk-cases",
+      "200",
+      "--output",
+      "data/corner-batch-small.json",
+      "--records-directory",
+      "data/corner-batch-small-records"
+    ],
+    "hypothesis": "The reviewed batch pilot completed200one-case anchors in2.05worker-seconds with valid source-bound chains. Resume identical8136-anchor selection and cursor to cover remaining7936one-case families, preserving overlap semantics and immediate witness persistence. This does not close unselected corner anchors.",
+    "id": "r12-corner-batch-small-complete",
+    "script": "research/embedding_worker.py",
+    "seconds": 600
+  },
+  "log": "data/run-logs/r12-corner-batch-small-complete.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 87930,
+  "started_at": "2026-11-27T00:44:10.214568+00:00",
+  "status": "completed"
+}

@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import math
+import sys
 import threading
 import time
 from pathlib import Path
@@ -213,7 +214,13 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
     return report
 
 
-def main():
+def main(argv=None):
+    arguments = list(sys.argv[1:] if argv is None else argv)
+    if '--near-quarter-preflight' in arguments:
+        arguments.remove('--near-quarter-preflight')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.near_quarter_preflight import main as preflight_main
+        return preflight_main(arguments)
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--n', type=int, required=True)
     parser.add_argument('--seconds', type=float, required=True)
@@ -225,7 +232,7 @@ def main():
     parser.add_argument('--max-cuts', type=int, help='maximum newly added cuts in this invocation')
     parser.add_argument('--progress', type=Path, help='append progress JSONL')
     parser.add_argument('--progress-interval', type=float, default=5.0)
-    args = parser.parse_args()
+    args = parser.parse_args(arguments)
     if args.output and any(path is not None and args.output.resolve() == path.resolve() for path in (args.checkpoint,args.progress)):
         parser.error('output must differ from checkpoint and progress')
     try:
@@ -245,4 +252,4 @@ def main():
     print(payload)
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
