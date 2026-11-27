@@ -22,7 +22,9 @@ source reads. `save_candidate` compares replayed geometry/frontier/counts with
 live state before writing, owns a chain lease, and installs an immutable,
 fsynced content-named candidate. It does not advance supervisor acceptance.
 
-Nine focused tests passed in 0.610 seconds. All real n3/n5/n7 phases roundtrip;
+Nine focused tests passed in 0.610 seconds. Independent review approved this
+hard-tiny scope and independently passed the same nine tests in0.618 seconds;
+see `near-quarter-rowbatch-core-checkpoint-review.md`. All real n3/n5/n7 phases roundtrip;
 repeated one-node stages equal uninterrupted traversal in final state, logical
 counters and leaves. They match the frozen reference's 1/0/0 complete sets and
 2/5/11 nodes under forward/reverse declarations. Repeated first-event delivery

@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "r39 reviewed row-batch chains only: main480s/max12 invocations and distinct exploration180s/max3. Prior scheduled-round standalone180s +660s=840s allocation; six-hour ledger remains binding. Frozen source/dispatcher during execution; no native SAT.",
+  "note": "New02:58dispatcher round r40 allocates660seconds: main480/max12 and distinct exploration180/max3. All older jobs receipted and immutable; no duplicate pool, unchanged reviewed source and30sec/256MiB per invocation. Pilot accounting before launch13,822.8168seconds including600reserve.",
   "jobs": [
     {
       "args": [
@@ -1273,6 +1273,64 @@
         "b0a57450d1707c126add258450272c96c5b99e3baa910358c40a6f616102a599",
         "--ledger-dir",
         "data/rowbatch-chain-r39-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "3",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r40-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 480,
+      "hypothesis": "Continue exact independently audited r39 frontier with unchanged reviewed unique-row-batch algorithm. Distinct exploration slice retained: no evidence ranks a fresh deterministic prefix higher. Deterministic order, no RNG. Stop on witness, rejected/missing receipt, timeout or exhausted slice; no automatic failure recovery or infeasibility/novelty inference. Reserve numerical budget for separately gated packed-geometry exploration.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "9fec85b074fdb9edb1b27663a533e1d9104690ef0f0bb6044c211b6a2201b078",
+        "--ledger-dir",
+        "data/rowbatch-chain-r40-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "12",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r40-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Continue exact independently audited r39 frontier with unchanged reviewed unique-row-batch algorithm. Distinct exploration slice retained: no evidence ranks a fresh deterministic prefix higher. Deterministic order, no RNG. Stop on witness, rejected/missing receipt, timeout or exhausted slice; no automatic failure recovery or infeasibility/novelty inference. Reserve numerical budget for separately gated packed-geometry exploration.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "1887a821fe719160774d111f165ed3400ed17b2a213a72d424c2c57e49025911",
+        "--ledger-dir",
+        "data/rowbatch-chain-r40-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",

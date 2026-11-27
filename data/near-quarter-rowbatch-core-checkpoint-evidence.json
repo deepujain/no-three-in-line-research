@@ -115,5 +115,14 @@
     "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
     "src/line_model.py": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
     "research/half-turn-one-deletion-lemma-review.md": "cb99a273f7c059d4e145da5477266d798cb765feecc86b44fbfa8ea08b35faa6"
+  },
+  "independent_review": {
+    "status": "approved hard-tiny scope",
+    "path": "research/near-quarter-rowbatch-core-checkpoint-review.md",
+    "sha256": "ab068ef66004d1ad3ed59a02bce579b518c497ef135f2ce5a0378eeffbddd5d5",
+    "independent_tests": 9,
+    "independent_unittest_elapsed_seconds": 0.618,
+    "production_adapter_approved": false,
+    "guard_or_n79_run_approved": false
   }
 }

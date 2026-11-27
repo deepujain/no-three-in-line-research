@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect sole r39 pool and reviewed row-batch chain ledgers before any new allocation. Frozen dispatcher b71eb696, chain7dc71255, core/guard unchanged while active. New main480s/max12 and exploration180s/max3 allocation after real-host tiny gates; round total840s. No native SAT; near-quarter core/production adapter still independently gated.",
+  "next_action": "Inspect sole r40 pool and terminal ledgers before reallocation. r39 independently audited135,600 main/4,100 exploration nodes, no witness or exhausted slice. New02:58dispatcher round main480s/max12 and exploration180s/max3=660s. Frozen dispatcher b71eb696/chain7dc71255/core/guard while active. Packed geometry state/tiny fault tests authorized; no large-grid packed adapter execution yet.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,6 +28,6 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Reviewed full-row chain host gates passed; main and exploration batches allocated",
+  "current_round": "r39 audited; r40 bounded main/exploration continuations allocated",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }
