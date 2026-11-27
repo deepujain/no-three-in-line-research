@@ -1,0 +1,33 @@
+{
+  "accepted": true,
+  "attempted": 37680,
+  "backtracks": 3,
+  "cross_parent_revisits": 6,
+  "distinct_generated": 36736,
+  "exit_hits": 2,
+  "fixed_state_determinant_scores": [
+    5,
+    6,
+    6,
+    6
+  ],
+  "fixed_state_identities": [
+    "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+    "91f2a80c3ff59ab83137a3b832e363634fd5fd2e818f64ca94337d7906d959e5",
+    "2c9f4420ac528de393158bde2bc5b7dac7acff0d3d7edc813125f6dd92093963",
+    "de8f1f09df58c234b5243585b28e819e8e8d140393389f90bbd49b101c6d2ab5"
+  ],
+  "guard_elapsed_seconds": 18.070354333001887,
+  "guard_peak_sampled_rss_kib": 89520,
+  "illegal": 938,
+  "legal": 36742,
+  "limit": "Fixed states and counters independently checked, but full neighbor scores/histograms were not independently replayed. The negative result relies on the reviewed source execution and complete receipt; only two-move paths through the three specified exits are covered.",
+  "novel_min_score": 7,
+  "novel_states": 36733,
+  "pin_count": 20,
+  "pins_sha256": "b8024f93c3ccf9991a252d17925656639c8b9037d96f57ebd9a74ea1c09de30f",
+  "receipt_hypothesis_note": "The receipt hypothesis field is stale one-neighborhood text; argv and result identify the three-parent second-neighborhood run.",
+  "receipt_pin_count": 30,
+  "receipt_sha256": "8c6ab78982df4a23657401e707e9e2c0b09df578cfc314b4c529a012be05861d",
+  "report_sha256": "d1fd76439854c63d463b48719d35ee2bb5c9126e88633cb6c6c85de0c9aa8615"
+}

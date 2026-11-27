@@ -1,0 +1,27 @@
+{
+  "command": ".venv/bin/python -m unittest tests.test_score11_deficiency_second_neighborhood tests.test_score11_deficiency_second_neighborhood_independent -v",
+  "complete_tiny_two_level_determinant_oracle": true,
+  "decision": "PASS_SOURCE_TINY_ONLY",
+  "duplicate_score_and_same_parent_faults_checked": true,
+  "elapsed_seconds": 0.019,
+  "files": {
+    "data/score11-deficiency-neighborhood-v1-independent-actual-audit.json": "edec993b9493b73d90b879f682fb6624176c75d8796d18f2cce94ea5800f1350",
+    "data/score11-deficiency-neighborhood-v1-independent-plus1-exit-manifest.json": "717c6c1fb2debc0d446cb67922670c4ad97643b34a54aaaae653e6d1b0f0b71b",
+    "research/score11-deficiency-second-neighborhood-independent-source-review.md": "43babbd7cf3e1ada51800ace177f96257f754c37f294208888fbb48155031ed8",
+    "research/score11-deficiency-second-neighborhood-mathematical-review.md": "9afae73ebad1291028390d678e849513bb8542ca3ca7ea9cb147faf786de3ab6",
+    "research/score11_deficiency_neighborhood.py": "6116f09ac6a35deb04bdd226110adcd0eaca684fa436910ae32248f4c1833fef",
+    "research/score11_deficiency_second_neighborhood.py": "0e36484fbf19981d4eea001385deca49f7801def7a4ed711c02105c095d4452b",
+    "research/score11_deficiency_walk.py": "d956496103278c4532b5fa74fd9ce515546a30dbd8f2cda8925ad6e8195cf787",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_score11_deficiency_second_neighborhood.py": "25caca974987a37c81c50fb4eee93103011bda4d8f234212bfa0c3f65de23136",
+    "tests/test_score11_deficiency_second_neighborhood_independent.py": "e4b6e8158798e70a40e1ae4540a9abd9de2b691961236b7c1441821d22e2561d"
+  },
+  "implementation_review_model": "gpt-6.1-sol",
+  "late_witness_first_parent_checked": true,
+  "n79_neighbor_generation_scoring_or_search": false,
+  "partial_prefix_conservation_checked": true,
+  "reasoning_effort": "high",
+  "tests_passed": 9,
+  "tiny_bitset_subsets_checked": 512
+}

@@ -642,3 +642,14 @@ Independent census reconstruction matches all12560 attempts/12247legal neighbors
 Reusabledepth12 twochunk allocation completed25.256272s and25.120609s. Independent audit accepts all813 necessarycuts (487+185+141), same9539binary/map, clean256MiB gates; both TIMEOUT/noverdict. No automaticthirdchunk. Allconstraints preserved. CI13b55fd singlefailed-jobretrySUCCESS, PagesSUCCESS; no guards changed. Actual process inspection found no owned numericalsearch/pool active. Three AIworkers assigned distinct author/review/exploration tasks.
 
 Accounted16692.856243886075s of21600, remaining4907.143756113925s; originaldeadline22:59:25Z unchanged.
+
+
+## 2026-11-27T09:58:08.188869+00:00 — Three-exit census complete, constructive rebuild dispatched
+
+Source/tiny independentlyPASS0e36484f, finalmanifestb8024f93; Root9testsPASS0.016s. One reserved25soft/30owned256 actual completed18.070383583s clean89520KiB, allpinsunchanged. All37680attempts complete; report36733novel targets (minimumscore7),3backtracks/2exithits/6crossparentrevisits/0sameparentrepeats; no strictimprovement. Independent actualaudit underway; no negative claim promoted yet. No automaticthirdmove/retry.
+
+Distinct source-disjointmatching rebuild design255821c9 independentlyPASS9801b078: retain78validpoints and reconstruct79permutation outside both sources, guaranteeing>=80invalid-source deletions for any157completion. Engineer source/tinyonly, Math independentreview; no actual yet. Original numericaldeadline/budget unchanged; accounted16710.926627469067s.
+
+b575d3e PagesSUCCESS. CI fails new actual-anchor hostintegration test trying to open recorded Darwin pycard .venv binary on Linux; synthetic provenance tests not implicated. Preserve receipts/pins/productionguard, no futile retry. Portable integration-test handling remains pending; publication validation limitation recorded.
+
+Independent three-exit actual audit b74a2280 accepts counters, fixed-state determinants, pins and clean gate; full neighbor scores not independently replayed. Scoped reviewed-execution negative only: no score<5 in two moves through the three score6 exits. Receipt hypothesis accidentally repeats previous one-neighborhood text; argv/source/report identify exact actual run. Preserve immutable receipt and document defect in independentreview9116a61d. No further localbarrier allocation. Literature reassigned authoritative record/alternate seed refresh.

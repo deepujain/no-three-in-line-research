@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16692.856243886075,
+  "scheduled_search_wall_seconds_used": 16710.926627469067,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Review source/tiny checks for one three-exit second-neighborhood gate; develop a distinct constructive exploration beyond fixed-source small repairs.",
+  "next_action": "Independent actual audit of completed three-exit census; source/tiny implementation of source-disjoint matching rebuild157.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Initial 157-point neighborhood independently certified strict local minimum: all 12,247 legal neighbors worsen score five; exactly three score-six exits. Depth12 remains unresolved with 813 audited cuts; two-chunk allocation exhausted.",
+  "current_round": "Initial157 one-step minimum certified; reviewed three-exit two-move run complete with no lower score. Constructive source-disjoint matching rebuild source/tiny underway.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,10 +40,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Three-exit second-neighborhood source/tiny review",
-    "Distinct constructive exploration design"
+    "Constructive matching rebuild157 source/tiny review",
+    "Portable CI handling of host-only receipt integration"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "13b55fd CI and Pages SUCCESS (single failed-job CI retry passed). New census and seeded chunks independently audited; publication checks pending."
+  "validation_status": "b575d3e Pages SUCCESS; CI fails host-only actual-anchor test because Linux lacks recorded Darwin .venv library. No retry or guard change. Three-exit source/tiny9testsPASS; actual complete awaits independent audit."
 }
