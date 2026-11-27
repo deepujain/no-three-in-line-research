@@ -1,0 +1,925 @@
+{
+  "arc_limit": 4096,
+  "arithmetic_bounds": {
+    "bucket_bound_checks": 524288,
+    "clause_checks": 1069317,
+    "forced_point_checks": 65536,
+    "pair_lookups": 28672,
+    "point_direction_visits": 955031,
+    "pool_certificate_checks": 64,
+    "pool_cover_traversal_edges": 64,
+    "pool_matching_augmentation_edges": 5056,
+    "pool_pair_table_checks": 445536,
+    "root_certificate_checks_including_final_save": 320,
+    "root_cover_traversal_edges": 256,
+    "root_cycle_edge_checks": 161280,
+    "root_domain_decisions": 256,
+    "root_line_cell_visits": 3484216,
+    "root_matching_augmentation_edges": 2048,
+    "support_arc_records": 256
+  },
+  "closure": false,
+  "complete": false,
+  "counters": {
+    "arc_admissions": 20,
+    "arc_attempts_completed": 4096,
+    "arc_attempts_started": 4096,
+    "arc_rollbacks": 20,
+    "backtracks": 0,
+    "bucket_bounds_completed": 2209,
+    "bucket_bounds_started": 2209,
+    "candidate_cell_visits_completed": 0,
+    "candidate_cell_visits_started": 0,
+    "candidate_lines_completed": 0,
+    "candidate_lines_started": 0,
+    "certificate_edge_checks_completed": 64,
+    "certificate_edge_checks_started": 64,
+    "clauses_completed": 119,
+    "clauses_started": 119,
+    "complete_scaffold_orderings": 0,
+    "cover_edge_scans_completed": 12,
+    "cover_edge_scans_started": 12,
+    "directions_completed": 955031,
+    "directions_started": 955031,
+    "domain_wipeouts": 0,
+    "duplicate_scaffolds": 0,
+    "forced_points_completed": 1298,
+    "forced_points_started": 1298,
+    "full_assignments": 0,
+    "insertions_completed": 0,
+    "insertions_started": 0,
+    "matching_edge_scans_completed": 47,
+    "matching_edge_scans_started": 47,
+    "maximum_added": 0,
+    "maximum_seeded": 7,
+    "pair_lookups_completed": 686,
+    "pair_lookups_started": 686,
+    "pool_bucket_checks_completed": 55307,
+    "pool_bucket_checks_started": 55307,
+    "pool_cells_completed": 6083,
+    "pool_cells_started": 6083,
+    "rollbacks": 0,
+    "root_cell_visits_completed": 0,
+    "root_cell_visits_started": 0,
+    "root_checks_completed": 0,
+    "root_checks_started": 0,
+    "root_cycle_edges_completed": 0,
+    "root_cycle_edges_started": 0,
+    "root_cycle_orders_completed": 0,
+    "root_cycle_orders_started": 0,
+    "root_domain_cells_completed": 0,
+    "root_domain_cells_started": 0,
+    "root_lines_completed": 0,
+    "root_lines_started": 0,
+    "support_choices_completed": 246,
+    "support_choices_started": 246,
+    "table_old_points_completed": 316512,
+    "table_old_points_started": 316512,
+    "table_pool_points_completed": 129024,
+    "table_pool_points_started": 129024
+  },
+  "elapsed_seconds": 0.6302214169991203,
+  "identity_valid": true,
+  "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+  "input_validation": [
+    {
+      "algorithm": "integer_normalized_slopes",
+      "conflict_count": 5,
+      "conflicts": [
+        {
+          "indices": [
+            25,
+            53,
+            67
+          ],
+          "points": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ],
+            [
+              33,
+              78
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            69,
+            96
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              34,
+              73
+            ],
+            [
+              48,
+              3
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            79,
+            85
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              39,
+              74
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            80,
+            100
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              40,
+              50
+            ],
+            [
+              50,
+              10
+            ]
+          ]
+        },
+        {
+          "indices": [
+            84,
+            114,
+            156
+          ],
+          "points": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ],
+            [
+              78,
+              0
+            ]
+          ]
+        }
+      ],
+      "errors": [],
+      "n": 79,
+      "normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "point_count": 157,
+      "valid": false
+    },
+    {
+      "algorithm": "integer_cross_products",
+      "conflict_count": 5,
+      "conflicts": [
+        {
+          "indices": [
+            25,
+            53,
+            67
+          ],
+          "points": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ],
+            [
+              33,
+              78
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            69,
+            96
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              34,
+              73
+            ],
+            [
+              48,
+              3
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            79,
+            85
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              39,
+              74
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            80,
+            100
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              40,
+              50
+            ],
+            [
+              50,
+              10
+            ]
+          ]
+        },
+        {
+          "indices": [
+            84,
+            114,
+            156
+          ],
+          "points": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ],
+            [
+              78,
+              0
+            ]
+          ]
+        }
+      ],
+      "errors": [],
+      "n": 79,
+      "normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "point_count": 157,
+      "valid": false
+    }
+  ],
+  "method": "blocker_guided_eight_arc_scaffold157",
+  "n": 79,
+  "pair_tables_complete": true,
+  "pins": {
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/score11-deficiency-walk-seed279157-v1-independent-actual-audit.json": "419039ebf5828b8fef5b22a0eac29f63e4da4ff203a263aae14c30f704b4faec",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/score11-deficiency-walk-seed279157-v1/best-state.json": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/blocker_guided_eight_arc_scaffold157.py": "5af488fa4f857cb91325677eff67034bb2fcf6f7ed30a32e97ec018808e11b39",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/conflict_directed_sixteen_cycle_rebuild157.py": "714c389795cb3250a13e969910b671e9acb47ffd9054c4754c6ad84b5124dab7",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+  },
+  "pool": [
+    {
+      "lower": 2,
+      "point": [
+        33,
+        0
+      ]
+    },
+    {
+      "lower": 2,
+      "point": [
+        77,
+        78
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        0,
+        31
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        2,
+        72
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        5,
+        2
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        5,
+        3
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        6,
+        10
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        6,
+        69
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        8,
+        6
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        10,
+        71
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        27,
+        5
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        31,
+        77
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        50,
+        72
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        58,
+        78
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        67,
+        6
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        69,
+        71
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        71,
+        8
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        71,
+        67
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        72,
+        27
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        72,
+        74
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        72,
+        75
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        72,
+        78
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        74,
+        5
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        77,
+        46
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        78,
+        5
+      ]
+    },
+    {
+      "lower": 3,
+      "point": [
+        78,
+        19
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        0,
+        2
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        0,
+        17
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        0,
+        20
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        0,
+        69
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        1,
+        6
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        1,
+        62
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        2,
+        46
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        2,
+        52
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        2,
+        55
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        2,
+        73
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        2,
+        77
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        3,
+        35
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        3,
+        71
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        3,
+        72
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        4,
+        2
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        4,
+        7
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        4,
+        8
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        4,
+        55
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        5,
+        50
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        5,
+        52
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        5,
+        57
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        6,
+        45
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        6,
+        71
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        6,
+        76
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        7,
+        69
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        7,
+        73
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        8,
+        0
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        8,
+        62
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        9,
+        16
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        11,
+        15
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        13,
+        62
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        14,
+        39
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        14,
+        76
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        15,
+        1
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        15,
+        8
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        15,
+        13
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        15,
+        59
+      ]
+    },
+    {
+      "lower": 4,
+      "point": [
+        16,
+        68
+      ]
+    }
+  ],
+  "pool_limit": 64,
+  "pool_matching_complete": true,
+  "pool_matching_cover": {
+    "cover_columns": [
+      0,
+      5,
+      6,
+      62,
+      71
+    ],
+    "cover_rows": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      14,
+      15,
+      16,
+      31,
+      50,
+      58,
+      71,
+      72,
+      77,
+      78
+    ],
+    "matching": [
+      [
+        0,
+        17
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        52
+      ],
+      [
+        3,
+        35
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        69
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        71
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        13,
+        62
+      ],
+      [
+        14,
+        39
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        16,
+        68
+      ],
+      [
+        27,
+        5
+      ],
+      [
+        31,
+        77
+      ],
+      [
+        50,
+        72
+      ],
+      [
+        58,
+        78
+      ],
+      [
+        71,
+        8
+      ],
+      [
+        72,
+        27
+      ],
+      [
+        77,
+        46
+      ],
+      [
+        78,
+        19
+      ]
+    ],
+    "matching_size": 24
+  },
+  "pool_scan_complete": true,
+  "ready_scaffold": null,
+  "root_limit": 4,
+  "root_state_restored": true,
+  "roots": [],
+  "scaffold_search_exhausted": false,
+  "scope": "Only first64 L/coordinate pool;4096 examined arcs;4 distinct F/Q roots. Root-ready149 only, no completion DFS, full witness, broad exclusion, rerank, retry or automatic continuation.",
+  "seed_count": 8,
+  "shared_soft_seconds": 25.0,
+  "source_normalized_sha256": "f0ab1e9b47f89b8252eb5fec00b6d2b451bd25545924dc4a491d0b6638dff34d",
+  "source_validation_complete": true,
+  "status": "arc_attempt_cap",
+  "support_arc_count": 246,
+  "supports_complete": true
+}

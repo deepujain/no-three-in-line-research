@@ -1,0 +1,41 @@
+{
+  "accounting_correction": "Final save-time cover recheck is counted; residual certificate checks <=320, residual cover traversal <=256, pool certificate and cover <=64 each.",
+  "actual_allocation": false,
+  "implementation_model": "gpt-6.1-sol",
+  "reasoning": "high",
+  "runs": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_blocker_guided_eight_arc_scaffold157",
+        "-q"
+      ],
+      "elapsed_seconds": 0.219,
+      "passed": 19
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_blocker_guided_eight_arc_scaffold157",
+        "tests.test_conflict_directed_sixteen_cycle_rebuild157",
+        "tests.test_source_disjoint_matching_rebuild157",
+        "-q"
+      ],
+      "elapsed_seconds": 0.296,
+      "passed": 48
+    }
+  ],
+  "scope": "Author source/tiny only. Tiny n3/n4/n5 geometry fixtures, abstract graph/cap tests, and stubbed top-level status handling; no fixed n79 input validation, selection, blockers, scoring, domains, matching, scaffold or completion search.",
+  "source_sha256": {
+    "research/blocker_guided_eight_arc_scaffold157.py": "5af488fa4f857cb91325677eff67034bb2fcf6f7ed30a32e97ec018808e11b39",
+    "research/conflict_directed_sixteen_cycle_rebuild157.py": "714c389795cb3250a13e969910b671e9acb47ffd9054c4754c6ad84b5124dab7",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_blocker_guided_eight_arc_scaffold157.py": "74ea9f8c40be605cca051fe3516ecb0a5ae5eaf7be72b7cdf356fb993ff8e690"
+  }
+}

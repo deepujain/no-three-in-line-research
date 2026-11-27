@@ -1,0 +1,35 @@
+# Independent scaffold geometry/source oracle checklist
+
+Status: source-review preparation only. Read design `research/blocker-guided-eight-arc-scaffold157-design.md`, SHA-256 `cdc1d5ac697f0698ff6df63a68852599c7fb952cf82f18b8d367cfc69a024d6b`, and independent design review `9ceaad84eff60871b62281ae51f7473ea4b3902e3e4f0911a574a65c4024a999`. Wait for frozen source/test hashes before testing implementation. No actual n79 source loading, blocker construction, scoring or selection occurs in preparation.
+
+## Independent geometric predicates
+
+For tiny A and an outside point q, independently enumerate unordered A pairs with zero determinant against q. Compare the full blocker-pair set, not only its size, to production direction buckets. Verify exact L(q)=sum(|bucket|-1) by brute-force deletion subsets: q is safe precisely when every remaining bucket has at most one old point. Cover two-, three- and four-point buckets, reversed/nonprimitive directions and multiple independent buckets. Include q on an old four-point line; removing only one member is insufficient. On fixtures satisfying the design's old-conflict-count premise, check the size-four/32-pair/16-bucket bound; do not generalize that bound to arbitrary tiny sets with more conflicts.
+
+For a completed tiny support scaffold, reconstruct F and Q directly from arc coordinates. Check each support belongs to A, the complete support set is a matching, every q lies outside S, and q=(row(a),col(b)). Independent determinant triples of R union Q must equal the union of four explicit classes: old-only surviving conflicts; one-new triples from surviving blocker pairs; two-new triples from old points on a new-pair line; and all-new triples. Construct isolated examples for every class so a partial test cannot mask a missing class. Compare complete conflict lists and ensure duplicates among constraints do not change validity.
+
+## Pool and partial bounds
+
+On tiny grids, enumerate all outside-S points directly, compute their L values and independently sort by (L,coordinates). Compare the exact retained top-k buffer for several test caps, including ties, fewer eligible cells and points discovered late that displace earlier entries. Real configuration64 is a bound, not permission to scan n79 during review. Distinguish an incomplete scan from a complete selected-pool obstruction. Tiny abstract bipartite graphs should confirm primal/cover certificates; a maximum below scaffold size restricts only that selected pool.
+
+Enumerate row/column supports independently from A and compare each selected q's complete sorted support-pair set. Outside-A membership makes its two supports individually compatible; then verify all-support compatibility globally. For tiny F/U/q states compare pruning to brute-force possible final matching deletions. F union U is mandatory; reject overcapacity and shared old axes. Within one anchor the bucket losses sum exactly; across anchors use a maximum. Include two q whose required deletion sets overlap so sum-of-anchor lower bounds would falsely reject a feasible completion. Include one forced point already in F, repeated old blockers across q and U that newly conflicts with a support axis.
+
+## Complete tiny scaffold family oracle
+
+Use a test-only exhaustive callback and disable only the finite root/attempt limits through supported tiny parameters or bounded fixture sizes, not by modifying frozen production code. Independently enumerate combinations of tiny support-arc records, requiring disjoint endpoints, matching old supports and geometric validity of R union Q by direct determinants. Compare the complete unique scaffold family to the requirement-driven search; account separately for repeated traversal orderings. Construct a family whose first required clause is hit by a later arc while its lower-index partner is added afterward, proving that no increasing-arc shortcut loses it. Test the priority forced point, then anchor pair, then old triple. Keys must include all selected support-arc IDs: demonstrate same F with distinct Q remains two distinct scaffolds for root tests. The production first-four gate is a deliberate restriction and must not become an unrestricted-completeness assertion.
+
+The graph/move algebra implies |F|=2k, |Q|=k and |R union Q|=|A|-k on a k-arc scaffold. For actual k8 this is149 points; R retains141 source points. Since A=S minus one and all Q lie outside S, D=2k+1=17 and new-source count=k=8. Direct coordinate sets, axis counters and source intersections must independently verify these values; no move/touched-cell counter substitutes.
+
+## Residual capacity and cycle certificates
+
+Index components by sorted planted q. Independently build unfilled rows row(b_i) and columns col(a_j). Check every tiny residual-domain decision by determinant against all of R union Q plus outside-S membership. Verify residual point distinctness from R/Q and exact freed capacities. Compare root maximum matching to exhaustive assignments and its equal-size cover to every allowed edge, including deficient rows/columns in the old supports.
+
+Enumerate every small permutation tau. Expand into the old-edge successor permutation a_i->b_i->a_tau(i). Its cycle lengths must be twice tau's cycle lengths. Compare the explicit root cycle search to all permutations filtered by a separate single-cycle predicate and every root edge allowed. Include a perfect matching composed only of short cycles, a graph with one allowed full cycle, and no full cycle despite full matching. Final cycle closure must be accepted.
+
+A root-plan certificate says each residual cell is individually safe, not that the residual cells are jointly compatible. Include a tiny residual plan containing a two-new/one-scaffold triple or an all-residual triple while every edge individually passes. The implementation must still label its output only a root-ready scaffold; a149-point artifact does not improve the156 baseline or imply a157 witness. The test should preserve this distinction rather than accidentally requiring or claiming a full completion.
+
+## Source/lifecycle boundary
+
+Coordinate with the separate lifecycle reviewer. Every examined support arc must consume a shared attempt before compatibility rejection; repeat orders and new first anchors cannot reset4096. At most four distinct full keys reach expensive root checks. Inspect phase completeness, shared deadline, rollback and all interruption exits. No scaffold may be labeled ready before complete joint Q validity, residual matching and explicit full-cycle checks.
+
+One final dual validation after both graph gates permits immediate atomic persistence even if validator two finishes late. Before-second-validator timeout, mismatch, failed write or changed pins cannot promote readiness. A saved scaffold's full F/Q/source-distance/capacity/cycle identities must agree with every report pointer. Actual-host runtime and memory remain unmeasured; no completion DFS, pool expansion, extra root tests or continuation is implied by source/tiny approval.

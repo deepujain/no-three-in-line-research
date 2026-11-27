@@ -1,0 +1,138 @@
+{
+  "counts": {
+    "all_small_directed_graphs": 530,
+    "arc_families_enumerated": 23546,
+    "complete_fixture_families": 383,
+    "expanded_cycle_permutations": 2476,
+    "four_point_buckets": 14,
+    "nonincreasing_scaffold_orderings": 1596,
+    "oracle_conflicts_with_0_new_points": 18,
+    "oracle_conflicts_with_1_new_points": 30,
+    "oracle_conflicts_with_2_new_points": 8,
+    "oracle_conflicts_with_3_new_points": 22,
+    "outside_points_and_exact_minimum_covers": 6340,
+    "pair_tables": 8525,
+    "residual_cells": 3565,
+    "root_ready_scaffolds": 455,
+    "scaffold_orderings": 2282,
+    "unique_scaffolds": 717
+  },
+  "examples": {
+    "individually_safe_jointly_invalid_plan": {
+      "A": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "P": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "S": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "conflicts": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "domains": [
+        2,
+        1
+      ],
+      "n": 4,
+      "plan": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "supports": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "tau": [
+        1,
+        0
+      ]
+    }
+  },
+  "pins": {
+    "research/blocker_guided_eight_arc_scaffold157.py": "5af488fa4f857cb91325677eff67034bb2fcf6f7ed30a32e97ec018808e11b39",
+    "research/blocker_guided_eight_arc_scaffold_independent_tiny.py": "1856e2b9fece991238ab39464a3020b48f33dd55333896c9de299d7d3f4ead9f",
+    "tests/test_blocker_guided_eight_arc_scaffold157.py": "74ea9f8c40be605cca051fe3516ecb0a5ae5eaf7be72b7cdf356fb993ff8e690"
+  },
+  "scope": "Frozen source and deterministic tiny boards only; no n79 loading/scoring/search or completion DFS.",
+  "status": "PASS"
+}
