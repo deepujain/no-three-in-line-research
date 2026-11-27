@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Audited full-row control reached 515,410 main/18,100 exploration nodes, no witness/exhausted slice. Separate production pruning checkpoint core independently approved and8root tests pass; guard adaptation underway. Tiny gains remain separate from untested large-grid benefit.",
-    "evidence": "research/diagonal-residual-checkpoint-independent-review.md"
+    "finding": "Audited full-row control reached555,410 main/20,100 exploration nodes, no witness/exhausted slice. Separate residual pruning core/guard independently reviewed; root10guard tests passed. Tiny actual-host lifecycle gate next, then separately reviewed smaller/large preflights. No large-grid pruning claim.",
+    "evidence": "research/diagonal-residual-checkpoint-guard-independent-review.md"
   },
   {
     "id": "A09",
@@ -77,7 +77,7 @@
     "role": "Mathematician",
     "status": "native solver paused",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Native Glucose paused. Packed closed core/codec adapter independently approved with23tiny tests and146independent scan comparisons; standalone owned-worker guard design pending. No host or large-grid packed execution, witness or memory-fitness claim.",
+    "finding": "Native Glucose paused. Packed core/codec approved; standalone worker/immutable-receipt design independently approved and implementation authorized for tiny/fault tests. No host or large-grid packed execution or resource-fitness claim.",
     "evidence": "research/near-quarter-packed-core-integration-review.md"
   },
   {

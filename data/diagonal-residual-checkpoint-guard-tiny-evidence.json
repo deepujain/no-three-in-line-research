@@ -1,0 +1,54 @@
+{
+  "checks": [
+    "standalone CLI fresh/resume",
+    "exact source manifest and own entrypoint",
+    "new format and prune policy, old format rejection",
+    "tiny witness set and logical counters agree with independent residual reference",
+    "restore/traversal physical work diagnostics distinct from checkpoint logical counters",
+    "unchanged reconstruction timeout rejected without promotion",
+    "oversized input, exact expected hash and exclusive ownership",
+    "wall/RSS/monitor/cleanup/cancel rejection",
+    "source change and wrong n rejection",
+    "dual-verified witnesses retained independently on rejected frontier",
+    "identity tampering and publication before/after faults",
+    "late wall/cancel/source rejection after checkpoint publication",
+    "late wall rejection during final report publication"
+  ],
+  "command": ".venv/bin/python -m unittest tests.test_diagonal_residual_checkpoint_guard -v",
+  "frozen_dependencies_verified": {
+    "research/diagonal_residual_checkpoint.py": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "research/diagonal_rowbatch_chain.py": "7dc712554cc2e66beb82860a6482d620769f4125bc4c92d297733dd197598787",
+    "research/diagonal_rowbatch_checkpoint.py": "b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289",
+    "research/diagonal_rowbatch_checkpoint_guard.py": "9b84eb89e009d32a2daa3cdfa6b3b5df9d63daa48ff2565c6f4572a682fb5d2f",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "src/lazy_sat.py": "b71eb696b1a181886f745ec27d9d6e7ad2a47e5d22380c1ecdef7038ed0e5db2"
+  },
+  "geometric_test_sizes": [
+    3,
+    5
+  ],
+  "limitations": [
+    "No actual owned_process_guard launch; mocked resource/cleanup results do not establish host containment.",
+    "No change to inherited mutable checkpoint or bounded wall-gate semantics; published rejected bytes may remain.",
+    "No shared dispatcher or chain route.",
+    "No performance or broad-grid search claim."
+  ],
+  "schema": 1,
+  "scope": "Author tiny/fault correctness tests only; unchanged helper mocked by a synchronous tiny subprocess runner. No actual-host resource/cleanup gate or n79 geometry.",
+  "source_hashes": {
+    "checkpoint_utilities": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "entrypoint": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd",
+    "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "guard": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd",
+    "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "residual_checkpoint": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "residual_tiny_reference": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "tiny_reference": "27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+  },
+  "test_report_elapsed_seconds": 3.857,
+  "test_sha256": "f518147ff65203f63ae94a8cad0f4347a441ceb732c8804244250635e2d1ee93",
+  "tests_passed": 10,
+  "tests_run": 10
+}

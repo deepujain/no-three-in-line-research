@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "03:25 dispatcher r46 reduced300second allocation, pinned audited r45 hashes; all receipts terminal/process audit clean. Frozen source and protected3,600future exploration seconds unchanged.",
+  "note": "03:30 dispatcher r47 reduced300second allocation with exact audited r46 hashes. Residual tiny host script awaiting independent review; no larger-grid new branch allocated. Protect3,600future seconds.",
   "jobs": [
     {
       "args": [
@@ -1679,6 +1679,64 @@
         "fdf771006868ce0e7cffe0c24eff4ad4bed539f3c07a96f1a5b2e5679d09547d",
         "--ledger-dir",
         "data/rowbatch-chain-r46-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "2",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r47-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Advance exact audited r46 frontier as reduced frozen control, keeping distinct exploration while new residual guard enters reviewed tiny host gates and packed worker is implemented. Protect 3,600 unspent seconds. Deterministic/no RNG; unchanged30s/256MiB, stop on timeout/rejection/witness/exhaustion. No new mathematical conclusion.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "04100e2a48deb05800b2c228e9af194350733a4e579371ba67e57d17169fa85d",
+        "--ledger-dir",
+        "data/rowbatch-chain-r47-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "4",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r47-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Advance exact audited r46 frontier as reduced frozen control, keeping distinct exploration while new residual guard enters reviewed tiny host gates and packed worker is implemented. Protect 3,600 unspent seconds. Deterministic/no RNG; unchanged30s/256MiB, stop on timeout/rejection/witness/exhaustion. No new mathematical conclusion.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "1f98e3b4d861bd12f96c2206605000ce477a8181f3bd97a2ee2920f9377640cd",
+        "--ledger-dir",
+        "data/rowbatch-chain-r47-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",
