@@ -1,0 +1,39 @@
+{
+  "approved_n5_literal_sha256": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+  "geometry_trap_calls": 0,
+  "invalid_schema_rejections": [
+    "boolean_cost",
+    "negative_cost",
+    "missing_cost_row",
+    "boolean_row",
+    "boolean_current_column",
+    "duplicate_best_column",
+    "boolean_best_score",
+    "boolean_baseline",
+    "boolean_candidate_row",
+    "out_of_grid_candidate_row",
+    "boolean_candidate_column",
+    "duplicate_candidate_column",
+    "mismatched_candidate_columns",
+    "boolean_candidate_score"
+  ],
+  "passed": true,
+  "quota_refused_before_sentinel_access": [
+    "pair_lines",
+    "intersections",
+    "recoveries",
+    "raw_triples"
+  ],
+  "real_geometric_operations": 0,
+  "runner_sha256": "854b4475e312cd0eb6fca3534c403fd4b5fffb0e856f72a75fd44638142bd034",
+  "scope": "SOURCE-only syntax, invalid-schema rejection and exhausted-counter sentinels. No valid geometry.",
+  "source_after": {
+    "research/full_complement_row75_core.py": "228a9d0dd2e52bf98f7aa8fcb50a785a15f0e4b72b7f2f66c9d7d2c1a13061b7",
+    "research/full_complement_row75_independent.py": "6bad0b8ec41e4068d5015f719895949278f4ddad867f5d989ea543e79ccab1a1"
+  },
+  "source_before": {
+    "research/full_complement_row75_core.py": "228a9d0dd2e52bf98f7aa8fcb50a785a15f0e4b72b7f2f66c9d7d2c1a13061b7",
+    "research/full_complement_row75_independent.py": "6bad0b8ec41e4068d5015f719895949278f4ddad867f5d989ea543e79ccab1a1"
+  },
+  "syntax_compile_passes": 2
+}

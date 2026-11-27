@@ -1,0 +1,59 @@
+{
+  "core_sha256": "aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b",
+  "failure_or_partial_artifact_invalidates_receipt": true,
+  "fifth_rejected_before_creation": true,
+  "four_real_file_and_directory_fsync_publications": true,
+  "graph": {
+    "bytes": 2730960,
+    "nodes": 54285
+  },
+  "graph_overcap_rejected": true,
+  "matrix_cells": 5625,
+  "near_cap_graph": {
+    "bytes": 2730960,
+    "nodes": 54285
+  },
+  "opaque_keys": 11026,
+  "operation_counts": {
+    "components": {
+      "persistence": {
+        "comparisons": 0,
+        "cost_columns": 0,
+        "intersections": 0,
+        "pair_lines": 0,
+        "publications": 4,
+        "raw_triples": 0,
+        "recoveries": 0
+      }
+    },
+    "limits": {
+      "comparisons": 23000,
+      "cost_columns": 5625,
+      "intersections": 1700000,
+      "pair_lines": 900000,
+      "publications": 4,
+      "raw_triples": 1100000,
+      "recoveries": 827024
+    },
+    "totals": {
+      "comparisons": 0,
+      "cost_columns": 0,
+      "intersections": 0,
+      "pair_lines": 0,
+      "publications": 4,
+      "raw_triples": 0,
+      "recoveries": 0
+    }
+  },
+  "passed": true,
+  "publication_sizes": [
+    65536,
+    16384,
+    131072,
+    131072
+  ],
+  "real_geometric_operations": 0,
+  "receipt_acceptance_required": true,
+  "scope": "Artificial opaque graph and bytes only, no valid input/line schema or geometry. Not a reachable-state, RSS maximum or timing proof.",
+  "source_sha256": "793e851ca48cb8466edf0e342428130749826e8031bc237d605bb90192f16f5e"
+}

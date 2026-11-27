@@ -1,0 +1,9 @@
+# Independent metadata acceptance: artificial gates
+
+Verdict: PASS for the three separately owned artificial gates and their saved evidence; no gate or geometry was rerun in this review. The guard argv, repository cwd, exit and clean process cleanup, absence of failure artifacts, output hashes and all current source/runtime pin digests match the reviewed contracts. Each guard used a 10-second and 256 MiB limit with sampled RSS; sampling can miss transient peaks.
+
+- Pregeometry evidence `data/full-complement-row75-pregeometry-v1.json` SHA-256 `0b2384c7e24ec1a343fb5248d91894e09fd14bb89229124dd70a6f1b80de6eb0`; guard SHA-256 `799df92a0a44967ba2f01ceb8924f340813e84e06ed4cd4031f5b9c663958cce`. It reports the stated schema/pin refusals, seven seeded quota refusals and three stubbed zero timing modes.
+- Lifetime evidence `data/full-complement-row75-lifetime-source-v1.json` SHA-256 `55fbf200249f54ba42e7155ed037a7c201bcb5eaa4d31512c22294e871577191`; guard SHA-256 `a7fe432b38d2d87367d8baebff9b923106c945a708e8835423141fe5f54749aa`. Its six fake normal/error cases report cleared primary ownership and released retained/candidate owners.
+- Envelope evidence `data/full-complement-row75-envelope-v1.json` SHA-256 `f56df271d168aaad09a33f7cb8a45ff3c6f575d4e976caa522a2c59c688de625`; guard SHA-256 `cb81bce6c124a1b16b1e3288851ca51018396c57a3150a96e5eec9cd5b6c679b`. It reports an opaque 11,026-key graph, exact quota refusal, four fsynced publications and pre-creation refusal of a fifth.
+
+These observations establish only the stated artificial control, resource-accounting and persistence checks. They are not valid-state geometry, a proof of physical RSS maximum or an n75 timing forecast, and do not authorize an actual diagnostic. The final frozen source manifest and separately owned actual guard remain required.

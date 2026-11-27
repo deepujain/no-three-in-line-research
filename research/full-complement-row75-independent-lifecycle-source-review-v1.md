@@ -1,0 +1,18 @@
+# Independent lifecycle source review: full-complement row diagnostic
+
+Verdict: PASS for source review only, conditional on the separately owned pregeometry, approved tiny parity, artificial resource/persistence, exact manifest and owned-execution gates. This review does not authorize or predict a run. Reviewed exact bytes:
+
+- `research/full_complement_row75_core.py`: `aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b`
+- `research/full_complement_row75_primary.py`: `2780666ac7f2a1d31e4b735135164fd4f0baf6c06b1424fb6eff405d01006e0e`
+- `research/full_complement_row75_independent.py`: `c8fcea3629d5a4d3ccac5f92d925a3e88306fa3e747b40f109142d310dbe07e3`
+- `research/full_complement_row75_driver.py`: `970eacf3f4a9e95141d83a227cffc3a835eca14c746dbd08860fc089ca999ffc`
+
+The primary pair-count line computation, multiplicity inversion, retained-point correction and streaming row minima follow the reviewed design. The verifier uses separately normalized direction/intercept keys and retained endpoint masks, rebuilds one map per row, checks every cost and proves each selected key precedes each unselected key. Both map implementations clear their tables on success and exceptions. Direct and endpoint candidate validators independently check the chosen replacement, while the shared core provides identity and accounting rather than geometry.
+
+Geometric work and cost-key comparisons are charged before operations; counters do not reset. Each retained multiplicity is recovered once and reused. The driver requires the fixed snapshot, handoff, independent association review, source modules, identity helper, runtime and driver in the pin map, and verifies digest matches before geometry and again after reporting. The runtime and driver hashes are supplied by the manifest, so an independent preflight must freeze and check the entire manifest, required evidence, exact source and runtime bytes rather than trust a self-selected map. The historical records are not opened by the new diagnostic.
+
+The final source corrects the draft's manifest path error and late-zero deadline problem: both candidate validator start callbacks check the 25-second boundary, while charged work in a started zero validator uses the owned 30-second boundary; the preprepared validated witness is saved immediately after the second returns. An orphan `report.json` does not claim acceptance and explicitly requires a clean owned receipt and absence of failure. Source drift, deadline or persistence failure rejects the complete receipt; saved references survive in the failure path when available. Exclusive creation, complete-write checks, file and directory fsync, bounded error identity reads, one-shot behavior and no candidate adoption are present.
+
+Graph limits and the 2 MiB reserve are object accounting, not proof of physical RSS or execution time. The complete exact manifest presence and digest preflight, independent verifier tests against the changed core, fake late-zero/failure checks, approved n5 parity, artificial lifetime/memory/persistence gate, external owned guard and independent receipt review remain required. No source review substitutes for these. An interrupted or rejected execution cannot establish a no-gain profile. A zero witness requires separate acceptance; no result authorizes a second diagnostic or continuation.
+
+This inspection included no valid-state geometric execution, fixture search, optimizer, allocation or actual diagnostic. The separately authorized fixed snapshot association was checked structurally in `research/full-complement-row75-fixed64-independent-handoff-review.md`; it did not recount geometry.

@@ -1,0 +1,9 @@
+# Independent metadata acceptance: n5 pipeline parity
+
+Verdict: PASS for the single separately owned n5 pipeline gate and its saved evidence. This is metadata and byte-association review, not a geometry replay or n75 result.
+
+The guard `data/full-complement-row75-n5-pipeline-owned-guard-v1.json` SHA-256 `8ad81ca103e2dbef650ce6f15f3ca7226a90ddc043832d7f5c199e13ea20f416` records the reviewed module invocation, repository-root working directory, successful exit, clean process cleanup, unchanged source pins and no monitor error. Its 0.151-second wall time and sampled 45,920 KiB peak were within the owned 10-second and 256 MiB limits; sampling can miss transient peaks and does not predict n75 resource use. Its log SHA-256 `5330289f2d0e64c1be8ca7588418e698a1ec247f3da6d282410edd2777538391` agrees with successful parity output.
+
+The 10 guard pin identities, including the physical interpreter, source, accepted prior evidence, fixture and independent source review, match current bytes. The output directory contains only the three guarded artifacts and no failure artifact; all three hashes match the guard. The parity artifact SHA-256 `663df7055c1da114bc1e8ec40beb151cad7cf4aa34b2c0c3b3fe38ddd8879c37` reports matching pre/post source identities, one pipeline invocation, all 25 costs and five minima matching accepted prior evidence, one independently dual-validated proposal of score 5 at row 2 and columns (3,4), and no adopted candidate or zero witness. Its recorded totals are 168 raw triples, 184 pair constructions, 164 intersections, 125 recoveries, 63 cost-key comparisons and 25 column visits; component totals and ceilings agree with the reviewed test contract.
+
+No determinant or other geometry was rerun in this review. This small fixture verifies only the stated pipeline parity and does not establish an n75 profile, a construction, physical memory bound or permission to execute another gate.

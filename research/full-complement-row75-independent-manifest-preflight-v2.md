@@ -1,0 +1,7 @@
+# Independent final source-manifest preflight
+
+Verdict: PASS for `data/full-complement-row75-actual-source-pins-v2.json`, 4,858 bytes, SHA-256 `4d8c80833f9b9747b64218324615e2d649907feb82c6d3ca3b276b6f97e72224`. This is a byte and presence preflight, not an actual diagnostic result or allocation.
+
+Independently parsed with duplicate-key rejection and verified all 37 listed file digests against current bytes. Mandatory fixed input and handoff, independent handoff review, exact driver/core/primary/verifier, identity helper, physical interpreter, accepted design and direct design/review basis, independent source and mathematical reviews, n5 parity receipt and review, artificial gate evidence/guards and acceptance reviews, and owned guard source/review are present. Driver, helper, input and physical interpreter digests match the independently reviewed identities. The snapshot was hashed only; no point coordinates or geometry were read for this preflight.
+
+Resolved paths are unique, the manifest does not list itself, and the three historical provenance artifacts are excluded. V2 adds the direct v2 engineering review and n5 specification to preserved v1; the earlier v1 manifest remains intact. Root must freeze this exact manifest and independent preflight with the actual guard, recheck current bytes at the execution boundary, and independently review its receipt. Any drift invalidates this preflight; no retry, candidate adoption or continuation follows from it.

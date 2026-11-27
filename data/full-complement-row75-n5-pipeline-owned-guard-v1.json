@@ -1,0 +1,49 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "-m",
+    "research.full_complement_row75_n5_pipeline_tiny_v1",
+    "--output-dir",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/full-complement-row75-n5-pipeline-v1"
+  ],
+  "cleanup_elapsed_seconds": 0.012344375005341135,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "cwd": "/Users/dejain/nvidia/oss/work/no-three-in-line-research",
+  "elapsed_seconds": 0.15112208299979102,
+  "finished_at": "2026-11-27T16:51:51.049521+00:00",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "exited",
+  "models_reasoning": "Exact runtime model/reasoning unavailable; Root-owned tool execution.",
+  "monitor_error": null,
+  "output_hashes": {
+    "candidate.json": "f26db120df3dc77d5fc1a3ca35ea7a31a52f8a396f7047fb1e7815de65621add",
+    "parity.json": "663df7055c1da114bc1e8ec40beb151cad7cf4aa34b2c0c3b3fe38ddd8879c37",
+    "unaries.json": "54ece40f68adad25337c2777d4a34918c263fc60b07941ee5a3da9cba27d9552"
+  },
+  "peak_sampled_rss_kib": 45920,
+  "reserved_at": "2026-11-27T16:51:50.888316+00:00",
+  "returncode": 0,
+  "rss_limit_mib": 256,
+  "rss_samples": 3,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "One fixed approved n5 integrated pipeline parity, separately timed verification; no actual n75 search.",
+  "seconds_limit": 10,
+  "seed": null,
+  "source_pins": {
+    "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+    "data/full-complement-row-domain-n5-author-tiny-v1.json": "4e0477a27d5517c27d583c15f2dec706446527c1671f1c8963c00c1dfca2d941",
+    "data/full-complement-row-domain-n5-fixture-v1.json": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+    "research/full-complement-row-domain-n5-normal-metadata-review.md": "842b68c52103dc3ae97aac7c13c8ea6b9994b10e964c5756b630fc9fcbe970f4",
+    "research/full-complement-row75-n5-pipeline-independent-source-review.md": "fe625084653437b78d61d4ae8b85b57eacf7073f351b03c8b0457e9346859f99",
+    "research/full_complement_row75_core.py": "aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b",
+    "research/full_complement_row75_driver.py": "970eacf3f4a9e95141d83a227cffc3a835eca14c746dbd08860fc089ca999ffc",
+    "research/full_complement_row75_independent.py": "c8fcea3629d5a4d3ccac5f92d925a3e88306fa3e747b40f109142d310dbe07e3",
+    "research/full_complement_row75_n5_pipeline_tiny_v1.py": "769ace4081ca6b15f28c4a6a3e8e0a21155562be8354af836c278452ffd1e503",
+    "research/full_complement_row75_primary.py": "2780666ac7f2a1d31e4b735135164fd4f0baf6c06b1424fb6eff405d01006e0e"
+  },
+  "source_pins_unchanged": true,
+  "status": "completed",
+  "trigger_gate_status": null
+}

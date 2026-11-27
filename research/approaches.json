@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "fixed64 audit accepted; unchanged family curtailed",
+    "status": "complete single-row no-gain profile accepted",
     "scope": "Source-free149on75 with hard rows/soft columns; prior matching rebuild remains capped",
-    "finding": "Independent saved-state/ranking/ledger/receipt audit accepts unchanged64,16completed/0accepts,298effectivepins. Recorded minima remain source-supported; no local-minimum exclusion. Further unchanged continuation curtailed. Replacement-domain existence theorem reviewed; fixed tiny diagnostic in design. No valid149.",
-    "evidence": "research/restricted-three-row64-independent-actual-v2-metadata-review.md",
+    "finding": "Independent actual acceptance confirms no strict same-load single-row repair over all75columns on exactU64. All5625costs/75lexicalminima independentlyverified; clean4.6265s53632KiB. Excludes onlythisfamily/state; singletonmigration andmultirow remainopen. No valid149.",
+    "evidence": "research/full-complement-row75-actual-independent-metadata-review-v1.md",
     "prior_evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
   },
   {

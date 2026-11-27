@@ -1,0 +1,117 @@
+{
+  "approved_n5_literal_sha256": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+  "geometry_trap_calls": 0,
+  "invalid_schema_rejections": [
+    "boolean_cost",
+    "negative_cost",
+    "missing_cost_row",
+    "boolean_row",
+    "boolean_current_column",
+    "duplicate_best_column",
+    "boolean_best_score",
+    "boolean_baseline",
+    "boolean_candidate_row",
+    "out_of_grid_candidate_row",
+    "boolean_candidate_column",
+    "duplicate_candidate_column",
+    "mismatched_candidate_columns",
+    "boolean_candidate_score"
+  ],
+  "passed": true,
+  "quota_refused_before_sentinel_access": [
+    "pair_lines",
+    "intersections",
+    "recoveries",
+    "raw_triples"
+  ],
+  "real_geometric_operations": 0,
+  "runner_sha256": "fb4204f834876ec949ac85d8e108b1c525a6663e77b2acade5af4d5e17c3dd25",
+  "scope": "SOURCE-only syntax, invalid-schema rejection and exhausted-counter sentinels. No valid geometry.",
+  "source_after": {
+    "research/full_complement_row75_core.py": "aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b",
+    "research/full_complement_row75_independent.py": "c8fcea3629d5a4d3ccac5f92d925a3e88306fa3e747b40f109142d310dbe07e3"
+  },
+  "source_before": {
+    "research/full_complement_row75_core.py": "aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b",
+    "research/full_complement_row75_independent.py": "c8fcea3629d5a4d3ccac5f92d925a3e88306fa3e747b40f109142d310dbe07e3"
+  },
+  "syntax_compile_passes": 2,
+  "synthetic_validator_start_guards": [
+    {
+      "case": "started_on_time_finishes_after_soft",
+      "events": [
+        "start_guard",
+        "direct_stub",
+        "start_guard",
+        "endpoint_stub"
+      ],
+      "expected_success": true,
+      "real_geometric_operations": 0,
+      "synthetic_counter_totals": {
+        "comparisons": 0,
+        "cost_columns": 0,
+        "intersections": 0,
+        "pair_lines": 0,
+        "publications": 0,
+        "raw_triples": 1,
+        "recoveries": 1
+      }
+    },
+    {
+      "case": "first_validator_starts_too_late",
+      "events": [
+        "start_guard"
+      ],
+      "expected_success": false,
+      "real_geometric_operations": 0,
+      "synthetic_counter_totals": {
+        "comparisons": 0,
+        "cost_columns": 0,
+        "intersections": 0,
+        "pair_lines": 0,
+        "publications": 0,
+        "raw_triples": 0,
+        "recoveries": 0
+      }
+    },
+    {
+      "case": "second_validator_starts_too_late",
+      "events": [
+        "start_guard",
+        "direct_stub",
+        "start_guard"
+      ],
+      "expected_success": false,
+      "real_geometric_operations": 0,
+      "synthetic_counter_totals": {
+        "comparisons": 0,
+        "cost_columns": 0,
+        "intersections": 0,
+        "pair_lines": 0,
+        "publications": 0,
+        "raw_triples": 1,
+        "recoveries": 0
+      }
+    },
+    {
+      "case": "owned_deadline_still_enforced",
+      "events": [
+        "start_guard",
+        "direct_stub",
+        "start_guard",
+        "endpoint_stub"
+      ],
+      "expected_success": false,
+      "real_geometric_operations": 0,
+      "synthetic_counter_totals": {
+        "comparisons": 0,
+        "cost_columns": 0,
+        "intersections": 0,
+        "pair_lines": 0,
+        "publications": 0,
+        "raw_triples": 1,
+        "recoveries": 0
+      }
+    }
+  ]
+}

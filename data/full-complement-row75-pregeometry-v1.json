@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "real_geometric_operations": 0,
+  "resource_envelope_executed": false,
+  "schema_rejections": [
+    {
+      "case": "missing_pin:research/full_complement_row75_core.py",
+      "error": "missing or changed mandatory pin: research/full_complement_row75_core.py"
+    },
+    {
+      "case": "missing_pin:research/full_complement_row75_primary.py",
+      "error": "missing or changed mandatory pin: research/full_complement_row75_primary.py"
+    },
+    {
+      "case": "missing_pin:research/full_complement_row75_independent.py",
+      "error": "missing or changed mandatory pin: research/full_complement_row75_independent.py"
+    },
+    {
+      "case": "missing_pin:data/full-complement-row75-fixed64-points-v1.json",
+      "error": "missing or changed mandatory pin: data/full-complement-row75-fixed64-points-v1.json"
+    },
+    {
+      "case": "missing_pin:data/full-complement-row75-fixed64-handoff-v1.json",
+      "error": "missing or changed mandatory pin: data/full-complement-row75-fixed64-handoff-v1.json"
+    },
+    {
+      "case": "missing_pin:research/full-complement-row75-fixed64-independent-handoff-review.md",
+      "error": "missing or changed mandatory pin: research/full-complement-row75-fixed64-independent-handoff-review.md"
+    },
+    {
+      "case": "missing_pin:src/verify.py",
+      "error": "missing or changed mandatory pin: src/verify.py"
+    },
+    {
+      "case": "missing_pin:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/full_complement_row75_driver.py",
+      "error": "runtime and driver mandatory presence"
+    },
+    {
+      "case": "missing_pin:/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "error": "runtime and driver mandatory presence"
+    },
+    {
+      "case": "changed_mandatory_digest:research/full_complement_row75_core.py",
+      "error": "missing or changed mandatory pin: research/full_complement_row75_core.py"
+    },
+    {
+      "case": "changed_mandatory_digest:research/full_complement_row75_primary.py",
+      "error": "missing or changed mandatory pin: research/full_complement_row75_primary.py"
+    },
+    {
+      "case": "changed_mandatory_digest:research/full_complement_row75_independent.py",
+      "error": "missing or changed mandatory pin: research/full_complement_row75_independent.py"
+    },
+    {
+      "case": "changed_mandatory_digest:data/full-complement-row75-fixed64-points-v1.json",
+      "error": "missing or changed mandatory pin: data/full-complement-row75-fixed64-points-v1.json"
+    },
+    {
+      "case": "changed_mandatory_digest:data/full-complement-row75-fixed64-handoff-v1.json",
+      "error": "missing or changed mandatory pin: data/full-complement-row75-fixed64-handoff-v1.json"
+    },
+    {
+      "case": "changed_mandatory_digest:research/full-complement-row75-fixed64-independent-handoff-review.md",
+      "error": "missing or changed mandatory pin: research/full-complement-row75-fixed64-independent-handoff-review.md"
+    },
+    {
+      "case": "changed_mandatory_digest:src/verify.py",
+      "error": "missing or changed mandatory pin: src/verify.py"
+    },
+    {
+      "case": "manifest_self",
+      "error": "manifest self entry"
+    },
+    {
+      "case": "normalized_alias",
+      "error": "manifest alias/path cap"
+    },
+    {
+      "case": "forbidden_history_pin:data/restricted-three-row64-v2/initial.json",
+      "error": "history is referenced, never opened by diagnostic"
+    },
+    {
+      "case": "forbidden_history_pin:data/restricted-three-row64-independent-actual-v2-audit.json",
+      "error": "history is referenced, never opened by diagnostic"
+    },
+    {
+      "case": "forbidden_history_pin:research/restricted-three-row64-independent-actual-v2-metadata-review.md",
+      "error": "history is referenced, never opened by diagnostic"
+    },
+    {
+      "case": "boolean_handoff:schema",
+      "error": "handoff strict integer schema"
+    },
+    {
+      "case": "boolean_handoff:n",
+      "error": "handoff strict integer n"
+    },
+    {
+      "case": "boolean_handoff:point_count",
+      "error": "handoff strict integer point_count"
+    },
+    {
+      "case": "boolean_handoff:raw_score",
+      "error": "handoff strict integer raw_score"
+    },
+    {
+      "case": "boolean_snapshot_size",
+      "error": "fixed snapshot descriptor"
+    },
+    {
+      "case": "missing_provenance",
+      "error": "exact three provenance roles"
+    },
+    {
+      "case": "duplicate_json",
+      "error": "duplicate JSON key"
+    },
+    {
+      "case": "nonfinite_json",
+      "error": "nonfinite JSON token"
+    },
+    {
+      "case": "boolean_n",
+      "error": "supported fixed grid order"
+    },
+    {
+      "case": "missing",
+      "error": "point container/cardinality"
+    },
+    {
+      "case": "boolean_cell",
+      "error": "strict in-grid cells"
+    },
+    {
+      "case": "duplicate",
+      "error": "distinct cells"
+    }
+  ],
+  "scope": "Pure manifest/handoff/schema checks, synthetic counters and fully stubbed zero orchestration. No actual loader, real geometry, fsync or actual outcome claim.",
+  "seeded_counter_refusals": [
+    "raw_triples",
+    "pair_lines",
+    "intersections",
+    "comparisons",
+    "recoveries",
+    "cost_columns",
+    "publications"
+  ],
+  "source_pins": {
+    "full_complement_row75_core.py": "aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b",
+    "full_complement_row75_driver.py": "970eacf3f4a9e95141d83a227cffc3a835eca14c746dbd08860fc089ca999ffc",
+    "full_complement_row75_independent.py": "c8fcea3629d5a4d3ccac5f92d925a3e88306fa3e747b40f109142d310dbe07e3",
+    "full_complement_row75_primary.py": "2780666ac7f2a1d31e4b735135164fd4f0baf6c06b1424fb6eff405d01006e0e"
+  },
+  "source_sha256": "4c7cbfee94d4fe4985114bcfbcc0deabbdb2022be4a590a3d74d237b7300b18c",
+  "stubbed_zero_modes": [
+    {
+      "declared_witness_saved": true,
+      "events": [
+        "prepare",
+        "commit:witness.json:True"
+      ],
+      "limitation": "raw results and persistence are explicit stubs; this is not a zero witness or durability test",
+      "mode": "late_second_finish",
+      "real_geometry": 0
+    },
+    {
+      "events": [
+        "prepare"
+      ],
+      "expected_refusal": true,
+      "mode": "late_second_start",
+      "real_geometry": 0
+    },
+    {
+      "events": [
+        "prepare"
+      ],
+      "expected_refusal": true,
+      "mode": "owned_expiry",
+      "real_geometry": 0
+    }
+  ]
+}

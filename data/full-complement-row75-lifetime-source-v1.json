@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "primary_table_empty_at_return": true,
+      "scripted_error": false,
+      "table_absent_from_return": true
+    },
+    {
+      "primary_table_empty_at_return": true,
+      "scripted_error": true,
+      "table_absent_from_return": true
+    },
+    {
+      "all_owners_and_aliases_dead": true,
+      "phase": "retained",
+      "scripted_error": false,
+      "tables_created": 5
+    },
+    {
+      "all_owners_and_aliases_dead": true,
+      "phase": "retained",
+      "scripted_error": true,
+      "tables_created": 1
+    },
+    {
+      "all_owners_and_aliases_dead": true,
+      "phase": "candidate",
+      "scripted_error": false,
+      "tables_created": 1
+    },
+    {
+      "all_owners_and_aliases_dead": true,
+      "phase": "candidate",
+      "scripted_error": true,
+      "tables_created": 1
+    }
+  ],
+  "passed": true,
+  "real_geometric_operations": 0,
+  "resource_envelope_executed": false,
+  "scope": "Unrun bounded fake/source lifetime proposal; never validates real geometry.\n\nThe primary input is explicitly empty under a patched validator. Independent\nowner loops use only empty fake tables. This is control-flow evidence, not a\nreachable-state, line-correctness, resource, durability or timing proof.\n",
+  "source_pins": {
+    "full_complement_row75_core.py": "aa463fe45df59865660659a58a4f23d70ca677f232859fd228a4b4a7c4010f2b",
+    "full_complement_row75_driver.py": "970eacf3f4a9e95141d83a227cffc3a835eca14c746dbd08860fc089ca999ffc",
+    "full_complement_row75_independent.py": "c8fcea3629d5a4d3ccac5f92d925a3e88306fa3e747b40f109142d310dbe07e3",
+    "full_complement_row75_primary.py": "2780666ac7f2a1d31e4b735135164fd4f0baf6c06b1424fb6eff405d01006e0e"
+  },
+  "source_sha256": "2ea56aa97e6824b9d2af2b04823c90c039e077b895300dec323c55d296bf4112"
+}
