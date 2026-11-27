@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16399.5612830541,
+  "scheduled_search_wall_seconds_used": 16474.790007096097,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Noactualnumericalworkeractive atlastcheck. AllocateONLYindependentlyapproved finite33batch orpairedcolorpilot underexistingowned30s256MiB/soft25; no newpool/protocol. Preserveallfrontiers; no repeatclosedfamilies. Allclaims dualverify+independentreview; deadline22:59:25UTC unchanged.",
+  "next_action": "Keep packed frontiers and closed families preserved. Review two new bounded implementations before any host allocation: all 36 n73 one-orbit cases, and minimal conflict-cover repairs around the preserved invalid score-11 full state. Each approved evaluation uses the existing owned 30s/256MiB guard and a 25s soft budget. Check actual processes and budget first; original deadline 22:59:25UTC remains.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Bothpackedfrontierspreserved(main20261/middle20000), noleaf/slice/witness; unchangedDFSallocationcurtailed. Finitecentral547,n73boundary8,firstnoncentral1094allactualnegativeindependentlyaudited. Remaining33casechecker andpairedcolor25spilot source/tinyreview underway.",
+  "current_round": "All 35 single-orbit deletion cases of the centered n71 fixture are excluded within the stated near-quarter family. The paired-color pilots retained invalid full states with 184 and 84 conflicting triples. No valid improvement.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -36,10 +36,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Remaining33positiveorbitchecker source/tinyapprovalpending, nohostallocationyet",
-    "Pairedcolorrestrictedheuristic finalinitializer/source/tinyapprovalpending, nohostallocationyet"
+    "n73 all-36 one-orbit checker: source and tiny-test review before allocation",
+    "Score-11 state repair: provenance, minimal-cover proof and source/tiny review before allocation"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "43519d6 CI+PagesSUCCESS. Rootcentral12testsPASS0.329s, noncentral+central+51total18PASS0.799s, n73threePASS0.005s. Allfiniteactuals cleanpinned, independentlyauditedexplicitconflicts. No improvedconstruction."
+  "validation_status": "4457d2f Pages passed. CI failed on two legacy positive-RSS monitor checks; logs show zero-RSS sample rejection, not new finite-checker failures. Failed CI jobs rerun once without guard changes; outcome pending. New focused checks: 25 repair tests and 6 paired-walk tests passed. All promoted finite exclusions and invalid scores independently audited."
 }

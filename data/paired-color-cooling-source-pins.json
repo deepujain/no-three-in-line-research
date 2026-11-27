@@ -1,0 +1,9 @@
+{
+  "research/paired_color_walk.py": "d0753fd907439fefed3aaca8ffb91ff48e78bed15a85897c41f81d9e1c5992f3",
+  "tests/test_paired_color_walk.py": "e606ddf5ed3c1d45a9821ad85f112d54427a478afcb1ed18efa344ed73e72c29",
+  "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+  "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+  "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+  "research/paired_color_cooling.py": "fe1ba4da0e312056db5a46a8f94a38c24ca77f8c61c927747cd8db25b9876d83",
+  "tests/test_paired_color_cooling.py": "301141267038eb188a3514f8541008794a766a60b215fb3cf372d2b972129b1a"
+}

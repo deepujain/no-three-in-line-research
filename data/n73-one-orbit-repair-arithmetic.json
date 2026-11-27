@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scope": "Arithmetic-only labeled-edge degree enumeration and existing fixture coordinate grouping. No n73 fixture geometry recheck, n79 candidate points, secants, verifier or host search was executed.",
+  "fixture_sha256": "0c99133e2025005e99a702a8538752aa58ee763f4a01d6531f8015c423db29ae",
+  "case_manifest_sha256": "ca6147bee2ae9bcde4118f2ccdfb855af87c44cd5dd49e2aa3ec60580fbeabae",
+  "cases": 36,
+  "central_cases": 1,
+  "positive_cases": 35,
+  "total_labeled_edges": 716,
+  "total_raw_four_edge_subsets": 171395,
+  "total_degree_choices": 4402,
+  "total_readdition_records": 288,
+  "total_nonreaddition_records": 4114,
+  "positive_combinatorial_classes": {
+    "inner_inner_selected": 16,
+    "no_inner_inner_same_outer": 12,
+    "no_inner_inner_distinct_outer": 96
+  },
+  "central_combinatorial_classes": {
+    "inner_inner_selected": 8,
+    "no_inner_inner_same_outer": 6,
+    "no_inner_inner_distinct_outer": 48
+  }
+}

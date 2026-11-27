@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "paused after retained continuations",
+    "status": "targeted invalid-state repair proposed",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Separate incumbent preserved156; retained walks moved only3/5points from original seed. Four further continuations gave no count or distance improvement; stop unchanged valley batches.",
-    "evidence": "research/retained-continuation-seed279307-279313-review.md"
+    "finding": "Earlier valley walks are paused. A preserved 158-point search state has 11 collinear triples. A bounded repair using minimal conflict covers of at most four points is under review; no execution or completeness claim beyond that scope.",
+    "evidence": "research/overnight-direct157-decision.md"
   },
   {
     "id": "A05",
@@ -57,10 +57,10 @@
     "id": "A07",
     "name": "Conics and lifts",
     "role": "Mathematician",
-    "status": "three finite lift/repair families closed",
+    "status": "n71 one-orbit extension family closed",
     "scope": "Conic constructions and integer-grid embeddings",
-    "finding": "Centeredn71 zero-deletion51, central-deletion547, lex-firstnoncentral1094 and centeredn73zero-deletion8 allcompleteinvalid withindependentexplicitconflicts. Thiscoversfixedfixtures/scopesonly. Remaining33n71deletions preparingboundedchecker.",
-    "evidence": "research/n71-noncentral1094-actual-review.md"
+    "finding": "All 35 original four-orbit deletion cases of the centered n71 fixture are excluded: 37,743 candidate/deletion records, with overlap. The n73 zero-deletion extension also fails all eight choices. A separate n73 one-orbit batch is under review.",
+    "evidence": "research/n71-remaining33-actual-review.md"
   },
   {
     "id": "A08",
@@ -75,10 +75,10 @@
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "unchanged DFS curtailed; frontiers preserved",
+    "status": "DFS preserved; randomized pilots curtailed",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Main20261/middle20000 independentlyauditednodes, noleaf/closedslice/witness. No furtherunchangedDFSallocation. Restrictedpairedcolor\u03c0/\u03c3trading heuristic proposed, differentstatefamily withno completenessclaim; source/tinyreviewbeforepilot.",
-    "evidence": "research/near-quarter-middle-chain600-r2-actual-review.md"
+    "finding": "Main and middle DFS frontiers remain at 20,261 and 20,000 nodes, without a leaf or completed slice. Restricted paired-color walk pilots produced invalid states with 184 and 84 collinear triples. No improved valid construction.",
+    "evidence": "research/paired-color-seed279401-actual-review.md"
   },
   {
     "id": "A10",

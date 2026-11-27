@@ -1,0 +1,13 @@
+# Paired-color walk: mathematical and source review
+
+Approved one n79 seed279401 pilot with 25-second soft budget under Root's existing owned 30-second/256MiB guard and fresh output. No retry, broad allocation or completeness claim is implied. No n79 numerical work was executed during this review.
+
+Source SHA256 `d0753fd907439fefed3aaca8ffb91ff48e78bed15a85897c41f81d9e1c5992f3`; design `c0cb06c2f3aa8ce7ba28b79a686811bd3c7ea1f3bc8de9b4cd5d30d3ee7282ee`; tests `e606ddf5ed3c1d45a9821ad85f112d54427a478afcb1ed18efa344ed73e72c29`. All match current files. Independently ran four tiny tests: passed in 0.022s.
+
+For a permutation pi, sigma(r)=n-1-pi(n-1-r) is another permutation and the half-turn exchanges their point sets. Rejecting every row overlap therefore yields exactly 2n distinct points, two in every row and column, with half-turn symmetry. The representation is strict: on an isolated invariant K2,2 component formed by complementary row and column pairs, the half-turn preserves each alternating matching individually, so it cannot exchange the two colors. This is a structural counterexample, not a claimed valid no-three-in-line certificate.
+
+Swapping two pi entries changes at most four removed and four added points after set cancellations. The inverse swap restores pi. Sequential removal subtracts each disappearing triple exactly once, at its first removed point; sequential addition counts each appearing triple exactly once, at its last added point. Mirror and center swaps obey the same argument. Tests exhaust all legal n3/n5 permutations and swaps, comparing deltas and reversal to an independent integer determinant oracle.
+
+Initialization tries at most 32 seeded shuffles, checking the soft deadline before each, then uses the legal cyclic-shift fallback. The initial score and initializer type are recorded. Tiny tests verify the cap, deadline fallback and reproducibility. Current state, best state and per-move temporaries have storage bounded by n, with no history that grows with iterations. Final validators can materialize O(n^3) collinear triples, so no quadratic whole-pipeline storage claim is made. Final checks can extend beyond the soft loop deadline; the outer guard owns the hard resource limit.
+
+Both independent final verifiers must match the best conflict count and report no structural errors. Only score zero is a valid full 158-point certificate at n79. Positive scores describe invalid full search states and do not improve the best valid cardinality. A wall-time pilot need not reproduce the same iteration count on another machine. No move-graph connectivity, full-family exhaustion, algorithm novelty or global n79 conclusion is asserted.

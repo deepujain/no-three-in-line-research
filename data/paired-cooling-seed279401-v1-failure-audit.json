@@ -1,0 +1,28 @@
+{
+  "accepted_failure_record": true,
+  "accepted_numerical_result": false,
+  "charged_outer_seconds": 21.412821374993655,
+  "gate": {
+    "cleanup_elapsed_seconds": 0.0818520000029821,
+    "cleanup_error": null,
+    "cleanup_samples": 2,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 21.412797375000082,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "monitor_error",
+    "monitor_error": "TimeoutExpired: Command '['ps', '-axo', 'pid=,ppid=,pgid=,rss=,stat=']' timed out after 0.5 seconds",
+    "peak_sampled_rss_kib": 46048,
+    "returncode": -9,
+    "rss_limit_mib": 256,
+    "rss_samples": 413,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": "monitor_error"
+  },
+  "mathematical_conclusion": null,
+  "receipt_sha256": "2bcb9175896c932c72b87c948c8fec323fd1a4854fc5355167090a2068a8fb6d",
+  "report_absent": true,
+  "retry_review": "At most one explicitly authorized fresh v2 with same source/seed25soft/30guard/256MiB. Root reports unchanged process_snapshot passed656rows in0.01483s and no owned worker remains. Keep failed v1 charged and preserved. No further implicit retry.",
+  "sources_match": true,
+  "stdout_log_empty": true
+}

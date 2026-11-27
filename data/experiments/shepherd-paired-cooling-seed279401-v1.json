@@ -1,0 +1,51 @@
+{
+  "job": {
+    "id": "shepherd-paired-cooling-seed279401-v1",
+    "seconds": 30,
+    "hypothesis": "One reviewedcontrolled25slinearT4to0.02pairedcolorvariant, sameseed/initializer/moves/restart; conflicts0onlyvalid."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/paired_color_cooling.py",
+    "--n",
+    "79",
+    "--seed",
+    "279401",
+    "--seconds",
+    "25",
+    "--output",
+    "data/paired-cooling-seed279401-v1.json"
+  ],
+  "seed": 279401,
+  "sources_before": {
+    "research/paired_color_walk.py": "d0753fd907439fefed3aaca8ffb91ff48e78bed15a85897c41f81d9e1c5992f3",
+    "tests/test_paired_color_walk.py": "e606ddf5ed3c1d45a9821ad85f112d54427a478afcb1ed18efa344ed73e72c29",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/paired_color_cooling.py": "fe1ba4da0e312056db5a46a8f94a38c24ca77f8c61c927747cd8db25b9876d83",
+    "tests/test_paired_color_cooling.py": "301141267038eb188a3514f8541008794a766a60b215fb3cf372d2b972129b1a"
+  },
+  "status": "failed",
+  "elapsed_seconds": 21.412821374993655,
+  "started_at": "2026-11-27T07:45:11.561242+00:00",
+  "gate": {
+    "gate_status": "monitor_error",
+    "trigger_gate_status": "monitor_error",
+    "returncode": -9,
+    "elapsed_seconds": 21.412797375000082,
+    "rss_samples": 413,
+    "monitor_error": "TimeoutExpired: Command '['ps', '-axo', 'pid=,ppid=,pgid=,rss=,stat=']' timed out after 0.5 seconds",
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 2,
+    "peak_sampled_rss_kib": 46048,
+    "cleanup_elapsed_seconds": 0.0818520000029821,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T07:45:32.977196+00:00",
+  "sources_unchanged": true
+}

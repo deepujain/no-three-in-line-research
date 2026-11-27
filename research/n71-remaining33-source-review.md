@@ -1,0 +1,9 @@
+# Remaining 33 n71 repairs: source review
+
+Approved one shared-soft25 batch under Root's owned 30s/256MiB guard, fresh output, after the current pilot. Source SHA256 `88b7137bee387aba16b9dfe4f0265e59e1039cf950cd22f32fc019a2081a7760`; tests `706af2645b9bb5cac02eff02b3474e81d9106e83825dcb9c8b738c1a79694f61`; manifest `b2f8f9d3c49c4d91e72eb2f79473c51744434c39c4323e37c1da813badde4f54`. All current source pins match. No n79 geometry was run during source review.
+
+Independent coordinate-only partitioning repeatedly rotated each unassigned source point, rather than using the implementation's set expression. It found exactly 35 full four-orbits. The manifest gives exactly indices 1..18 and 20..34, excluding separately checked first index 0 and central index 19. Every remaining orbit has two distinct positive inner radii at most 35. Therefore the existing thirty-edge degree enumeration applies to each: 1,094 choices including 51 readditions, totaling 36,102 candidate/deletion pairs.
+
+Independently ran all 25 finite-family tiny tests: passed in 1.254s. Tests cover exact manifest coverage, equivalence to the frozen tiny deletion helper, dual survivor verification, early witness callbacks, partial filters, completed/partial/unstarted accounting, and between-case deadlines. The batch starts its shared deadline before fixture verification; exact filtering and candidate loops use that deadline. Published helpers are imported without modification. Witness metadata refers to the actual batch case and is saved before stopping.
+
+Only a complete, clean, audited batch can close these 33 cases. Together with the independently audited central and first noncentral cases, it would close repairs deleting at most one original full four-orbit from this fixed centered fixture within the stated near-quarter family. It does not cover other fixture embeddings, arbitrary deletions, larger trades, changed diagonal pair or global n79 existence.
