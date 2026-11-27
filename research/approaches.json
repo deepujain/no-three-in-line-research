@@ -66,18 +66,18 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "bounded trials",
+    "status": "residual scanner curtailed",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Audited unpruned control reached595,410 main/22,100 exploration nodes, no witness/exhaustion. New residual-pruned guard passed independently audited tiny host lifecycle:19/192nodes,4/16dualchecked distinct sets, clean observed cancellation. Larger root-only preflight source next; no large-grid pruning claim.",
+    "finding": "Residual prunes but is slower on measured prefix: in10.364s residual5000nodes reached earlier sibling than frozen control9000nodes in10.337s. Independent equal-wall review favors control here; current residual allocation curtailed. No witness.",
     "evidence": "research/diagonal-residual-checkpoint-host-gate-review.md"
   },
   {
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "native solver paused",
+    "status": "packed counted search",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Native Glucose paused. Packed core/codec approved; standalone worker/immutable-receipt design independently approved and implementation authorized for tiny/fault tests. No host or large-grid packed execution or resource-fitness claim.",
+    "finding": "Independently reviewed tiny host gates and n79root passed; first actual counted packed n79stage accepted1.006s. Audit then meaningful quota allocation, no158witness yet.",
     "evidence": "research/near-quarter-packed-core-integration-review.md"
   },
   {

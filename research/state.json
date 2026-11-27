@@ -2,15 +2,15 @@
   "schema_version": 1,
   "started_at": "2026-11-26T22:59:25Z",
   "deadline": "2026-11-27T22:59:25Z",
-  "status": "paused_by_user",
+  "status": "active",
   "objective": "Find and exactly verify a construction improving a documented finite no-three-in-line lower bound",
   "tentative_target_n": 79,
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": null,
+  "scheduled_search_wall_seconds_used": 14477.70745521607,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Remain paused. Do not resume research, agents, experiments, reviews or allocations on scheduled heartbeats. Only an explicit later human resume authorizes work. Preserve all existing checkpoints and unreviewed working files. Scheduler pause tool failed with invalid hook payload; both automation configs still read ACTIVE, so their wakeups must do no research. Original hard deadline remains unchanged unless the human changes it.",
+  "next_action": "Current residual scanner CURTAILED after independently audited equal-wall comparison favors frozen control. Prioritize actual packed158search, with bounded counted stages from audited accepted chain; keep separate exploration hypothesis. Do not restart old unpruned loops merely for activity. Original deadline/budget unchanged.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,15 +28,17 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "PAUSED by human; all three AI workers interrupted and no numerical search remains",
+  "current_round": "Packed n79first counted stage accepted; independent audit next for meaningful quota. Residual measured and curtailed.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",
   "pause_reason": "Human requested status and said we can pause.",
-  "automation_pause_status": "FAILED: automation_update returned invalid hook payload for both schedule IDs; even view failed. Manual schedule pause required.",
+  "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Packed worker53e83500 and codec borrowed-lease extensionac57fd57:44root tests passed6.862s, independent source review interrupted/incomplete; no host execution.",
-    "Residual root-only preflight45649c79: independent source review approved n9 only conditional on independent tiny rerun and source pins; no n9/n79 execution yet."
-  ]
+    "Residual5000node comparison awaiting independent evidence audit; residual10.364s/control5.803s, different traversal paths, no witness",
+    "Packed n79root accepted; one-node stage separately prepared/reviewed, no sustained packed search yet"
+  ],
+  "resumed_at": "2026-11-27T06:02:57.120374+00:00",
+  "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction."
 }

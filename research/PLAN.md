@@ -1,6 +1,6 @@
 # Autonomous research pilot
 
-**PAUSED BY THE HUMAN on 2026-11-27T03:44:29+00:00.** Do not restart research, agents, reviews, experiments or queue allocations from scheduled heartbeats. Resume only after an explicit human request. Existing hard deadline remains unchanged. Scheduler pause calls failed; any wakeups must remain idle.
+**RESUMED by the human on 2026-11-27T06:02:57.120374+00:00.** Prior pause is preserved in the decision log. Original deadline and resource cap remain unchanged. Prioritize measured improvement from new methods; do not resume unchanged unpruned loops.
 
 ## Question
 

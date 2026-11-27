@@ -1,0 +1,5 @@
+# Independent n79 residual root preflight evidence review
+
+The retained supervisor receipt reports successful exit and unchanged source pins. I independently checked current source hashes against both receipt manifests, stdout against the saved accepted report, job and worker-report byte hashes and bindings, result validation, helper status/limits and cleanup. Receipt SHA-256 `717be51ee91fc55876ba70e0a1335715040d029ac3578f587016f9e789041d01`; report `d4ed0e97c129874a5091895944a880441adf30e4df7d54d156871f56915d6b63`; worker `6998efe2730d7954816abb12d49facd986dcf3de7b75998c1270b88d1f399ee3`.
+
+At declared (d,t)=(0,0), the root-only worker reports one complete scan of 3,081 orbits, zero DFS nodes, an unchanged root and a passing bound; its ordered batches matched frozen control. The helper reports clean exit/cleanup, 52,368 KiB peak sampled RSS across two samples and 0.123 seconds helper elapsed; outer receipt elapsed 0.201 seconds. Sampling is not a kernel limit. This establishes the recorded n79 root operation only, not deeper-state resource use or a speed benefit. This review did not repeat the scan or launch numerical work.

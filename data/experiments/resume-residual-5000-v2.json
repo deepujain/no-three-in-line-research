@@ -1,0 +1,62 @@
+{
+  "job": {
+    "id": "resume-residual-5000-v2",
+    "seconds": 30,
+    "script": "research/diagonal_residual_checkpoint_guard.py",
+    "hypothesis": "Reviewed single freshv2 comparison after outer harness interruption; no equal coverage assumption"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/diagonal_residual_checkpoint_guard.py",
+    "--n",
+    "79",
+    "--deficit",
+    "0",
+    "--diagonal",
+    "0",
+    "--seconds",
+    "30",
+    "--rss-mib",
+    "256",
+    "--max-nodes",
+    "5000",
+    "--checkpoint",
+    "data/resume-residual-n79-5000-v2-frontier.json",
+    "--output",
+    "data/resume-residual-n79-5000-v2-report.json"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 10.364147583997692,
+  "started_at": "2026-11-27T06:07:58.972662+00:00",
+  "sources_before": {
+    "residual_checkpoint": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "residual_tiny_reference": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "checkpoint_utilities": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "tiny_reference": "27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2",
+    "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "guard": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd",
+    "entrypoint": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd"
+  },
+  "seed": null,
+  "deterministic": true,
+  "exit_code": 0,
+  "stdout": "{\"accepted_checkpoint_sha256\": \"312b38298410bd12a6352e7777fa283e7a99c16b75d1d73ff4f540dbcefd3e2d\", \"complete\": false, \"elapsed_seconds\": 10.33556870900793, \"guard\": {\"cleanup_elapsed_seconds\": 0.02414070900704246, \"cleanup_error\": null, \"cleanup_samples\": 1, \"cleanup_status\": \"clean\", \"elapsed_seconds\": 10.278706917000818, \"gate_semantics\": \"sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded\", \"gate_status\": \"exited\", \"monitor_error\": null, \"peak_sampled_rss_kib\": 53056, \"returncode\": 0, \"rss_limit_mib\": 256.0, \"rss_samples\": 243, \"rss_scope\": \"guard parent plus spawned process group and observed descendants; native heap included\", \"seconds_limit\": 29.957152666000184, \"source_stable\": true, \"trigger_gate_status\": null}, \"max_nodes\": 5000, \"n\": 79, \"previous_checkpoint_sha256\": null, \"published_checkpoint_sha256\": \"312b38298410bd12a6352e7777fa283e7a99c16b75d1d73ff4f540dbcefd3e2d\", \"rss_limit_mib\": 256.0, \"scope\": \"Declared diagonal-reflection slices only; no unrestricted infeasibility conclusion.\", \"seconds_limit\": 30.0, \"source_hashes\": {\"checkpoint_utilities\": \"48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721\", \"entrypoint\": \"8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd\", \"fast_core\": \"38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3\", \"guard\": \"8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd\", \"helper\": \"c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48\", \"original_core\": \"6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7\", \"residual_checkpoint\": \"d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c\", \"residual_tiny_reference\": \"56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387\", \"tiny_reference\": \"27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2\", \"verifier\": \"e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c\"}, \"status\": \"node_limit\", \"witness_dir\": \"/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/resume-residual-n79-5000-v2-report.json.witnesses-04ylucwp\", \"worker_log_tail\": \"\", \"worker_result\": {\"checkpoint_sha256\": \"312b38298410bd12a6352e7777fa283e7a99c16b75d1d73ff4f540dbcefd3e2d\", \"nodes_this_run\": 5000, \"nodes_total\": 5000, \"physical_work\": {\"restore\": {\"bipartite_imbalance\": 0, \"candidate_orbit_tests\": 0, \"completed_scans\": 0, \"component_color_shortage\": 0, \"component_parity\": 0, \"edge_tests\": 0, \"global_color_shortage\": 0, \"graph_steps\": 0, \"row_shortage\": 0, \"scan_attempts\": 0}, \"traversal\": {\"bipartite_imbalance\": 489, \"candidate_orbit_tests\": 9048897, \"completed_scans\": 5000, \"component_color_shortage\": 319, \"component_parity\": 201, \"edge_tests\": 15405000, \"global_color_shortage\": 0, \"graph_steps\": 2578186, \"row_shortage\": 2063, \"scan_attempts\": 5000}}, \"publication_seconds\": 0.021313582998118363, \"restore_seconds\": 1.6999998479150236e-05, \"scope\": \"Only declared diagonal-reflection slices; no unrestricted infeasibility conclusion.\", \"slice_counts\": [[5000, 0]], \"slice_index\": 0, \"status\": \"node_limit\", \"traversal_seconds\": 10.16659237499698, \"witness_visits_total\": 0}}\n",
+  "stderr": "",
+  "sources_after": {
+    "residual_checkpoint": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "residual_tiny_reference": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "checkpoint_utilities": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "tiny_reference": "27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2",
+    "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "guard": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd",
+    "entrypoint": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd"
+  },
+  "finished_at": "2026-11-27T06:08:09.338007+00:00",
+  "sources_unchanged": true
+}

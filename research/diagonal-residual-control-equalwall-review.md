@@ -1,0 +1,9 @@
+# Independent approximate equal-wall reflection comparison
+
+At fresh genesis for the same n79 slice (d,t)=(0,0), the residual 5,000-node v2 run took 10.364 seconds outer wall and the frozen-control 9,000-node run took 10.337 seconds, a difference of 0.027 seconds. Both source-pinned receipts, guards, checkpoint byte hashes, identity, counters, empty witness directories and reconstructed frame stacks checked out; both stopped incomplete at their node quotas. This is a single matched-time sample, not a universal speed estimate.
+
+The first 15 frame records match. At the next common incoming batch `[616]`, the residual parent's cursor is 5 and the control parent's cursor is 14. At this surviving parent, both algorithms use the same canonical candidate ordering; the control frontier is therefore in a later sibling at essentially the same elapsed time. The 5,000-node residual run had been ahead of control at the equal 5,000-node quota but took substantially longer. Its overlapping prune counters do not establish enough saved work to offset its overhead in this measured interval.
+
+Recommend curtailing further allocation to this residual implementation on the present evidence and preserving its artifacts. This negative result is scoped to one deterministic prefix and roughly ten seconds; it is not proof that the bounds are useless on all slices or depths, nor that either search is infeasible. A future materially changed implementation or distinct evidence would require its own measured comparison. RSS was sampled, not kernel-limited.
+
+Residual receipt SHA-256 `f0f24215d720159db5fc04e42d0827a484d763057e6c3c2aa1d1de89901549ea`, frontier `312b38298410bd12a6352e7777fa283e7a99c16b75d1d73ff4f540dbcefd3e2d`. Control receipt `830bbe0caf76a40f62eae64b6d80ccd383b9e207c13b80dbb85029d2eddf2a8b`, report `3929b23d8e52c77f694ae442640a054164f719e58a7a0fc5dbfda9461e2f5c3b`, frontier `d875c48f92da293e89fc1ae9639ab96fb97dc70287c825b1d1e57744651cbd8d`.

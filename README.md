@@ -1,6 +1,6 @@
 # No three in a line: autonomous mathematical research
 
-**Paused at the human’s request.** No workers or numerical searches are running. Best verified construction: **156 points**; no new bound claimed. Checkpoints and work in progress are preserved.
+**Research resumed at the human’s request.** Testing new search methods within the original deadline and compute budget. Best verified construction: **156 points**; no new bound claimed.
 
 **[Open the research visualization](https://deepujain.github.io/no-three-in-line-research/)** · [Research plan](research/PLAN.md) · [Shepherd decisions](research/decisions.md)
 

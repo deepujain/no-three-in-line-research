@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Paused by human; no active research task"
+    "status": "Resumed: allocation, actual-host gates, evidence and publication"
   },
   {
     "role": "Literature Researcher",
@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Paused by human; no active research task",
+    "status": "Independent residual evidence audit and controlled method comparison",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Paused by human; no active research task"
+    "status": "Correct packed source findings, then tiny host gates and bounded new search"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Paused by human; no active research task",
+    "status": "Independent packed source review and quotient residual-graph mathematics",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

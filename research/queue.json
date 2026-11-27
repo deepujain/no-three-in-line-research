@@ -1,6 +1,6 @@
 {
   "max_concurrent": 1,
-  "note": "PAUSED BY HUMAN. No pending new jobs; all prior jobs receipted. Do not start supervisor or add jobs until explicit human resume.",
+  "note": "Human resumed. Historical jobs remain terminal; allocate only reviewed new methods with explicit receipts. Do not restart old control loops.",
   "jobs": [
     {
       "args": [

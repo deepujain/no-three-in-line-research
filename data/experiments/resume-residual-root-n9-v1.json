@@ -1,0 +1,60 @@
+{
+  "job": {
+    "id": "resume-residual-root-n9-v1",
+    "seconds": 10,
+    "script": "research/diagonal_residual_root_preflight.py",
+    "hypothesis": "Reviewed root-only n9 host gate, no DFS"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/diagonal_residual_root_preflight.py",
+    "--n",
+    "9",
+    "--deficit",
+    "0",
+    "--diagonal",
+    "0",
+    "--seconds",
+    "10",
+    "--rss-mib",
+    "256",
+    "--output-dir",
+    "data/diagonal-residual-root-preflight-n9-d0-t0-v1"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 0.22502954199444503,
+  "started_at": "2026-11-27T06:03:15.862878+00:00",
+  "sources_before": {
+    "residual_checkpoint": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "residual_tiny_reference": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "tiny_reference": "27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2",
+    "checkpoint_utilities": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "control": "b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289",
+    "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "preflight": "45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b",
+    "entrypoint": "45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b"
+  },
+  "seed": null,
+  "deterministic": true,
+  "exit_code": 0,
+  "stdout": "{\"acceptance_requires\": \"Successful supervisor exit plus accepted report and unchanged pinned sources.\", \"accepted\": true, \"accepted_scan\": {\"available_count\": 28, \"available_sha256\": \"13e832d0edc55cc3c61eead018f0f906a1c7ba76f099c53f718b415724d79dd0\", \"batch_count\": 21, \"branch_order\": \"minimum-viable-row-then-lexicographic-unordered-batch-v1\", \"chosen_row\": 1, \"comparison_seconds\": 0.00010912500147242099, \"control_compared\": true, \"deficit\": 0, \"degrees\": [0, 7, 7, 7, 7, 7, 7, 7, 7], \"diagonal\": 0, \"n\": 9, \"needs\": [0, 2, 2, 2, 2, 2, 2, 2, 2], \"nodes\": 0, \"orbit_order_sha256\": \"9556c18c94230fee81e74b3f7b3f553dbbf9d5232cd3b2a0b53d646e079e6c81\", \"ordered_batches_sha256\": \"6a7bcf84a689b6eef8537fc490d1afd3bc155903accdd3e3934df6609715b28d\", \"physical_work\": {\"bipartite_imbalance\": 0, \"candidate_orbit_tests\": 36, \"completed_scans\": 1, \"component_color_shortage\": 0, \"component_parity\": 0, \"edge_tests\": 36, \"global_color_shortage\": 0, \"graph_steps\": 92, \"row_shortage\": 0, \"scan_attempts\": 1}, \"prefix_points\": [[0, 0]], \"prune_policy\": \"residual-row-degree-component-parity-bipartite-sum-v1\", \"root_state_sha256\": \"c8911bcd45008e82e2f01d06014ea3283e510b123a0634fb5f32954f8efee641\", \"scan_seconds\": 6.87080028001219e-05, \"search_performed\": false, \"state_unchanged\": true, \"viable_ids\": [8, 9, 10, 11, 12, 13, 14], \"violations\": []}, \"complete\": false, \"deficit\": 0, \"diagonal\": 0, \"elapsed_seconds\": 0.19652749999659136, \"guard\": {\"cleanup_elapsed_seconds\": 0.013950708002084866, \"cleanup_error\": null, \"cleanup_samples\": 1, \"cleanup_status\": \"clean\", \"elapsed_seconds\": 0.16562770800373983, \"gate_semantics\": \"sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded\", \"gate_status\": \"exited\", \"monitor_error\": null, \"peak_sampled_rss_kib\": 52096, \"returncode\": 0, \"rss_limit_mib\": 256.0, \"rss_samples\": 2, \"rss_scope\": \"guard parent plus spawned process group and observed descendants; native heap included\", \"seconds_limit\": 9.973006542000803, \"trigger_gate_status\": null}, \"invocation_seconds\": 0.19769874999474268, \"job_sha256\": \"1a0da92104f3256071d0cf3737e6e5432f1b39abb2e3a175732198fa32e3f035\", \"n\": 9, \"nodes\": 0, \"rss_limit_mib\": 256.0, \"schema\": \"diagonal-residual-root-preflight-v1\", \"scope\": \"One declared root operation only; no DFS, continuation or exhaustion claim.\", \"search_performed\": false, \"seconds_limit\": 10.0, \"source_hashes\": {\"checkpoint_utilities\": \"48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721\", \"control\": \"b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289\", \"entrypoint\": \"45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b\", \"fast_core\": \"38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3\", \"helper\": \"c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48\", \"original_core\": \"6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7\", \"preflight\": \"45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b\", \"residual_checkpoint\": \"d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c\", \"residual_tiny_reference\": \"56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387\", \"tiny_reference\": \"27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2\", \"verifier\": \"e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c\"}, \"status\": \"root_scan_accepted\", \"timing_scope\": \"elapsed_seconds ends before final report write; returned invocation_seconds includes report durability and signal restoration, excluding summary emission.\", \"worker_log_tail\": \"\", \"worker_report_sha256\": \"1caa939cba82342cc3020e54032e4f47c075eeda936e7842950d927d1f7b464b\", \"worker_result\": {\"job_sha256\": \"1a0da92104f3256071d0cf3737e6e5432f1b39abb2e3a175732198fa32e3f035\", \"result\": {\"available_count\": 28, \"available_sha256\": \"13e832d0edc55cc3c61eead018f0f906a1c7ba76f099c53f718b415724d79dd0\", \"batch_count\": 21, \"branch_order\": \"minimum-viable-row-then-lexicographic-unordered-batch-v1\", \"chosen_row\": 1, \"comparison_seconds\": 0.00010912500147242099, \"control_compared\": true, \"deficit\": 0, \"degrees\": [0, 7, 7, 7, 7, 7, 7, 7, 7], \"diagonal\": 0, \"n\": 9, \"needs\": [0, 2, 2, 2, 2, 2, 2, 2, 2], \"nodes\": 0, \"orbit_order_sha256\": \"9556c18c94230fee81e74b3f7b3f553dbbf9d5232cd3b2a0b53d646e079e6c81\", \"ordered_batches_sha256\": \"6a7bcf84a689b6eef8537fc490d1afd3bc155903accdd3e3934df6609715b28d\", \"physical_work\": {\"bipartite_imbalance\": 0, \"candidate_orbit_tests\": 36, \"completed_scans\": 1, \"component_color_shortage\": 0, \"component_parity\": 0, \"edge_tests\": 36, \"global_color_shortage\": 0, \"graph_steps\": 92, \"row_shortage\": 0, \"scan_attempts\": 1}, \"prefix_points\": [[0, 0]], \"prune_policy\": \"residual-row-degree-component-parity-bipartite-sum-v1\", \"root_state_sha256\": \"c8911bcd45008e82e2f01d06014ea3283e510b123a0634fb5f32954f8efee641\", \"scan_seconds\": 6.87080028001219e-05, \"search_performed\": false, \"state_unchanged\": true, \"viable_ids\": [8, 9, 10, 11, 12, 13, 14], \"violations\": []}, \"schema\": \"diagonal-residual-root-preflight-v1\", \"source_hashes\": {\"checkpoint_utilities\": \"48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721\", \"control\": \"b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289\", \"entrypoint\": \"45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b\", \"fast_core\": \"38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3\", \"helper\": \"c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48\", \"original_core\": \"6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7\", \"preflight\": \"45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b\", \"residual_checkpoint\": \"d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c\", \"residual_tiny_reference\": \"56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387\", \"tiny_reference\": \"27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2\", \"verifier\": \"e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c\"}}}\n",
+  "stderr": "",
+  "sources_after": {
+    "residual_checkpoint": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "residual_tiny_reference": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "tiny_reference": "27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2",
+    "checkpoint_utilities": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "control": "b162073f64d8190e7f97e6a06c96f2f7607b1419bce9e01a0f73c572d346f289",
+    "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "preflight": "45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b",
+    "entrypoint": "45649c7997d2f4e3cb24672ced61ec17340bc9ab38d317f1e7794f148991eb9b"
+  },
+  "finished_at": "2026-11-27T06:03:16.111649+00:00",
+  "sources_unchanged": true
+}

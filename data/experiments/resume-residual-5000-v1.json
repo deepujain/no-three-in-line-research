@@ -1,0 +1,48 @@
+{
+  "job": {
+    "id": "resume-residual-5000-v1",
+    "seconds": 30,
+    "script": "research/diagonal_residual_checkpoint_guard.py",
+    "hypothesis": "Independently recommended fresh5000node paired comparison (0,0); no equal coverage assumption"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/diagonal_residual_checkpoint_guard.py",
+    "--n",
+    "79",
+    "--deficit",
+    "0",
+    "--diagonal",
+    "0",
+    "--seconds",
+    "30",
+    "--rss-mib",
+    "256",
+    "--max-nodes",
+    "5000",
+    "--checkpoint",
+    "data/resume-residual-n79-5000-frontier.json",
+    "--output",
+    "data/resume-residual-n79-5000-report.json"
+  ],
+  "status": "interrupted_by_outer_command_timeout",
+  "elapsed_seconds": 30,
+  "started_at": "2026-11-27T06:06:35.354602+00:00",
+  "sources_before": {
+    "residual_checkpoint": "d8576102cbd904a23a6170807e89df9d4ab5610bdc1acb88351a7f8d6660ce6c",
+    "residual_tiny_reference": "56aa4158a56b675722e70b2241c0b4d54c1d26a890c536728d451c0fb19a9387",
+    "checkpoint_utilities": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "tiny_reference": "27d74e27fa29557cf867ba7f9591e0a349427def5a0a017f4fc9b7a88b36e0e2",
+    "fast_core": "38ec5044a8db85f046be24feb97c51adb6a95825afccac375d078195a57022a3",
+    "original_core": "6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "guard": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd",
+    "entrypoint": "8aea8375bd334fb3a3fd73fbe1f550f78e528eddd102bc9a866cb0f1400daadd"
+  },
+  "seed": null,
+  "deterministic": true,
+  "exit_code": null,
+  "finished_at": "2026-11-27T06:06:59.353502+00:00",
+  "note": "Lead selected 1s shell timeout in error; command killed before completion. Full30s allocation charged conservatively. Fresh process audit found no owned worker. No checkpoint accepted. Not algorithm performance evidence."
+}

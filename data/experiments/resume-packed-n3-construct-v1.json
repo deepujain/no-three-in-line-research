@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "resume-packed-n3-construct-v1",
+    "seconds": 5,
+    "hypothesis": "Independently reviewed fresh tiny construct/root no-search lifecycle"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "research.near_quarter_packed_worker",
+    "--request",
+    "data/packed-preflight-r1/n3-construct.request.json"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 0.1924711669998942,
+  "started_at": "2026-11-27T06:05:56.632529+00:00",
+  "sources_before": {
+    "core": "27beb80326431e952bc5523065d94866982326b46eed6d9ec2541ea49b8a1670",
+    "state": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "cursor": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "checkpoint": "ac57fd572e85d0653efc72b9cda73bc8274a96f154d37150ec3e6419c27c4770",
+    "model": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "line-model": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "worker": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "owned-helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "seed": null,
+  "deterministic": true,
+  "exit_code": 0,
+  "stdout": "{\"complete_invocation_ns\":135599875,\"coordination_finished_ns\":78694156367500,\"invocation_started_ns\":78694020767625,\"lease_retained\":false,\"receipt_sha256\":\"74f826061859d65b335a9c9b7cc8d150f86fa248e5106abab5d7bf1b984a5c34\",\"result\":\"accepted\",\"stage_id\":\"00000000000000000000000000000001\",\"timing_scope\":\"through durable HEAD outcome and lease close/release; excludes return serialization/caller receipt\"}\n",
+  "stderr": "",
+  "sources_after": {
+    "core": "27beb80326431e952bc5523065d94866982326b46eed6d9ec2541ea49b8a1670",
+    "state": "860711b8e83d0f3e738ebeedc535e0953e903a01551b1e22ad3bb20f49fa3b11",
+    "cursor": "738a545abc1909bc126ca916d225dfef90bea8b974142a5885cb9e2f632e2422",
+    "checkpoint": "ac57fd572e85d0653efc72b9cda73bc8274a96f154d37150ec3e6419c27c4770",
+    "model": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "verifier": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "line-model": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "worker": "7f8c8a166d4e79f881a644b69b6f0bb0c949ef524c97eb792f81b09c0e835738",
+    "owned-helper": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "finished_at": "2026-11-27T06:05:56.827224+00:00",
+  "sources_unchanged": true
+}

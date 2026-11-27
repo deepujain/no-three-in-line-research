@@ -340,3 +340,29 @@
 - Best verified construction remains the attributed156-point baseline on79x79; upper bound158; no improvement or novelty claim. Latest independently audited unpruned search counters635,410main and24,100exploration remain incomplete. Accounting82receipts including initialreserve:14,429.5023worker-seconds of21,600, about4.01hours accounted.
 - Preserve accepted checkpoints, receipts and all unreviewed working files. Packed worker53e83500/codecac57fd57 passed44root tiny/fault tests in6.862seconds, but independent review is incomplete and no actual-host launch is authorized. Residual root-only preflight45649c79 has conditional n9 source approval; no n9/n79 preflight was executed.
 - Tried automation_update with complete existing fields and PAUSED for both named heartbeat IDs. Both returned invalid hook payload: permission request does not match recorded tool call. A read-only view failed identically. This is a tool error, not confirmation of pause; automation configs remain ACTIVE. Persisted explicit human-pause override in PLAN/state and a supervisor pause guard so scheduled wakeups cannot restart research. Manual schedule pause remains necessary. No configuration files were hand-edited. Original deadline unchanged; resumption requires explicit human direction.
+
+
+## 2026-11-27T06:02:57.120374+00:00 — Explicit human resume
+
+Human requested overnight progress and autonomous decisions. Resume three existing workers. Preserve original deadline and compute cap; 14,429.5023 seconds accounted, 7,170.4977 remain before new reservations. Best remains156; no discovery. Prioritize residual pruning controlled comparison and packed near-quarter search; no unchanged unpruned loop. All three agents active; process audit found no numerical pool.
+
+
+## 2026-11-27T06:08:50.088934+00:00 — New methods measured after resume
+
+Residual n9/n79 root-only gates independently audited; fresh100node matched quotas accepted. Four packed tiny construct/root host gates independently audited; consolidated n79root accepted0.1776s, no counted search. Packed source fixes independently reviewed: uncertain HEAD cleanup retains lease, interrupted private validation marks counters incomplete. Root32focused tests passed1.700s.
+
+Fresh5000node residual/control pair completed10.3641/5.8031seconds; no witness, no exhaustion, paths differ. Independent evidence audit pending; do not equate prune counts with speed. Initial5000node measurement was killed by Lead selecting a1s outer command timeout in error; no accepted frontier, process audit empty, full30s conservatively charged, failure retained. Newv2 namespace separately reviewed before measurement. No new construction or novelty claim. Accounted 14477.70745521607 seconds of21600 including all permanent receipts/reserve.
+
+
+## 2026-11-27T06:11:05.751897+00:00 — Reallocate from measured evidence
+
+Independent equal-wall review: residual5000nodes10.364s versus freshcontrol9000nodes10.337s; first15frames identical, at common incomingbatch[616] residualcursor5/controlcursor14. Control reaches later sibling at comparable wall. Curtail current residual implementation; no general impossibility/speed conclusion beyond measured prefix. Stop allocating unchanged reflection loops.
+
+Packed n79root independently audited; exactly one counted stage then accepted1.006s, exit0, pinned sources and released lease. Independent counted-stage audit next, then meaningful bounded quota. All work retains original deadline and21600second cap. Literature worker investigates a concrete alternative beyond closed<=5repair neighborhood; Engineer implements isolated radius-graph predicate/tiny tests while current chain sources remain frozen.
+
+
+## 2026-11-27T06:13:27.394514+00:00 — Counted packed traversal and exploration
+
+Packed one-node result independently audited; next10node stage accepted18.5605s at unchanged30s/256MiB, checkpoint source stable. Audit pending. Initial10node input had trailing newline and strict parser rejected before run_stage/nochild; preserved failure receipt, corrected canonical bytes after independent reviewer confirmation, distinctv2receipt. No numerical retry occurred.
+
+Independent review approved one60s greedy seed279106/deletionmax12 exploratory trial under unchanged owned helper65s/256MiB. This can sample deletions beyondclosed5 but actual deletion sizes are not instrumented and neutral states are not retained. Running separately with receipt/reservation; no conclusion yet.

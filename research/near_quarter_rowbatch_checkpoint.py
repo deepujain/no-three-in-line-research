@@ -433,8 +433,30 @@ class ChainLease:
         self.path = self.directory/'writer.lease'
         self.nonce = secrets.token_bytes(32)
         self.fd = None
+        self.borrowed = False
+
+    @classmethod
+    def borrow_for_worker(cls, directory, *, expected_parent, chain_id, nonce, device, inode):
+        """Read-only borrowing; never acquires, releases or unlinks owner lease."""
+        require_digest(nonce, nonzero=True)
+        if any(type(v) is not int or not 0 <= v < 1 << 64 for v in (device, inode)):
+            raise ValueError("lease device/inode range")
+        obj = cls(directory, expected_parent=expected_parent, chain_id=chain_id)
+        obj.borrowed, obj.nonce = True, nonce
+        obj.fd = os.open(obj.path, os.O_RDONLY | os.O_NOFOLLOW)
+        try:
+            obj.stat = os.fstat(obj.fd)
+            if (obj.stat.st_dev, obj.stat.st_ino) != (device, inode):
+                raise ValueError("lease inode differs")
+            obj.verify()
+        except BaseException:
+            obj.close_keep_lease()
+            raise
+        return obj
 
     def __enter__(self):
+        if self.borrowed or self.fd is not None:
+            raise ValueError("lease cannot be reacquired")
         if not self.directory.is_dir() or self.directory.is_symlink():
             raise ValueError('chain directory must be local directory')
         self.fd = os.open(self.path, os.O_CREAT | os.O_EXCL | os.O_WRONLY | os.O_NOFOLLOW, 0o600)
@@ -464,15 +486,27 @@ class ChainLease:
         finally:
             os.close(fd)
 
-    def __exit__(self, exc_type, exc, tb):
+    def close_keep_lease(self):
+        """Close only; preserve on-disk ownership for explicit diagnosis."""
+        if self.fd is not None:
+            fd, self.fd = self.fd, None
+            os.close(fd)
+
+    def release(self):
+        if self.borrowed:
+            raise ValueError("borrower cannot release owner lease")
         try:
             self.verify()
             os.unlink(self.path)
             _fsync_directory(self.directory)
         finally:
-            if self.fd is not None:
-                os.close(self.fd)
-                self.fd = None
+            self.close_keep_lease()
+
+    def __exit__(self, exc_type, exc, tb):
+        if self.borrowed:
+            self.close_keep_lease()
+        else:
+            self.release()
 
 
 def _fsync_directory(directory):
@@ -499,6 +533,9 @@ def save_candidate(core, *, lease, check=lambda: None, fault=lambda boundary: No
         raise ValueError('matching chain lease required')
     lease.verify()
     check()
+    def write_check():
+        check()
+        lease.verify()
     raw = encode(core, parent_hash=lease.expected_parent, chain_id=lease.chain_id, check=check)
     # Fully replay our own candidate before writing; corrupted RAM is not adopted.
     record = TrustedRecord(hashlib.sha256(raw).digest(), lease.expected_parent, lease.chain_id)
@@ -516,8 +553,9 @@ def save_candidate(core, *, lease, check=lambda: None, fault=lambda boundary: No
     temp = lease.directory/('.candidate-'+secrets.token_hex(16))
     fd = os.open(temp, os.O_CREAT | os.O_EXCL | os.O_WRONLY | os.O_NOFOLLOW, 0o600)
     try:
-        _write_all(fd, raw, check)
+        _write_all(fd, raw, write_check)
         fault('after_write')
+        write_check()
         os.fsync(fd)
         fault('after_file_fsync')
         os.close(fd)
