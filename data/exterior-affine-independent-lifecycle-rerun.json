@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "closure": true,
+      "complete": true,
+      "mode": "negative",
+      "status": "selected_exterior_family_obstructed",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": true,
+      "mode": "positive_stub",
+      "status": "verified149",
+      "witness_saved": true
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "late_validator2",
+      "status": "timeout",
+      "witness_saved": true
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "candidate_disagreement",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "save_failure",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "wrong_record",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "partial_inventory",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "partial_candidates",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "partial_pairs",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "pin_drift",
+      "status": "error",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_direction_projection",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_inventory_certificate",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_frame_candidates",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_candidate_pairs",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_pair_certificate",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_final_pins",
+      "status": "timeout",
+      "witness_saved": false
+    },
+    {
+      "closure": false,
+      "complete": false,
+      "mode": "deadline_report_save",
+      "status": "timeout",
+      "witness_saved": false
+    }
+  ],
+  "instrumented_events": [
+    "candidate_validator1",
+    "candidate_validator2_complete",
+    "witness_save",
+    "post_candidate_pin_work",
+    "candidate_validator2_complete"
+  ],
+  "instrumented_late_case": {
+    "closure": false,
+    "complete": false,
+    "mode": "late_validator2",
+    "status": "timeout",
+    "witness_saved": true
+  },
+  "passed": true,
+  "pins": {
+    "exterior_unimodular75.py": "c06b018195fd11f262e61c1f61aa0b18fba1cc531dc1d7cc8f64b3e4639b36df",
+    "exterior_unimodular75_tiny.py": "1e0565d9b458dcef96cd667bf544573360e070d7f78fa241c5ebb042f86c90e3"
+  },
+  "scope": "Independent rerun of17 author synthetic lifecycle cases and instrumented late-save order. Positive analysis/construction explicitly stubbed; realvalid9-on5 validators/save. No actualsource access."
+}

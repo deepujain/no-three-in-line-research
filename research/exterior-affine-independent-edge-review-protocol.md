@@ -1,0 +1,17 @@
+# Independent edge fixtures and positive-path protocol
+
+The fixture module `research/exterior_affine_independent_edge_fixtures.py` contains fixed, bounded tests for gaps in the all-valid-n4 oracle. It imports no production worker and searches no larger source. It does not turn generic fixtures into full-axis affine-family witnesses.
+
+The 32 inverse cases use both determinant signs, several signed translations and inside/outside original-coordinate points. The expected preimage is chosen first and the added point is computed by forward multiplication. Production inversion must recover that exact point; invalid determinant matrices must be rejected at the documented matrix-validation boundary. The 36 protected-box cases test just inside, exactly on, and one unit outside each closed boundary of [-1,4] squared, including mixed-coordinate corners.
+
+The occupied-intersection fixture is a generic8-point set with coordinate span0..4, tested only against the frame-candidate helper with n=4 and the identity matrix. Its deficient levels are x={0,4} and y={0,1}; the raw intersection(0,0) is occupied and must be removed or explicitly recorded as excluded. The other three raw choices remain. This input is deliberately not a valid source in the4-square and must fail the complete source gate if passed to the family analyzer. It isolates a helper precondition without weakening actual source validation.
+
+The five collector records contain two distinct-frame descriptions of exterior q=(6,4), one of q=(4,6), and two of protected q=(4,4). All individual inverse identities are exact. The second description of q=(6,4) is a **stubbed candidate-stream record**, not a claim that its translation fits the original source. Use it only to test collector deduplication and preservation of a witness. A collector should produce exactly two exterior preimages, run at most one pair search per distinct q, preserve a frame witness, and keep protected exclusions separate. If production has no pure collector, stub only the candidate-stream boundary and document that the inventory geometry is not being tested by this case. Actual inventory correctness remains covered by the independent all-n4 comparison.
+
+The positive validator fixture is the directly checked9-point set on a5-square:
+
+    (0,0),(2,0),(1,1),(4,1),(1,3),(4,3),(0,4),(2,4),(3,2).
+
+It comes from the already exhausted tiny insertion oracle, not from an exterior affine extension. Direct determinant enumeration and both real full validators accept it. A positive orchestration test may stub analysis and candidate construction to return this exact certificate, then retain the real validators and real temporary-file save. Clearly label the geometry stub; do not claim the exterior family contains this witness. Instrument event order: first validator, deadline check, second validator, witness save, then optional deadline/pin bookkeeping. If the second validator moves the synthetic clock beyond the limit, the witness must still be saved before subsequent work clears whole-run completion/closure. If validators disagree or saving fails, no saved-witness claim is allowed. Final pin drift may preserve the physically saved certificate but must clear identity/completion/closure.
+
+These prepared fixtures are neither a production PASS nor actual runtime evidence. They will be adapted only to the frozen documented helper interfaces, with final worker/test hashes recorded. The selected n74 source and its inventory remain unread.

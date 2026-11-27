@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Dispatch, independently review design, reserve only after source gates",
+    "status": "Verify actual acceptance, publish and allocate only reviewed constructive designs",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -14,7 +14,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Exterior affine independent mathematical/scope PASS; lifecycle checklist and eventual frozen-source review",
+    "status": "Affine actualaudit accepted; next constructive mathematical/prior-scope design review",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
@@ -24,7 +24,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Exterior affine engineering DESIGN review then SOURCE/TINY ONLY author if PASS",
+    "status": "Independent engineering assessment of from-scratch row-block breakout DESIGNONLY",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -33,7 +33,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independent affine synthetic oracle/protocol preparation; later production geometry review",
+    "status": "Author bounded from-scratch nonsymmetric row-block breakout DESIGNONLY",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   }

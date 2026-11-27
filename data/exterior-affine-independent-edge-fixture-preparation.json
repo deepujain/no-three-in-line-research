@@ -1,0 +1,33 @@
+{
+  "collector_records": 5,
+  "distinct_exterior_collector_preimages": 2,
+  "inverse_cases": 32,
+  "occupied_exclusions": 1,
+  "occupied_raw_choices": 4,
+  "passed": true,
+  "positive_fixture_validation": [
+    {
+      "algorithm": "integer_normalized_slopes",
+      "conflict_count": 0,
+      "conflicts": [],
+      "errors": [],
+      "n": 5,
+      "normalized_sha256": "36086c444f62d8d113b4e1180f2deae899003b0854805bb2e3fffaf36b1afe5b",
+      "point_count": 9,
+      "valid": true
+    },
+    {
+      "algorithm": "integer_cross_products",
+      "conflict_count": 0,
+      "conflicts": [],
+      "errors": [],
+      "n": 5,
+      "normalized_sha256": "36086c444f62d8d113b4e1180f2deae899003b0854805bb2e3fffaf36b1afe5b",
+      "point_count": 9,
+      "valid": true
+    }
+  ],
+  "protected_cases": 36,
+  "scope": "Fixed tiny generic helper/collector fixtures and genuine valid9-on5 validator input. No exterior-family positive claim, actual source read, larger-source search or production comparison.",
+  "script_sha256": "af1b401a3f0780a903cf3188397a50b43b491bcfa959b03164b29e4078935ed4"
+}

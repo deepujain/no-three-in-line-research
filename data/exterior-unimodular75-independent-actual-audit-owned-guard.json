@@ -1,0 +1,31 @@
+{
+  "gate_status": "exited",
+  "trigger_gate_status": null,
+  "returncode": 0,
+  "elapsed_seconds": 0.059734916998422705,
+  "rss_samples": 1,
+  "monitor_error": null,
+  "seconds_limit": 10,
+  "rss_limit_mib": 256,
+  "cleanup_status": "clean",
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "peak_sampled_rss_kib": 25312,
+  "cleanup_elapsed_seconds": 0.011153458006447181,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/exterior_unimodular75_actual_audit.py",
+    "--report",
+    "data/exterior-unimodular75-v1/report.json",
+    "--receipt",
+    "data/experiments/shepherd-exterior-unimodular75-v1.json",
+    "--manifest",
+    "data/exterior-unimodular75-source-pins.json",
+    "--manifest-sha256",
+    "7e030c789ecc010bb6558530210def30b601ba4d7367d4643520c8eebdcca5ba"
+  ],
+  "audit_helper_sha256": "625b927c5bd5052a6d2968dbe8f1ffa76045e49ce990bc12c7bb461be5344996",
+  "scope": "Independent saved certificate verification only; no numerical search or source triple census"
+}

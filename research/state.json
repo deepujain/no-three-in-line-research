@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16745.82008951107,
+  "scheduled_search_wall_seconds_used": 16746.014201803082,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Engineer authoring new exterior affine SOURCE/TINY worker after both design PASS reviews; independent generic falsifiers/oracle and lifecycle review preparation active. Actual selected-source inventory remains unallocated.",
+  "next_action": "Review structurally distinct from-scratch nonsymmetric row-block breakout design for n75/149; exact unary replacement lemma and adaptive-line weighting require independent math/engineering/prior-scope reviews. No numerical allocation.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Insertion family independently closed and published87a0d2e. Exterior affine bounded design8bb89141 independently accepted5e7b5782 for source/tiny only, no new numerical reservation.",
+  "current_round": "Selected exterior affine family independently closed77e273e1 with axes only/no nonordinaryframes or149. Next constructive search DESIGNONLY active.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,13 +40,12 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Exterior affine production source/tiny freeze",
-    "Independent production geometry/oracle review",
-    "Independent lifecycle/source review"
+    "From-scratch row-block breakout bounded design",
+    "Independent mathematical/prior-scope and engineering design reviews"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Insertion actual audit95fa9f70 accepted5621old-triple certificates/24pins; helper0161454f reviewed50beab7a; independent owned audit0.0666115s23440KiB clean. Insertion actual1.161368084s52880KiB clean/allpinsunchanged. Published4f3cbf5 CI/Pages both success. Published87a0d2e Pages46001310311 success; CI46001311173 queued at single full-SHA check.",
+  "validation_status": "Affine sourcec06b0181 independently reviewed5568e364/e2af5ecc; actual0.194112292s48176KiB clean/28filemanifest7e030c78; independentactualaudit77e273e1 verifies29pins/twoaxes/zeroframes. No149/boundimprovement.",
   "last_formal_review_at": "2026-11-27T12:38:01.235816+00:00",
   "review_outcome": "Best remains156 on79. Fixed scaffold family independently certified UNSAT; selected152 n76 contractions excluded. Distinct n74 nonuniform insertion source/tiny frozen; independent reviews in progress. No numerical process/reservation live."
 }

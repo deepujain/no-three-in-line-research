@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "admitted": 30,
+    "cutoff_exclusions": 164,
+    "deadline_stops": 8,
+    "duplicate_stream_records": 5,
+    "exterior_preimages": 24,
+    "frames": 16,
+    "generic_occupied_choices": 4,
+    "invalid_axis_sources": 79,
+    "inventory_mutations": 20,
+    "malformed_sources": 12,
+    "pair_certificates": 24,
+    "protected_cases": 36,
+    "raw_choices": 56,
+    "rejected": 70,
+    "sources": 11
+  },
+  "passed": true,
+  "pins": {
+    "research/exterior_affine_independent_edge_fixtures.py": "af1b401a3f0780a903cf3188397a50b43b491bcfa959b03164b29e4078935ed4",
+    "research/exterior_affine_independent_oracle.py": "a1e4d8ec79b18cfe5756384826859b4730c5ca3ba42b9c989b34da66997ede62",
+    "research/exterior_affine_independent_worker_audit.py": "1a8835097cd88e095c195dee796c0b1de0d964d8bcdace80cff95456ee1364e3",
+    "research/exterior_unimodular75.py": "c06b018195fd11f262e61c1f61aa0b18fba1cc531dc1d7cc8f64b3e4639b36df"
+  },
+  "scope": "Independent synthetic n4 full geometry/certificates plus explicitly generic occupied/duplicate-stream fixtures. No selected-source read/inventory, actual geometry or solver."
+}
