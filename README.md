@@ -32,7 +32,7 @@ These are actual assignments, not fictitious people. Different agent tasks do no
 
 We maintain [ten approach branches](research/approaches.json), with at most **three workers plus the shepherd** running concurrently. They include boundary repairs, row/column trades, variable-cardinality repair, modular and conic constructions, constraint solving, symmetry restrictions, and transfers between nearby grids. Some are queued, some tested, and some rejected only within a stated family. The [Mathematician's broader proposal](research/mathematics.md) describes additional mechanisms and cheap tests; proposals are not executed experiments.
 
-Each hourly continuation reviews evidence, prunes or branches approaches, records actual experiments, verifies candidates, and publishes updates. The pilot runs from **26 November 2026, 22:59 UTC through 27 November 2026, 22:59 UTC**. Scheduled execution depends on the Codex desktop scheduler, the host being available, and account limits. This repository does not itself host an always-on model service. [Resource and stopping rules](research/PLAN.md)
+Workers receive new tasks as they finish. A bounded numerical experiment pool runs between model reviews, a five-minute dispatcher checks for work needing assignment, and formal synthesis remains hourly. The pilot runs from **26 November 2026, 22:59 UTC through 27 November 2026, 22:59 UTC**. Scheduled model execution depends on the Codex desktop scheduler, the host being available, and account limits. The numerical supervisor is a program, not an always-on AI model service. [Resource and stopping rules](research/PLAN.md)
 
 ## What the first round established
 
@@ -43,6 +43,17 @@ Each hourly continuation reviews evidence, prunes or branches approaches, record
 - Four five-second deletion-and-repair trials retained 156 points. Search failure is not an impossibility proof. [Recorded runs](data/smoke-summary.json)
 - All **24,340 empty cells** across the four translated seeds were audited for disjoint blocking pairs. Every new insertion needs at least two old deletions. This test alone did not exclude budgets of two or three; the stronger audit below does. [Blocker audit](data/blocker-audit.json)
 - A subsequent, stronger **complete guided audit** checked all **5,824 relevant deletion sets** across these four seeds. None can improve the point count with at most three original-seed deletions, even allowing removed points to be reinserted. This retires that neighborhood; it does not exclude larger changes or other arrangements. [Audit](data/guided-repair-audit.json) · [Independent review](research/guided-review.md)
+
+## Following research rounds
+
+Work continues beyond the initial small-change audit:
+
+- The full four-deletion corner audit completed: 130,290 relevant deletion sets per corner, no improvement. Together with the reviewed nonuniform-insertion audit, all 6,241 row/column embeddings of this seed are excluded through four deletions. This remains a seed-specific result.
+- At five deletions, 6,229 nonuniform embeddings are closed, while eight embeddings in two orbit classes remain partially searched. Their numeric resume offsets are preserved; a partial prefix is not an exclusion of the remaining cases. [Embedding results and review](research/embedding-review.md)
+- Two SAT backends each added 1.5 million exact geometric cuts, then stopped at their declared cut quota without a witness or UNSAT result. The numerical queue continues from validated geometry checkpoints. [SAT method and runs](research/sat.md)
+- Row/column trades retain a separately verified 156-point incumbent. Their 158-point search states remain invalid. The complete component with conflict score at most 13 contains 36 states and never improves the starting score of 11. This establishes a local barrier for one state and move family; it gives no global nonexistence result. [Trade results](research/trades.md) · [Review](research/trades-review.md)
+
+The queue, real process receipts, and [Research Lead decisions](research/decisions.md) distinguish running experiments, incomplete searches, scoped exhaustive results, and valid certificates. No new point-count record is claimed.
 
 ## Reproduce and verify
 
@@ -76,6 +87,16 @@ node test_ui.cjs
 ```
 
 They check desktop and phone layouts, absence of initial page scrolling, the exact conflict example, keyboard operation, and JavaScript errors. The visualization itself needs no dependencies.
+
+Optional SAT research uses an isolated Python environment and the versions pinned in `requirements-research.txt`:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-research.txt
+.venv/bin/python -m unittest discover -s tests -p test_lazy_sat.py -v
+```
+
+The numerical supervisor uses host process inspection (`ps`) for its memory guard. Run its process tests and experiments where that inspection is permitted; it fails closed if the guard cannot operate. Its deadline and recovery assumptions are documented in [the supervisor review](research/supervisor-review.md). It is not an AI agent.
 
 ## Research output and publication
 

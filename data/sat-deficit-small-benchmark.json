@@ -1,0 +1,989 @@
+{
+  "aggregate_wall_seconds": 0.018968875003338326,
+  "model": "gpt-6.1-sol",
+  "reasoning": "high",
+  "runs": [
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 12,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 2,
+      "elapsed_seconds": 0.000433,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 28,
+      "initial_total_clauses": 28,
+      "iterations": 1,
+      "lazy_cuts_added": 0,
+      "max_new_cuts": null,
+      "n": 2,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 2,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 3,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 2,
+        "normalized_sha256": "56cf012727acbec2aa144950cd7107d2fb2f012b76318d6f865b89a185cd0a6b",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "target": 3
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 0,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.000151,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 8,
+      "initial_total_clauses": 8,
+      "iterations": 1,
+      "lazy_cuts_added": 0,
+      "max_new_cuts": null,
+      "n": 2,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 4,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 2,
+        "normalized_sha256": "66dff6e17b8c520b1bc2b664e21bb64f3e319465e9612c7edd4d04c3b3a2677c",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "target": 4
+      }
+    },
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 58,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 3,
+      "elapsed_seconds": 0.000232,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 108,
+      "initial_total_clauses": 108,
+      "iterations": 2,
+      "lazy_cuts_added": 1,
+      "max_new_cuts": null,
+      "n": 3,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 3,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 5,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 3,
+        "normalized_sha256": "ce24f37c2e645d133a6cef8b48522b683ec78fbd6d22a5f2d8a02f6f93454fbc",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "target": 5
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 12,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.000152,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 36,
+      "initial_total_clauses": 36,
+      "iterations": 1,
+      "lazy_cuts_added": 0,
+      "max_new_cuts": null,
+      "n": 3,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 6,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 3,
+        "normalized_sha256": "dc06eb6eebc3cfeb021f78128334375b23c7d594b6ccaaad764f3391e4d377b2",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "target": 6
+      }
+    },
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 110,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 4,
+      "elapsed_seconds": 0.000324,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 210,
+      "initial_total_clauses": 210,
+      "iterations": 2,
+      "lazy_cuts_added": 4,
+      "max_new_cuts": null,
+      "n": 4,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 4,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 7,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 4,
+        "normalized_sha256": "419570fef06ee9d60c8a61af0c39c882212b026df86c67326b144d3d5e89bb21",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "target": 7
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 64,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.000423,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 128,
+      "initial_total_clauses": 128,
+      "iterations": 5,
+      "lazy_cuts_added": 9,
+      "max_new_cuts": null,
+      "n": 4,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 8,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 4,
+        "normalized_sha256": "bb3ffa16d61291499adb6370ca37a6b1b16568cc26c12236a4d3eed54814c3ef",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "target": 8
+      }
+    },
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 178,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 5,
+      "elapsed_seconds": 0.001137,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 344,
+      "initial_total_clauses": 344,
+      "iterations": 13,
+      "lazy_cuts_added": 30,
+      "max_new_cuts": null,
+      "n": 5,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 5,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 9,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 5,
+        "normalized_sha256": "3cad70ed9fd47eda29f6b7edbca77eea0be32c64f2da01130a05a66c92e0887b",
+        "points": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "target": 9
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 120,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.000955,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 240,
+      "initial_total_clauses": 240,
+      "iterations": 14,
+      "lazy_cuts_added": 34,
+      "max_new_cuts": null,
+      "n": 5,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 10,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 5,
+        "normalized_sha256": "9fa05fce8863ee612221e02235efb48ae8e74e07447fb022b98bd44a65bd164a",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "target": 10
+      }
+    },
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 262,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 6,
+      "elapsed_seconds": 0.00218,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 510,
+      "initial_total_clauses": 510,
+      "iterations": 22,
+      "lazy_cuts_added": 51,
+      "max_new_cuts": null,
+      "n": 6,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 6,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 11,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 6,
+        "normalized_sha256": "df0bdef4d2811791d973e2d68abed1e3ca076f9a243737c499f955199d118e35",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "target": 11
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 192,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.001846,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 384,
+      "initial_total_clauses": 384,
+      "iterations": 24,
+      "lazy_cuts_added": 63,
+      "max_new_cuts": null,
+      "n": 6,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 12,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 6,
+        "normalized_sha256": "eab1ae4f13c9004d78a0291e2c8cbcc32573ba5f9cc76d536dd7e23257ad1db2",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "target": 12
+      }
+    },
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 362,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 7,
+      "elapsed_seconds": 0.002669,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 708,
+      "initial_total_clauses": 708,
+      "iterations": 21,
+      "lazy_cuts_added": 54,
+      "max_new_cuts": null,
+      "n": 7,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 7,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 13,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 7,
+        "normalized_sha256": "7b5561e1f7e39eb0d7cafb2c10b7b7aa723c1a519d6b7d9b69e5a690c955ce2d",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "target": 13
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 280,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.003753,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 560,
+      "initial_total_clauses": 560,
+      "iterations": 37,
+      "lazy_cuts_added": 182,
+      "max_new_cuts": null,
+      "n": 7,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 14,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 7,
+        "normalized_sha256": "ba1e9a7b1a17edc63b8c473048f1c0a7db17163d29888a8eded528760470d3f7",
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "target": 14
+      }
+    },
+    {
+      "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+      "axis_noncell_variable_count": 478,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 8,
+      "elapsed_seconds": 0.002414,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 938,
+      "initial_total_clauses": 938,
+      "iterations": 19,
+      "lazy_cuts_added": 93,
+      "max_new_cuts": null,
+      "n": 8,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 8,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 15,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 8,
+        "normalized_sha256": "ed4db9645c88aaa36b4fd13e1279393a666ccf8f4c04d62b91756b4e065272ff",
+        "points": [
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "target": 15
+      }
+    },
+    {
+      "axis_encoding": "exactly_two_per_axis",
+      "axis_noncell_variable_count": 384,
+      "backend": "glucose3",
+      "checkpoint": null,
+      "checkpoint_cuts_loaded": 0,
+      "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+      "column_deficit_indicator_count": 0,
+      "elapsed_seconds": 0.001159,
+      "full_line_constraints_initially": false,
+      "initial_row_column_clauses": 768,
+      "initial_total_clauses": 768,
+      "iterations": 5,
+      "lazy_cuts_added": 28,
+      "max_new_cuts": null,
+      "n": 8,
+      "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+      "progress": null,
+      "row_deficit_indicator_count": 0,
+      "seconds_limit": 0.3,
+      "seed": "backend default; no seed specified",
+      "status": "valid_witness",
+      "target": 16,
+      "timer_interrupt_fired": false,
+      "witness": {
+        "n": 8,
+        "normalized_sha256": "3476ffe4aaedb02749362d197af3f134808a1da04cae167831b893efedfe5d2a",
+        "points": [
+          [
+            2,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "target": 16
+      }
+    }
+  ],
+  "scope": "small known instances only; no novelty claim",
+  "source_sha256": "467b3d9b3b76ef5bf381723050fe117d6c70705da318b49cfcf73e960f40eab1"
+}

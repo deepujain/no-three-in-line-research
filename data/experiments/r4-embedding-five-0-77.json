@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/embedding_worker.py",
+    "--previous",
+    "data/embedding-tip-cut-0-77.json",
+    "--output",
+    "data/embedding-tip-cut-0-77.json",
+    "--seconds",
+    "900"
+  ],
+  "elapsed_seconds": 930,
+  "entrypoint_sha256": "7d1139b56ed5449e762bcbd23973c25886a597c0464129c96f9dda586ceaaba6",
+  "job": {
+    "args": [
+      "--previous",
+      "data/embedding-tip-cut-0-77.json",
+      "--output",
+      "data/embedding-tip-cut-0-77.json"
+    ],
+    "hypothesis": "Continue the exact five-deletion frontier from its verified gapless offset; do not repeat completed prefixes.",
+    "id": "r4-embedding-five-0-77",
+    "script": "research/embedding_worker.py",
+    "seconds": 900
+  },
+  "note": "Conservative time reservation until completion receipt replaces it.",
+  "pid": 43442,
+  "started_at": "2026-11-26T23:57:00.657690+00:00",
+  "status": "running_reserved"
+}

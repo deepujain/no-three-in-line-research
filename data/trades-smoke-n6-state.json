@@ -1,0 +1,61 @@
+{
+  "collinear_triple_count": 0,
+  "independent_audit": [
+    "integer_normalized_slopes",
+    "integer_cross_products"
+  ],
+  "n": 6,
+  "normalized_sha256": "b7c93f12dfa9f5f16d78291e2d4cc0ba2f590eef3d314cee55c3427ca33f65de",
+  "points": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "state_kind": "valid_full_search_state",
+  "valid": true
+}

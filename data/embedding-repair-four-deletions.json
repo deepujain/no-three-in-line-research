@@ -1,0 +1,68 @@
+{
+  "audit": "low_conflict_embedding_exact_deletion_repair",
+  "elapsed_seconds": 14.918272791997879,
+  "embeddings": [
+    {
+      "completed_deletion_sets": 11936,
+      "conflict_count": 16,
+      "cut": [
+        0,
+        1
+      ],
+      "deletion_set_count": 11936,
+      "max_individually_addable_pool": 5,
+      "max_retained_plus_pool_count": 157,
+      "minimal_hitting_sets": [
+        [
+          0,
+          1
+        ]
+      ],
+      "status": "complete",
+      "tested_addition_subsets": {
+        "157": 12,
+        "158": 0
+      }
+    },
+    {
+      "completed_deletion_sets": 11936,
+      "conflict_count": 16,
+      "cut": [
+        0,
+        77
+      ],
+      "deletion_set_count": 11936,
+      "max_individually_addable_pool": 5,
+      "max_retained_plus_pool_count": 157,
+      "minimal_hitting_sets": [
+        [
+          154,
+          155
+        ]
+      ],
+      "status": "complete",
+      "tested_addition_subsets": {
+        "157": 315,
+        "158": 0
+      }
+    }
+  ],
+  "found_certificates": [],
+  "max_deletions": 4,
+  "model": "gpt-6-astra",
+  "reasoning": "high",
+  "seconds_budget": 20,
+  "selected_cuts": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      77
+    ]
+  ],
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "status": "complete",
+  "target_n": 79
+}

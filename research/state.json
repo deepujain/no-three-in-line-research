@@ -2,15 +2,15 @@
   "schema_version": 1,
   "started_at": "2026-11-26T22:59:25Z",
   "deadline": "2026-11-27T22:59:25Z",
-  "status": "running",
+  "status": "active_continuous_search",
   "objective": "Find and exactly verify a construction improving a documented finite no-three-in-line lower bound",
   "tentative_target_n": 79,
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 0,
+  "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Do not repeat <=3-deletion repair. Prototype alternating-cycle row/column trades, test larger guided neighborhoods, benchmark a tiny exact line-constraint model; preserve exploration across other approaches.",
+  "next_action": "Inspect numerical receipts and witnesses; keep queue useful. Embedding workers preserve offsets. Target157 SAT uses reviewed deficit encoding and validated geometry cuts. No extra numerical process while three lanes active.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -20,5 +20,11 @@
     "624 one-hole boundary extensions",
     "24340 individual empty-cell blocker checks",
     "5824 guided <=3-deletion sets, no point-count improvement"
-  ]
+  ],
+  "compute_seconds_limit": 21600,
+  "initial_research_compute_seconds_reserved": 600,
+  "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
+  "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
+  "current_round": "continuous frontier searches: two exact embedding streams and independently reviewed target157 SAT",
+  "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

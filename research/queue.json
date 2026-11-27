@@ -1,0 +1,136 @@
+{
+  "max_concurrent": 3,
+  "note": "All three numerical lanes released after target157 model independently approved. No separate numerical benchmark may start while all lanes are active.",
+  "jobs": [
+    {
+      "args": [
+        "--max-deletions",
+        "4",
+        "--output",
+        "data/guided-four-audit.json"
+      ],
+      "hypothesis": "Exhaust the next surviving corner-seed deletion neighborhood after independently proved <=3 exclusion. Preserve incomplete status on timeout.",
+      "id": "r2-guided-four",
+      "script": "research/guided_repair.py",
+      "seconds": 300
+    },
+    {
+      "args": [
+        "--n",
+        "79",
+        "--backend",
+        "glucose3",
+        "--checkpoint",
+        "data/checkpoints/glucose3.jsonl",
+        "--max-cuts",
+        "1500000",
+        "--progress",
+        "data/run-logs/glucose3-progress.jsonl",
+        "--output",
+        "data/sat-r2-glucose3.json"
+      ],
+      "hypothesis": "Incremental exact row/column SAT with validated geometric cuts; extend the short benchmark using a different solver backend and persistent cuts. No seed/novelty claim.",
+      "id": "r2-sat-glucose3",
+      "script": "src/lazy_sat.py",
+      "seconds": 300
+    },
+    {
+      "args": [
+        "--n",
+        "79",
+        "--backend",
+        "minisat22",
+        "--checkpoint",
+        "data/checkpoints/minisat22.jsonl",
+        "--max-cuts",
+        "1500000",
+        "--progress",
+        "data/run-logs/minisat22-progress.jsonl",
+        "--output",
+        "data/sat-r2-minisat22.json"
+      ],
+      "hypothesis": "Incremental exact row/column SAT with validated geometric cuts; extend the short benchmark using a different solver backend and persistent cuts. No seed/novelty claim.",
+      "id": "r2-sat-minisat22",
+      "script": "src/lazy_sat.py",
+      "seconds": 300
+    },
+    {
+      "args": [
+        "--n",
+        "79",
+        "--backend",
+        "glucose3",
+        "--checkpoint",
+        "data/checkpoints/glucose3.jsonl",
+        "--progress",
+        "data/run-logs/glucose3-r3-progress.jsonl",
+        "--output",
+        "data/sat-r3-glucose3.json"
+      ],
+      "hypothesis": "Continue from 1.5 million independently valid learned geometry cuts; preserve cuts and monitor bounded memory rather than restart the short benchmark.",
+      "id": "r3-resumed-sat-glucose3",
+      "script": "src/lazy_sat.py",
+      "seconds": 900
+    },
+    {
+      "id": "r4-embedding-five-0-1",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Continue the exact five-deletion frontier from its verified gapless offset; do not repeat completed prefixes.",
+      "args": [
+        "--previous",
+        "data/embedding-tip-cut-0-1.json",
+        "--output",
+        "data/embedding-tip-cut-0-1.json"
+      ]
+    },
+    {
+      "id": "r4-rectangle-barrier13",
+      "script": "research/rectangle_barrier.py",
+      "seconds": 900,
+      "hypothesis": "Continue the exact score<=13 rectangle component from its saved frontier after complete threshold12 barrier; never equate a score state with a valid certificate.",
+      "args": [
+        "--resume",
+        "data/trades-barrier13-pilot.json",
+        "--threshold",
+        "13",
+        "--max-states",
+        "1500",
+        "--output",
+        "data/trades-barrier13-long.json"
+      ]
+    },
+    {
+      "id": "r4-embedding-five-0-77",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Continue the exact five-deletion frontier from its verified gapless offset; do not repeat completed prefixes.",
+      "args": [
+        "--previous",
+        "data/embedding-tip-cut-0-77.json",
+        "--output",
+        "data/embedding-tip-cut-0-77.json"
+      ]
+    },
+    {
+      "id": "r4-sat-157-minisat22",
+      "script": "src/lazy_sat.py",
+      "seconds": 900,
+      "hypothesis": "Search the easier 157-point improvement using independently reviewed row/column deficit encoding, reusing the validated geometric cut checkpoint from the earlier158 search.",
+      "args": [
+        "--n",
+        "79",
+        "--target",
+        "157",
+        "--backend",
+        "minisat22",
+        "--checkpoint",
+        "data/checkpoints/minisat22.jsonl",
+        "--progress",
+        "data/run-logs/sat157-progress.jsonl",
+        "--output",
+        "data/sat-r4-target157.json"
+      ]
+    }
+  ]
+}

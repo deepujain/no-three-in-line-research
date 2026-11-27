@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "active"
+    "status": "active shepherd, continuous numerical queue and dispatcher configured"
   },
   {
     "role": "Literature Researcher",
@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "literature and independent mathematical review completed",
+    "status": "independent reviews and arithmetic cross-checks completed",
     "additional_role": "Mathematical Reviewer, later task on same agent/model"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "initial search, blocker audit, and guided-repair audit completed"
+    "status": "trade/barrier workers and SAT157 implementation completed; reviewed numerical continuations active"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "proofs and independent guided-repair review completed",
+    "status": "embedding frontier and SAT157 proof/review completed; numerical continuations queued",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

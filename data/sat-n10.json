@@ -1,0 +1,102 @@
+{
+  "backend": "glucose3",
+  "elapsed_seconds": 0.064949,
+  "full_line_constraints_initially": false,
+  "initial_row_column_clauses": 1280,
+  "initial_total_clauses": 1280,
+  "iterations": 194,
+  "lazy_cuts_added": 1579,
+  "n": 10,
+  "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+  "seconds_limit": 3.0,
+  "seed": "backend default; no seed specified",
+  "status": "valid_witness",
+  "target": 20,
+  "timer_interrupt_fired": false,
+  "witness": {
+    "n": 10,
+    "normalized_sha256": "47bf7fdd0f85a34603796309f2ffc8879a007f62f0e5d1afd59219028a19aa09",
+    "points": [
+      [
+        4,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        5,
+        9
+      ]
+    ]
+  }
+}

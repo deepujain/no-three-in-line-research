@@ -1,0 +1,49 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--n",
+    "79",
+    "--backend",
+    "glucose3",
+    "--checkpoint",
+    "data/checkpoints/glucose3.jsonl",
+    "--max-cuts",
+    "1500000",
+    "--progress",
+    "data/run-logs/glucose3-progress.jsonl",
+    "--output",
+    "data/sat-r2-glucose3.json",
+    "--seconds",
+    "300"
+  ],
+  "elapsed_seconds": 58.335193334001815,
+  "entrypoint_sha256": "64d9a966a9c92ed0fcf654ff7da47a85132a1856754c434c66bab3b0ecd0c6d7",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T23:44:29.304268+00:00",
+  "job": {
+    "args": [
+      "--n",
+      "79",
+      "--backend",
+      "glucose3",
+      "--checkpoint",
+      "data/checkpoints/glucose3.jsonl",
+      "--max-cuts",
+      "1500000",
+      "--progress",
+      "data/run-logs/glucose3-progress.jsonl",
+      "--output",
+      "data/sat-r2-glucose3.json"
+    ],
+    "hypothesis": "Incremental exact row/column SAT with validated geometric cuts; extend the short benchmark using a different solver backend and persistent cuts. No seed/novelty claim.",
+    "id": "r2-sat-glucose3",
+    "script": "src/lazy_sat.py",
+    "seconds": 300
+  },
+  "log": "data/run-logs/r2-sat-glucose3.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 28161,
+  "started_at": "2026-11-26T23:43:30.969905+00:00",
+  "status": "completed"
+}

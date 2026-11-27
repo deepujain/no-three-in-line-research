@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "independent_validation": [
+      "integer_normalized_slopes",
+      "integer_cross_products"
+    ],
+    "normalized_sha256": "3e95fdfe512d75bb10d4a10519f9721a35d0fadcf9f8dd3bc6b5d8afef542a93",
+    "novelty_claim": false
+  },
+  "n": 4,
+  "points": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      2
+    ]
+  ]
+}

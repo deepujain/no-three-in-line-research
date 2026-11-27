@@ -21,28 +21,28 @@
     "id": "A03",
     "name": "Small-change repairs",
     "role": "Mathematician",
-    "status": "pruned \u22643",
+    "status": "pruned \u22644",
     "scope": "Two-hole extensions and row/column constraints",
-    "finding": "5,824 relevant deletion sets exhausted across four translated seeds; no gain with at most three old deletions",
-    "evidence": "data/guided-repair-audit.json"
+    "finding": "Complete corner audit plus reviewed insertion audit exclude all 6,241 row/column embeddings through four seed deletions",
+    "evidence": "data/guided-four-audit.json"
   },
   {
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "pruned \u22643",
+    "status": "active frontier",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Guided exhaustive audit supersedes random repair trials for these seeds and budgets up to three",
-    "evidence": "data/guided-repair-audit.json"
+    "finding": "Five-deletion repair: 6,229 nonuniform embeddings closed; two orbit classes remain partially searched",
+    "evidence": "research/larger_repairs.md"
   },
   {
     "id": "A05",
     "name": "Row and column swaps",
     "role": "Research Software Engineer",
-    "status": "queued",
+    "status": "active",
     "scope": "Search pairs of permutations with exact slope constraints",
-    "finding": null,
-    "evidence": null
+    "finding": "Exact full-state trade search and reviewed rectangle barrier: score-11 state cannot escape below barrier 13; higher frontier under study",
+    "evidence": "data/trades-barrier-audit.json"
   },
   {
     "id": "A06",
@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "queued",
+    "status": "active",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": null,
-    "evidence": null
+    "finding": "Two exact SAT backends each learned 1.5 million valid cuts; checkpointed continuation active, no witness or UNSAT",
+    "evidence": "research/sat.md"
   },
   {
     "id": "A09",
@@ -82,11 +82,11 @@
   },
   {
     "id": "A10",
-    "name": "Nearby grid sizes",
-    "role": "Literature Researcher",
-    "status": "baseline checked",
-    "scope": "Published witnesses and n=75,77,79,80 targets",
-    "finding": "n=78 gives a verified 156-point baseline at n=79",
-    "evidence": "research/literature.md"
+    "name": "Grid insertion repairs",
+    "role": "Mathematician / Literature Researcher",
+    "status": "active",
+    "scope": "Published witnesses, nearby sizes, and nonuniform row/column insertion families",
+    "finding": "All 6,241 source embeddings classified with checked rotational symmetry",
+    "evidence": "research/larger_repairs.md"
   }
 ]

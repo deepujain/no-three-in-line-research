@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "n": 79,
+    "variables": 6241,
+    "maximal_lines_length_at_least_3": 1644284,
+    "line_variable_incidences": 6253052,
+    "primitive_directions": 1896,
+    "target_2n": 158,
+    "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+  },
+  "stream_count_check": {
+    "constraints": 1644284,
+    "incidences": 6253052,
+    "seconds": 0.576
+  }
+}

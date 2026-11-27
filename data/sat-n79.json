@@ -1,0 +1,17 @@
+{
+  "backend": "glucose3",
+  "elapsed_seconds": 40.008595,
+  "full_line_constraints_initially": false,
+  "initial_row_column_clauses": 97328,
+  "initial_total_clauses": 97328,
+  "iterations": 2358,
+  "lazy_cuts_added": 1047428,
+  "n": 79,
+  "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+  "seconds_limit": 40.0,
+  "seed": "backend default; no seed specified",
+  "status": "timeout",
+  "target": 158,
+  "timer_interrupt_fired": false,
+  "witness": null
+}

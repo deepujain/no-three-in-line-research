@@ -1,0 +1,19 @@
+{
+  "coverage": {
+    "end": 300000,
+    "gapless": true,
+    "start": 0
+  },
+  "cut": [
+    0,
+    77
+  ],
+  "frontier_complete": false,
+  "kind": "embedding_stream_tip",
+  "next_offset": 300000,
+  "record": {
+    "path": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/embedding-stream-cut-0-77-start-280000-end-300000-5b597794.json",
+    "sha256": "fbd480b6d4d4ab034a0a44e7bd4833f3664f76e75f667f1b1726b7db1937c098"
+  },
+  "total_deletion_sets": 596904
+}

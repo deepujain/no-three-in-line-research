@@ -1,0 +1,41 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/rectangle_barrier.py",
+    "--resume",
+    "data/trades-barrier13-pilot.json",
+    "--threshold",
+    "13",
+    "--max-states",
+    "1500",
+    "--output",
+    "data/trades-barrier13-long.json",
+    "--seconds",
+    "900"
+  ],
+  "elapsed_seconds": 30.777599375003774,
+  "entrypoint_sha256": "81a7cda9dae241bec65c9c9d50bfea2f3feb53b014628ba1f5f1fc85236aa46f",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T23:57:00.656222+00:00",
+  "job": {
+    "args": [
+      "--resume",
+      "data/trades-barrier13-pilot.json",
+      "--threshold",
+      "13",
+      "--max-states",
+      "1500",
+      "--output",
+      "data/trades-barrier13-long.json"
+    ],
+    "hypothesis": "Continue the exact score<=13 rectangle component from its saved frontier after complete threshold12 barrier; never equate a score state with a valid certificate.",
+    "id": "r4-rectangle-barrier13",
+    "script": "research/rectangle_barrier.py",
+    "seconds": 900
+  },
+  "log": "data/run-logs/r4-rectangle-barrier13.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 42697,
+  "started_at": "2026-11-26T23:56:29.878740+00:00",
+  "status": "completed"
+}

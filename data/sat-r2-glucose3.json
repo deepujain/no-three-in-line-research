@@ -1,0 +1,21 @@
+{
+  "backend": "glucose3",
+  "checkpoint": "data/checkpoints/glucose3.jsonl",
+  "checkpoint_cuts_loaded": 0,
+  "elapsed_seconds": 58.14767,
+  "full_line_constraints_initially": false,
+  "initial_row_column_clauses": 97328,
+  "initial_total_clauses": 97328,
+  "iterations": 3433,
+  "lazy_cuts_added": 1500000,
+  "max_new_cuts": 1500000,
+  "n": 79,
+  "note": "Timeout is incomplete. UNSAT is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+  "progress": "data/run-logs/glucose3-progress.jsonl",
+  "seconds_limit": 300.0,
+  "seed": "backend default; no seed specified",
+  "status": "cut_limit",
+  "target": 158,
+  "timer_interrupt_fired": false,
+  "witness": null
+}

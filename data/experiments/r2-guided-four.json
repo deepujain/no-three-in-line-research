@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/guided_repair.py",
+    "--max-deletions",
+    "4",
+    "--output",
+    "data/guided-four-audit.json",
+    "--seconds",
+    "300"
+  ],
+  "elapsed_seconds": 18.116274959000293,
+  "entrypoint_sha256": "b600019246b2490a565094b7a28eabe402e69ae72748e23dcd881d22c5cd245c",
+  "exit_code": 0,
+  "finished_at": "2026-11-26T23:45:55.790392+00:00",
+  "job": {
+    "args": [
+      "--max-deletions",
+      "4",
+      "--output",
+      "data/guided-four-audit.json"
+    ],
+    "hypothesis": "Exhaust the next surviving corner-seed deletion neighborhood after independently proved <=3 exclusion. Preserve incomplete status on timeout.",
+    "id": "r2-guided-four",
+    "script": "research/guided_repair.py",
+    "seconds": 300
+  },
+  "log": "data/run-logs/r2-guided-four.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 29851,
+  "started_at": "2026-11-26T23:45:37.674389+00:00",
+  "status": "completed"
+}

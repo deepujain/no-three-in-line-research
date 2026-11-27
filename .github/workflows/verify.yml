@@ -17,3 +17,12 @@ jobs:
       - run: python3 research/blocker_audit.py
       - run: python3 research/guided_repair.py --seconds 60
       - run: python3 src/build_site.py
+  optional-sat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install -r requirements-research.txt
+      - run: python3 -m unittest discover -s tests -p test_lazy_sat.py -v

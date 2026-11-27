@@ -1,0 +1,716 @@
+{
+  "method": "analytic primitive-direction counts; no lines materialized",
+  "counts": [
+    {
+      "n": 1,
+      "variables": 1,
+      "maximal_lines_length_at_least_3": 0,
+      "line_variable_incidences": 0,
+      "primitive_directions": 0,
+      "target_2n": null,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 2,
+      "variables": 4,
+      "maximal_lines_length_at_least_3": 0,
+      "line_variable_incidences": 0,
+      "primitive_directions": 0,
+      "target_2n": 4,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 3,
+      "variables": 9,
+      "maximal_lines_length_at_least_3": 8,
+      "line_variable_incidences": 24,
+      "primitive_directions": 4,
+      "target_2n": 6,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 4,
+      "variables": 16,
+      "maximal_lines_length_at_least_3": 14,
+      "line_variable_incidences": 52,
+      "primitive_directions": 4,
+      "target_2n": 8,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 5,
+      "variables": 25,
+      "maximal_lines_length_at_least_3": 32,
+      "line_variable_incidences": 124,
+      "primitive_directions": 8,
+      "target_2n": 10,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 6,
+      "variables": 36,
+      "maximal_lines_length_at_least_3": 58,
+      "line_variable_incidences": 228,
+      "primitive_directions": 8,
+      "target_2n": 12,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 7,
+      "variables": 49,
+      "maximal_lines_length_at_least_3": 108,
+      "line_variable_incidences": 428,
+      "primitive_directions": 16,
+      "target_2n": 14,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 8,
+      "variables": 64,
+      "maximal_lines_length_at_least_3": 174,
+      "line_variable_incidences": 692,
+      "primitive_directions": 16,
+      "target_2n": 16,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 9,
+      "variables": 81,
+      "maximal_lines_length_at_least_3": 296,
+      "line_variable_incidences": 1140,
+      "primitive_directions": 24,
+      "target_2n": 18,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 10,
+      "variables": 100,
+      "maximal_lines_length_at_least_3": 406,
+      "line_variable_incidences": 1612,
+      "primitive_directions": 24,
+      "target_2n": 20,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 11,
+      "variables": 121,
+      "maximal_lines_length_at_least_3": 628,
+      "line_variable_incidences": 2452,
+      "primitive_directions": 40,
+      "target_2n": 22,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 12,
+      "variables": 144,
+      "maximal_lines_length_at_least_3": 898,
+      "line_variable_incidences": 3468,
+      "primitive_directions": 40,
+      "target_2n": 24,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 13,
+      "variables": 169,
+      "maximal_lines_length_at_least_3": 1216,
+      "line_variable_incidences": 4716,
+      "primitive_directions": 48,
+      "target_2n": 26,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 14,
+      "variables": 196,
+      "maximal_lines_length_at_least_3": 1582,
+      "line_variable_incidences": 6156,
+      "primitive_directions": 48,
+      "target_2n": 28,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 15,
+      "variables": 225,
+      "maximal_lines_length_at_least_3": 2188,
+      "line_variable_incidences": 8364,
+      "primitive_directions": 72,
+      "target_2n": 30,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 16,
+      "variables": 256,
+      "maximal_lines_length_at_least_3": 2754,
+      "line_variable_incidences": 10636,
+      "primitive_directions": 72,
+      "target_2n": 32,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 17,
+      "variables": 289,
+      "maximal_lines_length_at_least_3": 3528,
+      "line_variable_incidences": 13612,
+      "primitive_directions": 88,
+      "target_2n": 34,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 18,
+      "variables": 324,
+      "maximal_lines_length_at_least_3": 4398,
+      "line_variable_incidences": 16956,
+      "primitive_directions": 88,
+      "target_2n": 36,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 19,
+      "variables": 361,
+      "maximal_lines_length_at_least_3": 5524,
+      "line_variable_incidences": 21228,
+      "primitive_directions": 112,
+      "target_2n": 38,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 20,
+      "variables": 400,
+      "maximal_lines_length_at_least_3": 6778,
+      "line_variable_incidences": 25980,
+      "primitive_directions": 112,
+      "target_2n": 40,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 21,
+      "variables": 441,
+      "maximal_lines_length_at_least_3": 8336,
+      "line_variable_incidences": 31740,
+      "primitive_directions": 128,
+      "target_2n": 42,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 22,
+      "variables": 484,
+      "maximal_lines_length_at_least_3": 9778,
+      "line_variable_incidences": 37524,
+      "primitive_directions": 128,
+      "target_2n": 44,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 23,
+      "variables": 529,
+      "maximal_lines_length_at_least_3": 11812,
+      "line_variable_incidences": 45228,
+      "primitive_directions": 168,
+      "target_2n": 46,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 24,
+      "variables": 576,
+      "maximal_lines_length_at_least_3": 14038,
+      "line_variable_incidences": 53652,
+      "primitive_directions": 168,
+      "target_2n": 48,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 25,
+      "variables": 625,
+      "maximal_lines_length_at_least_3": 16456,
+      "line_variable_incidences": 63004,
+      "primitive_directions": 184,
+      "target_2n": 50,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 26,
+      "variables": 676,
+      "maximal_lines_length_at_least_3": 19066,
+      "line_variable_incidences": 73108,
+      "primitive_directions": 184,
+      "target_2n": 52,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 27,
+      "variables": 729,
+      "maximal_lines_length_at_least_3": 22540,
+      "line_variable_incidences": 85980,
+      "primitive_directions": 232,
+      "target_2n": 54,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 28,
+      "variables": 784,
+      "maximal_lines_length_at_least_3": 25954,
+      "line_variable_incidences": 99196,
+      "primitive_directions": 232,
+      "target_2n": 56,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 29,
+      "variables": 841,
+      "maximal_lines_length_at_least_3": 29968,
+      "line_variable_incidences": 114436,
+      "primitive_directions": 256,
+      "target_2n": 58,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 30,
+      "variables": 900,
+      "maximal_lines_length_at_least_3": 34270,
+      "line_variable_incidences": 130764,
+      "primitive_directions": 256,
+      "target_2n": 60,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 31,
+      "variables": 961,
+      "maximal_lines_length_at_least_3": 39116,
+      "line_variable_incidences": 149204,
+      "primitive_directions": 288,
+      "target_2n": 62,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 32,
+      "variables": 1024,
+      "maximal_lines_length_at_least_3": 44282,
+      "line_variable_incidences": 168860,
+      "primitive_directions": 288,
+      "target_2n": 64,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 33,
+      "variables": 1089,
+      "maximal_lines_length_at_least_3": 50312,
+      "line_variable_incidences": 191364,
+      "primitive_directions": 320,
+      "target_2n": 66,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 34,
+      "variables": 1156,
+      "maximal_lines_length_at_least_3": 56026,
+      "line_variable_incidences": 213876,
+      "primitive_directions": 320,
+      "target_2n": 68,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 35,
+      "variables": 1225,
+      "maximal_lines_length_at_least_3": 63196,
+      "line_variable_incidences": 241092,
+      "primitive_directions": 384,
+      "target_2n": 70,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 36,
+      "variables": 1296,
+      "maximal_lines_length_at_least_3": 70798,
+      "line_variable_incidences": 269940,
+      "primitive_directions": 384,
+      "target_2n": 72,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 37,
+      "variables": 1369,
+      "maximal_lines_length_at_least_3": 78984,
+      "line_variable_incidences": 301180,
+      "primitive_directions": 408,
+      "target_2n": 74,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 38,
+      "variables": 1444,
+      "maximal_lines_length_at_least_3": 87618,
+      "line_variable_incidences": 334132,
+      "primitive_directions": 408,
+      "target_2n": 76,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 39,
+      "variables": 1521,
+      "maximal_lines_length_at_least_3": 98140,
+      "line_variable_incidences": 373116,
+      "primitive_directions": 480,
+      "target_2n": 78,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 40,
+      "variables": 1600,
+      "maximal_lines_length_at_least_3": 108270,
+      "line_variable_incidences": 412276,
+      "primitive_directions": 480,
+      "target_2n": 80,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 41,
+      "variables": 1681,
+      "maximal_lines_length_at_least_3": 119568,
+      "line_variable_incidences": 455404,
+      "primitive_directions": 512,
+      "target_2n": 82,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 42,
+      "variables": 1764,
+      "maximal_lines_length_at_least_3": 131426,
+      "line_variable_incidences": 500676,
+      "primitive_directions": 512,
+      "target_2n": 84,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 43,
+      "variables": 1849,
+      "maximal_lines_length_at_least_3": 144372,
+      "line_variable_incidences": 550204,
+      "primitive_directions": 560,
+      "target_2n": 86,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 44,
+      "variables": 1936,
+      "maximal_lines_length_at_least_3": 157926,
+      "line_variable_incidences": 602068,
+      "primitive_directions": 560,
+      "target_2n": 88,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 45,
+      "variables": 2025,
+      "maximal_lines_length_at_least_3": 173008,
+      "line_variable_incidences": 659028,
+      "primitive_directions": 600,
+      "target_2n": 90,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 46,
+      "variables": 2116,
+      "maximal_lines_length_at_least_3": 188026,
+      "line_variable_incidences": 717060,
+      "primitive_directions": 600,
+      "target_2n": 92,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 47,
+      "variables": 2209,
+      "maximal_lines_length_at_least_3": 205780,
+      "line_variable_incidences": 783876,
+      "primitive_directions": 688,
+      "target_2n": 94,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 48,
+      "variables": 2304,
+      "maximal_lines_length_at_least_3": 224334,
+      "line_variable_incidences": 853668,
+      "primitive_directions": 688,
+      "target_2n": 96,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 49,
+      "variables": 2401,
+      "maximal_lines_length_at_least_3": 243688,
+      "line_variable_incidences": 927236,
+      "primitive_directions": 720,
+      "target_2n": 98,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 50,
+      "variables": 2500,
+      "maximal_lines_length_at_least_3": 263842,
+      "line_variable_incidences": 1003844,
+      "primitive_directions": 720,
+      "target_2n": 100,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 51,
+      "variables": 2601,
+      "maximal_lines_length_at_least_3": 286876,
+      "line_variable_incidences": 1089732,
+      "primitive_directions": 800,
+      "target_2n": 102,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 52,
+      "variables": 2704,
+      "maximal_lines_length_at_least_3": 309174,
+      "line_variable_incidences": 1175748,
+      "primitive_directions": 800,
+      "target_2n": 104,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 53,
+      "variables": 2809,
+      "maximal_lines_length_at_least_3": 333600,
+      "line_variable_incidences": 1268916,
+      "primitive_directions": 848,
+      "target_2n": 106,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 54,
+      "variables": 2916,
+      "maximal_lines_length_at_least_3": 358954,
+      "line_variable_incidences": 1365636,
+      "primitive_directions": 848,
+      "target_2n": 108,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 55,
+      "variables": 3025,
+      "maximal_lines_length_at_least_3": 386580,
+      "line_variable_incidences": 1470612,
+      "primitive_directions": 920,
+      "target_2n": 110,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 56,
+      "variables": 3136,
+      "maximal_lines_length_at_least_3": 415230,
+      "line_variable_incidences": 1579476,
+      "primitive_directions": 920,
+      "target_2n": 112,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 57,
+      "variables": 3249,
+      "maximal_lines_length_at_least_3": 446296,
+      "line_variable_incidences": 1696404,
+      "primitive_directions": 968,
+      "target_2n": 114,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 58,
+      "variables": 3364,
+      "maximal_lines_length_at_least_3": 476358,
+      "line_variable_incidences": 1813260,
+      "primitive_directions": 968,
+      "target_2n": 116,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 59,
+      "variables": 3481,
+      "maximal_lines_length_at_least_3": 510756,
+      "line_variable_incidences": 1944084,
+      "primitive_directions": 1080,
+      "target_2n": 118,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 60,
+      "variables": 3600,
+      "maximal_lines_length_at_least_3": 546354,
+      "line_variable_incidences": 2079468,
+      "primitive_directions": 1080,
+      "target_2n": 120,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 61,
+      "variables": 3721,
+      "maximal_lines_length_at_least_3": 583152,
+      "line_variable_incidences": 2220404,
+      "primitive_directions": 1112,
+      "target_2n": 122,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 62,
+      "variables": 3844,
+      "maximal_lines_length_at_least_3": 621150,
+      "line_variable_incidences": 2365964,
+      "primitive_directions": 1112,
+      "target_2n": 124,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 63,
+      "variables": 3969,
+      "maximal_lines_length_at_least_3": 664188,
+      "line_variable_incidences": 2527668,
+      "primitive_directions": 1232,
+      "target_2n": 126,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 64,
+      "variables": 4096,
+      "maximal_lines_length_at_least_3": 707106,
+      "line_variable_incidences": 2691596,
+      "primitive_directions": 1232,
+      "target_2n": 128,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 65,
+      "variables": 4225,
+      "maximal_lines_length_at_least_3": 753480,
+      "line_variable_incidences": 2867012,
+      "primitive_directions": 1296,
+      "target_2n": 130,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 66,
+      "variables": 4356,
+      "maximal_lines_length_at_least_3": 801326,
+      "line_variable_incidences": 3047964,
+      "primitive_directions": 1296,
+      "target_2n": 132,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 67,
+      "variables": 4489,
+      "maximal_lines_length_at_least_3": 852004,
+      "line_variable_incidences": 3239892,
+      "primitive_directions": 1376,
+      "target_2n": 134,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 68,
+      "variables": 4624,
+      "maximal_lines_length_at_least_3": 904234,
+      "line_variable_incidences": 3437676,
+      "primitive_directions": 1376,
+      "target_2n": 136,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 69,
+      "variables": 4761,
+      "maximal_lines_length_at_least_3": 960256,
+      "line_variable_incidences": 3648036,
+      "primitive_directions": 1440,
+      "target_2n": 138,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 70,
+      "variables": 4900,
+      "maximal_lines_length_at_least_3": 1014834,
+      "line_variable_incidences": 3858388,
+      "primitive_directions": 1440,
+      "target_2n": 140,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 71,
+      "variables": 5041,
+      "maximal_lines_length_at_least_3": 1074372,
+      "line_variable_incidences": 4084996,
+      "primitive_directions": 1536,
+      "target_2n": 142,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 72,
+      "variables": 5184,
+      "maximal_lines_length_at_least_3": 1135606,
+      "line_variable_incidences": 4318068,
+      "primitive_directions": 1536,
+      "target_2n": 144,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 73,
+      "variables": 5329,
+      "maximal_lines_length_at_least_3": 1199128,
+      "line_variable_incidences": 4560564,
+      "primitive_directions": 1584,
+      "target_2n": 146,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 74,
+      "variables": 5476,
+      "maximal_lines_length_at_least_3": 1264378,
+      "line_variable_incidences": 4809684,
+      "primitive_directions": 1584,
+      "target_2n": 148,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 75,
+      "variables": 5625,
+      "maximal_lines_length_at_least_3": 1336828,
+      "line_variable_incidences": 5081844,
+      "primitive_directions": 1728,
+      "target_2n": 150,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 76,
+      "variables": 5776,
+      "maximal_lines_length_at_least_3": 1408214,
+      "line_variable_incidences": 5355332,
+      "primitive_directions": 1728,
+      "target_2n": 152,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 77,
+      "variables": 5929,
+      "maximal_lines_length_at_least_3": 1484264,
+      "line_variable_incidences": 5644412,
+      "primitive_directions": 1800,
+      "target_2n": 154,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 78,
+      "variables": 6084,
+      "maximal_lines_length_at_least_3": 1562314,
+      "line_variable_incidences": 5941092,
+      "primitive_directions": 1800,
+      "target_2n": 156,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    },
+    {
+      "n": 79,
+      "variables": 6241,
+      "maximal_lines_length_at_least_3": 1644284,
+      "line_variable_incidences": 6253052,
+      "primitive_directions": 1896,
+      "target_2n": 158,
+      "note": "Line cardinality constraints only; objective/target and optional exact row/column equalities are separate."
+    }
+  ]
+}

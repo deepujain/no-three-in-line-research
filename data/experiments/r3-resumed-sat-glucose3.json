@@ -1,0 +1,45 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--n",
+    "79",
+    "--backend",
+    "glucose3",
+    "--checkpoint",
+    "data/checkpoints/glucose3.jsonl",
+    "--progress",
+    "data/run-logs/glucose3-r3-progress.jsonl",
+    "--output",
+    "data/sat-r3-glucose3.json",
+    "--seconds",
+    "900"
+  ],
+  "elapsed_seconds": 304.0075761660046,
+  "entrypoint_sha256": "64d9a966a9c92ed0fcf654ff7da47a85132a1856754c434c66bab3b0ecd0c6d7",
+  "exit_code": -2,
+  "finished_at": "2026-11-26T23:54:25.036261+00:00",
+  "job": {
+    "args": [
+      "--n",
+      "79",
+      "--backend",
+      "glucose3",
+      "--checkpoint",
+      "data/checkpoints/glucose3.jsonl",
+      "--progress",
+      "data/run-logs/glucose3-r3-progress.jsonl",
+      "--output",
+      "data/sat-r3-glucose3.json"
+    ],
+    "hypothesis": "Continue from 1.5 million independently valid learned geometry cuts; preserve cuts and monitor bounded memory rather than restart the short benchmark.",
+    "id": "r3-resumed-sat-glucose3",
+    "script": "src/lazy_sat.py",
+    "seconds": 900
+  },
+  "log": "data/run-logs/r3-resumed-sat-glucose3.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 33872,
+  "started_at": "2026-11-26T23:49:20.993340+00:00",
+  "status": "failed"
+}

@@ -1,0 +1,46 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--n",
+    "79",
+    "--target",
+    "157",
+    "--backend",
+    "minisat22",
+    "--checkpoint",
+    "data/checkpoints/minisat22.jsonl",
+    "--progress",
+    "data/run-logs/sat157-progress.jsonl",
+    "--output",
+    "data/sat-r4-target157.json",
+    "--seconds",
+    "900"
+  ],
+  "elapsed_seconds": 930,
+  "entrypoint_sha256": "467b3d9b3b76ef5bf381723050fe117d6c70705da318b49cfcf73e960f40eab1",
+  "job": {
+    "args": [
+      "--n",
+      "79",
+      "--target",
+      "157",
+      "--backend",
+      "minisat22",
+      "--checkpoint",
+      "data/checkpoints/minisat22.jsonl",
+      "--progress",
+      "data/run-logs/sat157-progress.jsonl",
+      "--output",
+      "data/sat-r4-target157.json"
+    ],
+    "hypothesis": "Search the easier 157-point improvement using independently reviewed row/column deficit encoding, reusing the validated geometric cut checkpoint from the earlier158 search.",
+    "id": "r4-sat-157-minisat22",
+    "script": "src/lazy_sat.py",
+    "seconds": 900
+  },
+  "note": "Conservative time reservation until completion receipt replaces it.",
+  "pid": 45496,
+  "started_at": "2026-11-26T23:58:40.711492+00:00",
+  "status": "running_reserved"
+}
