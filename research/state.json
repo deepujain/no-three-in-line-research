@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16539.519167969098,
+  "scheduled_search_wall_seconds_used": 16541.13744280309,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Finish independent range7..8actual audit; source/tiny-review newdepth16/15cap320proposal before one30s gate. Keep separate conflict-explanation exploration design.",
+  "next_action": "Source/tiny and independent review for fresh14..10cap480batch and singleQ=depth17minus39probe before separate ownedgates; publish checkpoint-free18/17reproduction.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Independent audits accept D6, range7..8, main19 and fresh18/17 scoped nativeUNSAT; depth16 unresolved at capacitycutoff. Best156. New16/15capacity320source/tiny in preparation.",
+  "current_round": "Cap320actual independently accepted: depths16/15 complete pair-relaxations nativeUNSAT; no validconstruction. Preparing bounded14..10batch and independentQexploration.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,10 +40,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Freshdepth16/15cap320source/tiny review",
-    "Conflict explanation exploration design"
+    "14..10cap480math/source/tiny review",
+    "SingleQpair-onlymath/source/tiny review"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "c84c7f5 CI/Pages successful. Latest ancestor/range sources and actuals independently reviewed; focused tiny tests and5viewports pass. NewpublicationCIpending."
+  "validation_status": "36eccc6 CI/Pages both succeeded. Cap32027combinedtinytests independently pass; Root6newtests pass0.091s. Cap320actual independently audited. Public18/17reproduction17combinedtinytests independently pass; Root4newtests pass0.004s."
 }

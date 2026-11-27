@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "fresh18/17 scoped native UNSAT;16 unresolved",
+    "status": "main prefixes19..15 scoped native UNSAT",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Independent audit reproduces all25470pairs and6004cuts at freshdepth18/17; nativeUNSAT beforemodels. Depth16complete224mask exceeds200cap; no pairscan or verdict. Distinct16/15cap320design math-approved; source/tinyreview pending.",
-    "evidence": "research/main-ancestors18-17-16-pair-sat-v1-actual-review.md"
+    "finding": "Fresh16/15cap320 independently audited57616pairs/11331cuts, both nativeUNSAT0models in1.618s. No checked proof or globalbound. Preparing14..10boundedbatch; separate nonancestorQexploration.",
+    "evidence": "research/main-ancestors16-15-cap320-pair-sat-v1-actual-review.md"
   },
   {
     "id": "A09",

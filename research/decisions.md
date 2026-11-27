@@ -583,3 +583,12 @@ Distinct target157intrinsic7..8deletion source passed19combinedtests/independent
 ## 2026-11-27T08:55:07.199103+00:00 — Retention7..8 actual independently accepted
 
 Reviewer independently determinant-checks all7380distinctcuts+11source triples and reconstructs full58108variable/103583clause initial formula (246087literals), final110963clauses/268227literals. Last invalid157model has150retained/8deleted/7new and37triples, not best-of-run. All35pins and clean gate match. No native solver replay or UNSAT proof/all177models replay. Accept only conditional fixedsource range7..8UNSAT; unchanged repeat curtailed. No positive certificate or novelty. Separate fresh16/15cap320source underway; no actual before independent review.
+
+
+## 2026-11-27T09:03:28.758589+00:00 — Two earlier prefixes complete; separate nonancestor exploration
+
+Reviewed cap320adapter passed27combinedtinytests; Root6newtestsPASS0.091s. One25soft/30owned256MiB actual completed1.618275s clean68976KiB peak/all49pinsunchanged. Depth16:224mask,24976pairs/5185cuts; depth15:256mask,32640pairs/6146cuts. BothnativeUNSATbeforemodels/ternarycuts. Independent audit reproduces both masks/all57616pair decisions/exactdegreeformulae/heads. NativeUNSAT remains conditional with no checkedproof. No originalfrontierwrites.
+
+Observed cheap pair probes motivate a single fresh14..10batch atcap480,max5stages/shared25/30/256 rather than repeatedly writing two-stageadapters; design/source/tinyreviewbeforeactual. Separate explorationQ=depth17minus39 uses66retained points but a different orbit subset fromdepth16; necessaryfreshmask/pair/formula, no importedcuts or learnedpruneintegration. IndependentmathreviewbeforeQsource.
+
+Checkpoint-free public18/17reproduction source/docs independently approved17combinedtinytests; Root4newtestsPASS0.004s. No n79replay performed; recipe explicit conditional native result. 36eccc6CI/Pages bothSUCCESS. Accounted16541.13744280309s; originaldeadline unchanged/best156.
