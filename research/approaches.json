@@ -39,10 +39,10 @@
     "id": "A05",
     "name": "Row and column swaps",
     "role": "Research Software Engineer",
-    "status": "paused frontier",
-    "scope": "Search pairs of permutations with exact slope constraints",
-    "finding": "Threshold 14 reached 208 saved states with 14 pending, best score 11; RAM guard stopped continuation; incomplete",
-    "evidence": "research/memory-stop.md"
+    "status": "Eight selected16cycle patches excluded",
+    "scope": "Conflict-directed16edge matching replacements in fixed157state",
+    "finding": "Independent exact kernel/selection/domain/matching audit excludes first8greedypaddedpatches. Matching sizes0/0/1/1/1/2/0/0 below16; noDFS/no156/157. Otherpatches/longmoves remainopen; oldthreshold14frontier frozen.",
+    "evidence": "research/conflict-directed-sixteen-cycle-rebuild157-v1-actual-review.md"
   },
   {
     "id": "A06",

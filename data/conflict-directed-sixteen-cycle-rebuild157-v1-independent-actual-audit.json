@@ -1,0 +1,990 @@
+{
+  "accepted": true,
+  "accepted_chain_heads_unchanged": [
+    {
+      "path": "data/packed-readonly-n79-r1.chain/accepted.json",
+      "sha256": "cd3977d726cbd374ca0fa75c5526eb62db0eb096983f7c8c505d3ead779cfa24"
+    },
+    {
+      "path": "data/packed-readonly-n79-middle-d1541.chain/accepted.json",
+      "sha256": "cce89fcc680e137202ec9f8cd6f5f39f2753a03a8742c47ac209a6b118950a8e"
+    }
+  ],
+  "alternate_padding_constructed": false,
+  "audit_elapsed_seconds": 2.583291332994122,
+  "candidate_geometry_scored": false,
+  "decision": "All eight declared deterministic patches independently excluded by complete exact root domains and matching/cover certificates. No conclusion for other padding or general16cycles; no unchanged continuation.",
+  "diagnostic156": null,
+  "direct_freed_cell_pair_determinant_checks": 20213760,
+  "domain_edge_counts": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0
+  ],
+  "full_mask_integer_determinant_x_slices": 6198498,
+  "guard": {
+    "cleanup_status": "clean",
+    "outer_seconds": 0.5631643750093644,
+    "peak_sampled_rss_kib": 48496,
+    "returncode": 0,
+    "status": "exited"
+  },
+  "historical_manifest_pins_verified": 15,
+  "independent_distinct_kernels": 81,
+  "independent_kernel_leaves": 81,
+  "independent_kernel_nodes": 127,
+  "initial_conflicts": [
+    [
+      [
+        12,
+        75
+      ],
+      [
+        26,
+        77
+      ],
+      [
+        33,
+        78
+      ]
+    ],
+    [
+      [
+        33,
+        78
+      ],
+      [
+        34,
+        73
+      ],
+      [
+        48,
+        3
+      ]
+    ],
+    [
+      [
+        33,
+        78
+      ],
+      [
+        39,
+        74
+      ],
+      [
+        42,
+        72
+      ]
+    ],
+    [
+      [
+        33,
+        78
+      ],
+      [
+        40,
+        50
+      ],
+      [
+        50,
+        10
+      ]
+    ],
+    [
+      [
+        42,
+        24
+      ],
+      [
+        57,
+        14
+      ],
+      [
+        78,
+        0
+      ]
+    ]
+  ],
+  "insertions": 0,
+  "kernels_canonical_sha256": "37622531d431392a4bf6181067fb1764a89f5eae142b0543944c5a84d012cb06",
+  "manifest_source_pins": 21,
+  "matching_sizes": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0
+  ],
+  "padding_checks": 1439,
+  "patches": [
+    {
+      "cover_size": 0,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "domain_edges": 0,
+      "fixed_patch_excluded": true,
+      "index": 0,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "matching_size": 0,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_pair_cell_visits": 65467,
+      "root_unsafe_cells": 6227
+    },
+    {
+      "cover_size": 0,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          57,
+          14
+        ]
+      ],
+      "domain_edges": 0,
+      "fixed_patch_excluded": true,
+      "index": 1,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "matching_size": 0,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_pair_cell_visits": 65496,
+      "root_unsafe_cells": 6227
+    },
+    {
+      "cover_size": 1,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "domain_edges": 1,
+      "fixed_patch_excluded": true,
+      "index": 2,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          14
+        ],
+        "matching": [
+          [
+            14,
+            15
+          ]
+        ],
+        "matching_size": 1
+      },
+      "matching_size": 1,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          15
+        ],
+        []
+      ],
+      "root_pair_cell_visits": 65801,
+      "root_unsafe_cells": 6226
+    },
+    {
+      "cover_size": 1,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "domain_edges": 1,
+      "fixed_patch_excluded": true,
+      "index": 3,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          0
+        ],
+        "matching": [
+          [
+            0,
+            13
+          ]
+        ],
+        "matching_size": 1
+      },
+      "matching_size": 1,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [
+          13
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_pair_cell_visits": 65537,
+      "root_unsafe_cells": 6226
+    },
+    {
+      "cover_size": 1,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          57,
+          14
+        ]
+      ],
+      "domain_edges": 1,
+      "fixed_patch_excluded": true,
+      "index": 4,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          0
+        ],
+        "matching": [
+          [
+            0,
+            13
+          ]
+        ],
+        "matching_size": 1
+      },
+      "matching_size": 1,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [
+          13
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_pair_cell_visits": 65563,
+      "root_unsafe_cells": 6226
+    },
+    {
+      "cover_size": 2,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "domain_edges": 2,
+      "fixed_patch_excluded": true,
+      "index": 5,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          0,
+          14
+        ],
+        "matching": [
+          [
+            0,
+            13
+          ],
+          [
+            14,
+            15
+          ]
+        ],
+        "matching_size": 2
+      },
+      "matching_size": 2,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [
+          13
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          15
+        ],
+        []
+      ],
+      "root_pair_cell_visits": 65870,
+      "root_unsafe_cells": 6225
+    },
+    {
+      "cover_size": 0,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          26,
+          77
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "domain_edges": 0,
+      "fixed_patch_excluded": true,
+      "index": 6,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "matching_size": 0,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_pair_cell_visits": 65577,
+      "root_unsafe_cells": 6227
+    },
+    {
+      "cover_size": 0,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          26,
+          77
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          57,
+          14
+        ]
+      ],
+      "domain_edges": 0,
+      "fixed_patch_excluded": true,
+      "index": 7,
+      "matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "matching_size": 0,
+      "retained_points": 141,
+      "retained_valid_by_complete_conflict_cover": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_pair_cell_visits": 65607,
+      "root_unsafe_cells": 6227
+    }
+  ],
+  "receipt_sha256": "9d77b220eb5f29b824ccefa91f91189bac037d565342a9e4ddd7725a1e0b6702",
+  "receipt_source_pins": 22,
+  "report_pins": 6,
+  "report_sha256": "4c4cbfe3ee78fd030bd91ad3c3ccb542554e5c8fe2b14a54e078e9864ad346d3",
+  "script_sha256": "4a0334bd144ab556ef99187645ad881001efb5fd67d13ef5b26e453059e9b68c",
+  "search_replayed": false,
+  "selected_families_complete": true,
+  "total_root_pair_cell_visits": 524918,
+  "unrestricted_closure": false,
+  "witness157": null
+}

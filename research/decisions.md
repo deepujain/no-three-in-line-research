@@ -702,3 +702,10 @@ Resource reconciliation: permanentreceipts+600reserve=16711.75493855206seconds; 
 Finalsource714c3897 independentlygeometryPASS5017d232/lifecyclePASS2b245e10, final21filemanifest9806387d. Root29tinytestsPASS0.070s. One25soft/30owned256/1000globalstarts gate finished0.563164375s clean48496KiB/allpinsunchanged. Source reports81matchingcoverkernels/127nodes; first8greedypads allrootmatchingobstructions withsizes[0,0,1,1,1,2,0,0],0DFSinsertions/no156/157. Complete onlyselectedfamilies. Independent actualkernel/domain/certificateaudit underway beforenegativepromotion. No alternatepadding/width/retryallocation.
 
 Observed near-emptyrootgraphs motivate DESIGNONLY geometricblockerguided deletionselection withcapacitygate, notanotherlexpad. Separate exploration changedtargeted/tabu/lateacceptance direct157search assessed against olduniformT2andtradecode beforeanysource/allocation. Mathactualaudit/Engineerselectiondesign/Literaturechangedheuristicdesign; noownednumericalprocess. Accounted16712.31810292707seconds/21600; originaldeadlineunchanged. 1e1ddd9CI/PagesbothSUCCESS; 0fd91baretrySUCCESS.
+
+
+## 2026-11-27T10:42:03.714061+00:00 — Eight selected cycle families independently closed
+
+Audit69ae8faf/review6542e281 independently regenerates127covernodes/81kernels/first8greedypatches/1439paddingchecks, allfullrootmasks and20213760direct freed-cellpairdeterminants. Exactdomains+equalcovers give sizes[0,0,1,1,1,2,0,0]<16, excludingonlythese8families. Allpins/heads/clean0.563164375s48496KiBgateaccepted; noDFS/witness ornewbound. Noautomaticalternatepadding.
+
+Newdirect157focusedtabudesign8dbd804e:32conflictpoint-anchoredsamples/step, bestadmissibleevenuphill, tabu64, seed279179, max2000steps, one25/30/256gateafterreviews. Existing158focus/tabualreadyknown; distinct157selectionpolicy only, noalgorithmnoveltyclaim. Mathdesignreview thenLiteraturesource/tinyonly, noactual. Engineerindependentgeometricblockerselectiondesignremainsactive. Budget16712.31810292707/21600 unchanged;3fa2cc3CI/PagesSUCCESS, noownednumericalprocess.
