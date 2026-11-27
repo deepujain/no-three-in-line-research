@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Old one-orbit frontiers retained at 367,000/21,000 nodes. Independently audited unique full-row traversal reached 135,600 main/4,100 exploration nodes, no witness or exhausted slice; bounded continuations allocated.",
-    "evidence": "research/diagonal-rowbatch-r39-main-review.md"
+    "finding": "Old one-orbit frontiers retained at 367,000/21,000 nodes. Independently audited unique full-row traversal reached 255,600 main and 7,100 exploration nodes, without a witness or exhausted slice. Separate residual-graph necessary bounds passed proof review; tiny implementation remains gated.",
+    "evidence": "research/diagonal-rowbatch-r40-main-review.md"
   },
   {
     "id": "A09",
