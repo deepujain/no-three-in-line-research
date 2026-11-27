@@ -1,0 +1,207 @@
+{
+  "evidence": [
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68674
+        ],
+        "seconds": 0.00939216600090731
+      },
+      "elapsed_seconds": 0.07707600000139792,
+      "fixture": "identity",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"pid\": 68674, \"pgid\": 68669, \"sid\": 68669}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68685
+        ],
+        "seconds": 0.02563479100354016
+      },
+      "elapsed_seconds": 0.1326232080027694,
+      "fixture": "stdout",
+      "reason": "stdout_cap",
+      "returncode": -15,
+      "stderr": "",
+      "stdout_bytes": 65536,
+      "stdout_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68707
+        ],
+        "seconds": 0.029253833999973722
+      },
+      "elapsed_seconds": 0.14072029100498185,
+      "fixture": "stderr",
+      "reason": "stderr_cap",
+      "returncode": -15,
+      "stderr_bytes": 65536,
+      "stderr_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3",
+      "stdout": ""
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68728
+        ],
+        "seconds": 0.11790245800511912
+      },
+      "elapsed_seconds": 0.37053045799257234,
+      "fixture": "sleep",
+      "reason": "timeout",
+      "returncode": -9,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68762,
+          68767
+        ],
+        "seconds": 0.03420195799844805
+      },
+      "elapsed_seconds": 0.28827625000849366,
+      "fixture": "fork",
+      "reason": "timeout",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"child\": 68767}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68788
+        ],
+        "seconds": 0.012450249996618368
+      },
+      "elapsed_seconds": 0.07062066700018477,
+      "fixture": "cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": -1, \"partial\": null, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68799
+        ],
+        "seconds": 0.011601582998991944
+      },
+      "elapsed_seconds": 0.06065149999631103,
+      "fixture": "fork_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": 0, \"partial\": null, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68810
+        ],
+        "seconds": 0.0091433329944266
+      },
+      "elapsed_seconds": 0.05710791599994991,
+      "fixture": "exact_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": null, \"partial\": null, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68819
+        ],
+        "seconds": 0.010146792003070004
+      },
+      "elapsed_seconds": 0.05699970800196752,
+      "fixture": "partial_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": -1, \"partial\": 16, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68827
+        ],
+        "seconds": 0.01089874999888707
+      },
+      "elapsed_seconds": 0.07976591700571589,
+      "fixture": "sat",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"answer\": \"SAT\", \"cnf_sha256\": \"c723087c6c5f7c739aa6f938795f888f96ddff55f6ff620953f14fb726660296\", \"model\": \"1 2\", \"pgid\": 68669, \"pid\": 68827, \"sid\": 68669}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68837
+        ],
+        "seconds": 0.01079087499238085
+      },
+      "elapsed_seconds": 0.08732470900577027,
+      "fixture": "unsat",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"answer\": \"UNSAT\", \"cnf_sha256\": \"a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719\", \"pgid\": 68669, \"pid\": 68837, \"proof_bytes\": 17, \"proof_sha256\": \"463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba\", \"sid\": 68669}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          68848
+        ],
+        "seconds": 0.010792000000947155
+      },
+      "elapsed_seconds": 0.05899229200440459,
+      "fixture": "checker",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"accepted\": true, \"cnf_sha256\": \"a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719\", \"format\": \"ASCII RUP with exact deletions\", \"literal_work\": 207, \"proof_sha256\": \"463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba\", \"records\": 4}\n"
+    },
+    {
+      "cnf_sha256": "a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719",
+      "fixture": "proof_binding",
+      "proof": "2 3 0\n3 0\n-1 0\n0\n",
+      "proof_sha256": "463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba"
+    }
+  ],
+  "passed": true,
+  "tests": 14
+}

@@ -1,0 +1,191 @@
+{
+  "evidence": [
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          64927
+        ],
+        "seconds": 0.008933499993872829
+      },
+      "elapsed_seconds": 0.09834537500864826,
+      "fixture": "identity",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"pid\": 64927, \"pgid\": 64918, \"sid\": 64918}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          64939
+        ],
+        "seconds": 0.03141383400361519
+      },
+      "elapsed_seconds": 0.13790345800225623,
+      "fixture": "stdout",
+      "reason": "stdout_cap",
+      "returncode": -15,
+      "stderr": "",
+      "stdout_bytes": 65536,
+      "stdout_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          64963
+        ],
+        "seconds": 0.027105874993139878
+      },
+      "elapsed_seconds": 0.13763187499716878,
+      "fixture": "stderr",
+      "reason": "stderr_cap",
+      "returncode": -15,
+      "stderr_bytes": 65536,
+      "stderr_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3",
+      "stdout": ""
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          64984
+        ],
+        "seconds": 0.12873770800069906
+      },
+      "elapsed_seconds": 0.38251799999852665,
+      "fixture": "sleep",
+      "reason": "timeout",
+      "returncode": -9,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65021,
+          65024
+        ],
+        "seconds": 0.02616087500064168
+      },
+      "elapsed_seconds": 0.2794247090059798,
+      "fixture": "fork",
+      "reason": "timeout",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"child\": 65024}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65043
+        ],
+        "seconds": 0.011840624996693805
+      },
+      "elapsed_seconds": 0.07260191699606366,
+      "fixture": "cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": -1, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65055
+        ],
+        "seconds": 0.012376999991829507
+      },
+      "elapsed_seconds": 0.06739399999787565,
+      "fixture": "fork_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": 0, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65066
+        ],
+        "seconds": 0.01071070799662266
+      },
+      "elapsed_seconds": 0.06003166700247675,
+      "fixture": "exact_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": null, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65077
+        ],
+        "seconds": 0.01048974999866914
+      },
+      "elapsed_seconds": 0.15003870899090543,
+      "fixture": "sat",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"answer\": \"SAT\", \"cnf_sha256\": \"c723087c6c5f7c739aa6f938795f888f96ddff55f6ff620953f14fb726660296\", \"model\": \"1 2\", \"pgid\": 64918, \"pid\": 65077, \"sid\": 64918}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65092
+        ],
+        "seconds": 0.010740750003606081
+      },
+      "elapsed_seconds": 0.08522595799877308,
+      "fixture": "unsat",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"answer\": \"UNSAT\", \"cnf_sha256\": \"a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719\", \"pgid\": 64918, \"pid\": 65092, \"proof_bytes\": 17, \"proof_sha256\": \"463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba\", \"sid\": 64918}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          65104
+        ],
+        "seconds": 0.010553833999438211
+      },
+      "elapsed_seconds": 0.057979499993962236,
+      "fixture": "checker",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"accepted\": true, \"cnf_sha256\": \"a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719\", \"format\": \"ASCII RUP with exact deletions\", \"literal_work\": 207, \"proof_sha256\": \"463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba\", \"records\": 4}\n"
+    },
+    {
+      "cnf_sha256": "a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719",
+      "fixture": "proof_binding",
+      "proof": "2 3 0\n3 0\n-1 0\n0\n",
+      "proof_sha256": "463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba"
+    }
+  ],
+  "passed": true,
+  "tests": 11
+}

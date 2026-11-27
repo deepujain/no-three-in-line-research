@@ -1,0 +1,117 @@
+{
+  "bootstrap_unit_contradiction": {
+    "answer": false,
+    "implication": "construct empty with proof enabled before adding clauses, because installed constructor adds bootstrap clauses before enabling trace",
+    "proof": []
+  },
+  "checker_source_sha256": "fc278d8317bc4e96b23aa1e337de05c676d76ad86a58ced09a4346ebc31aabff",
+  "external_checker_executables_on_PATH": {
+    "cake_lpr": null,
+    "drat-trim": null,
+    "gratcheck": null,
+    "gratchk": null,
+    "gratgen": null,
+    "lrat-check": null,
+    "lrat-checker": null
+  },
+  "fixtures": [
+    {
+      "checker": {
+        "accepted": true,
+        "additions": 4,
+        "clause_visits": 54,
+        "deletions": 0,
+        "elapsed_seconds": 3.7708989111706614e-05
+      },
+      "cnf": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "fixture": "three_variable_cube",
+      "proof": [
+        "2 3 0",
+        "3 0",
+        "1 0",
+        "0"
+      ],
+      "variables": 3
+    },
+    {
+      "checker": {
+        "accepted": true,
+        "additions": 1,
+        "clause_visits": 2,
+        "deletions": 1,
+        "elapsed_seconds": 1.2374992365948856e-05
+      },
+      "cnf": [
+        [
+          1
+        ],
+        [
+          -1
+        ]
+      ],
+      "fixture": "unit_contradiction",
+      "proof": [
+        "0",
+        "d -1 0"
+      ],
+      "variables": 1
+    }
+  ],
+  "negative_tests_rejected": {
+    "absent_deletion": "deletion not present",
+    "cube_missing_learned_steps": "addition is not RUP",
+    "invalid_empty_for_sat": "addition is not RUP",
+    "malformed_literal": "literal domain",
+    "missing_empty": "no checked empty clause"
+  },
+  "python_sat_version": "1.8.dev24",
+  "scope": "TINY ONLY: two native UNSAT fixtures, all at most three variables/eight clauses; no n79 replay or new solver installation",
+  "synthetic_deletion_case": {
+    "accepted": true,
+    "additions": 2,
+    "clause_visits": 9,
+    "deletions": 1,
+    "elapsed_seconds": 8.70799703989178e-06
+  }
+}

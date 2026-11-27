@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "all_support_boolean_assignments": 3169,
+    "clauses_examined": 12241,
+    "complete_model_roundtrips": 488,
+    "exhaustive_threshold_formulae": 10,
+    "formulae": 113,
+    "independent_dimacs_roundtrips": 2,
+    "invalid_class_0": 14,
+    "invalid_class_1": 20,
+    "invalid_class_2": 4,
+    "invalid_class_3": 5,
+    "single_auxiliary_bit_mutations_rejected": 14532,
+    "stubbed_single_model_pipelines": 2,
+    "support_sets": 5320,
+    "threshold_full_assignments": 44356,
+    "union_identity_assignments": 17444,
+    "valid_scaffolds": 488
+  },
+  "pins": {
+    "research/boolean_scaffold_cnf.py": "0697d3367f169e4dd28e3c7a4b061c89037f418aae950d6114160783c3ba08d9",
+    "research/boolean_scaffold_cnf_independent_tiny_audit.py": "c2cf4528bfdd7cea19d43d2f7210408ed6c0ba3f3fc4916506dcea2a5a1d7281",
+    "research/boolean_scaffold_independent_tiny_oracle.py": "05b24e11bb8f64e4ec0b1fc1aa4e07182b6ef449f2a77912d1304f950ce0136f",
+    "research/fixed_pool_boolean_scaffold157.py": "86f24958bae78cab9fffe3e1d92fd66706a22b13c5c43462433bde532b18ca87",
+    "tests/test_fixed_pool_boolean_scaffold.py": "91987cb9996814b7c6d5ed9fbe710d044ac1a8d0c6034deea92fd8a459d5ce4c"
+  },
+  "scope": "Pure source/encoding and synthetic tiny boards only; no n79 reconstruction, native solver or search.",
+  "status": "PASS"
+}

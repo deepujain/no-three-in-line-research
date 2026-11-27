@@ -1,0 +1,175 @@
+{
+  "evidence": [
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59413
+        ],
+        "seconds": 0.010126000008312985
+      },
+      "elapsed_seconds": 0.12993375000951346,
+      "fixture": "identity",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"pid\": 59413, \"pgid\": 59406, \"sid\": 59406}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59426
+        ],
+        "seconds": 0.030275416997028515
+      },
+      "elapsed_seconds": 0.14118408400099725,
+      "fixture": "stdout",
+      "reason": "stdout_cap",
+      "returncode": -15,
+      "stderr": "",
+      "stdout_bytes": 65536,
+      "stdout_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59449
+        ],
+        "seconds": 0.025661542007583193
+      },
+      "elapsed_seconds": 0.1465012080007,
+      "fixture": "stderr",
+      "reason": "stderr_cap",
+      "returncode": -15,
+      "stderr_bytes": 65536,
+      "stderr_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3",
+      "stdout": ""
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59468
+        ],
+        "seconds": 0.12930420899647288
+      },
+      "elapsed_seconds": 0.3851085409987718,
+      "error": "TimeoutError: process observer timeout",
+      "fixture": "sleep",
+      "reason": "supervisor_error",
+      "returncode": -9,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59504
+        ],
+        "seconds": 0.018896249996032566
+      },
+      "elapsed_seconds": 0.06630891699751373,
+      "fixture": "cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": -1, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59514
+        ],
+        "seconds": 0.010508167004445568
+      },
+      "elapsed_seconds": 0.06188587499491405,
+      "fixture": "fork_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": 0, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59523
+        ],
+        "seconds": 0.01009499999054242
+      },
+      "elapsed_seconds": 0.05919279099907726,
+      "fixture": "exact_cap",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"bytes\": 8388608, \"limit\": [8388608, 8388608], \"extra\": null, \"cap_reached_is_incomplete\": true}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59533
+        ],
+        "seconds": 0.009426208009244874
+      },
+      "elapsed_seconds": 0.1087069579953095,
+      "fixture": "sat",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"answer\": \"SAT\", \"cnf_sha256\": \"c723087c6c5f7c739aa6f938795f888f96ddff55f6ff620953f14fb726660296\", \"model\": \"1 2\", \"pgid\": 59406, \"pid\": 59533, \"sid\": 59406}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59548
+        ],
+        "seconds": 0.009566666005412117
+      },
+      "elapsed_seconds": 0.10729749999882188,
+      "fixture": "unsat",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"answer\": \"UNSAT\", \"cnf_sha256\": \"a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719\", \"pgid\": 59406, \"pid\": 59548, \"proof_bytes\": 17, \"proof_sha256\": \"463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba\", \"sid\": 59406}\n"
+    },
+    {
+      "cleanup": {
+        "clean": true,
+        "errors": [],
+        "observed_pids": [
+          59560
+        ],
+        "seconds": 0.010216459006187506
+      },
+      "elapsed_seconds": 0.05731345800450072,
+      "fixture": "checker",
+      "reason": "exited",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\"accepted\": true, \"cnf_sha256\": \"a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719\", \"format\": \"ASCII RUP with exact deletions\", \"literal_work\": 207, \"proof_sha256\": \"463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba\", \"records\": 4}\n"
+    },
+    {
+      "cnf_sha256": "a2f85326956ed24023d756dc4b0c205657cec886e8cf405083437b2b820cb719",
+      "fixture": "proof_binding",
+      "proof": "2 3 0\n3 0\n-1 0\n0\n",
+      "proof_sha256": "463f60500f4c80238be983fcac805086a803839389e10561e1d438bd77c64eba"
+    }
+  ],
+  "passed": false,
+  "tests": 8
+}

@@ -1,0 +1,17 @@
+{
+  "cleanup_elapsed_seconds": 0.009851875001913868,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "elapsed_seconds": 1.6187193340010708,
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "worker_error",
+  "monitor_error": null,
+  "peak_sampled_rss_kib": 74672,
+  "returncode": 1,
+  "rss_limit_mib": 256,
+  "rss_samples": 30,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "seconds_limit": 30,
+  "trigger_gate_status": null
+}

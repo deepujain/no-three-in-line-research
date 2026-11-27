@@ -1,0 +1,25 @@
+test_identity_caps_timeout_fork (__main__.NativeTinyTests.test_identity_caps_timeout_fork) ... FAIL
+test_kernel_native_file_caps_and_fork_inheritance (__main__.NativeTinyTests.test_kernel_native_file_caps_and_fork_inheritance) ... ok
+test_real_tiny_sat_unsat_and_independent_proof (__main__.NativeTinyTests.test_real_tiny_sat_unsat_and_independent_proof) ... ok
+test_late_second_validator_saves_before_root (__main__.PureTests.test_late_second_validator_saves_before_root) ... ok
+test_model_parser (__main__.PureTests.test_model_parser) ... ok
+test_pins_fail_before_spawn (__main__.PureTests.test_pins_fail_before_spawn) ... ok
+test_proof_negatives_and_caps (__main__.PureTests.test_proof_negatives_and_caps) ... ok
+test_stream_hash_counts_and_write_failures (__main__.PureTests.test_stream_hash_counts_and_write_failures) ... ok
+
+======================================================================
+FAIL: test_identity_caps_timeout_fork (__main__.NativeTinyTests.test_identity_caps_timeout_fork)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/dejain/nvidia/oss/work/no-three-in-line-research/tests/test_fixed_pool_boolean_scaffold.py", line 111, in test_identity_caps_timeout_fork
+    result=self.run_fixture(mode,.25); self.assertEqual(result['reason'],'timeout'); self.assertTrue(result['cleanup']['clean'],result)
+                                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'supervisor_error' != 'timeout'
+- supervisor_error
++ timeout
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.443s
+
+FAILED (failures=1)

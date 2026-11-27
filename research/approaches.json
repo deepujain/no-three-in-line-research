@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "main19..13 scoped native UNSAT;12 unresolved/813cuts",
+    "status": "depth12 unresolved; Boolean scaffold proof rejected",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Two reviewed reusable chunks add185+141 necessary cuts, retaining487 for813 total. Both timeout/no verdict; all813 independently checked. Allocation exhausted; no automatic third chunk.",
-    "evidence": "research/main-depth12-seeded-chunks-v1-v2-actual-review.md"
+    "finding": "Depth12 retains813 independently valid cuts; no automatic thirdchunk. Distinct fixed64pool/246support Boolean projection emitted2645vars/13114clauses; one rawUNSAT proof rejected by independentRUP checker. No closure,149diagnostic or157; source/actualaudit preserved and no solverrerun.",
+    "evidence": "research/fixed-pool-boolean-scaffold157-v1-independent-actual-audit.md"
   },
   {
     "id": "A09",

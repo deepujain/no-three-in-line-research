@@ -1,0 +1,19 @@
+test_identity_caps_timeout_fork (__main__.NativeTinyTests.test_identity_caps_timeout_fork) ... ok
+test_kernel_native_file_caps_and_fork_inheritance (__main__.NativeTinyTests.test_kernel_native_file_caps_and_fork_inheritance) ... ok
+test_real_tiny_sat_unsat_and_independent_proof (__main__.NativeTinyTests.test_real_tiny_sat_unsat_and_independent_proof) ... ok
+test_late_second_validator_saves_before_root (__main__.PureTests.test_late_second_validator_saves_before_root) ... ok
+test_loaded_backend_origins_and_optional_presence (__main__.PureTests.test_loaded_backend_origins_and_optional_presence) ... ok
+test_model_parser (__main__.PureTests.test_model_parser) ... ok
+test_observer_timeout_classification_and_launch_reserve (__main__.PureTests.test_observer_timeout_classification_and_launch_reserve) ... ok
+test_pins_fail_before_spawn (__main__.PureTests.test_pins_fail_before_spawn) ... ok
+test_proof_negatives_and_caps (__main__.PureTests.test_proof_negatives_and_caps) ... ok
+test_reaped_direct_pid_never_authorizes_signalling (__main__.PureTests.test_reaped_direct_pid_never_authorizes_signalling) ... ok
+test_runtime_manifest_mutation_rejected (__main__.PureTests.test_runtime_manifest_mutation_rejected) ... ok
+test_stream_hash_counts_and_write_failures (__main__.PureTests.test_stream_hash_counts_and_write_failures) ... ok
+test_uncertain_cleanup_is_bounded_and_cannot_accept (__main__.PureTests.test_uncertain_cleanup_is_bounded_and_cannot_accept) ... ok
+test_unknown_native_status_and_exact_cap_are_incomplete (__main__.PureTests.test_unknown_native_status_and_exact_cap_are_incomplete) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.705s
+
+OK

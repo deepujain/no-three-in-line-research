@@ -1,0 +1,26 @@
+{
+  "backend": "PySAT Glucose3 1.8.dev24",
+  "checker": "research/bounded_rup_checker.py",
+  "interpreter": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+  "license": "MIT",
+  "package": "python-sat",
+  "pins": {
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/lib/python3.14/site-packages/pysat/__init__.py": "ab8cad0f58839ced189c2bda71abab0d5d4e033c54a0e8036eeb36e182fbffcf",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/lib/python3.14/site-packages/pysat/solvers.py": "d3463ac8a357bc938b03b9786880e0b9e15b34cf65b773e4993d8ec41e37690f",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/lib/python3.14/site-packages/pysolvers.cpython-314-darwin.so": "8af4f6a5566225df154492d2119d7e10b6b98d2d2de998998d2acb20d8a6be84",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/lib/python3.14/site-packages/python_sat-1.8.dev24.dist-info/METADATA": "47fec9f18f83d6cee7ee2c753a5006ceed8c8407a9b1ba1bd90610ae5e6fb10a",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/lib/python3.14/site-packages/python_sat-1.8.dev24.dist-info/licenses/LICENSE.txt": "e9032f133c6a74f5c4a220195016992de2c5e215b64bcd5f8cacff4c7111d2e4",
+    "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+  },
+  "platform": "darwin",
+  "proof_format": "ASCII DRUP, RUP subset checked independently",
+  "resolved_interpreter": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "solver_options": {
+    "bootstrap_with": null,
+    "incr": false,
+    "warm_start": false,
+    "with_proof": true
+  },
+  "version": "1.8.dev24"
+}

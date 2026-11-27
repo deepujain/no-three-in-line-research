@@ -1,0 +1,55 @@
+{
+  "encoder_unchanged": true,
+  "outcomes": [
+    {
+      "calls": [
+        {
+          "latest_end": 22,
+          "seconds": 10
+        }
+      ],
+      "case": "ready",
+      "native_processes_launched": 0,
+      "status": "root_ready"
+    },
+    {
+      "calls": [
+        {
+          "latest_end": 22,
+          "seconds": 10
+        }
+      ],
+      "case": "matching_obstruction",
+      "native_processes_launched": 0,
+      "status": "valid_scaffold"
+    },
+    {
+      "calls": [
+        {
+          "latest_end": 22,
+          "seconds": 10
+        },
+        {
+          "latest_end": 24,
+          "seconds": 5
+        }
+      ],
+      "case": "stubbed_unsat_checker_binding",
+      "native_processes_launched": 0,
+      "status": "checked_fixed_pool_unsat"
+    }
+  ],
+  "pins": {
+    "data/boolean-scaffold-cnf-independent-tiny-audit.json": "89e1721c8d4b7f2a51bc2f5b0b0ec8ea38a48c2b44d45f39ae3cd8f2e93f0b0d",
+    "research/boolean-scaffold-cnf-independent-source-review.md": "a2bc4993e9ce72c668af99a5467291b714f1003ec618c50a47f5f625f3f12372",
+    "research/boolean_scaffold_cnf.py": "0697d3367f169e4dd28e3c7a4b061c89037f418aae950d6114160783c3ba08d9",
+    "research/boolean_scaffold_cnf_independent_tiny_audit.py": "c2cf4528bfdd7cea19d43d2f7210408ed6c0ba3f3fc4916506dcea2a5a1d7281",
+    "research/boolean_scaffold_native.py": "5044156ab6916f227f534487c2291d62557248ce9c0305fc4b43436242a8a61f",
+    "research/fixed_pool_boolean_scaffold157.py": "54b3271f388cc144437ba860b7e4641f1e61efe6a4b34d6e61a358ac52c9964d",
+    "tests/test_fixed_pool_boolean_scaffold.py": "f58bad41d05b00e2681a1e445fa9325c9b4116fc3e711970a4bb467417884779"
+  },
+  "prior_orchestrator_recovered_exactly": true,
+  "scope": "Exact three-change source delta and fully stubbed tiny pipelines only; no native or n79 work.",
+  "script_sha256": "39cef2fd0346850976b6ff609f16b9066fd2d09e11421954dcdec7596cb30c48",
+  "status": "PASS"
+}

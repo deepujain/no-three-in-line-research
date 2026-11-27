@@ -753,3 +753,25 @@ LatestGitHub970ea16pushcontainsacceptedactualaudit/curtaildecisions. CIandPagesq
 Finaldesign9eb39960 independentlyengineeringPASSa4026273/adversarialPASSf371b0dc. Exactsupportq/deletionOR identities andunique2178thresholdauxiliaries yield2645vars/89957clauses/237112literals/1602603DIMACSbyteceilings. Reconstructonlyaccepted64poolpartitions/246supports/tables, no6083cellrescanorDFSreplay. OnefreshnativeSAT<=10s, onecompleteboundedmodel<=32KiB, stdout/stderr<=64KiB, proofhardcap8MiB; sequentialsamegroupcleanup<=0.5s/checker<=5s/shared25soft30owned256. Verified149diagnosticmustpersistbeforeoptionalrootdeadlinecheck. CheckedexactCNFproofneededforUNSATclosure; installedbackend/checkeravailabilityandcapdemonstrationremainprerequisites.
 
 EngineerSOURCE/TINYONLYauthorauthorized; Mathencoding/geometryreview, Literatureprocess/proof/lifecycle review. Independentstdlibtinyoracle05b24e11/ninetests matches30compatibletinyselections (16valid/14invalid) andcounterexamples. Noactualn79CNF/solver/scoringallocated. Budget16735.390974927075unchanged; noownednumericalprocess. CI/Pages970ea16stillqueued; no deploymentclaim.
+
+
+## 2026-11-27T11:43:31.827153+00:00 — Native tiny validation catches defects before allocation
+
+Engineerescalations rejectedinvalidhookpayloadinfrastructure; Rootvalidhostcallresolvedpsaccesswithoutuserpermission. Synthetic-onlyowned30/256runtests.test_fixed_pool_boolean_scaffold completed1.618719s74672KiBcleancleanup/return1.8tests:tinySAT/UNSAT+independentRUPproof/native8MiBfilecapsandinheritancepassed; sleepfixtureclassifiedobserverdeadlinetimeoutassupervisor_errorratherthantimeout, causing1failure. Cleanupclean/return-9. Engineerfixesclassificationwithoutmaskingrealmonitorerrors.
+
+Separatelifecycle source reviewfoundFalse/None solverstatusconflation, runtime/librarymanifestbindingandPIDidentityconcerns; nativeworkerNOTPASS. Authorfixes/newfreeze+bothreviewsrequired; noactualn79pool/CNF/solver/scoringrun. Syntheticvalidationtimeisrecordedinitsguardartifact, notrepresentedasscheduledsearch. Numericalbudgetunchanged16735.390974927075/21600; noownedprocessaftertest. PublicCI/Pagesstillqueued.
+
+
+## 2026-11-27T11:50:55.497388+00:00 — Final synthetic native gate passes
+
+Preserved failedv1 and corrected11testv2 artifacts; final native7e5afb50/runtime1bac1b03 all-PySAT source/import-origin revision passes14 synthetic tests under Root owned30/256 guard:1.856279417seconds/78896KiB, exited0, clean cleanup. Native partial writes hit8MiB cap; tinySAT and independently checked tinyUNSAT proof pass. Additional20pure/oracle tests pass. Math encoding/delta PASSa2bc4993/cbbfa0c1 applies unchanged encoder0697d336/orchestrator54b3271f. Lifecycle final source decision pending; no actualn79 allocation or numerical process. Synthetic test times are separately recorded, not called research search. Budget remains16735.390974927075/21600; no cardinality improvement. Mathematician now investigates a distinct direct157 DESIGNONLY exploration; no closed-neighborhood reruns. GitHub CI/Pagesd3a2678 remain externally queued at single check.
+
+
+## 2026-11-27T11:53:37.072359+00:00 — Boolean actual returns unverified UNSAT
+
+LifecyclePASSa40cbb80/MathPASSa2bc4993+cbbfa0c1; final80filemanifest0d0f2189/methodc54975e7/runtime1bac1b03. Root permanently reserved30seconds before one25soft30owned256gate, no numericalprocess/pool live. Completed1.616944083seconds80512KiB/cleancleanup/allpinsunchanged. Rebuilt acceptedfixed64pool/246arcs hashes; emitted CNF855b54b7:2645variables13114clauses33466literals187965bytes. Exactlyone nativeSAT child returnedUNSAT with44475byteproof4c1fc714; exactlyone independentchecker returned2/non-RUPaddition. Overall statuserror/completefalse/closurefalse; no149diagnostic/root/157witness. NativeUNSAT isnotprovedclosure. No unchanged solverrerun or inferrednegativeclaim. Independentactualaudit and source/savedproof-only compatibilitydiagnosis assigned; frozenfiles/artifacts preserved. Aggregate usage16737.007919010088/21600seconds, remaining4862.992080989912; originaldeadline unchanged. Math distinctn75/n77 coordinatecontraction designonly, literatureprior-scopecheck required beforeallocation.
+
+
+## 2026-11-27T11:55:14.386557+00:00 — Actual audit and publication checks
+
+Independentactualauditf72db3a5 verifies115reportpins, emittedcounts/hashes, oneSAT+onechecker andcleanouter/childcleanup; rejectsclosure becauseproofcheckerfailed. No newbound. Fullportableunittest760testsPASS58.351s/skipped8; no frozenruntimeor guardweakening. Source/savedproofcompatibilitydiagnosis continueswithoutsolverrerun. Focusedprior-scopecheckfb8015cc identifiesGreyStrandOct30receipts294/297all6084n77compressions; proposed78to77contraction stronglyoverlapspriorwork, so curtailunchangedcensus. Exactremappingunavailable; noequivalenceorpriorityproofclaimed. Genericrectangle-contractiondesignmaystillbefalsifiablefor76to75, pendingdesignreview/sourcefixture/baseline; noactualallocation.

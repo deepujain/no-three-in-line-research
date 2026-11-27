@@ -1,0 +1,47 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "tests.test_fixed_pool_boolean_scaffold"
+  ],
+  "evidence_pins": {
+    "data/fixed-pool-boolean-scaffold-author-tiny-owned-guard.json": "0368f2aca1cc2c14305011ddd048b97074798455bee8950c12e25858d6103e8a",
+    "data/fixed-pool-boolean-scaffold-author-tiny.json": "419f3fc7268e3fa33afb53ee194bf2f03ef0ac862bf460d9627673ecaf34d1c6",
+    "data/fixed-pool-boolean-scaffold-author-tiny.log": "d728c7d2f4a564cd8a1a48097ec00048d5e6cd27873727f21231a97a6f0a17d9"
+  },
+  "model": "gpt-6.1-sol",
+  "outer_guard": "research.owned_process_guard.guarded_process(command,30,256,log)",
+  "owned_guard": {
+    "cleanup_elapsed_seconds": 0.011112708001746796,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 1.856279416999314,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "exited",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 78896,
+    "returncode": 0,
+    "rss_limit_mib": 256,
+    "rss_samples": 34,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": null
+  },
+  "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "reasoning_effort": "high",
+  "runtime_trust_boundary": "Python standard library, import machinery and platform dynamic libraries. The backend package and executable files are explicitly pinned.",
+  "scope": "Source and synthetic tiny fixtures only; no fixed n79 loader, preprocessing, CNF, scoring, SAT or proof check. Actual allocation remains separate.",
+  "source_pins": {
+    "data/fixed-pool-boolean-scaffold-runtime-pins.json": "1bac1b03987d26c32a58575b66f569cf5d5561adc4f0952dfb96ade82d8b5f8a",
+    "research/boolean_scaffold_cnf.py": "0697d3367f169e4dd28e3c7a4b061c89037f418aae950d6114160783c3ba08d9",
+    "research/boolean_scaffold_native.py": "7e5afb50a90cfd89c3ccde5a7eff5c672b636f9cb7601ab710c20287a65f8efb",
+    "research/boolean_scaffold_native_tiny_fixture.py": "d3aacd15285aa561190daad7527d7071511ca184bbfc9dff0a178d8af6ffdba9",
+    "research/bounded_rup_checker.py": "7f67d1b6be21c6e70e49b98e4d5c834678490e06579a1ef7b2816f608b21d152",
+    "research/fixed_pool_boolean_scaffold157.py": "54b3271f388cc144437ba860b7e4641f1e61efe6a4b34d6e61a358ac52c9964d",
+    "tests/test_fixed_pool_boolean_scaffold.py": "7ef77ae2237af66f71725e975a40772b7ef2eb64928728a428de05421a007c25"
+  },
+  "status": "PASS",
+  "test_count": 14
+}
