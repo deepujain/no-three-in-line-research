@@ -424,3 +424,20 @@ Independent readonly11node audit confirms byte-identical control/counters/orders
 Next250nodes independently audited:11to261, ACTIVE/no completed slice/no witness,13frames; operation7.954s/outer8.547s, clean52448KiB sampledpeak. Quota250 retained. One further separately allocated250stage accepted8.574s at unchanged30s/256MiB caps; latest511node evidence audit pending. Thin fixedcaller design approved to use existingrun_stage/guards/wire, exactparents, unique stage IDs, stop on rejection/sourcechange/uncertainty/witness/exhaustion and totalbudget. No newsolverprotocol; implementation and signaltests reviewed before pool use.
 
 Two retained-walk continuations separately preserved156best and produced valid155/153 finalwalks; audit records distances3/5 fromoriginal seed. A reviewed fixed4job continuationbatch ran through solepool6371 and ended normally; no new construction reported, evidence audit pending. No identical freshseed batches. Current total receipts plus initialreserve 15049.852030594098seconds, remaining 6550.147969405902seconds, originaldeadline unchanged.
+
+
+## 2026-11-27T07:02:14.577084+00:00 — Sustained exact search launched
+
+Independent source/tiny/real-signal review approved thin caller; Root16focused caller/pool tests pass1.770s onhost (sandbox ps denied, no source fix needed). Process audit found no competingpool. Solepool34021 started07:01:23UTC, single120s packed-only job/run3d5da69de88b464aab12edbb96b9fae4;150sreservation against15049.852030594098spent. Exacttemplate243775d2 binds audited511nodeHEAD9039fdd3. Quota250, stage30s/256MiB, same fixedsources. Outerpool charge once; inner receipts evidence only. Stop uncertainty/witness/exhaustion and inspect terminal evidence before scaling. Retainedvalley trials paused for no count/distance improvement. Independently reviewed singletondiagonal1541 retains distinct exploration pending root allocation. Originaldeadline unchanged.
+
+
+## 2026-11-27T07:04:53.127881+00:00 — First sustained caller independently audited
+
+All11stages accepted:511to3261nodes, no witness/completed slice/leaves. Independent reviewer checked all exactparents, hashes, sourcepins, ownedgates/cleanup and summary8b654963; outer92.62428s counted once.30s/256MiB unchanged; gatepeaks<=53984KiB. Approved next600s maincaller/630reservation. Alternative middle1541 freshroot accepted0.1765s, review before250probe. Total15142.652828053098seconds before further work/reservations. Root fullsuite467tests41.623s found one transient host-startupPermissionError; exact failingtest separately passed0.326s without sourcechange.8skips. Fivebrowserviewports pass. No new construction or novelty claim.
+
+
+## 2026-11-27T07:06:45.105936+00:00 — Main ten-minute allocation started
+
+Middle1541 root independently audited; separately approved250nodeprobe accepted8.00666s, receiptcfdbaf20, nolease; independentstageaudit next. No competingnumericalprocesses before solepool42495 launched07:06:21UTC, fixed600s maincontinuation/run a2a4aa47792f98846b4df5d5c835c26b, exacttemplatef5463d4d binds independently reviewed3261nodeHEAD97d35e3e. Fixed250node/30s256MiB stages and630poolreservation.15150.659489553094seconds spent, remaining6449.340510446906 before630reservation; originaldeadline unchanged. No newpool/AIworker/schedule. Terminal outcome must be reviewed before refill. No improvedconstruction.
+
+Middle1541 stage250 independently audited PASS:250nodes/13frames, no completed slice/witness; operation7.607s,outer8.007s,clean52016KiB peak. Comparable measuredcost to main is not a viability conclusion. Completedmain120 phaseaudit:93.42% caller time in search operation; avoid another checkpoint/protocol rewrite for marginal overhead. Continue measuredalgorithm with boundedallocations.

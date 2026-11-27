@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "continue retained walks",
+    "status": "paused after retained continuations",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Seven audited valley trials kept best156. Two distinct final walks contain154 and155 points; both dual-verified. Stop identical fresh-seed batches. Next test continues these states with a separate156 incumbent.",
-    "evidence": "research/valley-seed279107-279113-review.md"
+    "finding": "Separate incumbent preserved156; retained walks moved only3/5points from original seed. Four further continuations gave no count or distance improvement; stop unchanged valley batches.",
+    "evidence": "research/retained-continuation-seed279307-279313-review.md"
   },
   {
     "id": "A05",
@@ -75,10 +75,10 @@
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "faster exact search",
+    "status": "sustained faster exact search",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Independent11node comparison preserves exact frontier and query counts:18.61s to0.97s outer wall. Two250node stages accepted (~8.55s each), latest511nodes awaiting second-stage audit. No witness; no asymptotic or novelty claim.",
-    "evidence": "research/near-quarter-readonly-n79-stage250-review.md"
+    "finding": "Independent identical11node frontier:18.61s to0.97s outer wall (bounded sample). Reviewed caller11accepted stages,2750newnodes in92.62s outer,3261total; no completed slice/witness. Next600s continuation approved; middle1541 exploration root accepted.",
+    "evidence": "research/near-quarter-packed-chain-runner-source-review.md"
   },
   {
     "id": "A10",

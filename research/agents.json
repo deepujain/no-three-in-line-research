@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Implement boundedvalleywalk+tinytests after nodiversity neutraltrial",
+    "status": "Review mathematical scope and middle-diagonal1541 exploration; no host launch",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Implement validatedDomainreuse to remove duplicate replayscans, preserveeverycheck"
+    "status": "Frozen faster packed sources; prepare next exact template after independently audited terminal caller"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independently review both new implementations and actualevidence",
+    "status": "Independent actual120s chain evidence audit before any longer allocation",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

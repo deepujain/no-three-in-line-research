@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/near_quarter_packed_chain.py",
+    "--request-template",
+    "data/packed-readonly-n79-r1-chain-template.json",
+    "--template-sha256",
+    "243775d2aaa74c29171d0f5771c197b797bcc97c611f8e047678b5acb7d01df4",
+    "--run-id",
+    "3d5da69de88b464aab12edbb96b9fae4",
+    "--seconds",
+    "120"
+  ],
+  "elapsed_seconds": 92.62428045900015,
+  "entrypoint_sha256": "a5fcb6ad8ee5777fa8d2c44cca5e595c617c1c221fe1ac04bb57b067fd9ea182",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T07:02:56.099003+00:00",
+  "job": {
+    "args": [
+      "--request-template",
+      "data/packed-readonly-n79-r1-chain-template.json",
+      "--template-sha256",
+      "243775d2aaa74c29171d0f5771c197b797bcc97c611f8e047678b5acb7d01df4",
+      "--run-id",
+      "3d5da69de88b464aab12edbb96b9fae4"
+    ],
+    "hypothesis": "Independently reviewed faster exact predicate: sustain 250-node accepted stages from audited511 frontier; stop on witness, exhaustion, rejection or uncertainty. Charge outer caller once.",
+    "id": "packed-readonly-chain-r1-120",
+    "script": "research/near_quarter_packed_chain.py",
+    "seconds": 120
+  },
+  "log": "data/run-logs/packed-readonly-chain-r1-120.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 34023,
+  "started_at": "2026-11-27T07:01:23.474996+00:00",
+  "status": "completed"
+}

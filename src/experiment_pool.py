@@ -20,7 +20,7 @@ import time
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED = {'src/lazy_sat.py', 'src/trade_search.py', 'research/guided_repair.py',
            'research/corner_repair.py', 'research/embedding_worker.py', 'research/rectangle_barrier.py',
-           'research/neutral_repair.py'}
+           'research/neutral_repair.py', 'research/near_quarter_packed_chain.py'}
 
 
 def utcnow():

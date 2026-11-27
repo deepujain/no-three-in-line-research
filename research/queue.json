@@ -1,6 +1,6 @@
 {
   "max_concurrent": 1,
-  "note": "Prior fixed batch audited and terminal. New fixed retained-walk continuation batch only:279307/8 from155walk,279312/3 from153walk; separate156incumbent, drawdown4,25s loops. Existing55s envelope, sampled256MiB directchildren, no automatic stop-on-witness/failure. No further scaling without review.",
+  "note": "Single reviewed600s main packed-only window, maxworkers1. Middle root+250 completed separately. No additional jobs authorized by this manifest.",
   "jobs": [
     {
       "args": [
@@ -1992,6 +1992,34 @@
         "4"
       ],
       "hypothesis": "Reviewed one fixed four-job retained-walk continuation, separately preserve156best. Compare actual final state movement and verified count, not proposal cache totals."
+    },
+    {
+      "id": "packed-readonly-chain-r1-120",
+      "script": "research/near_quarter_packed_chain.py",
+      "seconds": 120,
+      "args": [
+        "--request-template",
+        "data/packed-readonly-n79-r1-chain-template.json",
+        "--template-sha256",
+        "243775d2aaa74c29171d0f5771c197b797bcc97c611f8e047678b5acb7d01df4",
+        "--run-id",
+        "3d5da69de88b464aab12edbb96b9fae4"
+      ],
+      "hypothesis": "Independently reviewed faster exact predicate: sustain 250-node accepted stages from audited511 frontier; stop on witness, exhaustion, rejection or uncertainty. Charge outer caller once."
+    },
+    {
+      "id": "packed-readonly-chain-main600-r2",
+      "script": "research/near_quarter_packed_chain.py",
+      "seconds": 600,
+      "args": [
+        "--request-template",
+        "data/packed-readonly-n79-r1-chain-main600-template.json",
+        "--template-sha256",
+        "f5463d4d1713b4ba017f43692d0fec29efbed1442e3d7161dc48cedd0f58d42f",
+        "--run-id",
+        "a2a4aa47792f98846b4df5d5c835c26b"
+      ],
+      "hypothesis": "Reviewer-approved600s sustained exact continuation from3261audited nodes; fixed250-node stages, originalcaps; bounded allocation, not success forecast."
     }
   ]
 }

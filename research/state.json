@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 15049.852030594098,
+  "scheduled_search_wall_seconds_used": 15150.659489553094,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Run only the single reviewed experiment_pool queue (maxworkers1, maxconcurrent1); four25s valleyseeds279110..279113/drawdown4,256MiB sampledregistered-childRSS. Preserve frozenneutral sources until queuecomplete; inspect live PIDs/status to avoidduplicates. Audit outputbest+walk withbothcheckers; no automaticwitness/failurestop in fixedqueue, do notclaimone. Engineer separately prototypes exactread-onlyorbitadmissibility withoutlivecore/codecchanges; Mathematician reviews before newhostallocation. Optimizedpackedaccepted14nodes fd822cb61f3383ebe9044c51265232159804462a41cc071e018b1b93877b031b; nextONE10node stage approved but notyetlaunched, may run after queuecontext and processcapacityaudit. Originaldeadline/budget unchanged.",
+  "next_action": "Solepool main600-r2: audit terminal immutable summary/parentchain before refill; fixed250/30s256MiB. Middle1541 root+250 independently audited PASS, no witness; retain as distinct exploration, no benefit inferred. Originaldeadline22:59:25UTC. No unchangedvalley retries.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Faster exact packed search: matched11node run verified; two250node continuations accepted. Thin caller implementation/review prepares sustained work.",
+  "current_round": "Verified faster exact search3261nodes; single reviewed600s continuation pool42495 started07:06:21UTC. Middle1541 root+250 accepted, independentstageaudit pending.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -36,11 +36,9 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Second250node result accepted under unchanged caps; independent511node frontier audit pending.",
-    "Thin bounded caller design approved; code/tiny/signal review before existingpool launch. No packed protocol changes.",
-    "Retained-walk continuation four-job queue complete; independent evidence audit pending."
+    "600s main caller outcome pending; do not duplicate activepool42495"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Commit 3b8362a verification and Pages both passed. Previous full local suite: 447 tests passed, eight skipped; five UI viewports passed. No improved construction."
+  "validation_status": "Root467tests41.623s: one transient host-startupPermissionError,8skips; sole failingtest passed separately0.326s with no sourcechanges. Caller/pool16passed1.770s; fivebrowserviewports passed. Currentpublicpush pending."
 }

@@ -1,0 +1,16 @@
+{
+  "pid": 34021,
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/experiment_pool.py",
+    "--queue",
+    "research/queue.json",
+    "--max-workers",
+    "1"
+  ],
+  "started_at": "2026-11-27T07:01:23.379774+00:00",
+  "queue_sha256": "315c1be2698a0305225f6406055affc11b70ac9fe5ea152d648a4863eca7551a",
+  "pool_sha256": "8a347e711616dc54a68aaadd2c2c3e87d30dcf7f826e0a34414e64d10457ce29",
+  "reservation_seconds": 150,
+  "note": "Only outer pool receipt charged. Stage evidence not double counted."
+}

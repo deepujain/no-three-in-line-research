@@ -1,0 +1,22 @@
+{
+  "job": {
+    "id": "shepherd-middle-d1541-root-v1",
+    "seconds": 30,
+    "hypothesis": "Reviewed middle1541 singleton freshroot; unchanged fullorbit,roworder,sources and30s256MiB"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "research.near_quarter_packed_worker",
+    "--request",
+    "data/packed-readonly-n79-middle-d1541-root.request.json"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 0.17651699999987613,
+  "request_sha256": "2ec214422df24ba366d8417c58c380dea53885bb632334dd15e3b5d410be2bb5",
+  "started_at": "2026-11-27T07:03:25.711966+00:00",
+  "stdout": "{\"complete_invocation_ns\":136116583,\"coordination_finished_ns\":82143263301708,\"invocation_started_ns\":82143127185125,\"lease_retained\":false,\"receipt_sha256\":\"7feed2b8af919dceb0cace1e4ea901d79d293f8db2dc81892e04523a3d6661d3\",\"result\":\"accepted\",\"stage_id\":\"bb4fc20897b142e5966c547dcab22103\",\"timing_scope\":\"through durable HEAD outcome and lease close/release; excludes return serialization/caller receipt\"}\n",
+  "stderr": "",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T07:03:25.888948+00:00"
+}

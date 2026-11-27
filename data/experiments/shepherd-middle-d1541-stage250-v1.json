@@ -1,0 +1,22 @@
+{
+  "job": {
+    "id": "shepherd-middle-d1541-stage250-v1",
+    "seconds": 30,
+    "hypothesis": "Independent review approved250newnodes of middle1541 after exactroot audit; same30s256MiB"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "research.near_quarter_packed_worker",
+    "--request",
+    "data/packed-readonly-n79-middle-d1541-stage250.request.json"
+  ],
+  "status": "completed",
+  "elapsed_seconds": 8.006661499995971,
+  "request_sha256": "2095ee655c439fab36e47e606a73ef10397d72407b80917eda849d0725b3e0a2",
+  "started_at": "2026-11-27T07:05:30.339821+00:00",
+  "stdout": "{\"complete_invocation_ns\":7958536125,\"coordination_finished_ns\":82275720711333,\"invocation_started_ns\":82267762175208,\"lease_retained\":false,\"receipt_sha256\":\"cfdbaf20582b63a8f97d8a9738d98b0b9105cb028756358eb46b03798bff66f6\",\"result\":\"accepted\",\"stage_id\":\"4eb846c9cc43427b940d48bb4723c035\",\"timing_scope\":\"through durable HEAD outcome and lease close/release; excludes return serialization/caller receipt\"}\n",
+  "stderr": "",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T07:05:38.347091+00:00"
+}

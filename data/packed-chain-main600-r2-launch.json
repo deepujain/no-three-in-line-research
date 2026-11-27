@@ -1,0 +1,16 @@
+{
+  "pid": 42495,
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/experiment_pool.py",
+    "--queue",
+    "research/queue.json",
+    "--max-workers",
+    "1"
+  ],
+  "started_at": "2026-11-27T07:06:21.119748+00:00",
+  "queue_sha256": "fb006ee2c6aa9541e028affdd7ab954c7328a8e30a0a2aef28d7e580bb6066e9",
+  "pool_sha256": "8a347e711616dc54a68aaadd2c2c3e87d30dcf7f826e0a34414e64d10457ce29",
+  "reservation_seconds": 630,
+  "note": "Single outer elapsed charge; no innerstage doublecount."
+}
