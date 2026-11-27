@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "through8 scoped UNSAT;9..12 incomplete",
+    "status": "157walker initial5;100k warmmoves nobetter",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Intrinsic9..12repairtimedout25.108s:293completecandidate scans/19113validcuts,no scorebelow11saved. Independentactualauditacceptedasincomplete/noUNSAT. Curtailunchangedextension; new direct157deficiencywalkerunderreview.",
-    "evidence": "research/score11-hard-retention157-range9-12-actual-review.md"
+    "finding": "Initial157=source minus(78,78),5collineartriples. Seed279157/T2 completed100000attempts98075legal27030accepted in19.741s; bestunchanged/invalid. Independentauditaccepted,no improvement. One-neighborhoodcensusunderreview; curtailunchangedwarmrepeat.",
+    "evidence": "research/score11-deficiency-walk-seed279157-v1-actual-review.md"
   },
   {
     "id": "A05",

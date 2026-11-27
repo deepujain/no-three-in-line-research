@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 0.35709658300038427,
+  "line_of_four_triples": 4,
+  "occupied_deficiency_intersection_checked": true,
+  "oracle_source_sha256": "5ccc2c69c21ae1f95c259cab7c3133e6da872e81677f279b3b3f8f0fb04d0ec8",
+  "production_primitives": "point_conflicts and rectangle_proposal only; no production full scoring/validator used",
+  "scope": "Exhaustive tiny n2..4 states with2n-1points/axis capacities; direct integer determinants. No n79 evaluation.",
+  "stages": [
+    {
+      "deficient_states": 4,
+      "illegal_rectangles": 12,
+      "illegal_relocations": 16,
+      "legal_relocations": 8,
+      "n": 2,
+      "point_incidence_checks": 12,
+      "rectangle_attempts": 12,
+      "relocation_attempts": 24
+    },
+    {
+      "deficient_states": 45,
+      "illegal_rectangles": 306,
+      "illegal_relocations": 162,
+      "legal_rectangles": 144,
+      "legal_relocations": 288,
+      "n": 3,
+      "point_incidence_checks": 225,
+      "rectangle_attempts": 450,
+      "relocation_attempts": 450
+    },
+    {
+      "deficient_states": 816,
+      "illegal_rectangles": 8784,
+      "illegal_relocations": 3072,
+      "legal_rectangles": 8352,
+      "legal_relocations": 8352,
+      "n": 4,
+      "point_incidence_checks": 5712,
+      "rectangle_attempts": 17136,
+      "relocation_attempts": 11424,
+      "states_with_high_incidence_points": 88
+    }
+  ],
+  "trade_search_sha256": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a"
+}

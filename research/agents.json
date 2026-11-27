@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Intrinsic9..12actualindependentlyaudited; authorednew157deficiencywalkersource/tiny, Engineerindependentreviewpending.",
+    "status": "157walkeractualindependentlyaudited,noimprovement; prepareone-neighborhoodcensussource/tinyaftermathapproval.",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "9..12actualindependentlyaudited; prioritize157walkersourcereview, then reusableexact12adapteraftermathapproval."
+    "status": "157walkersourceindependentlyapproved; authorreusableexact12loader, thencensussourcereviewwhenready."
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "12actual487cutsindependentlyaudited; reviewboundedreusable12loader/twochunkdesign thenfinalsource.",
+    "status": "157walkeractualindependentlyaccepted; reviewcensusdesign andlaterreusable12source.",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

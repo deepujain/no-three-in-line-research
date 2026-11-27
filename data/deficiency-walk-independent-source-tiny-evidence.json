@@ -1,0 +1,20 @@
+{
+  "command": ".venv/bin/python -m unittest tests.test_score11_deficiency_walk tests.test_score11_deficiency_walk_independent -v",
+  "decision": "PASS_SOURCE_TINY_ONLY",
+  "elapsed_seconds": 0.674,
+  "exhaustive_tiny_states": 865,
+  "files": {
+    "data/deficiency-move-independent-tiny-evidence.json": "869e7de46ff84901614d61b8c44cd0397befff7c678294a5b6bcae49c4b15d61",
+    "research/deficiency_move_tiny_oracle.py": "5ccc2c69c21ae1f95c259cab7c3133e6da872e81677f279b3b3f8f0fb04d0ec8",
+    "research/score11-deficiency-walk-independent-source-review.md": "d14bc3775e4625e807791d1cbfec0afa43e3c26b4605e87cb8c6ad7e625acc73",
+    "research/score11_deficiency_walk.py": "d956496103278c4532b5fa74fd9ce515546a30dbd8f2cda8925ad6e8195cf787",
+    "tests/test_score11_deficiency_walk.py": "3a2c2cd0d4ce4d7b8a08e1cf948c17f4168dce7df969d92bd71f2b676be0713b",
+    "tests/test_score11_deficiency_walk_independent.py": "3e61e7dbb7a822ea06fe140d1b49ef71d0c95e1f89564d61566679279f5f19cf"
+  },
+  "legal_rectangles_checked": 8496,
+  "legal_relocations_checked": 8648,
+  "model": "gpt-6.1-sol",
+  "n79_evaluation_or_search": false,
+  "reasoning_effort": "high",
+  "tests_passed": 13
+}

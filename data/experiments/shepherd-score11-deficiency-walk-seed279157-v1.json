@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "shepherd-score11-deficiency-walk-seed279157-v1",
+    "seconds": 30,
+    "hypothesis": "Direct157deficiencywalk,seed279157,temp2,max100000proposals,unrestrictedrelocation+rectangle,no retentionfilter,25soft30owned256"
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/score11_deficiency_walk.py",
+    "--best",
+    "data/score11-deficiency-walk-seed279157-v1/best-state.json",
+    "--report",
+    "data/score11-deficiency-walk-seed279157-v1/report.json"
+  ],
+  "sources_before": {
+    "data/deficiency-move-independent-tiny-evidence.json": "869e7de46ff84901614d61b8c44cd0397befff7c678294a5b6bcae49c4b15d61",
+    "data/deficiency-walk-independent-source-tiny-evidence.json": "f0bca47a16d84aa1cb099fec9cb6ac3bfd1953f1475cd3442af2cd305c411f53",
+    "data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "research/deficiency_move_tiny_oracle.py": "5ccc2c69c21ae1f95c259cab7c3133e6da872e81677f279b3b3f8f0fb04d0ec8",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/score11-deficiency-walk-independent-source-review.md": "d14bc3775e4625e807791d1cbfec0afa43e3c26b4605e87cb8c6ad7e625acc73",
+    "research/score11-deficiency-walk-mathematical-review.md": "9cf1b793a6805b11a6d5b319305f30d156eeed6ea8c3979d8eccc58ed1329072",
+    "research/score11-deficiency-walk-proposal.md": "0213b6bf2ee99ec77c443dc618a7eef74d149f80ae3ca453c1c4e4741f656588",
+    "research/score11_deficiency_walk.py": "d956496103278c4532b5fa74fd9ce515546a30dbd8f2cda8925ad6e8195cf787",
+    "src/trade_search.py": "15f5cc8224ece740c5799cace4b0815d839285575ee5ae2086c21f0531f21c6a",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_score11_deficiency_walk.py": "3a2c2cd0d4ce4d7b8a08e1cf948c17f4168dce7df969d92bd71f2b676be0713b",
+    "tests/test_score11_deficiency_walk_independent.py": "3e61e7dbb7a822ea06fe140d1b49ef71d0c95e1f89564d61566679279f5f19cf",
+    "tests/test_trade_search.py": "f053ee1d8ee09e1605177d3924a2089f6a5790a0ceb0b79808238cecc084572c",
+    ".venv/lib/python3.14/site-packages/pycard.cpython-314-darwin.so": "8d460cf4d33cd66271d1d25846d3630fa89ed86596e6fc6f641984a37a639e15",
+    ".venv/lib/python3.14/site-packages/pysat/__init__.py": "ab8cad0f58839ced189c2bda71abab0d5d4e033c54a0e8036eeb36e182fbffcf",
+    ".venv/lib/python3.14/site-packages/pysat/_fileio.py": "726aeabe13d7c42f3b969bcb9450c6ec45a9bac40e6aa0863cc0df5a1a93e9d8",
+    ".venv/lib/python3.14/site-packages/pysat/_utils.py": "e1cbf8d29ef414abe30932aaf06ab34bf8e5c45ef8729fe5a234d94a29bfa891",
+    ".venv/lib/python3.14/site-packages/pysat/card.py": "369e872b62df0feed8b8e3f9de33009ba2483b594f16efe3a893f5f27d37baf3",
+    ".venv/lib/python3.14/site-packages/pysat/engines.py": "3f3719278cc55c31df71248717b88f69db6bc12544b78b7d07f70ee5ea704d99",
+    ".venv/lib/python3.14/site-packages/pysat/formula.py": "dd9848d5e3ef96b79727b9d128c21fb51b25966f650c37d759832dec003c9d27",
+    ".venv/lib/python3.14/site-packages/pysat/solvers.py": "d3463ac8a357bc938b03b9786880e0b9e15b34cf65b773e4993d8ec41e37690f",
+    ".venv/lib/python3.14/site-packages/pysolvers.cpython-314-darwin.so": "8af4f6a5566225df154492d2119d7e10b6b98d2d2de998998d2acb20d8a6be84",
+    ".venv/lib/python3.14/site-packages/six.py": "c51c91f703d3d4b3696c923cb5fec213e05e75d9215393befac7f2fa6a3904df"
+  },
+  "status": "completed",
+  "elapsed_seconds": 19.740899041993544,
+  "started_at": "2026-11-27T09:31:14.545613+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 19.740853625000454,
+    "rss_samples": 427,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 51664,
+    "cleanup_elapsed_seconds": 0.01303524999821093,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T09:31:34.287612+00:00",
+  "sources_unchanged": true
+}
