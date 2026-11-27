@@ -66,10 +66,10 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "depth12 unresolved; Boolean scaffold proof rejected",
+    "status": "fixed Boolean scaffold family certified UNSAT",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Depth12 retains813 independently valid cuts; no automatic thirdchunk. Distinct fixed64pool/246support Boolean projection emitted2645vars/13114clauses; one rawUNSAT proof rejected by independentRUP checker. No closure,149diagnostic or157; source/actualaudit preserved and no solverrerun.",
-    "evidence": "research/fixed-pool-boolean-scaffold157-v1-independent-actual-audit.md"
+    "finding": "Independent monotonic RUP proof check certifies only the exact64-cell/246-support eight-support scaffold CNF. Original strict-checker and monitor failures remain preserved. No149/157 or unrestricted exclusion; depth12 remains unresolved with813 necessarycuts and no automatic thirdchunk.",
+    "evidence": "research/direct-owned-saved-proof-v1-independent-actual-review.md"
   },
   {
     "id": "A09",

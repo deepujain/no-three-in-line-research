@@ -1,0 +1,15 @@
+{
+  "owned": false,
+  "owned_cases": [],
+  "passed": true,
+  "pure_tests": 8,
+  "scope": "Synthetic tiny files/processes only; no saved actual pair, SAT or n75 execution.",
+  "source_pins": {
+    "research/direct_owned_proof_acceptance.py": "460082c237edce3fc90e4f8c7a6c7d2826c3b1a19427246211263e6e00d9558d",
+    "research/direct_owned_proof_tiny.py": "18e39113b12adcfc63f29686f2b4c253308ea661916962685a689311dbc15f58",
+    "research/direct_owned_proof_tiny_worker.py": "13301dcf8b26dbfc5d2e5cdef5ee851c4f2f07f78dff7acddb6906fa7036c3ab",
+    "research/direct_owned_saved_proof.py": "1fa2852218baeb097f34779a1d320958866b88e34edd34f0646484284da0f2ea",
+    "research/monotonic_rup_checker.py": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "owned": true,
+  "owned_cases": [
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "identity"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.010754208997241221,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.058036709000589326,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "exited",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 35696,
+        "returncode": 0,
+        "rss_limit_mib": 256,
+        "rss_samples": 1,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 83,
+      "log_sha256": "22f2327e7d5ecc756731cad683fb234d87e4c8dbac43f767d7ebc2babe51c6e1",
+      "mode": "identity",
+      "worker_receipt": {
+        "identity": {
+          "pgid": 5509,
+          "pid": 5509,
+          "shared_regular_log": true,
+          "sid": 5509
+        }
+      }
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "accepted"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.011117333007859997,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.0941088330000639,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "exited",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 55440,
+        "returncode": 0,
+        "rss_limit_mib": 256,
+        "rss_samples": 2,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "independent_parent_structure_accepted": true,
+      "log_bytes": 1837,
+      "log_sha256": "c98f35f9eaf398d3e9d9ebd098fa9a5669ce828ca96e05e5a9150e2d3e7a2dac",
+      "mode": "accepted",
+      "worker_receipt": {
+        "accepted": true,
+        "checker_invocations": 1,
+        "checker_origin": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/monotonic_rup_checker.py",
+        "checker_sha256": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+        "closure": true,
+        "cooperative_seconds": 4,
+        "elapsed_seconds": 0.038243082992266864,
+        "identity_valid": true,
+        "log_cap_bytes": 65536,
+        "owned_identity": {
+          "pgid": 5512,
+          "pid": 5512,
+          "shared_regular_log": true,
+          "sid": 5512
+        },
+        "pins_verified_after": true,
+        "pins_verified_before": true,
+        "proof_check": {
+          "accepted": true,
+          "active_clauses": 3,
+          "additions": 1,
+          "checked_empty_line": 2,
+          "closure": true,
+          "cnf_bytes": 26,
+          "cnf_sha256": "ae8a60b8e3fd19c99cb52456f7d12cc81c03fd32b64587482939c671399a7df7",
+          "deletions": 1,
+          "expected_cnf_sha256": "ae8a60b8e3fd19c99cb52456f7d12cc81c03fd32b64587482939c671399a7df7",
+          "expected_proof_sha256": "fff7f6aa8337f4341aca7334455677a5a7ce9a21da750601900ff30d6100165f",
+          "failure_clause": null,
+          "failure_line": null,
+          "format": "monotonic RUP; exact active multiset deletion validation",
+          "full_parse_complete": true,
+          "proof_bytes": 11,
+          "proof_sha256": "fff7f6aa8337f4341aca7334455677a5a7ce9a21da750601900ff30d6100165f",
+          "records": 2,
+          "retained_clauses": 4,
+          "retained_literals": 4,
+          "status": "checked_monotonic_rup_unsat",
+          "variables": 2,
+          "work": 38,
+          "work_unit": "parser token/block and mask-clause width+1; bounded2645-bit operands"
+        },
+        "protocol": "direct-owned-monotonic-rup-v1",
+        "runtime_manifest_sha256": "1bac1b03987d26c32a58575b66f569cf5d5561adc4f0952dfb96ade82d8b5f8a",
+        "sat_invocations": 0,
+        "scope": "Only exact fixed64-cell/246-support scaffold formula; no149 output,157 witness, other pool, solver run or automatic continuation.",
+        "source_pins_sha256": "585d5c4571119321e3e30c98de1ab0233ce1e5067380e0ebc33b49d4fe53217b",
+        "status": "checked_direct_owned_saved_proof"
+      }
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "rejected"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.011965583995333873,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.10514800000237301,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "worker_error",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 55408,
+        "returncode": 2,
+        "rss_limit_mib": 256,
+        "rss_samples": 2,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 1859,
+      "log_sha256": "7150bdd267acee024433b2411c6e1896950352f05cfcf59d3b544046e387f1e9",
+      "mode": "rejected",
+      "worker_receipt": {
+        "accepted": false,
+        "checker_invocations": 1,
+        "checker_origin": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/monotonic_rup_checker.py",
+        "checker_sha256": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+        "closure": false,
+        "cooperative_seconds": 4,
+        "elapsed_seconds": 0.040847166994353756,
+        "error": "Rejected: non-RUP addition",
+        "identity_valid": true,
+        "log_cap_bytes": 65536,
+        "owned_identity": {
+          "pgid": 5527,
+          "pid": 5527,
+          "shared_regular_log": true,
+          "sid": 5527
+        },
+        "pins_verified_after": true,
+        "pins_verified_before": true,
+        "proof_check": {
+          "accepted": false,
+          "additions": 0,
+          "checked_empty_line": null,
+          "closure": false,
+          "cnf_bytes": 14,
+          "cnf_sha256": "6a43e1ffb6566b3ccbdcc57f8bd5638294ac56b615fe617c58ded6ee6374b333",
+          "deletions": 0,
+          "error": "Rejected: non-RUP addition",
+          "expected_cnf_sha256": "6a43e1ffb6566b3ccbdcc57f8bd5638294ac56b615fe617c58ded6ee6374b333",
+          "expected_proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "failure_clause": [],
+          "failure_line": 1,
+          "format": "monotonic RUP; exact active multiset deletion validation",
+          "full_parse_complete": false,
+          "proof_bytes": 2,
+          "proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "records": 1,
+          "retained_clauses": 1,
+          "retained_literals": 1,
+          "status": "rejected",
+          "variables": 2,
+          "work": 21,
+          "work_unit": "parser token/block and mask-clause width+1; bounded2645-bit operands"
+        },
+        "protocol": "direct-owned-monotonic-rup-v1",
+        "runtime_manifest_sha256": "1bac1b03987d26c32a58575b66f569cf5d5561adc4f0952dfb96ade82d8b5f8a",
+        "sat_invocations": 0,
+        "scope": "Only exact fixed64-cell/246-support scaffold formula; no149 output,157 witness, other pool, solver run or automatic continuation.",
+        "source_pins_sha256": "715031b2cec5524c30ed347aae3226935ccf19f4cf09ae1691956f0266e06b5d",
+        "status": "proof_rejected"
+      }
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "deadline"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.00946820800891146,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.0778743749979185,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "worker_error",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 35168,
+        "returncode": 2,
+        "rss_limit_mib": 256,
+        "rss_samples": 1,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 915,
+      "log_sha256": "16c5053627ed289363c661e8d771083f0d27e0de2b2820ccfe73b382664c866d",
+      "mode": "deadline",
+      "worker_receipt": {
+        "accepted": false,
+        "checker_invocations": 0,
+        "checker_origin": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/monotonic_rup_checker.py",
+        "checker_sha256": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+        "closure": false,
+        "cooperative_seconds": 1e-06,
+        "elapsed_seconds": 0.03513445799762849,
+        "error": "TimeoutError: direct proof management deadline",
+        "identity_valid": false,
+        "log_cap_bytes": 65536,
+        "pins_verified_after": false,
+        "pins_verified_before": false,
+        "protocol": "direct-owned-monotonic-rup-v1",
+        "runtime_manifest_sha256": "1bac1b03987d26c32a58575b66f569cf5d5561adc4f0952dfb96ade82d8b5f8a",
+        "sat_invocations": 0,
+        "scope": "Only exact fixed64-cell/246-support scaffold formula; no149 output,157 witness, other pool, solver run or automatic continuation.",
+        "source_pins_sha256": "48248f617835851284293851fa7e242aff9c2e1be4011c9553f1c292be6662d6",
+        "status": "timeout"
+      }
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "pinchange"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.010912708996329457,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.06659833299636375,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "worker_error",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 33152,
+        "returncode": 2,
+        "rss_limit_mib": 256,
+        "rss_samples": 1,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 1064,
+      "log_sha256": "dd1629ad596204981d2d921946963146ab7ee344d752d4007bfd524e2c863538",
+      "mode": "pinchange",
+      "worker_receipt": {
+        "accepted": false,
+        "checker_invocations": 0,
+        "checker_origin": "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/monotonic_rup_checker.py",
+        "checker_sha256": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+        "closure": false,
+        "cooperative_seconds": 4,
+        "elapsed_seconds": 0.033134875004179776,
+        "error": "ValueError: source/input pin changed: /var/folders/t0/7ntbmsbd7hz77hrjs62n9w2h0000gn/T/tmpvqjnyqcv/synthetic.rup",
+        "identity_valid": false,
+        "log_cap_bytes": 65536,
+        "owned_identity": {
+          "pgid": 5536,
+          "pid": 5536,
+          "shared_regular_log": true,
+          "sid": 5536
+        },
+        "pins_verified_after": false,
+        "pins_verified_before": false,
+        "protocol": "direct-owned-monotonic-rup-v1",
+        "runtime_manifest_sha256": "1bac1b03987d26c32a58575b66f569cf5d5561adc4f0952dfb96ade82d8b5f8a",
+        "sat_invocations": 0,
+        "scope": "Only exact fixed64-cell/246-support scaffold formula; no149 output,157 witness, other pool, solver run or automatic continuation.",
+        "source_pins_sha256": "6fb1596ca85decb9205023438157aef84a169582d7b76f479347cf81ab8c752e",
+        "status": "error"
+      }
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "fork"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.010825124991242774,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.16707250000035856,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "exited",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 58576,
+        "returncode": 0,
+        "rss_limit_mib": 256,
+        "rss_samples": 3,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 104,
+      "log_sha256": "22c3e554930d735108e14827ad071b78ac007316f919064a685217a1da8acb40",
+      "mode": "fork",
+      "worker_receipt": {
+        "fork_reaped": true,
+        "identity": {
+          "pgid": 5550,
+          "pid": 5550,
+          "shared_regular_log": true,
+          "sid": 5550
+        }
+      }
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "stdout"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.011103499986347742,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.053333792006014846,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "worker_error",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 35744,
+        "returncode": 3,
+        "rss_limit_mib": 256,
+        "rss_samples": 1,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 65536,
+      "log_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3",
+      "mode": "stdout"
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "stderr"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.010909874996286817,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.054941500013228506,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "worker_error",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 35440,
+        "returncode": 3,
+        "rss_limit_mib": 256,
+        "rss_samples": 1,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 65536,
+      "log_sha256": "1f8745f0d2d1387ec1af2211a3cf417b2e9e885e853472649c1d979d0e9370e3",
+      "mode": "stderr"
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "sleep"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.07645375000720378,
+        "cleanup_error": null,
+        "cleanup_samples": 2,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 5.081094958004542,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "wall_limit",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 55584,
+        "returncode": -9,
+        "rss_limit_mib": 256,
+        "rss_samples": 107,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": "wall_limit"
+      },
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "sleep"
+    },
+    {
+      "argv": [
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+        "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/direct_owned_proof_tiny_worker.py",
+        "truncated"
+      ],
+      "gate": {
+        "cleanup_elapsed_seconds": 0.012898708999273367,
+        "cleanup_error": null,
+        "cleanup_samples": 1,
+        "cleanup_status": "clean",
+        "elapsed_seconds": 0.06102774999453686,
+        "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+        "gate_status": "exited",
+        "monitor_error": null,
+        "peak_sampled_rss_kib": 32368,
+        "returncode": 0,
+        "rss_limit_mib": 256,
+        "rss_samples": 1,
+        "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+        "seconds_limit": 5,
+        "trigger_gate_status": null
+      },
+      "log_bytes": 12,
+      "log_sha256": "f9ecc86f44b69124aee2f79343774c0adb38972e652a6bac866b34e2fae70e9c",
+      "mode": "truncated",
+      "parent_rejected": true
+    }
+  ],
+  "passed": true,
+  "pure_tests": 8,
+  "scope": "Synthetic tiny files/processes only; no saved actual pair, SAT or n75 execution.",
+  "source_pins": {
+    "research/direct_owned_proof_acceptance.py": "460082c237edce3fc90e4f8c7a6c7d2826c3b1a19427246211263e6e00d9558d",
+    "research/direct_owned_proof_tiny.py": "17e212d115e59e09df8020a0a39cffae29de1cd2342fc687fcd5da43bd40ec82",
+    "research/direct_owned_proof_tiny_worker.py": "1cdf8ebb38246e2eae3e8aaa1459c4530a7652d370250073f9f81850f38bcc7f",
+    "research/direct_owned_saved_proof.py": "1fa2852218baeb097f34779a1d320958866b88e34edd34f0646484284da0f2ea",
+    "research/monotonic_rup_checker.py": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  }
+}
