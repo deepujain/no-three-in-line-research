@@ -592,3 +592,26 @@ Reviewed cap320adapter passed27combinedtinytests; Root6newtestsPASS0.091s. One25
 Observed cheap pair probes motivate a single fresh14..10batch atcap480,max5stages/shared25/30/256 rather than repeatedly writing two-stageadapters; design/source/tinyreviewbeforeactual. Separate explorationQ=depth17minus39 uses66retained points but a different orbit subset fromdepth16; necessaryfreshmask/pair/formula, no importedcuts or learnedpruneintegration. IndependentmathreviewbeforeQsource.
 
 Checkpoint-free public18/17reproduction source/docs independently approved17combinedtinytests; Root4newtestsPASS0.004s. No n79replay performed; recipe explicit conditional native result. 36eccc6CI/Pages bothSUCCESS. Accounted16541.13744280309s; originaldeadline unchanged/best156.
+
+
+## 2026-11-27T09:07:27.267360+00:00 — Dispatcher check; preserve guards and current authoring work
+
+Actual process audit: no owned numerical searches/pool active; threeAIworkers assigned (Engineer14..10source and Qreview; LiteratureQsource; Mathematician tinyproof feasibility then14..10source review). No duplicateexperiment launched. 37ecf77PagesSUCCESS; CI608tests failed two legacyshortprocesspositiveRSS checks incompactsolve/rowquotapreflight, failedjobs rerunonce without guardchanges. Await result. Prooftrace feasibility demonstrated onlyontinyformulae; no n79proofclaim or numericalallocation. Qsource preparedawaitingindependentreview; five-stagebatchsourceinprogress. Budget/deadline unchanged.
+
+
+## 2026-11-27T09:14:00.631180+00:00 — Bounded batch reaches unresolved geometric stage; Q completes
+
+Reviewed14..10cap480batch ran25.255839s,clean132928KiBpeak/all57pinsunchanged. Depth14:299mask/44551pairs/7339binarycuts,nativeUNSAT0models. Depth13:323mask/52003pairs/7866binarycuts,nativeUNSATafter51models/51necessaryternarycuts. Depth12:369mask/67896pairs/9539binarycuts and181models/181savednecessaryternarycuts, thenTIMEOUT; noverdict. Depth11/10unstarted. Entirebatchincomplete; guardworker_error/return2issofttimeout,notmonitorfailure. Independentactualauditpending. Preserveall12evidenceforreviewedcontinuation; noclosed14/13repeat orlostcuts.
+
+IndependentreviewfixedQcanonicalmap/radius/pairgatesbeforeactual. SingleQpair-onlyactual finished0.871009s clean58144KiB/allpinsunchanged;233mask/27028pairs/5857cuts,degree1442vars2575clauses6050lits,nativeUNSAT. No geometricwitness orlearnedcutintegration. Independentactualauditpending. Separateexploration shifts toDESIGNONLYintrinsic9..12source-deletionrange; source/actualneedsmathreview.
+
+37ecf77PagesSUCCESS; singlefailed-jobCIretryagainfailed2legacyshortprocesspositiveRSSchecks(compactpreflight/compactsolve),608tests61.109s. Nofurtherretry,guardunchanged. Accounted16567.26429092809s; deadline/best156unchanged.
+
+
+## 2026-11-27T09:17:40.432723+00:00 — New geometry audited; continuations remain explicit
+
+MathematicalReviewer accepts cap480actualpartialafterall164450pairdecisions/3masks/232ternarycuts independentlymatch.14/13conditionalnativeUNSAT only;12timeoutnoverdict. Exact12seededcontinuationdesign mathapproved: retain9539binary+181ternarycuts/samemaskmap, enforce1000TOTALternarybudget withseededduplicatechecks, atmost819new. Optional11/10fresh onlyafterpriorUNSAT; no14/13repeat/sourceorfrontiermutation. Newsource/tinyreviewrequired.
+
+EngineerindependentlyacceptsQactual: canonicalmap/Q66points/all1521maskbits,233admissibleorbits/all27028pairdecisions/5857cuts match(1477axis+4380determinant). Independentdegreeformula1442vars2575clauses6050literals,final8432clauses17764literals. All24manifest/35receiptfiles andacceptedheads match. NativeUNSATremainsconditional/noBooleanprooforreplay; nolearnedclauseintegration. ScopefixedQwithdiagonal1522only.
+
+Intrinsic9..12repairdesign independentlymathapproved58944vars105251initialclauses/conservative375905final-literalbound; authoringsource/tinyonly. Noautomaticrangeextension. Best156/no valid157/158/novelty.

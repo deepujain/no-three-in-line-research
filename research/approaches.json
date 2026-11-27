@@ -66,19 +66,19 @@
     "id": "A08",
     "name": "Constraint solving",
     "role": "Research Software Engineer",
-    "status": "main prefixes19..15 scoped native UNSAT",
+    "status": "main19..13 scoped UNSAT;12 unresolved",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Fresh16/15cap320 independently audited57616pairs/11331cuts, both nativeUNSAT0models in1.618s. No checked proof or globalbound. Preparing14..10boundedbatch; separate nonancestorQexploration.",
-    "evidence": "research/main-ancestors16-15-cap320-pair-sat-v1-actual-review.md"
+    "finding": "Cap480independentaudit reproduces164450pairs and232ternarycuts. Depth14/13nativeUNSAT;12timesout with181savedcuts,11/10unstarted. No checkedUNSATproof/globalbound. Exact12continuationunderreview.",
+    "evidence": "research/main-ancestors14-through10-cap480-pair-sat-v1-actual-review.md"
   },
   {
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "DFS preserved; randomized pilots curtailed",
+    "status": "fixed nonancestorQ scoped native UNSAT",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Main and middle DFS frontiers remain at 20,261 and 20,000 nodes, without a leaf or completed slice. Restricted paired-color walk pilots produced invalid states with 184 and 84 collinear triples. No improved valid construction.",
-    "evidence": "research/paired-color-seed279401-actual-review.md"
+    "finding": "Q=depth17minusorbit39,66retainedpoints: full233mask/27028pairs/5857cuts independentlyaudited; nativeUNSAT0.871s. No checkedproof/learnedcutintegration. Frozenmain/middleDFSunchanged.",
+    "evidence": "research/near-quarter-q-pair-probe-independent-actual-review.md"
   },
   {
     "id": "A10",
