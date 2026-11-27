@@ -1,0 +1,16 @@
+{
+  "accepted": true,
+  "counts": {
+    "cap_cases": 7,
+    "distinct_prefixes_checked": 1155,
+    "families": 75,
+    "full_solutions": 100,
+    "interruption_points": 92
+  },
+  "scope": "Independent tiny grids only, n=2..5; no n79 work",
+  "script_sha256": "ba06be7e2e9fd305a40cffdadea4ca8877e55272bd9d1eaf288ce6d7f9ca7927",
+  "source_sha256": {
+    "research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "tests/test_source_disjoint_matching_rebuild157.py": "3084b4d27de62b2b2bec8754bbf380fcbdf724b5cfe6464741bf191074e0d72b"
+  }
+}

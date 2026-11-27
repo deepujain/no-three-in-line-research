@@ -1,0 +1,57 @@
+{
+  "job": {
+    "id": "shepherd-source-disjoint-matching-rebuild157-v1",
+    "seconds": 30,
+    "hypothesis": "Retain one deterministic 78-point valid matching and construct a 79-point permutation outside both fixed sources; exact root matching/cover gate and geometry-valid MRV DFS, at most 2000 started insertions, one 25-soft/30-owned/256-MiB pilot; no retry."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/source_disjoint_matching_rebuild157.py",
+    "--seconds",
+    "25",
+    "--max-insertions",
+    "2000",
+    "--output-dir",
+    "data/source-disjoint-matching-rebuild157-v1"
+  ],
+  "sources_before": {
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "data/source-disjoint-matching-rebuild157-independent-tiny-audit.json": "0db246290648b46430985d5a673cbe8fffd63cc17d6f1c00933b77188f3eadf3",
+    "data/source-disjoint-matching-rebuild157-tiny-evidence.json": "6e2ce51d9f47b0f6b0a5b33732614a4227487217229568804cbf4d32e225ec14",
+    "data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "research/literature.md": "64ded563e01e62263afb8acb291b541c4cae3acb2742785f5a766a0f8e220649",
+    "research/mathematics.md": "1c4b59f8a74c00ac75fa8f6c8bb02fce6cfdf387cf8a5f5a924be679e5d7b904",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/source-disjoint-matching-rebuild157-independent-design-review.md": "9801b078ac2b37b17f0fad0c2649d4196f77ed53dec9d3d890878cda993a974b",
+    "research/source-disjoint-matching-rebuild157-independent-source-review.md": "5de2c0238a39cb1c3db6c6763366bf10b0e5488b2efd7f0c3ba8c7a3a54397b7",
+    "research/source-disjoint-matching-rebuild157-method.md": "08a46ce9a4e22baeb619c002be0bbe75b63817171383080e9a2287aca3ebbb00",
+    "research/source-disjoint-matching-rebuild157-proposal.md": "255821c91fa8f3364bd6d39cd98e20c9e536e577d863775d92ee0a82f091f730",
+    "research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "research/source_disjoint_matching_rebuild157_independent_tiny.py": "ba06be7e2e9fd305a40cffdadea4ca8877e55272bd9d1eaf288ce6d7f9ca7927",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_source_disjoint_matching_rebuild157.py": "3084b4d27de62b2b2bec8754bbf380fcbdf724b5cfe6464741bf191074e0d72b",
+    "data/source-disjoint-matching-rebuild157-source-pins.json": "0662f50638f9238033e7bf43a2cb33b69301cef2474ddec6dc34d0476ab0d873"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.8283110829943325,
+  "started_at": "2026-11-27T10:11:53.106818+00:00",
+  "gate": {
+    "gate_status": "worker_error",
+    "trigger_gate_status": null,
+    "returncode": 2,
+    "elapsed_seconds": 0.8282898330071475,
+    "rss_samples": 18,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 48688,
+    "cleanup_elapsed_seconds": 0.01343220799753908,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T10:11:53.935549+00:00",
+  "sources_unchanged": true
+}

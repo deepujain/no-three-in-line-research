@@ -1,0 +1,38 @@
+{
+  "actual_max_started_insertions": 2000,
+  "actual_soft_seconds": 25,
+  "command": ".venv/bin/python -m unittest tests.test_source_disjoint_matching_rebuild157 -v",
+  "decision": "SOURCE_TINY_PASS",
+  "elapsed_seconds": 0.037,
+  "implementation_model": "gpt-6.1-sol",
+  "independent_review": {
+    "additional_families": 75,
+    "audit_path": "data/source-disjoint-matching-rebuild157-independent-tiny-audit.json",
+    "audit_sha256": "0db246290648b46430985d5a673cbe8fffd63cc17d6f1c00933b77188f3eadf3",
+    "cap_cases": 7,
+    "complete_solutions": 100,
+    "distinct_prefixes": 1155,
+    "interruption_points": 92,
+    "path": "research/source-disjoint-matching-rebuild157-independent-source-review.md",
+    "script_path": "research/source_disjoint_matching_rebuild157_independent_tiny.py",
+    "script_sha256": "ba06be7e2e9fd305a40cffdadea4ca8877e55272bd9d1eaf288ce6d7f9ca7927",
+    "sha256": "5de2c0238a39cb1c3db6c6763366bf10b0e5488b2efd7f0c3ba8c7a3a54397b7",
+    "status": "PASS",
+    "supplied_tests_elapsed_seconds": 0.035,
+    "supplied_tests_passed": 14
+  },
+  "n79_decomposition_domains_geometry_matching_or_search": false,
+  "owned_outer_seconds": 30,
+  "owned_rss_mib": 256,
+  "reasoning_effort": "high",
+  "source_sha256": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+  "test_sha256": "3084b4d27de62b2b2bec8754bbf380fcbdf724b5cfe6464741bf191074e0d72b",
+  "tests_passed": 14,
+  "tiny_line_boards": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "tiny_matching_graphs_exhausted": 512
+}
