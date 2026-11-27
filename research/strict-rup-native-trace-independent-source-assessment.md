@@ -1,0 +1,44 @@
+# Strict RUP and native trace compatibility: independent source assessment
+
+Status: SOURCE ONLY. No saved CNF/proof replay, solver, checker, or tiny executable was run. No frozen file changed. This review reads the checker, native Python wrapper, installed PySAT wrapper, existing tests, and accepted actual-audit prose. Engineer supplied static trace counts separately; those counts are attributed below, not independently replayed here.
+
+Reviewed identities:
+
+- research/bounded_rup_checker.py: SHA2567f67d1b6be21c6e70e49b98e4d5c834678490e06579a1ef7b2816f608b21d152.
+- research/boolean_scaffold_native.py: SHA2567e5afb50a90cfd89c3ccde5a7eff5c672b636f9cb7601ab710c20287a65f8efb.
+- research/fixed-pool-boolean-scaffold157-v1-independent-actual-audit.md: SHA256f72db3a5ac7f8518e8e721eb44f932ad09c3b6dd9539cb73618311204f9687f1.
+
+## Finding
+
+No soundness or propagation-completeness defect was found in the frozen strict RUP loop. It negates every added literal, recognizes inconsistent assumptions for a tautological addition, and repeatedly scans the active canonical clauses. A satisfied clause is skipped; an all-false clause proves contradiction; a clause with exactly one unassigned literal forces that literal. Such a forced variable was unassigned, so no previous assignment is overwritten. Every changing pass assigns another variable; a pass with no change is a unit-propagation fixed point. Literal deduplication prevents a repeated literal from incorrectly inflating the unassigned count. Tautological database clauses cannot create a false unit. Thus a non-RUP result has the stated meaning for the current active database, subject to the separate parser/runtime implementation.
+
+The database uses exact multiset deletions. This is a coherent, sound proof contract, but it can lose clauses supporting root assignments retained by a solver. Engineer's static inspection reports2,711 deletions of widths2,3,5,180 additions/578 literals including the final empty clause, and no unit deletion. The earlier unit-deletion hypothesis therefore does not explain this saved trace. A broader root-reason/deletion mismatch remains only a hypothesis; neither source review nor counts locate the first failing proof step or establish its cause.
+
+RUP is strictly narrower than RAT. For F={(-p OR q),(q)}, adding(p) is RAT on pivot p: its only opposite-pivot resolvent is(q), which is already RUP. It is not RUP because F plus(-p) is satisfiable. Consequently a strict RUP checker must reject some legitimate DRAT additions. The current parser also sorts clause literals, destroying the distinguished first-literal pivot convention needed by a DRAT extension. Do not add a RAT fallback to this parser without a separate specification and review. The installed PySAT wrapper describes DRUP extraction; this review found no evidence that the actual failed addition requires RAT. A non-RUP error alone does not establish a format mismatch, malformed native proof, or satisfiable CNF.
+
+The native wrapper creates an empty proof-enabled Glucose3 before inserting all exact parsed input clauses. This correctly avoids the installed PySAT constructor's bootstrap-before-tracing order. The native wrapper copies the trace bytes unchanged, with a file-size cap and hashes. Clause sorting/deduplication before native insertion preserves formula semantics and matches the checker parser; duplicate CNF multiplicities are inserted explicitly. These facts do not prove that every emitted native record satisfies the strict deletion contract. The .rup filename is not a proof-format certificate. Native implementation sources were not present in the inspected environment file inventory, so no native emitter logic was independently audited here.
+
+## Sound proof-only follow-up, if separately reviewed and allocated
+
+A separate **monotonic RUP checker** is mathematically defensible. Start H with the exact saved CNF. For each addition C, require a contradiction by unit propagation in H under the negation of C, then retain C permanently in H. Parse deletion records and maintain separate exact multiset bookkeeping, but do not remove clauses from H. Do not import the solver or treat a rejected addition as an axiom.
+
+Soundness is an induction: initially every clause of H follows from the original CNF. A checked RUP addition is a logical consequence of H and hence of the original CNF. Retention preserves that invariant. An accepted empty addition therefore proves the original CNF unsatisfiable. Ignoring deletions in this inference database does not bypass proof checking; it changes the stated proof contract and may make additional RUP steps checkable. A later acceptance would certify a new check of the same bytes, not retroactively turn the first failed checker receipt into success. Failure remains incomplete and does not authorize RAT, a solver rerun, or automatic cap extension.
+
+Mandatory tiny falsifiers before an actual saved-proof check:
+
+1. A satisfiable CNF with an unjustified unit addition and final empty must be rejected; the candidate cannot be inserted before its RUP check.
+2. The RAT-but-not-RUP example above must still be rejected by the monotonic checker.
+3. An UNSAT three-variable full cube with only an empty proof addition must be rejected: semantic UNSAT is not a substitute for the missing RUP derivation.
+4. Deletion distinction fixture: F={(1),(-1 OR2),(-2)}, then delete(-1 OR2), then add empty. Strict deletion RUP rejects the empty step; monotonic RUP accepts it because the original F is unit-refutable. This deliberately uses a non-unit deletion. Direct truth-table evaluation confirms the original F is UNSAT.
+5. Missing empty, malformed/out-of-range literals, wrong CNF/proof digests, nonexistent or excess multiset deletions, truncated input, cap exhaustion, and a corrupt derived clause must fail closed. Include duplicate literals, opposite literals, duplicate clauses, chained units, and forced assignments of both signs to exercise any new bitset representation.
+6. Compare a new propagation implementation with a structurally independent tiny oracle, and truth-table-check that every accepted addition is entailed. Keep proof/inference semantics explicit; agreement between two copies of the same loop is insufficient.
+
+Require finite input, record, stored-clause/literal, and operation caps, a <=5-second checker deadline inside the owned gate, and deadline/work checks in every traversal that can grow with input. If bitsets replace literal scans, declare the charged work unit and bounded2645-bit width; do not label mask operations as measured literal visits. Parse deletion bookkeeping separately from retained inference storage, and charge retained storage rather than the smaller live multiset. The Engineer-reported static bounds are at most13,294 clause occurrences and34,044 literal occurrences for this exact saved CNF plus every addition; they need independent source/fixture confirmation before use as acceptance limits. The existing50-million work cap is a finite ceiling, not a runtime guarantee.
+
+Any accepted result must bind the exact saved CNF855b54b7c6b05f181ff3c9153ff03c44d310747874577f520ed960a007670fc9 and saved proof4c1fc7141a5c889029db91c0dce0255463f472f4db60192fbfc4d016f65d439e, new checker identity, full parse completion, checked empty step, work/cap status, and a clean owned receipt. No clause omission, trace editing, SAT rerun, or old receipt modification is part of this follow-up. Even successful Boolean certification closes only the independently mapped fixed64-cell/246-support formula, not all scaffolds or the unrestricted157 problem. Until then the actual run remains incomplete, with no closure or149 diagnostic.
+
+## Explicit design disposition
+
+Independently read research/boolean-scaffold-saved-proof-diagnosis-proposal.md, SHA25635fe3399fb794f63ed9874104e4af2d79419cc9c8825f47199822afe4207c3ad. **DESIGN PASS for new source and synthetic tiny implementation only**, with no blocker to that stage. Its entailment induction, separate deletion bookkeeping, fixed saved-pair scope, storage ceilings, five-second/50-million work ceiling, and no automatic RAT/SAT fallback meet the requirements above. Source/tiny review and Root's separate allocation must precede any saved-proof execution.
+
+One test-specification clarification was sent to the Engineer: exhaustive truth assignments check logical entailment, not equivalence to unit propagation. An UNSAT cube is semantically contradictory but not unit-refutable initially. The bitset implementation must also agree with a structurally independent literal-propagation oracle, and must reject the cube-only-empty proof and the RAT-only addition fixture. Every growing loop needs a declared charged or separately finite bound; full parsing and both hashes remain required even after a checked empty clause. This pass does not approve a not-yet-written implementation or any actual proof result.
