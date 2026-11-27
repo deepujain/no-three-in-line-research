@@ -1,9 +1,10 @@
 # Independent compact preflight integration review
 
 Mathematical Reviewer: `gpt-6-astra`, reasoning `high`; reviewed 2026-11-27.
-The frozen integration is approved at source level for a separately scheduled
-build-only preflight. A real-host tiny CLI test remains required because this
-reviewer's sandbox cannot run the host `ps` monitor. No n79 execution occurred.
+The frozen integration is approved for a separately scheduled build-only
+preflight. The Lead completed the real-host tiny gate and then the scheduled
+n79 build; both saved reports were independently inspected below. This
+reviewer did not execute an n79 model or authorize solver search.
 
 ## Reviewed identities
 
@@ -75,11 +76,16 @@ clauses and 3,10,31 line groups respectively. Its search methods raised if
 called; neither was called, and deletion occurred. These were tiny worker
 correctness checks, not host memory measurements.
 
-The real-host command should rerun the new suite, whose final test launches
+The real-host command reruns the new suite, whose final test launches
 the n=3 opt-in CLI with the actual monitor and verifies positive sampled RSS,
 all source hashes, two added clauses, three groups representing eight lines,
-and the explicit no-search result. The Lead owns that remaining test and any
-subsequent larger preflight scheduling.
+and the explicit no-search result. The Lead reported 136 host tests passing
+without skips. The reviewer independently read the saved n=3 CLI report:
+`built`, two clauses, three groups/eight represented lines, source identities
+matching this review, complete hash
+`204ced29cd45616df3009b879750d2abf90890594d4e72c8c34ac0d9a44ed222`,
+0.152871 seconds, two real RSS samples with a peak of 51,600 KiB, exit zero,
+no monitor error, and no search. This completes the real-host tiny gate.
 
 ## Published n71 fixed assignment
 
@@ -108,3 +114,47 @@ the pair-generated set. Exactly one selected diagonal pair handles the main
 and anti-diagonal capacities. Lines with fewer than two selected off-diagonal
 points automatically meet every remaining capacity. No full model construction,
 n79 execution, or unrestricted nonexistence claim follows from this check.
+
+## Scheduled n79 build report audit
+
+The Lead then scheduled `r16-near-quarter-compact-preflight-n79` through the
+existing supervisor. The reviewer independently read both its supervisor
+record and `data/near-quarter-compact-preflight-n79.json`, and compared all five
+reported source hashes plus the supervisor's entrypoint hash to current files.
+Every hash matches the frozen identities above. This was report inspection
+and arithmetic verification, not another n79 build or line enumeration.
+
+The report is internally consistent: the guard exited successfully, return
+code zero, no monitor error, both source checks accepted, all count/CNF/build
+completion flags true, and 2,300,453 emitted clauses equal 2,300,453 completed
+native insertions. The maximum variable ID is 591,304, of which 1,560 are orbit
+decision variables and 589,744 are auxiliaries. The complete model and prefix
+hashes agree:
+
+`909f510443e97c8b909e783115df53f6360f87b18dbce471794ffdf09bb4c2f6`
+
+There are 411,545 C4 line groups, including one special diagonal group, and
+411,544 compiled non-special groups. Their orbit sizes represent 1,644,284
+full geometric lines. An independent arithmetic count confirms these totals:
+for each positive primitive direction `(a,b)` with `a,b<=39`, the number of
+maximal lines containing at least three grid points in that direction is
+`(79-2a)(79-2b)-max(79-3a,0)*max(79-3b,0)`. Sum twice for the two slope signs
+and add 158 horizontal/vertical lines. This gives 1,644,284. Exactly 1,896 of
+these lines pass through the center and have a two-member C4 orbit; all others
+have four members. Therefore `(1644284-1896)/4+1896/2=411545` groups. This also
+agrees with half of the earlier complete half-turn count, 823,090. The 40,605
+diagonal-guard incidence sum is an incidence count, not a count of variables.
+
+Construction finished in 14.522241 seconds under the unchanged 30-second gate.
+Across 331 samples, peak guard-plus-child RSS was 257,776 KiB, or 251.734375 MiB.
+The distance to the 256 MiB sampling threshold was only 4.265625 MiB. Thus this
+specific build passed the sampled gate; it does not establish sufficient
+memory for a solver search, an unsampled peak bound, or a future repeated run.
+The report explicitly retains `search_performed=false` and `solver_result=null`.
+
+The complete formula digest is accepted from the audited hash-producing
+construction and its successful terminal checks; it was not independently
+recomputed by rebuilding the large formula. Any search requires its own
+reviewed wrapper and separately scheduled resource gate. This review neither
+authorizes automatic search nor claims SAT, UNSAT, novelty, or global
+nonexistence.
