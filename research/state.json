@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 15727.90168847009,
+  "scheduled_search_wall_seconds_used": 15826.893561762081,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Audit terminalmiddle120 before scaling. Main20261frontier preserved; no indefinitemainrefill. Newfinite51candidate n71centerednearquarterextension requires source/tinyreview and singleowned30s256MiB Rootallocation before hostexecution.",
+  "next_action": "Inspectactualpoolbeforeacting. Middle600-r2 reviewterminalbeforeanyrefill. Finite51branchclosedonlyspecifiedfixture/zero-deletionnearquarter; LiteratureproposesONEremoved4orbit/addFIVE arithmeticonly, independentreviewbeforenewgeometry. Preserveoriginaldeadline22:59:25UTC/21600aggregatebudget.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,7 +28,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Main600 independentlyaudited20261nodes/no witness/slice; one120s middle1541 continuation starting, finite51fixtureextension preparing separately.",
+  "current_round": "Main20261paused; middle3000audited,no witness; approved600s middlecontinuationstarting. Finite51zero-deletionfixtureextension completelyexcluded bydualchecks+independentexplicittriples.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -36,10 +36,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Middle1541caller120 livepool67136/caller67149; terminal~07:19:15UTC then independentaudit",
-    "Finite51extension source/tinyapproval pending; root5tinytests passed0.018s, no n79run"
+    "Middle600-r2actualoutcomepending",
+    "One-orbit n71repair proposal arithmeticonly pendingreview"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "c739eaf PagesSUCCESS; verification pending check. Prior8056ad2 CI+PagesSUCCESS. Main600 independentlyaudited68stages/17000new\u219220261nodes, noleaf/slice/witness. Newfinitechecker5tinytestsPASS0.018s."
+  "validation_status": "7f4023b CI+PagesSUCCESS. Newfinitechecker root5testsPASS0.018s; authorandreviewer5PASS. Finite51hostcompleteclean2.1713s/47024KiB, independent51explicittriples. Middle120terminal independentlyauditedPASS."
 }

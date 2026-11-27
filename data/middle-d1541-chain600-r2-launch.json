@@ -1,0 +1,15 @@
+{
+  "pid": 74905,
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/experiment_pool.py",
+    "--queue",
+    "research/queue.json",
+    "--max-workers",
+    "1"
+  ],
+  "started_at": "2026-11-27T07:22:01.449506+00:00",
+  "queue_sha256": "8c416433b24403ba2e0c124d554066b6b9e2294b53bd7219c21323c5f9ac9d23",
+  "reservation_seconds": 630,
+  "note": "Singleoutercharge. Prior120independentlyaudited, nooverlapfinite51guard."
+}

@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/near_quarter_packed_chain.py",
+    "--request-template",
+    "data/packed-readonly-n79-middle-d1541-chain120-template.json",
+    "--template-sha256",
+    "86d7a2efef28261bb6eb22f8b43e394120db3214f2a6ee4a71ab4736537d71fa",
+    "--run-id",
+    "475c12e8f2ba29f9d22c2de220f7b629",
+    "--seconds",
+    "120"
+  ],
+  "elapsed_seconds": 96.8205883329938,
+  "entrypoint_sha256": "a5fcb6ad8ee5777fa8d2c44cca5e595c617c1c221fe1ac04bb57b067fd9ea182",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T07:19:20.426826+00:00",
+  "job": {
+    "args": [
+      "--request-template",
+      "data/packed-readonly-n79-middle-d1541-chain120-template.json",
+      "--template-sha256",
+      "86d7a2efef28261bb6eb22f8b43e394120db3214f2a6ee4a71ab4736537d71fa",
+      "--run-id",
+      "475c12e8f2ba29f9d22c2de220f7b629"
+    ],
+    "hypothesis": "Independently approved distinctdiagonal1541 continuation after main600audit; fixed250/30s256MiB, scopecoverage not superiority.",
+    "id": "packed-middle-d1541-chain120-r1",
+    "script": "research/near_quarter_packed_chain.py",
+    "seconds": 120
+  },
+  "log": "data/run-logs/packed-middle-d1541-chain120-r1.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 67149,
+  "started_at": "2026-11-27T07:17:43.605780+00:00",
+  "status": "completed"
+}

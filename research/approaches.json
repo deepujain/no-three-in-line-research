@@ -57,10 +57,10 @@
     "id": "A07",
     "name": "Conics and lifts",
     "role": "Mathematician",
-    "status": "finite fixture extension proposed",
+    "status": "centered zero-deletion extension closed",
     "scope": "Conic constructions and integer-grid embeddings",
-    "finding": "Centered n71nearquarterfixture142points saturates interiorrows/columns; exactly51row-feasible four-orbit boundaryextensions could reach158 within declaredfamily. Arithmeticindependentlyreviewed, tinycheckerPASS; n79geometry notyetexecuted.",
-    "evidence": "research/n71-to-n79-extension-arithmetic-review.md"
+    "finding": "All51row-feasible centeredn71fixture\u2192n79nearquarterzero-deletionextensions dualchecked invalid. Independentreview reconstructed51 and saved explicitcollineartripleeach. Onlythisfixture/family closed. Onecentral-orbit deletion547case arithmeticproposal next.",
+    "evidence": "research/n71-boundary51-actual-review.md"
   },
   {
     "id": "A08",
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "sustained faster exact search",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Main600:68acceptedstages,+17000nodes\u219220261total/577.24s outer; independent hash/parent/gate auditPASS, noleaf/slice/witness. Middle1541 distinctdiagonal120s continuation running afteraudit.",
-    "evidence": "research/near-quarter-packed-chain-main600-r2-actual-review.md"
+    "finding": "Main20261nodes preserved; middle120250\u21923000nodes/no leaf,slice,witness. All11middle stages independentlyaudited. One600s middlecontinuationstarted after noactiveprocessaudit; no superiorityclaim.",
+    "evidence": "research/near-quarter-middle-chain120-actual-review.md"
   },
   {
     "id": "A10",

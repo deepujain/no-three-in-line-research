@@ -1,6 +1,6 @@
 {
   "max_concurrent": 1,
-  "note": "Single reviewed120s middle1541packedwindow, maxworkers1. Main600terminalaudit PASS; no automaticmainrefill.",
+  "note": "Single reviewed600s middle1541packedwindow, maxworkers1; no automaticfurtherrefill.",
   "jobs": [
     {
       "args": [
@@ -2034,6 +2034,20 @@
         "475c12e8f2ba29f9d22c2de220f7b629"
       ],
       "hypothesis": "Independently approved distinctdiagonal1541 continuation after main600audit; fixed250/30s256MiB, scopecoverage not superiority."
+    },
+    {
+      "id": "packed-middle-d1541-chain600-r2",
+      "script": "research/near_quarter_packed_chain.py",
+      "seconds": 600,
+      "args": [
+        "--request-template",
+        "data/packed-readonly-n79-middle-d1541-chain600-template.json",
+        "--template-sha256",
+        "7b519da71d657e216cd148239a54b26bda5f3decb37c5b94e993b7f18a94f86c",
+        "--run-id",
+        "21e38b3a5ea727ffbfad8a1c245f6a2b"
+      ],
+      "hypothesis": "Reviewed distinctdiagonal1541 continuation from3000auditednodes, fixed250/30s256MiB, boundeddiversity allocation not superiorityclaim."
     }
   ]
 }
