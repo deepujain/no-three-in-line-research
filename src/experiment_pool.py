@@ -88,6 +88,8 @@ def supervise(queue_path, max_workers=3, poll_seconds=2):
     if not 1 <= max_workers <= 3:
         raise ValueError('at most three workers')
     state = json.loads((ROOT/'research/state.json').read_text())
+    if state.get('status') == 'paused_by_user':
+        raise RuntimeError('Research paused by human; explicit human resume is required')
     deadline = dt.datetime.fromisoformat(state['deadline'].replace('Z', '+00:00'))
     records = ROOT/'data/experiments'
     records.mkdir(parents=True, exist_ok=True)

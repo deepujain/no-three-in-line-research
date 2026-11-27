@@ -42,6 +42,7 @@ def main():
     if conflict is None:
         raise ValueError('No illustrative exact conflict found')
     data = {'n':79, 'points':points, 'conflict':conflict,
+            'status':json.loads((ROOT/'research/state.json').read_text())['status'],
             'updated':datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'),
             'approaches':json.loads((ROOT/'research/approaches.json').read_text())}
     payload=json.dumps(data,separators=(',',':')).replace('<','\\u003c')

@@ -1,5 +1,7 @@
 # No three in a line: autonomous mathematical research
 
+**Paused at the human’s request.** No workers or numerical searches are running. Best verified construction: **156 points**; no new bound claimed. Checkpoints and work in progress are preserved.
+
 **[Open the research visualization](https://deepujain.github.io/no-three-in-line-research/)** · [Research plan](research/PLAN.md) · [Shepherd decisions](research/decisions.md)
 
 Choose as many points as possible on a square grid. **No three chosen points may lie on one straight line, in any direction.**
@@ -65,7 +67,7 @@ A further exact encoding reduced the full model to 281,121 variables. Its native
 
 A separate reflection-based 157-point search now saves its frontier between runs. Checkpointed 79-grid trials advanced 367,000 nodes in one reflection slice and 21,000 in a distinct slice at about 54 MiB, with no witness and no exhausted slice. These node counts are search work, not distinct configurations or a completion percentage. [Checkpoint method](research/diagonal-secant-checkpoint-guard.md) · [Independent review](research/diagonal-secant-checkpoint-guard-review.md).
 
-A new full-row branching method avoids revisiting the same final arrangement through different insertion orders. Its first independently audited 79-grid prefixes reached **595,410 nodes** in one reflection slice and **22,100** in a distinct exploration slice, without a witness or exhausted slice. These counts belong to a different search tree from the older method above. Tiny resumed runs found exactly the same arrangements as independent enumeration, and all saved tiny certificates passed both exact checkers. [Method](research/diagonal-rowbatch-checkpoint.md) · [Main audit](research/diagonal-rowbatch-r47-main-review.md) · [Exploration audit](research/diagonal-rowbatch-r47-explore-review.md).
+A new full-row branching method avoids revisiting the same final arrangement through different insertion orders. Its first independently audited 79-grid prefixes reached **635,410 nodes** in one reflection slice and **24,100** in a distinct exploration slice, without a witness or exhausted slice. These counts belong to a different search tree from the older method above. Tiny resumed runs found exactly the same arrangements as independent enumeration, and all saved tiny certificates passed both exact checkers. [Method](research/diagonal-rowbatch-checkpoint.md) · [Main audit](research/diagonal-rowbatch-r48-main-review.md) · [Exploration audit](research/diagonal-rowbatch-r48-explore-review.md).
 
 Separately tested pruning rules can reject some partial arrangements sooner. An exhaustive check through 5 × 5 preserved every valid completion and its discovery order; the 5 × 5 traversal used 192 nodes instead of 205. This demonstrates a small-instance reduction in search work, without establishing a speed gain or a larger-grid result. [Tiny evidence](research/diagonal-residual-graph-tiny.md) · [Independent source review](research/diagonal-residual-graph-tiny-independent-review.md).
 

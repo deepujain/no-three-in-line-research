@@ -1,5 +1,7 @@
 # Autonomous research pilot
 
+**PAUSED BY THE HUMAN on 2026-11-27T03:44:29+00:00.** Do not restart research, agents, reviews, experiments or queue allocations from scheduled heartbeats. Resume only after an explicit human request. Existing hard deadline remains unchanged. Scheduler pause calls failed; any wakeups must remain idle.
+
 ## Question
 
 Choose as many points as possible from an n × n square grid, with no three chosen points on any straight line, at any slope. Coordinates use integers from 0 through n−1.

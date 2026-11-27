@@ -1,6 +1,6 @@
 {
   "max_concurrent": 1,
-  "note": "03:35 dispatcher r48 reduced300second allocation, sequential control lanes leave capacity for host gates and unit checks. All prior receipts terminal/source frozen. Protect3,600future seconds.",
+  "note": "PAUSED BY HUMAN. No pending new jobs; all prior jobs receipted. Do not start supervisor or add jobs until explicit human resume.",
   "jobs": [
     {
       "args": [
