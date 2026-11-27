@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "fixed score11 source closed through five deletions",
+    "status": "fixed score11 cap5 and paired rotations closed",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "All35809 deletion sets through5 exclude157/158 repairs of this exact invalid158-point source. Prefix33062 execution reviewed; suffix2747 independently replayed. A coordinated six-point rotation neighborhood is in source review.",
-    "evidence": "data/score11-five-suffix-independent-audit.json"
+    "finding": "All35809 fixed-source deletions through5 exclude157/158 repairs. A separate simultaneous paired three-cycle family completes144400 combinations with no157/158. Independent reviews accept pinned execution; six connected path8 patch arithmetic is in review.",
+    "evidence": "research/score11-paired-early-v1-actual-review.md"
   },
   {
     "id": "A05",

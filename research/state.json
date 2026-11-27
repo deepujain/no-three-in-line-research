@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16503.669890011115,
+  "scheduled_search_wall_seconds_used": 16526.597108386115,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Independently source-review coordinated paired three-edge rotations in both matchings (144400 combinations) before one bounded gate. Separate residual radius-capacity-cut proposal in read-only review; preserve old packed frontiers and closed families.",
+  "next_action": "Math-review connected path8 exact quota arithmetic, then source/tiny and independent review before any actual gate; keep pure small-cut predicate exploration separate from frozen packed frontiers. Do not repeat completed paired rotations.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -30,7 +30,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Independent review accepts all35809 deletions through5 of fixed score11 source as negative; all230 fixed n78 to n80 one-orbit degree records also negative. Best verified remains156.",
+  "current_round": "Coordinated paired three-cycle family completed144400 combinations with no157/158 witness; independent evidence review accepted. Fixed score11 repairs through5 and fixed n80 single-orbit family already closed. Best156.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -38,10 +38,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Paired anchored three-cycle source/tiny before one independently allocated gate",
-    "Capacity-cut proposal distinctness/math review only; no packed variant allocation"
+    "Six connected path8 patch quota arithmetic/math review; source/tiny only after approval",
+    "Pure small-cut predicate source/tiny independent review; no packed integration or actual-prefix allocation"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "0cac60e verification and Pages both succeeded after one legacy zero-RSS monitor failure and one unchanged failed-job retry. Guards unchanged."
+  "validation_status": "252ab0c Pages succeeded. CI failed legacy positive-RSS monitor tests, and its single unchanged retry also failed (compact solve and row-quota preflight). No further retry or guard weakening. New focused repair/rotation tests pass; research evidence gates clean. Next commit checks pending."
 }

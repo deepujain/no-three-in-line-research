@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Paired rotations source/tiny complete; distinct radius-capacity-cut proposal math and prior-work comparison only.",
+    "status": "Pure capacity-cut predicate/tiny complete awaiting review; independently assess engineer connected path8 proposal/source when ready.",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Independent source/tiny review of paired rotations for prospective one bounded gate; no host search."
+    "status": "Connected path8 quota proposal prepared; math approval then source/tiny only before independent review."
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independent n80 actual and score11 cap5 combined audit accepted; source reviews and capacity-cut mathematics.",
+    "status": "Early paired actual review accepted; independent path8 incidence/quota review and capacity-cut predicate review next.",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]
