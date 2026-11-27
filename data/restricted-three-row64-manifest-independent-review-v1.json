@@ -1,0 +1,94 @@
+{
+  "baseline": {
+    "effective_entries_after_self": 298,
+    "fixed_artifact_roles": 51,
+    "inherited_manifest_entries": 228,
+    "mandatory_union_entries": 244,
+    "manifest_bytes": 37364,
+    "manifest_entries": 297,
+    "manifest_sha256": "c041927f3c7554ead5b7bc3d87c69d4186717960676872ab482d6867b6c90c8c",
+    "passed": true,
+    "prior_manifest_self_required": true,
+    "runtime_verifier_worker_metadata_required": true,
+    "scope": "Coordinate-free presence/identity contract only; no artifact contents, worker import, loader, geometry or execution.",
+    "worker_source_identities": 6
+  },
+  "checker_sha256": "de46849003d1e9aa9c107e164838b894d820de914fa6ff736d49e2560d912c10",
+  "independent_union_entries": 244,
+  "manifest": "data/restricted-three-row64-source-pins-v2.json",
+  "manifest_sha256": "c041927f3c7554ead5b7bc3d87c69d4186717960676872ab482d6867b6c90c8c",
+  "original_entries_preserved": 289,
+  "original_manifest_sha256": "feb16b236a7b4b47220040d75f0f7dea28a2401c9b92cd187e947049e98f5842",
+  "original_missing_required": {
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py": "0d5537eb46a898a84cb89ba4aceff2a817c122f8b5873492e5cce06e226ad50c",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a"
+  },
+  "passed": true,
+  "rejection_count": 15,
+  "rejections": [
+    {
+      "case": "original_missing_three",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py"
+    },
+    {
+      "case": "missing:research/restricted_three_row75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py"
+    },
+    {
+      "case": "wrong:research/restricted_three_row75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py"
+    },
+    {
+      "case": "missing:research/restricted_three_row_actual_chain_adapter.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py"
+    },
+    {
+      "case": "wrong:research/restricted_three_row_actual_chain_adapter.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py"
+    },
+    {
+      "case": "missing:research/restricted_three_row_independent_chain_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py"
+    },
+    {
+      "case": "wrong:research/restricted_three_row_independent_chain_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py"
+    },
+    {
+      "case": "missing:research/two_row_suffix_independent_authority_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py"
+    },
+    {
+      "case": "wrong:research/two_row_suffix_independent_authority_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py"
+    },
+    {
+      "case": "missing:research/two_row_descent75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75.py"
+    },
+    {
+      "case": "wrong:research/two_row_descent75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75.py"
+    },
+    {
+      "case": "missing:research/two_row_suffix75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75.py"
+    },
+    {
+      "case": "wrong:research/two_row_suffix75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75.py"
+    },
+    {
+      "case": "self",
+      "error": "manifest self entry"
+    },
+    {
+      "case": "normalized_alias",
+      "error": "pin normalized alias/path"
+    }
+  ],
+  "scope": "Coordinate-free manifest and identity metadata only, independent literal AST source contract. No worker import, actual payload read/hash, geometry, gate, outcome acceptance or retry.",
+  "source_identity_count": 6,
+  "test_sha256": "565b921addcf0ff1a0369ff63818446ab70f18bdfe3f0f186ff75f198ed6f472"
+}

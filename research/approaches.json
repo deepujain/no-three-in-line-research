@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "audited64; new gate stopped before input",
+    "status": "fixed64 reports no gain; family curtailed",
     "scope": "Source-free149on75 with hard rows/soft columns; prior matching rebuild remains capped",
-    "finding": "Independent65\u219264 accepted; no valid149. Fixed64wrapper source/tiny/ownedgates passed, but first actualgate rejected incomplete source manifest before inputs/geometry; correctedmanifest review pending, no automaticretry.",
-    "evidence": "research/restricted-three-row75-independent-actual-v1-metadata-review.md",
+    "finding": "Corrected297pin gate reports16completed/0accepts/U64unchanged, cleanreceipt; independentactualauditpending. Rootcurtails unchangedKpositive/fourcolumnthree-row family; no thirdchunk/capgrowth. Prior65\u219264 accepted; no valid149.",
+    "evidence": "data/restricted-three-row64-v2/report.json",
     "prior_evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
   },
   {

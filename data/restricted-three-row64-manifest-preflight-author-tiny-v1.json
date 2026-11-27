@@ -1,0 +1,2006 @@
+{
+  "baseline": {
+    "effective_entries_after_self": 293,
+    "fixed_artifact_roles": 51,
+    "inherited_manifest_entries": 228,
+    "mandatory_union_entries": 244,
+    "manifest_entries": 292,
+    "passed": true,
+    "prior_manifest_self_required": true,
+    "runtime_verifier_worker_metadata_required": true,
+    "worker_source_identities": 6
+  },
+  "contract_conflict_rejected": true,
+  "passed": true,
+  "preserved_original_manifest_sha256": "feb16b236a7b4b47220040d75f0f7dea28a2401c9b92cd187e947049e98f5842",
+  "rejection_count": 496,
+  "rejections": [
+    {
+      "case": "original289_missing_three_sources",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py"
+    },
+    {
+      "case": "missing:/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "error": "missing required pin: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14"
+    },
+    {
+      "case": "digest:/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "error": "required pin digest: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14"
+    },
+    {
+      "case": "missing:/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py",
+      "error": "missing required pin: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py"
+    },
+    {
+      "case": "digest:/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py",
+      "error": "required pin digest: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-row-block-breakout75-v1.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-row-block-breakout75-v1.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-row-block-breakout75-v1.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-row-block-breakout75-v1.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-descent75-v1.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-descent75-v1.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-descent75-v1.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-descent75-v1.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-suffix75-v1.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-suffix75-v1.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-suffix75-v1.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-two-row-suffix75-v1.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-control-preparation.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-control-preparation.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-control-preparation.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-control-preparation.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-fixed56-preparation.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-fixed56-preparation.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-fixed56-preparation.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-fixed56-preparation.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-interruptions.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-interruptions.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-interruptions.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-interruptions.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-preparation.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-preparation.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-preparation.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-preparation.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-v3-binding.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-v3-binding.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-v3-binding.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-v3-binding.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-worker-audit-v2.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-worker-audit-v2.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-worker-audit-v2.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row-independent-worker-audit-v2.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v1.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v1.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v1.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v1.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v2.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v2.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v2.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v2.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v3.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v3.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v3.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-author-tiny-v3.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3-final.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3-final.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3-final.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3-final.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-index-lifetime-tiny-v3.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-stress.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v2-owned-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime-corrected.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-lifetime.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-stress.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v3-owned-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny-v2.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny-v2.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny-v2.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny-v2.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-author-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-independent-actual-audit.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny-v2.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-author-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-root-memory-envelope.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-source-pins.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-source-pins.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-source-pins.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-source-pins.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/best.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/best.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/best.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/best.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/completed-boundary.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/completed-boundary.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/completed-boundary.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/completed-boundary.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/report.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/report.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/report.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-breakout75-v1/report.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-boundary-fixtures.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-boundary-fixtures.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-boundary-fixtures.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-boundary-fixtures.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-oracle-preparation.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-oracle-preparation.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-oracle-preparation.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-oracle-preparation.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-worker-audit.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-worker-audit.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-worker-audit.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-worker-audit.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-zero-audit.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-zero-audit.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-zero-audit.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/row-block-independent-zero-audit.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-design-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-design-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-design-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-design-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-oracle-preparation.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-oracle-preparation.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-oracle-preparation.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-oracle-preparation.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v2.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v2.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v2.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v2.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v3.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v3.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v3.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent-independent-worker-audit-v3.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny-v3.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny-v3.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny-v3.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny-v3.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-author-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-audit.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-audit.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-audit.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-audit.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-independent-chain-actual-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-input-identities.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-input-identities.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-input-identities.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-input-identities.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-source-pins.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-source-pins.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-source-pins.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-source-pins.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/best.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/best.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/best.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/best.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/completed-boundary.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/completed-boundary.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/completed-boundary.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/completed-boundary.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-001.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-001.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-001.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-001.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-002.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-002.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-002.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-002.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-003.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-003.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-003.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-003.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-004.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-004.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-004.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-004.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-005.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-005.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-005.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-005.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-006.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-006.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-006.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-006.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-007.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-007.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-007.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-007.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-008.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-008.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-008.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-008.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-009.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-009.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-009.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-009.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-010.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-010.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-010.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-010.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-011.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-011.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-011.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-011.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-012.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-012.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-012.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-012.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-013.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-013.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-013.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-013.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-014.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-014.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-014.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-014.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-015.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-015.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-015.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-015.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-016.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-016.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-016.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-016.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-017.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-017.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-017.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-017.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-018.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-018.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-018.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-018.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-019.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-019.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-019.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-019.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-020.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-020.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-020.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-020.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-021.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-021.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-021.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-021.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-022.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-022.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-022.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-022.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-023.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-023.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-023.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-023.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-024.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-024.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-024.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-024.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-025.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-025.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-025.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-025.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-026.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-026.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-026.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-026.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-027.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-027.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-027.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-027.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-028.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-028.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-028.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/improvement-028.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/initial.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/initial.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/initial.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/initial.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/report.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/report.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/report.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v1/report.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-stress.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-descent75-v3-owned-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-priority-independent-design-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-priority-independent-design-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-priority-independent-design-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-priority-independent-design-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-oracle-preparation.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-oracle-preparation.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-oracle-preparation.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-oracle-preparation.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-prefix-fixture.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-prefix-fixture.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-prefix-fixture.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-prefix-fixture.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-v4-source-binding.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-v4-source-binding.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-v4-source-binding.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-v4-source-binding.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-worker-audit-v2.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-worker-audit-v2.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-worker-audit-v2.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix-independent-worker-audit-v2.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v1.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v1.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v1.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v1.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v2.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v2.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v2.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v2.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v3.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v3.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v3.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v3.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v4.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v4.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v4.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny-v4.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-author-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-audit.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-audit.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-audit.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-audit.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-independent-actual-v3.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-input-identities.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-input-identities.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-input-identities.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-input-identities.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-source-pins.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-source-pins.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-source-pins.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-source-pins.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v1/report.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v1/report.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v1/report.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v1/report.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-stress.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v2-owned-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-stress.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v3-owned-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-stress.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.log",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.log"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.log",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/two-row-suffix75-v4-owned-tiny.log"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-independent-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-independent-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-independent-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-boundary-independent-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-design.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-design.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-design.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-design.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-engineering-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-engineering-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-engineering-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-engineering-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-independent-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-independent-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-independent-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/from-scratch-row-block-breakout75-independent-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/owned_process_guard.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/owned_process_guard.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/owned_process_guard.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/owned_process_guard.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-final-v3-mathematical-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-final-v3-mathematical-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-final-v3-mathematical-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-final-v3-mathematical-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-source-tiny-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-source-tiny-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-source-tiny-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-source-tiny-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-design.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-design.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-design.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-design.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-engineering-resource-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-engineering-resource-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-engineering-resource-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-engineering-resource-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-mathematical-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-mathematical-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-mathematical-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-mathematical-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-independent-source-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-independent-source-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-independent-source-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-independent-source-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-source-checklist.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-source-checklist.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-source-checklist.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-source-checklist.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-v3-ownership-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-v3-ownership-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-v3-ownership-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-lifecycle-v3-ownership-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method-v2-frozen.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method-v2-frozen.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method-v2-frozen.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method-v2-frozen.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-method.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_control_independent_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_control_independent_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_control_independent_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_control_independent_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_drive_independent_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_drive_independent_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_drive_independent_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_drive_independent_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_initial_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_initial_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_initial_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_initial_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_index_lifetime_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_run_gate_independent_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_run_gate_independent_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_run_gate_independent_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_run_gate_independent_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_stress.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_stress.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_stress.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_stress.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v1_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v1_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v1_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v1_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v2_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v2_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v2_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_tiny_v2_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v1_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v1_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v1_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v1_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v2_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v2_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v2_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row75_v2_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_control_preparation.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_control_preparation.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_control_preparation.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_control_preparation.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_fixed56_preparation.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_fixed56_preparation.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_fixed56_preparation.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_fixed56_preparation.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_interruptions.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_interruptions.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_interruptions.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_interruptions.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_oracle.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_oracle.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_oracle.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_oracle.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_preparation.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_preparation.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_preparation.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_preparation.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_v3_binding.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_v3_binding.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_v3_binding.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_v3_binding.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit_v1_pin_stopped.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit_v1_pin_stopped.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit_v1_pin_stopped.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_worker_audit_v1_pin_stopped.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-actual-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-actual-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-actual-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-actual-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-source-tiny-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-source-tiny-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-source-tiny-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-independent-source-tiny-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-lifecycle-independent-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-lifecycle-independent-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-lifecycle-independent-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-lifecycle-independent-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-method.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-method.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-method.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-breakout75-method.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-continuation-no-go-and-two-row-design.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-continuation-no-go-and-two-row-design.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-continuation-no-go-and-two-row-design.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-continuation-no-go-and-two-row-design.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-independent-production-review-protocol.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-independent-production-review-protocol.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-independent-production-review-protocol.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row-block-independent-production-review-protocol.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_actual_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_actual_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_actual_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_actual_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_stress.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_stress.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_stress.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_stress.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_breakout75_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_boundary_fixtures.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_boundary_fixtures.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_boundary_fixtures.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_boundary_fixtures.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle_preparation.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle_preparation.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle_preparation.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_oracle_preparation.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_worker_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_worker_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_worker_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_worker_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_zero_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_zero_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_zero_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/row_block_independent_zero_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-design-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-design-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-design-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-design-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-independent-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-independent-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-independent-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-cursor-ledger-independent-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-engineering-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-engineering-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-engineering-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-engineering-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-protocol.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-protocol.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-protocol.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-protocol.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-actual-acceptance-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-production-review-protocol.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-production-review-protocol.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-production-review-protocol.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-production-review-protocol.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-source-tiny-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-source-tiny-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-source-tiny-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-source-tiny-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-v3-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-v3-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-v3-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-independent-v3-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lex-zero-clarification.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lex-zero-clarification.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lex-zero-clarification.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lex-zero-clarification.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lifecycle-independent-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lifecycle-independent-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lifecycle-independent-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-lifecycle-independent-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method-v2.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method-v2.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method-v2.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method-v2.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-method.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-continuation-design.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-continuation-design.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-continuation-design.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-continuation-design.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-independent-mathematical-design-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-independent-mathematical-design-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-independent-mathematical-design-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-descent75-suffix-independent-mathematical-design-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-raw-descent75-lifecycle-review-checklist.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-raw-descent75-lifecycle-review-checklist.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-raw-descent75-lifecycle-review-checklist.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-raw-descent75-lifecycle-review-checklist.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-authority-audit-adapter-v3-independent-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-authority-audit-adapter-v3-independent-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-authority-audit-adapter-v3-independent-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-authority-audit-adapter-v3-independent-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-final-v4-mathematical-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-final-v4-mathematical-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-final-v4-mathematical-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-final-v4-mathematical-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-production-review-protocol.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-production-review-protocol.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-production-review-protocol.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-production-review-protocol.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-source-tiny-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-source-tiny-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-source-tiny-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-independent-source-tiny-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-lifecycle-source-review-checklist.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-lifecycle-source-review-checklist.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-lifecycle-source-review-checklist.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix-lifecycle-source-review-checklist.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-independent-actual-v3-metadata-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-independent-actual-v3-metadata-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-independent-actual-v3-metadata-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-independent-actual-v3-metadata-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-lifecycle-independent-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-lifecycle-independent-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-lifecycle-independent-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-lifecycle-independent-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-method.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-method.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-method.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two-row-suffix75-method.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_actual_chain_adapter.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_actual_chain_adapter.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_actual_chain_adapter.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_actual_chain_adapter.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_chain_independent_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_chain_independent_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_chain_independent_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_chain_independent_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_stress.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_stress.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_stress.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_stress.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny_v2_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny_v2_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny_v2_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_tiny_v2_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v1_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v1_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v1_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v1_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v2_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v2_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v2_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent75_v2_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_chain_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_chain_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_chain_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_chain_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_design_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_design_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_design_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_design_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle_preparation.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle_preparation.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle_preparation.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_oracle_preparation.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_v3_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_v3_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_v3_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_v3_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_worker_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_worker_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_worker_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_descent_independent_worker_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_priority_independent_design_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_priority_independent_design_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_priority_independent_design_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_priority_independent_design_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_actual_authority_adapter.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_actual_authority_adapter.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_actual_authority_adapter.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_actual_authority_adapter.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_chain_independent_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_chain_independent_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_chain_independent_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_chain_independent_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_v4_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_v4_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_v4_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_run_gate_independent_v4_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_stress.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_stress.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_stress.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_stress.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v1_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v1_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v1_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v1_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v2_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v2_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v2_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v2_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v3_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v3_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v3_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_tiny_v3_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v1_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v1_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v1_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v1_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v2_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v2_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v2_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v2_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v3_frozen.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v3_frozen.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v3_frozen.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix75_v3_frozen.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_oracle.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_oracle.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_oracle.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_oracle.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_prefix_fixture.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_prefix_fixture.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_prefix_fixture.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_prefix_fixture.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_preparation.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_preparation.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_preparation.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_preparation.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_v4_source_binding.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_v4_source_binding.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_v4_source_binding.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_v4_source_binding.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_worker_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_worker_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_worker_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_worker_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/verify.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/src/verify.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/verify.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/src/verify.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-source-pins.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-source-pins.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-source-pins.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-source-pins.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-restricted-three-row75-v1.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-restricted-three-row75-v1.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-restricted-three-row75-v1.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/experiments/shepherd-restricted-three-row75-v1.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-audit.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-audit.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-audit.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-audit.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-owned-guard.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-owned-guard.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-owned-guard.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-independent-actual-v1-owned-guard.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/authority.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/authority.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/authority.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/authority.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/initial.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/initial.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/initial.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/initial.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/move-001-attempt-016.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/move-001-attempt-016.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/move-001-attempt-016.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/move-001-attempt-016.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/report.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/report.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/report.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row75-v1/report.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-actual-audit-preparation-addendum.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-actual-audit-preparation-addendum.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-actual-audit-preparation-addendum.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-actual-audit-preparation-addendum.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-chain-audit-source-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-chain-audit-source-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-chain-audit-source-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row-independent-chain-audit-source-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-actual-v1-metadata-review.md",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-actual-v1-metadata-review.md"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-actual-v1-metadata-review.md",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted-three-row75-independent-actual-v1-metadata-review.md"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_actual_chain_adapter.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row_independent_chain_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/two_row_suffix_independent_authority_audit.py"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row64-input-identities.json",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row64-input-identities.json"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row64-input-identities.json",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/data/restricted-three-row64-input-identities.json"
+    },
+    {
+      "case": "missing:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64.py",
+      "error": "missing required pin: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64.py"
+    },
+    {
+      "case": "digest:/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64.py",
+      "error": "required pin digest: /Users/dejain/nvidia/oss/work/no-three-in-line-research/research/restricted_three_row64.py"
+    },
+    {
+      "case": "manifest_self",
+      "error": "manifest self entry"
+    },
+    {
+      "case": "normalized_alias",
+      "error": "pin normalized alias/path"
+    },
+    {
+      "case": "boolean_digest",
+      "error": "pin digest"
+    },
+    {
+      "case": "entry_cap",
+      "error": "pin map/count"
+    },
+    {
+      "case": "duplicate_key",
+      "error": "duplicate JSON key"
+    },
+    {
+      "case": "nonfinite",
+      "error": "nonfinite JSON token"
+    },
+    {
+      "case": "worker_bytes_before_ast",
+      "error": "worker source identity"
+    }
+  ],
+  "scope": "Coordinate-free old/new manifest maps, fixed identity metadata and hash-bound worker AST only. No worker import, outcome artifact decoding, geometry, runtime allocation or retry.",
+  "source_sha256": "de46849003d1e9aa9c107e164838b894d820de914fa6ff736d49e2560d912c10",
+  "test_sha256": "f99d43a166ae2004c50cc01a232b6c59cd72aa075e8f3f808207394fcb8dbd38"
+}
