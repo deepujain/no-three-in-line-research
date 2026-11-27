@@ -1,0 +1,236 @@
+{
+  "accepted": true,
+  "artifact_hashes": {
+    "data/experiments/shepherd-restricted-three-row75-v1.json": "e6a0365371c76a0066397f9a9b01c9c889ea71b56eed5c81773c50a2e0b3344c",
+    "data/restricted-three-row75-source-pins.json": "7d0ab3cc50b2e7349218be5b33ea6897047a69879f27c03693efa7656e16a51d",
+    "data/restricted-three-row75-v1/authority.json": "e97841b317c8854ee50e0252b76d9a3153fef9e39ac8f6108fc841fda68ba55a",
+    "data/restricted-three-row75-v1/initial.json": "2ec89dc7e67e9c63f75300c983a96865f2a2db6964133f71b6f32ec217cb9615",
+    "data/restricted-three-row75-v1/move-001-attempt-016.json": "414f4ac5fb20e84143ba0e26330fcab46b83afd142a5ee4b498028da56c43c76",
+    "data/restricted-three-row75-v1/report.json": "b9edf5e48c259adbbb53b4c23441e923814f859f5566776c220095ebb0d2d45a"
+  },
+  "audit_source_sha256": "0d5537eb46a898a84cb89ba4aceff2a817c122f8b5873492e5cce06e226ad50c",
+  "chain": {
+    "accepted_scores": [
+      65,
+      64
+    ],
+    "accepted_state_hashes": [
+      "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c",
+      "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7"
+    ],
+    "authority_chain_passed": true,
+    "counters": {
+      "accepted": 1,
+      "completed": 16,
+      "started": 16
+    },
+    "cursor": 0,
+    "durable_U": 64,
+    "durable_state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7",
+    "durable_status": "block_cap",
+    "last_start_charge": {
+      "accepted": 0,
+      "completed": 15,
+      "started": 16
+    },
+    "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+    "new_accepted_moves": 1,
+    "observations": [
+      {
+        "cursor": 0,
+        "outcome": "complete",
+        "rows": [
+          7,
+          12,
+          34
+        ],
+        "seq": 1,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 1,
+        "outcome": "complete",
+        "rows": [
+          20,
+          35,
+          39
+        ],
+        "seq": 2,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 2,
+        "outcome": "complete",
+        "rows": [
+          35,
+          64,
+          71
+        ],
+        "seq": 3,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 3,
+        "outcome": "complete",
+        "rows": [
+          23,
+          45,
+          67
+        ],
+        "seq": 4,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 4,
+        "outcome": "complete",
+        "rows": [
+          27,
+          36,
+          45
+        ],
+        "seq": 5,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 5,
+        "outcome": "complete",
+        "rows": [
+          35,
+          38,
+          47
+        ],
+        "seq": 6,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 6,
+        "outcome": "complete",
+        "rows": [
+          2,
+          34,
+          42
+        ],
+        "seq": 7,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 7,
+        "outcome": "complete",
+        "rows": [
+          6,
+          18,
+          35
+        ],
+        "seq": 8,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 8,
+        "outcome": "complete",
+        "rows": [
+          12,
+          42,
+          47
+        ],
+        "seq": 9,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 9,
+        "outcome": "complete",
+        "rows": [
+          15,
+          35,
+          69
+        ],
+        "seq": 10,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 10,
+        "outcome": "complete",
+        "rows": [
+          15,
+          41,
+          55
+        ],
+        "seq": 11,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 11,
+        "outcome": "complete",
+        "rows": [
+          22,
+          27,
+          41
+        ],
+        "seq": 12,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 12,
+        "outcome": "complete",
+        "rows": [
+          35,
+          65,
+          70
+        ],
+        "seq": 13,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 13,
+        "outcome": "complete",
+        "rows": [
+          37,
+          43,
+          67
+        ],
+        "seq": 14,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 14,
+        "outcome": "complete",
+        "rows": [
+          37,
+          45,
+          49
+        ],
+        "seq": 15,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 15,
+        "outcome": "accepted",
+        "rows": [
+          2,
+          12,
+          52
+        ],
+        "seq": 16,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      }
+    ],
+    "pending_attempt": null,
+    "receipt_acceptance_checked": false,
+    "recorded_nonimprovements_not_independent_minima": 15,
+    "side_outputs": [],
+    "unique_states_recounted": 2
+  },
+  "common_helper_sha256": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a",
+  "effective_pins": 229,
+  "elapsed_seconds": 0.5396381249884143,
+  "helper_sha256": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+  "limits": "Recorded minima/domain selection remain source-supported, not independently optimized. Receipt acceptance is distinct from Root audit guard completion. No automatic continuation.",
+  "manifest_entries": 228,
+  "resources": {
+    "elapsed_seconds": 0.4049937500094529,
+    "peak_sampled_rss_kib": 55760,
+    "rss_note": "Sampled RSS observation; not a proved unsampled maximum."
+  },
+  "runtime_path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runtime_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "scope": "Independent direct saved-state chain/rankings and exact report/receipt/pin associations; no optimizer replay."
+}

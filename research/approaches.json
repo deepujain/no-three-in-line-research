@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "three-row reports65\u219264; audit pending",
+    "status": "three-row65\u219264 independently audited",
     "scope": "Source-free149on75 with hard rows/soft columns; prior matching rebuild remains capped",
-    "finding": "One 16-block restricted three-row gate reports one strict move on final block,65\u219264. Clean owned receipt/allpins unchanged; independent accepted-chain audit pending. No valid149 or bound improvement; no continuation allocated.",
-    "evidence": "data/restricted-three-row75-v1/report.json",
+    "finding": "Direct determinant audit confirms65\u219264 and one legal strict move,16ledgerrecords/229pins/cleanreceipt. Only2rows changed withinselected3rowblock; no pair-stuck/three-row necessity. No valid149. Conditional fixed64 continuation DESIGN reviewed; loader resource contract pending, no further search.",
+    "evidence": "research/restricted-three-row75-independent-actual-v1-metadata-review.md",
     "prior_evidence": "research/source-disjoint-matching-rebuild157-v1-actual-review.md"
   },
   {

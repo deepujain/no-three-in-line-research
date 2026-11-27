@@ -1,0 +1,164 @@
+{
+  "limitations": "No actual digest correctness, filesystem behavior, authority parser/geometry correctness, owned process guard, or actual outcome acceptance follows. Those are separate source/tiny and Root-owned gates.",
+  "passed": true,
+  "positive_cases": [
+    {
+      "authenticated_documents": 6,
+      "chain_calls": 1,
+      "effective_pins": 229,
+      "final_counters": {
+        "accepted": 1,
+        "completed": 16,
+        "started": 16
+      },
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 15,
+        "started": 16
+      },
+      "manifest_entries": 228,
+      "mode": "block_cap"
+    },
+    {
+      "authenticated_documents": 5,
+      "chain_calls": 1,
+      "effective_pins": 229,
+      "final_counters": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "manifest_entries": 228,
+      "mode": "search_deadline"
+    },
+    {
+      "authenticated_documents": 5,
+      "chain_calls": 1,
+      "effective_pins": 229,
+      "final_counters": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 0
+      },
+      "last_start_charge": null,
+      "manifest_entries": 228,
+      "mode": "search_deadline"
+    },
+    {
+      "authenticated_documents": 6,
+      "chain_calls": 1,
+      "effective_pins": 229,
+      "final_counters": {
+        "accepted": 1,
+        "completed": 1,
+        "started": 1
+      },
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "manifest_entries": 228,
+      "mode": "zero"
+    }
+  ],
+  "rejections": [
+    {
+      "case": "wrong_fixed_identity_keys",
+      "error": "explicit Root fixed-path identities required"
+    },
+    {
+      "case": "malformed_fixed_digest",
+      "error": "expected digest schema"
+    },
+    {
+      "case": "wrong_manifest_count",
+      "error": "Root supplied manifest count/self association"
+    },
+    {
+      "case": "manifest_self_entry",
+      "error": "Root supplied manifest count/self association"
+    },
+    {
+      "case": "pre_report_pin_mismatch",
+      "error": "pin mapping"
+    },
+    {
+      "case": "pre_receipt_pin_mismatch",
+      "error": "pin mapping"
+    },
+    {
+      "case": "too_many_references",
+      "error": "reference scope"
+    },
+    {
+      "case": "reference_path_escape",
+      "error": "local explicit reference basename"
+    },
+    {
+      "case": "reference_wrong_length",
+      "error": "artifact length binding"
+    },
+    {
+      "case": "initial_order_mismatch",
+      "error": "initial direct candidate hash"
+    },
+    {
+      "case": "postcompletion_charge",
+      "error": "exact precompletion last charge"
+    },
+    {
+      "case": "unsuccessful_report",
+      "error": "accepted report/source contract"
+    },
+    {
+      "case": "pre_source_drift",
+      "error": "pre-audit source/input/runtime drift"
+    },
+    {
+      "case": "pre_helper_drift",
+      "error": "independent helper source drift"
+    },
+    {
+      "case": "authentication_rejection",
+      "error": "synthetic authentication rejection"
+    },
+    {
+      "case": "chain_rejection",
+      "error": "synthetic independent chain rejection"
+    },
+    {
+      "case": "post_source_drift",
+      "error": "post-audit source/artifact drift"
+    },
+    {
+      "case": "post_input_drift",
+      "error": "post-audit source/artifact drift"
+    },
+    {
+      "case": "post_artifact_drift",
+      "error": "post-audit source/artifact drift"
+    },
+    {
+      "case": "post_helper_drift",
+      "error": "post-audit source/artifact drift"
+    },
+    {
+      "case": "post_adapter_drift",
+      "error": "adapter source drift"
+    }
+  ],
+  "scope": "Real audit() orchestration on fully synthetic metadata with closed declared digest, authenticated, and chain stubs. No actual artifact reads, byte authentication, geometry, or optimizer execution.",
+  "sources": {
+    "research/restricted_three_row_actual_chain_adapter.py": "0d5537eb46a898a84cb89ba4aceff2a817c122f8b5873492e5cce06e226ad50c",
+    "research/restricted_three_row_independent_adapter_preparation.py": "8619894fdfc036776a9d8a573e010fad7d0ecb808ed621744e2a8165c52c196b",
+    "research/restricted_three_row_independent_chain_audit.py": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+    "research/restricted_three_row_independent_orchestration_preparation.py": "656e8379c9be88bca35f7e89b44d00dd41315f0f4c4f4202653c0914e16c4ed1",
+    "research/two_row_suffix_independent_authority_audit.py": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a"
+  }
+}

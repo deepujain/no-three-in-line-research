@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "research/restricted_three_row_actual_chain_adapter.py",
+    "--seconds",
+    "25",
+    "--output",
+    "data/restricted-three-row75-independent-actual-v1-audit.json"
+  ],
+  "audit_output_sha256": "ab302755266615a13423b81eb26c887af6a208d643ce1881a478fe5ee591450d",
+  "cleanup_elapsed_seconds": 0.010314458006178029,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "elapsed_seconds": 0.5950390829966636,
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "exited",
+  "monitor_error": null,
+  "peak_sampled_rss_kib": 47984,
+  "returncode": 0,
+  "rss_limit_mib": 256,
+  "rss_samples": 13,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "Independent verification direct saved65/64 chain and16attempt ledger/receipt; no optimizer/search replay. Separate from numerical search receipts.",
+  "seconds_limit": 30,
+  "source_pins": {
+    "research/restricted-three-row-independent-chain-audit-source-review.md": "2d830bf1f7fd45a1d96422700d5298493421d2dcf36e90b2b6bf598fa0fcebe9",
+    "research/restricted_three_row_actual_chain_adapter.py": "0d5537eb46a898a84cb89ba4aceff2a817c122f8b5873492e5cce06e226ad50c",
+    "research/restricted_three_row_independent_chain_audit.py": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+    "research/two_row_suffix_independent_authority_audit.py": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a"
+  },
+  "status": "completed",
+  "trigger_gate_status": null
+}

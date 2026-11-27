@@ -1,0 +1,61 @@
+{
+  "adapter_sha256": "0d5537eb46a898a84cb89ba4aceff2a817c122f8b5873492e5cce06e226ad50c",
+  "corruption_rejections": [
+    "last_completed14",
+    "last_completed16",
+    "last_accepted1",
+    "last_started15",
+    "manifest_missing_original",
+    "manifest_self_present",
+    "report_missing_self_pin",
+    "receipt_pin_mismatch",
+    "wrong_argv",
+    "receipt_returncode",
+    "bool_returncode",
+    "dirty_cleanup",
+    "wall_limit",
+    "rss_limit",
+    "source_drift",
+    "report_failure",
+    "metadata_error",
+    "uncertain_authority",
+    "wrong_authority_hash",
+    "wrong_state",
+    "wrong_publications",
+    "indexes_over_cap",
+    "wrong_handoff",
+    "wrong_initial_counts",
+    "cap_pending"
+  ],
+  "limits": "Does not test actual filesystem/guard behavior. Pure chain helper is tested separately; this harness passes declared chain results.",
+  "passed": true,
+  "positive_cases": [
+    {
+      "effective_pins": 7,
+      "manifest_entries": 6,
+      "mode": "cap"
+    },
+    {
+      "effective_pins": 229,
+      "manifest_entries": 228,
+      "mode": "cap"
+    },
+    {
+      "effective_pins": 229,
+      "manifest_entries": 228,
+      "mode": "pending"
+    },
+    {
+      "effective_pins": 229,
+      "manifest_entries": 228,
+      "mode": "nostart"
+    },
+    {
+      "effective_pins": 229,
+      "manifest_entries": 228,
+      "mode": "zero"
+    }
+  ],
+  "scope": "Pure synthetic metadata association only; no actual reads, n75 coordinates, byte-hashing or geometry execution.",
+  "source_sha256": "8619894fdfc036776a9d8a573e010fad7d0ecb808ed621744e2a8165c52c196b"
+}

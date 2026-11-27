@@ -1,0 +1,680 @@
+{
+  "cases": {
+    "dense_zero": {
+      "accepted_scores": [
+        8,
+        0
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+        "4f73ca8c056dc0376881ff0c60310c83a713939ac7d3297f955dfbd679062c43"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 1,
+        "completed": 1,
+        "started": 1
+      },
+      "cursor": 0,
+      "durable_U": 0,
+      "durable_state_hash": "4f73ca8c056dc0376881ff0c60310c83a713939ac7d3297f955dfbd679062c43",
+      "durable_status": "zero",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 1,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "accepted",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        }
+      ],
+      "pending_attempt": null,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 0,
+      "side_outputs": [
+        {
+          "U": 0,
+          "adopted": true,
+          "kind": "authoritative_witness",
+          "state_hash": "4f73ca8c056dc0376881ff0c60310c83a713939ac7d3297f955dfbd679062c43"
+        }
+      ],
+      "unique_states_recounted": 2
+    },
+    "first_positive": {
+      "accepted_scores": [
+        8,
+        6
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+        "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 1,
+        "completed": 4,
+        "started": 4
+      },
+      "cursor": 0,
+      "durable_U": 6,
+      "durable_state_hash": "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6",
+      "durable_status": "active",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 3,
+        "started": 4
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 1,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 1,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            3
+          ],
+          "seq": 2,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 2,
+          "outcome": "complete",
+          "rows": [
+            0,
+            2,
+            3
+          ],
+          "seq": 3,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 3,
+          "outcome": "accepted",
+          "rows": [
+            1,
+            2,
+            3
+          ],
+          "seq": 4,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        }
+      ],
+      "pending_attempt": null,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 3,
+      "side_outputs": [],
+      "unique_states_recounted": 2
+    },
+    "global_cap": {
+      "accepted_scores": [
+        8,
+        6,
+        5,
+        4,
+        3
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+        "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6",
+        "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496",
+        "e689597f595d72de5fca56915eefd0418b38af51bf54a8ae2353af000e4c13ad",
+        "9f8b6e84f6726dafb0f899b487101fb883b781636ba8dd802106515f22fbe811"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 4,
+        "completed": 16,
+        "started": 16
+      },
+      "cursor": 0,
+      "durable_U": 3,
+      "durable_state_hash": "9f8b6e84f6726dafb0f899b487101fb883b781636ba8dd802106515f22fbe811",
+      "durable_status": "block_cap",
+      "last_start_charge": {
+        "accepted": 3,
+        "completed": 15,
+        "started": 16
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 4,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 1,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            3
+          ],
+          "seq": 2,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 2,
+          "outcome": "complete",
+          "rows": [
+            0,
+            2,
+            3
+          ],
+          "seq": 3,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 3,
+          "outcome": "accepted",
+          "rows": [
+            1,
+            2,
+            3
+          ],
+          "seq": 4,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 5,
+          "state_hash": "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6"
+        },
+        {
+          "cursor": 1,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            3
+          ],
+          "seq": 6,
+          "state_hash": "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6"
+        },
+        {
+          "cursor": 2,
+          "outcome": "complete",
+          "rows": [
+            0,
+            2,
+            3
+          ],
+          "seq": 7,
+          "state_hash": "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6"
+        },
+        {
+          "cursor": 3,
+          "outcome": "accepted",
+          "rows": [
+            1,
+            2,
+            3
+          ],
+          "seq": 8,
+          "state_hash": "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6"
+        },
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 9,
+          "state_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496"
+        },
+        {
+          "cursor": 1,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            3
+          ],
+          "seq": 10,
+          "state_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496"
+        },
+        {
+          "cursor": 2,
+          "outcome": "complete",
+          "rows": [
+            0,
+            2,
+            3
+          ],
+          "seq": 11,
+          "state_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496"
+        },
+        {
+          "cursor": 3,
+          "outcome": "accepted",
+          "rows": [
+            1,
+            2,
+            3
+          ],
+          "seq": 12,
+          "state_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496"
+        },
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 13,
+          "state_hash": "e689597f595d72de5fca56915eefd0418b38af51bf54a8ae2353af000e4c13ad"
+        },
+        {
+          "cursor": 1,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            3
+          ],
+          "seq": 14,
+          "state_hash": "e689597f595d72de5fca56915eefd0418b38af51bf54a8ae2353af000e4c13ad"
+        },
+        {
+          "cursor": 2,
+          "outcome": "complete",
+          "rows": [
+            0,
+            2,
+            3
+          ],
+          "seq": 15,
+          "state_hash": "e689597f595d72de5fca56915eefd0418b38af51bf54a8ae2353af000e4c13ad"
+        },
+        {
+          "cursor": 3,
+          "outcome": "accepted",
+          "rows": [
+            1,
+            2,
+            3
+          ],
+          "seq": 16,
+          "state_hash": "e689597f595d72de5fca56915eefd0418b38af51bf54a8ae2353af000e4c13ad"
+        }
+      ],
+      "pending_attempt": null,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 12,
+      "side_outputs": [],
+      "unique_states_recounted": 5
+    },
+    "initial": {
+      "accepted_scores": [
+        8
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 0
+      },
+      "cursor": 0,
+      "durable_U": 8,
+      "durable_state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+      "durable_status": "active",
+      "last_start_charge": null,
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 0,
+      "observations": [],
+      "pending_attempt": null,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 0,
+      "side_outputs": [],
+      "unique_states_recounted": 1
+    },
+    "nonimprovement": {
+      "accepted_scores": [
+        8
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 0,
+        "completed": 1,
+        "started": 1
+      },
+      "cursor": 1,
+      "durable_U": 8,
+      "durable_state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+      "durable_status": "active",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 0,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        }
+      ],
+      "pending_attempt": null,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 1,
+      "side_outputs": [],
+      "unique_states_recounted": 1
+    },
+    "pending": {
+      "accepted_scores": [
+        8
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "cursor": 0,
+      "durable_U": 8,
+      "durable_state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+      "durable_status": "active",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 0,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "pending",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        }
+      ],
+      "pending_attempt": 1,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 0,
+      "side_outputs": [],
+      "unique_states_recounted": 1
+    },
+    "positive_orphan": {
+      "accepted_scores": [
+        8
+      ],
+      "accepted_state_hashes": [
+        "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 0,
+        "completed": 3,
+        "started": 4
+      },
+      "cursor": 3,
+      "durable_U": 8,
+      "durable_state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141",
+      "durable_status": "active",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 3,
+        "started": 4
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 0,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 1,
+          "outcome": "complete",
+          "rows": [
+            0,
+            1,
+            3
+          ],
+          "seq": 2,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 2,
+          "outcome": "complete",
+          "rows": [
+            0,
+            2,
+            3
+          ],
+          "seq": 3,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        },
+        {
+          "cursor": 3,
+          "outcome": "pending",
+          "rows": [
+            1,
+            2,
+            3
+          ],
+          "seq": 4,
+          "state_hash": "28474e55c0fc5ede60b8dba6c41da07a199864791406cc577deded5bb944a141"
+        }
+      ],
+      "pending_attempt": 4,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 3,
+      "side_outputs": [
+        {
+          "U": 6,
+          "adopted": false,
+          "kind": "orphan_move",
+          "state_hash": "e3056e1584115064c52d18c534546894a1c01f5b2f46c93bec820bb73647b3f6"
+        }
+      ],
+      "unique_states_recounted": 2
+    },
+    "saved_zero_old_pending": {
+      "accepted_scores": [
+        1
+      ],
+      "accepted_state_hashes": [
+        "f8ba110ddd4f062b5973fbd6b005ea2745785978a1a71f3fa0083109b48a84f6"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "cursor": 0,
+      "durable_U": 1,
+      "durable_state_hash": "f8ba110ddd4f062b5973fbd6b005ea2745785978a1a71f3fa0083109b48a84f6",
+      "durable_status": "active",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 0,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "pending",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "f8ba110ddd4f062b5973fbd6b005ea2745785978a1a71f3fa0083109b48a84f6"
+        }
+      ],
+      "pending_attempt": 1,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 0,
+      "side_outputs": [
+        {
+          "U": 0,
+          "adopted": false,
+          "kind": "saved_witness",
+          "state_hash": "2692786db13f098f25db5e00d8a748f520119c8c9bba720ec00a84cf476dd8d8"
+        },
+        {
+          "U": 0,
+          "adopted": false,
+          "kind": "orphan_move",
+          "state_hash": "2692786db13f098f25db5e00d8a748f520119c8c9bba720ec00a84cf476dd8d8"
+        }
+      ],
+      "unique_states_recounted": 2
+    },
+    "zero": {
+      "accepted_scores": [
+        1,
+        0
+      ],
+      "accepted_state_hashes": [
+        "f8ba110ddd4f062b5973fbd6b005ea2745785978a1a71f3fa0083109b48a84f6",
+        "2692786db13f098f25db5e00d8a748f520119c8c9bba720ec00a84cf476dd8d8"
+      ],
+      "authority_chain_passed": true,
+      "counters": {
+        "accepted": 1,
+        "completed": 1,
+        "started": 1
+      },
+      "cursor": 0,
+      "durable_U": 0,
+      "durable_state_hash": "2692786db13f098f25db5e00d8a748f520119c8c9bba720ec00a84cf476dd8d8",
+      "durable_status": "zero",
+      "last_start_charge": {
+        "accepted": 0,
+        "completed": 0,
+        "started": 1
+      },
+      "limits": "Direct accepted/side scores, candidate rankings and ledger/support only. Domain selection and recorded minima remain source-supported. No optimizer replay, exclusion, filesystem or receipt acceptance.",
+      "new_accepted_moves": 1,
+      "observations": [
+        {
+          "cursor": 0,
+          "outcome": "accepted",
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "seq": 1,
+          "state_hash": "f8ba110ddd4f062b5973fbd6b005ea2745785978a1a71f3fa0083109b48a84f6"
+        }
+      ],
+      "pending_attempt": null,
+      "receipt_acceptance_checked": false,
+      "recorded_nonimprovements_not_independent_minima": 0,
+      "side_outputs": [
+        {
+          "U": 0,
+          "adopted": true,
+          "kind": "authoritative_witness",
+          "state_hash": "2692786db13f098f25db5e00d8a748f520119c8c9bba720ec00a84cf476dd8d8"
+        }
+      ],
+      "unique_states_recounted": 2
+    }
+  },
+  "corruption_rejections": [
+    "bool_zero_counter",
+    "bool_cursor",
+    "bool_seq",
+    "wrong_start_charge",
+    "pending_lost",
+    "wrong_order",
+    "wrong_rows",
+    "wrong_before_state",
+    "wrong_after_state",
+    "missing_move",
+    "bad_move_hash",
+    "old_cursor_after_accept",
+    "positive_partial",
+    "missing_zero_witness",
+    "unexhausted_cap",
+    "unexhausted_list",
+    "bad_domain",
+    "bad_minimum_columns"
+  ],
+  "elapsed_seconds": 0.030532958000549115,
+  "helper_sha256": "1c896c070f4892a977fcc639e6d1a13d6c436c3d87b07b8674d8edaa1a221a96",
+  "limits": "Memory callbacks/synthetic wrappers. Positive multiaccept/nonimprovement route uses disclosed nonoptimal control stub with real direct point scores, not minimum evidence. No actual input or receipt acceptance.",
+  "passed": true,
+  "source_sha256": "5510991fe6281f20e32b85fe1751d510b5cf602f246bfda0997f35dc22a942a1",
+  "worker_sha256": "d4d3a272ca8691c110b881ba739d31f95a858406c20e711ef588e712ebff794c"
+}

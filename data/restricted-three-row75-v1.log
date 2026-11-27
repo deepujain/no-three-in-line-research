@@ -1,0 +1,1 @@
+{"accepted": true, "authority_publications": 34, "elapsed_seconds": 0.3377914580050856, "state": {"U": 64, "counters": {"accepted": 1, "completed": 16, "started": 16}, "cursor": 0, "generation": 1, "n": 75, "pending": null, "state_hash": "b72f8f1ad19c2d06e97bd31de96ab57ed7d4d96af19429b27e5b223b82e444f7", "status": "block_cap"}, "status": "block_cap", "witness_saved": false}
