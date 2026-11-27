@@ -232,6 +232,11 @@ def main(argv=None):
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
         from research.diagonal_secant_guard import main as diagonal_guard_main
         return diagonal_guard_main(arguments, started=_PROCESS_STARTED if argv is None else time.monotonic())
+    if '--near-quarter-direct-solve' in arguments:
+        arguments.remove('--near-quarter-direct-solve')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.near_quarter_direct_solve import main as direct_solve_main
+        return direct_solve_main(arguments)
     if '--near-quarter-direct-preflight' in arguments:
         arguments.remove('--near-quarter-direct-preflight')
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))

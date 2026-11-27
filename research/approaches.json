@@ -68,17 +68,17 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Checkpointed 157-point DFS advanced 7,000 n79 nodes over three accepted, hash-linked runs at about 54 MiB. No witness or exhausted slice; resumable frontier retained.",
-    "evidence": "data/diagonal-checkpoint-trial-03-report.json"
+    "finding": "Checkpointed 157-point DFS reached 27,000 nodes in reflection slice(0,0) plus 1,000 in distinct slice(0,1), around54MiB. No witness or exhausted slice; saved frontiers retained.",
+    "evidence": "research/diagonal-checkpoint-r29-review.md"
   },
   {
     "id": "A09",
     "name": "Symmetry restrictions",
     "role": "Mathematician",
-    "status": "exploring",
+    "status": "native solver paused",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Row-floor model builds at 218.47 MiB, but solve reached 276.02 MiB and was stopped at the unchanged 256 MiB cap. No witness or UNSAT; further reduction under review",
-    "evidence": "data/near-quarter-row-quota-owned-solve-n79.json"
+    "finding": "Threshold(7,7) built2193179clauses/281121variables, but its solve hit291.39MiB sampled RSS and was stopped at256MiB cap. Noresult/witness; unchanged full-model Glucose trials paused.",
+    "evidence": "data/direct-threshold-solve77-n79.json"
   },
   {
     "id": "A10",

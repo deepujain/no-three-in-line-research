@@ -905,6 +905,29 @@
         "--output",
         "data/direct-threshold-build77-n79.json"
       ]
+    },
+    {
+      "id": "r31-direct-threshold-solve77-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "First(7,7)native solve after independent adapter/finalCLI review and all21actualhosttinytests. Mandatory acceptedr30fullCNFhash, explicitthresholds,30sec/256MiB unchanged, includingrebuild/solve/cleanup interval. Fewer variables may change solve allocation despite higherbuildpeak; cutoff is incomplete, SAT requiresdualchecks/durablewitness, False onlyrestrictedsolverreport. Noautomaticrepeat or capincrease.",
+      "args": [
+        "--near-quarter-direct-solve",
+        "--n",
+        "79",
+        "--atmost-two-direct-limit",
+        "7",
+        "--conditional-atmost-one-direct-limit",
+        "7",
+        "--rss-mib",
+        "256",
+        "--expected-model-sha256",
+        "0db9f90c8b76e6b25d071598d156964e600b0b047c4c50b03cd4fe5c31ef931a",
+        "--output",
+        "data/direct-threshold-solve77-n79.json",
+        "--witness-directory",
+        "data/direct-threshold-solve77-witnesses"
+      ]
     }
   ]
 }
