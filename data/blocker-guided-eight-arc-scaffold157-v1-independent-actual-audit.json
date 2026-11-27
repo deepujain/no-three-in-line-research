@@ -1,0 +1,137 @@
+{
+  "accepted": true,
+  "accepted_chain_heads_unchanged": [
+    {
+      "path": "data/packed-readonly-n79-r1.chain/accepted.json",
+      "sha256": "cd3977d726cbd374ca0fa75c5526eb62db0eb096983f7c8c505d3ead779cfa24"
+    },
+    {
+      "path": "data/packed-readonly-n79-middle-d1541.chain/accepted.json",
+      "sha256": "cce89fcc680e137202ec9f8cd6f5f39f2753a03a8742c47ac209a6b118950a8e"
+    }
+  ],
+  "all_nontrivial_buckets": 55307,
+  "audit_elapsed_seconds": 0.4059834170038812,
+  "closure": false,
+  "completion_search_run": false,
+  "decision": "Curtail this declared gate. Depth seven is an unpersisted partial prefix with possible unhit clauses, not a verified150 scaffold or near-completion certificate. Low cost establishes resource headroom only. No unchanged retry, cap escalation or completion allocation is justified by this result alone.",
+  "guard": {
+    "cleanup_status": "clean",
+    "cooperative_cap_exit": true,
+    "original_returncode": 2,
+    "original_status": "worker_error",
+    "outer_seconds": 0.704472249999526,
+    "peak_sampled_rss_kib": 49552
+  },
+  "historical_manifests_verified": {
+    "data/conflict-directed-sixteen-cycle-rebuild157-source-pins.json": 21,
+    "data/source-disjoint-matching-rebuild157-source-pins.json": 15
+  },
+  "independent_integer_x_slices": 961272,
+  "initial_conflict_count": 5,
+  "initial_conflicts": [
+    [
+      [
+        12,
+        75
+      ],
+      [
+        26,
+        77
+      ],
+      [
+        33,
+        78
+      ]
+    ],
+    [
+      [
+        33,
+        78
+      ],
+      [
+        34,
+        73
+      ],
+      [
+        48,
+        3
+      ]
+    ],
+    [
+      [
+        33,
+        78
+      ],
+      [
+        39,
+        74
+      ],
+      [
+        42,
+        72
+      ]
+    ],
+    [
+      [
+        33,
+        78
+      ],
+      [
+        40,
+        50
+      ],
+      [
+        50,
+        10
+      ]
+    ],
+    [
+      [
+        42,
+        24
+      ],
+      [
+        57,
+        14
+      ],
+      [
+        78,
+        0
+      ]
+    ]
+  ],
+  "manifest_pins": 26,
+  "outside_cells": 6083,
+  "outside_old_pair_incidences": 55445,
+  "pair_table_determinants": 445536,
+  "pair_table_entries": 2016,
+  "pair_tables_canonical_sha256": "d901f6448c3910cfd3ebc32c16288871fa224223b87ef1e339bf299addc2d104",
+  "pool_matching_size_and_cover_size": 24,
+  "pool_order_and_lower_bounds_equal": true,
+  "ready149": null,
+  "receipt_sha256": "1f38a57a8f0d223a2606e17a8e1bfa570c4a61bea77dedcebbee07e66975c516",
+  "receipt_source_pins": 27,
+  "report_pins": 7,
+  "report_sha256": "b98c5d0b4b228d3bba4f625bd1f5e40891db178cd63296f2bb0cffefedb8aea9",
+  "root_checks": 0,
+  "scaffold_constructed": false,
+  "scope": "Fixed completed preprocessing, saved certificate, identities and guard audited; search trajectory not replayed.",
+  "script_sha256": "c2e712976923f4b04e3a292682b2a848e404d7cca2ef1f34d8a86bda6105a3e3",
+  "search_replayed": false,
+  "selected_pool_direct_pair_determinants": 783744,
+  "source_attributed_unreplayed_search_counters": {
+    "arc_admissions": 20,
+    "arc_attempts_started": 4096,
+    "arc_rollbacks": 20,
+    "bucket_bounds_completed": 2209,
+    "clauses_completed": 119,
+    "forced_points_completed": 1298,
+    "maximum_seeded": 7,
+    "pair_lookups_completed": 686
+  },
+  "support_arcs": 246,
+  "support_arcs_canonical_sha256": "78f575d75e81f2de64bb95fbf411540a0fc57bb1ac8d17d469cefbc549a06d88",
+  "unsaved_preprocessing_note": "Buckets/supports/tables are independently reconstructed and compared to pinned pure helpers; no persisted table bytes exist.",
+  "witness157": null
+}

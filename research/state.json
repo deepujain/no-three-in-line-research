@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16735.390974927075,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Audit scaffold actual; assess explicitlyreviewed frontier-preserving continuation vs curtailment.",
+  "next_action": "Design/review compactBoolean projection of audited scaffold pool, replacing order-sensitiveDFS; no actualallocation.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Scaffoldpilot capped4096arc examinations, maxseeded7, no8arc/rootready149 artifact. Actualauditpending; no automaticcontinuation.",
+  "current_round": "Scaffold fixed preprocessing independently audited; no scaffold/root, depth7 not verified progress. Unchanged continuation rejected.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,12 +40,11 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Scaffold actualaudit",
-    "Frontier-preserving continuation design assessment"
+    "CompactBoolean scaffold projection design/resource/adversarial reviews"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "6dda190 CI/PagesbothSUCCESS; scaffold source/lifecyclePASSaa7896e7/7ff0c331,Root48testsPASS0.327s. Actualclean0.70447225s49552KiB/allpinsunchanged, incomplete.",
+  "validation_status": "ed89b7d CI/Pagesqueued atcheck. Scaffoldactual independentlyaccepted828ae6c5, incomplete/noexclusion; curtaildecision26320f19 independentlyagreed42c61806.",
   "last_formal_review_at": "2026-11-27T10:24:02.922229+00:00",
   "review_outcome": "No improvement in verified cardinality; retain only reviewed compound-cycle construction exploration, no repeated capped/closed work."
 }
