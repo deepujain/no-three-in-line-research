@@ -1,0 +1,24 @@
+{
+  "full_suite": {
+    "command": ".venv/bin/python research/portable_unittest.py",
+    "tests_run": 780,
+    "skipped": 8,
+    "failures": 3,
+    "elapsed_seconds": 45.407,
+    "failure_kind": "Three existing near-quarter host process startup errors: Operation not permitted",
+    "log_sha256": "23ac4cbaa6800a225ca00b2a5757cbd19f62d226bff95d7801875179f84db509"
+  },
+  "focused_rerun": {
+    "tests": [
+      "tests.test_near_quarter_compact_preflight.CompactPreflightTests.test_real_host_subprocess_build_via_existing_entrypoint",
+      "tests.test_near_quarter_preflight_dispatch.PreflightDispatchTests.test_subprocess_build_only_n3_report_records_transitive_sources",
+      "tests.test_near_quarter_row_quota_preflight.RowQuotaPreflightTests.test_real_host_subprocess_build_n3_n5"
+    ],
+    "tests_run": 3,
+    "passed": 3,
+    "elapsed_seconds": 0.668
+  },
+  "frozen_guards_changed": false,
+  "new_tests_passed": true,
+  "recorded_at": "2026-11-27T12:15:39.935295+00:00"
+}

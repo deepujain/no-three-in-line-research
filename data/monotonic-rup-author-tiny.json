@@ -1,0 +1,139 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "tests.test_monotonic_rup_checker"
+  ],
+  "evidence": [
+    {
+      "fixture": "accepted",
+      "formula": [
+        [
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -2
+        ]
+      ],
+      "proof": "d -1 2 0\n0\n",
+      "report": {
+        "checker_invocations": 1,
+        "checker_process": {
+          "cleanup": {
+            "clean": true,
+            "errors": [],
+            "observed_pids": [
+              87328
+            ],
+            "seconds": 0.009265625005355105
+          },
+          "elapsed_seconds": 0.05417337499966379,
+          "reason": "exited",
+          "returncode": 0,
+          "stderr": "",
+          "stdout": "{\"accepted\": true, \"active_clauses\": 3, \"additions\": 1, \"checked_empty_line\": 2, \"closure\": true, \"cnf_bytes\": 26, \"cnf_sha256\": \"ae8a60b8e3fd19c99cb52456f7d12cc81c03fd32b64587482939c671399a7df7\", \"deletions\": 1, \"expected_cnf_sha256\": \"ae8a60b8e3fd19c99cb52456f7d12cc81c03fd32b64587482939c671399a7df7\", \"expected_proof_sha256\": \"fff7f6aa8337f4341aca7334455677a5a7ce9a21da750601900ff30d6100165f\", \"failure_clause\": null, \"failure_line\": null, \"format\": \"monotonic RUP; exact active multiset deletion validation\", \"full_parse_complete\": true, \"proof_bytes\": 11, \"proof_sha256\": \"fff7f6aa8337f4341aca7334455677a5a7ce9a21da750601900ff30d6100165f\", \"records\": 2, \"retained_clauses\": 4, \"retained_literals\": 4, \"status\": \"checked_monotonic_rup_unsat\", \"variables\": 2, \"work\": 38, \"work_unit\": \"parser token/block and mask-clause width+1; bounded2645-bit operands\"}\n"
+        },
+        "closure": true,
+        "complete": true,
+        "proof_check": {
+          "accepted": true,
+          "active_clauses": 3,
+          "additions": 1,
+          "checked_empty_line": 2,
+          "closure": true,
+          "cnf_bytes": 26,
+          "cnf_sha256": "ae8a60b8e3fd19c99cb52456f7d12cc81c03fd32b64587482939c671399a7df7",
+          "deletions": 1,
+          "expected_cnf_sha256": "ae8a60b8e3fd19c99cb52456f7d12cc81c03fd32b64587482939c671399a7df7",
+          "expected_proof_sha256": "fff7f6aa8337f4341aca7334455677a5a7ce9a21da750601900ff30d6100165f",
+          "failure_clause": null,
+          "failure_line": null,
+          "format": "monotonic RUP; exact active multiset deletion validation",
+          "full_parse_complete": true,
+          "proof_bytes": 11,
+          "proof_sha256": "fff7f6aa8337f4341aca7334455677a5a7ce9a21da750601900ff30d6100165f",
+          "records": 2,
+          "retained_clauses": 4,
+          "retained_literals": 4,
+          "status": "checked_monotonic_rup_unsat",
+          "variables": 2,
+          "work": 38,
+          "work_unit": "parser token/block and mask-clause width+1; bounded2645-bit operands"
+        },
+        "sat_invocations": 0,
+        "status": "checked_saved_fixed_pool_unsat"
+      }
+    },
+    {
+      "fixture": "rejected",
+      "formula": [
+        [
+          1
+        ]
+      ],
+      "proof": "0\n",
+      "report": {
+        "checker_invocations": 1,
+        "checker_process": {
+          "cleanup": {
+            "clean": true,
+            "errors": [],
+            "observed_pids": [
+              87336
+            ],
+            "seconds": 0.011419416987337172
+          },
+          "elapsed_seconds": 0.05837845899804961,
+          "reason": "exited",
+          "returncode": 2,
+          "stderr": "",
+          "stdout": "{\"accepted\": false, \"additions\": 0, \"checked_empty_line\": null, \"closure\": false, \"cnf_bytes\": 14, \"cnf_sha256\": \"6a43e1ffb6566b3ccbdcc57f8bd5638294ac56b615fe617c58ded6ee6374b333\", \"deletions\": 0, \"error\": \"Rejected: non-RUP addition\", \"expected_cnf_sha256\": \"6a43e1ffb6566b3ccbdcc57f8bd5638294ac56b615fe617c58ded6ee6374b333\", \"expected_proof_sha256\": \"9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa\", \"failure_clause\": [], \"failure_line\": 1, \"format\": \"monotonic RUP; exact active multiset deletion validation\", \"full_parse_complete\": false, \"proof_bytes\": 2, \"proof_sha256\": \"9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa\", \"records\": 1, \"retained_clauses\": 1, \"retained_literals\": 1, \"status\": \"rejected\", \"variables\": 2, \"work\": 21, \"work_unit\": \"parser token/block and mask-clause width+1; bounded2645-bit operands\"}\n"
+        },
+        "closure": false,
+        "complete": false,
+        "error": "Rejected: non-RUP addition",
+        "proof_check": {
+          "accepted": false,
+          "additions": 0,
+          "checked_empty_line": null,
+          "closure": false,
+          "cnf_bytes": 14,
+          "cnf_sha256": "6a43e1ffb6566b3ccbdcc57f8bd5638294ac56b615fe617c58ded6ee6374b333",
+          "deletions": 0,
+          "error": "Rejected: non-RUP addition",
+          "expected_cnf_sha256": "6a43e1ffb6566b3ccbdcc57f8bd5638294ac56b615fe617c58ded6ee6374b333",
+          "expected_proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "failure_clause": [],
+          "failure_line": 1,
+          "format": "monotonic RUP; exact active multiset deletion validation",
+          "full_parse_complete": false,
+          "proof_bytes": 2,
+          "proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "records": 1,
+          "retained_clauses": 1,
+          "retained_literals": 1,
+          "status": "rejected",
+          "variables": 2,
+          "work": 21,
+          "work_unit": "parser token/block and mask-clause width+1; bounded2645-bit operands"
+        },
+        "sat_invocations": 0,
+        "status": "proof_rejected"
+      }
+    }
+  ],
+  "passed": true,
+  "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+  "scope": "Synthetic tiny pairs only; saved Boolean proof was never read or replayed.",
+  "skipped": 0,
+  "source_pins": {
+    "research/monotonic_rup_checker.py": "09e85dced3d7cf572cad4b75f9b4fab50dd051f4fe9f95ded58981de6ded5c90",
+    "research/saved_boolean_proof_check.py": "f7addf7c68dfbd510572e7fc70ece579e44fb8a4048b0ee0eb5d7be471a13d17",
+    "tests/test_monotonic_rup_checker.py": "05ff5e9d4254d4389bcff02c841e97dc5b7da32cfe2f1cc11b600319a527d203"
+  },
+  "tests": 12
+}

@@ -1,0 +1,17 @@
+test_only_synthetic_pair_in_one_checker_child (__main__.NativeTinyTests.test_only_synthetic_pair_in_one_checker_child) ... ok
+test_exhaustive_two_variable_formulas_and_three_variable_pairs (__main__.PropagationTests.test_exhaustive_two_variable_formulas_and_three_variable_pairs) ... ok
+test_opposite_signs_tautologies_duplicates_and_chains (__main__.PropagationTests.test_opposite_signs_tautologies_duplicates_and_chains) ... ok
+test_deadline_and_work_checks (__main__.ReceiptTests.test_deadline_and_work_checks) ... ok
+test_deleted_reason_retained_and_multiset_deletions_exact (__main__.ReceiptTests.test_deleted_reason_retained_and_multiset_deletions_exact) ... ok
+test_digest_and_byte_record_storage_caps (__main__.ReceiptTests.test_digest_and_byte_record_storage_caps) ... ok
+test_every_record_after_empty_and_first_failure_line (__main__.ReceiptTests.test_every_record_after_empty_and_first_failure_line) ... ok
+test_parse_digest_catches_mutation_after_preflight (__main__.ReceiptTests.test_parse_digest_catches_mutation_after_preflight) ... ok
+test_parser_domains_headers_and_raw_duplicate_accounting (__main__.ReceiptTests.test_parser_domains_headers_and_raw_duplicate_accounting) ... ok
+test_unjustified_candidate_is_not_inserted_rat_and_cube_rejected (__main__.ReceiptTests.test_unjustified_candidate_is_not_inserted_rat_and_cube_rejected) ... ok
+test_no_slice_prohibits_child_and_pin_changes_reject (__main__.RunnerTests.test_no_slice_prohibits_child_and_pin_changes_reject) ... ok
+test_one_child_acceptance_rejection_and_cleanup_binding (__main__.RunnerTests.test_one_child_acceptance_rejection_and_cleanup_binding) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.324s
+
+OK

@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16737.007919010088,
+  "scheduled_search_wall_seconds_used": 16740.656140927087,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Obtain source/tiny/lifecycle PASS for newmonotonicRUPchecker and reserve one bounded saved-proof-only gate. Then implement/review distinctn75 census against authenticated configuration1 before separately reserved search.",
+  "next_action": "Review direct-owned proof dispatch source and tiny demonstrations before any allocation. Preserve closed selected contraction family; assess distinct nonuniform level-insertion design without scanning or importing a new source yet.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Saved-proof monotonicRUP design independently accepted; newchecker source/tiny authoring and two independent reviews assigned. Distinctn75 source authenticated152points by bothvalidators; no contractioncensus yet.",
+  "current_round": "Selected n76-to-n75 contraction family independently closed by152 exact obstruction triples; no149. Saved-proof monitor failure remains unresolved; new direct-owned dispatch is source/tiny work only.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,12 +40,12 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Engineer monotonicRUPsource/tiny; MathUPsoundnessreview; Literaturelifecycle/source review",
-    "n75rectanglecensus SOURCE/TINYONLY after proofchecker handoff; rawfixture authenticated, noactual"
+    "Engineer direct-owned proof entrypoint and parent acceptance; Literature lifecycle review; Math acceptance review when frozen",
+    "Mathematician design-only nonuniform n74-to-n75 level insertion, excluding four overlapping boundary cases"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "Final80sourcepins unchanged, one SAT/one checker; outer1.616944083s80512KiB clean. CNF2645vars13114clauses33466lits; native44,475byteproof rejected non-RUPaddition. Overall error/closurefalse retained. Independent actual audit f72db3a5 accepts incomplete/no closure; full portable suite760tests PASS58.351s/skipped8.",
+  "validation_status": "n75 actual independent audit f2783ece verifies all152 obstruction triples, selected-cut coverage, source and pins,3.026334167s47472KiB clean. New source tests pass; full780-test suite had3 existing host-startup EPERM failures, all3 passed one focused rerun.",
   "last_formal_review_at": "2026-11-27T11:21:17.604175+00:00",
   "review_outcome": "No verified cardinality improvement; unchanged tabu/DFS curtailed; assess distinct order-free Boolean projection within remaining4864.609s."
 }

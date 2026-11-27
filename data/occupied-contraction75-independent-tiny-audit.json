@@ -1,0 +1,49 @@
+{
+  "audit_source_sha256": "bce42ae240a735ac57ac9c8d3a0dc00b17aef734c42d4515b3a2a555f59f0a1a",
+  "interruption": {
+    "checker_calls": 3,
+    "partial_counters": {
+      "obstruction_cut_tests": 0,
+      "prefix_rows": 0,
+      "rectangles": 0,
+      "triples": 2,
+      "zero_rectangles": 0
+    },
+    "returned_census": false
+  },
+  "records": [
+    {
+      "cuts": 4,
+      "n": 2,
+      "obstruction_cut_tests": 0,
+      "occupied": 4,
+      "sources": 1,
+      "valid_sources": 1,
+      "verified_obstructions": 0,
+      "zero_occupied": 4
+    },
+    {
+      "cuts": 54,
+      "n": 3,
+      "obstruction_cut_tests": 0,
+      "occupied": 36,
+      "sources": 6,
+      "valid_sources": 2,
+      "verified_obstructions": 0,
+      "zero_occupied": 36
+    },
+    {
+      "cuts": 1440,
+      "n": 4,
+      "obstruction_cut_tests": 3101,
+      "occupied": 720,
+      "sources": 90,
+      "valid_sources": 11,
+      "verified_obstructions": 272,
+      "zero_occupied": 448
+    }
+  ],
+  "scope": "Synthetic n2..4 only; no actual n76 fixture, contraction, validation, or allocation.",
+  "source_sha256": "480bb8dbd8a68623573668538ce75b37b15fc8d94db6570f130afffdf1b88cc1",
+  "status": "PASS_SYNTHETIC_ONLY"
+}

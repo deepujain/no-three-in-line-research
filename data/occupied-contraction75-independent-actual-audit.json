@@ -1,0 +1,5516 @@
+{
+  "audit_source_sha256": "5de941988618c1d7861017de4fb61c47a158a8a0155bc09506adc7fbd7ee7979",
+  "closure": "All152 occupied-intersection contractions of this exact selected n76 source are invalid.",
+  "exact_determinants_checked": 152,
+  "guard": {
+    "cleanup_elapsed_seconds": 0.011039000004529953,
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 3.026309875000152,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "exited",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 47472,
+    "returncode": 0,
+    "rss_limit_mib": 256,
+    "rss_samples": 66,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 30,
+    "trigger_gate_status": null
+  },
+  "input_sha256": {
+    "data/experiments/shepherd-occupied-contraction75-v1.json": "f28b3568c988fa0c8adcc205c3f09d10dc042495e52f05d9fc6e39914e0cd7b2",
+    "data/occupied-contraction75-source-pins.json": "5fda6998f0d6a44367e6880092d6442f371c1ea1c359d166a55dd853cb344e0e",
+    "data/occupied-contraction75-v1/report.json": "e1be260759dd7f3d83b7c8e317906a072dcca17db08bdb7c9877507d1ce0cff7",
+    "data/published-n76.json": "b5353bc39d2e65c81dca5a5bb5668b93f2c3d14ec80b627d0383cee26d298c17"
+  },
+  "limits": "No complete score recount, census replay, independent source geometry replay, general n75 exclusion, valid149 construction, or novelty claim.",
+  "manifest_entries": 23,
+  "normalized_source_sha256": "97591fb28df5c742e090960c8feaf2fad9753b2a187a7b293139a0d574140ff5",
+  "occupied_cut_count": 152,
+  "per_cut_certificates": [
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          25
+        ],
+        [
+          2,
+          28
+        ],
+        [
+          28,
+          67
+        ]
+      ],
+      "cut": [
+        0,
+        33
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          1,
+          25
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          29,
+          68
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          25
+        ],
+        [
+          2,
+          28
+        ],
+        [
+          28,
+          67
+        ]
+      ],
+      "cut": [
+        0,
+        38
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          1,
+          25
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          29,
+          68
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          2,
+          37
+        ],
+        [
+          8,
+          52
+        ]
+      ],
+      "cut": [
+        1,
+        25
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          9,
+          53
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          9,
+          30
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "cut": [
+        1,
+        51
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          31,
+          23
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          9,
+          30
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "cut": [
+        2,
+        43
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          31,
+          23
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          9,
+          30
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "cut": [
+        2,
+        45
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          31,
+          23
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          30,
+          12
+        ]
+      ],
+      "cut": [
+        3,
+        28
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          31,
+          12
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          9,
+          30
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "cut": [
+        3,
+        38
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          31,
+          23
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          30,
+          12
+        ]
+      ],
+      "cut": [
+        4,
+        25
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          31,
+          12
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        4,
+        56
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          30,
+          12
+        ]
+      ],
+      "cut": [
+        5,
+        21
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          31,
+          12
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          4,
+          25
+        ]
+      ],
+      "cut": [
+        5,
+        33
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          4,
+          25
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          30,
+          12
+        ]
+      ],
+      "cut": [
+        6,
+        16
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          31,
+          12
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        6,
+        54
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          12,
+          16
+        ]
+      ],
+      "cut": [
+        7,
+        29
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          13,
+          16
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        7,
+        55
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        8,
+        14
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        8,
+        24
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        9,
+        40
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        9,
+        53
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          12,
+          16
+        ]
+      ],
+      "cut": [
+        10,
+        30
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          13,
+          16
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        10,
+        55
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        11,
+        14
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        11,
+        23
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        12,
+        44
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        12,
+        57
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        13,
+        15
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        13,
+        16
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        14,
+        64
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        14,
+        67
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          30,
+          23
+        ]
+      ],
+      "cut": [
+        15,
+        29
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          31,
+          23
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        15,
+        62
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        16,
+        62
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        16,
+        69
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        17,
+        35
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        17,
+        53
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        18,
+        12
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          15,
+          29
+        ]
+      ],
+      "cut": [
+        18,
+        32
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          15,
+          29
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          21,
+          16
+        ]
+      ],
+      "cut": [
+        19,
+        4
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          22,
+          17
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        19,
+        49
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        20,
+        7
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        20,
+        10
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        21,
+        6
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        21,
+        70
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        22,
+        9
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        22,
+        17
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        23,
+        44
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        23,
+        64
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          9,
+          39
+        ],
+        [
+          63,
+          51
+        ]
+      ],
+      "cut": [
+        24,
+        1
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          24,
+          73
+        ]
+      ],
+      "cut": [
+        24,
+        67
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          25,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        25,
+        71
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        25,
+        74
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        26,
+        19
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        26,
+        27
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        27,
+        36
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          28,
+          59
+        ],
+        [
+          42,
+          72
+        ]
+      ],
+      "cut": [
+        27,
+        49
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          29,
+          60
+        ],
+        [
+          43,
+          73
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        28,
+        39
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        28,
+        72
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          35,
+          48
+        ],
+        [
+          63,
+          60
+        ]
+      ],
+      "cut": [
+        29,
+        60
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          64,
+          61
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        29,
+        68
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        30,
+        2
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        30,
+        65
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        31,
+        12
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        31,
+        23
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        32,
+        2
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          35,
+          48
+        ],
+        [
+          63,
+          60
+        ]
+      ],
+      "cut": [
+        32,
+        57
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          64,
+          61
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        33,
+        70
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        33,
+        75
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        34,
+        34
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        34,
+        41
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        35,
+        9
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          35,
+          48
+        ],
+        [
+          63,
+          60
+        ]
+      ],
+      "cut": [
+        35,
+        58
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          64,
+          61
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        36,
+        28
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "cut": [
+        36,
+        48
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          54
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        37,
+        0
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        37,
+        3
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        38,
+        72
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        38,
+        75
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        39,
+        27
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "cut": [
+        39,
+        47
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          54
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        40,
+        17
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        40,
+        66
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        41,
+        34
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        41,
+        41
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        42,
+        0
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        42,
+        5
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        43,
+        18
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        43,
+        73
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          45,
+          15
+        ]
+      ],
+      "cut": [
+        44,
+        52
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          46,
+          15
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          45,
+          15
+        ]
+      ],
+      "cut": [
+        44,
+        63
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          46,
+          15
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        45,
+        10
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        45,
+        73
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        46,
+        7
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        46,
+        15
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        47,
+        3
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        47,
+        36
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "cut": [
+        48,
+        26
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          50,
+          4
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        48,
+        39
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          65
+        ],
+        [
+          50,
+          73
+        ]
+      ],
+      "cut": [
+        49,
+        48
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          66
+        ],
+        [
+          51,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          65
+        ],
+        [
+          50,
+          73
+        ]
+      ],
+      "cut": [
+        49,
+        56
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          66
+        ],
+        [
+          51,
+          74
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        50,
+        1
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        50,
+        4
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        51,
+        8
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        51,
+        74
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        52,
+        11
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "cut": [
+        52,
+        31
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        53,
+        58
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        53,
+        66
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "cut": [
+        54,
+        5
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          54,
+          65
+        ]
+      ],
+      "cut": [
+        54,
+        69
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          55,
+          65
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        55,
+        65
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        55,
+        68
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "cut": [
+        56,
+        26
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        56,
+        71
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        57,
+        43
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        57,
+        63
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ],
+      "cut": [
+        58,
+        22
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        58,
+        40
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "cut": [
+        59,
+        6
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          37,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          60,
+          8
+        ]
+      ],
+      "cut": [
+        59,
+        13
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          61,
+          8
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          40,
+          16
+        ],
+        [
+          60,
+          8
+        ]
+      ],
+      "cut": [
+        60,
+        13
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          61,
+          8
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          44,
+          51
+        ],
+        [
+          66,
+          60
+        ]
+      ],
+      "cut": [
+        60,
+        46
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          44,
+          52
+        ],
+        [
+          67,
+          61
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "cut": [
+        61,
+        8
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          37,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "cut": [
+        61,
+        11
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          37,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        62,
+        59
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          63,
+          52
+        ]
+      ],
+      "cut": [
+        62,
+        60
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          64,
+          52
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "cut": [
+        63,
+        18
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          37,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "cut": [
+        63,
+        31
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "cut": [
+        64,
+        52
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          54
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          56,
+          70
+        ]
+      ],
+      "cut": [
+        64,
+        61
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          56,
+          71
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ],
+      "cut": [
+        65,
+        20
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          44,
+          51
+        ],
+        [
+          66,
+          60
+        ]
+      ],
+      "cut": [
+        65,
+        45
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          44,
+          52
+        ],
+        [
+          67,
+          61
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ],
+      "cut": [
+        66,
+        22
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        66,
+        35
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          70,
+          19
+        ]
+      ],
+      "cut": [
+        67,
+        51
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          71,
+          19
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          70,
+          19
+        ]
+      ],
+      "cut": [
+        67,
+        61
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          71,
+          19
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ],
+      "cut": [
+        68,
+        20
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          70,
+          19
+        ]
+      ],
+      "cut": [
+        68,
+        46
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          71,
+          19
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ],
+      "cut": [
+        69,
+        21
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          70,
+          19
+        ]
+      ],
+      "cut": [
+        69,
+        59
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          71,
+          19
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        70,
+        42
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          70,
+          19
+        ]
+      ],
+      "cut": [
+        70,
+        54
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          65,
+          20
+        ],
+        [
+          71,
+          19
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "cut": [
+        71,
+        19
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          37,
+          0
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "cut": [
+        71,
+        50
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          54
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        72,
+        37
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          49,
+          47
+        ],
+        [
+          70,
+          53
+        ]
+      ],
+      "cut": [
+        72,
+        47
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          49,
+          48
+        ],
+        [
+          70,
+          54
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "cut": [
+        73,
+        30
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "cut": [
+        73,
+        32
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          30,
+          2
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          32
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ],
+      "cut": [
+        74,
+        24
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          54,
+          5
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "cut": [
+        74,
+        50
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          38
+        ],
+        [
+          2,
+          43
+        ],
+        [
+          6,
+          54
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        75,
+        37
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    },
+    {
+      "candidate_size": 149,
+      "contracted_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          44
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "cut": [
+        75,
+        42
+      ],
+      "determinant": 0,
+      "source_triple": [
+        [
+          0,
+          33
+        ],
+        [
+          2,
+          45
+        ],
+        [
+          4,
+          56
+        ]
+      ]
+    }
+  ],
+  "reported_census_counters_not_replayed": {
+    "obstruction_cut_tests": 3518,
+    "prefix_rows": 76,
+    "rectangles": 8388128,
+    "triples": 573800,
+    "zero_rectangles": 4032
+  },
+  "reported_minimum_score_not_recounted": 173,
+  "source_pins_checked": 24,
+  "status": "PASS_SELECTED_FAMILY_EXCLUSION"
+}
