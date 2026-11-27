@@ -612,6 +612,81 @@
         "--records-directory",
         "data/corner-batch-three-b-records"
       ]
+    },
+    {
+      "id": "r19-diagonal-secant-n9-preflight",
+      "script": "src/lazy_sat.py",
+      "seconds": 15,
+      "hypothesis": "Measured known-small-grid preflight of independently reviewed diagonal-reflection157mechanism after realhostn3/n5success. n9target17,all81declaredslices,global2000nodebudget,15sec/256MiB externalgate; this is algorithm/resource evidence only,not newrecord. Inspect terminalcounter/certificates before any n79trial.",
+      "args": [
+        "--diagonal-secant-guard",
+        "--n",
+        "9",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "2000",
+        "--output",
+        "data/diagonal-secant-guard-n9.json"
+      ]
+    },
+    {
+      "id": "r20-diagonal-sat-n9-comparison",
+      "script": "src/lazy_sat.py",
+      "seconds": 15,
+      "hypothesis": "Known-smallgrid comparison against new secantDFS: same n9,target17,main-diagonalreflection,15sec timeceiling. Existing independently reviewed solver only,oneSATexperiment,no largecheckpoint. Cutquota25000. Differentalgorithm/nodecriteria reported separately; tiny witness not newrecord.",
+      "args": [
+        "--n",
+        "9",
+        "--target",
+        "17",
+        "--symmetry",
+        "diagonal",
+        "--backend",
+        "glucose3",
+        "--max-cuts",
+        "25000",
+        "--output",
+        "data/diagonal-sat-n9-comparison.json"
+      ]
+    },
+    {
+      "id": "r21-diagonal-secant-n79-one-node-preflight",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "First measured n79resource/setup preflight of independently reviewed reflection157DFS after hosttiny and n9comparison. One declared(d=0,t=0)slice,global1nodebudget,30sec/256MiB externalgate. This is bounded setup/per-node cost measurement,not meaningful family exhaustion or record claim; no longer search before costinspection.",
+      "args": [
+        "--diagonal-secant-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--output",
+        "data/diagonal-secant-guard-n79-one-node.json"
+      ]
+    },
+    {
+      "id": "r22-near-quarter-row-quota-preflight-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Separately reviewed equivalent row-floor encoding removes globalcounteraux without raising30sec/256MiB gate. Hostnewmodule9tests and realn3/n5subprocesses passed; buildonly n79,no solve. Report observed fullcount/hash/RSS,not algebraicforecast or UNSAT.",
+      "args": [
+        "--near-quarter-row-quota-preflight",
+        "--n",
+        "79",
+        "--mode",
+        "build",
+        "--rss-mib",
+        "256",
+        "--output",
+        "data/near-quarter-row-quota-preflight-n79.json"
+      ]
     }
   ]
 }

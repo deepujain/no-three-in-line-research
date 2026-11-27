@@ -1,0 +1,21 @@
+{
+  "archive": "corner-batch-three-records.tar.gz",
+  "archive_bytes": 1428718,
+  "archive_sha256": "686bd07e296513e3ec2ddf092cf140e89dee08724c1983116fe56ec1da00be85",
+  "cursor_files": {
+    "data/corner-batch-three-a.json": "10f2e36f1438d77e47581860aa8bb2de0abb746fc525b32b1f7553bbeb18502b",
+    "data/corner-batch-three-b.json": "7d5e64d41220f031903721f206ee424db5d101744419eab6a9198f507a0b4d3e"
+  },
+  "directory_entries": 0,
+  "index_format": "UTF-8; one line per regular member, lowercase SHA-256 hex, two ASCII spaces, workspace-relative POSIX path, LF; sorted by UTF-8 path bytes; no directory entries",
+  "lock_files": 224,
+  "member_count": 13890,
+  "ordered_index_file": "corner-batch-three-records.sha256",
+  "ordered_index_sha256": "bf6d970ea7dff1fbce707b4305028aa9a1f64e73c0af659029222865d3fc7f71",
+  "originals_retained": true,
+  "record_json_files": 13664,
+  "regular_file_count": 13890,
+  "verification": "Every tar member read back, hashed and matched to expected index and size; original inventory and bytes rechecked after archiving.",
+  "root_independent_verification": "Lead independently re-read all13890tar members, checked eachcontentSHA and size against orderedindex, and checked archive/indexSHA; successful2026-11-27UTC. This is archive integrity,not numerical replay.",
+  "extract_from_repository_root": "python3 -m tarfile -e data/corner-batch-three-records.tar.gz ."
+}

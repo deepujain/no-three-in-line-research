@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Resume size-three corner partitions from durable tips after current slices end. Compact158firstsolve hit256MiB cap; no result. Review157reflection reversible DFS and guarded benchmark before n79; examine concrete compact encoding reductions without raising cap.",
+  "next_action": "Repair/review empty-process-group cleanup without weakening livegroup or resource guards; retry only with new reviewed guard/receipt IDs. Seed embedding repair family through5deletions closed; do not repeat. Row-floor158model and reflection157DFS need accepted guarded n79measurements.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -21,12 +21,13 @@
     "24340 individual empty-cell blocker checks",
     "5824 guided <=3-deletion sets, no point-count improvement",
     "6237 nonuniform source embeddings excluded through five deletions, conditional on reviewed trusted computations",
-    "eight size-two,1936size-four and8136one-case exact-five corner anchor families complete, overlapping, conditional on reviewed trusted computations"
+    "eight size-two,1936size-four and8136one-case exact-five corner anchor families complete, overlapping, conditional on reviewed trusted computations",
+    "all6241row/column embeddings of this exact source excluded through5deletions, conditional on separately reviewed trusted computations"
   ],
   "compute_seconds_limit": 21600,
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "Corner prefix continuation; compact solve memory-interrupted;157reflection DFS independent review",
+  "current_round": "Seed<=5repair closure; host-cleanup defect isolated; separate guardfix under review",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

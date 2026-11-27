@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-row-quota-preflight",
+    "--n",
+    "79",
+    "--mode",
+    "build",
+    "--rss-mib",
+    "256",
+    "--output",
+    "data/near-quarter-row-quota-preflight-n79.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 14.080131208997045,
+  "entrypoint_sha256": "ac1b568303153c7c39f3d01fff1df7cbce36d0bfcf36951df2fe24419f73c509",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T01:25:54.956113+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-row-quota-preflight",
+      "--n",
+      "79",
+      "--mode",
+      "build",
+      "--rss-mib",
+      "256",
+      "--output",
+      "data/near-quarter-row-quota-preflight-n79.json"
+    ],
+    "hypothesis": "Separately reviewed equivalent row-floor encoding removes globalcounteraux without raising30sec/256MiB gate. Hostnewmodule9tests and realn3/n5subprocesses passed; buildonly n79,no solve. Report observed fullcount/hash/RSS,not algebraicforecast or UNSAT.",
+    "id": "r22-near-quarter-row-quota-preflight-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r22-near-quarter-row-quota-preflight-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 50045,
+  "started_at": "2026-11-27T01:25:40.875929+00:00",
+  "status": "failed"
+}

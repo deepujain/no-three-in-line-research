@@ -1,0 +1,158 @@
+{
+  "algebraic_n79_row_floor_counts": {
+    "auxiliaries": 0,
+    "clauses": 3043,
+    "literal_occurrences": 234273
+  },
+  "counts": [
+    {
+      "compact": {
+        "auxiliaries": 0,
+        "clauses": 2,
+        "literal_occurrences": 2,
+        "variables": 2
+      },
+      "diagonal_counter": {
+        "auxiliaries": 0,
+        "clauses": 1
+      },
+      "global_four_counter": {
+        "auxiliaries": 0,
+        "clauses": 1,
+        "literals": 1
+      },
+      "n": 3,
+      "orbit_variables": 2,
+      "row_floors": {
+        "auxiliaries": 0,
+        "clauses": 3,
+        "literals": 3
+      },
+      "row_quota": {
+        "auxiliaries": 0,
+        "clauses": 4,
+        "literal_occurrences": 4,
+        "variables": 2
+      }
+    },
+    {
+      "compact": {
+        "auxiliaries": 8,
+        "clauses": 32,
+        "literal_occurrences": 78,
+        "variables": 14
+      },
+      "diagonal_counter": {
+        "auxiliaries": 0,
+        "clauses": 2
+      },
+      "global_four_counter": {
+        "auxiliaries": 8,
+        "clauses": 16,
+        "literals": 36
+      },
+      "n": 5,
+      "orbit_variables": 6,
+      "row_floors": {
+        "auxiliaries": 0,
+        "clauses": 9,
+        "literals": 26
+      },
+      "row_quota": {
+        "auxiliaries": 0,
+        "clauses": 25,
+        "literal_occurrences": 68,
+        "variables": 6
+      }
+    },
+    {
+      "compact": {
+        "auxiliaries": 38,
+        "clauses": 180,
+        "literal_occurrences": 476,
+        "variables": 50
+      },
+      "diagonal_counter": {
+        "auxiliaries": 2,
+        "clauses": 6
+      },
+      "global_four_counter": {
+        "auxiliaries": 36,
+        "clauses": 72,
+        "literals": 171
+      },
+      "n": 7,
+      "orbit_variables": 12,
+      "row_floors": {
+        "auxiliaries": 0,
+        "clauses": 19,
+        "literals": 93
+      },
+      "row_quota": {
+        "auxiliaries": 2,
+        "clauses": 127,
+        "literal_occurrences": 398,
+        "variables": 14
+      }
+    },
+    {
+      "compact": {
+        "auxiliaries": 171,
+        "clauses": 531,
+        "literal_occurrences": 1354,
+        "variables": 191
+      },
+      "diagonal_counter": {
+        "auxiliaries": 3,
+        "clauses": 9
+      },
+      "global_four_counter": {
+        "auxiliaries": 96,
+        "clauses": 192,
+        "literals": 464
+      },
+      "n": 9,
+      "orbit_variables": 20,
+      "row_floors": {
+        "auxiliaries": 0,
+        "clauses": 33,
+        "literals": 228
+      },
+      "row_quota": {
+        "auxiliaries": 75,
+        "clauses": 372,
+        "literal_occurrences": 1118,
+        "variables": 95
+      }
+    }
+  ],
+  "grids": [
+    3,
+    5,
+    7,
+    9
+  ],
+  "identities": {
+    "base_encoding_variant": "c4-shared-offdiagonal-direct-small-v1",
+    "compact_source_sha256": "f2b5840a160d51fc8e5d663cad42f5416286f4b2535cda7ab3cd7c4598b281f1",
+    "diagonal_pair_orbits": 1,
+    "direct_light_limit": 5,
+    "encoding_variant": "near-quarter-row-floor-shared-capacity-v1",
+    "four_orbits": 1,
+    "global_four_count": "implied by row floors, line capacities and exactly one diagonal pair",
+    "line_generator_sha256": "d789d1b4924676886a950757fcf98994f221a0ad1ee7ca12874667ecfa034897",
+    "model_source_sha256": "b53adcf159cd7d32416e02ae970a339afcb40442107c966ef6393680d479838a",
+    "n": 3,
+    "orbit_mapping_sha256": "2d7b685323a550820fb9c3cb30401e0f4fe1acb69c895d64d4d2b5bcbd7b7563",
+    "orbit_variables": 2,
+    "paper": "https://arxiv.org/html/2602.07751#S3",
+    "required_diagonal_pairs": 1,
+    "required_four_orbits": 1,
+    "row_quota_source_sha256": "dcd3468bcea630848a2743c7450ec5027a0df640fb9495b701f68352c23ca704",
+    "scope": "near-quarter-turn restricted family",
+    "target": 6
+  },
+  "kind": "complete_tiny_row_quota_encoding_costs",
+  "scope": "tiny complete CNF counts only; no n79 enumeration, build or search",
+  "test_source_sha256": "4f50dcc697eb520e3a49cce69d9fdc25a6d948b63e048dacf64548d92ce66a7c"
+}

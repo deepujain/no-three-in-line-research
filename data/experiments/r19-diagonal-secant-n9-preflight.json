@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--diagonal-secant-guard",
+    "--n",
+    "9",
+    "--rss-mib",
+    "256",
+    "--max-nodes",
+    "2000",
+    "--output",
+    "data/diagonal-secant-guard-n9.json",
+    "--seconds",
+    "15"
+  ],
+  "elapsed_seconds": 2.0628243329992983,
+  "entrypoint_sha256": "ac1b568303153c7c39f3d01fff1df7cbce36d0bfcf36951df2fe24419f73c509",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T01:22:38.905380+00:00",
+  "job": {
+    "args": [
+      "--diagonal-secant-guard",
+      "--n",
+      "9",
+      "--rss-mib",
+      "256",
+      "--max-nodes",
+      "2000",
+      "--output",
+      "data/diagonal-secant-guard-n9.json"
+    ],
+    "hypothesis": "Measured known-small-grid preflight of independently reviewed diagonal-reflection157mechanism after realhostn3/n5success. n9target17,all81declaredslices,global2000nodebudget,15sec/256MiB externalgate; this is algorithm/resource evidence only,not newrecord. Inspect terminalcounter/certificates before any n79trial.",
+    "id": "r19-diagonal-secant-n9-preflight",
+    "script": "src/lazy_sat.py",
+    "seconds": 15
+  },
+  "log": "data/run-logs/r19-diagonal-secant-n9-preflight.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 46235,
+  "started_at": "2026-11-27T01:22:36.842624+00:00",
+  "status": "failed"
+}

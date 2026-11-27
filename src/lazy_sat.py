@@ -3,13 +3,14 @@
 Requires optional python-sat. Only valid independently checked witnesses are
 published. UNSAT is solver-reported, not an independently checked proof.
 """
+import time
+_PROCESS_STARTED = time.monotonic()
 import argparse
 import hashlib
 import json
 import math
 import sys
 import threading
-import time
 from pathlib import Path
 
 from pysat.card import CardEnc, EncType
@@ -216,6 +217,16 @@ def search(n, seconds, backend='glucose3', *, target=None, all_line_constraints=
 
 def main(argv=None):
     arguments = list(sys.argv[1:] if argv is None else argv)
+    if '--diagonal-secant-guard' in arguments:
+        arguments.remove('--diagonal-secant-guard')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.diagonal_secant_guard import main as diagonal_guard_main
+        return diagonal_guard_main(arguments, started=_PROCESS_STARTED if argv is None else time.monotonic())
+    if '--near-quarter-row-quota-preflight' in arguments:
+        arguments.remove('--near-quarter-row-quota-preflight')
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from research.near_quarter_row_quota_preflight import main as row_quota_preflight_main
+        return row_quota_preflight_main(arguments)
     if '--near-quarter-compact-solve' in arguments:
         arguments.remove('--near-quarter-compact-solve')
         sys.path.insert(0, str(Path(__file__).resolve().parents[1]))

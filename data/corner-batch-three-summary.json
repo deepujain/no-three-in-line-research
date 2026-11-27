@@ -1,0 +1,80 @@
+{
+  "audited_utc": "2026-11-27T01:24:38Z",
+  "completed_anchor_cases_sum": 2604672,
+  "input_hashes": {
+    "data/corner-anchor-frontier/manifest.json": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+    "data/embedding-audit.json": "025cc666697fadec947828b358e92976f6a3d6f07d00ce641a7a3a09924cc925",
+    "data/published-n78.json": "4c13bf3e807885f9e61d00593bb27d060b773e40d887f63d955d962d9890a912",
+    "research/corner_batch_worker.py": "32d97a4eafbca596cd2dedce42742dfd6e3316c8f5ff474d7b3844a8e85c61e3",
+    "research/embedding_worker.py": "6955a097338ab133ed8d8172e0b285cc0856f52653a25d26f6f9c72bf4cc29d6"
+  },
+  "manifest_sha256": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+  "partitions": [
+    {
+      "all_json_files": 6832,
+      "anchor_cases": 1302336,
+      "anchors": 112,
+      "cursor_sha256": "10f2e36f1438d77e47581860aa8bb2de0abb746fc525b32b1f7553bbeb18502b",
+      "linked_records": 6720,
+      "name": "a",
+      "ordinal_range": [
+        10072,
+        10184
+      ],
+      "selection_sha256": "5178c8ade1177d6c011d98a0dd534dc5ac24ea9d3a313eaa8d3cf07a96901801",
+      "tested": {
+        "157": 1329312,
+        "158": 4538
+      },
+      "tip_count": 112,
+      "unreferenced_json_files": 0,
+      "valid": {
+        "157": 0,
+        "158": 0
+      },
+      "witness_files": 0
+    },
+    {
+      "all_json_files": 6832,
+      "anchor_cases": 1302336,
+      "anchors": 112,
+      "cursor_sha256": "7d5e64d41220f031903721f206ee424db5d101744419eab6a9198f507a0b4d3e",
+      "linked_records": 6720,
+      "name": "b",
+      "ordinal_range": [
+        10184,
+        10296
+      ],
+      "selection_sha256": "058793f89009e3be1cdd8915c7642e29c23a5d23a156746aa24e3337021e2a39",
+      "tested": {
+        "157": 1350888,
+        "158": 8134
+      },
+      "tip_count": 112,
+      "unreferenced_json_files": 0,
+      "valid": {
+        "157": 0,
+        "158": 0
+      },
+      "witness_files": 0
+    }
+  ],
+  "referenced_file_count": 13664,
+  "referenced_path_hash_index_sha256": "4f221573d1c5b512641ccbf2e9a770863515260c3f64b67f2157c9212a95f5fc",
+  "scope": "Two size-three selected partitions for one corner and one source; anchor cases overlap, and this audit alone does not close the full corner family.",
+  "selected_anchor_count": 224,
+  "source_normalized_sha256": "e197d1b41f97df9188b9839a54f0013bbc08b67d202c18d26146a7f377d80ced",
+  "source_order_sha256": "e7678d82888f177d779c4ca250d6cda995645a13e0c102b5727138a835c0c9bb",
+  "status": "complete_selected_size_three_anchor_families_conditional_on_trusted_computation",
+  "tested_addition_subsets": {
+    "157": 2680200,
+    "158": 12672
+  },
+  "trust": "Linked bytes, identities, gapless intervals and counters checked; numerical computation not replayed. Hash consistency is not an execution proof.",
+  "unique_deletion_sets": null,
+  "unique_verified_witnesses": 0,
+  "valid_addition_subsets": {
+    "157": 0,
+    "158": 0
+  }
+}

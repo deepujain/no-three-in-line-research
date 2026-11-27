@@ -1,0 +1,12 @@
+# Diagonal-reflection secant DFS
+
+Role transition: Mathematical Reviewer design to Research Software Engineer implementation. Assigned model: gpt-6.1-terra, reasoning: high. The separate implementation searches only main-diagonal-reflection invariant sets of size `2n-1`. Each declared slice fixes a deficient row/column and one diagonal singleton. Branches cover every currently admissible pair orbit touching a chosen underfilled row; repeated insertion orders may produce duplicate witness visits. Pair-line counts are maintained reversibly over the full grid. Each emitted witness is checked by both existing independent geometry validators and explicitly checked for reflection symmetry.
+
+The global node and wall-clock limits report `node_limit` or `timeout` instead of exhaustion when interrupted. The wall-clock deadline is cooperative, checked at search entry and during candidate enumeration; an individual push, verifier, callback, or file operation can overrun the deadline. Results report the selected slices and each visited slice's status; unvisited slices are not exhausted. Complete traversal covers only the declared reflection-family slices and is not a proof of unrestricted infeasibility. The CLI writes verified witnesses immediately to hash-named sidecar files and writes the final report to the requested output. Existing sidecars can predate a run; use the report to identify that run's findings. There is no novelty claim.
+
+Verification: `python3 -m unittest tests.test_diagonal_secant_dfs -v` passed. Independently enumerated all cell subsets at n=3 and 4 and all 2^15 reflection-orbit assignments at n=5, comparing the complete valid witness sets with DFS output. Exhaustively explored reachable partial reflection-orbit states for each deficit at n=3, 4, and 5, comparing acceptance, complete per-cell determinant-based secant counts, loads and exact rollback. Tests cover both diagonal/deficit fixtures and cutoff/input handling. A CLI smoke run at n=3 exhausted all nine slices. No n=79 search, numerical benchmark, or resource preflight was run. Independent review and the separately scheduled performance gate remain outstanding.
+
+Frozen review hashes (SHA-256):
+
+- `research/diagonal_secant_dfs.py`: `6b92f7189b7658b465cd9162992b7ea28ad79a4b30de9ea488b6f20776b7c4a7`
+- `tests/test_diagonal_secant_dfs.py`: `d49010fd93b2b9379e915acc2701e5d5332d13569aa7b7d03765dc8887c8540a`

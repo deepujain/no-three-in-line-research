@@ -1,0 +1,49 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--n",
+    "9",
+    "--target",
+    "17",
+    "--symmetry",
+    "diagonal",
+    "--backend",
+    "glucose3",
+    "--max-cuts",
+    "25000",
+    "--output",
+    "data/diagonal-sat-n9-comparison.json",
+    "--seconds",
+    "15"
+  ],
+  "elapsed_seconds": 2.053351542002929,
+  "entrypoint_sha256": "ac1b568303153c7c39f3d01fff1df7cbce36d0bfcf36951df2fe24419f73c509",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T01:23:01.419363+00:00",
+  "job": {
+    "args": [
+      "--n",
+      "9",
+      "--target",
+      "17",
+      "--symmetry",
+      "diagonal",
+      "--backend",
+      "glucose3",
+      "--max-cuts",
+      "25000",
+      "--output",
+      "data/diagonal-sat-n9-comparison.json"
+    ],
+    "hypothesis": "Known-smallgrid comparison against new secantDFS: same n9,target17,main-diagonalreflection,15sec timeceiling. Existing independently reviewed solver only,oneSATexperiment,no largecheckpoint. Cutquota25000. Differentalgorithm/nodecriteria reported separately; tiny witness not newrecord.",
+    "id": "r20-diagonal-sat-n9-comparison",
+    "script": "src/lazy_sat.py",
+    "seconds": 15
+  },
+  "log": "data/run-logs/r20-diagonal-sat-n9-comparison.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 47382,
+  "started_at": "2026-11-27T01:22:59.366070+00:00",
+  "status": "completed"
+}

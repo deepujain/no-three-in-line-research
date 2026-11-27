@@ -54,6 +54,8 @@ For a separately approved/scheduled first n79 allocation, root can use the known
 
 Independent wrapper source review, real-host tiny checks and a free numerical lane are required before that allocation. Neither this document nor the prepared command starts it.
 
+Root completed those gates and separately scheduled the first n79 trial. The actual `data/near-quarter-compact-solve-n79.json` report is `rss_limit`: 15.1913 seconds, 262,400 KiB sampled peak, 313 samples, in solve after a 12.7759-second complete build whose prefix hash matched the approved formula. It reports no solver result, conclusion or accepted witness, and correctly clears completion and the accepted full model hash. This trial establishes no feasibility or infeasibility result. The source and witness rules above were independently approved in `research/near-quarter-compact-solve-review.md`; root's actual trial was executed separately from the author's tiny tests.
+
 | Frozen artifact | SHA-256 |
 |---|---|
 | `research/near_quarter_compact_solve.py` | `6eac77e957bb47f69118c3f70f5530c7d4bed84621f7309359b6f466c96f1ef5` |

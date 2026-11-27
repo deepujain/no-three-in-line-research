@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--diagonal-secant-guard",
+    "--n",
+    "79",
+    "--rss-mib",
+    "256",
+    "--max-nodes",
+    "1",
+    "--deficit",
+    "0",
+    "--diagonal",
+    "0",
+    "--output",
+    "data/diagonal-secant-guard-n79-one-node.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 2.021004083995649,
+  "entrypoint_sha256": "ac1b568303153c7c39f3d01fff1df7cbce36d0bfcf36951df2fe24419f73c509",
+  "exit_code": 2,
+  "finished_at": "2026-11-27T01:24:54.735929+00:00",
+  "job": {
+    "args": [
+      "--diagonal-secant-guard",
+      "--n",
+      "79",
+      "--rss-mib",
+      "256",
+      "--max-nodes",
+      "1",
+      "--deficit",
+      "0",
+      "--diagonal",
+      "0",
+      "--output",
+      "data/diagonal-secant-guard-n79-one-node.json"
+    ],
+    "hypothesis": "First measured n79resource/setup preflight of independently reviewed reflection157DFS after hosttiny and n9comparison. One declared(d=0,t=0)slice,global1nodebudget,30sec/256MiB externalgate. This is bounded setup/per-node cost measurement,not meaningful family exhaustion or record claim; no longer search before costinspection.",
+    "id": "r21-diagonal-secant-n79-one-node-preflight",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r21-diagonal-secant-n79-one-node-preflight.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 49458,
+  "started_at": "2026-11-27T01:24:52.714995+00:00",
+  "status": "failed"
+}

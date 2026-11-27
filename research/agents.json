@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "157DFS tiny exhaustive tests passed, independent review pending; preparing separate external resource guard",
+    "status": "complete independent corner histories audit/archive; implementing separate exact fast mirror-pair admissibility variant",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "compact solve crossed memory cap; developing separately reviewed equivalent row-capacity encoding"
+    "status": "row-floor encoding/preflight approved; implementing owned-group cleanup fix after diagnosed empty-group EPERM"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "compact solve source/terminal audit complete; reviewing157DFS and equivalent row-capacity proof",
+    "status": "complete full6,241embedding conditional closure; independent review of cleanup fix and later fast DFS variant",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

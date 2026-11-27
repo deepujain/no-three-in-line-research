@@ -1,0 +1,131 @@
+{
+  "axis_encoding": "independent_single_row_and_column_deficit_indicators",
+  "axis_noncell_variable_count": 610,
+  "backend": "glucose3",
+  "checkpoint": null,
+  "checkpoint_cuts_loaded": 0,
+  "checkpoint_semantics": "validated real-cell geometry triples only; independent of target; exclusive file ownership required",
+  "column_deficit_indicator_count": 9,
+  "duration_scope": "SAT engine deadline includes axis encoding, cut loading and solves; symmetry compilation and final independent audits add measured wrapper overhead",
+  "elapsed_seconds": 0.005329,
+  "full_line_constraints_initially": false,
+  "initial_row_column_clauses": 1200,
+  "initial_scoped_clauses": 159,
+  "initial_total_clauses": 1359,
+  "initial_variable_count": 691,
+  "iterations": 27,
+  "lazy_cuts_added": 154,
+  "max_new_cuts": 25000,
+  "memory_telemetry": {
+    "formula_growth_control": "max_cuts bounds new geometry clauses; checkpoint reads are streamed",
+    "limit_enforcement": "external process supervisor; this worker does not impose a resident-memory hard limit",
+    "peak_process_rss_bytes": 29720576
+  },
+  "n": 9,
+  "note": "Timeout is incomplete. UNSAT applies only to the reported scope and is solver-reported without independent proof checking. Only double-verified witnesses are returned.",
+  "novelty_claim": false,
+  "progress": null,
+  "row_deficit_indicator_count": 9,
+  "scope": {
+    "checkpoint_policy": "only actual real-cell collinear triples are reusable; these scoped symmetry clauses never enter the geometry checkpoint",
+    "diagonal_point_orbit_exclusion_clauses": 16,
+    "equality_clauses": 72,
+    "family": "main_diagonal_reflection",
+    "fixed_cell_count": 9,
+    "fixed_point_clauses": 37,
+    "invariant_orbit_count": 36,
+    "restricted": true,
+    "same_line_orbit_exclusion_clauses": 34,
+    "symmetry": "diagonal",
+    "target": 17,
+    "transform": "(x,y)->(y,x)",
+    "unsat_scope": "this invariant family only; no claim about unrestricted configurations"
+  },
+  "seconds_limit": 15.0,
+  "seed": "backend default; no seed specified",
+  "status": "valid_witness",
+  "symmetry_compile_seconds": 5.520899867406115e-05,
+  "target": 17,
+  "timer_interrupt_fired": false,
+  "witness": {
+    "independent_validation": [
+      "integer_normalized_slopes",
+      "integer_cross_products"
+    ],
+    "n": 9,
+    "normalized_sha256": "4ad593eddf2658160923370afad66d0bf531f62c4f68c9ed6a4ae865f167b957",
+    "points": [
+      [
+        4,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "symmetry": "diagonal",
+    "target": 17
+  },
+  "wrapper_elapsed_seconds": 0.005647250000038184
+}

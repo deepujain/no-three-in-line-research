@@ -21,19 +21,19 @@
     "id": "A03",
     "name": "Small-change repairs",
     "role": "Mathematician",
-    "status": "pruned \u22644",
+    "status": "pruned through five for this seed",
     "scope": "Two-hole extensions and row/column constraints",
-    "finding": "Complete corner audit plus reviewed insertion audit exclude all 6,241 row/column embeddings through four seed deletions",
-    "evidence": "data/guided-four-audit.json"
+    "finding": "All 6,241 row/column embeddings excluded through five original-point deletions, conditional on reviewed trusted computations",
+    "evidence": "research/corner-family-closure-review.md"
   },
   {
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "active frontier",
+    "status": "closed through five for this seed",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "All eight size-two, 1,936 size-four and 8,136 one-case anchor families completed and audited with no improvement; two size-three partitions remain active, full corner family open",
-    "evidence": "data/corner-batch-four-summary.json"
+    "finding": "All 10,304 corner anchors completed; no 157/158 repair through five deletions for any corner of this seed, conditional on trusted computation. Larger deletions remain unexplored",
+    "evidence": "research/corner-family-closure-review.md"
   },
   {
     "id": "A05",
@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Small half-turn158 branch paused after400000 accumulated cuts, no witness or UNSAT; second run116.4MB peak RSS",
-    "evidence": "data/sat-r9-halfturn158-small-resume.json"
+    "finding": "Reflection 157-point DFS approved; n9 preflight reached 2,000 nodes in 0.83 seconds at 50.8 MiB, no witness. First n79 run hit cleanup EPERM; no accepted measurement",
+    "evidence": "research/diagonal-secant-guard-review.md"
   },
   {
     "id": "A09",
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "exploring",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Compact model built within256MiB but first solve crossed cap after15.19sec; no witness/UNSAT. Same configuration paused; equivalent memory reduction under investigation",
-    "evidence": "data/near-quarter-compact-solve-n79.json"
+    "finding": "Equivalent row-floor encoding approved on tiny grids and a known fixture. First n79 build lost its report to cleanup EPERM; no accepted count or RSS. Cleanup fix under review",
+    "evidence": "data/near-quarter-row-quota-preflight-n79.json"
   },
   {
     "id": "A10",
@@ -86,7 +86,7 @@
     "role": "Mathematician / Literature Researcher",
     "status": "pruned \u22645",
     "scope": "Published witnesses, nearby sizes, and nonuniform row/column insertion families",
-    "finding": "All 6,237 nonuniform embeddings excluded through five source-point deletions; four corners excluded only through four",
+    "finding": "All 6,241 embeddings of this exact seed excluded through five deletions, conditional on separately reviewed trusted computations",
     "evidence": "data/embedding-five-summary.json"
   }
 ]
