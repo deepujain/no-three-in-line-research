@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Two audited checkpointed reflection slices reached367,000 and21,000nodes, no witness or exhausted slice. Unique-rowbatch variants passed tiny exact checks; production checkpoint integration in progress.",
-    "evidence": "research/diagonal-chain-r33-mathematical-audit.md"
+    "finding": "Old one-orbit frontiers retained at 367,000/21,000 nodes. Independently reviewed unique full-row traversal reached 15,600 main/1,100 exploration nodes, no witness or exhausted slice.",
+    "evidence": "research/diagonal-rowbatch-r38-review.md"
   },
   {
     "id": "A09",
@@ -77,7 +77,7 @@
     "role": "Mathematician",
     "status": "native solver paused",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Full-model Glucose paused after291.39MiB memory stop. A distinct packed secant/rowbatch prototype passed exhaustive tiny checks; large-grid checkpoint/guard integration remains gated.",
+    "finding": "Native Glucose paused after memory stop. Packed near-quarter tiny batches and bounded checkpoint design reviewed; core fixes under review. Half-turn one-deletion lemma prunes only the proposed partial-final-orbit shortcut.",
     "evidence": "data/direct-threshold-solve77-n79.json"
   },
   {

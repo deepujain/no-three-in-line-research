@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Implementing separate checkpointed full-row reflection batches after tiny uniqueness/census review; resource integration gated",
+    "status": "Reflection row-batch core and guard approved; real-host gates passed; developing a separate bounded chain after accepted n79 pilots",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Tiny near-quarter unordered row batches independently approved; preparing production checkpoint design"
+    "status": "Near-quarter bounded checkpoint design approved; cursor reviewed, core and codec implementation in progress"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independent reflection checkpoint/source reviewer followed by near-quarter design review",
+    "status": "Independent near-quarter component reviewer and row-batch integration reviewer",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

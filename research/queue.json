@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "One existing supervisor, at most three numerical children. Reviewed disjoint size-three anchor partitions refill two free lanes; compact near-quarter build remains gated pending independent adapter review.",
+  "note": "Only new r38 jobs remain unreceipted; reviewed unique row-batch main continuation plus distinct exploration, each 30 seconds/256 MiB. Native SAT remains paused.",
   "jobs": [
     {
       "args": [
@@ -1081,6 +1081,152 @@
         "data/diagonal-boundary-center-frontier.json",
         "--output",
         "data/diagonal-boundary-center-preflight.json"
+      ]
+    },
+    {
+      "id": "r35-rowbatch-n79-cost-pilot",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "First100-node n79costpilot of independentlyreviewed full-row unorderedbatch traversal after4realhostinitial/resumegates(exacttiny20/205nodes,4/16dualverifiedwitnesses) and observedworkerSIGTERMcancelled/cleancleanup. Freshschema/frontier; cannotresumeoldone-orbitcheckpoint. Same30sec/256MiB. Incompletequota/timeout isnotinfeasibility; no directnodespeedcomparison acrossdifferenttree definitions.",
+      "args": [
+        "--diagonal-rowbatch-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "100",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--output",
+        "data/diagonal-rowbatch-n79-preflight.json"
+      ]
+    },
+    {
+      "id": "r36-rowbatch-n79-resume500",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "One pinned 500-node continuation after independent host/r35 source/hash/frontier audit. r35 clean100-node pilot used0.204guardseconds/56016KiB; futurecost not assumed. Same(0,0)rowbatchschema,30sec/256MiB, externallytrustedacceptedSHA. No oldchainadapter oroldfrontierconversion; no witness/exhaustion orspeedratio claim on quota.",
+      "args": [
+        "--diagonal-rowbatch-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "500",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "195dd6d921fd2d4f4bbffb76c72e66fa71ccb6f0c7968c0d1f27e9162741c60f",
+        "--output",
+        "data/diagonal-rowbatch-n79-resume500.json"
+      ]
+    },
+    {
+      "id": "r37-rowbatch-main5000",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "One5000-node continuation after independent r36 audit: clean600 cumulative nodes at56,288KiB, source/order identity unchanged. Measure larger unique-row batch prefix under30sec/256MiB; costmaychange, stop on cutoff. Preserve externallytrusted predecessor; no claimfromquotafailure.",
+      "args": [
+        "--diagonal-rowbatch-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "5000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--output",
+        "data/diagonal-rowbatch-main5000.json",
+        "--expected-sha256",
+        "8a94cad0bd54fe87a540461ccd33749373250dc8d8463237c219fd40f031bd15"
+      ]
+    },
+    {
+      "id": "r37-rowbatch-explore100",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Limited distinctslice exploration for new unique-rowbatch algorithm: fresh(d,t)=(0,1),100-nodecostpilot with30sec/256MiB. Oldone-orbitfrontier cannot convert; explicitly newbranchschema. No restricted/unrestricted impossibility or novelty claim.",
+      "args": [
+        "--diagonal-rowbatch-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "100",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--output",
+        "data/diagonal-rowbatch-explore100.json"
+      ]
+    },
+    {
+      "id": "r38-rowbatch-main10000",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Continue independently audited r37 unique full-row traversal with a pinned frontier. Bounded cost measurement, deterministic order and no RNG. No coverage percentage or infeasibility conclusion on node limit. Preserve a distinct exploration slice.",
+      "args": [
+        "--diagonal-rowbatch-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "10000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "e377a93dfbf26b326c1d916fa4a06b6573819ba9336ef21d6d3cdee5c3f07084",
+        "--output",
+        "data/diagonal-rowbatch-main10000.json"
+      ]
+    },
+    {
+      "id": "r38-rowbatch-explore1000",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Continue independently audited r37 unique full-row traversal with a pinned frontier. Bounded cost measurement, deterministic order and no RNG. No coverage percentage or infeasibility conclusion on node limit. Preserve a distinct exploration slice.",
+      "args": [
+        "--diagonal-rowbatch-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "90e665c4dae219c7242ec66533cb47d487d87bc6c3fcad339c2dcbd807f9c556",
+        "--output",
+        "data/diagonal-rowbatch-explore1000.json"
       ]
     }
   ]

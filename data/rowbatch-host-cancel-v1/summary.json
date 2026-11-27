@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "command": [
+    ".venv/bin/python",
+    "src/lazy_sat.py",
+    "--diagonal-rowbatch-checkpoint-guard",
+    "--n",
+    "5",
+    "--seconds",
+    "10",
+    "--rss-mib",
+    "256",
+    "--max-nodes",
+    "10000",
+    "--checkpoint",
+    "data/rowbatch-host-cancel-v1/frontier.json",
+    "--output",
+    "data/rowbatch-host-cancel-v1/report.json"
+  ],
+  "exit_code": 2,
+  "observed_worker_pid": 39379,
+  "worker_absent_after_exit": true,
+  "report_sha256": "5baf01c43cbf247d4d15f670d2debe868d886567864bf5803ff4529527b1f941",
+  "guard": {
+    "cleanup_elapsed_seconds": 0.09576912500779144,
+    "cleanup_error": null,
+    "cleanup_samples": 2,
+    "cleanup_status": "clean",
+    "elapsed_seconds": 0.14376679199631326,
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+    "gate_status": "cancelled",
+    "monitor_error": null,
+    "peak_sampled_rss_kib": 54208,
+    "returncode": -9,
+    "rss_limit_mib": 256.0,
+    "rss_samples": 1,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "seconds_limit": 9.938605915987864,
+    "source_stable": true,
+    "trigger_gate_status": "cancelled"
+  },
+  "report_status": "cancelled"
+}

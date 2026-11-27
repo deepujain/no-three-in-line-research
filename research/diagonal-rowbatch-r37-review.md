@@ -1,0 +1,9 @@
+# Independent row-batch r37 evidence review
+
+Both r37 receipts report exit zero, matching reviewed entrypoint and source hashes, normal guard exit, clean cleanup, and `node_limit` with `complete=false`. Neither emitted a witness file or exhausted its declared slice. The current frontier files were independently hashed and their row-batch identity, counters, source and orbit/branch ordering and full stack paths reconstructed; previously visited numerical work was not replayed.
+
+The `(d,t)=(0,0)` continuation pins r36's accepted `8a94cad0bd54fe87a540461ccd33749373250dc8d8463237c219fd40f031bd15` in its command, report and current frontier predecessor. It adds 5,000 nodes to 600 for 5,600 total; its current accepted hash is `e377a93dfbf26b326c1d916fa4a06b6573819ba9336ef21d6d3cdee5c3f07084`. The current stack has 24 frames and 41 inserted reflection pairs. Helper elapsed was 5.5467 seconds with 56,496 KiB sampled peak across 111 samples; wrapper elapsed was 5.6466 seconds. The predecessor bytes were independently checked before this continuation and subsequently replaced.
+
+The fresh `(0,1)` pilot has no predecessor and records 100 nodes, accepted hash `90e665c4dae219c7242ec66533cb47d487d87bc6c3fcad339c2dcbd807f9c556`, 17 stack frames and 31 inserted pairs. Helper elapsed was 0.2795 seconds with 56,496 KiB sampled peak across five samples; wrapper elapsed was 0.3843 seconds. These measured costs and sampled peaks do not guarantee later behavior. The two slices remain incomplete; no infeasibility, novelty, coverage percentage or old-versus-new node-rate claim follows.
+
+Evidence SHA-256: main report `22156849c8e0d083e520606a7e0f2a991f9d31109d31e98423111889e3cf6cf8`, receipt `50c4fce7f48955970f5d71acfaa1dc2afdeac520733c62de0c0e55982de0cb98`; exploration report `57efab963a529ad212c63663d9ba6ce3ac850a5e9e2cde3944e34a739b9c1f16`, receipt `def0c6bbb751ac44c898f0a4bfb4cba1bdad05b650ac3030fe2be48bfca62b82`. No numerical search was run for this audit.
