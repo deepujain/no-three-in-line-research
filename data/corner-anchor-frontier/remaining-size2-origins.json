@@ -1,0 +1,61 @@
+{
+  "manifest_sha256": "e45bfeaed19f5b519a8cdda3ab411bbf874ca365903d46c7cadd802ab64137a1",
+  "origins": [
+    {
+      "base": [
+        70,
+        88
+      ],
+      "cases": 596904,
+      "id": "corner-exact5-anchor-10299",
+      "index": 10299,
+      "origin_path": "data/corner-anchor-frontier/corner-exact5-anchor-10299-origin.json",
+      "origin_sha256": "14b7a5ff6bb0a3263aa62627b66055087f41788360a6ae282d60f0b62c181d07"
+    },
+    {
+      "base": [
+        106,
+        154
+      ],
+      "cases": 596904,
+      "id": "corner-exact5-anchor-10300",
+      "index": 10300,
+      "origin_path": "data/corner-anchor-frontier/corner-exact5-anchor-10300-origin.json",
+      "origin_sha256": "a365a103fde85e160a655971d21fb197cfd6e78f47cda2954beb342becc6a6f3"
+    },
+    {
+      "base": [
+        106,
+        155
+      ],
+      "cases": 596904,
+      "id": "corner-exact5-anchor-10301",
+      "index": 10301,
+      "origin_path": "data/corner-anchor-frontier/corner-exact5-anchor-10301-origin.json",
+      "origin_sha256": "0640bc737b15562feffab4fdca9396b4ffdbccc1808db2c5939892d708034c99"
+    },
+    {
+      "base": [
+        126,
+        154
+      ],
+      "cases": 596904,
+      "id": "corner-exact5-anchor-10302",
+      "index": 10302,
+      "origin_path": "data/corner-anchor-frontier/corner-exact5-anchor-10302-origin.json",
+      "origin_sha256": "40686f928d498a85731f66ff17e379ea2838658c30c6f31fd000fd0e35c2e40d"
+    },
+    {
+      "base": [
+        126,
+        155
+      ],
+      "cases": 596904,
+      "id": "corner-exact5-anchor-10303",
+      "index": 10303,
+      "origin_path": "data/corner-anchor-frontier/corner-exact5-anchor-10303-origin.json",
+      "origin_sha256": "fb54ef7fbf36a1d602af0dab65e2dac22421ac42563ae1758bb6f42b84028ff8"
+    }
+  ],
+  "preparation_only": true
+}

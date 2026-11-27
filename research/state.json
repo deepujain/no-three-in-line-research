@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": null,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Inspect completed corner anchors separately via full chains, keep overlaps explicit; only incomplete frontiers resume with new IDs. Check small half-turn SAT receipt without priority claim. Review forthcoming corner_batch_worker before source allowlisting or numerical use. Keep one SAT maximum and never load old large checkpoints.",
+  "next_action": "Inspect current corner receipts and witness files. Initial three size-two anchors complete with reviewed no-witness evidence; remaining five distinct anchors queued. Batch adapter and near-quarter weighted encoder require independent review/gates before execution. Half-turn SAT paused at400000 accumulated cuts.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -20,12 +20,13 @@
     "624 one-hole boundary extensions",
     "24340 individual empty-cell blocker checks",
     "5824 guided <=3-deletion sets, no point-count improvement",
-    "6237 nonuniform source embeddings excluded through five deletions, conditional on reviewed trusted computations"
+    "6237 nonuniform source embeddings excluded through five deletions, conditional on reviewed trusted computations",
+    "three exact-five corner-anchor families completed, overlapping, conditional on reviewed trusted computations"
   ],
   "compute_seconds_limit": 21600,
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "three corner-prefix continuations; small measured half-turn SAT exploration queued; memory-bounded batch wrapper under independent review",
+  "current_round": "next five size-two corner families, max three active; reviewed batch core awaiting adapter; documented near-quarter model in preparation",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included"
 }

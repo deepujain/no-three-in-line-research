@@ -53,11 +53,13 @@ Work continues beyond the initial small-change audit:
 - Two SAT backends each added 1.5 million exact geometric cuts, then stopped at their declared cut quota without a witness or UNSAT result. A later unrestricted run and diagonal-reflection branch were interrupted by the shared memory guard. Neither left a final witness or UNSAT result. Large SAT continuation is paused; retained geometry checkpoints require full validation before reuse. [Memory-stop review](research/memory-stop.md) [SAT method and runs](research/sat.md)
 - Row/column trades retain a separately verified 156-point incumbent. Their 158-point search states remain invalid. The complete component with conflict score at most 13 contains 36 states and never improves the starting score of 11. This establishes a local barrier for one state and move family; it gives no global nonexistence result. [Trade results](research/trades.md) · [Review](research/trades-review.md)
 
-A later half-turn symmetry trial used a fresh checkpoint, reached its 200,000-cut quota at 86.8 MB peak RSS, and returned no witness or UNSAT. A small continuation is queued; large SAT checkpoints remain paused.
+A later half-turn symmetry trial used a fresh checkpoint, reached its 200,000-cut quota at 86.8 MB peak RSS, and returned no witness or UNSAT. Its bounded continuation reached 400,000 accumulated cuts without a witness or UNSAT, with 116.4 MB peak RSS. Further extension is paused pending a new mechanism. Large SAT checkpoints remain paused.
 
-The next allocation uses three bounded-memory corner repair streams. They cover selected overlapping deletion families, not the entire corner neighborhood. [Method and scope](research/corner-anchor-preparation.md)
+Three selected corner repair streams have completed all 596,904 cases each without an improvement. Their families overlap. The remaining five size-two anchors are assigned, at most three running together; the entire corner neighborhood remains open. [Method and scope](research/corner-anchor-preparation.md)
 
 The queue, real process receipts, and [Research Lead decisions](research/decisions.md) distinguish running experiments, incomplete searches, scoped exhaustive results, and valid certificates. No new point-count record is claimed.
+
+The next exploration proposal uses a documented odd-grid near-quarter-turn family, with a weighted-orbit encoder under independent review. No large model or search has run yet. [Sources, model and validation gates](research/next-exploration.md)
 
 ## Reproduce and verify
 

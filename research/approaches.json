@@ -32,7 +32,7 @@
     "role": "Research Software Engineer",
     "status": "active frontier",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Three memory-bounded corner five-deletion anchor streams running; overlaps declared, full corner family remains open",
+    "finding": "Three selected corner anchor families complete with no improvement; five new size-two families assigned, all other anchors still open",
     "evidence": "research/corner-anchor-preparation.md"
   },
   {
@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Large interrupted SAT branches paused; small half-turn158 trial reached200000 cuts without witness or UNSAT,86.8MB peak RSS",
-    "evidence": "data/sat-r8-halfturn158-small.json"
+    "finding": "Small half-turn158 branch paused after400000 accumulated cuts, no witness or UNSAT; second run116.4MB peak RSS",
+    "evidence": "data/sat-r9-halfturn158-small-resume.json"
   },
   {
     "id": "A09",
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "exploring",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Quarter-turn158 and half-turn157 excluded; bounded half-turn158 exploration tested, no witness yet",
-    "evidence": "research/symmetry-sat.md"
+    "finding": "Exact quarter-turn158 excluded; documented odd-grid near-quarter-turn rct4 proposal and encoder under independent review",
+    "evidence": "research/next-exploration.md"
   },
   {
     "id": "A10",

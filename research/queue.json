@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "Current three corner streams remain uninterrupted. Next free lane receives a reviewed small half-turn158 exploration with fresh checkpoint and200000-cut cap. No concurrent SAT or large old-checkpoint loading.",
+  "note": "Five remaining size-two corner anchors independently approved; maximum three numerical children. Small half-turn branch paused at400000 accumulated cuts pending a concrete new mechanism; no large SAT reload.",
   "jobs": [
     {
       "args": [
@@ -306,6 +306,66 @@
         "data/run-logs/halfturn158-small-resume-progress.jsonl",
         "--output",
         "data/sat-r9-halfturn158-small-resume.json"
+      ]
+    },
+    {
+      "id": "r10-corner-five-10299",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Explore previously unsearched exact-five corner anchor 10299, independently checked against the complete antichain manifest. Stream from zero with its own locked tip; preserve partial progress and witness files. Overlap is allowed and no whole-corner exclusion follows from selected anchors.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10299-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10299-tip.json"
+      ]
+    },
+    {
+      "id": "r10-corner-five-10300",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Explore previously unsearched exact-five corner anchor 10300, independently checked against the complete antichain manifest. Stream from zero with its own locked tip; preserve partial progress and witness files. Overlap is allowed and no whole-corner exclusion follows from selected anchors.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10300-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10300-tip.json"
+      ]
+    },
+    {
+      "id": "r10-corner-five-10301",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Explore previously unsearched exact-five corner anchor 10301, independently checked against the complete antichain manifest. Stream from zero with its own locked tip; preserve partial progress and witness files. Overlap is allowed and no whole-corner exclusion follows from selected anchors.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10301-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10301-tip.json"
+      ]
+    },
+    {
+      "id": "r10-corner-five-10302",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Explore previously unsearched exact-five corner anchor 10302, independently checked against the complete antichain manifest. Stream from zero with its own locked tip; preserve partial progress and witness files. Overlap is allowed and no whole-corner exclusion follows from selected anchors.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10302-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10302-tip.json"
+      ]
+    },
+    {
+      "id": "r10-corner-five-10303",
+      "script": "research/embedding_worker.py",
+      "seconds": 900,
+      "hypothesis": "Explore previously unsearched exact-five corner anchor 10303, independently checked against the complete antichain manifest. Stream from zero with its own locked tip; preserve partial progress and witness files. Overlap is allowed and no whole-corner exclusion follows from selected anchors.",
+      "args": [
+        "--previous",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10303-origin.json",
+        "--output",
+        "data/corner-anchor-frontier/corner-exact5-anchor-10303-tip.json"
       ]
     }
   ]

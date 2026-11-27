@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "independent first corner-prefix review completed; no full-family claim",
+    "status": "primary-source near-quarter proposal prepared; transitioning to tiny weighted-orbit encoder implementation",
     "additional_role": "Mathematical Reviewer, later task on same agent/model"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "implementing memory-bounded multi-anchor worker; no numerical benchmark authorized alongside active pool"
+    "status": "reviewed multi-anchor worker core; preparing opt-in CLI adapter for independent review"
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "independent review of forthcoming multi-anchor worker; numerical sources remain frozen",
+    "status": "batch core independently approved; reviewing CLI adapter and sourced near-quarter encoder",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]
