@@ -1,0 +1,800 @@
+{
+  "accepted": true,
+  "accepted_chain_heads_unchanged": [
+    {
+      "path": "data/packed-readonly-n79-r1.chain/accepted.json",
+      "sha256": "cd3977d726cbd374ca0fa75c5526eb62db0eb096983f7c8c505d3ead779cfa24"
+    },
+    {
+      "path": "data/packed-readonly-n79-middle-d1541.chain/accepted.json",
+      "sha256": "cce89fcc680e137202ec9f8cd6f5f39f2753a03a8742c47ac209a6b118950a8e"
+    }
+  ],
+  "audit_elapsed_seconds": 0.20514241699129343,
+  "decision": "Accept fixed invalid artifacts and bounded policy receipt. Best is exact initial score5; D13 score45 is only a source-distance observation. No witness/improvement/global exclusion or automatic continuation.",
+  "fixed_artifact_sha256": {
+    "data/experiments/shepherd-score11-conflict-focused-tabu-v1.json": "58bb81fa946752978aa8f70eabae92fca2417f69f9e3ba994d993ca54e61cd13",
+    "data/score11-conflict-focused-tabu-v1/candidate-0000.json": "fb4ba4322529a10601de8070bb6748f4e30e61ac35b672718e081d74079ce8fc",
+    "data/score11-conflict-focused-tabu-v1/candidate-0001.json": "7ce150c35565d9e7e95ea934faab79ec0d6a7a758b2fcc4760c1e3beb89b92b0",
+    "data/score11-conflict-focused-tabu-v1/report.json": "37b320a4682a6f18a281b6f4937566b6ac0c3c8994bc16a55b036018d6affa27"
+  },
+  "guard": {
+    "cleanup_status": "clean",
+    "outer_seconds": 22.368399750004755,
+    "peak_sampled_rss_kib": 48464,
+    "returncode": 0,
+    "status": "exited"
+  },
+  "independent_determinant_triple_checks": 1265420,
+  "manifest_pin_count": 15,
+  "new_candidates_scored": false,
+  "policy_run_complete": true,
+  "receipt_pin_count": 16,
+  "report_and_artifact_pin_count": 8,
+  "script_sha256": "74d1e86f8a34d0f04d19e0b1ae2efc55d5dac12272a9b10adacc2a6e14c9ad20",
+  "search_complete": false,
+  "source_pinned_history": {
+    "accepted_histogram_distinct_scores": 128,
+    "accepted_histogram_max": 154,
+    "accepted_histogram_min": 8,
+    "accepted_transitions": 2000,
+    "class_totals": {
+      "admissible": 61599,
+      "completed": 64000,
+      "duplicates": 860,
+      "illegal": 1415,
+      "started": 64000,
+      "tabu": 126
+    },
+    "downhill": 656,
+    "first_distance_exit_claim": "source-pinned execution history; first occurrence not independently replayed",
+    "neutral": 510,
+    "proposal_attempts": 64000,
+    "steps": 2000,
+    "tabu_evictions": 1937,
+    "uphill": 834
+  },
+  "states": [
+    {
+      "both_saved_validators_reproduced": true,
+      "deficient_column": 78,
+      "deficient_row": 78,
+      "direct_conflict_triples": [
+        [
+          [
+            12,
+            75
+          ],
+          [
+            26,
+            77
+          ],
+          [
+            33,
+            78
+          ]
+        ],
+        [
+          [
+            33,
+            78
+          ],
+          [
+            34,
+            73
+          ],
+          [
+            48,
+            3
+          ]
+        ],
+        [
+          [
+            33,
+            78
+          ],
+          [
+            39,
+            74
+          ],
+          [
+            42,
+            72
+          ]
+        ],
+        [
+          [
+            33,
+            78
+          ],
+          [
+            40,
+            50
+          ],
+          [
+            50,
+            10
+          ]
+        ],
+        [
+          [
+            42,
+            24
+          ],
+          [
+            57,
+            14
+          ],
+          [
+            78,
+            0
+          ]
+        ]
+      ],
+      "equals_initial": true,
+      "exact_conflict_count": 5,
+      "initial_added": 0,
+      "initial_removed": 0,
+      "label": "best",
+      "new_points_outside_source": 0,
+      "normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "path": "data/score11-conflict-focused-tabu-v1/candidate-0000.json",
+      "point_count": 157,
+      "sha256": "fb4ba4322529a10601de8070bb6748f4e30e61ac35b672718e081d74079ce8fc",
+      "source_deleted": 1,
+      "source_retained": 157,
+      "valid": false
+    },
+    {
+      "both_saved_validators_reproduced": true,
+      "deficient_column": 21,
+      "deficient_row": 55,
+      "direct_conflict_triples": [
+        [
+          [
+            0,
+            26
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            74,
+            28
+          ]
+        ],
+        [
+          [
+            3,
+            39
+          ],
+          [
+            27,
+            67
+          ],
+          [
+            33,
+            74
+          ]
+        ],
+        [
+          [
+            4,
+            34
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            40,
+            50
+          ]
+        ],
+        [
+          [
+            6,
+            13
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            20,
+            63
+          ]
+        ],
+        [
+          [
+            7,
+            14
+          ],
+          [
+            9,
+            18
+          ],
+          [
+            15,
+            30
+          ]
+        ],
+        [
+          [
+            7,
+            14
+          ],
+          [
+            22,
+            19
+          ],
+          [
+            37,
+            24
+          ]
+        ],
+        [
+          [
+            8,
+            45
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            38,
+            3
+          ]
+        ],
+        [
+          [
+            9,
+            28
+          ],
+          [
+            27,
+            40
+          ],
+          [
+            42,
+            50
+          ]
+        ],
+        [
+          [
+            13,
+            38
+          ],
+          [
+            25,
+            46
+          ],
+          [
+            73,
+            78
+          ]
+        ],
+        [
+          [
+            13,
+            38
+          ],
+          [
+            48,
+            3
+          ],
+          [
+            51,
+            0
+          ]
+        ],
+        [
+          [
+            14,
+            20
+          ],
+          [
+            62,
+            47
+          ],
+          [
+            78,
+            56
+          ]
+        ],
+        [
+          [
+            14,
+            52
+          ],
+          [
+            19,
+            55
+          ],
+          [
+            39,
+            67
+          ]
+        ],
+        [
+          [
+            15,
+            10
+          ],
+          [
+            36,
+            41
+          ],
+          [
+            57,
+            72
+          ]
+        ],
+        [
+          [
+            16,
+            2
+          ],
+          [
+            25,
+            14
+          ],
+          [
+            73,
+            78
+          ]
+        ],
+        [
+          [
+            20,
+            8
+          ],
+          [
+            32,
+            18
+          ],
+          [
+            62,
+            43
+          ]
+        ],
+        [
+          [
+            21,
+            64
+          ],
+          [
+            42,
+            50
+          ],
+          [
+            69,
+            32
+          ]
+        ],
+        [
+          [
+            23,
+            76
+          ],
+          [
+            33,
+            74
+          ],
+          [
+            43,
+            72
+          ]
+        ],
+        [
+          [
+            25,
+            46
+          ],
+          [
+            29,
+            60
+          ],
+          [
+            33,
+            74
+          ]
+        ],
+        [
+          [
+            25,
+            46
+          ],
+          [
+            46,
+            52
+          ],
+          [
+            67,
+            58
+          ]
+        ],
+        [
+          [
+            26,
+            4
+          ],
+          [
+            76,
+            54
+          ],
+          [
+            78,
+            56
+          ]
+        ],
+        [
+          [
+            26,
+            77
+          ],
+          [
+            33,
+            74
+          ],
+          [
+            68,
+            59
+          ]
+        ],
+        [
+          [
+            26,
+            77
+          ],
+          [
+            44,
+            60
+          ],
+          [
+            62,
+            43
+          ]
+        ],
+        [
+          [
+            28,
+            68
+          ],
+          [
+            39,
+            67
+          ],
+          [
+            61,
+            65
+          ]
+        ],
+        [
+          [
+            30,
+            62
+          ],
+          [
+            31,
+            66
+          ],
+          [
+            33,
+            74
+          ]
+        ],
+        [
+          [
+            31,
+            66
+          ],
+          [
+            43,
+            72
+          ],
+          [
+            55,
+            78
+          ]
+        ],
+        [
+          [
+            32,
+            8
+          ],
+          [
+            60,
+            48
+          ],
+          [
+            67,
+            58
+          ]
+        ],
+        [
+          [
+            32,
+            18
+          ],
+          [
+            53,
+            42
+          ],
+          [
+            67,
+            58
+          ]
+        ],
+        [
+          [
+            33,
+            74
+          ],
+          [
+            34,
+            73
+          ],
+          [
+            72,
+            35
+          ]
+        ],
+        [
+          [
+            33,
+            74
+          ],
+          [
+            39,
+            67
+          ],
+          [
+            69,
+            32
+          ]
+        ],
+        [
+          [
+            35,
+            53
+          ],
+          [
+            51,
+            73
+          ],
+          [
+            55,
+            78
+          ]
+        ],
+        [
+          [
+            37,
+            24
+          ],
+          [
+            41,
+            36
+          ],
+          [
+            55,
+            78
+          ]
+        ],
+        [
+          [
+            37,
+            24
+          ],
+          [
+            42,
+            50
+          ],
+          [
+            47,
+            76
+          ]
+        ],
+        [
+          [
+            37,
+            27
+          ],
+          [
+            41,
+            36
+          ],
+          [
+            57,
+            72
+          ]
+        ],
+        [
+          [
+            38,
+            70
+          ],
+          [
+            42,
+            50
+          ],
+          [
+            50,
+            10
+          ]
+        ],
+        [
+          [
+            39,
+            67
+          ],
+          [
+            46,
+            52
+          ],
+          [
+            53,
+            37
+          ]
+        ],
+        [
+          [
+            39,
+            67
+          ],
+          [
+            59,
+            32
+          ],
+          [
+            63,
+            25
+          ]
+        ],
+        [
+          [
+            39,
+            67
+          ],
+          [
+            72,
+            34
+          ],
+          [
+            76,
+            30
+          ]
+        ],
+        [
+          [
+            42,
+            50
+          ],
+          [
+            56,
+            22
+          ],
+          [
+            64,
+            6
+          ]
+        ],
+        [
+          [
+            53,
+            37
+          ],
+          [
+            67,
+            58
+          ],
+          [
+            71,
+            64
+          ]
+        ],
+        [
+          [
+            54,
+            1
+          ],
+          [
+            58,
+            22
+          ],
+          [
+            62,
+            43
+          ]
+        ],
+        [
+          [
+            54,
+            6
+          ],
+          [
+            58,
+            22
+          ],
+          [
+            67,
+            58
+          ]
+        ],
+        [
+          [
+            56,
+            13
+          ],
+          [
+            60,
+            33
+          ],
+          [
+            62,
+            43
+          ]
+        ],
+        [
+          [
+            62,
+            43
+          ],
+          [
+            66,
+            46
+          ],
+          [
+            70,
+            49
+          ]
+        ],
+        [
+          [
+            68,
+            49
+          ],
+          [
+            72,
+            35
+          ],
+          [
+            74,
+            28
+          ]
+        ],
+        [
+          [
+            71,
+            64
+          ],
+          [
+            74,
+            28
+          ],
+          [
+            75,
+            16
+          ]
+        ]
+      ],
+      "equals_initial": false,
+      "exact_conflict_count": 45,
+      "initial_added": 12,
+      "initial_removed": 12,
+      "label": "distance_exit",
+      "new_points_outside_source": 12,
+      "normalized_sha256": "00bfac3003de860088a8a418e702fb228acd0efb6bc9325a2b96b40f2a6ef791",
+      "path": "data/score11-conflict-focused-tabu-v1/candidate-0001.json",
+      "point_count": 157,
+      "sha256": "7ce150c35565d9e7e95ea934faab79ec0d6a7a758b2fcc4760c1e3beb89b92b0",
+      "source_deleted": 13,
+      "source_retained": 145,
+      "valid": false
+    }
+  ],
+  "trajectory_replayed": false
+}

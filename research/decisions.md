@@ -716,3 +716,10 @@ Newdirect157focusedtabudesign8dbd804e:32conflictpoint-anchoredsamples/step, best
 Reviseddesign87159a71/designPASS9ff98e44; source980f0a83 independentlysource/tinyPASS028676dd, finalpins2a36ec2b. Root6testsPASS0.025s. Exactlyone seed279179/max2000steps/32samples pilot finished22.36839975s clean48464KiB/allpinsunchanged.2000completedsteps/64000proposals, best5 isEXACTINITIAL unchanged; nozero/witness. SavedfirstD13 state has45conflicts, invalid source-distance diagnostic only.834uphill/510neutral/656downhill and1937tabuevictions are executionhistory; no claimofscoreimprovement/globalcoverage. Independentactualaudit underway. Curtail unchangedpolicy/seedrepeat.
 
 Separate blocker-guided8arcscaffold designcdc1d5ac independentlyPASS9ceaad84; Engineer source/tinyonly, Literaturelifecycle reviewer, Mathgeometryreview aftertabuaudit. Goalvalid149D17 partial+verifiedresidual8matching/singlecycleplan, not157witness orcompletionDFSallocation. Allcaps shared25/30/256 afterreviews only. Budget16734.686502677076s/21600; originaldeadline unchanged.
+
+
+## 2026-11-27T10:57:56.192484+00:00 — Tabu actual independently accepted, unchanged work curtailed
+
+Audit7437a446/review8720b238 runsbothfullvalidators+directdeterminants on savedstates: initialbest5 EXACTA; D13state145retainedS/12new/45triples, deficientrow55/col21, invalid. Counters2000steps64000proposals/histogrammin8max154/834up510neutral656down1937evictions consistent butnoreplay. Allpins/heads/22.36839975s48464KiBcleangate match. Noimprovement/witness/exclusion; distanceexitonly. No unchangedrepeat. Math now scaffoldgeometry/source/tinyreview, Engineer sourceauthor/Literaturelifecycle reviewer. No ownednumericalprocess; budget16734.686502677076 unchanged.
+
+27f5c89PagesSUCCESS; CI718tests onelegacycompactSATpositiveRSSshortprocessfailure; onefailedjobretry45985954905 initiated, nosecondretry or guardchange.
