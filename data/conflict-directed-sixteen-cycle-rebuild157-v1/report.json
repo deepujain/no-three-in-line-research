@@ -1,0 +1,1723 @@
+{
+  "arithmetic_bounds": {
+    "augmenting_matching_edge_scans": 32768,
+    "candidate_cell_visits": 12324000,
+    "candidate_cell_visits_per_insertion": 12324,
+    "certificate_edge_checks": 2048,
+    "cover_edge_scans": 2048,
+    "cover_leaves": 243,
+    "cover_nodes": 364,
+    "maximum_added": 16,
+    "padding_cells": 610416,
+    "root_cell_visits": 6237840,
+    "root_domain_cells": 2048,
+    "root_lines": 78960,
+    "root_plus_candidate_cell_visits": 18561840
+  },
+  "closure": true,
+  "complete": true,
+  "counters": {
+    "backtracks": 0,
+    "candidate_cell_visits_completed": 0,
+    "candidate_cell_visits_started": 0,
+    "candidate_lines_completed": 0,
+    "candidate_lines_started": 0,
+    "certificate_edge_checks_completed": 5,
+    "certificate_edge_checks_started": 5,
+    "cover_edge_scans_completed": 0,
+    "cover_edge_scans_started": 0,
+    "cover_leaves": 81,
+    "cover_nodes_completed": 127,
+    "cover_nodes_started": 127,
+    "cycle_pruned_choices": 0,
+    "cycle_steps_completed": 0,
+    "cycle_steps_started": 0,
+    "distinct_kernels": 81,
+    "domain_wipeouts": 0,
+    "full_assignments": 0,
+    "full_cycle_checks": 0,
+    "insertions_completed": 0,
+    "insertions_started": 0,
+    "matching_edge_scans_completed": 5,
+    "matching_edge_scans_started": 5,
+    "maximum_added": 0,
+    "padded_kernels": 8,
+    "padding_cells_completed": 1439,
+    "padding_cells_started": 1439,
+    "rollbacks": 0,
+    "root_cell_visits_completed": 524918,
+    "root_cell_visits_started": 524918,
+    "root_domain_cells_completed": 2048,
+    "root_domain_cells_started": 2048,
+    "root_lines_completed": 78960,
+    "root_lines_started": 78960
+  },
+  "diagnostic156": null,
+  "elapsed_seconds": 0.5121297080040677,
+  "identity_valid": true,
+  "input_normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+  "input_validation": [
+    {
+      "algorithm": "integer_normalized_slopes",
+      "conflict_count": 5,
+      "conflicts": [
+        {
+          "indices": [
+            25,
+            53,
+            67
+          ],
+          "points": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ],
+            [
+              33,
+              78
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            69,
+            96
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              34,
+              73
+            ],
+            [
+              48,
+              3
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            79,
+            85
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              39,
+              74
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            80,
+            100
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              40,
+              50
+            ],
+            [
+              50,
+              10
+            ]
+          ]
+        },
+        {
+          "indices": [
+            84,
+            114,
+            156
+          ],
+          "points": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ],
+            [
+              78,
+              0
+            ]
+          ]
+        }
+      ],
+      "errors": [],
+      "n": 79,
+      "normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "point_count": 157,
+      "valid": false
+    },
+    {
+      "algorithm": "integer_cross_products",
+      "conflict_count": 5,
+      "conflicts": [
+        {
+          "indices": [
+            25,
+            53,
+            67
+          ],
+          "points": [
+            [
+              12,
+              75
+            ],
+            [
+              26,
+              77
+            ],
+            [
+              33,
+              78
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            69,
+            96
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              34,
+              73
+            ],
+            [
+              48,
+              3
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            79,
+            85
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              39,
+              74
+            ],
+            [
+              42,
+              72
+            ]
+          ]
+        },
+        {
+          "indices": [
+            67,
+            80,
+            100
+          ],
+          "points": [
+            [
+              33,
+              78
+            ],
+            [
+              40,
+              50
+            ],
+            [
+              50,
+              10
+            ]
+          ]
+        },
+        {
+          "indices": [
+            84,
+            114,
+            156
+          ],
+          "points": [
+            [
+              42,
+              24
+            ],
+            [
+              57,
+              14
+            ],
+            [
+              78,
+              0
+            ]
+          ]
+        }
+      ],
+      "errors": [],
+      "n": 79,
+      "normalized_sha256": "adf88a13c3a52a5907e5d0661153d02d8c06a08660eea8dba7d954c5e11e952c",
+      "point_count": 157,
+      "valid": false
+    }
+  ],
+  "kernel_count": 81,
+  "kernels_complete": true,
+  "max_insertions": 1000,
+  "max_patches": 8,
+  "method": "conflict_directed_sixteen_cycle_rebuild157",
+  "n": 79,
+  "patch_selection_complete": true,
+  "patches": [
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 0,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffffffdffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbffffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          57,
+          14
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 1,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffffffdffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbffffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 2,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          15
+        ],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          14
+        ],
+        "matching": [
+          [
+            14,
+            15
+          ]
+        ],
+        "matching_size": 1
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffffffdffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbffffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 3,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [
+          13
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          0
+        ],
+        "matching": [
+          [
+            0,
+            13
+          ]
+        ],
+        "matching_size": 1
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffff7fffffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbdfffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          57,
+          14
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 4,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [
+          13
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          0
+        ],
+        "matching": [
+          [
+            0,
+            13
+          ]
+        ],
+        "matching_size": 1
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffff7fffffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbdfffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 5,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [
+          13
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          15
+        ],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [
+          0,
+          14
+        ],
+        "matching": [
+          [
+            0,
+            13
+          ],
+          [
+            14,
+            15
+          ]
+        ],
+        "matching_size": 2
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffff7fffffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbdfffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          26,
+          77
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 6,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbffffff",
+      "status": "root_matching_obstruction"
+    },
+    {
+      "closure": true,
+      "complete": true,
+      "deleted": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          45
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          26,
+          77
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          57,
+          14
+        ]
+      ],
+      "dfs_exhausted": false,
+      "index": 7,
+      "insertions_started": 0,
+      "retained_validation_complete": true,
+      "root_domains": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "root_domains_complete": true,
+      "root_mask_complete": true,
+      "root_matching_complete": true,
+      "root_matching_cover": {
+        "cover_columns": [],
+        "cover_rows": [],
+        "matching": [],
+        "matching_size": 0
+      },
+      "root_state_restored": null,
+      "root_unsafe_hex": "0x1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdffffffffffffffffffffffffffeffffffffffffffffffffdfffffffffffffffffffffdffffffffffffdfffffffffffffffffffffffdfffffffffffffffffffffff7fffffffffffdfffffffffffffffffffffbffffffffffffffffffffbfffffffffffffffffffffffbffffffffffffffffbffffffffffffffffffbffffff",
+      "status": "root_matching_obstruction"
+    }
+  ],
+  "pins": {
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/score11-deficiency-walk-seed279157-v1-independent-actual-audit.json": "419039ebf5828b8fef5b22a0eac29f63e4da4ff203a263aae14c30f704b4faec",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/score11-deficiency-walk-seed279157-v1/best-state.json": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/conflict_directed_sixteen_cycle_rebuild157.py": "714c389795cb3250a13e969910b671e9acb47ffd9054c4754c6ad84b5124dab7",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c"
+  },
+  "scope": "Only first eight distinct deterministic greedy-padded matching covers; single sixteen-cycles, outside fixed S. No alternate padding, restart, width change or automatic continuation.",
+  "selected_patches": [
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        61
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        42,
+        24
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        61
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        57,
+        14
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        61
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        78,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        75
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        42,
+        24
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        75
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        57,
+        14
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        75
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        78,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        61
+      ],
+      [
+        26,
+        77
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        42,
+        24
+      ]
+    ],
+    [
+      [
+        0,
+        26
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        34
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        45
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        31
+      ],
+      [
+        12,
+        61
+      ],
+      [
+        26,
+        77
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        57,
+        14
+      ]
+    ]
+  ],
+  "shared_soft_seconds": 25.0,
+  "source_normalized_sha256": "f0ab1e9b47f89b8252eb5fec00b6d2b451bd25545924dc4a491d0b6638dff34d",
+  "source_validation_complete": true,
+  "status": "selected_families_exhausted",
+  "target": 157,
+  "width": 16,
+  "witness157": null
+}

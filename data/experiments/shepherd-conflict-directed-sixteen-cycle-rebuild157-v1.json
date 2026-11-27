@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "shepherd-conflict-directed-sixteen-cycle-rebuild157-v1",
+    "seconds": 30,
+    "hypothesis": "Select at most first eight deterministic conflict-covering16-edge matchings from fixed157 state; retain valid141 and reconstruct16new outsideS asone16cycle. ExactD17 onfull157; shared1000startedinsertions/25soft/30owned256; onepilot, no retry/alternatepadding."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/conflict_directed_sixteen_cycle_rebuild157.py",
+    "--seconds",
+    "25",
+    "--max-insertions",
+    "1000",
+    "--output-dir",
+    "data/conflict-directed-sixteen-cycle-rebuild157-v1"
+  ],
+  "sources_before": {
+    "data/conflict-directed-sixteen-cycle-independent-tiny-audit.json": "4af9611b7ebf59c617a57d74f7f840ef2c572a408dcd5a0291c33ce54c211667",
+    "data/conflict-directed-sixteen-cycle-rebuild157-tiny-evidence.json": "b4627a656a5f0d09550cca5f09e2c04de79d0294a20f960edd10f6acbf062d7e",
+    "data/score11-deficiency-walk-seed279157-v1-independent-actual-audit.json": "419039ebf5828b8fef5b22a0eac29f63e4da4ff203a263aae14c30f704b4faec",
+    "data/score11-deficiency-walk-seed279157-v1/best-state.json": "3e8c8e0495f2e2cbf99815c7fbc575ccd808d0e6908091eb6f04e268f42a38f0",
+    "data/source-disjoint-matching-rebuild157-independent-tiny-audit.json": "0db246290648b46430985d5a673cbe8fffd63cc17d6f1c00933b77188f3eadf3",
+    "data/source-disjoint-matching-rebuild157-source-pins.json": "0662f50638f9238033e7bf43a2cb33b69301cef2474ddec6dc34d0476ab0d873",
+    "data/trades-n79-seed270079-state.json": "9566a3196faf2f5233b9e8b2e1fcd5d23c0c9ed70262baec1a24b45a9bb32f26",
+    "research/conflict-directed-sixteen-cycle-independent-source-review.md": "5017d2320d8928fd49957a18a5f41205ae8dc8e44063e08d515622185b90cf3b",
+    "research/conflict-directed-sixteen-cycle-lifecycle-independent-review.md": "2b245e105f928b3709c6ec207a0dd07f8939b947cec673c592b12f077f6bc656",
+    "research/conflict-directed-sixteen-cycle-rebuild157-independent-design-review.md": "2642fde7296cbdb970892570db7454c9da9aa74ec0275a4a340ccaaa24556f98",
+    "research/conflict-directed-sixteen-cycle-rebuild157-method.md": "0dae69bac77838d9dca1a8a3c709ce3dc6a396020a5caf7018941be8caecbb15",
+    "research/conflict-directed-sixteen-cycle-rebuild157-proposal.md": "e08c066ae07885bcda24c7813ff1a0dc706d81bcfc267e4056ba8270a8279777",
+    "research/conflict_directed_sixteen_cycle_independent_tiny.py": "ea8fba7886ee5edc2ecbd238cceab48af178b29d5d0e582c5184516adf90cfbd",
+    "research/conflict_directed_sixteen_cycle_rebuild157.py": "714c389795cb3250a13e969910b671e9acb47ffd9054c4754c6ad84b5124dab7",
+    "research/ejection-chain-independent-move-algebra-oracle-plan.md": "8299446bfa7fce00d3cfe35b67374886159d70375d6bd8dab871330770556a2e",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48",
+    "research/source-disjoint-matching-rebuild157-independent-source-review.md": "5de2c0238a39cb1c3db6c6763366bf10b0e5488b2efd7f0c3ba8c7a3a54397b7",
+    "research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "tests/test_conflict_directed_sixteen_cycle_rebuild157.py": "f98cc8bfefa06a5cdddb08b7e0cafd4d730ae6432809625fc9bdcd898a993845",
+    "tests/test_source_disjoint_matching_rebuild157.py": "3084b4d27de62b2b2bec8754bbf380fcbdf724b5cfe6464741bf191074e0d72b",
+    "data/conflict-directed-sixteen-cycle-rebuild157-source-pins.json": "9806387d16e31f945313f40d98a4d8979bf871e8b7930d3001705ff61615bf03"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.5631643750093644,
+  "started_at": "2026-11-27T10:36:42.971792+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.563139667006908,
+    "rss_samples": 12,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 48496,
+    "cleanup_elapsed_seconds": 0.011087958991993219,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T10:36:43.535227+00:00",
+  "sources_unchanged": true
+}

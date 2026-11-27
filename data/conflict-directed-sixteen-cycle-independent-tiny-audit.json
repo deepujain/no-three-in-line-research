@@ -1,0 +1,21 @@
+{
+  "accepted": true,
+  "counts": {
+    "axis_states_n3": 45,
+    "cycle_label_checks": 256,
+    "full_solutions": 336,
+    "hitting_matchings_checked": 20740,
+    "kernel_families": 4096,
+    "patch_families": 1284,
+    "prefixes_checked": 2467,
+    "shared_cap_kernel_attempts": 167,
+    "shared_cap_started": 1000
+  },
+  "independent_script_sha256": "ea8fba7886ee5edc2ecbd238cceab48af178b29d5d0e582c5184516adf90cfbd",
+  "scope": "Independent tiny inputs n3..5 and abstract16labels only; no actual n79 load/geometry/selection/search",
+  "source_sha256": {
+    "research/conflict_directed_sixteen_cycle_rebuild157.py": "714c389795cb3250a13e969910b671e9acb47ffd9054c4754c6ad84b5124dab7",
+    "research/source_disjoint_matching_rebuild157.py": "56248d90b13b45dfe6cefbf605cfc9a61e601fffe2f5332217b1cbd2c0f62a09",
+    "tests/test_conflict_directed_sixteen_cycle_rebuild157.py": "f98cc8bfefa06a5cdddb08b7e0cafd4d730ae6432809625fc9bdcd898a993845"
+  }
+}
