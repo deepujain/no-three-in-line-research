@@ -1,0 +1,514 @@
+{
+  "accepted": true,
+  "audit_source_sha256": "1957377699f9fa516d74d592994f8120657f9c72b64210ab0aef2c205ee99c8e",
+  "authority_audit": {
+    "abandoned_starts": 0,
+    "accepted_scores": [
+      65
+    ],
+    "accepted_state_hashes": [
+      "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+    ],
+    "authority_chain_passed": true,
+    "counters": {
+      "accepted": 28,
+      "pair_completed": 96,
+      "pair_started": 96,
+      "row_completed": 308,
+      "row_started": 308
+    },
+    "cursor_accounting": {
+      "pair_cursor": 96,
+      "pair_scan_complete": false,
+      "row_cursor": 72,
+      "row_sweep_complete": true
+    },
+    "direct_rankings_checked": 1,
+    "durable_U": 65,
+    "durable_state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c",
+    "durable_status": "pair_cap",
+    "historical_coverage_basis": "source_bound_prior_execution_not_independent_minimum_certificate",
+    "historical_pair_prefix": 32,
+    "limits": "Direct state scores/rankings, accepted-move legality and ledger accounting only. No optimizer/minimum replay or independent prefix exclusion. Side outputs never adopted. Receipt/resource/lifecycle acceptance is separate.",
+    "n": 75,
+    "new_accepted_moves": 0,
+    "new_attempts": 64,
+    "observations": [
+      {
+        "cursor": 32,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 1,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 33,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 2,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 34,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 3,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 35,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 4,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 36,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 5,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 37,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 6,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 38,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 7,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 39,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 8,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 40,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 9,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 41,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 10,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 42,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 11,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 43,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 12,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 44,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 13,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 45,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 14,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 46,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 15,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 47,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 16,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 48,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 17,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 49,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 18,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 50,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 19,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 51,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 20,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 52,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 21,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 53,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 22,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 54,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 23,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 55,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 24,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 56,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 25,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 57,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 26,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 58,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 27,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 59,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 28,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 60,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 29,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 61,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 30,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 62,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 31,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 63,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 32,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 64,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 33,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 65,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 34,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 66,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 35,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 67,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 36,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 68,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 37,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 69,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 38,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 70,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 39,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 71,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 40,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 72,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 41,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 73,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 42,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 74,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 43,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 75,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 44,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 76,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 45,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 77,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 46,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 78,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 47,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 79,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 48,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 80,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 49,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 81,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 50,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 82,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 51,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 83,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 52,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 84,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 53,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 85,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 54,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 86,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 55,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 87,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 56,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 88,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 57,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 89,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 58,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 90,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 59,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 91,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 60,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 92,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 61,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 93,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 62,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 94,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 63,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      },
+      {
+        "cursor": 95,
+        "kind": "pair",
+        "outcome": "complete",
+        "seq": 64,
+        "state_hash": "25540b6e492800d54a1bb2c1abe4d9127b18823a1289b960d7382ef541055c0c"
+      }
+    ],
+    "pending_attempt": null,
+    "receipt_acceptance_checked": false,
+    "recorded_nonimprovements_not_independent_minima": 64,
+    "side_outputs": [],
+    "unique_states_recounted": 1
+  },
+  "authority_helper_sha256": "4fc03f19b7f4e1323cff650615ad4cabca88ca6680450b1bbed080986ab7782a",
+  "construction_result": "Unchanged positive U65 diagnostic; no149 witness. No continuation allocation.",
+  "elapsed_seconds": 0.08591429199441336,
+  "final_status": "pair_cap",
+  "initial_sha256": "a49de0261dd1fa0a5409e36ab4b32cf6d2575f7cd268a2d3b91c5cdfe2f72043",
+  "local_minimum_claim": "None independently established. Historical32 and newly recorded64 minima remain source-supported execution, not exclusion proof.",
+  "receipt_acceptance_checked": true,
+  "runtime_path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "runtime_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "scope": "One independent direct endpoint/ranking recount plus saved ledger/receipt/pin association; no optimizer replay.",
+  "suffix_artifact_hashes": {
+    "data/experiments/shepherd-two-row-suffix75-v1.json": "59fd93d495ccbe332f9e2c14937d51a09d8d799476ad1389e2a8b833bb284c11",
+    "data/two-row-suffix75-source-pins.json": "1267a677d750c3d0b8cd0286d115768b4d268c349a9403ec73f295bf4e77d571",
+    "data/two-row-suffix75-v1/authority.json": "c8929d504610321357cbeb31e110db043cfd5c0addb7a2b0a3ca614f5d1a5174",
+    "data/two-row-suffix75-v1/report.json": "d721f912f05a95cefe5d82671001430501940405e2f6bab0304d02c87bf8053c"
+  },
+  "suffix_pins_checked": 167,
+  "suffix_resources": {
+    "elapsed_seconds": 7.499447333000717,
+    "peak_sampled_rss_kib": 56448,
+    "rss_note": "Sampled RSS observation; not a proved unsampled maximum."
+  }
+}

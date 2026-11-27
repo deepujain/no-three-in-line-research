@@ -1,0 +1,23 @@
+{
+  "geometry": "unchanged independently recounted n4 U1",
+  "last_completed_authority": {
+    "accepted": 28,
+    "pair_completed": 96,
+    "pair_started": 96,
+    "row_completed": 308,
+    "row_started": 308
+  },
+  "last_started_charge": {
+    "accepted": 28,
+    "pair_completed": 95,
+    "pair_started": 96,
+    "row_completed": 308,
+    "row_started": 308
+  },
+  "limits": "Memory publications only; no filesystem or actual-history claim.",
+  "passed": true,
+  "scope": "One synthetic n4 real optimizer; source-supported synthetic imported row coverage; no actual loaders/geometry.",
+  "source_sha256": "e18468f7be80a9f5d57daa37403f07f093239987b115e6f9a9a48eb8ab66ee00",
+  "status": "pair_cap",
+  "worker_sha256": "fe01dcecf582480754fc076a9a04a2f6d2a24d14d76bb55280f09f0db06cc9f1"
+}
