@@ -1,0 +1,7 @@
+# n73 all36 one-orbit repairs: actual review
+
+Accepted complete negative for all36 original four-orbit deletions of the pinned centered n73 near-quarter fixture, keeping its exceptional diagonal pair and adding four full four-orbits. This includes exact readdition, hence also its zero-deletion boundary extensions. The4402 candidate/deletion records may overlap. No larger deletion, alternate embedding or global n79 conclusion follows.
+
+Independent repeated-rotation partitioning confirms the exact36-case manifest. Every actual-radius four-edge subset was independently enumerated:171,395 raw subsets yield the exact4402 ordered report choices, including288 readditions. All680 reported blocking-orbit triples consist of three distinct points from the retained set plus that orbit, include a new point, and have zero integer determinant. There were no overlap rejections. Every candidate contains its named verified blocking edge. The removed orbit is each case's sole unblocked orbit; no final survivor geometry was needed to establish the negative.
+
+All36 cases are complete; no partial or unstarted cases, no witness file. Source pins/current/experiment agree; owned30s/256MiB gate exited zero with clean cleanup, outer approximately0.93988s. Compact audit preserves per-case canonical hashes and counts: `data/n73-one-orbit36-independent-audit.json`, SHA256 `d0ca686d5e08f0618271fbafce4436dbe439b68688f8d79407d0ee4cfa12970d`.

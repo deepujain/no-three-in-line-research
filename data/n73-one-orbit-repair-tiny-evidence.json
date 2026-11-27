@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "version": "n73-all36-one-orbit-repairs-tiny-v1",
+  "implementation_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "scope": "Coordinate-only fixture decode/manifest checks, n9/n11 prepared retained subsets and injected batch coverage. No n73 fixture geometry recheck, n79 geometry or actual repair execution.",
+  "test_command": "python3 -m unittest tests.test_n73_one_orbit_repairs tests.test_n73_boundary_extension tests.test_n71_remaining_orbit_repairs -v",
+  "test_output": "test_batch_complete_and_partial_coverage_shared_deadline (tests.test_n73_one_orbit_repairs.N73RepairTests.test_batch_complete_and_partial_coverage_shared_deadline) ... ok\ntest_both_degree_counts_against_every_tiny_row_load (tests.test_n73_one_orbit_repairs.N73RepairTests.test_both_degree_counts_against_every_tiny_row_load) ... ok\ntest_opposite_retained_orientation_and_filter_timeout (tests.test_n73_one_orbit_repairs.N73RepairTests.test_opposite_retained_orientation_and_filter_timeout) ... ok\ntest_pinned36_manifest_and_radius36_coordinate_only (tests.test_n73_one_orbit_repairs.N73RepairTests.test_pinned36_manifest_and_radius36_coordinate_only) ... ok\ntest_real_tiny_filter_and_any_witness_dual_valid (tests.test_n73_one_orbit_repairs.N73RepairTests.test_real_tiny_filter_and_any_witness_dual_valid) ... ok\ntest_strict_scope_and_radii (tests.test_n73_one_orbit_repairs.N73RepairTests.test_strict_scope_and_radii) ... ok\ntest_surviving_finals_both_checked_and_early_witness (tests.test_n73_one_orbit_repairs.N73RepairTests.test_surviving_finals_both_checked_and_early_witness) ... ok\ntest_invalid_target (tests.test_n73_boundary_extension.BoundaryArithmeticTests.test_invalid_target) ... ok\ntest_pinned_decode_and_tamper (tests.test_n73_boundary_extension.BoundaryArithmeticTests.test_pinned_decode_and_tamper) ... ok\ntest_small_grid_choices_fill_outer_rows_and_columns (tests.test_n73_boundary_extension.BoundaryArithmeticTests.test_small_grid_choices_fill_outer_rows_and_columns) ... ok\ntest_deadline_between_cases_keeps_completed_prefix (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_deadline_between_cases_keeps_completed_prefix) ... ok\ntest_frozen33_manifest_exact_source_coverage_coordinate_only (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_frozen33_manifest_exact_source_coverage_coordinate_only) ... ok\ntest_parameterized_survivors_dual_checked_and_witness_saved_first (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_parameterized_survivors_dual_checked_and_witness_saved_first) ... ok\ntest_parameterized_tiny_case_matches_frozen_first_checker (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_parameterized_tiny_case_matches_frozen_first_checker) ... ok\ntest_partial_filter_record_preserved (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_partial_filter_record_preserved) ... ok\ntest_shared_batch_complete_partial_unstarted_and_witness_accounting (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_shared_batch_complete_partial_unstarted_and_witness_accounting) ... ok\ntest_strict_cli_scope_budget (tests.test_n71_remaining_orbit_repairs.RemainingRepairTests.test_strict_cli_scope_budget) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.393s\n\nOK\n",
+  "sources": {
+    "research/n73_one_orbit_repairs.py": "a36d40f53f8fefce5618815bfdcec02244815093636fd9fe0f2b3f0069c9a378",
+    "tests/test_n73_one_orbit_repairs.py": "e73404228932f3caddfda14f17359d1b7476df50f872077731220dfd02c3f74d",
+    "data/n73-one-orbit-repair-cases.proposal.json": "ca6147bee2ae9bcde4118f2ccdfb855af87c44cd5dd49e2aa3ec60580fbeabae",
+    "research/n73_boundary_extension.py": "e93d9025e1b77fedb96dfde0f868d959414620dc93994c9d1041726a37f65dfa",
+    "data/published-n73-rct4.raw": "6053ddbe7a6a5c445a04b406a7554144e2990a7384db11d932ac961a7ebd205e",
+    "data/published-n73-rct4-candidate.json": "0c99133e2025005e99a702a8538752aa58ee763f4a01d6531f8015c423db29ae",
+    "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+    "research/n71_central_orbit_repair.py": "1e74f4ec44eeaa3f67f20008a6168e992105d86014e3b9ac5cdc8584ba1ecdbb",
+    "research/n71_noncentral_orbit_repair.py": "8bcaa053a84302a70f8a243fd147d8e566df2b01761cbe5b466c45a12d0b2b69",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "cases": 36,
+  "central_cases": 1,
+  "positive_cases": 35,
+  "total_degree_choices": 4402,
+  "total_readdition_records": 288
+}

@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Prepare a bounded repair around the preserved score-11 invalid state, with explicit minimal-cover scope and source provenance.",
+    "status": "Implement score11 full cap5 extension and tiny tests only; no host allocation.",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Implement the reviewed n73 one-orbit batch and tiny tests; no host search before independent source review."
+    "status": "Prepare n78 to n80 one-orbit checker after independent math approval; source/tiny only."
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independently review the new finite algorithms, exact evidence, and any certificate claim.",
+    "status": "Completed independent full four-deletion actual audit and cap5 arithmetic; review n80 math and both next sources.",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

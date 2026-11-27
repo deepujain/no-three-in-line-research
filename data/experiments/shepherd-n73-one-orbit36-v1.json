@@ -1,0 +1,55 @@
+{
+  "job": {
+    "id": "shepherd-n73-one-orbit36-v1",
+    "seconds": 30,
+    "hypothesis": "Separately reviewed bounded finite exactrepair, pinned source and declaredscope only; stop on witness or guard failure."
+  },
+  "argv": [
+    ".venv/bin/python",
+    "research/n73_one_orbit_repairs.py",
+    "--raw",
+    "data/published-n73-rct4.raw",
+    "--fixture",
+    "data/published-n73-rct4-candidate.json",
+    "--seconds",
+    "25",
+    "--output-dir",
+    "data/n73-one-orbit-repair-v1"
+  ],
+  "sources_before": {
+    "research/n73_one_orbit_repairs.py": "a36d40f53f8fefce5618815bfdcec02244815093636fd9fe0f2b3f0069c9a378",
+    "tests/test_n73_one_orbit_repairs.py": "e73404228932f3caddfda14f17359d1b7476df50f872077731220dfd02c3f74d",
+    "data/n73-one-orbit-repair-cases.proposal.json": "ca6147bee2ae9bcde4118f2ccdfb855af87c44cd5dd49e2aa3ec60580fbeabae",
+    "research/n73_boundary_extension.py": "e93d9025e1b77fedb96dfde0f868d959414620dc93994c9d1041726a37f65dfa",
+    "data/published-n73-rct4.raw": "6053ddbe7a6a5c445a04b406a7554144e2990a7384db11d932ac961a7ebd205e",
+    "data/published-n73-rct4-candidate.json": "0c99133e2025005e99a702a8538752aa58ee763f4a01d6531f8015c423db29ae",
+    "research/n71_boundary_extension.py": "025876aa33d297ff5bb37d4a1b64cfd82696bc95212f08761b849189c34d775c",
+    "research/n71_central_orbit_repair.py": "1e74f4ec44eeaa3f67f20008a6168e992105d86014e3b9ac5cdc8584ba1ecdbb",
+    "research/n71_noncentral_orbit_repair.py": "8bcaa053a84302a70f8a243fd147d8e566df2b01761cbe5b466c45a12d0b2b69",
+    "src/verify.py": "e995c2367481bc63174b8f80d63048bdae6ebf75232e026509c6012157c11c4c",
+    "research/diagonal_secant_checkpoint.py": "48f49f36a7f99bc3d42bc5c4376c3267c5d0f0b05ba9af27f4619403e20f6721",
+    "research/owned_process_guard.py": "c119b58f1950f4b0b8554c2ec2065f377efbfcfb53e83d48921f505ef4c6ee48"
+  },
+  "status": "completed",
+  "elapsed_seconds": 0.939879291006946,
+  "started_at": "2026-11-27T07:53:00.126182+00:00",
+  "gate": {
+    "gate_status": "exited",
+    "trigger_gate_status": null,
+    "returncode": 0,
+    "elapsed_seconds": 0.9398606250033481,
+    "rss_samples": 20,
+    "monitor_error": null,
+    "seconds_limit": 30,
+    "rss_limit_mib": 256,
+    "cleanup_status": "clean",
+    "cleanup_error": null,
+    "cleanup_samples": 1,
+    "peak_sampled_rss_kib": 49328,
+    "cleanup_elapsed_seconds": 0.013015584001550451,
+    "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+    "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded"
+  },
+  "finished_at": "2026-11-27T07:53:01.066431+00:00",
+  "sources_unchanged": true
+}

@@ -1,0 +1,9 @@
+# n73 all36 one-orbit repairs: source review
+
+Approved one shared-soft25 batch under Root's owned30s/256MiB guard after the current finite run, fixed raw/fixture/manifest and fresh output. Source SHA256 `a36d40f53f8fefce5618815bfdcec02244815093636fd9fe0f2b3f0069c9a378`; tests `e73404228932f3caddfda14f17359d1b7476df50f872077731220dfd02c3f74d`. All current source pins and frozen helper identities match. No n79 geometry was run during review.
+
+The new pure helpers use three outer radii and four selected edges, handling zero-incident single orientation and demand one, and positive inner radius36 below outer37..39. Both62 central and124 positive choice counts match exhaustive tiny actual row loads. The pinned36-case manifest is checked exactly and complete-case counts are bound to it. The prior independent arithmetic review establishes4402 candidate/deletion records, including288 exact readditions.
+
+Raw decoding and fixture byte identities are pinned, and dual fixture geometry plus normalized identity are checked before evaluating cases. The shared25-second clock starts before geometry validation. Retained overlap and exact blocking triples reject impossible individual orbits; every surviving final union receives distinctness/cardinality/row/column assertions and both final validators. Any valid witness is persisted before early stop. Completed, partial and unstarted cases are explicit; timeouts cannot claim full coverage. Frozen n71/paired/packed sources remain unchanged.
+
+Independently ran17 tiny tests: passed in0.305s. Coverage includes both small prepared-subset arithmetic cases, real filters, dual final calls, early witness callback, opposite retained orientation, partial filter timeout and shared batch accounting. Only a complete clean independently audited actual result can close the stated fixed centered fixture family; no broader n79 conclusion is implied.

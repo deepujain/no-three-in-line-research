@@ -30,10 +30,10 @@
     "id": "A04",
     "name": "Delete and rebuild",
     "role": "Research Software Engineer",
-    "status": "targeted invalid-state repair proposed",
+    "status": "fixed score11 source closed through four deletions",
     "scope": "Preserve incumbent, delete a few points, rebuild",
-    "finding": "Earlier valley walks are paused. A preserved 158-point search state has 11 collinear triples. A bounded repair using minimal conflict covers of at most four points is under review; no execution or completeness claim beyond that scope.",
-    "evidence": "research/overnight-direct157-decision.md"
+    "finding": "Independent combinations audit of all465 deletion sets through size4 found maximum156 and no157/158 repair of this exact invalid158-point source. A cap5 extension is in source review.",
+    "evidence": "data/score11-four-deletions-independent-audit.json"
   },
   {
     "id": "A05",
@@ -57,10 +57,10 @@
     "id": "A07",
     "name": "Conics and lifts",
     "role": "Mathematician",
-    "status": "n71 one-orbit extension family closed",
+    "status": "n71 and n73 single-orbit families closed",
     "scope": "Conic constructions and integer-grid embeddings",
-    "finding": "All 35 original four-orbit deletion cases of the centered n71 fixture are excluded: 37,743 candidate/deletion records, with overlap. The n73 zero-deletion extension also fails all eight choices. A separate n73 one-orbit batch is under review.",
-    "evidence": "research/n71-remaining33-actual-review.md"
+    "finding": "Centered fixed n71 all35 original orbit deletions fail37743 candidate/deletion records. Centered fixed n73 all36 fail4402 records. Separate n78 to n80 proposal has230 degree records; no geometry evaluation yet.",
+    "evidence": "research/n73-one-orbit36-actual-review.md"
   },
   {
     "id": "A08",

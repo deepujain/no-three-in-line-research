@@ -485,3 +485,12 @@ The paired-color fixed-temperature pilot (seed279401) completed cleanly in25.381
 The n73 all36 one-orbit proposal is mathematically reviewed (4402 degree records); source/tiny implementation is next. A different exact repair lead starts from the preserved invalid158-point state with11 conflicts, enumerates only inclusion-minimal covers of size at most4, then tests compatible insertions in freed rows/columns. Its narrow scope must not be confused with all four-deletion repairs. Source and proof review precede any host evaluation.
 
 Published4457d2f Pages succeeded. CI hit two legacy zero-RSS monitor rejections; failed jobs were rerun once without weakening guards. All owned numerical work has stopped at this checkpoint. Original budget and deadline remain unchanged; best verified count156.
+
+
+## 2026-11-27T08:00:36.918922+00:00 — Close independently audited finite repairs
+
+All36 centered n73 one-orbit deletion cases completed:4402 candidate/deletion records, no witness, outer0.939879s and clean49328KiB peak. Independent audit reconstructed171395 raw subsets and680 exact blocker triples. Fixed fixture and retained diagonal pair only.
+
+The score11 exact source has three minimal covers through size4; the initial minimal-cover-only run took0.156527s. The full extension checked465 distinct deletion sets through4 in0.286479s, clean46848KiB peak. Independent combinations enumeration agrees on623 safe cells summed over cases,1243 valid partial subsets, max156, no157/158. This closes only repairs of this exact source through4 deletions. Independent cap5 arithmetic examined44552 incident subsets and found no new minimal covers:35809 total deletion sets through5, including35344 size5 sets. Source/tiny work allocated; no cap5 host run yet.
+
+Exploration retained: n78 to n80 fixed-fixture one-orbit proposal230 degree records,77 outer-loop diagonal obstructions,153 remaining geometry cases. Independent math and source review precede any allocation. Actual process audit found no owned numerical workers; no new pool. Accounted16476.172892095s of21600, originaldeadline unchanged. Best remains156, no new result. 91df097 CI and Pages both succeeded.

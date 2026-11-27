@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16474.790007096097,
+  "scheduled_search_wall_seconds_used": 16476.172892095106,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Keep packed frontiers and closed families preserved. Review two new bounded implementations before any host allocation: all 36 n73 one-orbit cases, and minimal conflict-cover repairs around the preserved invalid score-11 full state. Each approved evaluation uses the existing owned 30s/256MiB guard and a 25s soft budget. Check actual processes and budget first; original deadline 22:59:25UTC remains.",
+  "next_action": "Source/tiny review of score11 cap5 extension (35344 new size5 deletions) and exploratory n78 to n80 one-orbit repairs (230 raw records). No host allocation before independent review; preserve packed frontiers and closed families.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -28,18 +28,18 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "All 35 single-orbit deletion cases of the centered n71 fixture are excluded within the stated near-quarter family. The paired-color pilots retained invalid full states with 184 and 84 conflicting triples. No valid improvement.",
+  "current_round": "Independently audited: all 36 centered n73 single-orbit repair cases fail (4402 records); all deletions through four from the fixed invalid score11 state fail (465 distinct sets). Best verified remains156.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
-  "numerical_allocation_policy": "Earmark at least3,600 unspent worker-seconds for separately gated packed geometry and residual-graph pruning; not a launch reservation or spent time. Reduce unchanged reflection main share pending new evidence.",
+  "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
   "pause_reason": "Human requested status and said we can pause.",
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "n73 all-36 one-orbit checker: source and tiny-test review before allocation",
-    "Score-11 state repair: provenance, minimal-cover proof and source/tiny review before allocation"
+    "Score11 cap5 source/tiny implementation and review; no host allocation",
+    "n78 to n80 one-orbit proposal math/source/tiny review; no host allocation"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "4457d2f Pages passed. CI failed on two legacy positive-RSS monitor checks; logs show zero-RSS sample rejection, not new finite-checker failures. Failed CI jobs rerun once without guard changes; outcome pending. New focused checks: 25 repair tests and 6 paired-walk tests passed. All promoted finite exclusions and invalid scores independently audited."
+  "validation_status": "91df097 CI verification and Pages both succeeded. New n73 all36 and score11 minimal/full4 actual results independently audited with clean owned gates; focused tests run before next publication."
 }
