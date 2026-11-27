@@ -1,0 +1,41 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "-m",
+    "research.full_complement_row_domain_n5_tiny",
+    "--mode",
+    "normal",
+    "--output",
+    "data/full-complement-row-domain-n5-author-tiny-v1.json"
+  ],
+  "cleanup_elapsed_seconds": 0.01140658400254324,
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "cleanup_status": "clean",
+  "elapsed_seconds": 0.1432595000078436,
+  "finished_at": "2026-11-27T16:17:06.858420+00:00",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "gate_status": "exited",
+  "models_reasoning": "Exact runtime model/reasoning unavailable; Root-owned tool execution.",
+  "monitor_error": null,
+  "output_sha256": "4e0477a27d5517c27d583c15f2dec706446527c1671f1c8963c00c1dfca2d941",
+  "peak_sampled_rss_kib": 43056,
+  "reserved_at": "2026-11-27T16:17:06.704241+00:00",
+  "returncode": 0,
+  "rss_limit_mib": 128,
+  "rss_samples": 3,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "scope": "Single predetermined n5 correctness diagnostic, independent determinant/line oracles. Separate verification timing; no actual75 search/optimizer/alternatefixture.",
+  "seconds_limit": 10,
+  "seed": null,
+  "source_pins": {
+    "data/full-complement-row-domain-n5-fixture-v1.json": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+    "research/full-complement-row-domain-n5-independent-mathematical-source-review-v3.md": "871a0017651c5f010d83faa4ab3dac9d658b40a2c4a6e96f08f1b62d5de84413",
+    "research/full-complement-row-domain-n5-independent-source-review-v3.md": "f5b48721465602393954e66d4d62e6d517052edfd58ae941058bd7a96387f6e7",
+    "research/full_complement_row_domain_n5.py": "36f4639fededa4fd0e239e397acb43478e7131ee4a1d0f798079d73cf34b5b8e",
+    "research/full_complement_row_domain_n5_tiny.py": "5d8e5ecbdb419cd9fa8c118e7ce4b2d788344fc7c247c4bee1995c4755fc9fb5"
+  },
+  "source_pins_unchanged": true,
+  "status": "completed",
+  "trigger_gate_status": null
+}

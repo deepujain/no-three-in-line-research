@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Hourly review and minimal n5 exact-source gate allocation",
+    "status": "Single n5 normal gate executed; evidence integration and next design allocation",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -14,7 +14,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Independent exact-source lifecycle/quotas/identity review; no normal geometry",
+    "status": "Independent n5 metadata acceptance then scalable diagnostic design review",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
@@ -24,7 +24,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Minimal fixed n5 fullcomplement producer/tiny SOURCEONLY implementation",
+    "status": "Scalable fullcomplement all-row diagnostic DESIGNONLY",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -33,7 +33,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Independent exact-source mathematical/oracle review; no normal geometry",
+    "status": "Distinct singletonmigration escape/objective DESIGNONLY",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   }

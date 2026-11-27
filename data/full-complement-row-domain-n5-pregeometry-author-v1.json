@@ -1,0 +1,79 @@
+{
+  "counter_checks": [
+    {
+      "kind": "determinants",
+      "last_charge_then_refusal": true,
+      "synthetic_seed": 5999
+    },
+    {
+      "kind": "line_keys",
+      "last_charge_then_refusal": true,
+      "synthetic_seed": 1999
+    },
+    {
+      "kind": "line_incidences",
+      "last_charge_then_refusal": true,
+      "synthetic_seed": 599
+    }
+  ],
+  "fixture_bytes": 72,
+  "fixture_sha256": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+  "harness_sha256": "2b5dbc1c70a068cb807cf54869a25b96cfb6d782ed0ce381635450ce9c381a6f",
+  "mode": "pregeometry",
+  "passed": true,
+  "producer_sha256": "36f4639fededa4fd0e239e397acb43478e7131ee4a1d0f798079d73cf34b5b8e",
+  "real_geometric_operations": 0,
+  "rejections": [
+    {
+      "case": "boolean_n",
+      "error": "fixed n5",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "wrong_n",
+      "error": "fixed n5",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "container",
+      "error": "nine-point container",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "missing_cell",
+      "error": "nine-point container",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "duplicate",
+      "error": "distinct cells",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "boolean_coordinate",
+      "error": "strict cell integers",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "bounds",
+      "error": "cell bounds",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "cell_shape",
+      "error": "cell shape",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "wrong_loads",
+      "error": "fixed row loads",
+      "real_geometric_operations": 0
+    },
+    {
+      "case": "different_valid_identity",
+      "error": "fixed fixture identity",
+      "real_geometric_operations": 0
+    }
+  ],
+  "scope": "Rejection-before-geometry and explicitly seeded synthetic counters only. No normal producer/oracle pass."
+}

@@ -1,0 +1,141 @@
+{
+  "forbidden_geometry_trap_calls": 0,
+  "passed": true,
+  "pregeometry": {
+    "counter_checks": [
+      {
+        "kind": "determinants",
+        "last_charge_then_refusal": true,
+        "synthetic_seed": 5999
+      },
+      {
+        "kind": "line_keys",
+        "last_charge_then_refusal": true,
+        "synthetic_seed": 1999
+      },
+      {
+        "kind": "line_incidences",
+        "last_charge_then_refusal": true,
+        "synthetic_seed": 599
+      }
+    ],
+    "drift_checks": [
+      {
+        "injected_identity_drift_rejected": true,
+        "real_geometric_operations": 0,
+        "role": "producer_sha256"
+      },
+      {
+        "injected_identity_drift_rejected": true,
+        "real_geometric_operations": 0,
+        "role": "harness_sha256"
+      },
+      {
+        "injected_identity_drift_rejected": true,
+        "real_geometric_operations": 0,
+        "role": "fixture_sha256"
+      },
+      {
+        "injected_identity_drift_rejected": true,
+        "real_geometric_operations": 0,
+        "role": "fixture_bytes"
+      }
+    ],
+    "failure_capture_checks": [
+      {
+        "error_type": "FileNotFoundError",
+        "null_hash_and_read_error_preserved": true,
+        "real_geometric_operations": 0
+      },
+      {
+        "error_type": "PermissionError",
+        "null_hash_and_read_error_preserved": true,
+        "real_geometric_operations": 0
+      }
+    ],
+    "fixture_bytes": 72,
+    "fixture_sha256": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+    "harness_sha256": "5d8e5ecbdb419cd9fa8c118e7ce4b2d788344fc7c247c4bee1995c4755fc9fb5",
+    "mode": "pregeometry",
+    "passed": true,
+    "producer_sha256": "36f4639fededa4fd0e239e397acb43478e7131ee4a1d0f798079d73cf34b5b8e",
+    "real_geometric_operations": 0,
+    "rejections": [
+      {
+        "case": "boolean_n",
+        "error": "fixed n5",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "wrong_n",
+        "error": "fixed n5",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "container",
+        "error": "nine-point container",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "missing_cell",
+        "error": "nine-point container",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "duplicate",
+        "error": "distinct cells",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "boolean_coordinate",
+        "error": "strict cell integers",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "bounds",
+        "error": "cell bounds",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "cell_shape",
+        "error": "cell shape",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "wrong_loads",
+        "error": "fixed row loads",
+        "real_geometric_operations": 0
+      },
+      {
+        "case": "different_valid_identity",
+        "error": "fixed fixture identity",
+        "real_geometric_operations": 0
+      }
+    ],
+    "scope": "Rejection-before-geometry and explicitly seeded synthetic counters only. No normal producer/oracle pass."
+  },
+  "real_geometric_operations": 0,
+  "runner_sha256": "98260649c6daccc8542105ed2c2b3aabac88515effed42e58d3133ae47038da8",
+  "scope": "Independent SOURCE-only syntax, trapped rejection and synthetic counter checks. No normal fixture geometry.",
+  "source_identity_after": {
+    "data/full-complement-row-domain-n5-fixture-v1.json": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+    "research/full_complement_row_domain_n5.py": "36f4639fededa4fd0e239e397acb43478e7131ee4a1d0f798079d73cf34b5b8e",
+    "research/full_complement_row_domain_n5_tiny.py": "5d8e5ecbdb419cd9fa8c118e7ce4b2d788344fc7c247c4bee1995c4755fc9fb5"
+  },
+  "source_identity_before": {
+    "data/full-complement-row-domain-n5-fixture-v1.json": "5be21073f6b07bc18969b91f9dd9b9196ebe42288cfa9342468171a3c9ef8f37",
+    "research/full_complement_row_domain_n5.py": "36f4639fededa4fd0e239e397acb43478e7131ee4a1d0f798079d73cf34b5b8e",
+    "research/full_complement_row_domain_n5_tiny.py": "5d8e5ecbdb419cd9fa8c118e7ce4b2d788344fc7c247c4bee1995c4755fc9fb5"
+  },
+  "syntax_compile_passes": 2,
+  "synthetic_stop_before_coordinate_access": [
+    {
+      "counter": "determinants",
+      "refused_before_coordinate_access": true
+    },
+    {
+      "counter": "line_keys",
+      "refused_before_coordinate_access": true
+    }
+  ]
+}
