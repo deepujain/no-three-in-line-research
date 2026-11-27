@@ -11,3 +11,6 @@ data/*.lock
 *.tmp
 data/**/*.lock
 data/corner-batch-*-records/
+
+# Local mutable checkpoint frontiers; accepted digests live in reports.
+data/*frontier.json

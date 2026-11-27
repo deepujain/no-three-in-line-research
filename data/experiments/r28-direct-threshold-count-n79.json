@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/src/lazy_sat.py",
+    "--near-quarter-direct-preflight",
+    "--n",
+    "79",
+    "--mode",
+    "count",
+    "--atmost-two-direct-limit",
+    "7",
+    "--conditional-atmost-one-direct-limit",
+    "7",
+    "--rss-mib",
+    "256",
+    "--output",
+    "data/direct-threshold-count-n79.json",
+    "--seconds",
+    "30"
+  ],
+  "elapsed_seconds": 6.166601459000958,
+  "entrypoint_sha256": "da2bd2585ebe76ac624cfd608b56b7401ad9bfbe8656b49005777c5f8f4b1d03",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T01:59:44.513902+00:00",
+  "job": {
+    "args": [
+      "--near-quarter-direct-preflight",
+      "--n",
+      "79",
+      "--mode",
+      "count",
+      "--atmost-two-direct-limit",
+      "7",
+      "--conditional-atmost-one-direct-limit",
+      "7",
+      "--rss-mib",
+      "256",
+      "--output",
+      "data/direct-threshold-count-n79.json"
+    ],
+    "hypothesis": "Independent source/finalCLI review plus11actualhosttinytests passed. Count-only fulln79C4supporthistogram, exact costs for9thresholdpairs, no native Solver/fullCNF/hash. Use aggregate clause/aux tradeoffs to select separately measured native build. Same256MiB/30sec guard interval; no RSS forecast or witness/exhaustion claim.",
+    "id": "r28-direct-threshold-count-n79",
+    "script": "src/lazy_sat.py",
+    "seconds": 30
+  },
+  "log": "data/run-logs/r28-direct-threshold-count-n79.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 90289,
+  "started_at": "2026-11-27T01:59:38.347205+00:00",
+  "status": "completed"
+}

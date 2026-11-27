@@ -61,7 +61,7 @@ The queue, real process receipts, and [Research Lead decisions](research/decisio
 
 A documented near-quarter-turn family provides a different 158-point search. Its known 71-grid fixture passed independent verification. The smaller complete 79-grid model builds at 218.47 MiB, but its first solve crossed the unchanged 256 MiB cap and produced no answer. A further equivalent encoding reduction is under review. [Model and sources](research/next-exploration.md) · [Measured build](data/near-quarter-row-quota-owned-preflight-n79.json) · [Solve review](research/near-quarter-row-quota-owned-solve-review.md).
 
-A separate reflection-based 157-point search passed a 100-node 79-grid preflight at 54.25 MiB, with no witness. Checkpointed continuation is being prepared. [Method and verification](research/diagonal-secant-fast-guard-review.md).
+A separate reflection-based 157-point search now saves its frontier between runs. Three accepted, hash-linked 79-grid trials advanced 7,000 search nodes at about 54 MiB, with no witness and no exhausted slice. These node counts are search work, not distinct configurations or a completion percentage. [Checkpoint method](research/diagonal-secant-checkpoint-guard.md) · [Independent review](research/diagonal-secant-checkpoint-guard-review.md).
 
 The independently reviewed [batch worker](research/corner-batch.md) prepares the many smaller repair families with one source validation per process and durable per-anchor histories. Its pilot and all 8,136 selected one-case families completed. [Full history archive](data/corner-batch-small-records.tar.gz) · [Audit](research/corner-batch-small-review.md). [Review](research/corner-batch-review.md)
 

@@ -742,6 +742,100 @@
         "--witness-directory",
         "data/near-quarter-row-quota-owned-witnesses"
       ]
+    },
+    {
+      "id": "r26-checkpoint-diagonal-n79-01",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Reviewed checkpoint DFS guard and finalCLI passed actual-host n3/n5 initial/resume gates, with4/16 independently dual-verified tiny witnesses. First n79(d0,t0)1000-node checkpoint pilot,256MiB unchanged; initial100nodes retrace r24 because it saved no frontier. No exhaustion/novelty inference. Next resume only after accepted trusted SHA inspection.",
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-checkpoint-trial-frontier.json",
+        "--output",
+        "data/diagonal-checkpoint-trial-01-report.json"
+      ]
+    },
+    {
+      "id": "r27-checkpoint-diagonal-n79-02",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Second1000-node checkpoint pilot resumes independently inspected r26 accepted SHA, unchanged source/guard/CLI,30sec/256MiB. Verify predecessor digest and exact1000-node increment; no replay of accepted prefix. Node limit stays incomplete, no witness/novelty claim.",
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-checkpoint-trial-frontier.json",
+        "--output",
+        "data/diagonal-checkpoint-trial-02-report.json",
+        "--expected-sha256",
+        "f9820d754460e394b08ad98012ed79ddb18a0662e0290eb67574870e222480c8"
+      ]
+    },
+    {
+      "id": "r28-direct-threshold-count-n79",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Independent source/finalCLI review plus11actualhosttinytests passed. Count-only fulln79C4supporthistogram, exact costs for9thresholdpairs, no native Solver/fullCNF/hash. Use aggregate clause/aux tradeoffs to select separately measured native build. Same256MiB/30sec guard interval; no RSS forecast or witness/exhaustion claim.",
+      "args": [
+        "--near-quarter-direct-preflight",
+        "--n",
+        "79",
+        "--mode",
+        "count",
+        "--atmost-two-direct-limit",
+        "7",
+        "--conditional-atmost-one-direct-limit",
+        "7",
+        "--rss-mib",
+        "256",
+        "--output",
+        "data/direct-threshold-count-n79.json"
+      ]
+    },
+    {
+      "id": "r28-checkpoint-diagonal-n79-03",
+      "script": "src/lazy_sat.py",
+      "seconds": 30,
+      "hypothesis": "Independent r26/r27 evidence audit accepted2000-node chain; final combinedCLI reviewed and fourtinyhostgates repeated. One5000-node continuation using pinnedacceptedSHA, unchangedcore/guard256MiB/30secs. Explicit reviewed entrypoint identity transition only; preserve frontier and no witness/exhaustion claim on quota.",
+      "args": [
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "79",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "5000",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0",
+        "--checkpoint",
+        "data/diagonal-checkpoint-trial-frontier.json",
+        "--output",
+        "data/diagonal-checkpoint-trial-03-report.json",
+        "--expected-sha256",
+        "cd749a7ec5f0eee2cd12d207d252e530257207022e0f552b2cf75d7350a0269e"
+      ]
     }
   ]
 }

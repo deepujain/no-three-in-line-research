@@ -1,0 +1,97 @@
+{
+  "entrypoint_sha256": "da2bd2585ebe76ac624cfd608b56b7401ad9bfbe8656b49005777c5f8f4b1d03",
+  "runs": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "3",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--checkpoint",
+        "data/checkpoint-finalcli-host-n3.frontier.json",
+        "--output",
+        "data/checkpoint-finalcli-host-n3-initial.json"
+      ],
+      "elapsed_seconds": 0.154628958000103,
+      "report": "data/checkpoint-finalcli-host-n3-initial.json",
+      "report_sha256": "5bbe55b08220e8f01c2ec4d44ec0736ff7963c4dc4b728630bd43dd6ddb8d509"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "3",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "10000",
+        "--checkpoint",
+        "data/checkpoint-finalcli-host-n3.frontier.json",
+        "--output",
+        "data/checkpoint-finalcli-host-n3-resume.json",
+        "--expected-sha256",
+        "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d"
+      ],
+      "elapsed_seconds": 0.14816733300540363,
+      "report": "data/checkpoint-finalcli-host-n3-resume.json",
+      "report_sha256": "4d3fcb528ff90554d92d52e48bbc4e5311a9a387d16865bc462a4d9ab8d5c2d7"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "5",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--checkpoint",
+        "data/checkpoint-finalcli-host-n5.frontier.json",
+        "--output",
+        "data/checkpoint-finalcli-host-n5-initial.json"
+      ],
+      "elapsed_seconds": 0.14727158300229348,
+      "report": "data/checkpoint-finalcli-host-n5-initial.json",
+      "report_sha256": "89a891b4c73e88217481671bd62c58d7c8658687e013688ec66ae1015f4033ef"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "5",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "10000",
+        "--checkpoint",
+        "data/checkpoint-finalcli-host-n5.frontier.json",
+        "--output",
+        "data/checkpoint-finalcli-host-n5-resume.json",
+        "--expected-sha256",
+        "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75"
+      ],
+      "elapsed_seconds": 0.18025266600307077,
+      "report": "data/checkpoint-finalcli-host-n5-resume.json",
+      "report_sha256": "d488a8ccfa6c861b95c7b2e8817e239a322ef07e5c2279fc5d580cec3e08f9b0"
+    }
+  ]
+}

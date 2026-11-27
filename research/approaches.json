@@ -68,8 +68,8 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Reviewed fast 157-point DFS reached 100 n79 nodes in 0.12 worker seconds at 54.25 MiB, no witness. Checkpointed continuation under review",
-    "evidence": "data/diagonal-secant-fast-guard-n79-preflight.json"
+    "finding": "Checkpointed 157-point DFS advanced 7,000 n79 nodes over three accepted, hash-linked runs at about 54 MiB. No witness or exhausted slice; resumable frontier retained.",
+    "evidence": "data/diagonal-checkpoint-trial-03-report.json"
   },
   {
     "id": "A09",

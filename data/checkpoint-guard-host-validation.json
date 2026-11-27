@@ -1,0 +1,108 @@
+{
+  "source_hashes": {
+    "research/diagonal_secant_checkpoint_guard.py": "84559f6a195d3a27db6e0bae718e84d82e70e27be5826562b7004fc47680ea0e",
+    "src/lazy_sat.py": "9dc1e86ce827ca5b4534696162a5696eb07c19a3f250d4c4155324592caf1fb7"
+  },
+  "runs": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "3",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--checkpoint",
+        "data/checkpoint-guard-host-n3.frontier.json",
+        "--output",
+        "data/checkpoint-guard-host-n3-initial.json"
+      ],
+      "elapsed_seconds": 0.28887454100186005,
+      "report": "data/checkpoint-guard-host-n3-initial.json",
+      "report_sha256": "124e1b88aa9386b6e222e9dfbe8d44a9b3d20e5c6a96e13d9a718d699b090764",
+      "accepted_checkpoint_sha256": "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d",
+      "independently_dual_checked_witnesses": 0
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "3",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1000",
+        "--checkpoint",
+        "data/checkpoint-guard-host-n3.frontier.json",
+        "--output",
+        "data/checkpoint-guard-host-n3-resume.json",
+        "--expected-sha256",
+        "fb455543576ae139a6d75f50f3be7c663bb278bc0f28af6df15d299fc130e70d"
+      ],
+      "elapsed_seconds": 0.1283027919998858,
+      "report": "data/checkpoint-guard-host-n3-resume.json",
+      "report_sha256": "3f4993672127a45d022ef838bf0402ea30eab68aab61ab4f09e8f455fb988f24",
+      "accepted_checkpoint_sha256": "1d2b059123fd17c8c4e89ac7fe85e6c7cba97c3fc1d4bc40b0cfc970a8c91354",
+      "independently_dual_checked_witnesses": 4
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "5",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "1",
+        "--checkpoint",
+        "data/checkpoint-guard-host-n5.frontier.json",
+        "--output",
+        "data/checkpoint-guard-host-n5-initial.json"
+      ],
+      "elapsed_seconds": 0.1391297090012813,
+      "report": "data/checkpoint-guard-host-n5-initial.json",
+      "report_sha256": "2c88a32e767517d662eec432ed30959ed74ce8c1af1dc1d325caee735e02b5ef",
+      "accepted_checkpoint_sha256": "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75",
+      "independently_dual_checked_witnesses": 0
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "src/lazy_sat.py",
+        "--diagonal-secant-checkpoint-guard",
+        "--n",
+        "5",
+        "--seconds",
+        "10",
+        "--rss-mib",
+        "256",
+        "--max-nodes",
+        "10000",
+        "--checkpoint",
+        "data/checkpoint-guard-host-n5.frontier.json",
+        "--output",
+        "data/checkpoint-guard-host-n5-resume.json",
+        "--expected-sha256",
+        "a5c6195e2fe8ddd071202798bd185e5b168f0aa3d56d70f101de0ef9550f9f75"
+      ],
+      "elapsed_seconds": 0.17213695800455753,
+      "report": "data/checkpoint-guard-host-n5-resume.json",
+      "report_sha256": "84af2ca2d680fdf178584d2fd3a44d833f589518a160ca1594cbbb63d9c1a4a2",
+      "accepted_checkpoint_sha256": "36d37ec0769fef6e26e1f873dee6c2fff09d0219b4a94801697a312df5451821",
+      "independently_dual_checked_witnesses": 16
+    }
+  ]
+}
