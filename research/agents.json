@@ -13,7 +13,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Prepare fixed main-depth19 pair-geometry SAT source/tiny after mathematical extension approval; later independent retention-source review.",
+    "status": "Implement mathematically approved fresh ancestor18/17/16 pair-SAT bounded job, source/tiny only.",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused"
   },
   {
@@ -22,7 +22,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Implement mathematically approved target157,D6 hard-retention lazySAT source/tiny; fresh20kcuts, nohost."
+    "status": "Prepare distinct hard-retention7..8 source/tiny after mathematical approval; preserve D6."
   },
   {
     "role": "Mathematician",
@@ -30,7 +30,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Degree-factor actual accepted; review pair-geometry bounded-lazy extension and both next SAT sources independently.",
+    "status": "D6 and main19 actual audits accepted; review retention7..8 math and fresh ancestor source/tiny.",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task"
   }
 ]

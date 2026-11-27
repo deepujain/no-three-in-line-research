@@ -10,6 +10,8 @@ We are investigating a **79 × 79 grid**. A published arrangement gives us **156
 
 **Current result: no improvement.** The 156-point starting arrangement is Thomas Prellberg's published 78 × 78 construction, embedded in the larger grid. It is not our discovery. We have not established a complete global record for near-miss arrangements at order 79, so a future 157-point certificate would initially be an improvement over our witnessed baseline, pending a fresh novelty check.
 
+Latest bounded tests returned **scoped solver-reported UNSAT** for two different families: target 157 while deleting at most six points of the fixed invalid 158-point source, and the fixed depth-19 near-quarter prefix after all 5,151 orbit-pair checks. Independent reviews checked the geometry and formulas; no independent UNSAT proof certificate was checked. These results retire those scopes, not the general problem. [Retention audit](research/score11-hard-retention157-d6-actual-review.md) · [Pair audit](research/main19-pair-sat-v1-actual-review.md)
+
 ![The research visualization: a large point arrangement, the 156/158 gap, and ten competing research approaches.](docs/images/research.png)
 
 The page shows saved evidence, rather than animated or continuously connected agents. Refresh after published updates. The arrangement, question, and result are visible immediately; an optional button shows an exact example of why an extra point would create a forbidden line. On compact phones, the approach list is summarized to preserve space for the board. No installation or walkthrough is required. To run offline, download [index.html](https://github.com/deepujain/no-three-in-line-research/raw/refs/heads/main/index.html) and open it in a browser.

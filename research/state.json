@@ -8,9 +8,9 @@
   "target_confirmed": true,
   "new_result_claimed": false,
   "scheduled_search_wall_seconds_limit": 21600,
-  "scheduled_search_wall_seconds_used": 16527.232253303104,
+  "scheduled_search_wall_seconds_used": 16529.94864247011,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Prepare/review one target157,D6 hard-retention lazySAT source and a distinct fixed main-depth19 pair-geometry SAT source; source/tiny and independent review before either30s256MiB gate. Preserve all old chains and completed families.",
+  "next_action": "Source/tiny and independent review before one bounded retention7..8 gate and one shared ancestor18/17/16 gate; preserve completed D6/main19 sources and frozen frontiers.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,7 +32,7 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "All38 connected patches independently bounded<=156. Exact degree-factor shadow completed6prefixes:5degree-feasible models and1olddegree failure,0usefulnewprunes. No improvement; avoid integration of unhelpful measured filter.",
+  "current_round": "Independently audited D6 hard-retention and main-depth19 pair-geometry actuals returned scoped native UNSAT; no construction improvement. Distinct retention7..8 and fresh ancestor18/17/16 proposals in review.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
@@ -40,10 +40,10 @@
   "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Hard-retention target157,D6 standalone source/tiny and independent review; noactual",
-    "Main-depth19 pairwise orbit geometry SAT plus bounded1000three-orbit cuts: mathematical extension/source/tiny review; noactual"
+    "Retention7..8 mathematical/source/tiny review before actual",
+    "Fresh ancestor18/17/16 source/tiny review before actual"
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "55cf40f CI and Pages succeeded. Root new tiny gates pass:7path8+8flow+3smallcut+11factor/shadow; five viewport tests pass after long-label overflow fix. New owned experiments clean and independently audited. Nextpublication checks pending."
+  "validation_status": "D6/main19 24focused tests pass; build revalidates156 by both exact checkers; five viewport checks pass under host Chrome. Publication CI pending."
 }

@@ -557,3 +557,12 @@ Expanded shadow wrapper passed independent realtinycheckpoint/privatepath/partia
 Nextsource-only allocations: (1) target157 withhardretain>=152sourcepoints (D6),fresh11sourceclauses/20knewcuts,no oldcheckpoint, streaming256cutbatch; truncatedscore onlylowerbound, exactsavedbest requiresfullaudit. (2) main-depth19 fixedprefix pair-geometry SAT,102admissibleorbits/20needed,555degreeCNFvariables982baseclauses and atmost5151paircuts. Explicitprospective1000unique3-neworbitcuts extension needs math/source review; no frontiermutation. This materiallysmallerfixedprefix model differs fromprior broad nearquarterSAT thatbuilt475708variables/2072304clauses. No native search allocated to either changedalgorithm yet.
 
 Numericalaccounted16527.232253303104s of21600; originaldeadline unchanged.
+
+
+## 2026-11-27T08:49:01.892832+00:00 — Two smaller SAT scopes finish; no construction improvement
+
+Target157 hard-retentionD6 finished87models/87complete geometry scans,2655distinct new cuts plus11fresh source triples, native solver-reported UNSAT. Outer2.182904s, clean76336KiB peak,28pins unchanged. Independent audit determinant-checks every cut and reconstructs formula/last invalid model; no native UNSAT proof or all-model replay. Last model21conflicts is not a best score; no invalid score below source-reference11 saved. Retire unchangedD6. Distinct effective deletion7..8 range must be intrinsic and reviewed before allocation.
+
+Main-depth19 pair-geometry SAT completed5151pairs with1445cuts (380axis,1065geometric). Native solver reports UNSAT before any SAT model/lazy cut; outer0.533485s clean58416KiB peak. Independent audit reconstructs complete mask, every pair decision and degree formula (555variables,982degree+1445binary clauses). No checked UNSAT proof; this is only the fixed-prefix subfamily. Earlier degree-only relaxation accepted this prefix, so pair geometry produces a new obstruction at low measured cost. Fresh18/17/16 ancestor proposal math-approved, pending source/tiny; each mask/pair set must be rebuilt, advance only after native UNSAT and share25soft/30owned256MiB, max200candidates and3stages. No frontier writes or unchangedmain19 repeat.
+
+Actual process audit found no owned numerical workers; existing AIworkers have concrete bounded tasks. Accounted16529.948642470s of21600 (5070.051357530s remain). Originaldeadline unchanged. Best156, no valid157/158 or novelty claimed.
