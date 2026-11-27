@@ -45,7 +45,7 @@
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
-  "validation_status": "n75 actual independent audit f2783ece verifies all152 obstruction triples, selected-cut coverage, source and pins,3.026334167s47472KiB clean. New source tests pass; full780-test suite had3 existing host-startup EPERM failures, all3 passed one focused rerun.",
+  "validation_status": "n75 actual independent audit f2783ece verifies all152 obstruction triples, selected-cut coverage, source and pins,3.026334167s47472KiB clean. New source tests pass; full780-test suite had3 existing host-startup EPERM failures, all3 passed one focused rerun. Narrow CI portability helper145fb07c independently reviewed0a26b661:16 targeted tests plus9 independent cases pass; all789 discovered tests retained. No frozen research guard/test changes.",
   "last_formal_review_at": "2026-11-27T11:21:17.604175+00:00",
   "review_outcome": "No verified cardinality improvement; unchanged tabu/DFS curtailed; assess distinct order-free Boolean projection within remaining4864.609s."
 }

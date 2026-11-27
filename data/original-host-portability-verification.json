@@ -1,0 +1,26 @@
+{
+  "source_pins": {
+    "research/portable_unittest.py": "145fb07c9b460f1d3901286a12a0f78800ef4ff10937cf65069c3612e8895a06",
+    "tests/test_original_host_test_portability.py": "7b10388d431f147e8e12d75dc7535824eb6eeed616639bd697973d1f14a20d48",
+    "research/original-host-portability-independent-delta-review.md": "0a26b66157c238bdcae3ed32ed56501725ebdb1a632ce42912587d0d5ca711e5"
+  },
+  "targeted_tests": {
+    "run": 16,
+    "passed": 16,
+    "seconds": 0.066
+  },
+  "independent_additional_cases": 9,
+  "suite_discovery": {
+    "before_wrapping": 789,
+    "after_wrapping": 789,
+    "original_host_integrations": 5,
+    "missing_original_runtime_on_current_mac": []
+  },
+  "ci_problem": {
+    "run_id": 45995121578,
+    "commit": "0880a50",
+    "reason": "Four exact-host tests attempted to use the original Mac absolute interpreter path on Linux."
+  },
+  "policy": "Only five named new integrations may skip on Linux if the original interpreter is absent and the exact runtime manifest validates. All present mismatches and incomplete original-Mac runtime conditions fail; all other tests remain enabled. Frozen research sources/tests and guards unchanged.",
+  "recorded_at": "2026-11-27T12:25:05.306861+00:00"
+}
