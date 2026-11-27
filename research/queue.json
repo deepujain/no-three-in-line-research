@@ -1,6 +1,6 @@
 {
   "max_concurrent": 1,
-  "note": "Single reviewed600s main packed-only window, maxworkers1. Middle root+250 completed separately. No additional jobs authorized by this manifest.",
+  "note": "Single reviewed120s middle1541packedwindow, maxworkers1. Main600terminalaudit PASS; no automaticmainrefill.",
   "jobs": [
     {
       "args": [
@@ -2020,6 +2020,20 @@
         "a2a4aa47792f98846b4df5d5c835c26b"
       ],
       "hypothesis": "Reviewer-approved600s sustained exact continuation from3261audited nodes; fixed250-node stages, originalcaps; bounded allocation, not success forecast."
+    },
+    {
+      "id": "packed-middle-d1541-chain120-r1",
+      "script": "research/near_quarter_packed_chain.py",
+      "seconds": 120,
+      "args": [
+        "--request-template",
+        "data/packed-readonly-n79-middle-d1541-chain120-template.json",
+        "--template-sha256",
+        "86d7a2efef28261bb6eb22f8b43e394120db3214f2a6ee4a71ab4736537d71fa",
+        "--run-id",
+        "475c12e8f2ba29f9d22c2de220f7b629"
+      ],
+      "hypothesis": "Independently approved distinctdiagonal1541 continuation after main600audit; fixed250/30s256MiB, scopecoverage not superiority."
     }
   ]
 }

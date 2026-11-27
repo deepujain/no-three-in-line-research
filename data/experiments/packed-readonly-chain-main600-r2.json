@@ -1,0 +1,37 @@
+{
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/research/near_quarter_packed_chain.py",
+    "--request-template",
+    "data/packed-readonly-n79-r1-chain-main600-template.json",
+    "--template-sha256",
+    "f5463d4d1713b4ba017f43692d0fec29efbed1442e3d7161dc48cedd0f58d42f",
+    "--run-id",
+    "a2a4aa47792f98846b4df5d5c835c26b",
+    "--seconds",
+    "600"
+  ],
+  "elapsed_seconds": 577.2421989169961,
+  "entrypoint_sha256": "a5fcb6ad8ee5777fa8d2c44cca5e595c617c1c221fe1ac04bb57b067fd9ea182",
+  "exit_code": 0,
+  "finished_at": "2026-11-27T07:15:58.435071+00:00",
+  "job": {
+    "args": [
+      "--request-template",
+      "data/packed-readonly-n79-r1-chain-main600-template.json",
+      "--template-sha256",
+      "f5463d4d1713b4ba017f43692d0fec29efbed1442e3d7161dc48cedd0f58d42f",
+      "--run-id",
+      "a2a4aa47792f98846b4df5d5c835c26b"
+    ],
+    "hypothesis": "Reviewer-approved600s sustained exact continuation from3261audited nodes; fixed250-node stages, originalcaps; bounded allocation, not success forecast.",
+    "id": "packed-readonly-chain-main600-r2",
+    "script": "research/near_quarter_packed_chain.py",
+    "seconds": 600
+  },
+  "log": "data/run-logs/packed-readonly-chain-main600-r2.log",
+  "note": "A completed process is not a mathematical success. Inspect its exact evidence.",
+  "pid": 42497,
+  "started_at": "2026-11-27T07:06:21.166070+00:00",
+  "status": "completed"
+}

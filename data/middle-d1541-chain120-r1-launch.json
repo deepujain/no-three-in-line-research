@@ -1,0 +1,15 @@
+{
+  "pid": 67136,
+  "argv": [
+    "/Users/dejain/nvidia/oss/work/no-three-in-line-research/.venv/bin/python",
+    "src/experiment_pool.py",
+    "--queue",
+    "research/queue.json",
+    "--max-workers",
+    "1"
+  ],
+  "started_at": "2026-11-27T07:17:43.430095+00:00",
+  "queue_sha256": "39c59475f14788fc07e00694aaeefe36b3ec0249e9545675e14ec725670f5c45",
+  "reservation_seconds": 150,
+  "note": "Singleoutercharge. Main600 independentlyaudited beforelaunch."
+}

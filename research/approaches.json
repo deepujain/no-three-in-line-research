@@ -57,10 +57,10 @@
     "id": "A07",
     "name": "Conics and lifts",
     "role": "Mathematician",
-    "status": "baseline only",
+    "status": "finite fixture extension proposed",
     "scope": "Conic constructions and integer-grid embeddings",
-    "finding": "Classical baseline; improvement needs a new construction",
-    "evidence": "src/constructions.py"
+    "finding": "Centered n71nearquarterfixture142points saturates interiorrows/columns; exactly51row-feasible four-orbit boundaryextensions could reach158 within declaredfamily. Arithmeticindependentlyreviewed, tinycheckerPASS; n79geometry notyetexecuted.",
+    "evidence": "research/n71-to-n79-extension-arithmetic-review.md"
   },
   {
     "id": "A08",
@@ -77,8 +77,8 @@
     "role": "Mathematician",
     "status": "sustained faster exact search",
     "scope": "Test compatible symmetries before restricting search",
-    "finding": "Independent identical11node frontier:18.61s to0.97s outer wall (bounded sample). Reviewed caller11accepted stages,2750newnodes in92.62s outer,3261total; no completed slice/witness. Next600s continuation approved; middle1541 exploration root accepted.",
-    "evidence": "research/near-quarter-packed-chain-runner-source-review.md"
+    "finding": "Main600:68acceptedstages,+17000nodes\u219220261total/577.24s outer; independent hash/parent/gate auditPASS, noleaf/slice/witness. Middle1541 distinctdiagonal120s continuation running afteraudit.",
+    "evidence": "research/near-quarter-packed-chain-main600-r2-actual-review.md"
   },
   {
     "id": "A10",

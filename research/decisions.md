@@ -446,3 +446,10 @@ Middle1541 stage250 independently audited PASS:250nodes/13frames, no completed s
 ## 2026-11-27T07:14:13.239803+00:00 — Dispatcher review during main allocation
 
 Singlepool42495/caller42497 and one nestedworker observed live; no duplicatepool. Main600 not interrupted. Completedread-only strategy: no hidden completeness restriction beyond declarednear-quarterfamily; exactscope is158only. Direct157SAT remains credible mathematically but no evidence it fits current256MiB or improvescost after pastaggregate memoryfailures; no newSATallocation. Engineer recommends one middle1541 120s continuation for distinctdiagonalconstraints after mainterminalaudit, not indefinite mainrefill. Templateprep+independentreview assigned, noqueueappend untilaudit. Current8056ad2 GitHubverification andPages bothSUCCESS. Spent15150.659489553094 plus630livereservation,5819.340510446906unreserved; originaldeadlineunchanged.
+
+
+## 2026-11-27T07:18:15.101249+00:00 — Main audited, allocation shifts to distinct slice
+
+Main60068/68stages accepted,3261to20261nodes, outer577.242198917seconds; allparents/hashes/pins/caps/ownedgates andcleanup independentlyaudited. No witness/leaf/sliceclosure. Savedfrontiers70..102points are snapshots, nottrue maxdepth. Search remains94.4% ofchildtime. No automaticmainrefill. Mainfrontier preserved atcheckpoint6e1d4279da8a2a0123435e76ee3b4e83693706e82c915ff7cec74552f1811862.
+
+Independentreview approved exactmiddletemplate86d7a2ef and one120s allocation150reservation, onlyaftermainaudit/noactiveprocesscheck. Solepool67136/caller67149 launched07:17:43UTC, observedlive; fixed250/30s256MiB stages. Spent15727.90168847009,unreserved5722.09831152991after150reservation. Finiteexploration: centeredn71fixture plusfourboundaryorbits givesexactly51degreefeasiblechoices; independentarithmeticproof coversonlythisfixture zero-deletionnearquarterextensions. Minimalchecker source/tinyreview pending; Root5tinytestsPASS0.018s. No n79geometryrun ordiscoveryclaim.
