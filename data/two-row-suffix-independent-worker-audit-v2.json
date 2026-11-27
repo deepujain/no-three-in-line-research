@@ -1,0 +1,387 @@
+{
+  "audit_sha256": "2d5251e154aa0fb8e31584c8ad803af70cee8c685efaa6cb0bb283a09c03d2c5",
+  "cap_cases": [
+    {
+      "U": 1,
+      "pair_cap": 32,
+      "row_cap": 0,
+      "status": "row_cap"
+    },
+    {
+      "U": 1,
+      "pair_cap": 32,
+      "row_cap": 2,
+      "status": "row_cap"
+    },
+    {
+      "U": 1,
+      "pair_cap": 0,
+      "row_cap": 3,
+      "status": "pair_cap"
+    },
+    {
+      "U": 0,
+      "pair_cap": 1,
+      "row_cap": 3,
+      "status": "zero"
+    }
+  ],
+  "counts": {
+    "after_decision_splits": 88,
+    "decisions": 88,
+    "disclosed_stub_splits": 17,
+    "fixtures": 87,
+    "imported_completed_prefix_cases": 1,
+    "invalid_imported_prefix_rejections": 2,
+    "last_allowance_lost": 2,
+    "pending_refusal_and_lost_charge": 88,
+    "positive_terminal_control_stub_cases": 1,
+    "splits": 175
+  },
+  "disclosed_stage1_stubs": [
+    {
+      "events": [
+        {
+          "before_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496",
+          "kind": "row",
+          "minimum": [
+            5,
+            [
+              0,
+              1
+            ]
+          ],
+          "rows": [
+            1
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496",
+          "kind": "row",
+          "minimum": [
+            5,
+            [
+              0,
+              1
+            ]
+          ],
+          "rows": [
+            2
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496",
+          "kind": "row",
+          "minimum": [
+            5,
+            [
+              0,
+              1
+            ]
+          ],
+          "rows": [
+            3
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496",
+          "kind": "row",
+          "minimum": [
+            5,
+            [
+              0
+            ]
+          ],
+          "rows": [
+            0
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "2b6cbcbd0f71746512b4a8163b18c93d7258ab4b6cc0abe56f02f750a465f496",
+          "kind": "pair",
+          "minimum": [
+            1,
+            [
+              0,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "rows": [
+            0,
+            1
+          ],
+          "strict": true
+        },
+        {
+          "before_hash": "f6aed43820cdb4fa059bb05c765a38e7caa50b77bcc136443333198a0560d5ce",
+          "kind": "row",
+          "minimum": [
+            1,
+            [
+              0,
+              2
+            ]
+          ],
+          "rows": [
+            0
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "f6aed43820cdb4fa059bb05c765a38e7caa50b77bcc136443333198a0560d5ce",
+          "kind": "row",
+          "minimum": [
+            1,
+            [
+              0,
+              1
+            ]
+          ],
+          "rows": [
+            2
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "f6aed43820cdb4fa059bb05c765a38e7caa50b77bcc136443333198a0560d5ce",
+          "kind": "row",
+          "minimum": [
+            1,
+            [
+              0,
+              1
+            ]
+          ],
+          "rows": [
+            3
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "f6aed43820cdb4fa059bb05c765a38e7caa50b77bcc136443333198a0560d5ce",
+          "kind": "pair",
+          "minimum": [
+            1,
+            [
+              0,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "rows": [
+            0,
+            1
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "f6aed43820cdb4fa059bb05c765a38e7caa50b77bcc136443333198a0560d5ce",
+          "kind": "pair",
+          "minimum": [
+            0,
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "rows": [
+            0,
+            2
+          ],
+          "strict": true
+        }
+      ],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "status": "zero"
+    },
+    {
+      "events": [
+        {
+          "before_hash": "7f86466c98d110a41e04750ee878df1fe33a74381e72fa81b0a5348e3d77b85b",
+          "kind": "row",
+          "minimum": [
+            1,
+            [
+              0,
+              2
+            ]
+          ],
+          "rows": [
+            1
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "7f86466c98d110a41e04750ee878df1fe33a74381e72fa81b0a5348e3d77b85b",
+          "kind": "row",
+          "minimum": [
+            1,
+            [
+              1,
+              3
+            ]
+          ],
+          "rows": [
+            2
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "7f86466c98d110a41e04750ee878df1fe33a74381e72fa81b0a5348e3d77b85b",
+          "kind": "row",
+          "minimum": [
+            1,
+            [
+              2,
+              3
+            ]
+          ],
+          "rows": [
+            3
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "7f86466c98d110a41e04750ee878df1fe33a74381e72fa81b0a5348e3d77b85b",
+          "kind": "pair",
+          "minimum": [
+            1,
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "rows": [
+            0,
+            1
+          ],
+          "strict": false
+        },
+        {
+          "before_hash": "7f86466c98d110a41e04750ee878df1fe33a74381e72fa81b0a5348e3d77b85b",
+          "kind": "pair",
+          "minimum": [
+            0,
+            [
+              1,
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "rows": [
+            0,
+            2
+          ],
+          "strict": true
+        }
+      ],
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "status": "zero"
+    }
+  ],
+  "elapsed_seconds": 0.8685241249913815,
+  "interruptions": [
+    {
+      "checks": 222,
+      "last_publication_phases": {
+        "before_first_publication": 74,
+        "complete": 3,
+        "start": 145
+      },
+      "with_accepted_state": 0
+    },
+    {
+      "checks": 354,
+      "last_publication_phases": {
+        "accept": 70,
+        "before_first_publication": 74,
+        "complete": 2,
+        "start": 208
+      },
+      "with_accepted_state": 218
+    }
+  ],
+  "kernel_sha256": "0211f6be4086d9a9835f6fa71dc6b0f6ded9aedf86dac1ebef8eacac74a5129c",
+  "limits": "Memory byte/reference callbacks do not prove filesystem durability or real validator lifecycle. Positive pair and nonimproving pair supplements stub Stage1;87 genuine full-policy traces have no positive terminal or nonimproving pair. Actual historical32-prefix remains source-supported.",
+  "oracle_sha256": "747965ae9cae6b506b43be7bd8d696fd1fba6c38ba59d6bef2bfefdee7264772",
+  "passed": true,
+  "scope": "SOURCE/TINY logical comparison only; no actual input/loader/run.",
+  "trace_sha256": "74d435df7ef41af9b0a8c3110e8e377becb69cd8be3f48677822c219fabae0c3",
+  "worker_sha256": "11fc0200742a14f5baa8cfffe85c91b34353b4990608f70efba66cc20dd750a2"
+}

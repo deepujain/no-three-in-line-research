@@ -1,0 +1,49 @@
+# Cursor suffix: independent production-review protocol and tiny preparation
+
+Status: SOURCE/TINY preparation only. This document approves no production source or actual allocation. No actual65-state coordinates, priorities, old pair outcomes or trajectory were read/reconstructed. All earlier kernel/oracle/review sources and evidence remain unchanged. The new oracle is a pure logical reference; it is not a durable checkpoint implementation, actual loader or resume CLI.
+
+Design bindings are `c5b500d632995ed147c16bb6a008c079fc3c1ffd4fc509eeda999be6a6e56d09` and addendum `a61f27e5739aa7c1579313db03a206440ef866a1a046b3cd425ee626952ca427`. Independent mathematical design PASS is `5d299ebc60f6544e13bc607b3e03343212bc5f33b51ce31e923d40cfea23669b`.
+
+## Independent preparation bindings
+
+- Logical cursor oracle `research/two_row_suffix_independent_oracle.py`: `747965ae9cae6b506b43be7bd8d696fd1fba6c38ba59d6bef2bfefdee7264772`.
+- Preparation helper `research/two_row_suffix_independent_preparation.py`: `625214aa562985f9441346d707df6fb45016c46a766a59703f3a7f32f8125a94`.
+-87-fixture evidence `data/two-row-suffix-independent-oracle-preparation.json`: `2af88e2fcb63a49ced9708ec0395ee7ba7a8c746487ec5ca734af3339c84f09c`.
+- Supplemental prefix fixture `research/two_row_suffix_independent_prefix_fixture.py`: `cd59a7739b1d3589478784fa022698f64872bf3aa9023f9a5392b3fdcafd3057`.
+- Prefix evidence `data/two-row-suffix-independent-prefix-fixture.json`: `fe5980e97b16cf35ef180a73b39d61f40b23e92e76c19843d30613e55d5a2aff`.
+- Preserved direct minimum oracle `research/two_row_descent_independent_oracle.py`: `fa3ed0628c1a305d368653cc1cc8669839dac81047e31d564c994f3745060842`.
+- Preserved independent geometry oracle `research/row_block_independent_oracle.py`: `bb96c06a6248d8e81c59a7d63f6a11673b7fea5dcb232f4c2959be7465aba9c2`.
+
+The87 fixtures are all4 row-valid n2 states, all81 row-valid n3 states and the specified n4 LOCAL/DENSE states. Their complete reference traces contain88 decisions:87 row decisions and one pair decision, with62 strict moves. All end at zero. Full decisions, exact minima/ties, before/after points/identities and cumulative counts are saved in the evidence. The combined trace digest is `d033850ac526ec4e31d474a442e6fea468d3bc169ff8a414383ccd3090505652`.
+
+The logical reference exactly matched the frozen independent policy on all87 fixtures. It then serialized/destroyed/reloaded each of175 boundaries, including88 after-decision boundaries, rebuilt direct-triple ranking identities and compared every concatenated suffix decision and final state with uninterrupted execution. No completed `(state identity,kind,selected rows)` decision repeated. All88 pending-start cuts retained the previous state and cursor, consumed one lost charge and, after an explicit synthetic abandon/retry, reproduced the same remaining geometric decisions with the extra started count.55 zero-result boundaries distinguished an exact candidate from the still-positive pending authority; successful logical acceptance cleared both coverage flags.
+
+Four genuine LOCAL cap fixtures cover row allowances0/2 and pair allowances0/1. Two synthetic imported-counter cases leave exactly one row or pair start; interrupting that start consumes the allowance and stops at the cap without coverage advance. Five rehashed identity/policy/order/generation corruptions are rejected by the reference reconstruction checks. These checks establish reference consistency, not production parser security.
+
+## Coverage gaps and explicit supplements
+
+The87 complete real-policy traces contain no nonimproving pair decision. A supplemental n4 fixture therefore uses a disclosed Stage1 current-return control stub to suppress a real row-zero move. Its real direct-determinant first pair(0,1) has exact minimum1 equal to current U1; the next pair(0,2) reaches zero. Splitting after the nonimproving first pair, serializing/reloading and resuming skips that completed pair and matches the remaining exact decision. Imported row308/pair32/generation28 counters are synthetic ledger values, not reconstructed actual history. The real unstubbed policy reaches zero in Stage1 and never evaluates those pairs. This distinction is saved in the evidence.
+
+The DENSE positive-pair case similarly stubs only Stage1; real pair0/1 changes U5 toU1 and invalidates all previous row/pair coverage. It is not a real full-policy positive pair trace. No genuine positive completed local-minimum terminal exists in the87 traces. Testing that terminal requires an explicit current-return control stub and proves control behavior only. Tiny lists have at most6 pairs; this suite does not fabricate a geometric32-pair prefix or certify the historical actual prefix.
+
+## Frozen-production adapter obligations
+
+After Engineer freezes the new worker, pin its exact source and all oracle dependencies before and after comparison. Do not import it earlier or invoke an actual loader/run. Map its documented `new_authority`, `plan_start`, `plan_nonimprovement`, `prepare_accept`, `drive` and `read_authority` interfaces into a separate adapter. Compare logical projections, not coincidental JSON field layout: exact points/U/normalized identity, accepted generation, cumulative started/completed totals, phase, state/order identities, completed row/pair prefixes, flags, pending selected neighborhood and disposition of each attempt.
+
+The independent oracle materializes new rankings eagerly. A production authority may clear stale orders atomically and materialize new rankings before the next decision. Permit that documented representation difference only if new-state coverage is already zero and reconstruction yields exactly the independent ranking before optimization. Never allow old-state cursor/order reuse or let a representation normalization call an optimizer.
+
+First compare all87 uninterrupted traces with direct-minimum events, current inclusion, both deficient orientations and lexical zero ties. Then split after every actual completed decision and at initial/terminal boundaries. Destroy cached controller/index objects; use actual serialization/parser/reference validation and rebuild only current-state index/priorities. Concatenated events, skipped prefixes and final states must match the reference exactly. The observed next decision must belong to the restored state's ranking at its cursor, never a previously completed current-state prefix. Repeat this for the disclosed real nonimproving pair supplement and positive-pair stub.
+
+Pending-start reload cannot silently mark the result complete or drop its charge. Compare read-only pending recovery first; an explicitly simulated retry must consume a fresh start while keeping its unresolved cursor. Use adjusted-charge reference traces, cap-zero/one cases, imported cumulative counts and state changes. Duplicate same-state neighborhoods are permitted only for explicitly abandoned unresolved attempts with extra charges, not for preserved completed coverage. No synthetic recovery API or actual crash implies authorization to resume a real run.
+
+Verify result semantics: exact nonimprovement equals current U; positive partial minima do not commit; strict moves change only selected rows and preserve allowed loads; positive accepted states undergo full independent score/invariant rebuilding. Global row/pair counters and generation never reset. A new state clears both cursors/flags and stale priority identities in the same authoritative publication. Event coverage still describes the old state. Record count268 and component/full-payload limits must cover rows as well as pairs.
+
+## Persistence, zero and ownership boundary
+
+Coordinate the source audit with the independent lifecycle reviewer. Use actual save/replace/parser functions with synthetic files and clocks to test: start publication before kernel; failure before/after publication; exact result before publication; move artifact before authority reference; replacement before adoption; observer/report failure; fsync uncertainty; and orphan nonadoption. A successful serialization round trip alone does not test durability or file ordering. Two checkpoint publications per attempt and the538-publication bound need owned resource evidence, not timing extrapolation from this tiny logical preparation.
+
+Separate planned next state from last durable authority. Before positive replacement, prior state plus charged pending attempt remains authoritative even when an immutable lower-score orphan exists. After replacement, recovery validates the complete new tuple. Do not assemble hybrid state/cursors/counters from filenames. A publication or reference failure stops and fails the receipt; later actual recovery needs Root's explicit scope.
+
+For a real row/pair zero, pending start is already charged. There must be no optional ledger/index/raw/move/observer work before timely validator one/two. After successful validator two, witness persistence precedes optional checks even if late. Subsequent authority-publication failure leaves a saved witness separate from old positive durable authority; failed validation preserves a raw candidate with unresolved pending work. Compare these facts using real tiny validators and synthetic clocks; logical zero equality is not enough. Keep positive-terminal stubs and genuine-zero lifecycle cases distinctly labeled.
+
+Finally source-review the fixed authenticated65 handoff, full identities and receipt/runtime/pin chain using coordinate-free Root metadata and synthetic schemas only. Source-supported imported row coverage and32-pair prefix must keep their assurance labels. Tiny parity, reconstructed order hashes and counter consistency cannot upgrade them to independent actual-neighborhood exclusion. Root alone allocates any actual geometry, optimizer execution or later audit.

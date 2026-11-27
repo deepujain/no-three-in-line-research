@@ -1,0 +1,89 @@
+{
+  "caps_and_corruptions": {
+    "cap_cases": [
+      "row_cap",
+      "row_cap",
+      "pair_cap",
+      "zero"
+    ],
+    "corruptions_rejected": 4
+  },
+  "faults": {
+    "cooperative_positions": 587,
+    "publication_fault_cases": 14
+  },
+  "filesystem": {
+    "file_and_directory_fsync": true,
+    "orphan_adoption": "never; only checkpoint refs read",
+    "publications": 11
+  },
+  "parity": {
+    "decisions": 88,
+    "fixtures": 87,
+    "pending_cases": 88,
+    "split_boundaries": 175,
+    "strict_moves": 62
+  },
+  "passed": true,
+  "scope": "87 synthetic n2..4 geometry fixtures, cursor splits/pending/faults and actual temp-file fsync; no actual65 source or geometry.",
+  "tiny_sha256": "c9530338bd9af0584648e933e8fa9c3d1302858367a7c551511339db8ba4323d",
+  "worker_sha256": "a3cc4e4329e8a2fe18121c47779352588ffcd60d710100e05752b83cc8d4c65f",
+  "zero_lifecycle": [
+    {
+      "mode": "normal",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "mode": "late_first",
+      "validator_calls": [
+        1,
+        0
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "late_second",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    },
+    {
+      "mode": "late_zero",
+      "validator_calls": [
+        0,
+        0
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "disagreement",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "save_failure",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": false
+    },
+    {
+      "mode": "raw_latency",
+      "validator_calls": [
+        1,
+        1
+      ],
+      "witness_saved": true
+    }
+  ]
+}
