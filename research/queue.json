@@ -1,6 +1,6 @@
 {
   "max_concurrent": 3,
-  "note": "03:10dispatcher r43 allocates300seconds: main180/max4x10000, explore120/max2x1000. All prior receipts terminal, current actual processes clean, source unchanged. Protect3600unspent seconds for new gated branches.",
+  "note": "03:15dispatcher r44 reduced300second allocation: main180/max4x10000, explore120/max2x1000; all prior receipts terminal/current process audit clean. Protect3600unspent worker-seconds for new branches. Frozen source unchanged.",
   "jobs": [
     {
       "args": [
@@ -1505,6 +1505,64 @@
         "a620bbeaf3687f66e6645cec86f1b3557c0eb1495767bc55489281806402eb3a",
         "--ledger-dir",
         "data/rowbatch-chain-r43-explore",
+        "--max-nodes",
+        "1000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "2",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "1"
+      ]
+    },
+    {
+      "id": "r44-rowbatch-chain-main",
+      "script": "src/lazy_sat.py",
+      "seconds": 180,
+      "hypothesis": "Continue exact audited incomplete r43 frontiers as the reduced frozen control, retaining a distinct exploration slice while new pruning checkpoint and packed adapter undergo source review. Protect3600unspent seconds for gated new branches. Deterministic/no RNG; unchanged30sec/256MiB, stop on timeout/rejection/witness/exhaustion. No coverage or infeasibility claim.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-main-frontier.json",
+        "--expected-sha256",
+        "00509116c301f87ab5784b5e5f2bc2e701dd8a9fc054bd1502b2b2758cf45a68",
+        "--ledger-dir",
+        "data/rowbatch-chain-r44-main",
+        "--max-nodes",
+        "10000",
+        "--invocation-seconds",
+        "30",
+        "--max-invocations",
+        "4",
+        "--rss-mib",
+        "256",
+        "--deficit",
+        "0",
+        "--diagonal",
+        "0"
+      ]
+    },
+    {
+      "id": "r44-rowbatch-chain-explore",
+      "script": "src/lazy_sat.py",
+      "seconds": 120,
+      "hypothesis": "Continue exact audited incomplete r43 frontiers as the reduced frozen control, retaining a distinct exploration slice while new pruning checkpoint and packed adapter undergo source review. Protect3600unspent seconds for gated new branches. Deterministic/no RNG; unchanged30sec/256MiB, stop on timeout/rejection/witness/exhaustion. No coverage or infeasibility claim.",
+      "args": [
+        "--diagonal-rowbatch-chain",
+        "--n",
+        "79",
+        "--checkpoint",
+        "data/diagonal-rowbatch-explore-frontier.json",
+        "--expected-sha256",
+        "40ca2a51fcdf9d2b5573bc06d6a5480543e8749649f8cd97d7a7b2aa726c40cf",
+        "--ledger-dir",
+        "data/rowbatch-chain-r44-explore",
         "--max-nodes",
         "1000",
         "--invocation-seconds",

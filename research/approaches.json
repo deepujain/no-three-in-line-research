@@ -68,7 +68,7 @@
     "role": "Research Software Engineer",
     "status": "bounded trials",
     "scope": "SAT/ILP constraints; record dependency and resource costs",
-    "finding": "Audited full-row control reached 395,410 main/12,100 exploration nodes, no witness/exhausted slice. Separate reviewed tiny graph pruning preserved all completions/order through n5 and reduced n5 nodes205 to192; speed and large-grid benefit unmeasured. Production design next.",
+    "finding": "Audited full-row control reached 435,410 main/14,100 exploration nodes, no witness/exhausted slice. Tiny graph pruning preserves completions/order and reduces n5 nodes205 to192; production checkpoint design independently approved for core/tiny tests, with fresh identity/genesis. No large-grid pruning claim.",
     "evidence": "research/diagonal-residual-graph-tiny-independent-review.md"
   },
   {
