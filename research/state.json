@@ -2,7 +2,7 @@
   "schema_version": 1,
   "started_at": "2026-11-26T22:59:25Z",
   "deadline": "2026-11-27T22:59:25Z",
-  "status": "active",
+  "status": "stopped_by_user",
   "objective": "Find and exactly verify a construction improving a documented finite no-three-in-line lower bound",
   "tentative_target_n": 79,
   "target_confirmed": true,
@@ -10,7 +10,7 @@
   "scheduled_search_wall_seconds_limit": 21600,
   "scheduled_search_wall_seconds_used": 16786.909370134097,
   "heartbeat_id": "no-three-in-line-research-shepherd",
-  "next_action": "Finish minimal final singletonmigration source review and one approvedn5tiny, then decide single fixed64 migration gate. All-row accepted/published; do not repeat.",
+  "next_action": "To be continued only after a new human instruction; no workers or scheduled research active.",
   "target_n": 79,
   "target_scope": "Search against witnessed 156-point baseline; global near-miss record completeness unverified",
   "best_verified_count": 156,
@@ -32,19 +32,21 @@
   "initial_research_compute_seconds_reserved": 600,
   "execution_mode": "continuous bounded numerical queue, worker dispatch every five minutes, formal hourly synthesis",
   "dispatcher_heartbeat_id": "no-three-in-line-worker-dispatcher",
-  "current_round": "All-row actual receipt/profile independentlyaccepted dc53d959; fixed64 has no strict same-load single-row repair. Final singletonmigration SOURCEONLY underway.",
+  "current_round": "Stopped by human. Accepted all-row no-gain profile published. Migration source/reviews preserved, never geometrically executed.",
   "compute_accounting": "data/experiments/*.json and live ignored data/runner-status.json; initial 600-second reserve included",
   "numerical_allocation_policy": "Preserve remaining budget for reviewed algorithms with distinct evidence; unchanged packed and paired-color searches curtailed. Each next probe requires fresh reservation and owned gate; no live numerical allocation.",
   "paused_at": "2026-11-27T03:44:29+00:00",
   "pause_reason": "Human requested status and said we can pause.",
-  "automation_pause_status": "Prior pause tool failed; existing ACTIVE schedules may resume under explicit human authorization.",
+  "automation_pause_status": "Both saved heartbeat schedules verified PAUSED. Application update tool failed internally; existing configuration status fields were changed directly under explicit stop-all authorization.",
   "pause_compute_seconds_accounted": 14429.502328505063,
   "pending_unreviewed_work": [
-    "Minimal final singletonmigration source/tiny and possibleactualgate"
+    "Unfinished migration SOURCEONLY artifacts preserved; no migration geometry executed."
   ],
   "resumed_at": "2026-11-27T06:02:57.120374+00:00",
   "resume_reason": "Human explicitly resumed and requested autonomous overnight progress toward an improved construction.",
   "validation_status": "All-row completeprofile independentlyaccepted dc53d959,all5625costs75lexicalminima,no strict same-load replacement onfixed64. No valid149/boundimprovement.",
   "last_formal_review_at": "2026-11-27T17:04:58.378689+00:00",
-  "review_outcome": "Bestvalid156on79, no new construction/novelty. Accepted exactfixed64 completeallrowcertificate excludesstrictsame-loadone-rowrepairs; all5625costs75minima checked, clean4.6265s. 179permanentreceipts+initial600 total16786.909370134097s,0searchreservations/no numericalworkers. FinaldistinctmigrationSOURCEONLY:Mathauthor/Engineermathematicalreview/Litlifecyclereview. Tenapproaches maintained; unchangedfamiliescurtailed."
+  "review_outcome": "Bestvalid156on79, no new construction/novelty. Accepted exactfixed64 completeallrowcertificate excludesstrictsame-loadone-rowrepairs; all5625costs75minima checked, clean4.6265s. 179permanentreceipts+initial600 total16786.909370134097s,0searchreservations/no numericalworkers. FinaldistinctmigrationSOURCEONLY:Mathauthor/Engineermathematicalreview/Litlifecyclereview. Tenapproaches maintained; unchangedfamiliescurtailed.",
+  "stopped_at": "2026-11-27T17:06:34.414007+00:00",
+  "stop_reason": "Human explicitly requested: stop all."
 }

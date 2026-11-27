@@ -5,7 +5,7 @@
     "model": "session default; model identifier not exposed to this agent",
     "reasoning": "session default",
     "scope": "Shepherd, allocation, integration, publication",
-    "status": "Publish all-row actual evidence; final migration allocation",
+    "status": "Stopped at human request; saved work preserved. No automatic resumption.",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -14,7 +14,7 @@
     "model": "gpt-6.1-terra",
     "reasoning": "high",
     "scope": "Current records, source provenance, target selection",
-    "status": "Independent all-row actual receipt/profile acceptance",
+    "status": "Stopped at human request; saved work preserved. No automatic resumption.",
     "additional_role": "Mathematical Reviewer and later Research Software Engineer on separate157DFS; same agent/model reused",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
@@ -24,7 +24,7 @@
     "model": "gpt-6.1-sol",
     "reasoning": "high",
     "scope": "Exact verification, bounded search, software tests",
-    "status": "Independent final migration source review",
+    "status": "Stopped at human request; saved work preserved. No automatic resumption.",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   },
   {
@@ -33,7 +33,7 @@
     "model": "gpt-6-astra",
     "reasoning": "high",
     "scope": "Constructions, mathematical bounds, competing hypotheses",
-    "status": "Minimal final singletonmigration SOURCEONLY implementation",
+    "status": "Stopped at human request; saved work preserved. No automatic resumption.",
     "additional_role": "Mathematical Reviewer of engineer guided-repair implementation, later task",
     "current_runtime_metadata": "Exact current runtime model identifier/reasoning not exposed; above model/reasoning preserve historical assignment metadata, not fresh runtime attestation."
   }
