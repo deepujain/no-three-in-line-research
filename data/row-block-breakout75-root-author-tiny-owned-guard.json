@@ -1,0 +1,22 @@
+{
+  "gate_status": "exited",
+  "trigger_gate_status": null,
+  "returncode": 0,
+  "elapsed_seconds": 0.25019950000569224,
+  "rss_samples": 5,
+  "monitor_error": null,
+  "seconds_limit": 30,
+  "rss_limit_mib": 256,
+  "cleanup_status": "clean",
+  "cleanup_error": null,
+  "cleanup_samples": 1,
+  "peak_sampled_rss_kib": 52464,
+  "cleanup_elapsed_seconds": 0.009953416010830551,
+  "rss_scope": "guard parent plus spawned process group and observed descendants; native heap included",
+  "gate_semantics": "sampled RSS gate; cleanup included in wall gate; possible sampling overshoot; transient ps excluded",
+  "scope": "Synthetic only; no actual75geometry/search",
+  "sources": {
+    "research/row_block_breakout75.py": "d7c299e8d24d091b75b3a7db37e6063359fa7a566dd06b365c8f6ed01798a76a",
+    "research/row_block_breakout75_stress.py": "d06977e84d8837ecfe9c7a6548be8eaef77b5f2ed0b3d8d588e58fd25515a73b"
+  }
+}
